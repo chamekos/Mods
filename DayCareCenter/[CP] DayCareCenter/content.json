@@ -1,0 +1,23 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    		{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "DayCareDoor": "It's to the rest of the house. But it stays locked for the kids safety.",
+	  "Child1":"The baby is playing with building blocks.",
+	  "Child2":"He's staring at the baby with the blocks.",
+	  "Child3":"He looks sleepy.",
+	  "Child4":"She's reading a book,she looks smart for her age.She's 4 years old.",
+	  "Child5": "He fell asleep in the corner.",
+	  "Child6":"She's watching the hamster.",
+	  "Child7": "He's playing with the doll house.",
+	  "Child8": "He seems annoyed by the jack in the box.",
+	  "Child9": "She doesn't seem impressed.",
+	  "Child10": "The baby is sleeping. BE QUIET!",
+	  "Trashcan": "Trash full of diapers and bananas.",
+	  },
+	 },
+  ]
+}

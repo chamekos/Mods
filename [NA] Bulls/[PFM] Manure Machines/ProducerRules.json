@@ -1,0 +1,87 @@
+﻿[
+	// B E G I N  MANURE  P R O D U C T S
+
+	// Fertilizer Mixer
+
+	{
+		"ProducerName": "Fertilizer Mixer", 
+		"InputIdentifier": "Sap", 
+		"InputStack": 5, 
+		"FuelIdentifier": "Manure", 
+		"FuelStack": 5, 
+		"MinutesUntilReady": 600, 
+		"OutputIdentifier":"Quality Fertilizer",  
+		"OutputQuality": 0, 
+		"OutputStack": 10, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimationColorName": "White",
+		},
+		{
+		"ProducerName": "Fertilizer Mixer", 
+		"InputIdentifier": "Fiber", 
+		"InputStack": 5, 
+		"FuelIdentifier": "Manure", 
+		"FuelStack":5, 
+		"MinutesUntilReady": 600, 
+		"OutputIdentifier":"Quality Fertilizer",  
+		"OutputQuality": 0, 
+		"OutputStack": 10, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimationColorName": "White",	
+	},
+	{
+		"ProducerName": "Fertilizer Mixer", 
+		"InputIdentifier": "Pine Tar", 
+		"InputStack": 1, 
+		"FuelIdentifier": "Manure", 
+		"FuelStack":5, 
+		"MinutesUntilReady": 600, 
+		"OutputIdentifier":"Deluxe Speed-Gro",  
+		"OutputQuality": 0, 
+		"OutputStack": 10, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimationColorName": "White",
+		},
+		{
+		"ProducerName": "Fertilizer Mixer", 
+		"InputIdentifier": "Oak Resin", 
+		"InputStack": 1, 
+		"FuelIdentifier": "Manure", 
+		"FuelStack":1, 
+		"MinutesUntilReady": 600, 
+		"OutputIdentifier":"Deluxe Speed-Gro",  
+		"OutputQuality": 0, 
+		"OutputStack": 15, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White",	
+	},
+	// Manure Grinder
+	{
+    "ProducerName": "Manure Grinder",
+    "InputIdentifier": "Manure",
+    "MinutesUntilReady": 60,
+    "Sounds": ["Ship"],
+    "AdditionalOutputs": [
+        {
+            "OutputIdentifier": "Manure",
+            "RequiredInputQuality": [1,2,4],
+            "SilverQualityInput": {
+                "Probability": 1,
+                "OutputStack": 2,
+                "OutputMaxStack": 4
+            },
+            "GoldQualityInput": {
+                "Probability": 1,
+                "OutputStack": 3,
+                "OutputMaxStack": 5
+            },
+            "IridiumQualityInput": {
+                "Probability": 1,
+                "OutputStack": 4,
+                "OutputMaxStack": 6
+            }
+        }
+    ]
+}
+]

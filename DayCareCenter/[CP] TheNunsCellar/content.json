@@ -1,0 +1,14 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    		{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "Locked": "It's locked.",
+	  "WatchingYou": "They are watching your every move.",
+	  "Daycarebackroom": "They surrounded him when he walked in getting a little too comfy with the staff members. ^He was told not to go back there, but he did not take the warning.",
+	  },
+	 },
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Life Cycle - Haley & Leah",
+  "Author": "nraittanna",
+  "Version": "1.4.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Haley and Leah dating version.",
+  "UniqueID": "nraittanna.CycleofLifeHL",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

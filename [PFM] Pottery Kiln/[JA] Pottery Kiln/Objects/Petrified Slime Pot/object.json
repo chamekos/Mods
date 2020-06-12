@@ -1,0 +1,9 @@
+{
+  "Name": "Petrified Slime Pot",
+  "Description": "A pot carved from petrified slime. Is it alive?",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 360,
+  "Recipe": null,
+   "CanPurchase": false
+}

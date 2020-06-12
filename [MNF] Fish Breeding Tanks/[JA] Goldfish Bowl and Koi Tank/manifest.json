@@ -1,0 +1,12 @@
+{
+	"Name": "[JA] Fish Breeding",
+    "Author": "HisameArtwork",
+    "Version": "2.0.0",
+   "MinimumApiVersion": "2.8",
+    "Description": "Adds bowls and tanks for aquarium fish breeding.",
+    "UniqueID": "JA.Fishbreeding",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:4116"]
+}

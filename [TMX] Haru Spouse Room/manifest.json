@@ -1,0 +1,11 @@
+{
+  "Name": "HaruSpouseRoom",
+  "Author": "Horanghwa",
+  "Version": "1.0.2",
+  "Description": "Spouse Room for Haru",
+  "UniqueID": "Horanghwa.SpouseRooms.Haru",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

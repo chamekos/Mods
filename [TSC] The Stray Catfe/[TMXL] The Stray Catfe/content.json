@@ -1,0 +1,132 @@
+{
+  "name": "The Stray Catfe", 
+  "version": "1.0.1",
+  "author": "Sierra Schedin (aka alistairweekend)",
+  "addMaps":
+  [  
+    {
+      "name": "CafeOutdoors",  
+      "file": "assets/CafeOutdoors.tmx",
+    },
+    {
+      "name": "CafeIndoors",  
+      "file": "assets/CafeIndoors.tmx",
+    },
+  ],
+  "mergeMaps":
+  [  
+    {
+	 "name": "BusStop",
+	 "file": "assets/BusStopPath.tmx", 
+	 "position": [9,24],
+	 "addWarps":
+		[
+		 "15 30 CafeOutdoors 17 0",
+		 "16 30 CafeOutdoors 17 0",
+		 "17 30 CafeOutdoors 17 0",
+		],
+    }
+  ],
+  "festivalSpots": [
+	{
+	 "name": "Tabitha",
+	 "map": "Town-EggFestival",
+	 "position": [26, 57],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Town-EggFestival",
+	 "position": [33, 72],
+	 "direction": 2,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Forest-FlowerFestival",
+	 "position": [6, 33],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Forest-FlowerFestival",
+	 "position": [7, 33],
+	 "direction": 2,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Beach-Luau",
+	 "position": [40, 7],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Beach-Luau",
+	 "position": [13, 20],
+	 "direction": 1,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Beach-Jellies",
+	 "position": [14, 24],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Beach-Jellies",
+	 "position": [16, 24],
+	 "direction": 2,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Town-Fair",
+	 "position": [28, 35],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Town-Fair",
+	 "position": [20, 62],
+	 "direction": 2,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Town-Halloween",
+	 "position": [29, 17],
+	 "direction": 0,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Town-Halloween",
+	 "position": [29, 16],
+	 "direction": 2,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Forest-IceFestival",
+	 "position": [63, 23],
+	 "direction": 0,
+	},
+	{
+	 "name": "Tabitha",
+	 "map": "Town-Christmas",
+	 "position": [25, 67],
+	 "direction": 2,
+	},
+	{
+	 "name": "Theo",
+	 "map": "Town-Christmas",
+	 "position": [26, 68],
+	 "direction": 3,
+	},
+  ],
+  "spouseRooms": [
+	{
+      "name": "Tabitha",
+	  "file": "assets/SpouseRoomTabitha.tmx",
+    },
+	{
+      "name": "Theo",
+	  "file": "assets/SpouseRoomTheo.tmx",
+    },
+  ],
+ }

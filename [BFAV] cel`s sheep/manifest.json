@@ -1,0 +1,14 @@
+{
+  "Name": "Cel s sheep",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.0",
+  "UpdateKeys": [
+    "Nexus:3399"
+  ],
+  "Description": "Add a new 4 sheep as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.celSheep",
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"mapname":"DayCareCenter",
+	"displayname":"DayCareCenter",
+	"destinationX":4,
+	"destinationY":5,
+	"arrivalFacing":2,
+	"ticketPrice":300
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Grace NPC",
+  "Author": "ModMomo",
+  "Description": "Adds the NPC Grace to the game",
+  "Version": "1.0",
+  "UniqueID": "ModMomo.Grace.NPC",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

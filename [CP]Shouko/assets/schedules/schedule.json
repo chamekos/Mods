@@ -1,0 +1,10 @@
+	{
+"Mon": "900 SeedShop 33 6 1/1030 SeedShop 15 20 0/1200 JojaMart 17 18 3/1500 Town 24 62 1/1900 SeedShop 26 14 4",
+"Tue": "900 Town 74 54 2/1600 Town 56 69 3/1620 SeedShop 2 5 0/1900 SeedShop 26 14 0",
+"Wed": "900 Town 78 95 2/1300 ArchaeologyHouse 13 9 0/1800 SeedShop 26 14 0",
+"Thu": "900 SeedShop 33 6 1/1030 SeedShop 15 20 0/1300 Town 21 27 2/1600 Town 41 58 0/2000 SeedShop 26 14 0",
+"Fri": "900 SeedShop 33 6 1/1030 SeedShop 15 20 4/1500 Saloon 40 17 1",
+"Sat": "900 SeedShop 33 6 1/1030 SeedShop 15 20 4/1300 Mountain 42 15 2/1700 SeedShop 2 5 0",
+"Sun": "1000 SeedShop 36 23 0/1100 Town 53 104 3/1500 Town 24 56 2/1900 SeedShop 26 14 0",
+}
+//(0 = up, 1 = right, 2 = down, 3 = left)

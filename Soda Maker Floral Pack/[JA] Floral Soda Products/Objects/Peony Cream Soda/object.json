@@ -1,0 +1,58 @@
+{
+  "Name": "Peony Cream Soda",
+  "Description": "It smells like a honeyed fruit salad with delicate floral notes.",
+  "Category": "ArtisanGoods",
+  "Edibility": 125,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 1,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 530,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+        "Love": ["Evelyn", "Pam", "Sandy"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+	"Neutral": ["Jodi", "Leah"],
+	"Dislike": ["Clint", "George", "Sebastian"],
+  },
+  "NameLocalization":
+  {
+	// "es": "",
+    "ko": "양귀비꽃 크림 소다",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  },
+  "DescriptionLocalization":
+  {
+	// "es": "",
+    "ko": "은은한 꽃향이 나는, 꿀에 절인 과일 샐러드 같은 향이 난다.",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  }
+}

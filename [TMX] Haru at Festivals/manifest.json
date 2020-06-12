@@ -1,0 +1,11 @@
+{
+  "Name": "Haru at Festivals",
+  "Author": "Horanghwa",
+  "Version": "1.0.2",
+  "Description": "Haru goes to Festivals",
+  "UniqueID": "Horanghwa.HaruFestivals",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+  }
+}

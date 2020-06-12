@@ -1,0 +1,45 @@
+{
+  "Format": "1.11.0",
+  
+  "ConfigSchema": {
+	// NOTE: Set this to true if you are adding this mod to an existing game. 
+	//       You only have to set it true once, then after you leave your farmhouse, the recipe acquisition will trigger, and you can turn it off again. 
+	"TriggerBlueprintsForOldGames": {
+		"AllowValues": "true, false",
+		"Default": "false"
+	}
+  },
+
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Battery Pack": "334 2 384 3 768 3 769 3/Home/787/false/Foraging 8",
+        "Battery Pack(Transmuted)": "337 3 768 3 769 3/Home/787/false/Foraging 8"
+      }
+    },
+      {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "9925551/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a battery recipe.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Battery Pack/pause 3300/message \"Learned how to craft Battery Pack.\"/end"
+                 },
+      "When": {
+        "SkillLevel:Foraging": "8, 9, 10",
+		"TriggerBlueprintsForOldGames": "true"
+      }
+    },
+      {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "9925551/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a battery recipe.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Battery Pack(Transmuted)/pause 3300/message \"Learned how to craft Battery Pack by Transmuting Iridium.\"/end"
+                 },
+      "When": {
+        "SkillLevel:Foraging": "8, 9, 10",
+		"TriggerBlueprintsForOldGames": "true"
+      }
+    },
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Denver Festival Locations",
+  "Author": "balverines",
+  "Version": "1.0.0",
+  "Description": "Denver's Festival Locations",
+  "UniqueID": "balverines.DenverFestival",
+  "UpdateKeys": [ "Nexus:4594" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

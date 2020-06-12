@@ -1,0 +1,12 @@
+{
+  "Name": "Yoshi",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.1.0",
+  "Description": "Add a Yoshis as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.Yoshi",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3420"],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

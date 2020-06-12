@@ -1,0 +1,84 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "HeartyCat": "adult/neutral/outgoing/neutral/male/not-datable/null/Other/summer 27//MiniTown 7 75/HeartyCat"
+
+
+      }
+    },
+	{
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "HeartyCat": "*Meeow!!*/129 130 131/*Mew!*/136 139/*The cat hisses at you*/128 143/*The cat ignores you*/144 145 151/*The cat purrs*/174 176 442/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "HeartyCat_sit": "16/16 17 18 19 18 18 19 18 18 19/19",
+		"HeartyCat_clean": "20/20 21 22 23 22 23 22 23 22 21 20/20",
+		"HeartyCat_sleep": "24/24 25 26 27 26 27 26 27/27",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/HeartyCat",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "HeartyCat Portraits",
+      "Action": "Load",
+      "Target": "Portraits/HeartyCat",
+      "FromFile": "assets/Image/HeartyCatPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "HeartyCat Sprites",
+      "Action": "Load",
+      "Target": "Characters/HeartyCat",
+      "FromFile": "assets/Image/HeartyCatSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/HeartyCat",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/HeartyCat",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+    ],}

@@ -1,0 +1,61 @@
+{
+	"Name": "Perfume Machine",
+	"Description": "Turn flowers and fruits into fragrant perfumes.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"ReserveExtraIndexCount": 5,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients":
+		[
+			{
+				"Object": 335,
+				"Count": 5
+			},
+			{
+				"Object": 336,
+				"Count": 1
+			},
+			{
+				"Object": 338,
+				"Count": 3
+			},
+			{
+				"Object": 709,
+				"Count": 5
+			},
+		],
+        "CanPurchase": false,
+        "SkillUnlockName": "Farming",
+        "SkillUnlockLevel": 5,
+	},
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "향수 머신 ",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "香水制造机",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "꽃과 과일을 향기로운 향수로 바꿔줍니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "将鲜花和水果制作成美好香氛的机器。",
+	}
+}

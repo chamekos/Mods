@@ -1,0 +1,16 @@
+{
+	"Name": "IP's Weapons Mail",
+	"Author": "Immortal Prince 1290",
+	"Description": "Adds a mail notification telling you when you've unlocked a new weapon.",
+	"Version": "1.0.2",
+	"UniqueID": "Immort.WeapMail",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+	},
+	"Dependencies": [
+		{"UniqueID": "Immort.Weap"},
+		{"UniqueID": "Immort.WeapBonus"},
+	]
+}
+
+//what? whatcha you doin here?

@@ -1,0 +1,35 @@
+{
+  "name": "Pool Table",
+  "author": "BlatantDecoy",
+  "version": "1.0.0",
+  "furniture": [
+	{
+      "id": 0,
+      "texture": "PoolTable.png",
+      "name": "Pool Table",
+      "description": "Pool Table.",
+      "type": "decor",
+      "price": 3000,
+      "index": 0,
+      "width": 5,
+      "height": 3,
+      "boxWidth": 5,
+      "boxHeight": 2,
+      "rotations": 1 
+    },
+	{
+      "id": 1,
+      "texture": "PoolTable.png",
+      "name": "Pool Cues",
+      "description": "Pool Cues leaning against the wall.",
+      "type": "decor",
+      "price": 100,
+      "index": 5,
+      "width": 1,
+      "height": 3,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1 
+    }
+  ]
+}

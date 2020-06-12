@@ -1,0 +1,56 @@
+{
+  "name": "Minu goes to Festivals",
+  "version": "1.0.0", 
+  "author": "Horanghwa",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Minu",
+	    "map": "Town-EggFestival",
+		"position": [12, 52],
+		"direction": 2
+		},
+		{
+		"name": "Minu",
+	    "map": "Forest-FlowerFestival", 
+		"position": [32, 38],
+		"direction": 2
+		},
+		{
+		"name": "Minu",
+	    "map": "Beach-Luau", 
+		"position": [41, 5],
+		"direction": 3
+		},
+		{
+		"name": "Minu",
+	    "map": "Beach-Jellies", 
+		"position": [41, 5],
+		"direction": 3
+		},
+		{
+		"name": "Minu",
+	    "map": "Town-Fair", 
+		"position": [12, 52],
+		"direction": 2
+		},
+		{
+		"name": "Minu",
+	    "map": "Town-Halloween", 
+		"position": [12, 52],
+		"direction": 2
+		},
+		{
+		"name": "Minu",
+	    "map": "Forest-IceFestival", 
+		"position": [115, 23],
+		"direction": 2
+		},
+		{
+		"name": "Minu",
+	    "map": "Town-Christmas", 
+		"position": [12, 52],
+		"direction": 2
+		},
+	]
+}

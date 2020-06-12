@@ -1,0 +1,441 @@
+Hey, You!
+The one who downloaded this mod. Thank you!
+
+Also, if there are problems with the mod please tell me and I shall do my best to fix it. Though, please know the bugs in android are different from the ones in computer.
+
+I also apologize if I seem too stupid with these type of mod. It was my first weapon mod.
+And please if you see this mod somewhere else other than Nexus. Tell me.
+
+Some of this weapons will only be sold once you've had enough friendship points with a certain NPC or at a certain season.
+If you need something, ping me at discord 'Immortal Prince#6922'.
+
+Thank you Ren8059, for telling me my mistake in this mod. (You'll know it if you had this before a certain version or at least if you read all of this.)
+
+Also, please do know that I do not know how to deal with the bugs of this mod concerning the multiplayer, sorry. *obviously loud, but inaudible very dramatic cry*
+
+Known Bugs: (On mobile. I only play SV in Android, and these mods are also made and tested in the same platform.)
+This is for mobile:
+※ Conflict with Nightmare's Additional Weaponry Mod; If this mod is used together with my mod, my mod will act as a resprite.
+
+v. 1.0.0
+Created Mod
+Created weapons:
+- Broken Blade
+- Edge Sword
+- Rose Blade
+- Sapphire Blade
+- Teardrop Sword
+
++"Official Release"
+
+v. 1.0.1
+Added weapons:
+- Baton
+- Forest Staff
+
+v. 1.0.2
+Added weapons:
+- Boxing Glove
+- Dagger
+- Mace
+- Machete
+- Rolling Pin
+- Spear
+- Sword
+- Trident
+- Two-Handed Sword
+
+v. 1.0.3
+Added weapons:
+- Blood Blade
+- Staff
+- Steel Bat
+- Treasure of The Sea
+
+Redone sprites:
+- Baton
+- Edge Sword
+
+v. 1.0.4
+Reduced the Prices of:
+- Broken Blade
+- Edge Sword
+- Rose Blade
+- Saphire Blade
+
+Changed the name of weapon 'Mace' to 'Paladin Mace' to avoid conflict with Nightmare's Additional Weaponry Mod. (For PC)
+
+Added weapon:
+- Wing Staff
+
+v. 1.0.5
+Did some price regulation for:
+- Baton
+- Broken Blade
+- Forest Staff
+- Machete
+- Paladin Mace
+- Rolling Pin
+- Spear
+- Steel Bat
+- Teardrop Sword
+- Treasure of the Sea
+- Trident
+
+Changed stats:
+- Baton
+- Paladin Mace
+- Steel Bat
+
+Added weapon:
+- Book (Yes, it is the same sprite on my other mod just a little different color.)
+- Broom
+- Chair
+- Circular Blade
+- Flip-Flop
+- Hanger
+- Keyboard
+
+This is getting ridiculous. I know.
+It took me long to come up with a new weapon.
+
+v. 1.0.6
+Changed stats:
+- Chair
+- Edge Sword
+- Flip-Flop
+- Hanger
+- Paladin Mace
+
+Changed price:
+- Chair
+- Broom
+
+Changed description:
+- Broom
+
+Changed Requirements:
+- Edge Sword
+- Rose Blade
+- Sapphire Blade
+
+Added weapons:
+- Commander's Word
+- Crowbar
+- Eye of the Void
+- Frost Axe (Koucya helped with making this sprite.)
+- Grayscale
+- Ice Dragon
+- Ice Staff
+- Key
+- Pillow
+- Racket
+- Scalpel (Yes, I know it looks terrible...)
+- Silver Dragon
+- Triax: Blu
+- Triax: Green
+- Triax: Red
+
+v. 1.0.7
+Changed Sprites:
+- Key
+- Trident
+
+Added weapons:
+- Blaze Dagger
+- Broken Crystal Blade (Sprite and Name by Koucya)
+- Candy Cane
+- Crystal Staff
+- Fire Spear
+- Forester Axe (Sprite by Koucya)
+- Forest Sword
+- Frozen Dreams
+- Green Candy Cane
+- Ice Dagger
+- Ice Rapier
+- Royal Greatsword (Sprite by Koucya)
+- Viking's Cleaver
+
+Thanks for the help Koucya! (Everything is going as planned, mwehehehehehehe.)
+And yes, I know. I should probably use less blue.
+
+v. 1.1.0
+Aye! Weapons are now classified as how they should be. Thanks Ren8059!
+
+Added weapons:
+- Amethyst Blade
+- Army Greatsword
+- Army Lance
+- Army Sword
+- Banjo
+- Branch
+- Broken Wine Bottle
+- Fish
+- Hunter Axe (Sprite and Name by Koucya)
+- Moss Club (Sprite and Name by Koucya)
+- Night Wing
+- Ocean's Call
+- Rusty Rapier (Sprite by Koucya)
+- Spear Lance (Sprite and Name by Koucya)
+- Screwdriver
+- Void Dagger (Sprite and Name by Koucya)
+- Void Spear (Sprite and Name by Koucya)
+- Void Edge (Sprite and Name by Koucya)
+
+v. 1.1.1
+Changed Type:
+- Banjo
+
+Changed stats:
+- Sapphire Blade (Increased Speed)
+- Triax: Red (Increased Speed)
+
+Added weapons:
+- 3D Sword
+- 8-Bit Sword (Sprite by Koucya)
+- Arcade Sword
+- Army Broadsword
+- Fencing Sword (Sprite by Koucya)
+- Flatsword (Sprite by Koucya)
+- Frostbite
+- Glass Dagger (Sprite by Koucya) 
+- Jade Sword (Sprite and Name by Koucya)
+- King's Sword
+- Midnight Sea Blade
+- Neon Light Sword
+- Omega Blade
+- River Scimitar
+- Royal Lance (Sprite by Koucya)
+- Ruby Blade
+- Rusty Sword (Sprite by Koucya)
+- Sakura
+- Sandwrath Dagger (Sprite, Name and Description by Koucya)
+- Sea Glass Blade
+- Spirit Blade
+- Twilight Blade
+- Thunder Bolt
+- Unsocketed Sword
+- Vampire Bat
+- Zweihander
+
+I'm running out of name ideas right now.
+And yes, since we've reached 100 weapons. Have a pudding made by me and Koucya (Sprite), August 2019.
+
+v. 1.1.2
+Added Weapons:
+- Hunter of the Seas
+- Kunai
+- Moon Staff
+- Ocean's Peril
+- Thunder Charge
+
+v. 1.1.3
+Changed Stats:
+- Sapphire Blade (Increased Speed)
+- Winged Staff (Increased Accuracy and Attack)
+
+Changed Sprite:
+- Winged Staff
+
+Refined Sprites:
+- Broken Glass Bottle
+
+Changed the name of 'Wing Staff' to 'Winged Staff' to make it sound more appropriate.
+
+Changed Description:
+- Void Dagger
+- Void Spear
+
+Added Weapons:
+- Bloodlust Sword
+- Bloodlust Dagger
+- Blue Butterfly
+- Common Staff
+- Divine Hammer
+- Emerald Dagger
+- Emerald Sword
+- Firefly
+- Gold Sword
+- Golden War Hammer
+- Halberd
+- Holy Staff
+- Leaf Dagger
+- Midnight Blade
+- Night Gladiator
+- Real Gold Sword
+- Sapphire Staff
+- Sun Blood
+
+I personally reached 100+ weapons. (Koucya's works not included) Yeah!
+
+So Koucya decided that we make a new mod that would make use of the bonus item of this.
+Well, whatever he will be still the one to do the sprites for it so... I don't mind.
+And the creation of that mod means that I will be managing this mod by myself once again.
+
+v. 1.1.4
+Changed Sprite:
+- Void Dagger (Sprite made by me.)
+- Void Spear (Sprite made by me.)
+
+Increased Price:
+- Dark Sakura
+
+The old weapon 'Sakura' has been changed to 'Dark Sakura'.
+
+Added Weapons:
+- Autumn's Descend
+- Crystal Sword
+- Dream Blade
+- Forest Relic
+- Frost Fang
+- Ghost Sword (Yeah I know i've already added Spirit Blade before but this is different.)
+- Glacial Rapier
+- Golden Sunset
+- Lagoon Blade
+- Ocean's Blade
+- Phoenix Fire
+- Relic Sword (Sprite, Name and Description by Koucya)
+- Retro Sword
+- Sakura
+- Sand Dune
+- Sea Relic
+- Spring's Blade
+- Warring Kingdom (Sprite, Name and Description by Koucya)
+- Water Sword
+
+Delete the old file before installing this or else, the Winged Staff may duplicate.
+
+v. 1.1.5
+Changed Price (Either up or down):
+- Machete
+- Paladin's Mace
+- River Scimitar
+- Rolling Pin
+- Trident 
+
+Changed Weapon Requirement/s or added New Requirements:
+- Autumn's Descent
+- Bloodlust Dagger
+- Bloodlust Sword
+- Candy Cane
+- Dark Sakura
+- Forest Relic
+- Frost Axe
+- Frost Fang
+- Ghost Sword
+- Glacial Rapier
+- Golden Sunset
+- Green Candy Cane
+- Ice Dagger
+- Ocean's Blade
+- Phoenix Fire
+- Sakura
+- Sand Dune
+- Sea Relic
+- Spring's Blade
+- Thunder Bolt
+- Water Sword
+
+Added Weapons:
+- Bamboo
+- Bejeweled Sword
+- Dream Watcher
+- Gem Sword
+- Rainbow Sword
+- The Lost Pearl
+
+Yes, I know their colors are starting to get funny.
+Can you blame me? For I have made more than 100 weapons.
+
+v. 1.1.6
+Added weapon:
+- Guardian Angel
+
+v. 1.1.7
+Added Weapon:
+- Blood Glaive
+- Earth Crasher
+
+Changed the name of weapon "Halberd" to "Marauder's Halberd".
+
+Added 150th weapon bonus item.
+
+Delete the old file to prevent the duplication of " Halberd".
+
+With this quarantine, our school's calendar of events was ruined.
+This also means that my connection with Koucya will be broken until this pandemic settles down and everything returns to normal. Me and Koucya will most definitely go separate ways after this.
+So this mod is now fully under my control. However, it still depends on what will happen next school year. Since, we'll both be going in one school, I hope we're no longer classmates.
+
+I am bored, so have some update. Don't expect too much though, I changed my phone. 
+This one is too difficult to manage. Can't make too much stuff.
+
+v. 1.1.8
+Improved sprites:
+- Bamboo
+- Book
+- Circular Blade
+- Crowbar
+- Flip-Flops
+- Scalpel
+- Screwdriver
+- Trident
+
+; "So why did you decide to update this mod after leaving it for a month?"
+: "Because of the quarantine."
+
+v. 1.1.9
+Added Mail
+Added rarity to the weapons with no special requirements so they wouldn't stock up on Marlon's shop.
+Some weapons are now sold by other NPCs.
+Changed Description:
+- Broom
+- Chair
+- Hanger
+- Key
+- Pillow
+
+Dropped Prices:
+- Emerald Dagger
+- Emerald Sword
+- Screwdriver
+- Void Dagger
+
+Increased Price:
+- Fencing Sword
+- Lagoon Blade
+- Ocean's Blade
+- Void Edge
+- Void Spear
+- Warring Kingdom
+
+Changed Damage Range for Broken Wine Bottle.
+
+v. 1.1.10
+Moved some more weapons.
+You can now find more weapons from killing monsters in the mines.
+
+Increased Damage:
+- Spear
+- Sword
+- Two-handed Sword
+- Winged Staff
+
+Increased speed:
+- Crowbar
+- Glass Dagger
+
+Changed Damage Range for Broken Wine Bottle. Again. More like, nerfed it.
+
+v. 1.1.11
+Increased Price:
+- Bejeweled Sword
+- Commander's Word
+- Scalpel
+
+Added a new requirement:
+- Rainbow Sword
+
+Don't worry, their prices may go up but they're still cheaper than the Galaxy weapons. ;)
+
+Changed sprite and description for Moon Staff. It doesn't look like a banana now.
+

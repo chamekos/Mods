@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Cecilia's house",
+  "Author": "balverines",
+  "Version": "1.2.0",
+  "Description": "Adds Cecilia's house to the town map without replacing it",
+  "UniqueID": "balverines.ceciliahouse",
+  "MinimumApiVersion": "2.0",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.3.4"
+  }
+}

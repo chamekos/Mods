@@ -1,0 +1,12 @@
+{//spring
+  "Mon": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Tue": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Wed": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Thu": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Fri": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Sat": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+  "Sun": "610 MiniTown 12 6 2 AngelCat_Sit/650 MiniTown 18 12 2 AngelCat_clean/700 MiniTown 21 19 2 AngelCat_Sit/1430 MiniTown 24 24 2 AngelCat_Sit\"/1750 MiniTown 29 23 2 AngelCat_sleep\"/2100 MiniTown 29 23 2 AngelCat_sleep/2350 MiniTown 29 23 2 AngelCat_sleep\"",
+}
+
+// First number is time (610 = 6:10) Name of map (BusStop = Bus Stop) and finally position X Y F where x is the X tile Coordinate, Y is the y coordinate and F is facing (0 = up, 1 = right, 2 = down, 3 = left)
+//after position will be animations covered in AnimationDescriptions. (sunbathe) followed by the schedule Dialogues.  Note it's format.  If you have any questions please talk to me on Discord.

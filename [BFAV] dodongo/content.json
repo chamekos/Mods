@@ -1,0 +1,19 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Dinosaur",
+      "Types": [
+        {
+          "Type": "Dodongo",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Dodongo/Coop",
+          "Sprites": {
+            "Adult": "assets/Dinosaur.png",
+            "Baby": "assets/Dinosaur.png"
+          }
+        }
+      ]
+    }
+  ]
+}

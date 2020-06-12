@@ -1,0 +1,9 @@
+{
+  "Name": "Mudstone Pot",
+  "Description": "A pot made of mudstone.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 100,
+  "Recipe": null,
+   "CanPurchase": false
+}

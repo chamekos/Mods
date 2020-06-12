@@ -1,0 +1,61 @@
+{
+    "Name": "Cherry Blossom Tea",
+    "Description": "Light green tea scented with cherry blossoms.",
+	"Category": "Cooking",
+    "Edibility": 5,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 350,
+    "GiftTastes":
+    {
+		"Love": ["Caroline", "Lewis", ],
+        "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard", ],
+		"Hate": ["Jas", "Vincent",]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom",
+            "Count": 1,
+        },
+		{
+            "Object": 815, //Tea Leaves
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1500,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 차",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花茶",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃의 향을 담아낸 담백한 녹차.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "带有樱花香气的淡绿色茶饮。",
+    }
+}

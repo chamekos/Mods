@@ -1,0 +1,11 @@
+{
+  "Name": "Life Cycle - Emily & Clint",
+  "Author": "nraittanna",
+  "Version": "1.4.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Emily and Clint dating version.",
+  "UniqueID": "nraittanna.CycleofLifeEC",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

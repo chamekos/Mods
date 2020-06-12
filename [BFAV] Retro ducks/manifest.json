@@ -1,0 +1,14 @@
+{
+  "Name": "Round Chickens",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "1.0.0",
+  "Description": "Add a retro Duck as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.retroDucks",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [
+    "Nexus:6207"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[PFM] Pottery Kiln",
+	"Author": "Sylvarmyst",
+	"Version": "1.0.0",
+	"Description": "PFM conversion of the Pottery Kiln.",
+	"UniqueID": "Sylvarmyst.PFMPottery",
+	"MinimumApiVersion": "3.0.1",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+    {
+        "UniqueID": "sylvarmyst.Pottery",
+        "IsRequired": true,
+    }, ],
+}

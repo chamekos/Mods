@@ -1,0 +1,9 @@
+{
+  "Name": "Prismatic Pot",
+  "Description": "Mesmerizing!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 6000,
+  "Recipe": null,
+   "CanPurchase": false
+}

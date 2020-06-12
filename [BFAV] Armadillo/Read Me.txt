@@ -1,0 +1,24 @@
+In order to add Raccoons to Marnie's Ranch you will need to: 
+
+Access Stardew Valley\Mods\Paritee's Better Farm Animal Variety and add the text to the config.json:
+
+"Raccoon": {
+      "Types": [
+        "Armadillo",
+	
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Armadillo",
+        "Description": "These armadillos knows how to find good geodes.",
+        "Price": "2500",
+        "Icon": "assets\\animal_shop_dillo.png"
+      }
+    },
+
+Also, the insert the file: animal_shop_raccoon.png to Stardew Valley\Mods\Paritee's Better Farm Animal Variety\assets to get the incon working in the shop menu.
+
+Any questions mensagem me.

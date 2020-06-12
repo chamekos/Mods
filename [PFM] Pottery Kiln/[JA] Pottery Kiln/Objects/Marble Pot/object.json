@@ -1,0 +1,9 @@
+{
+  "Name": "Marble Pot",
+  "Description": "A pot made of marble.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 330,
+  "Recipe": null,
+   "CanPurchase": false
+}

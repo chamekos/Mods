@@ -1,0 +1,29 @@
+{
+"Introduction": "%You try to introduce yourself, but she doesn't seem to understand you.#$b#%You notice the hearing aid in her ear, and the notepad in her pocket.#$b#%Realizing what this probably means, you try to recall your sign language lessons from school...#$b#(Oh! Good tommorrow. @ is here, yes?)#$b#(Abigail talked new arrival.)#$b# (Shouko is. Nice to meet you.)#$b#%...??? She didn't make a whole lot of sense.#$b#%I need to brush up on sign language.	",
+"danceRejection": "(I'm sorry, I don't feel like dancing right now.)",
+"Divorced": "(Please don't talk to me.)$s",
+"Mon": "(Abigail always beats me when we play video games. She's super good.)",
+"Tue": "(I used to feed the koi fish back home on Tuesdays. I think I'll do that today.)",
+"Town_74_54": "(Good morning, @.)$h
+#$q 1003/1004 want_bread#(would you like some bread?)
+"Town_53_104": "(Hello, @.)#$b#(Have some bread.)$h[216]",
+"SeedShop": "(I like to help Pierre stock the shelves. It's the least I can do.)",
+"Wed": "(Sebastian is very nice to me. He knows a lot about anime and manga.)",
+"Thu": "(So you learned sign language in school? Well, I'm glad that you get to use it.)", 
+"Fri": "(Sometimes I miss Japan.)",
+"Fri4": "(Sometimes I miss Japan.)#$b#(But it's not so bad if I get to spend time with you!)$h",
+"Sat": "(I like to help Pierre stock the shelves. It's the least I can do.)",
+"Sun": "It's interesting to watch people at the Altar of Yoba. People around the world are so different.)",
+"spring_2": "(I'm an exchange student from Japan.)#$b#(I'm staying with Abigail right now. But it's so nice here in Stardew Valley, I think I might move here!)$h",
+"spring_18": 
+"(My sister's birthday is coming up soon.)$u
+#$q 7001/7002 sisbirthday_q#(What should I get her?)
+#$r 7001 15 sisbirthday_d#Send her a dead frog.
+#$r 7002 0 sisbirthday_c#Send her one of my crops.
+#$r 7002 10 sisbirthday_ca#Send her a new camera.
+",
+"sisbirthday_d": "Ha ha!$h (I think she would actaully enjoy that a lot.)$u",
+"sisbirthday_c": "(I wish I could, but I wouldn't want your crops to spoil on the way.)",
+"sisbirthday_ca": "(That's not a bad idea! I'm not sure whatn model she has, so I'll make sure to ask mom.)",
+
+}

@@ -1,0 +1,73 @@
+{
+    "Name": "Cherry Blossom Cheese Cake",
+    "Description": "A cake that combines cheese's deep flavor and cranberry's sour and sweet taste.",
+    "Category": "Cooking",
+    "Edibility": 80,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 730,
+    "GiftTastes":
+    {
+		"Love": ["Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+        "Dislike": ["Kent", "Krobus", "Sebastian", "Willy"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 424, //Cheese
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -5, //Any egg
+            "Count": 1,
+        },
+		{
+            "Object": 282, //Cranberry
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2750,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 치즈 케이크",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花乳酪蛋糕",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "묵직한 치즈의 풍미와 크랜베리의 새콤달콤한 맛이 잘 어우러진 케이크.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "将浓郁的奶酪香气和蔓越莓的酸甜味道完美结合的一款蛋糕。",
+    }
+}

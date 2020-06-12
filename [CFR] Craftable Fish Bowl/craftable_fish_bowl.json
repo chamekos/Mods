@@ -1,0 +1,17 @@
+{
+  "useid": "HopeWasHere.CraftableFishBowl",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Fish Bowl",
+      "description": "A cute fish in a bowl for you to take care of",
+      "category": "Crafting",
+      "texture": "fishbowl.png",
+      "tileindex": 0,
+      "pulsate": false,
+      "lightsource": false,
+      "frames": 27,
+      "crafting": "388 30 338 5 -4 1",
+    }
+  ]
+}

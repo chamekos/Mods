@@ -1,0 +1,14 @@
+{
+  "Name": "Parrots",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "1.0.1",
+  "Description": "Add a parrots as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.parrots",
+  "MinimumApiVersion": "3.5",
+  "UpdateKeys": [
+    "Nexus:6205"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

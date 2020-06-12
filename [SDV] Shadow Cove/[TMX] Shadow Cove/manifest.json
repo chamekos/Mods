@@ -1,0 +1,13 @@
+{
+  "Name": "Shadow Cove",
+  "Author": "Twinzzies",
+  "Version": "1.1.6",
+  "Description": "Adds Shadow Cove - a mysterious home to the forest junimos.",
+  "UniqueID": "twin.junimomaps",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4",
+    },
+}

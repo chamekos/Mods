@@ -1,0 +1,37 @@
+{
+	"Name": "Summer Spangle Perfume",
+	"Description": "It scent sweet and tangy.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 315,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "여름별꽃 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "夏季亮片香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "달콤하고 톡쏘는 향이 납니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "闻起来甜蜜又浓郁的香气。",
+	}
+}

@@ -1,0 +1,11 @@
+﻿{
+    "Mon": "0610 FarmHouse 10 18 2 Minu_Magic/0900 FarmHouse 24 20 2 Minu_Searching/1200 FarmHouse 23 13 2 Minu_Greeting/2200 FarmHouse 23 13 2 Minu_Sleeping",
+	"Thu": "GOTO Mon",
+	"Wed": "GOTO Mon",
+	"Thu": "GOTO Mon",
+	"Fri": "GOTO Mon",
+	"Sat": "GOTO Mon",
+	"Sun": "GOTO Mon",
+	"marriage_Mon": "0900 Forest 35 24 1/1200 Town 106 64 2 Minu_Magic/1500 Town 23 100 2/1700 Forest 35 24 2 Minu_Magic/2030 BusStop -1 23 3",
+	"marriage_Fri": "0900 Forest 35 24 1/1200 Town 106 64 2 Minu_Magic/1500 Town 23 100 2/1700 Forest 35 24 2 Minu_Magic/2130 BusStop -1 23 3"
+}

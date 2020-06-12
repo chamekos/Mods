@@ -1,0 +1,44 @@
+{
+    "Name": "Ametrine",
+    "Description": "In one crystal, amethyst and citrine can be seen simultaneously.",
+    "Category": "Gem",
+    "Edibility": -300,
+    "Price": 120,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "아메트린",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "紫黄晶",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "한 결정 안에 자수정과 황수정이 동시에 보인다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一种可以同时看到紫水晶和黄水晶的晶体宝石。",
+    },
+    "ContextTags": [
+		"color_purple",
+    ],
+}

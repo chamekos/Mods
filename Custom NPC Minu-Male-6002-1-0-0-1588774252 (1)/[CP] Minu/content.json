@@ -1,0 +1,1186 @@
+﻿{
+  "Format": "1.11",
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+		"Minu": "adult/polite/outgoing/negative/male/datable//Town/winter 2//FarmHouse 23 13/Minu"
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+		"Minu": "...!$6#$b#How kind of you to think of me. I shall treasure this, Master @.$12#$b#%Minu looks happy./66 72 84 86 64 60 234 537 536 233 651 611/Thank you, Master @... But you needn't to give me gifts, you are enough as is.$7#$b#%Minu looks happy./798 151 561 557 395 564 566 749 68 554 568/It's the thought that counts. Thank you, master.$1#$b#%Minu smiles./575 561 578/I'm delighted you thought of giving me a gift, but this was rather distateful.$2#$e#I'm sorry, I really wanted to like it.$3#$b#%Minu smiles awkwardly./346 195 769 198 202 206 213 214 649 582 585 579 580/Thank you, master.//"
+    },
+	  "When": { "PlayerGender": "Male" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+		"Minu": "...!$6#$b#How kind of you to think of me. I shall treasure this, Master @.$12#$b#%Minu looks happy./66 72 84 86 64 60 234 537 536 233 651 611/Thank you, Master @... But you needn't give me gifts, you are enough as is.$7#$b#%Minu looks happy./798 151 561 557 395 564 566 749 68 554 568/It's the thought that counts. Thank you, master.$1/575 561 578/I'm delighted you thought of giving me a gift, but this was rather distateful.$2#$e#I'm sorry, I really wanted to like it.$3#$b#%Minu smiles awkwardly./346 195 769 198 202 206 213 214 649 582 585 579 580/Thank you, master.//"
+    },
+	  "When": { "PlayerGender": "Female" }
+    },
+	{
+	"Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+		"Minu0": "This isn't a daydream, is it? I'm fully conscious...Right?$l#$b#%He rests his hand on your cheek.#$b#...!$6#$b# Y-you're undoubtedly here.... And you're absolutely giving this to me...$13#$b#Hah.. I'm so happy..$9",
+		"Minu1": "If you're having any second thoughts, I shall lend my ear...$7#$b#I'd like to consider your feelings first above all else.$1"
+      },
+    },
+	{ 
+	  "Action": "EditData",
+	  "Target": "Data/animationDescriptions",
+      "Entries":
+	  {
+		"Minu_Greeting": "16/17 17 17 17 17 17 17 17 17 17 17 17 16 17 17 17 17 17/17",
+		"Minu_Searching": "20/21 21 21 21 21 20 20 20 20/21",
+		"Minu_Sleeping": "24/25 25 25 25 25 25 25 25 25 24 24 24 24 24 24 24 24/25",
+		"Minu_Magic": "18/19 19 19 19 19 19 19 19 18 18 18 18 18 18 18 18 18/19"
+	  },
+	},
+	{	
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/rainy",
+	  "Entries": {
+	  "Minu": "Master! It's raining today, you'll get sick if you don't have an umbrella with you.$5#$b#Please wait here, I'll go fetch you one myself.$13"
+	},
+	"When": { "PlayerGender": "Female" }	
+	},
+	{	
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/rainy",
+	  "Entries": {
+	  "Minu": "My lady! It's raining today, you'll get sick if you don't have an umbrella with you.$5#$b#Please wait here, I'll go fetch you one myself.$13"
+	},
+	"When": { "PlayerGender": "Male" }	
+	},
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Minu": "It's raining heavily today, you might get sick if you don't have an umbrella with you.$9#$b#Please wait here, I'll go fetch you one myself, and a coat as well.$13#$e#Here.$1#$b#%He kisses you on the cheek."
+    },
+    "When": { "Relationship:Minu": "Married" }
+    },
+    {
+		"Action": "EditData",
+		"Target": "Data/ExtraDialogue",
+		"Entries": 
+		{
+		"Mines_PlayerKilled_Minu_Spouse": "You're back, and you're ok!$6#$b#What on Earth were you thinking?! I was terrified, how could you be so careless?!$5#$b#...$17#$b#%He pulls you to his chest.$b#I'm sorry... Please be more careful, alright?$10",
+		"Mines_PlayerKilled_Minu_NotSpouse": "Lady @, I heard you were hurt! How are you doing? Is your head alright?!$5#$b#%He checks you for wounds.#$b#...You seem alright now, but...$17#$b#Are you certain you should be walking around? Please be more careful, alright?$10",
+		"Town_DumpsterDiveComment_Minu": "Master..?!$6"
+	},
+	"When": { "PlayerGender": "Female" }
+    },
+	{
+		"Action": "EditData",
+		"Target": "Data/ExtraDialogue",
+		"Entries": 
+		{
+		"Mines_PlayerKilled_Minu_Spouse": "You're back, and you're ok!$6#$b#What on Earth were you thinking?! I was terrified, how could you be so careless?!$5#$b#...$17#$b#%He pulls you to his chest.$b#I'm sorry... Please be more careful, alright?$10",
+		"Mines_PlayerKilled_Minu_NotSpouse": "Master @, I heard you were hurt! How are you doing? Is your head alright?!$5#$b#%He checks you for wounds.#$b#...You seem alright now, but...$17#$b#Are you certain you should be walking around? Please be more careful, alright?$10",
+		"Town_DumpsterDiveComment_Minu": "Master..?!$6"
+	},
+	"When": { "PlayerGender": "Male" }
+    },
+	//기타 대사
+  	{
+	"Action": "EditData", 
+	"Target": "Data/ExtraDialogue", 
+	"Entries": { 
+	"NewChild_SecondChild1": "I dreamt of a day like this one, never knowing it'd become a reality.",
+	"NewChild_SecondChild2": "Luckily I have housework experience, so you'll be able to relax.$15",
+	"NewChild_FirstChild": "I never realized how small babies were...$6#$b#I can't believe I'll be raising our child with you.$12",
+	"Spouse_KitchenBlocked": "Erm, beloved...It's a bit hard to navigate around the house, could you clean up a bit..?$14",
+	"Spouse_MonstersInHouse": "Darling, are you alright?!$13#$b#There's a dangerous monster in the house!$17",
+	},
+	"When": { "Relationship:Minu": "Married", "PlayerGender": "Female" }
+	},
+	{
+	"Action": "EditData", 
+	"Target": "Data/ExtraDialogue", 
+	"Entries": { 
+	"NewChild_SecondChild1": "I dreamt of a day like this one, never knowing it'd become a reality.",
+	"NewChild_SecondChild2": "Luckily I have housework experience, so you'll be able to relax.$15",
+	"NewChild_FirstChild": "I never realized how small babies were...$6#$b#I can't believe I'll be raising our child with you.$12",
+	"Spouse_KitchenBlocked": "Erm, beloved...It's a bit hard to navigate around the house, could you clean up a bit..?$14",
+	"Spouse_MonstersInHouse": "Darling, are you alright?!$13#$b#There's a dangerous monster in the house!$17",
+	},
+	"When": { "Relationship:Minu": "Married", "PlayerGender": "Male" }	
+	},
+  	{
+	"Action": "EditData", 
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": { 
+	"Game1.cs.2782": "You look even lovelier today. Thank you for trusting me, I love you.",
+	"NPC.cs.3985": "I believe you gave {0} a gift?$13#$b#..Sorry, it's fine. You had no ill intent after all.$14",
+	"NPC.cs.4439": "I'm looking forward to it.$15",
+	},
+	"When": { "Relationship:Minu": "Married" }	
+	},	
+  	{
+	"Action": "EditData", 
+	"Target": "Strings/Events", 
+	"Entries": { 
+	"HaveBabyQuestion": "Darling, should we have a baby together?",
+	"HaveBabyAnswer_Yes": "Really.? I'm happy to hear that.",
+	"HaveBabyAnswer_No": "Yes, you're right. Let's enjoy life we can."
+	},
+	"When": { "Relationship:Minu": "Married", "PlayerGender": "Female" }		
+	},
+  	{
+	"Action": "EditData", 
+	"Target": "Strings/Events", 
+	"Entries": { 
+	"HaveBabyQuestion_Adoption": "Darling, should we have a baby together?",
+	"HaveBabyAnswer_Yes": "Really.? I'm happy to hear that.",
+	"HaveBabyAnswer_No": "Yes, you're right. Let's enjoy life we can."
+	},
+	"When": { "Relationship:Minu": "Married", "PlayerGender": "Male" }		
+	},
+	//축제
+	{
+     "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Good morning, Lady @."
+      },
+      "When": {
+        "PlayerGender": "Female",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Good morning, Master @."
+      },
+      "When": {
+        "PlayerGender": "Male",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Good morning, Lady @. You seem enthusiastic about today's event.$0#$b#Though I fail to empathize... With all due respect, I think it's rather tedious and unnecessary$2#$b#...!$6#$b#My sincerest apologies, it wasn't my intention to be dismissive. I'm just not accustomed to such things.$7"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Good morning, Master @. You seem enthusiastic about today's event.$0#$b#Though I fail to empathize... With all due respect, I think it's rather tedious and unnecessary$2#$b#...!$6#$b#My sincerest apologies, it wasn't my intention to be dismissive. I'm just not accustomed to such things.$7"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Hmph...I never knew such a man could smile. The world is much larger than I thought.$1#$e#What a pleasant morning, Lady @.$15#$e#Shane, if I recall correctly, seems to be enjoying himself...$14#$b#He's usually so gloomy, but today he's...#$b#Ah...! This must be envy I feel. H-how uncouth.$27#$b#How unnatural... H-how I wish to enjoy such things as well, such joyous little things like ice cream...#$b#But there's no merit in wishful thinking, is there? *sigh* Please, Lady @. Enjoy the rest of today.$1"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Hmph...I never knew such a man could smile. The world is much larger than I thought.$1#$e#What a pleasant morning, Master @.$15#$e#Shane, if I recall correctly, seems to be enjoying himself...$14#$b#He's usually so gloomy, but today he's...#$b#Ah...! This must be envy I feel. H-how uncouth.$27#$b#How unnatural... H-how I wish to enjoy such things as well, such joyous little things like ice cream...#$b#But there's no merit in wishful thinking, is there? *sigh* Please, Master @. Enjoy the rest of today.$1"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Ah... Hello, Lady @.$12#$b#You're a breath of fresh air.$7#$b#%He gives you a weak smile.  Minu seems uneasy.#$e#Ah...! What seems to be the problem?$6#$b#...$3#$b#Tsk, there's no point in pretending, is there?$10#$b#M'lady, there resides a quaint feeling in my chest after seeing such carefree and enegertic attitudes emanate from the people here.$7#$b#Yes, I don't deny the irregularity of that sentiment... I just can't comprehend this feeling myself.$2#$b#I'm sorry, pay it no mind! I'm simply over exaggerating things...$2#$b#I'll do my best to ignore it from now on, it would be against me to ruin for you such a lovely festivity due to my emotions.$14#$b#Lady @...Thank you for your patience with me, please enjoy the festival."
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Ah... Hello, Master @.$12#$b#You're a breath of fresh air.$7#$b#%He gives you a weak smile. Minu seems uneasy.#$e#Ah...! What seems to be the problem?$6#$b#...$3#$b#Tsk, there's no point in pretending, is there?$10#$b#Master, there resides a quaint feeling in my chest after seeing such carefree and enegertic attitudes emanate from the people here.$7#$b#Yes, I don't deny the irregularity of that sentiment... I just can't comprehend this feeling myself.$2#$b#I'm sorry, pay it no mind! I'm simply over exaggerating things...$2#$b#I'll do my best to ignore it from now on, it would be against me to ruin for you such a lovely festivity due to my emotions.$14#$b#Master @...Thank you for your patience with me, please enjoy the festival."
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "D-darling... Is this really necessary?$20#$b#I know you bought this for me as a gift, but it's b-blatantly obvious that you're making me wear this for you're own amusement.$21#$b#...#$b#Even so.. You have my thanks...#$b#$e#Ah...#$b#%Minu is blushing tremendously.#$e#I said thank you...Since it does calm me down to have fun like this... It distracts me from remembering how awful things were back then.$24#$b#You've opened my eyes to a new light, @. I am in your debt.$22"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "I was thinking...Wouldn't rabbit ears be a more befitting prize for the egg hunt's first placer?$24#$b#It even goes well with the theme of rabbit and eggs.$22#$b#But... Since you're the clearcut winner, I'd rather them stick with the farmer's hat and money.$21#$e#Hm...?$25#$b#Of course you're going to win, you'd only lose if you deliberately chose to do so!$23#$b# I just think you'd look rather silly in bunny ears, that's all.$21#$b#Yes, most definitely...Besides, I prefer cats.$20#$e#I took them off.$19"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Minu": "Hello, Master @. Are you in need of my service?$5#$b#Tsk...I wasn't hired to partake in needless conversations, so might I suggest wasting your time elsewhere?$17"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Are you going to dance, Lady @?"
+      },
+      "When": {
+        "PlayerGender": "Female",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Are you going to dance, Master @?"
+      },
+      "When": {
+        "PlayerGender": "Male",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Lovely morning, isn't it? Just not as lovely as you, Lady @.$15#$b#I assume you're going to dance, have you found a pair to partner with yet?$12#$e#Ah... If you're looking to partner with me, I'll unfortunately have to decline.$14#$b#I simply don't *do* dancing, it's too tiring of an activity... And I'd much rather observe than participate."
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Wonderful morning, isn't it? Just not as wonderful as you, Master @.$15#$b#I assume you're going to dance, have you found a pair to partner with yet?$12#$e#Ah... If you're looking to partner with me, I'll unfortunately have to decline.$14#$b#I simply don't *do* dancing, it's too tiring of an activity... And I'd much rather observe than participate."
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Lovely morning, isn't it? Just not as lovely as you, Lady @.$15#$b#I assume you're going to join the dance, have you found a pair to partner with yet?$12"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Wonderful morning, isn't it? Just not as wonderful as you, Master @.$15#$b#I assume you're going to dance, have you found a pair to partner with yet?$12"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "%Minu reaches out his hand to you.#$b#If it isn't too valiant of a request; would you care to dance with your dear butler, Lady @$14?#$b#You have every obligation to decline, of course...$12#$b#Admittedly, I don't enjoy dancing....But if it's with my lady, then I feel as if I could enjoy it.$15"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "%Minu reaches out his hand to you.#$b#If it isn't too valiant of a request; would you care to dance with you dear butler, Master @$14?#$b#You have every obligation to decline, of course...$12#$b#Admittedly, I don't enjoy dancing....But if it's with my master, then I feel as if I could enjoy it.$15"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Hello, my darling. Would you care to sit down for a bit?$12#$b#It must be exhausting to look so breathtaking all the time.$13#$b#Ah, did I make you blush perhaps..? Maybe not.$15"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "Hm...What's this rag you're wearing?$19#$b#Seems a bit complicated to take off, tell me if you ever need assistance with that. Your dear husband is right here to help you.$15#$b#I guarantee you I'm qualified. I take people's coats for a living.$27"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Minu": "If you're requesting I complete a task for you, then fill out this piece of paper and swiftly hand it back over. I'll tend to it immediately.$10"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "It's too hot here, Lady @.$2"
+      },
+      "When": {
+        "PlayerGender": "Female",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "It's too hot here, Master @.$2"
+      },
+      "When": {
+        "PlayerGender": "Male",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu is sweating profusely.#$b#L-lady @, this place...does it not bother you at all? I feel as though I'm being baked alive...!$27#$b#I wish to go home.$2#$e#Ah, the hotpot, you say?$6#$b#My apologies, but I won't be partaking. I'm not one to intervene in such needless activities.$7#$b#You go on ahead and enjoy yourself, Lady @.$1"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu is sweating profusely.#$b#M-master @, this place...does it not bother you at all? I feel as though I'm being baked alive...!$27#$b#I wish to go home.$2#$e#Ah, the hotpot, you say?$6#$b#My apologies, but I won't be partaking. I'm not one to intervene in such needless activities.$7#$b#You go on ahead and enjoy yourself, Master @.$1"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu is fanning himself at a rapid pace.#$b#Erm...Lady @. Does doing this make me look silly, perhaps?$9#$b#Ahah... Nevermind me asking, I can't point my nose towards needless things at the moment, I feel as if I may pass out from the heat!$4"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu is fanning himself at a rapid pace.#$b#Erm...Master @. Does doing this make me look silly, perhaps?$9#$b#Ahah... Nevermind me asking, I can't point my nose towards needless things at the moment, I feel as if I may pass out from the heat!$4"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "...$7#$b#%Minu appears to be sleeping.#$e#Hmm...? Hello, master. I'm sorry, being under the sun like this is quite exhausting, is it not? I should have brought a hat.$12#$b#I'm not actually asleep, I just need to close my eyes for a bit.$27#$b#You needn't worry about me, you're much too kind but please trust me to handle this myself.$15#$b#Now go on and have fun, I'll be just fine.$12"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu's mouth is slightly agape.#$b#...$13#$b#...!$4#$b#That was embarrassing...$27#$b#I was hoping you'd feed me something if I opened my mouth. I wouldn't mind eating anything here if it were you whom fed it to me.$15"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "%Minu takes your hand and brings it to his mouth. He bites down, but not hard enough to break any skin.#$b#And that shall be my meal for this morning. Did I shock you, perhaps?$15#$e#A bit of a reminder, my dearest. Please don't eat too much, worse case scenario is that I'll have to roll you, my beloved, home for you've become rounder than a ball.$1"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "Hm...What's this rag you're wearing?$19#$b#Seems a bit complicated to take off, tell me if you ever need assistance with that. Your dear husband is right here to help you.$15#$b#I guarantee you I'm qualified. I take people's coats for a living.$27"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Minu": "It's too hot...$7#$b#Erm.. How might I be of service..?$10"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "What a pretty sky."
+      },
+      "When": {
+        "PlayerGender": "Female",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "What a pretty sky."
+      },
+      "When": {
+        "PlayerGender": "Male",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "What a lovely night sky.$12#$b#The stars are brilliantly bright, how mesmerizing.$13#$b#I can't remember when I'd last seen something so wonderful...$8"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "What a lovely night sky.$12#$b#The stars are brilliantly bright, how mesmerizing.$13#$b#I can't remember when I'd last seen something so wonderful...$8"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "Lady @, I hope the jellies will come out soon.$2#$b#It's very cold, you could get sick.$13"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "Master @, I hope the jellies will come out soon.$2#$b#It's very cold, you could get sick.$13"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "My lady, come stand next to me for a bit.$15#$b#%Minu gestures to his hands; a blue light seeps through his palms and into the air, forming crystals around you.#$b#Quite the show, eh?$18#$b#%His eyes linger in the air for a bit- but not on the lights. It seems he's fixated elsewhere.#$e#%A grim expression washes over his mug.#$b#Lady @, do you fear my magic...? Because I certainly do. $26#$b#There are people out there looking for magic similar to what I have, their purpose being is to enslave them.$16#$b#%The lights die out.#$b#I'm sorry for ruining your evening, you should leave.$10"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "Master, come stand next to me for a bit.$15#$b#%Minu gestures to his hands; a blue light seeps through his palms and into the air, forming crystals around you.#$b#Quite the show, eh?$18#$b#%His eyes linger in the air for a bit- but not on the lights. It seems he's fixated elsewhere.#$e#%A grim expression washes over his mug.#$b#Master @, do you fear my magic...? Because I certainly do. $26#$b#There are people out there looking for magic similar to what I have, their purpose being is to enslave them.$16#$b#%The lights die out.#$b#I'm sorry for ruining your evening, you should leave.$10"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "This feels sort of romantic...$15#$b#Would've preferred it being alot less crowded, but...$14#$b#I can't help myself.$1#$b#%Minu kisses you.#$b#Ah...! Maybe I got a bit too carried away there, my apologies.$4"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "To think that the stars and the jellies spend their eternities in oblivion, all unaware of how breathtaking they are...$11#$b#It's a bewildering thought, isn't it? I bet you'd know the feeling.$15"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Minu": "I prefer we talk only when it's necessary.$8#$b#This isn't one of those times.$10"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Are you going to play, Lady @?"
+      },
+      "When": {
+        "PlayerGender": "Female",
+      }
+    },
+    {
+     "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Are you going to play, Master @?"
+      },
+      "When": {
+        "PlayerGender": "Male",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Do you suppose they'd notice if I used magic in one of those games?$3#$b#Not that I intend to, with amount the training I've undergone, I am amble to clear out any range based games easily.$15"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Do you suppose they'd notice if I used magic in one of those games?$3#$b#Not that I intend to, with amount the training I've undergone, I am amble to clear out any range based games easily.$15"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Lady @. The person managing the target stall over there said I could have this as long as I kept away from their game since I kept winning and they were running out of prizes to give me.[373]$15#$b#I'd like for you to have it, maybe you could find some use for it.$12"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Master @. The person managing the target stall over there said I could have this as long as I kept away from their game since I kept winning and they were running out of prizes to give me.[373]$15#$b#I'd like for you to have it, maybe you could find some use for it.$12"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Pierre's rather full of himself, isn't he?$5#$b#He's entered the produce you sold him into the competition, and he says that their his own.#$b#Do people honestly believe this facade he's pulling?$10#$b#You deserve more than this, Lady @.$7"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Pierre's rather full of himself, isn't he?$5#$b#He's entered the produce you sold him into the competition, and he says that their his own.#$b#Do people honestly believe this facade he's pulling?$10#$b#You deserve more than this, Master @.$7"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "There aren't anymore games for me to play.$2#$b#I'm no good at the fishing game, neither am I at the stength test unless I use magic.$6#$b#The target range won't allow me to get anywhere close to their stall, and the wheel thing is mere gambling.$7#$b#*sigh* Sorry, I'm really dissapointed, I wanted to win you something.$8#$b#Here, I never had this as a kid but turns out they're really good. You could say we're having an ice cream date.[233]$1"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "Hello, darling! It's your beloved butler here, do you by chance need any help in prepping for the competition?$12#$b#Hm... Would you prefer a meal? Or maybe you're hot, a hat perhaps?$7#$b#Or... would you rather have me?$19#$b#I apologize, my love. I saw it on the telly and I just couldn't help myself.$15#$b#Here, I'll give you this instead.#$b#%Minu kisses you."
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Minu": "%Minu sighs."
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I'm intrigued about this wizard, it's rumoured he set up tonight's event by himself.$2#$b#On what purpose would he be so kind to do so?$13#$b#Is he manipulating the townsfolk? Ah! I shouldn't make conclusions. I'll have to find him, and talk to himself.$6#$e#I apologize for that, I was rambling.$4"
+				 },
+	"When": { "PlayerGender": "Female" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I'm intrigued about this wizard, it's rumoured he set up tonight's event by himself.$2#$b#On what purpose would he be so kind to do so?$13#$b#Is he manipulating the townsfolk? Ah! I shouldn't make conclusions. I'll have to find him, and talk to himself.$6#$e#I apologize for that, I was rambling.$4"
+				 },
+	"When": { "PlayerGender": "Male" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I've met with the wizard, what a curious person indeed.$3#$b#He's not a bad man, just mysterious.#$e#He wasn't as enthusiastic as I was when he'd learnt about my magic. He probably knew beforehand because we magic users can sense one another.$2#$b#I felt embarrassed, our conversation was one sided... That was until I mentioned my hometown, then he started to speak.$14#$e#I still don't know much about him, maybe I'll drop by his tower from now on.$15"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I've met with the wizard, what a curious person indeed.$3#$b#He's not a bad man, just mysterious.#$e#He wasn't as enthusiastic as I was when he'd learnt about my magic. He probably knew beforehand because we magic users can sense one another.$2#$b#I felt embarrassed, our conversation was one sided... That was until I mentioned my hometown, then he started to speak.$14#$e#I still don't know much about him, maybe I'll drop by his tower from now on.$15"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I've met with the wizard, what a curious person indeed.$3#$b#He's not a bad man, just mysterious.#$e#He wasn't as enthusiastic as I was when he'd learnt about my magic. He probably knew beforehand because we magic users can sense one another.$2#$b#I felt embarrassed, our conversation was one sided... That was until I mentioned my hometown, then he started to speak.$14#$e#I still don't know much about him, maybe I'll drop by his tower from now on.$15"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "I've met with the wizard, what a curious person indeed.$3#$b#He's not a bad man, just mysterious.#$e#He wasn't as enthusiastic as I was when he'd learnt about my magic. He probably knew beforehand because we magic users can sense one another.$2#$b#I felt embarrassed, our conversation was one sided... That was until I mentioned my hometown, then he started to speak.$14#$e#I still don't know much about him, maybe I'll drop by his tower from now on.$15"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "Lady @, have you gone into the maze yet? If so, you must be tired.$13#$b# I went in earlier, I got lost but managed to retrace my steps and get back.$3#$b#That being said, would you like to try some pie?$15#$b#It's has a rather lovely taste, I insist you have a bite.[608]$12"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "Master @, have you gone into the maze yet? If so, you must be tired.$13#$b# I went in earlier, I got lost but managed to retrace my steps and get back.$3#$b#That being said, would you like to try some pie?$15#$b#It's a rather lovely taste, I insist you have a bite.[608]$12"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "Love, would you like to hold my hand?$12#$b#There doesn't have to be a reason, but maybe you feel frightened or cold.$11#$b#I-It's also a bit romantic.$4#$b#I feel embarrassed saying that, d-don't mind me.$27"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "Are you going into the maze?$13#$b#I suppose you'll be fine, but I can't help but be worried. Husband instincts, I guess?$14#$b#Come back right after and give me a kiss, alright?$15"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Minu": "Hm.?$10"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "It's cold, my lady. Shall I get you a coat?"
+				 },
+	"When": { "PlayerGender": "Female" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "It's cold, master. Shall I get you a coat?"
+				 },
+	"When": { "PlayerGender": "Male" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "My lady, put these on, they'll help you become warmer.[509]$7"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "Master, put these on, they'll help you become warmer.[509]$7"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "I read Mayor Lewis' note, are you joining the fishing competition?#$b#You're a very skilled fisher, I recommend to participate.$1"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "I read Mayor Lewis' note, are you joining the fishing competition?#$b#You're a very skilled fisher, I recommend to participate.$1"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "Hello, Lady @. Have you seen how the sculptures have progressed? The villagers here are very talented.$15#$e#Have you any hobbies besides fishing? I'd also say farming but you're doing that professionally, are you not?$3#$b#If you're partaking in the ice fishing competition, know that I'll be cheering you on.$12"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "Hello, Master @. Have you seen how the sculptures have progressed? The villagers here are very talented.$15#$e#Have you any hobbies besides fishing? I'd also say farming but you're doing that professionally, are you not?$3#$b#If you're partaking in the ice fishing competition, know that I'll be cheering you on.$12"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "Hi darling! Seems I've reeled in a quality catch.$12#$b#Heh...Sorry for that, I've made acquaintance with Willy.$27#$b#I was hoping you'd find that al-lure-ing. Again, I apologize. I've learned so much about fishing from Willy, he's also incorporated humor into our conversation.$15"
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "%Minu hugs you.#$b#You looked a bit cold.$1#$e#Love, after the competition, let's head back home. I'll make the both of us hot chocolate and we'll snuggle under some blankets right infront of a fireplace. Sounds nice, right?$12#$b#If you'd rather have tea, well then that's fine, as long as we get to do corny couple stuff together.$15#$e#I've done my research, so worry not.$7"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Minu": "Somehow, It feels colder than before...$10"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": ""
+				 },
+	"When": { "PlayerGender": "Female" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": ""
+				 },
+	"When": { "PlayerGender": "Male" }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "Hello, Lady @! Might I ask for your secret friend's name?$15#$b#How lovely it must be to receive a gift from you, I feel envious.$7"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "Hello, Master @! Might I have the name of you secret friend?$15#$b#How lovely it must be to receive a gift from you, I feel envious.$7"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "2, 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": ""
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": ""
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "4, 5"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "Here... I brought you a gift.[631]$11#$b#I hesitated upon giving you a gift because I thought you'd be bothered by it.$7#$b#I apologize, it seems silly now that I think back on it.$14#$b#It was a difficult task getting you a present, but I decided on a sapling.$11#$b#It seems that these ones bear fruit in summer, so it's rather convenient.$15#$b#I hope you're pleased with your gift, Lady @.$1"
+      },
+      "When": {
+        "PlayerGender": "Female", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "Here... I brought you a gift.[631]$11#$b#I hesitated upon giving you a gift because I thought you'd be bothered by it.$7#$b#I apologize, it seems silly now that I think back on it.$14#$b#It was a difficult task getting you a present, but I decided on a sapling.$11#$b#It seems that these ones bear fruit in summer, so it's rather convenient.$15#$b#I hope you're pleased with your gift, Master @.$1"
+      },
+      "When": {
+        "PlayerGender": "Male", "Hearts:Minu": "6, 7, 8, 9, 10"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": ""
+      },
+      "When": {
+        "Relationship:Minu": "Dating"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "You deserve today, @.$1#$b#I notice how little sleep you get and how hard your work is on the farm.$2#$b#I love how amazing you can be. I never mean to underestimate you, I just can't help but be worried at times...Because I love you.$7#$b#I love you @, I really...Really do, and I can't express it enough how strong my feelings are for you.$13#$b#I'd always felt an attachment towards you, that's why I was so adamant on protecting you.$4#$b#I tried to relay these feelings through being a butler...But you must have noticed, a butler isn't tasked with guarding ones life.$9#$b#Admittedly, I have no regrets. It led me to a deeper connection with you, and though it feels fantastical at times, an embrace from you pulls me from the clouds and into our heavenly reality- for I have found heaven on Earth with you.$1#$b#Was that too corny, my beloved? Spare me this once then, please?$11#$b#Happy Winter Stars, @![434]$12"
+      },
+      "When": {
+        "Spouse:Minu": "True"
+      }
+    },
+    {      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Minu": "Avoid me.[769]$16"
+      },
+      "When": {
+        "Relationship:Minu": "Divorced"
+      }
+    },
+    {
+    "Action": "EditData",
+    "Target": "Data/ConcessionTastes",
+    "Entries": {
+    "Name": "Minu",
+    "LovedTags": [
+      "Jasmine Tea", "Rock Candy"
+    ],
+    "LikedTags": [
+      "Cappuccino Mousse Cake", "Personal Pizza"
+    ],
+    "DislikedTags": [
+      "Fries"
+        ]
+      },
+    },
+	{
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"Entries": {
+	"Minu": {
+    "NPCName": "Minu",
+    "Reactions": [
+      {
+        "Tag": "family",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "horror",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It'll be fun watching a movie together.$12"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It's so nice. I think it's touching.$12"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It was heartwarming, Master @. Shall we go home now?$15^It was heartwarming, Lady @. Shall we go home now?$15"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "summer_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This seems interesting.$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Minu 3000/pause 500/message \"Minu is happy.\"",
+            "Text": "It's so much fun.$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Would you want to see this again?$12"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Let's head inside, shall we?$15"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Minu 3000/pause 500/message \"Minu is quietly concentrating on the movie..\"",
+            "Text": "Woah.$6"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Thank you for bringing me along, this was an enjoyable experience.$15"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, I'll be looking forward to it.$12"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It was great!$15"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "...Shall we proceed inside?$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ah, this was the movie you wanted to see..$2"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "It was great.$2"
+          }
+        },
+        "ID": "reaction_6"
+       }
+     ]
+	}
+	}
+	},
+    { 
+      "Action": "Load",
+      "Target": "Characters/Minu",
+      "FromFile": "images/Sprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/Minu",
+      "FromFile": "images/portraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Minu",
+      "FromFile": "dialogue/Minu.json",
+	},		
+	{
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMinu",
+      "FromFile": "dialogue/MarriageDialogueMinu.json",
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/Minu",
+      "FromFile": "schedules/Minu.json"
+    }
+  ]
+}

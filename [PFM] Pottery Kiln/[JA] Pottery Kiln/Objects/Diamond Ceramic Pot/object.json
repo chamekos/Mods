@@ -1,0 +1,9 @@
+{
+  "Name": "Diamond Ceramic Pot",
+  "Description": "A pot with a glaze made of diamond.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1750,
+  "Recipe": null,
+   "CanPurchase": false
+}

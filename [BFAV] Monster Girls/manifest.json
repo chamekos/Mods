@@ -1,0 +1,12 @@
+{
+  "Name": "Monster Girls",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.0",
+  "Description": "Add a new animals as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.monsterGirls",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3408"],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

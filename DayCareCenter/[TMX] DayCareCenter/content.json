@@ -1,0 +1,13 @@
+{
+  //Custom Locations here
+  "addMaps": [
+	{
+      "name": "DayCareCenter",
+      "file": "assets/DayCareCenter.tbin"
+    },
+	{
+      "name": "ToTheNuns",
+      "file": "assets/ToTheNuns.tbin"
+    },
+  ]
+}

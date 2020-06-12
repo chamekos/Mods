@@ -1,0 +1,37 @@
+{
+	"Name": "Pomegranate Perfume",
+	"Description": "The fragrance is very sweet.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 315,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "석류 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "石榴香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "향이 매우 달콤합니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "非常香甜的气味。",
+	}
+}

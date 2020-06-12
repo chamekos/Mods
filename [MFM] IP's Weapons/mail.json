@@ -1,0 +1,385 @@
+[//sorry for the unnecessary commas, also if you find something that does seem grammatically incorrect, tell me
+	{
+		"Id": "Immort.homemadeenergydrink",
+		"GroupID": "100WeaponBonusItem.Objects",
+		"Title": "Immortal Prince 150 Weapons Bonus Items",
+		"Text": "Hi there Player @,^^  I made this mail to inform you of the bonus items I've incorporated with this weapon mod.^ Along with the 151 weapons are a couple of bonus items, the 'Pudding' which was requested by Koucya and the 'Homemade Energy Drink' which I decided to add after I made more than 120 weapons on my own. ( I was the one who coded and tested them all. That Koucya only helped in making 21 or something sprites. I was just referring to the number of sprites I personally made. )^ The recipe for the Pudding and the Energy Drink will both be sold by Gus.^ However, in order to unlock the I recipe for the Energy Drink you need to have seven hearts with Harvey (Or change the requirement in the object file.)^ The Glass Bottle is being sold by Clint, though.^^  -Immortal Prince^^ P.S. Sorry for the long stupid note. Thanks for downloading the mod.",
+		"Attachments": [{"Type": "Object", "Name": "Homemade Energy Drink", "Stack": 1},],         
+		"Repeatable": false,
+		
+	},
+	{//I was originally planning on making a custom npc of myself, but my hands said no
+		"Id": "Immort.sakura",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Spring Seasonal Weapon",
+		"Text": "Greetings Farmer,^^  It's spring.^ Have you seen the cherry blossoms? They're beautiful.^^  -Immortal Prince^^ P.S. Go see the seasonal weapon at Marlon's shop.",
+		"Seasons": ["spring"],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.autumn'sdescend",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Fall Seasonal Weapon",
+		"Text": "Greetings Farmer @,^^  Can you feel it? The winds?^ I'll be honest, aside from this season being my birthmonth, I like it because of the wind and the stunning views.^ Have you ever tried jumping into a huge pile of fallen leaves? It's great.^^  -Elliott^^^ (Go check the seasonal weapon at Marlon's shop.)",
+		"Seasons": ["fall"],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Winter Season Weapons",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Winter Season Weapons",
+		"Text": "Hello Farmer @,^^  It is winter now and it is great time to go down the mines.^ Aside from that, there are a couple few weapons that are only sold in this season. Check them out.^^  -Marlon",
+		"Seasons": ["winter"],
+		"Repeatable": false,
+		
+	},
+	{//i wonder how do i attach a weapon? or is it even possible?
+		"Id": "Year Weapons",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Year Weapons",
+		"Text": "Hello Farmer @,^^  You've been staying in the valley for a year now.^ Just so you know there are new weapons in stock. Check them sometime.^^  -Marlon",
+		"Date": "1 spring Y2",
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.amethystblade",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Abigail Friendship I",
+		"Text": "Hi @!^^  I heard from Sebastian that you've been going to the mines.^ Do take care! And take some amethysts for me!^^  -Abigail^^^ (You've unlocked the weapon 'Amethyst Blade', it is being sold by Marlon in the price of 5,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Abigail", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.unsocketedsword",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Abigail Friendship II",
+		"Text": "Hey @!^^  You've only just moved to the valley, but you already have went inside the mines.^ I was planning on going down there sometime. Tell me if you're going, okay?^^  -Abigail^^^ (You've unlocked the weapon 'Unsocketed Sword', it is being sold by Marlon in the price of 4,500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Abigail", "FriendshipLevel": 5 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.spiritblade",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Abigail Friendship III",
+		"Text": "Heya @,^^  I found some interesting occult stuff.^ Care to take a look? Let's try it out!^^  -Abigail^^^ (You've unlocked the weapon 'Spirit Blade', it is being sold by Marlon in the price of 6,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Abigail", "FriendshipLevel": 8 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.steelbat",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Alex Friendship",
+		"Text": "Hey @,^^  Have you watched the baseball match last night?^ I used to be just like them before during elementary.^^  -Alex^^^ (You've unlocked the weapon 'Steel Bat', it is being sold by Marlon in the price of 2,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Alex", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.viking'scleaver",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Clint Friendship",
+		"Text": "Err... Hello Farmer @,^^  As the town's blacksmith, I make and sell weapons too.^ I have this newly forged cleaver being sold right now. You might want to see it.^^  -Clint^^^ (You've unlocked the weapon 'Viking's Cleaver', it is being sold by Clint, himself, for the price of 5,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Clint", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.icerapier",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Elliott Friendship",
+		"Text": "Greetings @,^^  It's been awhile since you've moved in.^ I am happy that we've become friends. Let's go drink in the saloon sometime shall we? My treat!^^  -Elliott^^^ (You've unlocked the weapon 'Ice Rapier', it is being sold by Marlon in the price of 5,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Elliott", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.roseblade",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Elliott Friendship II",
+		"Text": "Greetings Farmer @,^^  I suppose we've gotten so close that I often find myself thinking about you in a middle of a writing session. Perhaps, would you like to know what has been happening with my book?^ If you have time, please come and visit me. I would love to hear you share your thoughts about it.^^  -Elliott^^^ (You've unlocked the weapon 'Rose Blade', it is being sold by Marlon in the price of 20,000g, starting from year 2.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Elliott", "FriendshipLevel": 6 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.rollingpin",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Evelyn Friendship",
+		"Text": "Hello dear,^^  I didn't realize that we've gotten close so fast.^ I think we're close enough for me to share my cookie recipe to you. Come visit me soon.^^  -Evelyn^^^ (You've unlocked the weapon 'Rolling Pin', it is being sold by Marlon in the price of 700g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Evelyn", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.retrosword",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "George Friendship",
+		"Text": "Hello dear,^^  I apologize for George's attitude towards you, when you first met him.^ He's old and well... I hope you understand.^^  -Evelyn^^^ (You've unlocked the weapon 'Retro Sword', it is being sold by Marlon in the price of 5,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "George", "FriendshipLevel": 2 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.scalpel",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Harvey Friendship",
+		"Text": "Hello Farmer @,^^  Have you been taking care of yourself?^ Always remember to wash your hands before eating and to always cover your nose and mouth while sneezing or coughing.^^  -Harvey^^^ (You've unlocked the weapon 'Scalpel', it is being sold by Marlon in the price of 2,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Harvey", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{//I hope you didn't open this before I fixed it, Don't hate me
+		"Id": "Immort.custardpudding",
+		"GroupID": "100WeaponBonusItem.Objects",
+		"Title": "Jodi Friendship",
+		"Text": "Hello @,^^  I just want to send you this to make you feel welcome to the town.^^  -Jodi^^^ (You've unlocked the weapon 'Divine Hammer', it is being sold by Krobus in the price of 10,000g.)",
+		"Attachments": [{"Type": "Object", "Name": "Custard Pudding", "Stack": 1},],         
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Jodi", "FriendshipLevel": 2 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.bloodblade",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Kent Friendship",
+		"Text": "Hello Farmer @,^^  I'm just writing you this mail to thank you for being our family's friend.^ I am also happy that you've become close to my sons. Can you tell me some of the things they like? You know them more than I do.^^  -Kent^^^ (You've  unlocked the weapon ' Blood Blade', it is being sold by Marlon in the price of 6,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Kent", "FriendshipLevel": 5 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.foreststaff",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Leah Friendship",
+		"Text": "Hello Neighbor,^^  Have you tried to go to the forest just to relax?^ Come by sometime, I know a lot of beautiful spots for sightseeing.^ Nature is beautiful.^^  -Leah^^^ (You've unlocked the weapon 'Forest Staff', it is being sold by Marlon in the price of 6,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Leah", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.screwdriver",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Maru Friendship",
+		"Text": "Hello @,^^  How's farming life going?^ Can you come by sometime and tell me about it? That information would be helpful to my dad's research.^^  -Maru^^^ (You've unlocked the weapon 'Screwdriver', it is being sold by Robin in the price of 500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Maru", "FriendshipLevel": 3 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.book",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Penny Friendship",
+		"Text": "Hello @,^^  I would like to thank you for being kind to me and for helping me out.^ It's great to have some friends in the town.^^  -Penny^^^ (You've unlocked the weapon 'Book', it is being sold by Marlon in the price of 750g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Penny", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.boxingglove",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Pierre Friendship",
+		"Text": "Hi Farmer @,^^  Have I told you that I was a very capable boxer back in my days?^ Just warning you, if you're ever planning on messing with my daughter.^ Have a great day!^^ -Pierre^^P.S. Sorry for the stock message. Enjoy!^^^ (You've unlocked the weapon ' Boxing Glove', it is being sold by Marlon in the price of 750g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Pierre", "FriendshipLevel": 2 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.foresteraxe",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Robin Friendship",
+		"Text": "Hello @,^^  Remember when I asked to find my axe before?^ It was this axe I've been using during the time my favorite one was missing. Though, this one is too light so I'll be selling it now for 4,000g.^ Care to take a look?^^  -Robin^^^ (You've unlocked the weapon 'Forester Axe', it is being sold by Robin, herself, in the price of 4,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Robin", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.thundercharge",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Sam Friendship I",
+		"Text": "Hi @!^^  Have you met everyone in the town, yet?^ Well, have you met Seb? Can you like, find a way to make him go out of his cave more often?^ It'll be fun if we could hangout with him and Abigail sometime.^^  -Sam^^^ (You've unlocked the weapon 'Thunder Charge', it is being sold by Marlon in the price of 7,000g, except during winter.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sam", "FriendshipLevel": 2 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.banjo",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Sam Friendship II",
+		"Text": "Hey @!^^  You know, the first time I met you, I didn't know that you would be so cool.^ Hangout with us more if you have time!^^  -Sam^^^ (You've unlocked the weapon 'Banjo', it is being sold by Marlon in the price of 3,500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sam", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.sandwrathdagger",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Sandy Friendship",
+		"Text": "Hey @,^^  How are you doing?^ Pay me a visit sometime. I'm so lonely here.^ I heard that being alone for so long may cause insanity. Come by sometime, even if you're not buying anything.^^  -Sandy^^ P.S. Say 'hi' to Emily for me. Will you?^^^ (You've unlocked the weapon 'Sandwrath Dagger', it is being sold by Sandy, herself, in the price of 3,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sandy", "FriendshipLevel": 3 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.edgesword",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Sebastian Friendship",
+		"Text": "Hey @,^^  So you've been going out to the mines for quite awhile now. Huh?^ Be careful out there. The monsters get stronger the deeper you dive in.^^ -Sebastian^^^ (You've unlocked the weapon 'Edge Sword', it is being sold by Marlon in the price of 25,000g, starting from year 2.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Sebastian", "FriendshipLevel": 8 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.teardropsword",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Shane Friendship",
+		"Text": "Hi @,^^  I am writing to you because I wanted to thank you for being nice to me despite my rotten attitude.^ I'm glad you still decided to be my friend after all of that. That's all.^^  -Shane^^^ (You've unlocked the weapon 'Teardrop Sword', it is being sold by Marlon in the price of 4,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Shane", "FriendshipLevel": 8 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.ocean'speril",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Willy Friendship I",
+		"Text": "Aye Farmer @,^^  Fishing is a good way to earn money for a beginner like you.^ Give it a shot.^^  -Willy^^^ (You've unlocked the weapon 'Ocean's Peril', it is being sold by Willy, himself, in the price of 7,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 1 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.treasureofthesea",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Willy Friendship II",
+		"Text": "Ahoy matey,^^  I be mailin' ya dis to tell you of a sword I found on my fishing trip.^ Care to take a look? Come to the shop around 9:00 am to 5:00 pm.^^  -Willy^^^ (You've unlocked the weapon 'Treasure of the Sea', it is being sold by Willy, himself, in the price of 2,500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 3 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.fish",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Willy Friendship III",
+		"Text": "Aye Skipper,^^  How's farming life going?^ Have you been using that fishing rod I gave you? I know fishing is hard, most especially if you're just beginning, but hive it a try.^ Who knows, you might end up loving it.^^  -Willy^^^ (You've unlocked the weapon 'Fish',it is being sold by Willy, himself, in the price of 1,500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Willy", "FriendshipLevel": 4 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.forestsword",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Multiple Friendship Weapon Unlock I",
+		"Text": "Greetings Farmer @,^^  Have you ever been close to nature before you came here?^ Nature is good. The plain sight of the Sea, the Forest and the Mountains. They're beautiful.^^ (There's no signature here. And the writings are too messy, almost unreadable.)^^^ (You've unlocked the weapon 'Forest Sword', it is being sold by Marlon in the price of 3,500g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Emily", "FriendshipLevel": 2 }, { "NpcName": "Leah", "FriendshipLevel": 2 }, { "NpcName": "Elliott", "FriendshipLevel": 1 }
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.nightwing",
+		"GroupID": " IP'sWeapons.Weapons",
+		"Title": "Multiple Friendship Weapon Unlock II",
+		"Text": "Hey @,^^  We didn't know that you were also a night owl like us.^ Let's hangout tonight.^^  -Abigail and Sebastian^^^ (You've unlocked the weapon 'Night Wing', it is being sold by Marlon in the price of 7,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Abigail", "FriendshipLevel": 2 }, { "NpcName": "Sebastian", "FriendshipLevel": 2 },
+		],
+		"Repeatable": false,
+		
+	},
+	{
+		"Id": "Immort.ocean'scall",
+		"GroupID": "IP'sWeapons.Weapons",
+		"Title": "Multiple Friendship Weapon Unlock III",
+		"Text": "Hello @,^^  Have you been on a ship before?^ Riding a ship is one of the best ways to enjoy the beauty of the sea. Or you can go to an aquarium zoo. Or just visit the beach.^ Well, I should get back to work.^^  -Elliott^^^ (You've unlocked the weapon 'Ocean's Call', it is being sold by Robin in the price of 4,000g.)",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Elliott", "FriendshipLevel": 2 }, { "NpcName": "Willy", "FriendshipLevel": 2 }
+		],
+		"Repeatable": false,
+		
+	},
+	
+]

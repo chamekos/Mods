@@ -1,0 +1,65 @@
+{
+    "Name": "Cherry Blossom Rice Cake",
+    "Description": "Sweet rice cake with aroma and taste of cherry blossoms.",
+    "Category": "Cooking",
+    "Edibility": 32,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 500,
+    "GiftTastes":
+    {
+		"Love": ["Evelyn","George",],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Gus",  "Haley", "Harvey", "Jas","Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane",  "Wizard","Vincent", ],
+		"Dislike": ["Krobus", "Sebastian", "Willy",]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 423, //Rice
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2500,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 떡",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花米糕",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃의 향과 맛을 입힌 달콤한 떡.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "带有樱花清香的甜米糕。",
+    }
+}

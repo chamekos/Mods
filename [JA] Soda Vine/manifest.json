@@ -1,0 +1,12 @@
+{
+   "Name": "Soda Vine",
+   "Description": "Adds a crop that grows Joja Cola.",
+   "Author": "BlatantDecoy",
+   "Version": "1.0.1",
+   "MinimumApiVersion": "2.11.2",
+   "UniqueID": "BlatantDecoy.SodaVine",
+  "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": [ "Nexus:4482" ],
+}

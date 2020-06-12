@@ -1,0 +1,9 @@
+{
+  "Name": "Turnip",
+  "Description": "Throughout generations of farmers, this crop was the beginning of everything.",
+  "Category": "Vegetable",
+  "Edibility": 8,
+  "Price": 60,
+  "IsColored": false,
+  "Recipe": null,
+}

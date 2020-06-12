@@ -1,0 +1,21 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false
+	},
+	{
+		"ProducerName": "Cheese Press",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false
+	},
+	{
+		"ProducerName": "Quality Booster",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"ProducingAnimation": { 
+		"RelativeFrameIndex": [1,2], 
+		"FrameInterval": 10 
+        },
+	}
+]

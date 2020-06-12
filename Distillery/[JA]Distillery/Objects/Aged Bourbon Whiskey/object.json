@@ -1,0 +1,30 @@
+{
+  "Name": "Aged Bourbon Whiskey",
+  "Description": "Smoky whiskey aged in a special cask",
+  "Category": "ArtisanGoods",
+  "Edibility": 120,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 1600,
+  "IsColored": false,
+  "Recipe": null,
+    "GiftTastes": {
+	"Love": ["George", "Pam"],
+	"Like": ["Clint", "Gus", "Harvey", "Kent", "Shane", "Lewis", "Linus", "Marnie", "Pierre", "Sandy", "Wizard"],
+	"Dislike": ["Krobus", "Dwarf", "Abigail", "Alex", "Caroline", "Demetrius", "Emily", "Evelyn", "Haley", "Elliott", "Leah", "Robin", "Maru"],
+	"Hate": ["Jas", "Jodi", "Penny", "Sebastian", "Sam", "Vincent"]
+  }
+}

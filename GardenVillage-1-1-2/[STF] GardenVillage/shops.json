@@ -1,0 +1,675 @@
+{
+"RemovePacksFromVanilla": [
+"ppja.artisanvalleymachinegoods"
+],
+  "Shops": [
+    {
+      "ShopName": "GVFlorist",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-74,-80,-81],
+	  	  "PortraitPath": "assets/Rose-portrait.png",
+	  "Quote": "Hello! Can I help you find something?",
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Daffodil",
+			"Crocus",
+			"Dandelion",
+			"Fairy Rose",
+			"Sunflower",
+			"Tulip",
+			"Blue Jazz",
+			"Bouquet"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Dozen Dark Pink Roses",
+		"Dozen Light Pink Roses",
+		"Dozen Red Roses",
+		"Dozen White Roses",
+		"Dozen Yellow Roses",
+		],
+		"MaxNumItemsSoldInItemStock": 2
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Tulip Bulb",
+		"Jazz Seeds",
+		],
+		"When": ["!z spring"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Spangle Seeds",
+		"Poppy Seeds",
+		"Sunflower Seeds"
+		],
+		"When": ["!z summer"]
+		},
+		{
+		"ItemType": "Object",
+		"ItemNames": [
+		"Sunflower Seeds",
+		"Fairy Seeds"
+		],
+		"When": ["!z fall"]
+		}
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVSeeds",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Rose-portrait.png",
+	  "Quote": "Expanded Seed Catalogue",
+	  "MaxNumItemsSoldInStore": 30,
+	  "When": ["t 900 1800"],
+
+      "ItemStocks": [
+        {
+		"ItemType": "Object",
+		"ItemNames": [
+		"Spring Seeds",
+		"Summer Seeds",
+		"Fall Seeds",
+		"Winter Seeds",
+		"Mixed Seeds"
+		],
+		"Stock": 5,
+		"MaxNumItemsSoldInItemStock": 2
+		}
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVDiner",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Hacan-portrait.png",
+	  "Quote": "What would you like? We serve a little of everything!",
+	  "When": ["t 900 1700"],
+      "ItemStocks": [
+        {
+			"ItemType": "Object",
+			"ItemNames": [
+				"Omelet",
+				"Baked Fish",
+				"Complete Breakfast",
+				"Vegetable Medley",
+				"Eggplant Parmesan",
+				"Fried Mushroom",
+				"Salmon Dinner",
+				"Fish Taco",
+				"Spaghetti",
+				"Fried Eel",
+				"Red Plate",
+				"Autumn's Bounty",
+				"Super Meal",
+				"Stir Fry",
+				"Radish Salad",
+				"Fiddlehead Risotto",
+				"Chowder",
+				"Shrimp Cocktail",
+				"Ice Cream",
+				"Pizza"
+			],
+			"Stock": 3,
+			"MaxNumItemsSoldInItemStock": 4
+		},
+				{
+          "ItemType": "Object", //PPJA recipes
+          "ItemNames": [
+            "Deviled Eggs",
+			"Fried Rice",
+			"Fried Sweet Bananas",
+			"Garlic Bread",
+			"Grilled Cheese",
+			"Grilled Zucchini",
+			"Halloumi Burger",
+			"Mushroom and Pepper Crepe",
+			"Orange Juice",
+			"Pea Soup",
+			"Peach Milk",
+			"Pineapple Pizza",
+			"Salsa",
+			"Spring Salad",
+			"Waffles"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3,
+		  "When": [		  
+		  "HasMod ppja.evenmorerecipes"		  
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA more meat recipes
+          "ItemNames": [
+			"Bangers Beans and Mash",
+			"Breakfast Sandwich",
+			"Bulgogi",
+			"Chicken and Spinach Crepe",
+			"Dumplings",
+			"Mild Curry",
+			"Paella"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [		  
+		  "HasMod ppja.MoreRecipesMeat"
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA meat recipes
+          "ItemNames": [
+			"Bacon Hamburger",
+			"Bacon n Eggs",
+			"Beef Burrito",
+			"Beef Ribs",
+			"Cheeseburger",
+			"Grilled Skewer",
+			"Hot Dog",
+			"Steak"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [
+		  "HasMod paradigmnomad.freshmeat"
+		  ]
+        },
+		{
+          "ItemType": "Object", //PPJA vegetable recipes
+          "ItemNames": [
+			"Avocado Eel Roll",
+			"Avocado Toast",
+			"Baked Sweet Potato",
+			"Banana Pudding",
+			"Broccoli and Cheese",
+			"Chocolate Pudding",
+			"Cucumber Roll",
+			"Cucumber Sandwich",
+			"Island Salad",
+			"Melon Salad",
+			"PB&J Sandwich",
+			"Poached Pear",
+			"Rice Pilaf",
+			"Sweet Potato Fries",
+			"Vegetable Stirfry"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2,
+		  "When": [
+		  "HasMod paradigmnomad.morefood"
+		  ]
+        }
+		],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	    {
+      "ShopName": "GVBakery",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  	  "PortraitPath": "assets/Kay-portrait.png",
+	  "Quote": "Welcome! What can I get you today?",
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Maple Bar",
+			"Chocolate Cake",
+			"Pink Cake"
+          ],
+		  
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Apple Pie",
+			"Banana Bread",
+			"Bear Donut",
+			"Better Pumpkin Pie",
+			"Blueberry Macaron",
+			"Cookie Bear",
+			"Cookie Cat",
+			"Cookie Pig",
+			"Cookie Squid",
+			"Fox Donut",
+			"Lemon Pie",
+			"Lilac Macaron",
+			"Matcha Cookies",
+			"Pathos Cookie",
+			"Pecan Pie",
+			"Pig Donut",
+			"Plain Chocolate Donut",
+			"Plain Strawberry Donut",
+			"Plain Vanilla Donut",
+			"Purple Pastel Cake",
+			"Rainbow Candy Cookies",
+			"Rich Tiramisu",
+			"Sprinkled Chocolate Donut",
+			"Sprinkled Lavender Donut",
+			"Sprinkled Strawberry Donut",
+			"Sprinkled Vanilla Donut",
+			"Strawberry Macaron",
+			"Strawberry Tart"
+          ],
+		  "MaxNumItemsSoldInItemStock": 5,
+		  "When": [		  
+		  "HasMod ppja.evenmorerecipes"		  
+		  ]
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Baker's Angel Food Cake",
+			"Baker's Banana Cream Pie",
+			"Baker's Blackberry Pie",
+			"Baker's Bread",
+			"Baker's Bread Rolls",
+			"Baker's Carrot Cake",
+			"Baker's Cherry Galette",
+			"Baker's Cinnamon Rolls",
+			"Baker's Confetti Roll Cake",
+			"Baker's Fig Galette",
+			"Baker's Irish Cream Cheesecake",
+			"Baker's Key Lime Pie",
+			"Baker's Lemon Coconut Cake",
+			"Baker's Lemon Ginger Blueberry Cheesecake",
+			"Baker's Macarons",
+			"Baker's Marble Bundt Cake",
+			"Baker's Pineapple Upside Down Cake",
+			"Baker's Red Velvet Roll Cake",
+			"Baker's Shortbread Cookies",
+			"Baker's Strawberry Rhubarb Pie",
+			"Baker's Ultimate Birthday Cake",
+			"Baker's Ultimate Wedding Cake",
+			"Baker's Wedding Cake",
+			"Baker's Zucchini Bread"
+          ],
+		  "MaxNumItemsSoldInItemStock": 5,
+		  "When": [		  
+		  "HasMod Ritsune.BakersLifeJA"		  
+		  ]
+        }
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVClothier",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-95,-96],
+	  "PortraitPath": "assets/Tuxford-hat.png",
+	  "Quote": "Hello! Can I help you find something?",
+	  "MaxNumItemsSoldInStore": 40,
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+	          {
+          "ItemType": "Clothing",
+          "ItemNames": [
+            "Flower Dance Shirt",
+			"Flower Dance Pants"		
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Flower Dance Tuxedo",	
+          ],
+		  "When":["!z spring/y 2"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Flower Dance Blouse",
+			"Flower Dance Skirt"		
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Hat",
+		  "StockPrice": 10000,
+		  "ItemNames": [
+			"Flower Crown"
+          ],
+		  "When":["!z spring"]
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+		  	"White Tuxedo",
+			"White Dress Pants",
+			"Black Wedding Shirt",
+			"Black Tuxedo",
+			"Black Dress Pants",
+          ],
+        },
+		{
+          "ItemType": "Clothing",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Bridal Shirt",	
+          ],
+        },
+		{
+          "ItemType": "Clothing",
+          "ItemNames": [
+			"Long Bridal Dress",
+			"Short Bridal Dress",
+			"Simple Bridal Dress",			
+          ],
+        },
+		{
+          "ItemType": "Hat",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Bridal Veil"
+          ],
+        },
+		{
+          "ItemType": "Boot",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Black Dress Shoes",
+			"White Dress Shoes"
+          ],
+        },
+        {
+          "ItemType": "Clothing",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Dress",
+			"Simple Dress",
+			"Pleated Skirt",
+			"Genie Pants",
+			"Gray Suit",
+			"Holiday Shirt",
+			"Red Tuxedo",
+			"Navy Tuxedo",
+			"Jester Shirt",
+			"Ocean Shirt",
+			"Bandana Shirt",
+			"Purple Blouse",
+			"Classy Top"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+	          
+        {
+          "ItemType": "Boot",
+		  "StockPrice": 10000,
+          "ItemNames": [
+            "Sneakers",
+			"Blue Sneakers",
+			"Rubber Boots",
+			"Cowboy Boots",
+			"Red Rubber Boots",
+			"Yellow Rubber Boots",
+			"Leprechaun Shoes"
+          ],
+		  "MaxNumItemsSoldInItemStock": 2
+        },
+	  
+        {
+          "ItemType": "Hat",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Top Hat",
+			"Bowler Hat",
+			"Fashion Hat",
+          ],
+		  "MaxNumItemsSoldInItemStock": 1
+        }
+      ],
+	  	  "ClosedMessage": "I'm sorry, but the shop is closed now. Please come back tomorrow."
+    },
+	{
+      "ShopName": "GVArtisanry",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [-26, -27, -28],
+	  "PortraitPath": "assets/Hekate-portrait.png",
+	  "Quote": "Hello, dearie! Won't you buy something?",
+	  "MaxNumItemsSoldInStore": 15,
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+	          {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Truffle Oil",
+			"Oil",
+			"Mayonnaise",
+			"Void Mayonnaise",
+			"Honey",
+			"Wine",
+			"Pale Ale",
+			"Goat Cheese",
+			"Juice",
+			"Pickles",
+			"Jelly",
+			"Caviar",
+			"Aged Roe"
+          ],
+		  "MaxNumItemsSoldInItemStock": 3
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Slime Cheese",
+			"Slime Mayonnaise",
+			"Century Egg"
+          ],
+		  "MaxNumItemsSoldInItemStock": 1
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Absinthe",
+			"Apple Cider",
+			"Beeswax",
+			"Bitter",
+			"Candle",
+			"Chanterelle Kombucha",
+			"Coconut Butter",
+			"Coconut Oil",
+			"Corn Flour",
+			"Dandelion Kombucha",
+			"Dried Flower",
+			"Dried Fruit",
+			"Dried Herb",
+			"Dried Mushroom",
+			"Dried Tea Leaves",
+			"Dried Vegetable",
+			"Essential Oil",
+			"Fruit Juice",
+			"Fruit Yogurt",
+			"Garlic Mayonnaise",
+			"Goat Yogurt",
+			"Gold Thread",
+			"Ground Herb",
+			"Ground Vegetable",
+			"Handmade Soap",
+			"Kimchi",
+			"Kombucha",
+			"Lassi",
+			"Margarine",
+			"Miso Starter",
+			"Miso Paste",
+			"Moonshine",
+			"Morel Kombucha",
+			"Natto",
+			"Natto Starter",
+			"Orange Peel",
+			"Potpourri",
+			"Purple Kombucha",
+			"Rice Flour",
+			"Rice Noodles",
+			"Rum",
+			"Sake",
+			"Shochu",
+			"Slime Butter",
+			"Smoked Ocean Fish",
+			"Sparkling Wine",
+			"Thread",
+			"Twine",
+			"Wheat Noodles",
+			"Yarn",
+			"Yeast",
+			"Yogurt"
+			
+          ],
+		  "MaxNumItemsSoldInItemStock": 7,
+		  "When": [		  
+		  "HasMod ppja.artisanvalleymachinegoods"		  
+		  ]
+        }
+
+      ],
+	  	  "ClosedMessage": "The shop is closed now. Come back tomorrow."
+    },
+	{
+      "ShopName": "GVMachines",
+	  "StoreCurrency": "Money",
+	  "CategoriesToSellHere": [],
+	  "PortraitPath": "assets/Hephaestus-portrait.png",
+	  "Quote": "I'll let you in on my crafting secrets... for a price, of course.",
+	  "When": ["t 900 1700"],
+
+      "ItemStocks": [
+	  {
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Baker's Mixer",
+			"Baker's Oven"
+          ],
+		  "Stock": 1,
+        },
+	    {
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 3000,
+          "ItemNames": [
+		    "Alembic"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 8" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Butter Churn"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 5" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 3000,
+          "ItemNames": [
+		    "Espresso Machine"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 8" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+		    "Extruder"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 3" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Infuser"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 9" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Still"
+          ],
+		  "Stock": 1,
+		  "When":["SkillLevel farming 10" ]
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": true,
+		  "StockPrice": 2000,
+          "ItemNames": [
+			"Foreign Cask",
+			"Grinder",
+			"Ice Cream Machine",
+			"Juicer",
+			"Pepper Blender",
+			"Smoker",
+			"Soap Press",
+			"Vinegar Cask",
+			"Wax Barrel",
+			"Yogurt Jar"
+          ],
+		  "Stock": 1,
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 750,
+          "ItemNames": [
+			"Copper Bar"
+          ],
+        },
+		{
+          "ItemType": "Object",
+		  "StockPrice": 1250,
+          "ItemNames": [
+			"Iron Bar"
+          ],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "IsRecipe": false,
+		  "StockPrice": 5000,
+          "ItemNames": [
+		    "Baker's Mixer",
+		    "Baker's Oven",
+			"Foreign Cask",
+			"Grinder",
+			"Ice Cream Machine",
+			"Juicer",
+			"Pepper Blender",
+			"Smoker",
+			"Soap Press",
+			"Vinegar Cask",
+			"Wax Barrel",
+			"Yogurt Jar"
+          ],
+		  "Stock": 1,
+          "MaxNumItemsSoldInItemStock": 3,
+		  "When":["!d Sat" ]
+        },
+
+      ],
+	  	  "ClosedMessage": "Go home. I'm not working overtime for you."
+    }
+  ],
+}

@@ -1,0 +1,92 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Create",
+      "Category": "Mario",
+      "Types": [
+        {
+          "Type": "Black Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Black Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/black.png",
+            "Baby": "assets/black.png"
+          }
+        },
+        {
+          "Type": "Blue Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Blue Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/blue.png",
+            "Baby": "assets/blue.png"
+          }
+        },
+        {
+          "Type": "Green Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Green Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/green.png",
+            "Baby": "assets/green.png"
+          }
+        },
+        {
+          "Type": "LightBlue Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/LightBlue Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/lightblue.png",
+            "Baby": "assets/lightblue.png"
+          }
+        },
+        {
+          "Type": "Pink Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Pink Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/pink.png",
+            "Baby": "assets/pink.png"
+          }
+        },
+        {
+          "Type": "Purple Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Purple Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/purple.png",
+            "Baby": "assets/purple.png"
+          }
+        },
+        {
+          "Type": "Red Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Red Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/red.png",
+            "Baby": "assets/red.png"
+          }
+        },
+        {
+          "Type": "Yellow Yoshi",
+          "Data": "7/0/420/422/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Yellow Yoshi/Coop",
+          "Sprites": {
+            "Adult": "assets/Yellow.png",
+            "Baby": "assets/Yellow.png"
+          }
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Mario",
+        "Description": "You can get characters from mario",
+        "Price": 4000,
+        "Icon": "assets\\mario_shop.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": false,
+      "ForceOverrideBuildings": false,
+      "ForceOverrideExclude": false
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Void Vessel",
+  "Description": "It's deep and mysterious...",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 250,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Japanese Pumpkin",
+  "Description": "Also known as Kabocha. In Japan is popularly eaten as tempura, or braised.",
+  "Category": "Vegetable",
+  "Edibility": 20,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+}

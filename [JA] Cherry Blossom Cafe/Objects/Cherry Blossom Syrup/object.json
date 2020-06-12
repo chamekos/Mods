@@ -1,0 +1,38 @@
+{
+  "Name": "Cherry Blossom Syrup",
+  "Description": "A fragrant jug of syrup made from Cherry Blossoms.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 시럽",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花糖浆",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃으로 만든 향긋한 시럽.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "由樱花制成的芬芳糖浆。",
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "The Stray Catfe - Shop",
+  "Author": "Sierra Schedin (aka alistairweekend)",
+  "Version": "1.0.3",
+  "Description": "Shop functionality for The Stray Catfe.",
+  "UniqueID": "alistairweekend.TSCShop",
+  "MinimumApiVersion": "2.9",
+  "UpdateKeys": ["Nexus:5533"],
+  "ContentPackFor": {
+  	"UniqueID": "Cherry.ShopTileFramework"
+  }
+}

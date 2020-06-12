@@ -1,0 +1,9 @@
+{
+  "Name": "Nekoite Ceramic Pot",
+  "Description": "A pot with a glaze made of nekoite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 250,
+  "Recipe": null,
+   "CanPurchase": false
+}

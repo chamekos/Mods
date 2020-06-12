@@ -1,0 +1,12 @@
+{
+   "Name": "Antique Dolls",
+   "Author": "Cheese",
+   "Version": "1.0.1",
+   "Description": "Replaces the strange dolls with cuter antique ones",
+   "UniqueID": "Cheese.antiquedolls",
+   "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:6078" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

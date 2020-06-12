@@ -1,0 +1,12 @@
+{
+   "Name": "Village",
+   "Author": "TNT",
+   "Version": "1.0.0",
+   "Description": "Adds a village to SDV",
+   "UniqueID": "TNT.Village",
+   "MinimumApiVersion": "2.9.3",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Entoarox.AdvancedLocationLoader",	  // the ID of required mod
+   }
+}

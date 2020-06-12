@@ -1,0 +1,69 @@
+{
+    "Name": "Cherry Blossom Latte",
+    "Description": "Fragrant Coffee with cherry blossom syrup and cream.",
+	"Category": "Cooking",
+    "Edibility": 22,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 420,
+    "GiftTastes":
+    {
+		"Love": ["Haley", ],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard", ],
+		"Hate": ["Jas", "Vincent",]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any Milk
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": 395,  //Coffee
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 라떼",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花拿铁",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "향긋한 커피에 벚꽃향 시럽을 듬뿍 더하고 벚꽃 크림을 올렸습니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在香浓的咖啡中加入了樱花糖浆和樱花奶油的一款饮品。",
+    }
+}

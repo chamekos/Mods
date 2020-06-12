@@ -1,0 +1,71 @@
+{
+    "Name": "Gingerbread House",
+    "Description": "A gingerbread man sits inside his gingerbread house. Is his house made of flesh or is he made of house?",
+    "Category": "Cooking",
+    "Edibility": 48,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 500,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Brown Sugar",
+            "Count": 1,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+        {
+            "Object": "Ginger",
+            "Count": 1,
+        },
+        {
+            "Object": "Cinnamon Sticks",
+            "Count": 1,
+        },
+        {
+            "Object": "Vanilla",
+            "Count": 1,
+        }],
+        "IsDefault": true,
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Haley", "Maru", "Sebastian"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+        "Neutral": ["Emily", "Krobus", "Willy"],
+        "Hate": ["Evelyn"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        "ko": "진저브레드 하우스",
+        "de": "Lebkuchenhaus",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        "ja": "ジンジャーブレッドハウス",
+        "pt": "Casa de Gengibre",
+        // "ru": "",
+        // "tr": "",
+        "zh": "姜饼屋",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "크리스마스에 주로 굽는 생강빵으로 만든 집. 알록달록하게 꾸며져있다.",
+        "de": "Ein Lebkuchenmann sitzt in seinem Lebkuchenhaus. Ist sein Haus aus Lebkuchen oder ist er aus Lebkuchen?",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        "ja": "ジンジャーブレッドの家の中に座っているジンジャーブレッドマン。この家は、彼の肉体でできているのか。それとも彼がこの家でできているのか。",
+        "pt": "Um homem-biscoito entra numa casa de gengibre. Sua casa é de carne ou ele é feito de casa???",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一个姜饼人坐在他的姜饼屋里。他的房子是姜饼做的呢，还是他自身做的呢？",
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "Format": "1.5",
+  "Changes": [
+    // ------------------------------------------------------------------------
+    // Data/FarmAnimals Entry - Raccoon
+    // ------------------------------------------------------------------------
+
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "Adventurous Raccoon": "1/5/104/106/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/6000/Adventurous Raccoon/Barn",
+		"Chubby Raccoon": "1/5/220/206/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/6000/Chubby Raccoon/Barn",
+		"Sneaky Raccoon": "1/5/346/303/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/6000/Sneaky Raccoon/Barn",
+      }
+    },
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+    {
+      "Action": "Load",
+      "Target": "Animals/Adventurous Raccoon",
+      "FromFile": "assets/raccoon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyAdventurous Raccoon",
+      "FromFile": "assets/babyraccoon.png"
+    },
+	 
+    {
+      "Action": "Load",
+      "Target": "Animals/Chubby Raccoon",
+      "FromFile": "assets/chubby_raccoon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyChubby Raccoon",
+      "FromFile": "assets/babyraccoon.png"
+    },
+	{
+      "Action": "Load",
+      "Target": "Animals/Sneaky Raccoon",
+      "FromFile": "assets/sneaky_raccoon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabySneaky Raccoon",
+      "FromFile": "assets/babyraccoon.png"
+    },  	
+	 ]
+}
+

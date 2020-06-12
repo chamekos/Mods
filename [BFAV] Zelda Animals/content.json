@@ -1,0 +1,117 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Type": "Zelda Brown Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Zelda Brown Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/Brown Cow.png",
+            "Baby": "assets/BabyBrown Cow.png"
+          }
+        },
+        {
+          "Type": "Zelda White Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Zelda White Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/White Cow.png",
+            "Baby": "assets/BabyWhite Cow.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Chicken",
+      "Types": [
+        {
+          "Type": "Zelda White Chicken",
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Zelda White Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/White Chicken.png",
+            "Baby": "assets/BabyWhite.png"
+          }
+        },
+        {
+          "Type": "Zelda Blue Chicken",
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Zelda Blue Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Blue Chicken.png",
+            "Baby": "assets/BabyBlue.png"
+          }
+        },
+        {
+          "Type": "Zelda Brown Chicken",
+          "Data": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Zelda Brown Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Brown Chicken.png",
+            "Baby": "assets/BabyBlue.png"
+          }
+        },
+        {
+          "Type": "Zelda Void Chicken",
+          "Data": "1/3/305/-1/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Zelda Void Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Void Chicken.png",
+            "Baby": "assets/BabyVoid.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Duck",
+      "Types": [
+        {
+          "Type": "Zelda Duck",
+          "Data": "2/5/442/444/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Zelda Duck/Coop",
+          "Sprites": {
+            "Adult": "assets/Duck.png",
+            "Baby": "assets/BabyDuck.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Pig",
+      "Types": [
+        {
+          "Type": "Zelda Black Pig",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/Milk Pail/640/16000/Zelda Black Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/PigBlack.png",
+            "Baby": "assets/BabyPig.png"
+          }
+        },
+        {
+          "Type": "Zelda Dot Pig",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/Milk Pail/640/16000/Zelda Dot Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/PigDot.png",
+            "Baby": "assets/BabyPig.png"
+          }
+        },
+        {
+          "Type": "Zelda Pink Pig",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/Milk Pail/640/16000/Zelda Pink Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/PigPink.png",
+            "Baby": "assets/BabyPig.png"
+          }
+        },
+        {
+          "Type": "Zelda White Pig",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/Milk Pail/640/16000/Zelda White Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/PigWhite.png",
+            "Baby": "assets/BabyPig.png"
+          }
+        }
+      ]
+    }
+  ]
+}

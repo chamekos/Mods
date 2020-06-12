@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[MFM] Manure Machines",
+	"Author": "TrentXV",
+	"Version": "1.0.0",
+	"Description": "Sends crafting recipes to the player.",
+	"UniqueID": "manuremachines.MFM",
+	"MinimumApiVersion": "3.2.0",
+	"Dependencies": [
+		{
+			"UniqueID": "BFAVBulls"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

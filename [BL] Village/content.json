@@ -1,0 +1,8 @@
+{
+	"mapname":"Village",
+	"displayname":"Toucan Village",
+	"destinationX":12,
+	"destinationY":30,
+	"arrivalFacing":2,
+	"ticketPrice":250
+}

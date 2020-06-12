@@ -1,0 +1,22 @@
+{
+  "Name": "Soda Vine",
+  "Product": 167,
+  "SeedName": "Soda Vine Starter",
+  "SeedDescription": "Plant these in the spring or summer. Takes 5 days to mature, afterwards it continues to produce every 2 days.",
+  "Type": "Seeds",
+  "Seasons": ["spring", "summer"],
+  "Phases": [1, 1, 1, 1, 1,],
+  "RegrowthPhase": 2,
+  "HarvestWithScythe": false,
+  "TrellisCrop": true,
+  "Colors": null,
+  "Bonus": {
+    "MinimumPerHarvest": 2,
+    "MaximumPerHarvest": 5,
+    "MaxIncreasePerFarmLevel": 5,
+    "ExtraChance": 0.1,
+  },
+  "SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 50,
+  "SeedPurchaseRequirements": null,
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "Clownfish Starter",
+    "Description": "With these little guys you can finally start your clownfish tank!",
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+	"PurchasePrice": 75,
+	"CanPurchase": true,
+	"PurchaseFrom": "Trent_Icon",
+}

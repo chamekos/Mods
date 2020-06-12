@@ -1,0 +1,9 @@
+{
+  "Name": "Soapstone Pot",
+  "Description": "A painted pot made of soapstone.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 375,
+  "Recipe": null,
+   "CanPurchase": false
+}

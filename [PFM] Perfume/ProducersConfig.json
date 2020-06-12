@@ -1,0 +1,13 @@
+﻿[
+	{
+		"ProducerName": "Perfume Machine",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+		"DisableBouncingAnimationWhileWorking": true,
+		"ProducingAnimation":
+		{ 
+			"RelativeFrameIndex": [1,2,3,4,5], 
+			"FrameInterval": 30 
+		},
+	},
+]

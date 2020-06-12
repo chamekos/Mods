@@ -1,0 +1,12 @@
+﻿{
+  "Name": "The Stray Catfe - Maps",
+  "Author": "Sierra Schedin (aka alistairweekend)",
+  "Version": "1.0.3",
+  "Description": "Adds two new maps - the exterior and interior of The Stray Catfe. Also alters the Bus Stop map.",
+  "UniqueID": "alistairweekend.TSCMaps",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": ["Nexus:5533"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

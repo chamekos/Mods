@@ -1,0 +1,11 @@
+{
+  "Format": "1.13.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/fruits.png"
+    }
+  ]
+}

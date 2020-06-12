@@ -1,0 +1,64 @@
+{
+    "Name": "Cherry Blossom Jelly Soda",
+    "Description": "Aromatic cherry syrup is mixed with refreshing sparkling water, plus texture-rich jelly for the finishing touch.",
+    "Category": "Cooking",
+    "Edibility": 65,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 270,
+    "GiftTastes":
+    {
+		"Love": ["Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard", "Vincent", ]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": "Cherry Blossom Jelly",
+            "Count": 1,
+        },
+		{
+            "Object": "Sparkling Water", //Soda maker
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1720,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 젤리 소다",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花果冻气泡水",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "상쾌한 탄산수에 향긋한 벚꽃 시럽을 섞었습니다. 식감이 풍부한 젤리를 더하면 그야말로 화룡정점입니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "芬芳的樱花糖浆与清凉的苏打水混合而成。最后加上质地清透的Q弹果冻，带来画龙点睛的效果。",
+    }
+}

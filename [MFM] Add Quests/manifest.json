@@ -1,0 +1,11 @@
+﻿{
+	"Name": "Add Quests Mail",
+	"Author": "Horanghwa",
+	"Version": "1.0.8",
+	"Description": "Add Quests Mail",
+	"UniqueID": "Horanghwa.AQM",
+	"MinimumApiVersion": "3.0",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	},
+}

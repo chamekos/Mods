@@ -1,0 +1,25 @@
+In order to add Raccoons to Marnie's Ranch you will need to: 
+
+Access Stardew Valley\Mods\Paritee's Better Farm Animal Variety and add the text to the config.json:
+
+"Raccoon": {
+      "Types": [
+        "Adventurous Raccoon",
+	"Chubby Raccoon",
+	"Sneaky Raccoon",
+      ],
+      "Buildings": [
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Raccoon",
+        "Description": "They usually venture outside during the night and bring back some gifts, adventurous will bring artifacts they find in their adventures, chubby will bring food and sneaky will bring artisan goods",
+        "Price": "6000",
+        "Icon": "assets\\animal_shop_raccoon.png"
+      }
+    },
+
+Also, the insert the file: animal_shop_raccoon.png to Stardew Valley\Mods\Paritee's Better Farm Animal Variety\assets to get the incon working in the shop menu.
+
+Any questions mensagem me.

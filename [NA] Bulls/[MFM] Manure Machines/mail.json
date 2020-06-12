@@ -1,0 +1,28 @@
+[
+	{
+		"Id": "manuregrinder",
+		"GroupID": "bulls.MachineRecipes",
+		"Title": "mgrinder.title",
+		"Text": "mgrinder.text",
+		"Recipe": "Manure Grinder",
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 9 }
+		]
+	},
+	{
+		"Id": "fertlizermixer",
+		"GroupID": "bulls.MachineRecipes",
+		"Title": "fmixer.title",
+		"Text": "fmixer.text",
+		"Recipe": "Fertilizer Mixer",
+		"Date": "1 spring Y1",
+		"Repeatable": false,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 9 }
+		]
+	},
+]

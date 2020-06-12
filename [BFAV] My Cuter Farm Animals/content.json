@@ -1,0 +1,86 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Pig",
+      "Types": [
+        {
+          "Type": "Cuter Pig",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Cuter Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/Pig.png",
+            "Baby": "assets/BabyPig.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Goat",
+      "Types": [
+        {
+          "Type": "Cuter Goat",
+          "Data": "2/5/436/438/goat/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/10/5/Milk Pail/644/4000/Cuter Goat/Barn",
+          "Sprites": {
+            "Adult": "assets/Goat.png",
+            "Baby": "assets/BabyGoat.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Type": "Cuter Sheep",
+          "Data": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Cuter Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/Sheep.png",
+            "Baby": "assets/BabySheep.png",
+            "ReadyForHarvest": "assets/ShearedSheep.png"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Update",
+      "Category": "Chicken",
+      "Types": [
+        {
+          "Type": "Cuter White Chicken",
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Cuter White Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/White Chicken.png",
+            "Baby": "assets/White Chicken.png"
+          }
+        },
+        {
+          "Type": "Cuter Brown Chicken",
+          "Data": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Cuter Brown Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Brown Chicken.png",
+            "Baby": "assets/Brown Chicken.png"
+          }
+        },
+        {
+          "Type": "Cuter Blue Chicken",
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Cuter Blue Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Blue Chicken.png",
+            "Baby": "assets/Blue Chicken.png"
+          }
+        },
+        {
+          "Type": "Cuter Void Chicken",
+          "Data": "1/3/180/182/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/7/4/null/641/800/Cuter Void Chicken/Coop",
+          "Sprites": {
+            "Adult": "assets/Void Chicken.png",
+            "Baby": "assets/Void Chicken.png"
+          }
+        }
+      ]
+    }
+  ]
+}

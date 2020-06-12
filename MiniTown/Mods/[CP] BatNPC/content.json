@@ -1,0 +1,72 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Bati": "adult/neutral/outgoing/neutral/male/not-datable/null/Other/summer 27//MiniTown 112 19/Bati"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Bati_hanging": "16/16 16 17 18 18 18 19/19",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Bati",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Bati Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Bati",
+      "FromFile": "assets/Image/BatiPortraits.png"
+
+    },
+
+    {
+
+      "LogName": "Bati Sprites",
+      "Action": "Load",
+      "Target": "Characters/Bati",
+      "FromFile": "assets/Image/BatiSprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Bati",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Bati",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+    ],}

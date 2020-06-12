@@ -1,0 +1,56 @@
+{
+  "name": "Cecilia goes to Festivals",
+  "version": "1.0.0", 
+  "author": "balverines",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Cecilia",
+	    "map": "Town-EggFestival", 
+		"position": [42, 79],
+		"direction": 1
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Forest-FlowerFestival", 
+		"position": [41, 42],
+		"direction": 2
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Beach-Luau", 
+		"position": [14, 39],
+		"direction": 2
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Beach-Jellies", 
+		"position": [48, 19],
+		"direction": 2
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Town-Fair", 
+		"position": [22, 65],
+		"direction": 0
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Town-Halloween", 
+		"position": [29, 23],
+		"direction": 1
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Forest-IceFestival", 
+		"position": [13, 43],
+		"direction": 2
+		},
+		{
+		"name": "Cecilia",
+	    "map": "Town-Christmas", 
+		"position": [19, 52],
+		"direction": 2
+		},
+	]
+}

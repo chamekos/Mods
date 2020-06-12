@@ -1,0 +1,16 @@
+{
+   "Name": " CP MikuHouse",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Adds Miku's house.",
+   "UniqueID": "ChaseXavier.CPMikuHouse",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys":"",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   },
+   "Dependencies": [ 
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	}	],
+}

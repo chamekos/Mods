@@ -1,0 +1,12 @@
+{
+  "Name": "Spooky Ghost Horse",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.1",
+  "Description": "Add a new horse as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.SpookyGhostHorse",
+  "UpdateKeys": [ "Nexus:3401"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

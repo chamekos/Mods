@@ -1,0 +1,11 @@
+1.2.2
+Fixed manifest.
+1.2.1
+Fixed portraits and added seasonal sprites.
+1.2.0
+	Added changelog file and bug fixes. Shouko's dialogue becomes more comprehendable the more hearts you have. Dialogue now for everyday of the year.
+New portraits.
+1.1.0
+	Fixed some bugs and some dialogue, added animation. BUGS EXIST IN THIS VERSION.
+1.0.0
+	Added First version of mod, includes basic dialogue and schedule

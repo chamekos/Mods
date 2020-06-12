@@ -1,0 +1,12 @@
+{
+  "Name": "KvoorPlaques",
+  "Author": "Kvoor",
+  "Version": "1.1.2",
+  "Description": " The legendary fish as plaques for the home!",
+  "UniqueID": "Kvoor.KvoorPlaques",
+   "UpdateKeys": ["Nexus:1394"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.9.2"
+  }
+}

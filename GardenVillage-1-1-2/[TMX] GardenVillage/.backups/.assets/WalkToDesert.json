@@ -1,0 +1,28 @@
+{
+  "name": "Walk to Desert",
+  "version": "1.0.0",
+  "author": "Tarniyar",
+  "addMaps": [
+    {
+      "name": "ForestRoad",
+      "file": "wtd_forestroad.tmx",
+    },
+//	{
+//      "name": "JungleTempleInterior",
+//      "file": "JungleTempleInterior.tmx",
+//    },
+
+  ],
+  "mergeMaps": [
+    {
+      "name": "Tunnel",
+	  "file": "wtd_tunnel.tmx",
+	  "sourceArea": [0,0,14,14],
+	  "position": [0,0]//,
+//      "addWarps": [
+//        "7 -1 JungleTempleExterior 14 34",
+//		"8 -1 JungleTempleExterior 15 34"
+//      ]
+    }
+  ]
+}

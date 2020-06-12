@@ -1,0 +1,12 @@
+{
+  "Name": "Cutter Animals",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.1.0",
+  "Description": "Add a My Cuter Farm Animals as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.MyCuterFarmAnimals",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:4016"],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "Name": "Anemone",
+    "Description": "It's a perfect addition to your clownfish tank!",
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+	"PurchasePrice": 50,
+	"CanPurchase": true,
+	"PurchaseFrom": "Trent_Icon",
+}

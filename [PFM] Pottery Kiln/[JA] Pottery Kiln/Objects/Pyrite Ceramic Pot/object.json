@@ -1,0 +1,9 @@
+{
+  "Name": "Pyrite Ceramic Pot",
+  "Description": "A pot with a glaze made of pyrite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 360,
+  "Recipe": null,
+   "CanPurchase": false
+}

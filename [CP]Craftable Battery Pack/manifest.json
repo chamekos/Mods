@@ -1,0 +1,11 @@
+{
+   "Name": "[CP]Craftable Battery Pack",
+   "Author": "Elibriss",
+   "Version": "1.1.0",
+   "Description": "Allows you to craft Battery Packs one of two ways",
+   "UniqueID": "Elibriss.CraftBatteryPack",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

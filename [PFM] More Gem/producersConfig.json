@@ -1,0 +1,12 @@
+[
+	{
+		"ProducerName":"Marine Jewel Farm",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+	{
+		"ProducerName":"Mineral Rifiner",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false 
+	},
+]

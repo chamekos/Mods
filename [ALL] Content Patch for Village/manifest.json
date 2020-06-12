@@ -1,0 +1,11 @@
+{
+  "Name": "[ALL] Content Patch for Village",
+  "Author": "TNT",
+  "Version": "0.0.1",
+  "Description": "-",
+  "UniqueID": "TNT.ContentPatchForVillage",
+  "MinimumApiVersion": "2.9.3",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

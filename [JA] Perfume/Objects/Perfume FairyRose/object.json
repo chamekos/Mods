@@ -1,0 +1,37 @@
+{
+	"Name": "FairyRose Perfume",
+	"Description": "You can feel the scent of magic.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 575,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "요정장미 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "玫瑰仙子香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "마법의 향기를 느낄 수 있습니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "可以感受到一种带着魔力的味道。",
+	}
+}

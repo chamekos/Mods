@@ -1,0 +1,37 @@
+{
+	"Name": "Apricot Perfume",
+	"Description": "Sweet apricot scent.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 275,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "살구 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "甜杏香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "달콤한 살구 향.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "甜蜜的杏子香气。",
+	}
+}

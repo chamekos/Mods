@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[CF] Pool Table",
+  "Description": "Adds the Saloon's Pool Table & Pool Cues as furniture.",
+  "Author": "BlatantDecoy",
+  "Version": "1.0.0",
+  "UniqueID": "BlatantDecoy.CustomFurniture.PoolTable",
+  "ContentPackFor": {
+	"UniqueID": "Platonymous.CustomFurniture",
+  },
+   "UpdateKeys": [ "Nexus:6195" ],
+}

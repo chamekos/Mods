@@ -1,0 +1,17 @@
+{
+  "Name": "Glass Bottle",
+  "Description": "Be careful, it's fragile!",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 0,
+  "IsColored": false,
+  "GiftTastes": {
+    "Neutral": ["Abigail", "Alex", "Caroline", "Haley", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard", "Leah"],
+  },
+  "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Clint",
+    "PurchasePrice": 500,
+    "PurchaseRequirements": null,
+}

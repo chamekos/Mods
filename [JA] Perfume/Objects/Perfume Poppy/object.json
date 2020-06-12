@@ -1,0 +1,37 @@
+{
+	"Name": "Poppy Perfume",
+	"Description": "A delicate scent of poppy.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 365,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "양귀비 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "罂粟香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "은은한 양귀비 향.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "散发出细腻的罂粟花香。",
+	}
+}

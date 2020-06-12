@@ -1,0 +1,26 @@
+{
+  "name": "Distillery",
+  "Description": "Distill wine into brandy, ale into whiskey, etc.",
+  "price": 1,
+  "provideslight": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 337,
+            "Count": 2,
+        },
+        {
+            "Object": 338,
+            "Count": 5,
+        },
+	{
+	    "Object": 709,
+	    "Count": 20,
+	},
+        ],
+      "SkillUnlockName": "Farming",
+      "SkillUnlockLevel": 8,
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Minu",
+  "Author": "Horanghwa",
+  "Version": "1.0.0",
+  "Description": "add Minu.",
+  "UniqueID": "Horanghwa.Minu",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:6002" ],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+  }
+}

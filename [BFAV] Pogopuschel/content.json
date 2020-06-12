@@ -1,0 +1,19 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Rabbit",
+      "Types": [
+        {
+          "Type": "Pogopuschel",
+          "Data": "4/6/440/446/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/10/5/null/643/8000/Pogopuschel/Coop",
+          "Sprites": {
+            "Adult": "assets/Rabbit.png",
+            "Baby": "assets/babyrabbit.png"
+          }
+        }
+      ]
+    }
+  ]
+}

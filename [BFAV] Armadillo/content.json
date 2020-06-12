@@ -1,0 +1,32 @@
+{
+  "Format": "1.5",
+  "Changes": [
+    // ------------------------------------------------------------------------
+    // Data/FarmAnimals Entry - Armadillo
+    // ------------------------------------------------------------------------
+
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "Armadillo": "1/4/535/749/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/2500/Armadillo/Coop",
+		
+      }
+    },
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+    {
+      "Action": "Load",
+      "Target": "Animals/Armadillo",
+      "FromFile": "assets/Armadillo.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyArmadillo",
+      "FromFile": "assets/babyarmadillo.png"
+    },
+
+	 ]
+}
+

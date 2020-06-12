@@ -1,0 +1,32 @@
+{
+    "Format": "1.14.0",
+    "ConfigSchema": {
+        "Frame": {
+            "AllowValues": "true, false",
+                "Default": "true"
+                 },
+        },
+   
+   "Changes": [
+        {
+         "Action": "EditImage",
+         "Target": "Tilesheets/furniture",
+         "FromFile": "assets/poster_frame.png",
+         "FromArea": { "X": 0, "Y": 976, "Width": 128, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 976, "Width": 128, "Height": 32 },
+         "When": {
+                "Frame": "true",
+         }
+        },
+        {
+         "Action": "EditImage",
+         "Target": "Tilesheets/furniture",
+         "FromFile": "assets/poster_no_frame.png",
+         "FromArea": { "X": 0, "Y": 976, "Width": 128, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 976, "Width": 128, "Height": 32 },
+         "When": {
+                "Frame": "false"
+         }
+        }
+   ]
+}

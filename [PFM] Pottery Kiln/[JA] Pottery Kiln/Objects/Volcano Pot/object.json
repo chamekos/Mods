@@ -1,0 +1,9 @@
+{
+  "Name": "Volcano Pot",
+  "Description": "A pot made of basalt.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 525,
+  "Recipe": null,
+   "CanPurchase": false
+}

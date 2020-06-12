@@ -1,0 +1,8 @@
+{
+	"mapname":"MikuHouse",
+	"displayname":"Miku's House",
+	"destinationX":3,
+	"destinationY":12,
+	"arrivalFacing":1,
+	"ticketPrice":100
+}

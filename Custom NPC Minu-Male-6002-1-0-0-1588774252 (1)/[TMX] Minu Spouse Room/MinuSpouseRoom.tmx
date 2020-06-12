@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2020.04.10" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="13">
+ <tileset firstgid="1" name="sproomsts" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="sproomsts.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="BackSpouse" width="7" height="10">
+  <data encoding="csv">
+2014,2015,2015,2015,2015,2015,0,
+2047,2047,2047,2047,2047,2047,0,
+2079,2079,2079,2079,2079,2079,0,
+1036,1036,1036,1036,1036,1036,0,
+1032,1032,1032,1032,1033,1034,0,
+1057,1057,1057,1057,1058,1059,0,
+1032,1032,1032,1032,1032,1032,0,
+1057,1057,1057,1057,1057,1057,0,
+1032,1032,1032,1032,1032,1032,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="FrontSpouse" width="7" height="10">
+  <data encoding="csv">
+0,0,2284,0,0,0,0,
+0,0,2284,2284,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,1060,0,1060,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="BuildingsSpouse" width="7" height="10">
+  <data encoding="csv">
+2014,0,0,0,0,2016,2044,
+2508,2509,0,0,0,0,2044,
+2540,2541,2079,2079,2591,2592,2044,
+0,0,0,0,2623,2624,2044,
+0,0,0,0,0,0,2044,
+0,0,0,817,818,819,2044,
+0,0,0,842,843,844,2044,
+0,0,0,867,868,869,2044,
+0,0,0,0,0,0,2044,
+1976,1976,1976,1976,1976,1976,2143
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFrontSpouse" width="7" height="10">
+  <data encoding="csv">
+2015,0,0,0,0,2015,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,988,892,0,
+0,0,0,0,0,0,0,
+2172,2172,2172,2172,2172,2142,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="7" height="10">
+  <data encoding="csv">
+2014,0,0,0,0,2016,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="BackSpouse" locked="1"/>
+ <objectgroup id="7" name="BuildingsSpouse" locked="1"/>
+ <objectgroup id="8" name="FrontSpouse" locked="1"/>
+ <objectgroup id="9" name="AlwaysFrontSpouse" locked="1"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

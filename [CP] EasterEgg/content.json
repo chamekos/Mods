@@ -1,0 +1,20 @@
+{
+  "Format": "1.14",
+  "Changes": [
+		{
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/EasterEgg.png",
+		"FromArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16 }, 
+        "ToArea": { "X": 224, "Y": 288, "Width": 16, "Height": 16 },
+       },
+       {
+          "Action": "EditData",
+          "Target": "Data/ObjectInformation",
+          "Fields": {
+             "446": {0:"Easter Egg",4:"Easter Egg",5:"A chocolate egg wrapped in foil, where did it come from?"},
+          },
+		  },
+		  
+		 ]
+}

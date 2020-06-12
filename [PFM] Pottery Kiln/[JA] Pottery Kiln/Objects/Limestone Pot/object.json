@@ -1,0 +1,9 @@
+{
+  "Name": "Limestone Pot",
+  "Description": "A pot made of limestone.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 100,
+  "Recipe": null,
+   "CanPurchase": false
+}

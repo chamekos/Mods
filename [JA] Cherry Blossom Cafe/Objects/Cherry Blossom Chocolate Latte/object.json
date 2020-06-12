@@ -1,0 +1,70 @@
+{
+    "Name": "Cherry Blossom Chocolate Latte",
+    "Description": "White chocolate drink with cherry blossom syrup and cream.",
+	"Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 500,
+    "GiftTastes":
+    {
+		"Love": ["Vincent", "Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard",],
+		"Neutral": ["Leah"],
+        "Dislike": ["Krobus", "Willy"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any Milk
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": "Cocoa Pod",
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1630,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 초콜렛 라떼",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花巧克力拿铁",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "화이트 초콜렛 드링크에 벚꽃향 시럽을 듬뿍 더하고 벚꽃 크림을 올렸습니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "在白巧克力热饮中添加了樱花糖浆和樱花奶油的一款饮品。",
+    }
+}

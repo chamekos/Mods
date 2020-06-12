@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="40" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="5">
+ <properties>
+  <property name="AmbientLight" value="220 240 130"/>
+  <property name="Music" value="Upper_Ambient"/>
+  <property name="Warp" value="40 7 Backwoods 23 30 40 8 Backwoods 23 30 40 9 Backwoods 23 30 40 10 Backwoods 23 30 40 11 Backwoods 23 30 40 12 Backwoods 23 30"/>
+  <property name="asdf" value="asdf"/>
+ </properties>
+ <tileset firstgid="1" name="out" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
+  <image source="paths" width="64" height="128"/>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAw162Whvxwq2wYF70fBgcx86HgnuY2ahnfsmDnIsz0I+jiVTPzH6YGoUgdgaSiNjbGK4MCG1pJiFrp4Uv5IbXqSGJS3soWb8I+uFgXI2+uFYPHKjgLoAAEqgp9s=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJybxMbAMGkUD1u8ahQPOF49CNwwUHgUjIJRMHTBQNdfQx0DAHnE5MI=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="272" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="TunnelSafe"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="TunnelSafe"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dwgwo2+uobBaNgFIwCWoNJbIMbjwLKAADX+Ri9
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAoOsNNXH6V6BxsYDb+hA2DhNhp+lIHR8Bv+AADhlwcA
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths">
+  <object id="3" name="TileData" x="0" y="112" width="16" height="112">
+   <properties>
+    <property name="Action" value="Warp 58 16 wtd_ForestRoad 1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,38 @@
+{
+  "Name": "Purple Coneflower Syrup",
+  "Description": "A fragrant jug of syrup made from Purple Coneflowers.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization":
+  {
+	// "es": "",
+    "ko": "자주루드베키아 시럽",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  },
+  "DescriptionLocalization":
+  {
+	// "es": "",
+    "ko": "자주루드베키아로 만든 향긋한 시럽.",
+    // "de": "",
+    // "fr": "",
+    // "hu": "",
+    // "it": "",
+    // "ja": "",
+    // "pt": "",
+    // "ru": "",
+    // "tr": "",
+    //"zh":"",
+  }
+}

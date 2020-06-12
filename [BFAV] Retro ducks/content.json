@@ -1,0 +1,19 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Duck",
+      "Types": [
+        {
+          "Type": "Retro Ducks",
+          "Data": "2/5/442/444/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Retro Ducks/Coop",
+          "Sprites": {
+            "Adult": "assets/Duck.png",
+            "Baby": "assets/Duck.png"
+          }
+        }
+      ]
+    }
+  ]
+}

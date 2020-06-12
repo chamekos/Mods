@@ -1,0 +1,110 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": "Tangerine",
+      "Tile": "22, 17",
+      "Type": "Forage",
+      "ID": 3425,
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "28, 13",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 10,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "PercentChanceToSpawn": 1.0,
+        "Contents": [
+          116
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Tangerine",
+      "Tile": "17, 14",
+      "Type": "Forage",
+      "ID": 3425,
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "19, 10",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "9, 26",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "25, 24",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "19, 16",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "buried",
+        "Contents": [
+          "Mosasaur Rib"
+        ]
+      },
+      "MonType": null
+    }
+  ]
+}

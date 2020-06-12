@@ -1,0 +1,37 @@
+{
+	"Name": "Tulip Perfume",
+	"Description": "I think I can scent the scent of tulips from afar.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 255,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "튤립 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "郁金香香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "튤립의 향긋한 향기는 멀리서도 맡을 수 있을것 같습니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "似乎能闻到从遥远的远方传来的郁金香花香气。",
+	}
+}

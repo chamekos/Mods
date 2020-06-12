@@ -1,0 +1,9 @@
+{
+  "Name": "Jagoite Ceramic Pot",
+  "Description": "A pot with a glaze made of jagoite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 345,
+  "Recipe": null,
+   "CanPurchase": false
+}

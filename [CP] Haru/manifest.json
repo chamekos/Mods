@@ -1,0 +1,12 @@
+{
+  "Name": "Haru",
+  "Author": "Horanghwa",
+  "Version": "1.0.2",
+  "Description": "add Haru",
+  "UniqueID": "Horanghwa.Haru",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:5884" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

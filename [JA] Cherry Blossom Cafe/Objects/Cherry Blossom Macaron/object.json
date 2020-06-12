@@ -1,0 +1,68 @@
+{
+    "Name": "Cherry Blossom Macaron",
+    "Description": "A large Korean style macaron made from cherry blossom flavor merengue and cream with plenty of strawberries.",
+    "Category": "Cooking",
+    "Edibility": 75,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 700,
+    "GiftTastes":
+    {
+		"Love": ["Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard","Vincent", ]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": "Almond",  //More tree
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any milk
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3100,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 마카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花马卡龙",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "고소한 코크와 크림에 벚꽃 향을 첨가하고, 딸기를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "一款超大的韩式马卡龙，由樱花味的梅伦格和奶油制成，同时夹心里包含了大量的新鲜草莓。",
+    }
+}

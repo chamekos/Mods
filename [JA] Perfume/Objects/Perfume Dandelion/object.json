@@ -1,0 +1,37 @@
+{
+	"Name": "Dandelion Perfume",
+	"Description": "A general dandelion scent",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 265,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "민들레 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "蒲公英香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "흔한 민들레 향.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "普通的蒲公英香气。",
+	}
+}

@@ -1,0 +1,57 @@
+{
+
+  "name": "Miku Festival Locations",
+  "version": "1.1.0", 
+  "author": "ChaseXavier",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Miku",
+	    "map": "Town-EggFestival", 
+		"position": [35, 36],
+		"direction": 3
+		},
+		{
+		"name": "Miku",
+	    "map": "Forest-FlowerFestival", 
+		"position": [10, 34],
+		"direction": 3
+		},
+		{
+		"name": "Miku",
+	    "map": "Beach-Luau", 
+		"position": [27, 7],
+		"direction": 2
+		},
+		{
+		"name": "Miku",
+	    "map": "Beach-Jellies", 
+		"position": [10, 39],
+		"direction": 2
+		},
+		{
+		"name": "Miku",
+	    "map": "Town-Fair", 
+		"position": [37, 68],
+		"direction": 3
+		},
+		{
+		"name": "Miku",
+	    "map": "Town-Halloween", 
+		"position": [32, 73],
+		"direction": 3
+		},
+		{
+		"name": "Miku",
+	    "map": "Forest-IceFestival", 
+		"position": [78, 28],
+		"direction": 2
+		},
+		{
+		"name": "Miku",
+	    "map": "Town-Christmas", 
+		"position": [27, 65],
+		"direction": 2 
+		},
+	]
+}

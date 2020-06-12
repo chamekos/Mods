@@ -1,0 +1,12 @@
+{
+  "Name": "Harvest Moon Cows",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.0",
+  "Description": "Add a new Harvest Moon Cows as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.HarvestMoonCows",
+  "MinimumApiVersion": "3.5.0",
+  "UpdateKeys": [ "Nexus:3634" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

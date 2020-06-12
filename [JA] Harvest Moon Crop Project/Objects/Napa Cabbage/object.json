@@ -1,0 +1,9 @@
+{
+  "Name": "Napa Cabbage",
+  "Description": "A cool season crop. It originated in China and spread throughout Asia.",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

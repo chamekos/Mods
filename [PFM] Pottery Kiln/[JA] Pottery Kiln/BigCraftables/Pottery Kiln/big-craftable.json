@@ -1,0 +1,11 @@
+{
+  "Name": "Pottery Kiln",
+  "Description": "Turns clay and ore or minerals into glazed pottery.",
+  "Price": 1,
+  "ProvidesLight": false,
+  "ReserveNextIndex": true,
+  "Recipe": null,
+  "CanPurchase": true,
+  "PurchaseFrom": "Clint",
+  "PurchasePrice": 5000,
+}

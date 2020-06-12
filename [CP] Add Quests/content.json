@@ -1,0 +1,10 @@
+﻿{
+    "Format": "1.13",
+    "Changes": [
+	{
+	"Action": "EditData",
+	"Target": "Data/Quests",
+	"FromFile": "assets/{{Language}}/Quests.json",
+	}
+  ]
+}

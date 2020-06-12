@@ -1,0 +1,37 @@
+{
+	"Name": "Fruit Perfume",
+	"Description": "Sweet perfume made of fruit.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 200,
+	"IsColored": true,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "과일 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "果香香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "과일로 만든 달콤한 향수.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "由新鲜水果制成的甜香香水。",
+	}
+}

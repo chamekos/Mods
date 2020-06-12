@@ -1,0 +1,55 @@
+﻿{
+   "Format": "1.13.0",
+   "Changes": [
+
+
+{
+	"Action": "EditData",
+        "Target": "strings/StringsFromMaps",
+        "Entries": {
+		"JunimoV.1": "Junimo:'Hello there! Your arrival has been foretold for many years. The Junimos from the Community Centre must have sent you!'",
+		"JunimoV.2": "Junimo:'Hi! Welcome to Shadow Cove's very own Junimo village! We haven't had a visitor in so long - especially of the human kind.'",
+		"JunimoV.3": "Junimo:'H-hi... Jerry told me that you were friends with the Wizard. He used to visit this place all the time hehe...'",
+		"JunimoV.4": "Junimo:'Our group of Junimos has been living here for a few thousand years now. I'm guessing the wizard put a spell on your bus so you could arrive here.'",
+		"JunimoV.5": "Junimo:'Oh... it's you. It was foretold you would arrive here. I am one of the Wizard's Junimo apprentices - well, WAS. When the Wizard used to visit.",
+		"JunimoV.6": "Junimo:'Hello human! Welcome to the Village Square! We sell all sorts - but I'm not sure our products would be healthy for your kind...'",
+		"JunimoV.7": "This Junimo looks a little scared but waves at you anyway.",
+		"JunimoV.8": "Junimo:'Oh as soon as I heard you were arriving soon here I got so so so excited! Welcome!'",
+		"JunimoV.9": "Junimo:'Hi hi! I hope you enjoy your time here!'",
+		"JunimoV.10": "Junimo:'Fresh apples and sweet gem berries! Only three golden leaves each! It's a bargain!'",
+		"JunimoV.11": "Junimo:'Hehehe!'",
+		"JunimoV.12": "Junimo:'Hehe! Hello!'",
+		"JunimoV.13": "This Junimo looks a bit unnerved by you.",
+		"JunimoV.14": "Junimo:'Candles! Come buy some special sweet gem wax candles! Five golden leaves each!'",
+		"JunimoV.15": "Junimo:'Potions and juices! Need something to spruce up your natural neon colour? Step right up!'",
+		"JunimoV.16": "Junimo:'Hello! Every day I pick sweet gem berries from the forest and feed them to the statue! He likes to give us free stardrops in return!'",
+		"JunimoV.17": "This is another one of the Wizard's old Junimo apprentices. This Junimo ignores you completely.",
+		"JunimoV.18": "Junimo:'Hi hi! This is my house - lovely isn't it? Only 200 golden leaves for this beauty!'",
+		"JunimoV.19": "Junimo:'Hey human! Welcome to my house. Us Junimos usually live separately, but I live with my brothers and sisters. Very cramped, mind you.'",
+		"JunimoV.20": "Junimo:'You would not BELEIVE the amount of noise that comes from that purple junimo's house. Honestly.'",
+		"JunimoV.21": "Junimo:'Isn't it great that as soon as you step into Shadow Cove you can understand us! Though I bet you drank a nature potion to understand us anyway...'",
+		"JunimoV.22": "Junimo:'Us Junimos LOVE nature. We even do farming! Hey, doesn't that make you a Junimo since you're a farmer?'",
+		"JunimoV.23": "Junimo:'Hehe! Hello! If my husband here is rude to you, just ignore him. He's cranky around strangers - especially humans.'",
+		"JunimoV.24": "Junimo:*angry grumbles and mutters*",
+		"JunimoV.25": "Junimo:'Hello! I was hoping you'd talk to a lot of Junimos here so you would come talk to me! Tell me, do you ever talk to the wizard? Are you his friend? He's lovely isn't he?'",
+		"JunimoV.26": "Junimo:'Howdy! My name is Judy and this is my brother James. Nice to meet ya!'",
+		"JunimoV.27": "Junimo:'Hi there! I'm James, and this is my sister Judy. See ya around!'",
+		"JunimoV.28": "Junimo:'Ah, the farmer right? The spirits told us of your arrival. Welcome.'",
+		"JunimoV.29": "This Junimo seems troubled, and is staring at the bridge. How strange.",
+		"JunimoV.30": "This Junimo waves at you, and seems to be waiting for something.",
+		"JunimoV.31": "Junimo:'For the love of Yoba, mom's gonna be so mad... I accidently dropped Joey down the well!'",
+		"JunimoV.32": "Junimo:'Timmy?! Can you hear us?!'",
+		"JunimoV.33": "You can see a building between the trees... but it's blocked off by something. It's a strange sort of wall. Maybe the Junimos could help you?",
+		"ForestP.1": "This wierd statue has red eyes. It's holding a sweet gem berry in it's stone hands. You notice a bowl of sweet gem berries hidden under a bush, but too far away to grab.",
+		"ForestP.2": "More sweet gem berries!",
+		"ForestP.3": "A small trough full of fresh water. You wonder who this is for.",
+		"ForestP.4": "These woods are littered with broken pillars. You wonder what this forest used to be.",
+		"JunimoB.1": "The sign is old and cracked, but you can just make out the words 'Shadow Cove downwards'",
+		"Cove.1": "-Junimo Village to the left",
+		"Cove.2": "Shadow Cove to the right-",
+		}
+	}
+]
+}
+
+

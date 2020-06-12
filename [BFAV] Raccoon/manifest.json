@@ -1,0 +1,12 @@
+{
+  "Name": "Raccoon",
+  "Author": "Trent XV",
+  "Version": "1.1.3",
+  "Description": "Adds Raccoon as a new entry to Data/FarmAnimals",
+  "UniqueID": "Raccoon",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3470"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

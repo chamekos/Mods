@@ -1,0 +1,9 @@
+{
+  "Name": "Celestial Ceramic Pot",
+  "Description": "A pot with a glaze made of celestine.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 375,
+  "Recipe": null,
+   "CanPurchase": false
+}

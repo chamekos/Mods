@@ -1,0 +1,12 @@
+{
+  "Name": "The Stray Catfe - Characters",
+  "Author": "Sierra Schedin (aka alistairweekend)",
+  "Version": "1.0.3",
+  "Description": "Adds two new NPCs, Tabitha and Theo.",
+  "UniqueID": "alistairweekend.TSCCharacters",
+  "MinimumApiVersion": "2.9",
+  "UpdateKeys": ["Nexus:5533"],
+  "ContentPackFor": {
+  	"UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

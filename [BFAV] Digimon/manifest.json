@@ -1,0 +1,12 @@
+{
+  "Name": "Agumon",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.1.1",
+  "Description": "Add a Agumon as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.digimon",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3417"],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

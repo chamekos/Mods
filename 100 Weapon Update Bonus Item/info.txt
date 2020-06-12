@@ -1,0 +1,15 @@
+Old Item Sprite by Koucya
+
+Just delete this if you want, this is not necessary for my mod.
+
+v. 1.0.1
+- Refined Item Sprite, it is now made by me.
+
+v. 1.0.2
+- Changed item name from 'Pudding' to 'Custard Pudding'.
+No need to delete the old file, I didn't change the folder name.
+
+v. 1.0.3
+- Changed 'Custard Pudding' folder name. Delete the old file or change its name to 'Custard Pudding'.
+- Added 150th weapon bonus item. 'Homemade Energy Drink'
+- Also added a 'Glass Bottle'. It is needed for the 'Homemade Energy Drink' recipe.

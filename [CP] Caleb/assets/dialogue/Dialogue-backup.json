@@ -1,0 +1,111 @@
+{
+  //NOTE If you're here to take a look around go ahead. If you're to change anything, please contact the modder instead.
+
+  //SPECIFICS
+  "Introduction": "Hi, you must be @.$b#I'm Caleb di Flagro of the Foribus Regis Guild.$1#$b#Hopefully we'll start on the right foot from this day on!$4",
+  "Beach_32_19": "Ah, are you here to do some exercises as well?$7#$b#Don't mind me, I'll just be here for a while.$8",
+  "Beach10_32_19": "Ah....?$b#Are you here to join me?$7#$b#Please don't look at me that much, it's bad for my heart.$9",
+  "Saloon_25_23": "Hey there. What brought you here?$0#$b#I'll just stay here until my ride back to Sistenasi comes back for me.$2",
+  "Saloon4_25_23": "Nice seeing a familiar place in the saloon.$2#$b#Wanna talk for a while before I go back home?$1",
+  "ArchaeologyHouse": "There are a lot of reading materials in this museum$0#$b#But I think they should expand their collections more than this.$1",
+  "Forest_20_50": "W-What are you doing here at this time?!$3#$b#I don't want anyone to know that I can use magic...$6#$b#Keep this a secret, okay?$5",
+  "Forest8_20_50": "Hey @. Did you come here to visit me?$0#$b#When no one's around, I help Mr. Rasmodius with balancing the magical energy outside the town.$1#$b#Of course, I ain't as good as him with this kind of stuff.$2",
+  "Forest10_20_50": "@, I'm pretty sure you didn't just go here by mistake.$2#$b#I'm getting better with my fire and ice Magic.$1$b#Here, let me show you what tricks I can do.$2",
+  "BathHouse_Pool": "I didn't expect someone will be here at this hour.$3#$bNothing beats a spa night before Monday comes again, eh?$2",
+  "BathHouse_Pool10": "...$5#$b#You really look good in that...$2#$b#Should we take a dip together?$3",
+
+  //LOCATION ENTRY
+  "SeedShop_Entry": "Hello Mr. Pierre!/How goes your business, Mr. Pierre?/Your shop is looking fine as always./Hi, any new items you got for sale?",
+  "Saloon_Entry": "Good evening, Mr. Gus./Good evening to everyone, is everything alright here?/Something smells lovely here. What are you cooking?/I'll have a cup of tea, please.",
+  "ArchaeologyHouse_Entry": "Good day, Mr. Gunther./Tell me, anything new you got in the museum lately?/I've scouted the other museums around Ferngill Republic. This list might come in handy someday.",
+  "WizardHouse_Entry": "Hi Mr. Rasmodius, do you need assistance?/Foribus Regis has asked me to give you this information./Are there any magical imbalance that I could help with?",
+
+  //WEATHER
+  "Rainy_Day": "It's quite relaxing whenever you hear the sound of rain pouring down, don't you think?$1",
+  "Rainy_Day10": "Ah, @... I was just thinking about you.$3#$e#Maybe we could go to your house and enjoy a cup of coffee or something?$4#$b#It's nice to spend a rainy day with someone close to you, don't you think?$2",
+
+  //SPRING GENERIC
+  "spring_1": "Happy New Year, @!$b#Do you have any resolutions planned ahead?$1",
+
+  "Mon": "It's the first of the weekdays.$b#Do you have something in mind to work on?$1#$e#Well, see ya later.$0",
+  "Mon2": "Hi, is there something I can help you with?$e#Well, see ya later.$1",
+  "Mon4": "Hello, @.$b#Hopefully everything's going well with you?$2",
+  "Mon6": "@, I was about to go to your farm.$3#$b#I was wondering if you and I can have a little chat before we go to our usual schedule.$2",
+  "Mon8": "Hey @!$b# I saw someone in the bus a while ago, and somewhat reminded me of you.$1#$e#Hmmm, I wonder why...$4",
+  "Mon10": "Ah @, it's you...$3#$b#Sorry, I was actually looking forward to seeing you again.$4#$e#If you have time, maybe we could go brew tea together.$2",
+
+  "Tue": "There are a lot of monsters inside the Mines.$b#Make sure that you're prepared before exploring it.$1",
+  "Tue2": "Oh hey, @.$b#Trying to rest away from your farm, I guess?$1#$e#Alright, talk to you later.$0",
+  "Tue4": "Managing a farm on your own must be tiring.$e#Make sure to take a break from time to time.$1",
+  "Tue6": "@, you need something?$3#$e#Well, if you're still waiting for your crops to grow... why don't we head to the Mines and lessen the Aberrations there?$2",
+  "Tue8": "Yo! I have this small dilemma that I was thinking about...$3#$b# What do you think is the best time to visit the Mines?$0#$e#Well, it's probably better to just base it off on our current schedule, yes?$1",
+  "Tue10": "@, Mr. Marlon told me that you're experienced with fighting the Aberrations in the Mines.$b#I was thinking... maybe you could join me exploring the depths someday?$4#$e#That is, if you are free of course.$3",
+
+  "Wed": "One of my maids told me that Pelican Town offers quality vegetables.$3#$e#I'll be honest, I kind of doubt her opinion.$5",
+  "Wed2": "I'm not used to visiting this side of the country.$e#Though, I think I'm able to adapt a bit of the lifestyle here.$2",
+  "Wed4": "I must admit, some of the products in the valley are of high-quality!$1#$b#I should patronize the businesses here more often.$2",
+  "Wed6": "I've heard the other day from Mayor Lewis that the town needs more financial support.$5#$e#I wonder if I should go donate some of my earnings here...$5",
+  "Wed8": "Hi @!$b#One of the business advisors I got back at my hometown told me that this town is doing better because of your contributions!$1#$e#I'm really happy to know a person such as you.$4",
+  "Wed10": "@!$3#$b#Just the person I'm looking for!$1#$b#I got this fragrant Green Tea for you, hope you like it.[614]$2#$e#This is just a small token of appreciation for being a great contributor to this town... and for being a good friend.$4",
+
+  "Thu": "No doubt, this town has one of the freshest air in this country.$e#Is there something else you want to talk about?$1",
+  "Thu2": "Foribus Regis is really looking forward on their partnership with Pelican Town.$e#I'm not really sure why, but maybe there's something good hidden in this side of the country.$1",
+  "Thu4": "Some of the guild members of Foribus Regis are taking notice of this town's contributions.$e#I'm quite surprised how fast Pelican Town progresses.$3",
+  "Thu6": "How's you farming business going on, @?$b#I hope everything is going well on your part.$1$e#Contact me if you need some assistance, okay?$2",
+  "Thu8": "Good news, @!$b#Foribus Regis has authorized me to give further support for Pelican Town.$1#$e#I've contacted Mr. Pierre and Mayor Lewis about this, and I believe I should inform you too!$1#$b#Hope we can make this town a better place for everyone here.$2",
+  "Thu10": "I'm really glad you came to me this day, @.$b#Foribus Regis asked me to give this to you for supporting this town's economy.[336]$1#$e#Oh, you want to talk to me more?$3#$b#I'm... happy to hear that...$4#$b#Should we grab some food from Gus' Saloon later at night?$2",
+
+  "Fri": "The weekend is almost here.$b#Are you to planning rest after this day?$1#$e#See you later.$0",
+  "Fri2": "*sigh*...$b#Why does it feel more stressful these days...$5#$b#Oh you're there.$3#$b#Do you need anything?$0",
+  "Fri4": "Hey @.$b#Getting yourself more supplies?$b#Or you're just resting for a while?$e#Chat with you later.$2",
+  "Fri6": "Do you mind if I chat with you for a moment?$2#$e#I just want to get my mind off from some things.$5#$b#Oh! Sorry for taking up your time, @.$3",
+  "Fri8": "Foribus Regis asked me again for some... difficult tasks...$5#$e#I guess this is for the best for everyone's interests, right...?$5",
+  "Fri10": "@, thank you for everything.$5#$b#Hm? Do I sound different?$3#$b#It's probably just some minor problems taking up the space in my head.$2#$e#Don't worry about it, haha.$0",
+
+  "Sat": "Have I forgotten something...$5#$e#Urgh.. hopefully it isn't something very important.$6",
+  "Sat2": "It should be fine if I...$5#$b#Oh! You're there.$3#$b#Don't mind me, I'm just thinking aloud.$2#",
+  "Sat4": "Hm? Is there something on my face?$3#$b#Woops, I was rushing my breakfast this morning I didn't notice there's a crumb on my face.$4#$e#Thanks for telling, telling though.$2",
+  "Sat6": "Tell me, how much do you know about the people here in Pelican Town?$b#Sometimes it boggles me how they can be satisfied with such a simple life.$6#$e#Apologies if I sounded rude...$3",
+  "Sat8": "I really do appreciate my time here in Pelican Town.$2#$b#It feels like I'm free from the harsh reality of this world.$5#$e#Oh, pardon, I just said something negative didn't I.$3#$b#Please, don't mind me, haha.$1",
+  "Sat10": "Hey, @.$2#$b#I got something for you to eat.[201]$4#$b#I also got mine here with me.$1#$b#Why don't we take a break and eat our meals together?$2",
+
+  "Sun": "Time flies so fast$b#It feels like I haven't done much this week.$1",
+  "Sun2": "Sam, Sebastian, and Abigail approached me last time and asked what I'm doing here in town.$3#$b#I guess I'm starting to intrigue even the younger folks huh.$1",
+  "Sun4": "Do you know Mr. Rasmodius?$b#He is a nice man who always act for the safety of the town.$1#$e#Not everybody knows his accomplishments, but he is a really talented Magus.$1",
+  "Sun6": "The enchanted forest near the town is brimming with intriguing source of Magic.$e#Do you think we should pay a visit and see what holds for us there?$1",
+  "Sun8": "You already know that I also hold a magical ability...$b#Do you think I'm a danger to everyone else?$5#$e#I guess I shouldn't worry about the unnecessary things, huh.$3",
+  "Sun10": "@, I was talking to Mr. Rasmodius and he told me that you have a magical potential as well.$b#Take this Life Elixir and make sure you're taking care of yourself, alright?[773]$1#$e#I can't imagine if something bad were to happen to you...$5#$b#So don't do anything stupid, okay?$6",
+
+  //SUMMER GENERIC
+  "summer_1": "Hey there, @!$b#Ah this look?$3#$b#I need to make sure that the heat won't get in the way so I tend to get my haircut.$2",
+
+  "summer_Mon10": "How's the heat treating you, @?$3#$b#Here, I got ourselves some Ice Cream to cool ourselves.[233]$4#$e#Well, eat it up  before it melts away.$2",
+  "summer_Tue10": "Wanna go patrol around the Mines with me, @?$b#Take this, in case you might need it.[351]$2#$e#Alright, meet you there later, okay?$1",
+  "summer_Wed10": "My driver's schedule is always on point.$0#$b#Visiting Pelican Town is definitely a nice experience, don't you think?$1#$e#Hmmm... maybe I should go bring you back in my place someday to go sightseeing.$1#$b#Or we can do more than that...$4",
+  "summer_Thu10": "I'm really glad you came to me this day, @.$b#Foribus Regis asked me to give this to you for supporting this town's economy.[336]$1#$e#Oh, you want to talk to me more?$3#$b#I'm... happy to hear that...$4#$b#Should we grab some food from Gus' Saloon later at night?$2",
+  "summer_Fri10": "@, thank you for everything.$5#$b#Hm? Do I sound different?$3#$b#It's probably just some minor problems taking up the space in my head.$2#$e#Don't worry about it, haha.$0",
+  "summer_Sat10": "Hey, @.$2#$b#I got something for you to eat.[201]$4#$b#I also got mine here with me.$1#$b#Why don't we take a break and eat our meals together?$2",
+  "summer_Sun10": "@, I was talking to Mr. Rasmodius and he told me that you have a magical potential as well.$b#Take this Life Elixir and make sure you're taking care of yourself, alright?[773]$1#$e#I can't imagine if something bad were to happen to you...$5#$b#So don't do anything stupid, okay?$6",
+
+  //FALL GENERIC
+  "fall_1": "Autumn is here again.$b#Yeah, I can still feel the heat even though winter is already nearing.$1#$e#It sounds weird, ain't it.$2",
+
+  "fall_Mon10": "Be careful where you step at, @.$b#There might be good forage hidden beneath those fallen leaves.$1",
+  "fall_Tue10": "Wanna go patrol around the Mines with me, @?$b#Take this, in case you might need it.[351]$2#$e#Alright, meet you there later, okay?$1",
+  "fall_Wed10": "@!$3#$b#Just the person I'm looking for!$1#$b#I got this fragrant Green Tea for you, hope you like it.[614]$2#$e#This is just a small token of appreciation for being a great contributor to this town... and for being a good friend.$4",
+  "fall_Thu10": "I'm really glad you came to me this day, @.$b#Foribus Regis asked me to give this to you for supporting this town's economy.[336]$1#$e#Oh, you want to talk to me more?$3#$b#I'm... happy to hear that...$4#$b#Should we grab some food from Gus' Saloon later at night?$2",
+  "fall_Fri10": "@, thank you for everything.$5#$b#Hm? Do I sound different?$3#$b#It's probably just some minor problems taking up the space in my head.$2#$e#Don't worry about it, haha.$0",
+  "fall_Sat10": "Hey, @.$2#$b#I got something for you to eat.[201]$4#$b#I also got mine here with me.$1#$b#Why don't we take a break and eat our meals together?$2",
+  "fall_Sun10": "@, I was talking to Mr. Rasmodius and he told me that you have a magical potential as well.$b#Take this Life Elixir and make sure you're taking care of yourself, alright?[773]$1#$e#I can't imagine if something bad were to happen to you...$5#$b#So don't do anything stupid, okay?$6",
+
+  //WINTER GENERIC
+  "winter_1": "Finally, my favorite seasons of 'em all is with us again!$e#I find the snow covered land really relaxing to look at.$1",
+
+  "winter_Mon10": "We should start our day with some hot food, @.$2#$b#I bought this hotpot from a fine restaurant near our mansion.[207]$2#$e#Dig in before it gets cold!$1",
+  "winter_Tue10": "Wanna go patrol around the Mines with me, @?$b#Take this, in case you might need it.[351]$2#$e#Alright, meet you there later, okay?$1",
+  "winter_Wed10": "@!$3#$b#Just the person I'm looking for!$1#$b#I got this fragrant Green Tea for you, hope you like it.[614]$2#$e#This is just a small token of appreciation for being a great contributor to this town... and for being a good friend.$4",
+  "winter_Thu10": "I'm really glad you came to me this day, @.$b#Foribus Regis asked me to give this to you for supporting this town's economy.[336]$1#$e#Oh, you want to talk to me more?$3#$b#I'm... happy to hear that...$4#$b#Should we grab some food from Gus' Saloon later at night?$2",
+  "winter_Fri10": "@, thank you for everything.$5#$b#Hm? Do I sound different?$3#$b#It's probably just some minor problems taking up the space in my head.$2#$e#Don't worry about it, haha.$0",
+  "winter_Sat10": "Hey, @.$2#$b#I got something for you to eat.[201]$4#$b#I also got mine here with me.$1#$b#Why don't we take a break and eat our meals together?$2",
+  "winter_Sun10": "@, I was talking to Mr. Rasmodius and he told me that you have a magical potential as well.$b#Take this Life Elixir and make sure you're taking care of yourself, alright?[773]$1#$e#I can't imagine if something bad were to happen to you...$5#$b#So don't do anything stupid, okay?$6",
+}

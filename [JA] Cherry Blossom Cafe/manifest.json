@@ -1,0 +1,17 @@
+{
+   "Name": "Cherry Blossom Cafe",
+   "Author": "Fwippy and KAYA",
+   "Description": "Add Cherry Blossom Cafe Menu.",
+   "Version": "1.0.1",
+   "UniqueID": "KAYA.CherryBlossomCafe",
+   "Dependencies": [
+		{
+			"UniqueID": "KAYA.KoreaBlossom",
+			"IsRequired": true
+		}
+	],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+	"UpdateKeys": [ "Nexus:6172" ],
+}

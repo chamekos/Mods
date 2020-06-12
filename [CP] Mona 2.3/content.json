@@ -1,0 +1,432 @@
+{
+  "Format": "1.6",
+
+
+
+   "DynamicTokens": [
+
+	//Dynamic sprites
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Summer",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"summer"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Spring",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"spring"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Fall",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"fall"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Winter",
+            "When":
+            {
+                "SeasonalSprite": "true",
+		"season":"winter"
+            },
+        },
+        {
+            "Name": "SeasonalValue",
+            "Value": "_Luau",
+            "When":
+            {
+		"DayEvent":"luau"
+            },
+        },
+
+	//Default
+        {
+            "Name": "SeasonalValue",
+            "Value": "",
+            "When":
+            {
+                "SeasonalSprite": "false"
+            },
+        }
+
+    ],
+
+
+  "ConfigSchema":
+    {
+
+        "SeasonalSprite":
+        {
+            "AllowValues": "true, false"
+        },	
+     },
+       
+  "Changes": [
+
+    {
+	"LogName": "Sprites load", 
+      "Action": "Load",
+      "Target": "Characters/Mona",
+      "FromFile": "sprites/Mona{{SeasonalValue}}.png",
+    },
+
+    {
+	"LogName": "Portraits load", 
+      "Action": "Load",
+      "Target": "Portraits/Mona",
+      "FromFile": "portraits/Mona{{SeasonalValue}}.png",
+
+    },
+
+    {
+	"LogName": "Schedule load", 
+      "Action": "Load",
+      "Target": "Characters/schedules/Mona",
+      "FromFile": "schedules/Mona.json",
+    },
+    {
+	"LogName": "Dispositions", 
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Mona": "adult/neutral/outgoing/positive/female/datable//Town/summer 22//HaleyHouse 06 20/Mona"
+      }
+    },
+
+ //Dialogues
+    {
+      "LogName": "Dialogue load",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mona",
+      "FromFile": "dialogue/Dialogue.json",
+    },
+    {
+
+      "LogName": "Schedule Dialogue load",
+      "Action": "Load",
+      "Target": "Strings/schedules/Mona",
+      "FromFile": "dialogue/ScheduleDialogue.json"
+
+    },
+
+    {
+		
+	"LogName": "Engagement Dialogue edit", 
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		"Mona0": "I had never thought that I would find someone like you when I came here, @.#$b# I can't wait to spend the rest of my life with you!$4", 
+		"Mona1": "I am so excited for the big day!#$b# Aren't you, @?$h", 
+	},
+    },
+    {
+      "LogName": "Marriage Dialogue load",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMona",
+      "FromFile": "dialogue/MarriageDialogue.json"
+    },
+    
+    {
+	"LogName": "Gift tastes", 
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Mona": "Wahou, that's great ! Thanks./208 226 394 88/Nice, thank you./-7 -79 -81 225 392 393 /Thanks.../-4 232 /Okay.../212 213 214 219 227 -5/That's nice./-75/ ",
+	//Love: Glazed yam, spicy eel, rainbow shell, coconut. Like: Fried eel, Nautilus shell, coral, Cooking, fruit, forage. Dislike: Rice pudding, Fish. Hate: Salmon dinner, Fish taco, Crispy bass, Trout soup, Sashimi, Egg. Neutral: Vegetable.
+      }
+    },
+	{
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"entries": 
+	{	
+		"mona_read": "16 16 17 17 19 19/18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/17 17 16 16",
+		"mona_sit": "23 22 21/21/21 22 23",
+		"mona_sit_saloon": "23/20/23"
+	}
+	},
+	{
+		"LogName": "Desert adventure Map",
+		"Action": "Load",
+		"Target": "Maps/desertAdventure",
+		"FromFile": "maps/desertAdventure.tbin"
+	},
+
+    {
+	"LogName": "Dialogue edit", 
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Mona",
+        "Entries":
+        { 	   
+	   //"I'm neutral $n# I'm happy !$h#  I'm sad $s# I look away $u# I love you $4# I'm angry $a# I'm smiling $6#I'm surprised$7#",
+	   //"Click to continue : $b# You need to interact again to get the next part : $e#",
+
+	//Weekly
+           "Mon": "%Mona looks deep in thoughts.$s#It's Monday again... Another week past.$u#$e#Anyway... Did you have a nice weekend?",
+           "Mon4": "I love working at the museum!$6#$b#I'm surrounded by books and interesting people!$h",
+           "Mon6": "@!$h#$b#Did you have a nice weekend?#$b#Maybe we can do something together next weekend.$4",
+	   "Wed":"I'm sleeping on Emily and Haley's couch for now.#$b#I met them because they used to come on holiday in my village every year.$6#$b# We became good friends over time.$6",
+	   "Wed4":"Oh hi...$s#$e#I'm sorry I'm not in a very happy place today... $u#$b#I miss my family.$s",
+	   "Sun":"Oh hi...$u#$e#I was just thinking about the war...$s#$b#I left a few loved ones behind when I came here.$s#$b# I just hope they're okay...$u",
+	   "Sun2":"Oh hi...$s#$e#I just read in the paper that another bomb exploded near my village. $u#$b#I hope everybody is okay there.$s",
+	   "Sun4":"Hello, @...$s#$b#What do you know about the war?$u#$e#People live a very sheltered life in Stardew Valley.$u",
+	   "Sun8":"Hello, @.#$b#I used to have nightmares about the war.$s#$b#I woke up screaming, tears running down my face.$u$b#I feel much safer now that I have you as my friend.",
+	   "Tue":"I heard about your grandpa from the other villagers.#$b#He seemed really special.$6#$e#Do you have any other family you feel close to?",
+	   "Tue4":"Did I ever tell you about my brother?$6#$b#He is a dancer in the city!$h#$b#He barely gets by but at least he escaped the war.$s",
+	   "Tue6":"I just got a letter from my brother!$h#$b#He tells me all about his next show in this big theater in Zuzu city.$h#$b#I hope I can go see him someday.",
+	   "Thu":"Haley and Emily had another fight yesterday.$u#$b#I hope they can somehow learn to get along.$s",
+	   "Thu4":"I'm so tired of Haley and Emily fighting.$u#$b#It makes me want to yell at them even louder.$a#$b#Of course, that would'nt be a very constructive solution.$6",
+	   "Thu6":"Seeing Haley and Emily fighting all the time over insignificant little things, I'm almost glad my brother isn't here.$u#$b#But I think I would rather have him by my side and fight than not knowing when I'll see him again.$s",
+	   "Thu8":"Hello, @!#$e#I feel like I can talk to you about anything.$h",
+	   "Fri":"%Mona looks deep in thoughts.$u#Do you ever go to the desert?#$b#I'm reading a fascinating book about a boy who lives in this little village lost in the sand.$6#$b#I wonder what that feels like.",
+	   "Fri4":"I'd love to explore the desert.$6#$b#It seems so beautiful.$e#%Mona looks deep in thoughts.",
+	   "Fri8":"I decided I'm going to go explore the desert.$6#$b#It's gonna be an adventure!$h#$b#Wanna come with?$4",
+           "Sat": "How are you today?$6#$b# Any plans for tonight?$6", 
+	   "Sat4":"The saloon is so quiet here. I miss the wild parties we had back in my village.$u#$b# I wish my job paid enough so I could go dance in the city, but I barely get by.$s#$b#I guess that's what a refugee's life is like.",
+	   "Sat8":"The saloon is so quiet here. I miss the wild parties we had back in my village.$u#$b# Maybe one day we can go to the city together and party all night.$4",
+
+	//Seasonal
+           "spring_5": "I go to the museum and chat with Gunther every day.#$b#I've always loved books and people who read them.#$b#Gunther is a very interesting man!$6",
+           "spring_18":"The museum is my favorite place in this town.#$b#The beach is great too, but I hate having sand in my shoes!$6",
+	   "spring_15":"I love to chat with Gunther. #$b#He is alwasy so lonely.$s#$b# But he lights up when I come in!$h",
+           "spring_23":"Have you ever seen the great tree next to Marnie's farm?#$b#I like to go sit under its beautiful leaves and read for a while.#$e#Do you like to read?",
+	   "summer_2": "Hello!$6#$b#Guess what?$h#$b#Gunther said he'd pay me to take care of the books.$6#$b#It's not a lot of money but the job is great!$h",
+	   "summer_8": "This weather is so nice!$6#$b#I'm used to much hotter summers and warm winters.#$b#Which one do you like better, cold or warm weather?",
+	   "summer_14": "I bought some coconuts from the traveling merchant last week.$n#$b#I will finally be able to cook my special coconut and rice dish!$h",
+	   "summer_21": "Every week passing makes me feel a little more the burden of life.$u#$e#Oh, I'm sorry. Was that too depressing?",
+	   "summer_27": "Elliott read me some of his poems the other day.#$b#He is a really good writer!$h#$b#Did you ever talk to him about his book?$6",
+	   "fall_4":"The leaves are so beautiful today!$h#$b#I'm thinking about sending some to my brother! It was never like that back home.$h#$b#Do you thing they would crumble in the mail?",
+	   "fall_14":"I have a doctor's appointment today. It's just a check-up but I hope everything is alright.$u#",
+	   "fall_20":"I can feel the cold coming...$u#$b#I'll have to get warmer clothes!",
+	   "fall_26":"I am looking forward to Spirit's eve!#$b# I used to dress up differently every year with costumes I made myself.#$b#Are you going to wear something special this year?",
+	   "winter_Tue":"The cold air makes me sleepy.$s#$b#I guess I'm just not used to this kind of weather yet.",
+	   "winter_Sat":"The saloon is so cosy on a dark winter's night.#$b#Everybody enjoying the warmth of the fire and the nice conversations.$6#$b#It feels like a whole other world, don't you think?",
+	   "winter_2":"Do you like my scarf?$6#$b#My brother gifted it to me on my 18th birthday.$h#",
+	   "winter_6":"The snow is so beautiful!#$6#$b#Back home, it barely snows a day a year and the rains melts it right away.$6#$b#I should stop saying home... It's not likely I'm ever gonna go back.$s ",
+	   "winter_12":"This weather makes me want to stay inside all day long...$u",
+	   "winter_24":"I'm so tired of the cold.$u#$b#I can't wait for spring to come!$6",
+	   "winter_27":"Spring is just a couple of days away!$6#$b#Yay!$h", 
+ 
+	//Specific
+	   "Beach": "The sand is so beautiful today...$6#$b#I wish I could lay down on it and just fall asleep.$6", 
+	   "Beach2": "Hello, @!$6#$b#The water is beautiful, isn't it?$6", 
+	   "Beach6": "Hey, @!$h#$b#Want to sit with me for a while?$6", 
+   	   "BusStop": "I wonder if I'll ever learn how to drive.$u#$b#I suppose it's not very useful out there.",
+   	   "SeedShop": "I can't find everything I need for my favorite recipies in this tiny village.$s#$b# I just have to make do with what Pierre is selling.$u#",
+   	   "SeedShop2": "I always shop here instead of JojaMart.#$b#I feel like eating healthy and local is better for myself and the planet!$h#$b#Of course, I do have to make some concessions to stay in my budget.",  
+    	   "Hospital": "Doctor Harvey is very impressive.#$b# Do you know him well?$4" ,
+	   "Hospital6": "Harvey is so cute, I wonder if he has his eye on someone in town...$4",
+	   "give_flowersA": "Thanks, @! But it's not my birthday yet.$6#$b#Oh, that's what you give to people you want to date around here?$4#$b#In that case, I'll gladly accept it!$4",
+  	   "give_flowersB": "Wait... Does that mean..?$4#$b#I wasn't even hoping for this! I'm so glad!$4",
+  	   "give_pendant": "I can't believe it! Of course I'll marry you, @!$4#$b#We only have a couple of days to prepare the ceremony, let's get to it!",
+  	   "stardrop_gift": "In my village, people give this to their special someone as a symbol of undying love.$4#$b#Know that I will always be there for you, @.",
+  	   "Divorced": ". . .$u#$e#Can't you see I'm ignoring you?$a"
+
+        }
+    },
+	//Dialogue for festivals
+    { 
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Mona": "Searching for painted eggs is such a silly tradition...$7#$b#What?$u#$b#Yeah, I love it!$h",
+	"Mona_spouse":"Good luck during the egg hunt, honey!$h#$b#I'm rooting for you."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Mona": "Too bad I haven't been here long enough to take part in the dance...$s#$b#Guess I'll just watch you all and try to memorize the steps!",
+      	"Mona_spouse":"Don't worry about me sweetie, I enjoy watching you dance!"
+	}
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Mona": "This reminds me of my home village.$h#$b#We have a similar tradition, though we don't make a soup. We all bring something to grill!",
+        "Mona_spouse": "Everybody looks so relaxed.$b#Except for Lewis!$h#$b#Poor him... I hope his talk with the governor is going well."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Mona": "I'm so excited, I had never heard of Moonjellies before coming here!$7",
+        "Mona_spouse": "You're here!$h#$b#This night could not be more perfect."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Mona": "Clint looks so proud to showcase his work.$b#We don't often see him this happy!$h",
+        "Mona_spouse": "Did you finish your display?$b#You've been working so hard, it's time to show off!$h"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Mona": "Are you going in the haunted maze?$b#I better run if I want to beat you to the prize!$h",
+        "Mona_spouse": "How about I time you to see if you can beat the record for speed run of the maze?"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Mona": "Who sculpted this? It's so funny!$h#$e#I'm sorry, was it you?$7",
+        "Mona_spouse": "It's so cold...$s#$b#Wanna cuddle?$4"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Mona": "I love the idea of getting a gift for a different person each year!$b#And getting one myself, of course!$h#$b#I wonder what I'll get.$4",
+        "Mona_spouse": "Did you get something nice for your secret gift-getter?$b#Yes, it's a word!$h"
+      }
+    },
+
+	{ 
+	"LogName": "0 hearts event", 
+	"Action": "EditData",
+        "Target": "Data/Events/HaleyHouse",
+        "Entries": {
+			"11110": "continue/-1000 1000/farmer 02 23 0 Mona 06 20 2/animate Mona false true 50 21/viewport 06 20/skippable/pause 500/textAboveHead Mona \"Oh, hi!\"/pause 500/move farmer 0 -3 1/pause 500/animate Mona false false 60 21 21 22 22 23 23/stopAnimation Mona 23/pause 800/move Mona -1 0 3/pause 400/speak Mona \"Did you come to see Emily ? #$b#She's not here. And neither is Haley.\"/pause 200
+			/question fork1 \"#Actually, I came here to see you.#Okay, I won't disturb you any longer then.\"/fork SeeEmily/friendship Mona 50/pause 300/emote farmer 32/pause 400/speak Mona \"Oh, you came to see me?$7#$b#How nice of you!$h\"/pause 300
+			/speak Mona \"I was just writing a letter to my brother.#$b# I haven't talked to him since I came here and he must be worried.$s#$b#I miss him so much...$s\"/pause 300/emote farmer 28/pause 200
+			/speak Mona \"It's okay.$n#$b# We are both safe from the war and that's all that matters.\"/pause 300/emote farmer 8/pause 300/speak Mona \"You want to know about the war?$u\"
+			/emote farmer 16/pause 300/shake Mona 600/pause 700/speak Mona \"I'm sorry, I don't really want to talk about it.$s#$b#It's all still too fresh.$u\"/pause 300/startJittering/emote farmer 28/pause 200/stopJittering/speak Mona \"Don't be sorry, you couldn't know!$n\"
+			/pause 400/speak Mona \"Anyway, I have to get back to my letter if I want to be able to send it this evening.$1#$b#Let's talk some other time, okay?\"/pause 400/move Mona 1 0 1/pause 400
+			/animate Mona false false 50 23 22 21/animate Mona false true 50 21/pause 600/textAboveHead Mona \"See, you!\"/pause 300/move farmer 0 4 2/pause 300/playSound doorOpen/pause 300/warp farmer -1000 1000/pause 1000/stopAnimation Mona 21/pause 1000/globalFade/viewport -1000 1000/end",
+
+			"SeeEmily":"pause 200/speak Mona \"I'll tell them you came by.\"/pause 400/move Mona 1 0 1/pause 300/animate Mona false false 50 23 22 21/animate Mona false true 50 21/pause 500/textAboveHead Mona \"See, you.\"/pause 600/move farmer 0 4 2/pause 300/playSound doorOpen/pause 300/warp farmer -1000 1000/pause 1000/stopAnimation Mona 21/pause 1000/globalFade/viewport -1000 1000/end"	
+		   
+			}
+		},
+	{ 
+	"LogName": "2 hearts event", 
+	"Action": "EditData",
+        "Target": "Data/Events/HaleyHouse",
+        "Entries": {
+			"11111/f Mona 500": "sadpiano/-1000 1000/farmer 02 23 0 Mona 06 20 2/animate Mona false true 50 21/viewport 06 20/skippable/pause 500/textAboveHead Mona \"Oh, hi!\"/pause 500/move farmer 0 -3 1/pause 500/animate Mona false false 60 21 21 22 22 23 23/stopAnimation Mona 23/pause 800/move Mona -1 0 3/pause 400/speak Mona \"Did you come to see Emily ? #$b#She's not here. And neither is Haley.\"/pause 200
+			/question fork1 \"#Actually, I came here to see you.#Okay, I won't disturb you any longer then.\"/fork SeeEmily/friendship Mona 50/pause 300/emote farmer 32/pause 400/speak Mona \"Oh, you came to see me?$7#$b#How nice of you!$h\"/pause 300
+			/speak Mona \"I was just writing a letter to my brother.#$b# I haven't talked to him since I came here and he must be worried.$s#$b#I miss him so much...$s\"/pause 300/emote farmer 28/pause 200
+			/speak Mona \"It's okay.$n#$b# We are both safe from the war and that's all that matters.\"/pause 300/emote farmer 8/pause 300/speak Mona \"You want to know about the war?$u\"
+			/emote farmer 16/pause 300/shake Mona 600/pause 700/speak Mona \"I'm sorry, I don't really want to talk about it.$s#$b#It's all still too fresh.$u\"/pause 300/startJittering/emote farmer 28/pause 200/stopJittering/speak Mona \"Don't be sorry, you couldn't know!$n\"
+			/pause 400/speak Mona \"Anyway, I have to get back to my letter if I want to be able to send it this evening.$1#$b#Let's talk some other time, okay?\"/pause 400/move Mona 1 0 1/pause 400
+			/animate Mona false false 50 23 22 21/animate Mona false true 50 21/pause 600/textAboveHead Mona \"See, you!\"/pause 300/move farmer 0 4 2/pause 300/playSound doorOpen/pause 300/warp farmer -1000 1000/pause 1000/stopAnimation Mona 21/pause 1000/globalFade/viewport -1000 1000/end",
+
+			"SeeEmily":"pause 200/speak Mona \"I'll tell them you came by.\"/pause 400/move Mona 1 0 1/pause 300/animate Mona false false 50 23 22 21/animate Mona false true 50 21/pause 500/textAboveHead Mona \"See, you.\"/pause 600/move farmer 0 4 2/pause 300/playSound doorOpen/pause 300/warp farmer -1000 1000/pause 1000/stopAnimation Mona 21/pause 1000/globalFade/viewport -1000 1000/end"	
+		   
+			}
+		},
+	{ 
+	"LogName": "5 hearts event", 
+	"Action": "EditData",
+        "Target": "Data/Events/Beach",
+        "Entries": { 
+			"11151/f Mona 1250/w sunny/t 0800 1800/z winter": "ocean/-1000 1000/Mona 16 12 2/skippable/animate Mona false true 50 18/viewport 16 13/pause 1000/animate Mona false false 300 19/pause 1000/textAboveHead Mona \"Meerkats are immune to scorpion poison...\"/pause 3000/animate Mona false false 300 19/pause 1000
+			/warp farmer 30 13 3/move farmer -5 0 3/textAboveHead Mona \"...Chuck...Walla?\"/pause 1000/move farmer -5 0 3/pause 500/emote farmer 8/animate Mona false true 50 24/pause 600/speak Mona \"@?$7#$b#How are you doing today?\"/pause 300/emote farmer 32/pause 1000
+			/emote farmer 8/pause 500/speak Mona \"Me?$7#$b#I'm just reading a book about desert animals.#$b#It's fascinating!$4#$b#Did you know that Chuckwallas are a type of lizards that is found all over the US and that they can be as big as 30 inches or 80cm!$7#$b#Imagine walking around and finding one of these right in front of you!$7#$b#It would be wonderful...\"
+			/pause 500/textAboveHead Mona \"Coming!\"/pause 100/animate Mona false false 500 18 17 16/stopAnimation Mona 24/pause 500/move Mona 0 1 1/move Mona 2 0 1/pause 800
+			/speak Mona \"Anyway, I doubt you're as interested as me in big lizards!#$b#Lately, I've developped an interest in the desert and its inhabitants.\"/pause 400
+			/speak Mona \"My dream would be to go to Calico desert!#$b#Have you ever been?$4\"/question fork1 \"#No, I've never been, the bus to go there is broken.#Yes, I've been there.\"/fork BusNotBroken/pause 100
+			/speak Mona \"Too bad...$u#$b#Do you think it would be possible to hike there?#$b#That would make it an adventure!$4\"/pause 500/emote farmer 32
+			/pause 1000/speak Mona \"I wonder how it feels like to be in such a place...$6#$b#The sky, the silence, the neverending dunes...$4\"/pause 500/emote Mona 40/pause 800/speak Mona \"One day, I'll go and explore the whole place!#$b#I might not come back if I like it too much!$h\"/pause 200/emote farmer 16/pause 400
+			/speak Mona \"I'm joking of course!$h#$b#Anyway, I won't keep you from your duties any longer, @. I have some desert animals to study before my big trip.#$b#Let's talk later!\"
+			/pause 500/move Mona -2 0 2/pause 300/animate Mona false true 50 18/pause 300/animate Mona false true 200 18 18 18 18 18 18 18 18 18 18 19/pause 100/move farmer 10 0 0/globalFade/viewport -1000 1000/end",
+			
+			"BusNotBroken":"pause 500/speak Mona \"Really?$7#$b#You must tell me all about it!$h\"/pause 300/emote farmer 32/pause 1000/speak Mona \"I wonder how it feels like to be in such a place...$6#$b#The sky, the silence, the neverending dunes...$4\"/pause 500
+			/emote Mona 40/pause 800/speak Mona \"One day, I'll go and explore the whole place!#$b#I might not come back if I like it too much!$h\"/pause 200/emote farmer 16/pause 400
+			/speak Mona \"I'm joking of course!$h#$b#Do you think it would be possible to hike there?#$b#That would make it an adventure!$4#$b#Anyway, I won't keep you from your duties any longer, @. I have some desert animals to study before my big trip.#$b#Let's talk later!\"/pause 500/move Mona -2 0 2/pause 300/animate Mona false true 50 18/pause 300
+			/animate Mona false true 200 18 18 18 18 18 18 18 18 18 18 19/pause 1000/move farmer 10 0 0/globalFade/viewport -1000 1000/end"				
+		   
+			}
+		},
+	{ 
+	"LogName": "8 hearts event", 
+	"Action": "EditData",
+        "Target": "Data/Events/ArchaeologyHouse",
+        "Entries": { 
+			"11181/f Mona 2000/w sunny/t 1200 1800/z winter": "libraryTheme/-1000 1000/Gunther 06 08 1 Mona 08 08 3/viewport 08 08/skippable/pause 1300/textAboveHead Mona \"So, I just write it here...\"/pause 3000
+			/textAboveHead Gunther \"Yes, and then you check that...\"/pause 3000/textAboveHead Mona \"Mmmmm...\"/pause 2800/move farmer 0 -2 0/pause 300/move Mona 0 0 2/pause 600/emote Mona 16/pause 400
+			/move Gunther 0 0 2/pause 500/speak Mona \"@!$h#$b# Why don't you come here.$n#$b#We are almost finished.\"
+			/move farmer 0 -2 0/move farmer 5 0 0/pause 500/speak Mona \"Gunther was just showing me how to fill in the catalogue.#$b#It's actually not that hard!$h\"/speak Gunther \"Mona is a very smart girl.#$b#She's helping me a lot around here.\"
+			/speak Mona \"I'm just doing the best I can. And I'm really enjoying it!$h#\"/speak Gunther \"I'm glad to hear that.\"
+			/emote farmer 32/pause 800/speak Gunther \"Anyway, I showed you everything you needed to know about that catalogue.#$b#Why don't you take a break, uh?\"/speak Mona \"Thanks, Gunther!$h\"
+			/speak Mona \"@, why don't we go talk outside?\"/question fork1 \"#Sure, sounds nice!#Actually, I have some stuff I need to do.\"/fork StuffToDo/friendship Mona 50/pause 200/textAboveHead Mona \"Let's go!\"
+			/pause 1000/viewport move -3 5 2000/move farmer 0 4 0 true/globalFade 0.01/viewport 1000 -1000/pause 1000/changeLocation Town/warp Mona 103 91 1/move Mona 0 0 1/warp farmer 105 91 3/move farmer 0 0 3
+			/viewport 104 89/pause 1000/speak Mona \"The weather is nice today, isn't it?\"/pause 600/emote Mona 40/pause 600/speak Mona \"I still can't believe how lucky I am to have met Gunther.#$b#He is so interesting and we have fascinating talks about almost anything!\"
+			/question null \"#You two look like you have a special relationship.#Don't you feel weird, he's old enough to be your father!\"/pause 100/speak Mona \"I know it looks weird, but he is more like a mentor to me.\"
+			/pause 800/move Mona 0 0 2/pause 1300/move Mona 0 0 1/pause 800/speak Mona \"I lost almost my entire family in the war.$s#$b#I haven't seen my brother in forever. And I don't even know if my cousins are still alive.$s#$b#I have felt lost and hopeless for so long...$u#$b#...$u#$b#You lost your grandpa not too long ago, maybe you can understand how it feels.$u\"
+			/pause 500/emote farmer 60/pause 500/move Mona 0 0 2/pause 400/speak Mona \"You see now why I feel so close to Gunther?#$b#He gave me a job, a purpose... A reason to get up in the morning and an escape from my endless nightmares.\"
+			/pause 1000/move Mona 0 0 1/pause 600/speak Mona \"I'm sorry this isn't the nice conversation I had in mind!$u#$b#Let's talk about something else!\"
+			/pause 500/emote farmer 16/pause 500/speak Mona \"You heard that Marnie and Lewis were in a secret relationship?!$4#$b#I can't believe it!$h#$b#Tell me more!\"
+			/pause 300/emote farmer 32/globalFade/viewport 1000 -1000/message \"Some time after...\"/speak Mona \"Have you seen the time?!$7#$b#Gunther will be waiting for me!\"/pause 300/speak Mona \"I had a really nice time, thank you @!#$b#See you later!$h\"/end",
+
+			"StuffToDo":"pause 500/speak Mona \"Oh, I see.$s#$b#Well, it was nice talking to you anyway.\"/pause 1000/viewport move -3 5 2000/move farmer 0 4 0 true/globalFade 0.01/viewport 1000 -1000/end"				
+		   
+			}
+		},
+    {
+
+      "LogName": "Invitation 10 hearts",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "desertAdventure": "Dear @,^I was thinking about my dream of hiking to the desert and I think it is time I actually do it.^So, I hope to see you at the bus stop next sunny day to go on this little adventure together!^Don't forget to pack sunscreen!^  -Mona"
+	}
+    },
+    {
+
+      "LogName": "Send invitation 10 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "11192/f Mona 2500/e 11151/D Mona/z winter/x desertAdventure": "null"
+	}
+    },
+
+	{ 
+	"LogName": "10 hearts event", 
+	"Action": "EditData",
+        "Target": "Data/Events/BusStop",
+        "Entries": { //Has seen beach event
+			"11191/f Mona 2500/t 0600 1200/w sunny/D Mona/z winter/n desertAdventure": "continue/-1000 1000/farmer 11 19 0 Mona 11 12 2/viewport 12 11/skippable/pause 3/move farmer 0 -5 0/speak Mona \"@, you came!$h#$b#I'm so excited about this little adventure!$h#$b#I don't think anyone in the village has ever hiked to Calico desert before.\"
+			/pause 300/emote farmer 32/pause 700/speak Mona \"Well, if we want to get to the desert before dusk, we better get going!$n#$b#Do you have everything you need, @?#$b#Yes? Then, let's go!$h\"/globalFade/viewport -1000 1000/pause 2000/speak Mona \"My feet are starting to ache!$u#$b#Thank Yoba, it shouldn't be much longer till the desert!$n#$b#I can't wait!$h\"/pause 300
+			/changeToTemporaryMap desertAdventure/playMusic wavy/warp Mona 34 8 3/viewport 22 7/move Mona -4 0 3/warp farmer 35 8 3/pause 300/move farmer -4 0 3
+			/speak Mona \"Well, here we are!\"/pause 300/move Mona 0 0 0/pause 600/move Mona 0 0 3/pause 600/move Mona 0 0 2/pause 600/move Mona -3 0 3
+			/emote Mona 16/pause 600/speak Mona \"Let's keep going, I think I saw something move that way!\"/pause 400/viewport move -1 0 4000/move Mona -6 0 3/textAboveHead Mona \"Come, quick!\"/speed farmer 5/move farmer -9 0 3/pause 600/speed farmer 3
+			/speak Mona \"Look, behind the rock! It's a Chuckwalla!$4\"/pause 500/emote Mona 40/pause 600/speak Mona \"I... I can't find the words...$7#$b#It's one thing to see one in a book, it's entirely something else to be able to watch one in its natural habitat.#$b#Let's get a little closer.#$b#Not too close though, I don't want to scare it.\"
+			/viewport move 0 1 3000/pause 500/move Mona 0 3 3/move farmer 0 2 3/pause 400/speak Mona \"I can't believe how lucky I am to see one up close...$4#$b#And look there! Another one!$4#\"/pause 400/emote farmer 32/pause 1000
+			/speak Mona \"We are lucky to see it eating. Usually, they feed in the morning and spend the rest of the day sunbathing.\"/pause 700
+			/playSound SpringBirds/pause 500/speak Mona \"Wait, did you hear that chirp?$7#$b#Let's go see what kind of bird it was!$h\"/pause 500
+			/viewport move 0 1 6000/move Mona -3 0 2/move farmer -3 0 2/pause 300/textAboveHead Mona \"There!\"/move Mona 0 3 2/move farmer 0 4 2
+			/speak Mona \"A Cactus Wren!$4#$b#I never thought I would see one in real life...$4#$b#It's really beautiful, don't you think, @?\"
+			/pause 400/emote farmer 32/pause 1800/emote Mona 40/pause 1300/speak Mona \"As much as I would like to stay here all week, we should get going. We have a long way to get back home.\"
+			/speed farmer 2/move Mona 0 6 2 true/move farmer 0 6 2 true/globalFade 0.01/viewport -1000 1000/speak Mona \"Wow, I can't believe we hiked to the desert and saw all these wild animals!$4#$b#I had never done anything like that in my life!$h#$b#This qualifies as an adventure, don't you think?#$b#Anyway, thank you for joining me, I really enjoyed our time together.$h#$b#Actually, I always enjoy spending time with you.$4#\"
+			/message \"A small moment of awkward silence...\"/speak Mona \"I guess what I want to tell you is...$u#$b#I like you a lot, @.$4#$b#And I hope we will spent many more days enjoying eachother's company!$h#$b#See you soon, @!\"
+			/end"		
+		   
+			}
+		}
+
+
+  ]
+}

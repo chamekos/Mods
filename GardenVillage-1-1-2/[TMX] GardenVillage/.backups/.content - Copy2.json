@@ -1,0 +1,17 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "ForestRoad",
+      "file": "assets/wtd_forestroad.tmx",
+    }
+],
+  "mergeMaps": [
+    {
+      "name": "Tunnel",
+	  "file": "assets/wtd_tunnel.tmx",
+	  "sourceArea": [0,0,14,14],
+	  "position": [0,0]
+    }
+  ],
+  
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Classic Ceramic Pot",
+  "Description": "A simple ceramic pot.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 150,
+  "Recipe": null,
+   "CanPurchase": false
+}

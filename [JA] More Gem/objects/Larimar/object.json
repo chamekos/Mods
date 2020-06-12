@@ -1,0 +1,45 @@
+{
+    "Name": "Larimar",
+    "Description": "Gemstones as beautiful as the seas excavated in the Caribbean.",
+    "Category": "Gem",
+    "Edibility": -300,
+    "Price": 180,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "라리마",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "海纹石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "카리브해에서 발굴되는 바다처럼 아름다운 원석.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "美丽得如同直接捡拾起了加勒比海碎片一般的珍贵宝石。",
+    },
+	
+    "ContextTags": [
+        "color_blue",
+    ],
+}

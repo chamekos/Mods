@@ -1,0 +1,16 @@
+{
+   "Name": "ToTheNuns",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Adds dialogue to the TTN",
+   "UniqueID": "ToTheNunsCP",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys":"",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   },
+   "Dependencies": [ 
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	}	],
+}

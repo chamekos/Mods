@@ -1,0 +1,9 @@
+{
+  "Name": "Helvite Ceramic Pot",
+  "Description": "A pot with a glaze made of helvite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1350,
+  "Recipe": null,
+   "CanPurchase": false
+}

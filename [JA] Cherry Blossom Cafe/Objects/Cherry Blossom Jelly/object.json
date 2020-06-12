@@ -1,0 +1,69 @@
+{
+    "Name": "Cherry Blossom Jelly",
+    "Description": "A sweet jelly with cherry blossom's scent plus cherry blossoms makes for a beautiful treat.",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 180,
+    "GiftTastes":
+    {
+		"Love": ["Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Hate": ["Sebastian", ]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": "Cherry Blossom",
+            "Count": 1,
+        },
+		{
+            "Object": 157, //White Algae
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 젤리",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花果冻",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 향의 달콤한 젤리 안에 벚꽃을 넣어 보기좋게 만들었다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "Q弹爽口的果冻加上樱花的香气，保证让您大饱口福。",
+    }
+}

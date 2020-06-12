@@ -1,0 +1,37 @@
+{
+    "Name": "YlangYlang Oil",
+    "Description": "A fragrance oil used in the manufacture of perfumes.",
+    "Category": "ArtisanGoods",
+    "Edibility": 5,
+    "Price": 70,
+    "IsColored": false,
+    "Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "일랑일랑 프래그런스 오일",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "依兰精油",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "향수 제조에 사용되는 프래그런스 오일.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "一种用于制造香水的香精油。",
+	},
+}

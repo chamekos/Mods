@@ -1,0 +1,37 @@
+{
+	"Name": "Sweetpea Perfume",
+	"Description": "The scent is soft and sweet.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 275,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "스위트피 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "香豌豆香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "향이 부드럽고 달콤합니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "味道柔软又香甜。",
+	}
+}

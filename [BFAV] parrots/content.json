@@ -1,0 +1,63 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Create",
+      "Category": "Parrots",
+      "Types": [
+        {
+          "Type": "Blue Parrot",
+          "DeluxeProduceLuck": 50.0,
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Blue Parrot/Coop",
+          "Sprites": {
+            "Adult": "assets/Blue Parrot.png",
+            "Baby": "assets/Blue Parrot.png"
+          }
+        },
+        {
+          "Type": "White Parrot",
+          "DeluxeProduceLuck": 50.0,
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/White Parrot/Coop",
+          "Sprites": {
+            "Adult": "assets/White Parrot.png",
+            "Baby": "assets/White Parrot.png"
+          }
+        },
+        {
+          "Type": "Void Parrot",
+          "DeluxeProduceLuck": 0.0,
+          "Data": "1/3/305/-1/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Void Parrot/Coop",
+          "Sprites": {
+            "Adult": "assets/Void Parrot.png",
+            "Baby": "assets/Void Parrot.png"
+          }
+        },
+        {
+          "Type": "Red Parrot",
+          "DeluxeProduceLuck": 0.0,
+          "Data": "1/3/176/174/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Red Parrot/Coop",
+          "Sprites": {
+            "Adult": "assets/Brown Parrot.png",
+            "Baby": "assets/Brown Parrot.png"
+          }
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Parrots",
+        "Description": "You can bought a beautiful parrot",
+        "Price": 800,
+        "Icon": "assets\\parrot_shop.PNG",
+        "Exclude": []
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+    }
+  ]
+}

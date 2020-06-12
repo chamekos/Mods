@@ -1,0 +1,45 @@
+{
+    "Name": "Lapis Lazuli",
+    "Description": "The white and gold patterns scattered on the dark blue gem are like stars in the night sky.",
+    "Category": "Gem",
+    "Edibility": -300,
+    "Price": 280,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "라피스라즐리",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "青金石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "짙은 청색의 보석에 흩뿌려진 흰색과 금색의 무늬가 마치 밤하늘의 별같다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "白色和金色图的案散布在深蓝色的宝石之上，像夜空中的星星一样。",
+    },
+	
+    "ContextTags": [
+        "color_blue",
+    ],
+}

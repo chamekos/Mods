@@ -1,0 +1,37 @@
+{
+	"Name": "Daffodil Perfume",
+	"Description": "A fresh aroma of daffodils",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 255,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "수선화 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "水仙花香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "산뜻한 수선화 향.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "自水仙花散发出的清新香气。",
+	}
+}

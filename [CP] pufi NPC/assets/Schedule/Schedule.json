@@ -1,0 +1,12 @@
+																																	
+
+
+{
+  "spring": "600 Saloon 36 8 2 /610 Beach 26 32 0 /1000 Forest 34 24 2 /1200 Saloon 23 18 2 /1500 Town 43 78 2 /1700 Town 88 50 2 /1900 Town 88 50 2 /2400 Saloon 36 8 2 ",
+  "summer": "600 Saloon 36 8 2 /610 Beach 26 32 0 /1000 Forest 34 24 2 /1200 Saloon 23 18 2 /1500 Town 43 78 2 /1700 Town 88 50 2 /1900 Town 88 50 2 /2400 Saloon 36 8 2",
+  "fall": "600 Saloon 36 8 2 /610 Beach 26 32 0 /1000 Forest 34 24 2 /1200 Saloon 23 18 2 /1500 Town 43 78 2 /1700 Town 88 50 2 /1900 Town 88 50 2 /2400 Saloon 36 8 2",
+  "winter": "600 Saloon 36 8 2 /610 Beach 26 32 0 /1000 Forest 34 24 2 /1200 Saloon 23 18 2 /1500 Town 43 78 2 /1700 Town 88 50 2 /1900 Town 88 50 2 /2400 Saloon 36 8 2",
+  "rain": "600 Saloon 36 8 2 /610 Beach 26 32 0 /1000 Forest 34 24 2 /1200 Saloon 23 18 2 /1500 Town 43 78 2 /1700 Town 88 50 2 /1900 Town 88 50 2 /2400 Saloon 36 8 2",
+}
+
+//(0 = up, 1 = right, 2 = down, 3 = left)

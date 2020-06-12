@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] MiniTown",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Takes you to a small town.",
+   "UniqueID": "ChaseXavier.BLMiniTown",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": "",
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

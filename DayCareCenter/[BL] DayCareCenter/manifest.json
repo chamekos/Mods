@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] DayCareCenter",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Takes you to a day care for small kids.",
+   "UniqueID": "ChaseXavier.BLDayCareCenter",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": "",
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

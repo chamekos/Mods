@@ -1,0 +1,56 @@
+{
+  "name": "Haru goes to Festivals",
+  "version": "1.0.0", 
+  "author": "ginnyclaire",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Haru",
+	    "map": "Town-EggFestival", 
+		"position": [37, 71],
+		"direction": 3
+		},
+		{
+		"name": "Haru",
+	    "map": "Forest-FlowerFestival", 
+		"position": [25, 21],
+		"direction": 2
+		},
+		{
+		"name": "Haru",
+	    "map": "Beach-Luau", 
+		"position": [56, 9],
+		"direction": 3
+		},
+		{
+		"name": "Haru",
+	    "map": "Beach-Jellies", 
+		"position": [16, 24],
+		"direction": 2
+		},
+		{
+		"name": "Haru",
+	    "map": "Town-Fair", 
+		"position": [66, 62],
+		"direction": 2
+		},
+		{
+		"name": "Haru",
+	    "map": "Town-Halloween", 
+		"position": [27, 52],
+		"direction": 3
+		},
+		{
+		"name": "Haru",
+	    "map": "Forest-IceFestival", 
+		"position": [92, 21],
+		"direction": 3
+		},
+		{
+		"name": "Haru",
+	    "map": "Town-Christmas", 
+		"position": [6, 65],
+		"direction": 2
+		},
+	]
+}

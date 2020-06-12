@@ -1,0 +1,13 @@
+{
+  "Format": "1.5",
+  "Changes": [
+       {
+          "Action": "EditData",
+          "Target": "Data/CraftingRecipes",
+          "Entries": {
+             "Quality Sprinkler (Use Prev. Tier)": "599 1 336 1 338 1/Home/621/false/Farming 6",
+             "Iridium Sprinkler (Use Prev. Tier)": "621 1 337 1 787 1/Home/645/false/Farming 9"
+          }
+       }
+    ]
+}

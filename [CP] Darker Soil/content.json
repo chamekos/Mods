@@ -1,0 +1,50 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+	
+	    "Fertilizer_Recolor" : {
+        "AllowValues" : "true, false",
+        "Default" : "true"},   
+		},
+	
+	    "Changes": [
+		
+	   {
+		  "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "TerrainFeatures/hoeDirt",
+          "FromFile": "assets/hoeDirt.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 }
+		  		  
+	   },
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "TerrainFeatures/hoeDirtDark",
+          "FromFile": "assets/hoeDirtDark.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 }
+		  		  
+	   },
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "TerrainFeatures/hoeDirtSnow",
+          "FromFile": "assets/hoeDirtSnow.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 192, "Height": 64 }
+		  		  
+	   },
+	   {
+		 "Action": "EditImage",
+		 "Patchmode": "Replace",
+		 "Target": "LooseSprites/Cursors",
+		 "FromFile": "assets/Cursors.png",
+		 "FromArea": { "X": 173, "Y": 465, "Width": 48, "Height": 33 },
+		 "ToArea": { "X": 173, "Y": 465, "Width": 48, "Height": 33 },
+		 "When": { "Fertilizer_Recolor": "true" }
+		}
+	   
+	 ]
+}

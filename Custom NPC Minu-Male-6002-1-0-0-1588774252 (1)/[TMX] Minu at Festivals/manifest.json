@@ -1,0 +1,11 @@
+{
+  "Name": "Minu at Festivals",
+  "Author": "Horanghwa",
+  "Version": "1.0.0",
+  "Description": "Minu goes to Festivals",
+  "UniqueID": "Horanghwa.MinuFestivals",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+  }
+}

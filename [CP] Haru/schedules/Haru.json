@@ -1,0 +1,12 @@
+﻿{
+    "Mon": "0610 WitchSwamp 112 28 2 Haru_Moving/0900 WitchSwamp 100 22 2 Haru_Magic/1900 WitchSwamp 100 22 2 Haru_Magic/2200 WitchSwamp 165 40 2",
+	"Thu": "GOTO Mon",
+	"Wed": "GOTO Mon",
+	"Thu": "GOTO Mon",
+	"Fri": "GOTO Mon",
+	"Sat": "GOTO Mon",
+	"Sun": "GOTO Mon",
+	"marriage_Mon": "0900 Forest 35 24 1/1200 Town 106 64 2 Haru_read/1500 Town 23 100 2/1700 Forest 35 24 2 Haru_read/2030 BusStop -1 23 3",
+	"marriage_Fri": "0900 Forest 35 24 1/1200 Town 106 64 2 Haru_read/1500 Town 23 100 2/1700 Forest 35 24 2 Haru_read/2130 BusStop -1 23 3"
+}
+

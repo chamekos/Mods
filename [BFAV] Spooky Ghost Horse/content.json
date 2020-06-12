@@ -1,0 +1,19 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Pig",
+      "Types": [
+        {
+          "Type": "Spooky Ghost Horse",
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/20/5/null/640/16000/Pig/Barn",
+          "Sprites": {
+            "Adult": "assets/horse.png",
+            "Baby": "assets/horse.png"
+          }
+        }
+      ]
+    }
+  ]
+}

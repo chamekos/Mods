@@ -1,0 +1,265 @@
+
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Miku": "adult/neutral/outgoing/neutral/female/datable/null/Other/summer 27//Town 30 29/Miku",
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Miku": "Hehe thanks!/116 174 206 228/Thank you very much!/223 233 344/uhm...I really don't want it./16 18 197 236/People like this stuff??/760 789/I love this,thanks @./372 395/",
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Miku_sing": "16/16 17 18 19 16 17 18 19/19",
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "MikuStrings",
+      "FromFile": "assets/Schedule/MikuStrings.json",
+
+    },
+
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Miku0": "Now that we're engaged,you can come to my shows free!.",
+        "Miku1": "This is fantastic honey!",
+      }
+    },
+
+    { //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Miku... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Miku... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Miku in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Miku in the bonds of marriage.",
+      },
+      "When": {
+        "Relationship:Miku": "Engaged, Married"
+      }
+    },
+
+
+    {
+
+      "LogName": "Miku Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Miku",
+      "FromFile": "assets/Image/MikuPortraits.png",
+
+    },
+
+    {
+
+      "LogName": "Miku Sprites",
+      "Action": "Load",
+      "Target": "Characters/Miku",
+      "FromFile": "assets/Image/MikuSprite.png",
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Miku",
+      "FromFile": "assets/Dialogue/MikuDialogue.json",
+
+    },
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueMiku",
+      "FromFile": "assets/Dialogue/MarriageDialogue.json",
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Miku",
+      "FromFile": "assets/Schedule/Schedule.json",
+
+    },
+	
+	
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+         "Miku": "I'm so excited to tie the knot with you BooBoo-chan!",
+         },
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Miku": "Having fun?",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Miku": "This is interesting music.",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Miku": "Dance? I wish I knew the dance.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring33",
+      "Entries": {
+        "Miku": "Time to SPRING into action, haha.",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Miku": "Soup huh?",
+        "Miku_spouse": "I hope it taste good.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Miku": "My birthday is on the 30th.",
+        "Miku_spouse": "Jellyfish huh? Very iteresting.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Miku": "I want to poke one.",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Miku": "This is really nice.",
+        "Miku_spouse": "Such fun.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Miku": "Why are people afraid of the clown?",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall33",
+      "Entries": {
+        "Miku": "Pft this is scary? Me singing badly is even more scary.",
+        "Miku_spouse": "I had gum in my hair before,now that's scary.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Miku": "Wanna get outta here with me? *wink*",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Miku": "Try your best honey.",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Miku": "What's with the fat lady over there?",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter33",
+      "Entries": {
+        "Miku": "Gifts Gifts Gifts!",
+      },
+      "When": {
+        "Spouse:Miku": "True",
+      }
+    },
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //10 heart event, 9:00 am - 5:00 pm, forest must be sunny
+
+      "LogName": "MikuEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Miku 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Miku 39 11 2/skippable/showFrame Miku 29/move farmer -14 0 3/speak Miku \"OH!\"/jump farmer/faceDirection farmer 0/speak Miku \"Hey @..\"/emote farmer 40/move farmer 0 -2 0/speak Miku \"I have something to say.\"/pause 500/speak Miku \"I uh...\"/emote farmer 8/speak Miku \"If I was singing a song,I'd sing about you.\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Miku false true 330 30 31 30 31/speak Miku \"What I mean is uh..I like making songs for someone special to me.\"/stopAnimation Miku/showFrame Miku 29/faceDirection farmer 0/pause 500/speak Miku \"I like you, a lot. And I..\"/pause 500/speak Miku \"I'm just..maybe..*sigh*\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Miku \"I just never thought it'd come to this with my feelings about someone.\"/pause 500/speak Miku \"I'll come visit you today at your place..after dark,I want to sing to you.\"/move Miku 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end",
+      }
+    },
+
+
+  ]
+}
+		
+		

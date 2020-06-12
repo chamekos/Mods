@@ -1,0 +1,11 @@
+{
+  "Name": "Animal Crossing Fruits",
+  "Author": "Chesemtet",
+  "Version": "1.1",
+  "Description": "Edit some fruits sprites to make them look like Animal Crossing Fruits",
+  "UniqueID": "Chesemtet.AnimalCrossingFruits",
+  "UpdateKeys": [ "Nexus:6019" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

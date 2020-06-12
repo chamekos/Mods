@@ -1,0 +1,8 @@
+﻿{
+	"mapname":"Junimo_BusStop",
+	"displayname":"Shadow Cove",
+	"destinationX":21,
+	"destinationY":10,
+	"arrivalFacing":2,
+	"ticketPrice":500
+}

@@ -1,0 +1,77 @@
+{
+    "Name": "Cherry Blossom Roll Cake",
+    "Description": "A light cake with frosting wrapped around a dollop of cherry blossom jelly.",
+    "Category": "Cooking",
+    "Edibility": 95,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 920,
+    "GiftTastes":
+    {
+		"Love": ["Marnie", "Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard","Vincent", ],
+		"Dislike": ["Krobus", "Willy",]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 246, //Wheat Flour
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -5, //Any egg
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any Milk
+            "Count": 2,
+        },
+		{
+            "Object": "Cherry Blossom Jelly",
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2930,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 롤 케이크",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花蛋糕卷",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 젤리와 달콤한 크림을 넣어 만든 롤 케이크.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "用樱花果冻和甜奶油制成的蛋糕卷。",
+    }
+}

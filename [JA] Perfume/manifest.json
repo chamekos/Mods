@@ -1,0 +1,23 @@
+{
+	"Name": "[JA] Perfume Machine",
+	"Author": "Wally32",
+	"Description": "Adds a perfume machine to the game.",
+	"Version": "1.3.0",
+	"UniqueID": "Wally32.Perfume.JA",
+	"UpdateKeys": ["Nexus:6082"],
+	"ContentPackFor":
+	{
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+	"Dependencies":
+	[
+		{
+			"UniqueID": "DIGUS.ProducerFrameworkMod",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "ppja.moretrees",
+			"IsRequired": true,
+		},
+	]
+}

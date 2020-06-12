@@ -1,0 +1,9 @@
+{
+  "Name": "Granite Pot",
+  "Description": "A pot made of granite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 225,
+  "Recipe": null,
+   "CanPurchase": false
+}

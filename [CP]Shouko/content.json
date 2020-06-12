@@ -1,0 +1,120 @@
+{
+  "Format": "1.10.0",
+      "ConfigSchema": {
+	    "Seasonal": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	                		 }
+				
+		           },
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Shouko": "teen/polite/shy/neutral/female/nondatable/null/Town/summer 7/Abigail 'host sister' Pierre 'host dad' Caroline 'host mom'/SeedShop 3 6/Shouko"
+      }
+    },
+	
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "FromFile": null,
+      "Entries": {
+        "Shouko": "(This is just what I wanted! Thank you very much.)/227 228 614/(This is very nice, thank you.)/815 216 812 423 202/(Thank you.)//*She bows towards you.*//(Thank you. this is nice.)/ "
+      }
+    },
+  {
+	"LogName": "ShoukoEvent",
+	"Action": "EditData",
+	"Target": "Data/Events/ArchaeologyHouse",
+	"Entries": {
+	"5511001/f Shouko 500": "ocean/18 10/Shouko 19 11 3 Abigail 19 10 3 Penny 18 9 2/skippable/showFrame Penny 18/pause 3000/speak Shouko \"hi.\"/changeToTemporaryMap Shouko2/pause 5000/end"
+      }
+    },
+    
+	
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+      "shouko_bread": "0 0/16 17 18 19 20 19 18 17 16/0 0"
+     }
+    },
+    {
+	"LogName": "Event Sprite",
+	"Action": "Load",
+	"Target": "LooseSprites",
+	"FromFile": "assets/img/placeholder.png",
+	"Entries": null
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Shouko",
+      "FromFile": "assets/img/Sprite.png",
+      "Entries": null
+    },
+{
+	"Action": "EditImage",
+	"Target": "Characters/Shouko",
+	"FromFile": "assets/img/Sprite_{{season}}.png",
+	"When": {
+	"Seasonal": "true"
+	}
+    },
+
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Shouko",
+      "FromFile": "assets/img/Portrait.png",
+      "Entries": null
+    },
+    {
+	"Action": "EditImage",
+	"Target": "Portraits/Shouko",
+	"FromFile": "assets/img/Portrait_{{season}}.png",
+	"When": {
+	"Seasonal": "true"
+	}
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Shouko",
+      "FromFile": "assets/schedules/Schedule.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Shouko",
+      "FromFile": "assets/dialogue/Dialogue.json",
+      "Entries": null
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": null,
+      "Entries": {
+        "Shouko0": "I am so happy!$1",
+        "Shouko1": "I'm so nervous for tomorrow.$4"
+      }
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueShouko",
+      "FromFile": "assets/dialogue/MarriageDialogue.json",
+      "Entries": null
+    },
+   
+
+      ]
+}

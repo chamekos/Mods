@@ -1,0 +1,11 @@
+{
+  "Name": "[BFAV] Element Spirits",
+  "Author": "KAYA & Roam",
+  "Version": "1.0.1",
+  "Description": "Adds element spirits your barn!",
+  "UniqueID": "KAYA.BFAVElementSpirits",
+  "UpdateKeys": [ "Nexus:6180" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Denver goes to Festivals",
+  "version": "1.0.0", 
+  "author": "balverines",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Denver",
+	    "map": "Town-EggFestival", 
+		"position": [43, 78],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Forest-FlowerFestival", 
+		"position": [13, 41],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Beach-Luau", 
+		"position": [11, 23],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Beach-Jellies", 
+		"position": [40, 24],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Town-Fair", 
+		"position": [50, 70],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Town-Halloween", 
+		"position": [12, 29],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Forest-IceFestival", 
+		"position": [60, 41],
+		"direction": 2
+		},
+		{
+		"name": "Denver",
+	    "map": "Town-Christmas", 
+		"position": [18, 52],
+		"direction": 2
+		},
+	]
+}

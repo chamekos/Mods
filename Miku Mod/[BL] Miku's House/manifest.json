@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] MikuHouse",
+   "Author": "ChaseXavier",
+   "Version": "1.1.0",
+   "Description": "Takes you Miku NPC's house",
+   "UniqueID": "ChaseXavier.BLMikuHouse",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": "",
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

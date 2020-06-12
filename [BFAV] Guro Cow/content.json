@@ -1,0 +1,43 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Type": "Guro Orange Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Guro Orange Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/Brown Cow-orange.png",
+            "Baby": "assets/Brown Cow-orange.png"
+          }
+        },
+        {
+          "Type": "Guro Yellow Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Guro Yellow Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/Brown Cow-yellow.png",
+            "Baby": "assets/Brown Cow-yellow.png"
+          }
+        },
+        {
+          "Type": "Guro Blue Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Guro Blue Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/White Cow-blue.png",
+            "Baby": "assets/White Cow-blue.png"
+          }
+        },
+        {
+          "Type": "Guro Pink Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Guro Pink Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/White Cow-pink.png",
+            "Baby": "assets/White Cow-pink.png"
+          }
+        }
+      ]
+    }
+  ]
+}

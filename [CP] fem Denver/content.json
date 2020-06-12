@@ -1,0 +1,434 @@
+{
+  "Format": "1.14.0",
+  "ConfigSchema": {
+		"UseMalePronouns": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"AllowBlank": "false",
+		},
+		"SummerFlannel": {
+		    "AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": "false",
+		},
+	},
+  "Changes": [
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Spring.png",
+	  "When": {
+	      "Season": "spring",
+		}
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Summer.png",
+	  "When": {
+	      "Season": "summer",
+		  "SummerFlannel": "false",
+		}
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Summer2.png",
+	  "When": {
+	      "Season": "summer",
+		  "SummerFlannel": "true",
+		}
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Fall.png",
+	  "When": {
+	      "Season": "fall",
+		}
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Winter.png",
+	  "When": {
+	      "Season": "winter",
+	      "Weather:snow": "false",
+		}
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Denver",
+      "FromFile": "assets/DenverSprites_Snow.png",
+	  "When": {
+	      "Weather": "snow",
+		}
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Spring.png",
+	  "When": {
+	      "Season": "spring",
+		  }
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Summer.png",
+	  "When": {
+	      "Season": "summer",
+		  "SummerFlannel": "false",
+		  }
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Summer2.png",
+	  "When": {
+	      "Season": "summer",
+		  "SummerFlannel": "true",
+		  }
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Fall.png",
+	  "When": {
+	      "Season": "fall",
+		  }
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Winter.png",
+	  "When": {
+	      "Season": "winter",
+		  "Weather:snow": "false",
+		  }
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Denver",
+      "FromFile": "assets/portraits_Snow.png",
+	  "When": {
+	      "Weather": "snow",
+		  }
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Denver",
+      "FromFile": "assets/DenverDialogue.json",
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueDenver",
+      "FromFile": "assets/MarriageDialogue.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Denver",
+      "FromFile": "assets/DenverSchedule.json",
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Denver": "adult/neutral/shy/negative/male/datable/Cecilia/Town/winter 22/Marlon 'uncle' Cecilia ''/BoardingHouse 39 6/Denver"
+      },
+	  "When": {
+	     "UseMalePronouns": "true"
+	  },
+    },
+	{
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Denver": "adult/neutral/shy/negative/female/datable/Cecilia/Town/winter 22/Marlon 'uncle' Cecilia ''/BoardingHouse 39 6/Denver"
+      },
+	  "When": {
+	     "UseMalePronouns": "false"
+	  },
+    },
+    {	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Strings/animationDescriptions",
+		"Entries": {	
+		  "denver_werewolf": "%Denver is feeling a little out of sorts... it's probably best to leave him alone.",
+		  "denver_guitar": "%Denver is practicing the guitar. Maybe you should come back later?"
+	    },
+	    "When": {
+	     "UseMalePronouns": "true"
+		 },	
+	},
+	{	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Strings/animationDescriptions",
+		"Entries": {	
+		  "denver_werewolf": "%Denver is feeling a little out of sorts... it's probably best to leave her alone.",
+		  "denver_guitar": "%Denver is practicing the guitar. Maybe you should come back later?"
+	    },
+	    "When": {
+	     "UseMalePronouns": "false"
+		 },	
+	},
+	{
+	"LogName": "Animation Descriptions",
+	"Action": "EditData",
+	"Target": "Data/animationDescriptions",
+	"Entries": {
+	  "denver_werewolf": "16/16 16 17 17 16 16/16/Strings\\animationDescriptions:denver_werewolf",
+	  "denver_guitar": "21/21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22 21 21 21 22 22 22/21/Strings\\animationDescriptions:denver_guitar"
+	},
+	},
+	{
+	"LogName": "Check-up",
+	"Action": "EditData",
+	"Target": "Characters/schedules/Harvey",
+	"Entries": {
+	    "fall_7": "800 HarveyRoom 8 5 0/840 Hospital 5 15 2/1200 Hospital 4 5 0/1400 Hospital 5 6 3/1700 HarveyRoom 8 5 0/2200 HarveyRoom 13 1 0"
+	   }
+	},
+	{
+	    "LogName": "Ghost House schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Denver",
+		"When": {
+		   "HasMod:balverines.cecilia": "true",
+		   },
+		"Entries": {
+		   "rain": "830 Saloon 34 7 1/1200 GhostHouse 8 5 2/1600 Town 47 88 0/1800 Saloon 34 7 0 denver_guitar/2000 Saloon 34 7 2/2200 Saloon 35 5 1",
+		   },
+	},
+	{	
+		"LogName": "Egg Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": 
+	{	
+		"Denver": "Do we get to, like... eat the eggs after this?#$e#No? Sorry, I'm from the city, we don't do stuff like this.",
+		"Denver_spouse": "I know you'll win the egg hunt this year, babe!$1",
+	},
+},
+{	
+		"LogName": "Flower Dance",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": 
+{	
+		"Denver": "Hrrngh... I'm not really good at dancing...$2",
+		"Denver_spouse": "I guess if you want to dance, I'll happily oblige.$1",
+},
+},
+{	
+		"LogName": "Luau",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": 
+{	
+		"Denver": "Ah, man, I love food.",
+		"Denver_spouse": "Don't think that just because we're married, that means that I'll share with you.$1",
+},
+},
+{	
+		"LogName": "Dance of the Moonlight Jellies",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": 
+{	
+		"Denver": "Beautiful, huh? They're almost... hypnotizing...",
+		"Denver_spouse": "I love being here with you, love.$l",
+},
+},
+{	
+		"LogName": "Stardew Valley Fair",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": 
+{	
+		"Denver": "Are you entering? Good luck.",
+		"Denver_spouse": "Knock em dead, babe!$1",
+},
+},
+{	
+		"LogName": "Spirit's Eve",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": 
+{	
+		"Denver": "Uhh... is there a full moon tonight?$2#$e#No reason, just asking for a friend!$9",
+		"Denver_spouse": "Heh, I should probably head home soon, or else I might be featured with the spooky decorations.$1",
+},
+},
+{	
+		"LogName": "Festival of Ice",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": 
+{	
+		"Denver": "Wanna start a snowball fight?#$e#Uncle Marlon once tried convincing me that he lost his eye during a snowball fight.$1",
+		"Denver_spouse": "Get out there and destroy Willy, babe.$l",
+},
+},
+{	
+		"LogName": "Feast of the Winter Star",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": 
+{	
+		"Denver": "Me and my mom don't celebrate christmas, so this is a bit weird for me.",
+		"Denver_spouse": "I'm glad we've spent this year together, babe, I love you.$l",
+},
+},
+{	
+		"LogName": "Engagement Dialogue",
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": 
+{	
+		"Denver0": "We should probably have our wedding during the day, huh?$1",
+		"Denver1": "You still wanna go through with this, @?",
+},
+},
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Denver": "Hey, this is great, thanks!/259 395 649/Thanks./198 206 214/You actually like stuff like this? Huh./196 256 303 346/Uh... thanks.//Thank you.//",
+	  	}
+	},
+	{
+      "LogName": "Custom Messages",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "NPC.cs.3962": "$q 10001 give_flowersA#Yes...?#$r 10001 0 give_flowersA# [Give Bouquet]",
+        "NPC.cs.3963": "$q 10001 give_flowersB#Yes...?#$r 10001 0 give_flowersB# [Give Bouquet]",
+        "NPC.cs.3980": "$q 10001 give_pendant#Yes...?#$r 10001 0 give_pendant# Will you marry me?",
+        "NPC.cs.4001": "$q 10001 stardrop_gift#Yes...?#$r 10001 0 stardrop_gift# Is this for me?",
+        "NPC.cs.3956": "$q 10001 rejectNPCA#Yes...?#$r 10001 0 rejectNPCA#[Give Bouquet]",
+        "NPC.cs.3957": "$q 10001 rejectNPCB#Yes...?#$r 10001 0 rejectNPCB#[Give Bouquet]",
+        "NPC.cs.3958": "$q 10001 reject_two_heartA#Yes...?#$r 10001 0 reject_two_heartA#[Give Bouquet]",
+        "NPC.cs.3959": "$q 10001 reject_two_heartB#Yes...?#$r 10001 0 reject_two_heartB#[Give Bouquet]",
+        "NPC.cs.3960": "$q 10001 reject_four_heartA#Yes...?#$r 10001 0 reject_four_heartA#[Give Bouquet]",
+        "NPC.cs.3961": "$q 10001 reject_four_heartB#Yes...?#$r 10001 0 reject_four_heartB#[Give Bouquet]",
+        "NPC.cs.3965": "$q 10001 engageA#Yes...?#$r 10001 0 engageA# Will you marry me?",
+        "NPC.cs.3966": "$q 10001 engageB#Yes...?#$r 10001 0 engageB# Will you marry me?",
+        "NPC.cs.3967": "$q 10001 marriedA#Yes...?#$r 10001 0 marriedA# Will you marry me?",
+        "NPC.cs.3968": "$q 10001 marriedB#Yes...?#$r 10001 0 marriedB# Will you marry me?",
+        "NPC.cs.3970": "$q 10001 refusal_no_heartsA#Yes...?#$r 10001 0 refusal_no_heartsA# Will you marry me?",
+        "NPC.cs.3971": "$q 10001 refusal_no_heartsB#Yes...?#$r 10001 0 refusal_no_heartsB# Will you marry me?",
+        "NPC.cs.3972": "$q 10001 refusal_knownA#Yes...?#$r 10001 0 refusal_knownA# Will you marry me?",
+        "NPC.cs.3973": "$q 10001 refusal_knownB#Yes...?#$r 10001 0 recusalB# Will you marry me?",
+        "NPC.cs.3974": "$q 10001 refusal_botherA#Yes...?#$r 10001 0 refusal_botherA# Will you marry me?",
+        "NPC.cs.3975": "$q 10001 refusal_botherB#Yes...?#$r 10001 0 refusal_botherB# Will you marry me?"
+      },
+	  "When": {
+	     "HasMod:misscoriel.courtship": "true",
+	 }
+    },
+	
+	
+	    //Cane's Resource for a list of Music IDs: https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit#gid=239695361
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //2 heart event, 7:00 pm - 12:00 am, forest must be rainy
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "451422518/f Denver 500/t 1900 2400/w rainy": "woodsTheme/-1000 -1000/farmer 74 43 2 Denver 67 48 1/skippable/animate Denver true true 1000 16 17 18 19/viewport 68 47 clamp true/pause 800/move farmer -3 0 3/move farmer 0 4 3/pause 800/emote farmer 16/pause 800/speak Denver \"...$6\"/pause 800/emote farmer 40/pause 800/speak Denver \"Grrr...$8\"/pause 800/faceDirection farmer 2/message \"What is that thing?! Some sort of wolf monster??\"/pause 1000/faceDirection farmer 3/message \"It's staring right at me...\"/pause 1000/speak Denver \"...?$6\"/emote farmer 40/message \"Something about it... seems familiar...\"/move farmer -1 0 3/speak Denver \"...$6\"/message \"..?\"/speak Denver \"Grrrr...$8\"/pause 800/emote farmer 16/move farmer 3 0 3/message \"On second thought, maybe it's time to head home! \"/faceDirection farmer 0/move farmer 0 -8 2/globalFade/viewport -1000 -1000/end"
+      }
+    },
+
+    { //4 heart event, 12:00 pm - 6:00 pm, saloon any weather
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "451422519/f Denver 1000/t 1200 1800": "Saloon1/3 18/farmer 5 18 3 Denver 1 18 0/skippable/move farmer -2 0 3/pause 800/faceDirection Denver 1/speak Denver \"Oh, hey, @. What's up?\"/emote farmer 32/move farmer -1 0 3/pause 800/speak Denver \"What're you up to? Or did you just come by to say hello?\"/emote farmer 40/emote farmer 8/pause 800/emote Denver 40/speak Denver \"So you saw something in the forest? What did it look like?$3\"/emote farmer 36/pause 800/faceDirection Denver 0/speak Denver \"Some sort of wolf monster?$2\"/pause 800/emote Denver 28/faceDirection Denver 1/emote farmer 8/pause 800/speak Denver \"Are you sure you weren't imagining it? The whole thing sounds a little weird...$2\"/faceDirection Denver 3/pause 800/emote farmer 40/speak Denver \"What did you...$2#$b#I mean, were you afraid of it?$3\"/question fork1 \"#Not at all.#A little bit...\"/fork rejection/pause 800/pause 800/speak Denver \"Really? That makes me feel a little better.$1 \"/emote farmer 8/emote Denver 16/faceDirection Denver 1/speak Denver \"Er... that didn't come out right. I just meant, I'm glad you're not frightened easily, is all... \"/pause 800/speak Denver \"That didn't really sound right, either. Anyway, I'm glad you stopped by.\"/pause 200/speak Denver \"You can visit any time, @.$1\"/emote farmer 32/faceDirection farmer 1/move farmer 4 0 2/globalFade/viewport -1000 -1000/end",
+		"rejection": "pause 800/emote Denver 40/pause 800/speak Denver \"Oh, I see...$2 \"/faceDirection Denver 0/pause 800/speak Denver \"I don't know how well we'll get along, @... maybe you should head out...$5\"/emote farmer 28/pause 800/faceDirection farmer 1/move farmer 4 0 2/globalFade/viewport -1000 -1000/end"
+      }
+    },
+
+	{ //6 heart event, enter Saloon 6:00 pm - 11:00 pm while Gus is there
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "451422520/f Denver 1500/t 1800 2300/p Gus": "Saloon1/14 20/farmer 14 24 0 Denver -100 -100 0 Gus 11 18 2/skippable/move farmer 0 -4 0/pause 800/speak Gus \"Welcome, @! What can I get for you?\"/emote farmer 8/pause 800/speak Gus \"Oh, so you're looking for Denver? Well, he usually heads out to the woods around this time. Strange one, that boy.\"/emote farmer 56/stopMusic/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap Forest false/warp farmer 71 47/faceDirection farmer 3/warp Denver 67 47/faceDirection Denver 1/animate Denver true true 1000 16 17 18 19/pause 800/playMusic woodsTheme/viewport 68 47/pause 500/emote farmer 40/message \"Denver..?\"/pause 800/speak Denver \"..?$6\"/emote farmer 32/move farmer -2 0 3/speak Denver \"...$6\"/message \"You tell him that you're not afraid of him.\"/pause 800/speak Denver \"..!$7\"/message \"He snorts and bows his head to you. You instictively pat his head, to which he seems a little surprised.\"/pause 800/message \"Although he seemed tolerant at first, Denver appeared to become slightly agitated.\"/move farmer 1 0 3/emote farmer 40/pause 800/speak Denver \"...$8\"/emote farmer 28/message \"Maybe it's best to leave him alone for tonight.\"/pause 800/globalFade/viewport -1000 -1000/end" 
+      },
+	  "When": {
+	     "UseMalePronouns": "true"
+	  },
+    },
+	{ //6 heart event, enter Saloon 6:00 pm - 11:00 pm while Gus is there
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "451422520/f Denver 1500/t 1800 2300/p Gus": "Saloon1/14 20/farmer 14 24 0 Denver -100 -100 0 Gus 11 18 2/skippable/move farmer 0 -4 0/pause 800/speak Gus \"Welcome, @! What can I get for you?\"/emote farmer 8/pause 800/speak Gus \"Oh, so you're looking for Denver? Well, she usually heads out to the woods around this time. Strange one, that girl.\"/emote farmer 56/stopMusic/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap Forest false/warp farmer 71 47/faceDirection farmer 3/warp Denver 67 47/faceDirection Denver 1/animate Denver true true 1000 16 17 18 19/pause 800/playMusic woodsTheme/viewport 68 47/pause 500/emote farmer 40/message \"Denver..?\"/pause 800/speak Denver \"..?$6\"/emote farmer 32/move farmer -2 0 3/speak Denver \"...$6\"/message \"You tell her that you're not afraid of her.\"/pause 800/speak Denver \"..!$7\"/message \"She snorts and bows her head to you. You instictively pat her head, to which she seems a little surprised.\"/pause 800/message \"Although she seemed tolerant at first, Denver appeared to become slightly agitated.\"/move farmer 1 0 3/emote farmer 40/pause 800/speak Denver \"...$8\"/emote farmer 28/message \"Maybe it's best to leave her alone for tonight.\"/pause 800/globalFade/viewport -1000 -1000/end" 
+      },
+	  "When": {
+	     "UseMalePronouns": "false"
+	  },
+    },
+	
+	{ //6 heart event, exit farm house from 6:00 am - 10:00 am
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "451422521/f Denver 1500/t 600 1000/e 451422520": "echos/64 16/farmer 64 16 2 Denver 64 17 0/skippable/pause 1000/speak Denver \"Hey, so...\"/emote Denver 40/pause 800/emote farmer 8/pause 800/speak Denver \"I, uh... you were in the forest last night, weren't you?$2\"/pause 1000/faceDirection Denver 3/pause 800/speak Denver \"So usually I don't remember things when... that happens, but for some reason I remember last night vividly...\"/pause 800/emote farmer 8/pause 800/faceDirection Denver 0/speak Denver \"I just, uh... wanted to thank you for what you said. It's been kinda rough for me recently...\"/pause 800/speak Denver \"I moved out of my mom's place because she was starting to get suspicious and I didn't think she'd handle it well, and now that I'm here, uncle Marlon wants me to hunt monsters with him...$2\"/pause 800/faceDirection Denver 3/speak Denver \"To make a long story short, I'm just happy that you're being supportive...\"/emote farmer 32/pause 800/faceDirection Denver 0/speak Denver \"For some reason, I feel comfortable with you knowing about this.$1\"/pause 500/speak Denver \"Oh, don't tell anyone, alright? Especially not uncle Marlon...$2\"/pause 800/pause 800/globalFade/viewport -1000 -1000/end" 
+      }
+
+    },
+
+    { //8 heart event, 8:00 pm - 12:00 am, town must be raining
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "451422522/f Denver 2000/t 2000 2400/w rainy": "echos/48 70/farmer 44 65 1 Denver 50 69 1/skippable/pause 1000/move farmer 6 0 2/move farmer 0 2 2/pause 800/faceDirection Denver 0/pause 800/speak Denver \"Oh, hey, @!\"/faceDirection Denver 1/pause 800/speak Denver \"What brings you out in this gloomy weather?\"/question fork1 \"#I like the rain.#I came to see you.\"/fork flirty/pause 800/pause 800/speak Denver \"Yeah, me, too. It's calming and sort of... magical, yaknow?$1\"/pause 800/faceDirection Denver 0/speak Denver \"*chuckles* Sorry, I hope you don't mind the wet dog smell. I haven't really found a way around it.\"/faceDirection Denver 1/pause 800/speak Denver \"I, uh... sort of want to talk to uncle Marlon about my, uh... condition... but I'm afraid of how he'll respond.\"/pause 800/emote farmer 8/pause 800/faceDirection Denver 0/speak Denver \"No, it's just- he's a monster hunter and I'm, well... a monster.$2\"/pause 800/emote Denver 40/pause 800/faceDirection Denver 1/speak Denver \"I dunno, I'll think on it more...\"/pause 800/speak Denver \"Anyways, I should get going before it gets too late. See ya around, @.\"/move Denver 0 3 3/move Denver -5 0 0/move Denver 0 -1 0/warp Denver 0 0 0/pause 800/globalFade/viewport -1000 -1000/end",
+        "flirty": "pause 800/stopMusic/playMusic musicboxsong/pause 800/emote Denver 32/pause 800/faceDirection Denver 1/pause 800/speak Denver \"You came all the way out here in this weather just to see me?$1\"/pause 800/faceDirection Denver 0/speak Denver \"I'm glad you did, actually, there's something I want to talk to you about...\"/faceDirection Denver 2/move Denver 0 6 2/globalFade/warp farmer 53 103 3/warp Denver 53 104 3/pause 800/viewport 54 103/pause 1000/speak Denver \"I've been thinking about telling uncle Marlon about... my condition...$2\"/pause 800/emote farmer 8/pause 800/speak Denver \"No, we get along really well... it's just that, well, he's a monster hunter and I'm...\"/pause 800/speak Denver \"I'm just afraid of how he'll react is all...$2\"/pause 1000/faceDirection Denver 0/speak Denver \"Sorry, @, I didn't mean to drop all of that on you at once...$2\"/emote farmer 56/pause 800/emote Denver 40/pause 800/faceDirection Denver 3/speak Denver \"You're something else, @.$1\"/pause 800/speak Denver \"I feel really comfortable talking to you. I hope you decide to stick around.$4\"/emote farmer 32/pause 800/globalFade/viewport -1000 -1000/end"
+      }
+	  
+    },
+
+    { //10 heart event, enter saloon 6:00 pm - 12:00 am
+
+      "LogName": "DenverEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "451422523/f Denver 2500/t 1800 2400/D Denver": "echos/32 7/farmer 33 6 1 Denver 34 6 3 Marlon -100 -100 2/skippable/pause 1000/speak Denver \"Hey, @...\"/pause 800/emote farmer 8/pause 800/faceDirection Denver 2/speak Denver \"Remember when I said I wanted to talk to my uncle? Well, I, uh...\"/pause 800/faceDirection Denver 3/speak Denver \"I was wondering if you would go with me?$s\"/pause 800/emote farmer 32/speak Denver \"Great, thanks! Let's go.$1\"/pause 800/globalFade/viewport -1000 -1000/warp farmer -100 -100/stopMusic/playMusic MarlonsTheme/changeToTemporaryMap AdventureGuild/viewport 6 14/warp farmer 6 19 0/warp Marlon 5 11 2/move farmer 0 -6 3/move farmer -2 0 0/pause 500/warp Denver 6 19 0/move Denver 0 -6 3/move Denver -1 0 0/pause 800/speak Marlon \"Oh, hello. What brings you kids in?\"/pause 800/emote Denver 40/pause 800/speak Denver \"I, uh, have something I need to talk to you about, uncle Marlon.$s\"/stopMusic/playMusic echos/pause 800/speak Marlon \"What is it? Sounds serious...\"/pause 800/emote farmer 40/faceDirection farmer 1/pause 800/speak Denver \"Well... I don't know how else to say this, but...\"/pause 800/speak Marlon \"Well? Go on and say it already.\"/pause 800/speak Denver \"You know how I'm always going out to the forest, and how sometimes my memory is kind of spotty?\"/faceDirection farmer 0/pause 800/speak Denver \"It's because I- I'm...$s\"/pause 1000/emote farmer 40/pause 800/stopMusic/speak Marlon \"You're a werewolf.\"/playMusic MarlonsTheme/emote Denver 16/speak Denver \"What?! How do you know about that?!$9\"/textAboveHead Marlon \"Ha!\"/pause 800/speak Marlon \"I've always known, Denver, I just figured you'd tell me when you were ready.\"/pause 800/faceDirection Denver 2/showFrame Denver 20/pause 1000/faceDirection Denver 0/pause 800/speak Denver \"So you mean to tell me that I've been worried about this since I moved here, but you knew the whole time?$2\"/pause 800/speak Marlon \"Yep, sounds about right!$b\"/pause 800/speak Denver \"*sigh* Well I guess that solves that problem.$1\"/faceDirection Denver 3/faceDirection farmer 1/pause 800/speak Denver \"Thanks for coming with me, @. Should we head back?\"/pause 800/globalFade/viewport -1000 -1000/warp farmer -100 -100/pause 800/changeToTemporaryMap Mountain/warp farmer 74 13 1/positionOffset farmer 0 6/warp Denver 76 13 3/viewport 74 12/pause 800/speak Denver \"@...\"/emote farmer 8/pause 800/speak Denver \"I just wanted to say that I'm glad I met you.$l\"/emote farmer 20/pause 800/speak Denver \"If you hadn't come along, I probably would have never come to terms with this...\"/pause 800/speak Denver \"Thank you.$l\"/pause 800/showFrame Denver 34/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 10/positionOffset Denver -2 0/pause 1000/jump farmer 8/pause 200/faceDirection farmer 1/pause 100/positionOffset Denver 2 0/pause 10/positionOffset Denver 2 0/pause 10/positionOffset Denver 2 0/pause 10/showFrame Denver 12/pause 500/emote farmer 40/pause 800/speak Denver \"What? That's just my way of saying thanks.$10\"/pause 300/emote farmer 32/pause 500/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/animate farmer false true 100 101/pause 800/showFrame Denver 34/specificTemporarySprite heart 74 14/pause 3000/viewport move -1 -1 5000/pause 3000/globalFade/viewport -2000 -2000/end"
+      }
+	}
+  ]
+}

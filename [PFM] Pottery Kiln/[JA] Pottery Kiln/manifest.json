@@ -1,0 +1,11 @@
+{
+   "Name": "Pottery",
+   "Author": "Sylvarmyst",
+   "Description": "Homemade glazed pottery.",
+   "Version": "1.0.5",
+   "UniqueID": "Sylvarmyst.Pottery",
+   "UpdateKeys": [ "Nexus:4362" ],
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+   }
+}

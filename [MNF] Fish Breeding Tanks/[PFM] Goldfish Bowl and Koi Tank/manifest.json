@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Fish Breeding",
+	"Author": "HisameArtwork&TrentXV",
+	"Version": "2.0.0",
+	"Description": "Adds the rules to the fish bowls and tanks.",
+	"UniqueID": "PFM.Fishbreeding",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

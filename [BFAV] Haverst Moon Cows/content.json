@@ -1,0 +1,27 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Dairy Cow",
+      "Types": [
+        {
+          "Type": "Harvest Moon White Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Harvest Moon White Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/White Cow.png",
+            "Baby": "assets/White Cow.png"
+          }
+        },
+        {
+          "Type": "Harvest Moon Brown Cow",
+          "Data": "1/5/184/186/cow/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/639/1500/Harvest Moon Brown Cow/Barn",
+          "Sprites": {
+            "Adult": "assets/Brown Cow.png",
+            "Baby": "assets/Brown Cow.png"
+          }
+        }
+      ]
+    }
+  ]
+}

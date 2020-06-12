@@ -1,0 +1,77 @@
+{
+    "Name": "Cherry Blossom Chiffon Cake",
+    "Description": "A light, fluffy cake wrapped in cream with fresh cherry and a sweet aroma of cherry syrup.",
+    "Category": "Cooking",
+    "Edibility": 80,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 730,
+    "GiftTastes":
+    {
+		"Love": ["Haley", "Marnie", "Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Jodi", "Kent", "Lewis", "Linus",  "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard", "Vincent", ],
+		"Dislike": ["Harvey", "Krobus", "Leah", "Willy",],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 246, //Wheat Flour
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -5, //Any egg
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any Milk
+            "Count": 1,
+        },
+		{
+            "Object": 638, //Cherry
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2750,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 쉬폰 케이크",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花戚风蛋糕",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "상큼한 체리를 넣고 벚꽃 시럽으로 달콤한 향기를 불어넣은 크림으로 감싼 가볍고 폭신한 케이크.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "柔软蓬松的蛋糕被奶油和甜甜的樱花糖浆包裹，最后再点缀上酸甜可口的新鲜樱桃。",
+    }
+}

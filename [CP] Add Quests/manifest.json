@@ -1,0 +1,12 @@
+{
+  "Name": "Add Quests",
+  "Author": "Horanghwa",
+  "Version": "1.0.8",
+  "Description": "Add Quests",
+  "UniqueID": "Horanghwa.AQ",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:5934" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

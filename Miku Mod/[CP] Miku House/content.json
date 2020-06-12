@@ -1,0 +1,14 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    		{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "MikuDoor": "It goes to the rest of the house, it's locked.",
+	  "KawaiiNote": "Miku's hidden kawaii room",
+	  "MikuPC": "It's a recording of Miku singing.",
+	  },
+	 },
+  ]
+}

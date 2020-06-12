@@ -1,0 +1,12 @@
+{
+   "Name": "[BL] Village",
+   "Author": "TNT",
+   "Version": "1.0.5",
+   "Description": "Adds the Toucan Village to the Bus Menu",
+   "UniqueID": "TNT.BLVillage",
+   "MinimumApiVersion": "2.9.3",
+   "UpdateKeys": [ "Nexus:2905"],
+   "ContentPackFor": {
+      "UniqueID": "hootless.BusLocations", // the ID of required mod
+   }
+}

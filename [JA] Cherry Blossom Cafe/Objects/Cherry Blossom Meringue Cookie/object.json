@@ -1,0 +1,65 @@
+{
+    "Name": "Cherry Blossom Meringue Cookie",
+    "Description": "Sweet and crispy cookies with a light texture. Both the shape and aroma are of cherry blossoms.",
+    "Category": "Cooking",
+    "Edibility": 30,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 500,
+    "GiftTastes":
+    {
+		"Love": ["Jas"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard", "Vincent", ],
+		"Dislike": ["Harvey", "Krobus", "Leah", "Willy",]
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -5, //Any egg
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1100,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 머랭 쿠키",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花酥皮饼干",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "식감이 가벼운 달콤하고 파삭한 과자. 모양만 닮은게 아니라 벚꽃 향이 감돈다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "香甜酥脆的饼干，质地轻盈。它不仅形状同樱花类似，还会散发出樱花的芬芳香气。",
+    }
+}

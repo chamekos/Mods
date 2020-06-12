@@ -1,0 +1,11 @@
+{
+  "Name": "Cecilia at Festivals",
+  "Author": "balverines",
+  "Version": "1.0.0",
+  "Description": "Cecilia goes to Festivals",
+  "UniqueID": "balverines.CeciliaFestivals",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+  }
+}

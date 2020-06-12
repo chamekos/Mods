@@ -1,0 +1,9 @@
+{
+  "Name": "Fire Quartz Ceramic Pot",
+  "Description": "A pot with a glaze made of fire quartz.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 200,
+  "Recipe": null,
+   "CanPurchase": false
+}

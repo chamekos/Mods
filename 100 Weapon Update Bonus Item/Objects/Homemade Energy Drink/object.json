@@ -1,0 +1,46 @@
+{
+  "Name": "Homemade Energy Drink",
+  "Description": "Looks like some ordinary juice.",
+  "Category": "Cooking",
+  "Edibility": 250,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 150,
+        "MagnetRadius": 0,
+        "Speed": 5,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 300,
+    },
+  "Price": 750,
+  "IsColored": false,
+  "GiftTastes": {
+    "Neutral": ["Abigail", "Alex", "Caroline", "Haley", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard", "Leah"],
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 268,
+        "Count": 1,
+     },
+     {
+       "Object": 245,
+       "Count": 1,
+     },
+     {
+        "Object": "Glass Bottle",
+        "Count": 1,
+     },
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 1500,
+    "PurchaseRequirements": ["f Harvey 1750"],
+  }
+}

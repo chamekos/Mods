@@ -1,0 +1,37 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Create",
+      "Category": "Digimon",
+      "Types": [
+        {
+          "Type": "Agumon",
+          "DeluxeProduceLuck": 0.0,
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1500/Agumon/Coop",
+          "Sprites": {
+            "Adult": "assets/Agumon.png",
+            "Baby": "assets/Agumon.png"
+          }
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Digimon",
+        "Description": "You can use the adults manure to produce fertilizer",
+        "Price": 1500,
+        "Icon": "assets\\animal_shop_digimon.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": false,
+      "ForceOverrideBuildings": false,
+      "ForceOverrideExclude": false
+    }
+  ]
+}

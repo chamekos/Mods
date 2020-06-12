@@ -1,0 +1,32 @@
+{
+  "name": "Clownfish Tank",
+  "Description": "A tank to breed your clownfish.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveExtraIndexCount": 6,
+   "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 338,
+            "Count": 5,
+        },
+        {
+            "Object": 152,
+            "Count": 1,
+        },
+        {
+            "Object": "Clownfish Starter",
+            "Count": 1,
+        },
+        {
+            "Object": "Anemone",
+            "Count": 1,
+        },
+        ],
+        "CanPurchase": true,
+	"PurchaseFrom": "Trent_Icon",
+	"PurchasePrice": 10000, 
+  },
+  }

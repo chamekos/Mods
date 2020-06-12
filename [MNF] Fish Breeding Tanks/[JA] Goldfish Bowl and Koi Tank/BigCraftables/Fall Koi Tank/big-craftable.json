@@ -1,0 +1,35 @@
+{
+  "name": "Fall Koi Tank",
+  "Description": "An elegant tank for your koi. Feed them, and they may reproduce.",
+  "provideslight": false,
+  "ReserveExtraIndexCount": 4,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 338,
+            "Count": 5,
+        },
+        {
+            "Object": 153,
+            "Count": 1,
+        },
+        {
+            "Object": 1121,
+            "Count": 1,
+        },
+		{
+            "Object": 1078,
+            "Count": 1,
+        },
+        {
+            "Object": -2,
+            "Count": 3,
+        },
+        ],
+        "CanPurchase": true,
+	"PurchaseFrom": "Trent_Icon",
+	"PurchasePrice": 10000, 
+  }
+}

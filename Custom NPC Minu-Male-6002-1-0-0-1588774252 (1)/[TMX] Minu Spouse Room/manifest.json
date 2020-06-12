@@ -1,0 +1,11 @@
+{
+  "Name": "MinuSpouseRoom",
+  "Author": "Horanghwa",
+  "Version": "1.0.0",
+  "Description": "Spouse Room for Minu",
+  "UniqueID": "Horanghwa.SpouseRooms.Minu",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

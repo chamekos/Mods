@@ -1,0 +1,9 @@
+{
+  "Name": "Cursed Ceramic Pot",
+  "Description": "A ceramic pot that's Clearly haunted.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 600,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,142 @@
+{
+	/* What config loader ALL should use to load the file, for the 1.2 branch should always be `1.2` */
+	"LoaderVersion":"1.2",
+	/* The locations section is where new locations are registered for addition to the game */
+	"Locations":[
+		{
+			/* The name to use for this new location in warps and such, if not unique then ALL will report a error */
+			"MapName":"Village",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/village",
+			/* If set to `true` then this new location is a outdoor location and exhibits all behaviour outdoor locations have */
+			"Outdoor":false,
+			/* If set to `true` then this new location is a farmable location and crops will be able to be planted here */
+			"Farmable":false,
+			/* What special Type of location this is, or `Default` if a generic location, special location types have unique behaviour that no other location type exhibits */
+			"Type":"Default"
+			/*
+				The following types are currently supported:
+				Default			- Generic location
+				Cellar			- Location where Cask objects are able to work
+				Greenhouse		- Location that is not affected by seasons similar to the greenhouse
+				Sewer			- Location that has the same green fog effect as the vanilla Sewer location
+				BathHousePool	- Location that has the same white fog effect as the vanilla BathHousePool location
+				Desert			- Location that exhibits the same 'always sunny' behaviour that the vanilla Desert exhibits
+				Decoratable		- Location that allows for Furniture objects to be placed within
+
+				More types may be added in the future, ALL will report if a type is unknown and fall back to the Default type in that case
+			*/
+		},
+		{
+			/* The name to use for this new location in warps and such, if not unique then ALL will report a error */
+			"MapName":"VillageCabin1",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/villagecabin1",
+			/* If set to `true` then this new location is a outdoor location and exhibits all behaviour outdoor locations have */
+			"Outdoor":false,
+			/* If set to `true` then this new location is a farmable location and crops will be able to be planted here */
+			"Farmable":false,
+			/* What special Type of location this is, or `Default` if a generic location, special location types have unique behaviour that no other location type exhibits */
+			"Type":"Default"
+			/*
+				The following types are currently supported:
+				Default			- Generic location
+				Cellar			- Location where Cask objects are able to work
+				Greenhouse		- Location that is not affected by seasons similar to the greenhouse
+				Sewer			- Location that has the same green fog effect as the vanilla Sewer location
+				BathHousePool	- Location that has the same white fog effect as the vanilla BathHousePool location
+				Desert			- Location that exhibits the same 'always sunny' behaviour that the vanilla Desert exhibits
+				Decoratable		- Location that allows for Furniture objects to be placed within
+
+				More types may be added in the future, ALL will report if a type is unknown and fall back to the Default type in that case
+			*/
+		},
+		{
+			/* The name to use for this new location in warps and such, if not unique then ALL will report a error */
+			"MapName":"VillageJoja",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/VillageJoja",
+			/* If set to `true` then this new location is a outdoor location and exhibits all behaviour outdoor locations have */
+			"Outdoor":false,
+			/* If set to `true` then this new location is a farmable location and crops will be able to be planted here */
+			"Farmable":false,
+			/* What special Type of location this is, or `Default` if a generic location, special location types have unique behaviour that no other location type exhibits */
+			"Type":"Default"
+			/*
+				The following types are currently supported:
+				Default			- Generic location
+				Cellar			- Location where Cask objects are able to work
+				Greenhouse		- Location that is not affected by seasons similar to the greenhouse
+				Sewer			- Location that has the same green fog effect as the vanilla Sewer location
+				BathHousePool	- Location that has the same white fog effect as the vanilla BathHousePool location
+				Desert			- Location that exhibits the same 'always sunny' behaviour that the vanilla Desert exhibits
+				Decoratable		- Location that allows for Furniture objects to be placed within
+
+				More types may be added in the future, ALL will report if a type is unknown and fall back to the Default type in that case
+			*/
+		},
+	],
+	/* The tilesheets section is where you register all custom tilesheets so that ALL can properly handle them */
+	"Tilesheets":[
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"Village",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/spring_outdoorsTileSheet",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"spring_outdoorsTileSheet",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		},
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"Village",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/spring_town",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"spring_town",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		},
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"VillageCabin1",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/walls_and_floors",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"walls_and_floors",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		},
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"VillageCabin1",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/townInterior",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"townInterior",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		},
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"VillageJoja",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/walls_and_floors",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"walls_and_floors",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		},
+		{
+			/* The name of the location that this tilesheet is attached to and needs to be edited on */
+			"MapName":"VillageJoja",
+			/* The path to the xnb file, relative to this locations.json, of the tbin that contains the map for this location, without the xnb extension */
+			"FileName":"assets/townInterior",
+			/* The name given to the tilesheet in tIDE */
+			"SheetId":"townInterior",
+			/* If `true` then ALL will treat this tilesheet as seasonal, in such a case, it appends `_<season>` to the filename given above before adding the xnb extension */
+			"Seasonal":false
+		}
+	]
+}

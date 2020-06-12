@@ -1,0 +1,68 @@
+{
+    "Name": "Cherry Blossom Pudding",
+    "Description": "Creamy custard pudding with fragrant cherry blossom syrup. ",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 450,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard","Vincent", ],
+		"Neutral": ["Abigail", "Haley", "Sebastian", "Vincent"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -5, //Any Egg
+            "Count": 1,
+        },
+		{
+            "Object": "Vanilla Extract", 
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2650,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 푸딩",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花布丁",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "향긋한 벚꽃 시럽과 계란의 크리미한 맛의 어우러진 푸딩.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "搭配上芬芳樱花糖浆的奶油蛋奶布丁。",
+    }
+}

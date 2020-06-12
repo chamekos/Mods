@@ -1,0 +1,13 @@
+{
+  "Name": "Mona",
+  "Author": "Zilsara",
+  "Version": "2.3",
+  "Description": "A new NPC named Mona for Pelican town",
+  "UniqueID": "Zilsara.Mona",
+  "MinimumApiVersion": "2.9",
+  "UpdateKeys": [ "Nexus:3244" ],
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+  }
+}

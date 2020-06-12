@@ -1,0 +1,10 @@
+{
+    "Name": "Goldfish Starter",
+    "Description": "A pair of small goldfish, perfect for bowls!",
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+	"PurchasePrice": 50,
+	"CanPurchase": true,
+	"PurchaseFrom": "Trent_Icon",
+}

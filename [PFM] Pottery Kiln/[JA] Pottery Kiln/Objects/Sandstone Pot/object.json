@@ -1,0 +1,9 @@
+{
+  "Name": "Sandstone Pot",
+  "Description": "A painted pot made of sandstone.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 200,
+  "Recipe": null,
+   "CanPurchase": false
+}

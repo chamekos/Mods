@@ -1,0 +1,13 @@
+[
+	{ //Jelly
+		"ProducerName": "Preserves Jar",
+	"InputIdentifier": "348",
+		"MinutesUntilReady": 2000,
+		"OutputIdentifier": "419",
+		"OutputStack": 2,
+		"OutputMaxStack": 2,
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "LightBlue"
+	},
+]

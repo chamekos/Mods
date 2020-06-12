@@ -1,0 +1,9 @@
+{
+  //Custom Locations here
+  "addMaps": [
+	{
+      "name": "MikuHouse",
+      "file": "assets/MikuHouse.tbin"
+    },
+  ]
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "Pink Diamond",
+    "Description": "Very rare pink diamond.",
+    "Category": "Gem",
+    "Edibility": -300,
+    "Price": 800,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "핑크 다이아몬드",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "粉钻石",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "매우 희귀한 분홍빛 다이아몬드.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "非常珍稀的粉色钻石。",
+    },
+	
+    "ContextTags": [
+        "color_pink", "Diamond_item",
+    ],
+}

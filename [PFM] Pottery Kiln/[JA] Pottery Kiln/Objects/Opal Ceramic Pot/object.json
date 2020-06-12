@@ -1,0 +1,9 @@
+{
+  "Name": "Opal Ceramic Pot",
+  "Description": "A pot with a glaze made of opal.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 450,
+  "Recipe": null,
+   "CanPurchase": false
+}

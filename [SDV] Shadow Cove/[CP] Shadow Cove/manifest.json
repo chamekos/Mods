@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Shadow Cove Locational Messages",
+  "Author": "Twinzzies",
+  "Version": "1.1.6",
+  "Description": "Adds Locational Messages",
+  "UniqueID": "twin.junimolocations",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher",
+   },
+  	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.JsonAssets"
+		}
+	]
+}

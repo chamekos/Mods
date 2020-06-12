@@ -1,0 +1,52 @@
+{
+//art by 키윽디귿 
+    "Name": "Mineral Rifiner",
+    "Description": "Ground stone, quartz and limestone to make sand for glass.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 390,  //Stone
+            "Count": 10,
+        },
+        {
+            "Object": 335, //Iron Bar
+            "Count": 2,
+        }, 
+		],
+        "CanPurchase": true,
+		"PurchaseFrom": "Clint",
+		"PurchasePrice": 7000,
+    },
+  "NameLocalization": { 
+		// "es": "",
+		"ko": "광물 가공기계",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "광물을 가공하거나 돌과 석영, 석회암을 빻아 유리용 모래를 만듭니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }  
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Dino Skins",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.0",
+  "Description": "Add a Velociraptors as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.Velociraptors",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:4015"],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

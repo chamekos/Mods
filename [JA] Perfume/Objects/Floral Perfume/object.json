@@ -1,0 +1,37 @@
+{
+	"Name": "Floral Perfume",
+	"Description": "A fragrant perfume made from flowers.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 200,
+	"IsColored": true,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "플로럴 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "花香香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "꽃으로 만든 향기로운 향수.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "一种由鲜花制作而成的香水。",
+	}
+}

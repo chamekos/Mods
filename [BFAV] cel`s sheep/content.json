@@ -1,0 +1,47 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Type": "Cel White Sheep",
+          "Data": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Cel White Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/WhiteSheep.png",
+            "Baby": "assets/BabyWhiteSheep.png",
+            "ReadyForHarvest": "assets/ShearedWhiteSheep.png"
+          }
+        },
+        {
+          "Type": "Cel Golden Sheep",
+          "Data": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Cel Golden Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/GoldenSheep.png",
+            "Baby": "assets/BabyGoldenSheep.png",
+            "ReadyForHarvest": "assets/ShearedGoldenSheep.png"
+          }
+        },
+        {
+          "Type": "Cel Dream Sheep",
+          "Data": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Cel Dream Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/DreamSheep.png",
+            "Baby": "assets/BabyDreamSheep.png",
+            "ReadyForHarvest": "assets/ShearedDreamSheep.png"
+          }
+        },
+        {
+          "Type": "Cel Black Sheep",
+          "Data": "3/4/440/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Cel Black Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/BlackSheep.png",
+            "Baby": "assets/BabyBlackSheep.png",
+            "ReadyForHarvest": "assets/ShearedBlackSheep.png"
+          }
+        }
+      ]
+    }
+  ]
+}

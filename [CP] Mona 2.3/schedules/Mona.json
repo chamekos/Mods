@@ -1,0 +1,28 @@
+{
+        "rain": "0630 HaleyHouse 06 20 2/0900 HaleyHouse 18 18 4/0930 ArchaeologyHouse 8 8 3/1200 ArchaeologyHouse 8 12 1/1230 ArchaeologyHouse 16 5 0 \"Strings\\schedules\\Mona:library_working_rain.000\"/1500 ArchaeologyHouse 20 5 0/1530 ArchaeologyHouse 11 10 3 mona_read \"Strings\\schedules\\Mona:library_read_rain.000\"/1700 ArchaeologyHouse 8 8 3/1730 Saloon 15 20 2 mona_sit_saloon/2030 HaleyHouse 18 18 4/2130 HaleyHouse 06 20 2",
+	"spring":"GOTO default",
+	"summer":"GOTO default",
+	"fall":"GOTO default",
+	"winter":"GOTO default",
+        "Tue": "0630 HaleyHouse 06 20 2/0930 HaleyHouse 18 18 4/1000 SeedShop 9 26 4 \"Strings\\schedules\\Mona:seedShop.000\"/1130 SeedShop 9 24 4/1230 ArchaeologyHouse 8 8 3/1400 ArchaeologyHouse 8 12 1 \"Strings\\schedules\\Mona:library_working.000\"/1430 ArchaeologyHouse 16 5 0/1500 ArchaeologyHouse 20 5 0 \"Strings\\schedules\\Mona:library_working.002\"/1600 ArchaeologyHouse 11 10 3 mona_read \"Strings\\schedules\\Mona:library_read.000\"/1800 ArchaeologyHouse 8 8 3/1700 HaleyHouse 15 20 3/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+	"Fri": "GOTO Tue",
+	"Sat": "0630 HaleyHouse 06 20 2/0930 HaleyHouse 18 18 4/1000 ArchaeologyHouse 8 8 3/1300 ArchaeologyHouse 8 12 1/1330 ArchaeologyHouse 16 5 0 \"Strings\\schedules\\Mona:library_working.002\"/1400 ArchaeologyHouse 20 5 0/1600 ArchaeologyHouse 8 8 3/1700 Saloon 15 20 2 mona_sit_saloon/2130 HaleyHouse 06 20 2",
+	"spring_Wed": "GOTO fall_Wed",
+	"spring_Sun": "GOTO fall_Wed",
+	"summer_Mon": "0630 HaleyHouse 06 20 2/1300 Town 64 15 2 mona_sit/1800 HaleyHouse 15 20 3/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+        "summer_Wed": "0630 HaleyHouse 06 20 2/0800 Beach 9 10 3/1000 Beach 16 11 mona_read/1200 ArchaeologyHouse 8 8 3/1300 ArchaeologyHouse 8 12 1 \"Strings\\schedules\\Mona:library_working.001\"/1330 ArchaeologyHouse 16 5 0/1400 ArchaeologyHouse 20 5 0 \"Strings\\schedules\\Mona:library_working.002\"/1600 ArchaeologyHouse 8 8 3/1730 HaleyHouse 15 20 3/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+	"summer_Sun": "GOTO summer_Wed",
+	"fall_Wed": "0630 HaleyHouse 06 20 2/0800 Forest 42 10 2/0930 Forest 42 10 2 mona_read/1130 ArchaeologyHouse 8 8 3/1300 ArchaeologyHouse 8 12 1 \"Strings\\schedules\\Mona:library_working.000\"/1330 ArchaeologyHouse 16 5 0/1400 ArchaeologyHouse 20 5 0 \"Strings\\schedules\\Mona:library_working.002\"/1600 ArchaeologyHouse 8 8 3/1730 HaleyHouse 15 20 3/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+	"fall_Sun": "GOTO fall_Wed", 
+	"fall_14": "0630 HaleyHouse 06 20 2/0930 HaleyHouse 18 18 4/1230 Hospital 13 14 0/1330 Hospital 4 6 1/1700 HaleyHouse 18 18 4/1900 HaleyHouse 06 20 1 mona_read/2130 HaleyHouse 06 20 2",
+	"winter_Wed": "GOTO summer_Mon",
+	"winter_Sun": "GOTO rain",
+	"default": "0630 HaleyHouse 06 20 2/0920 HaleyHouse 18 18 4/1200 ArchaeologyHouse 8 8 3/1400 ArchaeologyHouse 8 12 1 \"Strings\\schedules\\Mona:library_working.000\"/1430 ArchaeologyHouse 16 5 0/1500 ArchaeologyHouse 20 5 0 \"Strings\\schedules\\Mona:library_working.001\"/1600 ArchaeologyHouse 11 10 3 mona_read \"Strings\\schedules\\Mona:library_read.000\"/1800 ArchaeologyHouse 8 8 3/1830 HaleyHouse 15 20 3/2130 HaleyHouse 06 20 2",
+//Marriage
+	"marriage_Tue":"1000 SeedShop 9 26 4 \"Strings\\schedules\\Mona:marriage_seedShop.000\"/1130 SeedShop 9 24 4 \"Strings\\schedules\\Mona:marriage_seedShop.001\"/1400 BusStop -1 23 3",
+	"marriage_Thu":"1000 ArchaeologyHouse 8 8 3 \"Strings\\schedules\\Mona:marriage_library.000\"/1400 ArchaeologyHouse 8 12 1 \"Strings\\schedules\\Mona:marriage_library.001\"/1430 ArchaeologyHouse 16 5 0 \"Strings\\schedules\\Mona:marriage_library.002\"/1500 ArchaeologyHouse 20 5 0 \"Strings\\schedules\\Mona:marriage_library.003\"/1600 ArchaeologyHouse 11 10 3 mona_read \"Strings\\schedules\\Mona:marriage_library_read.000\"/1800 ArchaeologyHouse 8 8 3 \"Strings\\schedules\\Mona:marriage_library.004\"/1830 BusStop -1 23 3",
+	"marriage_Sat":"1700 Saloon 15 20 2 mona_sit_saloon \"Strings\\schedules\\Mona:marriage_saloon.000\"/2100 BusStop -1 23 3",
+	"marriage_Mon":"GOTO marriage_Thu"
+
+
+    }

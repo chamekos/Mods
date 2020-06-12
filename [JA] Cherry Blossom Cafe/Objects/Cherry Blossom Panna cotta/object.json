@@ -1,0 +1,73 @@
+{
+    "Name": "Cherry Blossom Panna cotta",
+    "Description": "Italian milk pudding. Served in a glass with cherry syrup and pomegranate.",
+    "Category": "Cooking",
+    "Edibility": 63,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 520,
+    "GiftTastes":
+    {
+		"Love" : ["Elliott", ],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn","Gus", "George", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard","Vincent", ],
+		"Neutral": ["Abigail", "Haley", "Sebastian", "Vincent"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cherry Blossom Syrup",
+            "Count": 1,
+        },
+		{
+            "Object": 245, //Sugar
+            "Count": 1,
+        },
+		{
+            "Object": -6, //Any Milk
+            "Count": 1,
+        },
+		{
+            "Object": "Vanilla", //More tree
+            "Count": 1,
+        },
+		{
+            "Object": 637, //Pomegranate
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 2900,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "벚꽃 판나코타",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "樱花帕纳",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "이탈리아식 우유 푸딩. 벚꽃 시럽과 석류를 곁들였다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "盛在玻璃浇淋上甜蜜樱花糖浆的意大利鲜奶布丁，最后以石榴点缀。",
+    }
+}

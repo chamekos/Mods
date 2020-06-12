@@ -1,0 +1,30 @@
+{
+  "Name": "Long Drink",
+  "Description": "The new fashionable beverage. Drink in moderation.",
+  "Category": "ArtisanGoods",
+  "Edibility": 90,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+    "GiftTastes": {
+	"Love": ["Elliott", "Gus", "Dwarf"],
+	"Like": ["Krobus", "Clint", "George", "Haley", "Shane", "Linus", "Marnie", "Pierre", "Robin", "Sam", "Sandy", "Wizard", "Pam"],
+	"Dislike": ["Emily", "Evelyn", "Leah", "Abigail", "Alex", "Caroline", "Demetrius", "Maru", "Harvey", "Kent", "Lewis", ],
+	"Hate": ["Jas", "Jodi", "Penny", "Sebastian", "Vincent"]
+  }
+}

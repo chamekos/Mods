@@ -1,0 +1,22 @@
+{
+	"library_read_rain.000": "The library is my favorite place to read, especially when i't raining!",
+	"library_read.000": "I like to read here after a long day of carrying book and filling in the catalogue.",
+	"library_working.000": "I'm sorry, I don't have time to talk, can't you see I'm working?",
+	"library_working.001": "Do you need help with anything? Maybe I can find you a nice book?",
+	"library_working.002": "Don't talk too loud, please. It's a library after all. ",
+	"library_working_rain.000": "Did you come in to escape from the rain?#$b#Please, don't put water all over the books.$u",
+	"seedShop.000": "Pierre's is more expensive, but it's worth it when you consider the long term health and ecological benefits.",
+
+//Marriage schedule dialogue
+	"marriage_saloon.000": "@!$7#$b#I didn't expect to see you here. What a nice surprise!$h",
+	"marriage_seedShop.000": "I'm buying all your favorites for tonight!",
+	"marriage_seedShop.001": "Hmmm... I'm not sure which apples to buy.",
+	"marriage_library.000": "I'll be working until 18:30, sweetie.#$b#Why don't you prepare dinner for when I get back?$4",
+	"marriage_library.001": "I'm just putting some books back at their places. Nothing interesting to see.",
+	"marriage_library.002": "Sweetie, can't you see I'm working? We'll talk when I get back home.",
+	"marriage_library.003": "Do you want me to find you a book?",
+	"marriage_library.004": "I'm almost done here, let's meet back at the farm!",
+	"marriage_library_read.000": "I love our house, but the library will always be my favorite place to read."
+
+
+}

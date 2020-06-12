@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Craftable Fish Bowl",
+  "Author": "HopeWasHere",
+  "Version": "1.0.0",
+  "Description": "A fish bowl to craft and display in your house",
+  "UniqueID": "HopeWasHere.CustomFarming.CraftableFishBowl",
+  "UpdateKeys": ["Nexus:1237"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  }
+}

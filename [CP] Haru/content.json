@@ -1,0 +1,555 @@
+﻿{
+  "Format": "1.13",
+  "Changes": [
+{
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+		"Haru": "adult/polite/outgoing/negative/male/datable//Town/spring 15//WitchSwamp 165 40/하루"
+      } 
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+		"Haru": "빛이나네.. 신비로워.$h/74 564 577 72 394 279/이거 좋은 향이나네.$3/768 769 60 62 64 66 68 84 578/앗...고마워../154 206 18 402 404 406/동정이라면 고맙게받을게..$2/168 172 171 170/..어떤 의미야..?/538 539 540 541 542 543 544 545 546 547 548/"
+      }
+    },
+	{
+	"Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+		"Haru0": "내가 너랑 결혼을 한다니...상상만 했던 일이 실제로 벌어진다니..꿈만 같다...$5#$b#사랑해, @.$7",
+		"Haru1": "우리 이제 결혼하는거 사실이지?$4#$b#너무 좋다.$7"
+      }
+    },	  
+	{ 
+	  "Action": "EditData",
+	  "Target": "Data/animationDescriptions",
+      "entries":
+	  {
+		"Haru_Moving": "16/17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17/17",
+		"Haru_Magic": "18/19 19 19 19 18 18 18 18 18 19 19 19 19 19 19 18 18 18 18 19/19",
+		"Haru_sleep": "51/51 51 51 51 51 51/51",
+		"Haru_read": "24/24 24 24 24 25 25 25 25 25 26 26 26 26 25 25 25 25 24 24 24 24 25 25 25 26/26"
+	  }
+	},
+	{	
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"Haru": "@에게.^ 우리..친구니까 편지 보내볼게..버리지마?^   -하루%item object 682 3 796 3 795 1 %%",
+				   }
+	},
+	{	
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/rainy",
+		"Entries": {
+		"Haru": "나는 비오는 날에는 밖의 소리를 유심하게 들어봐.$2#$b#왜냐하면 빗소리를 들을때 마음이 편안해 지거든$h"
+					}
+	},
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Haru": "비오네? 우리 같이 밖에 나가서 빗소리 들으면서 쉴까?$6"
+      },
+      "When": {
+        "Relationship:Haru": "Married"
+      }
+    },
+    {
+		"Action": "EditData",
+		"Target": "Data/ExtraDialogue",
+		"Entries": 
+		{
+		"Mines_PlayerKilled_Haru_Spouse": "...$2#$b#너 나랑 장난해?#$b#내가 위험한일 하지말라고 했지. 돈버는것도 좋지만 너 건강이 우선이라고.#$b#*하아*내가 너 소식듣고 어떤 감정이었는지는 알아?#$b#손발이 떨리고,머리속이 새하얗게 변하고..다시는 그러지마...제발..$2",
+		"Mines_PlayerKilled_Haru_NotSpouse": "...$2#$b#너 앞으로는 광산 다니지마. 내가 다녀올테니까 앞으로 가지마.#$b#내가 얼마나 걱정했는지 알아?#$b#만약에 한번만 더 이런일 있으면 내가 무슨일을 할지 나도 몰라.",
+		"Town_DumpsterDiveComment_Haru": "음..나 다시 지나갈까?"
+		}
+	},
+    //edit NPC dialogue
+		{
+		"LogName": "Vincent dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+		"Mon": "있잖아요..혹시 쩌어기 로빈이모네 집쪽에 있는 돌벽이 있잖아요? 거기에서 이상한 소리가 나요..!",
+		"Mon_2": "저번에 혼났어요...#$b#네? 이상한 소리가 나서 갔다가 혼났어요...",
+		"Tue_4": "그거 알아요?! 이상한 소리의 정체를 밝혀낼려고 벽의 틈을 봤는데!! 파란걸 봤어요!",
+		"Mon_6": "아..이제 안들려요! 그..거기에는 이제 가지않는게 좋을것같아요!",
+		"Mon_8": "음..제가 비밀을 알려드릴테니까 말하고 다니면 안돼요!#$b#사실은..기찻길에 저랑 재스의 친구가 살아요! 거기에 친구가 사는걸 어른들한테 들키면 내쫓길거에요...",
+		},
+		},
+		{
+		"LogName": "Jas dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+		"Mon": "...절대로 돌벽에 가까이 가지 마세요.",
+		"Mon_2": "네? 빈센트가 돌벽에서 이상한소리가 난다고 했다고요..?#$b#아니에요! 절대로 가까이 가지마세요!",
+		"Mon_4": "돌벽에는 가지마세요..거기에는 제 친구가 산단 말이에요...",
+		"Mon_6": "어제 빈센트한테 그 친구를 소개시켜줬어요. 빈센트는 이미 @가 안다는 사실도 모를거에요.$h",
+		"Wed_8": "저랑 같이 하루한테 가서 놀래요?$h",
+		},
+		},
+	//festivals
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Haru": "음..나 여기서 있을께...끝나면 만나러 와야돼..?$2"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/spring13",
+	  "Entries": {
+		"Haru": "여보..나 여기 있을테니까 끝나면 집으로 같이 가자$h"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Haru": "어..나 찾았네...?마을 사람들이 분주하길래 무슨일 있나..싶어서 온것 뿐이야...$2"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/spring24",
+	  "Entries": {
+		"Haru": "여보가 오늘 꼭 와야한다고 나한테 계속 졸랐잖아.$h#$b#그래서? 춤은 누구랑 출거야?$7"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Haru": "음..저 스프 쪽으로는 가까이 가고 싶지않아...$9#$b#어? 당연히 사람들이 많으니까 안가는거지.$9"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/summer11",
+	  "Entries": {
+		"Haru": "여보..나는 여기서 좀 있을께..시작되면 불러줘.$h"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Haru": "오늘 해파리의 축제였네...그거 알아? 우리 종족은 해파리랑 이야기를 나눌수도 있어.$6"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/summer28",
+	  "Entries": {
+		"Haru": "여보, 오늘 해파리의 축제인데 내가 해파리말 통역해줄까?$h"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Haru": "너의 농수산품들은 틀림없이 1등을 할거야. 내가 보장할께.$6#$b#만약 1등이 아니면..$2#$b#모르겠어...$9",
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/fall16",
+	  "Entries": {
+		"Haru": "여보의 출제품들은 내가 옆에서 항상 봤으니까 우승할거야. 내가 보장할께.$6#$b#만약 1등이 아니면..$2#$b#내 마음속에서 1등 시켜줄께.$h"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Haru": "미로 쪽으로 가면 뭔가 좋은 느낌이 들어..왜그럴까?$2"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/fall27",
+	  "Entries": {
+		"Haru": "여보, 미로 쪽으로 가면 기분이 이상하게 좋아져..몸에는 안좋을거 같아. 가까이 안가는게 좋겠어...$2"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Haru": "얼음이랑 내 몸이랑 색 비슷하지 않아?$6"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/winter8",
+	  "Entries": {
+		"Haru": "너무 춥다..나랑 얼른 집으로 가자.$5"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Haru": "비밀친구가 누구야..?$2#$b#딱히 궁금한건 아니야!$8"
+				 }
+    },
+	{
+	  "Action": "EditData",
+	  "Target": "data/festivals/winter25",
+	  "Entries": {
+		"Haru": "여보 비밀친구가 나였으면 좋겠다..그러면 좋을텐데...$5"
+		},
+		"When": {
+			"Spouse:Haru": "True"
+			}
+	},
+	//영화관
+	{
+    "Action": "EditData",
+    "Target": "Data/ConcessionTastes",
+    "Entries": {
+    "Name": "Haru",
+    "LovedTags": [
+      "Chocolate Popcorn", "Popcorn", "JojaCorn"
+    ],
+    "LikedTags": [
+      "Jasmine Tea", "Rock Candy"
+    ],
+    "DislikedTags": [
+      "Fries", "Cappuccino Mousse Cake", "Personal Pizza"
+        ]
+      },
+    },
+	{
+	"Action": "EditData",
+	"Target": "Data/MoviesReactions",
+	"Entries": {
+	"Haru": {
+    "NPCName": "Haru",
+    "Reactions": [
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "family",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "winter_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "뭔가..감동적인 스토리 같아...$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "감동적이야...$4"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "너무 재미있었어.$1"
+          }
+        },
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "우리 드디어 이거를 보는구나..너무 기대가 되는걸?$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Haru 3000/pause 500/message \"하루는 기뻐하고 있습니다.\"",
+            "Text": "환상적이야!$h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "다음에도 보러오자!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "너무 흥분되는것 같아! 어서 보고싶어!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Haru 3000/pause 500/message \"하루가 조용히 영화에 집중하고 있습니다.\"",
+            "Text": "와..잠깐만 나 이것 좀 볼게."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "..고마워, 이렇게 좋은 영화를 보여줘서$h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "영화라..기대 되는걸?"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "영화를 보니까 뭔가 기분이 좋네$h"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "영화장르가..나랑 안맞는거 같은데? 나랑 보러 오고싶은거 맞아?$11"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "으음...$11"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "하..그래 영화 재미있었어...$2"
+          }
+        },
+        "ID": "reaction_6"
+       }
+     ]
+	}
+	}
+	},
+    { 
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Haru",
+      "FromFile": "images/Sprites.png",
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Haru",
+      "FromFile": "images/portraits.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Haru",
+      "FromFile": "dialogue/Haru.json",
+    },
+	{
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueHaru",
+      "FromFile": "dialogue/MarriageDialogueHaru.json",
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Haru",
+      "FromFile": "schedules/Haru.json"
+    },
+	{
+        "LogName": "Strings",
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+			"HaruHouse.1": "사람같이 생긴 나무다. 살아 움직일것만 같다.",
+			"HaruHouse.2": "소원을 빌어야 할것만 같다.",
+			"HaruHouse.3": "달콤한 향이나는 액체다.",
+			"HaruHouse.4": "음, 이건 먹으면 안될거같다.",
+			"HaruHouse.5": "라벤더향이 난다..",
+			"HaruHouse.6": "눈을 마주치면 안될거같다.",
+			"HaruHouse.7": "마법의 기운이 느껴지는 지팡이다..",
+			"HaruHouse.8": "갈라진 틈새로 이끼가 자라고있다.",
+			"HaruHouse.9": "향기를 맡으니 졸음이 오는거같다.",
+			"HaruHouse.10": "오렌지향이나지만 상당히 발효된거같다.",
+			"HaruHouse.11": "찾았네? 이젠 네가 술래야.",
+			"HaruHouse.12": "꽃향기가나는 침대다."
+			}
+	},
+    // 0 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55551/t 900 1700/w sunny": "50s/52 36/farmer 36 36 1 Haru 53 36 2/skippable/showFrame Haru 0/pause 1000/showFrame Haru 4/pause 1000/showFrame Haru 12/pause 1000/showFrame Haru 0/pause 1000/textAboveHead Haru \"음..오늘은 뭘하지?\"/pause 3000/emote Haru 32/pause 1000/showFrame Haru 12/pause 1000/emote Haru 8/pause 1000/move farmer 16 0 1/emote Haru 16/pause 1000/move Haru 1 0 1/showFrame Haru 8/pause 500/message \"안녕? 너는 누구야?\"/pause 1000/emote Haru 40/pause 1000/showFrame Haru 12/pause 1000/speak Haru \"내 이름은...하루야. 이하루.$2\"/pause 500/speak Haru \"너는..누구야?\"/emote farmer 16/pause 500/message \"나는 ...이야! 만나서 반가워! 앞으로 친하게 지내자!\"/pause 1000/emote Haru 40/pause 500/speak Haru \"그래...\"/emote farmer 20/emote Haru 20/pause 1000/end",
+		},
+	},
+	// 2 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55552/e 55551/f Haru 501/w sunny/z winter/t 900 1700": "winter2/52 36/farmer 53 46 0 Haru 53 36 2/skippable/move farmer 0 -9 0/message \"안녕!\"/pause 1000/speak Haru \"안녕..오늘은 무슨일로 온거야...?\"/pause 500/message \"그냥 이야기를 나누려고 왔어!\"/pause 500/emote Haru 40/pause 1000/showFrame Haru 8/pause 1000/textAboveHead Haru \"후...\"/pause 1000/showFrame Haru 0/pause 1000/speak Haru \"뭐, 좋아. 무슨 이야기?$4\"/pause 1000/message \"어..너는 나랑 친구가 되서 좋아?\"/pause 1000/speak Haru \"좋아. 나는 인간친구가 너밖에 없거든.$6#$b#하지만..만약 다른인간이 친구하자고 찾아와도, 안할거야. 나는 너만 있으면 되니까.$6#$b#너는?$6\"/emote farmer 16/pause 500/message \"으..응! 좋아! 아..덥다...얼굴 빨개졌지..?\"/pause 1000/speak Haru \"더워? 여기 동굴앞 이라서 시원할텐데...? 너 어디 아퍼?\"/emote farmer 16/pause 500/message \"어?! 아니야! 나 오늘은 이만 가볼게..!\"/pause 500/move farmer 0 10 0/pause 1000/emote Haru 60/pause 1000/speak Haru \"잘가. 내 첫 인간친구인 @씨.$h\"/pause 1000/end",
+		},
+	},
+    // 4 heart event preview
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			"55553/e 55552/f Haru 1001/t 600 2400":	"continue/64 15/farmer 64 16 2 Haru 64 18 0/skippable/pause 1500/speak Haru \"@, 내일 동굴앞으로 와줄래..?#$b#너한테 해줄 이야기가 있어...$3\"/pause 500/speak Haru \"사실은 진작에 말을 했어야 했던 것들인데..내가 두려워서 말을 못했었어...$2\"/pause 500/speak Haru \"그러니까 꼭 나와줘, 알았지?$6\"/pause 500/end",
+		},
+	},
+	// 4 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55554/e 55553/f Haru 1001/t 1000 1200/w rainy": "desolate/52 36/farmer 52 36 1 Haru 53 36 3/skippable/pause 1500/message \"해줄 이야기가 뭐야?\"/pause 1000/speak Haru \"내가 내 과거 이야기를 했었나...?$2\"/pause 500/speak Haru \"있잖아..나는 우리 종족에게서 배척을 받았어..한심하지...?$3\"/pause 500/speak Haru \"하지만 우리 가족들만 유일하게 나를 포기하지 않았어...우리 아버지는 나때문에 족장님께 반기까지 들으셨지..$2\"/pause 500/speak Haru \"한심한 나 하나때문에 말이야...$3\"/pause 500/speak Haru \"그래서 말했었어. 나 하나때문에 종족을 포기하지 말라고...나를 버려도 좋으니까 돌아가서 행복하게 살라고...$2\"/pause 500/speak Haru \"나는 그날 처음으로 부모님이 우시는 모습을 봤어. 그동안 많이 힘드셨던 모양이야..$3\"/pause 500/speak Haru \"결국에는 우리 부모님과 형제자매들은 요정의 숲으로 갔어...그때부터 나는 부모님이 남겨주신 이곳에서 혼자 살고있지.$2\"/pause 500/speak Haru \"동정의 눈으로 바라보지마. 내 선택 이었으니까.$6\"/pause 500/speak Haru \"내가 힘든것은 상관없어. 우리 가족이 힘든게 더 싫었을 뿐이지..$2\"/pause 500/speak Haru \"아직도 가족과 나는 종족들 몰래 편지를 주고받고 있어.$3\"/pause 500/speak Haru \"나는 내 가족을 사랑해..과거에도,,현재에도..미래에도 항상 그럴거야.$6\"/pause 500/speak Haru \"이제 할 말은 다 끝났어.$6\"/pause 500/speak Haru \"너한테 버려지는게 두려워서 이야기를 못하고 있었는데..어때? 아직도 나랑 친구하고싶은 마음이 있어...?$2\"/pause 500/emote farmer 40/pause 1000/speak Haru \"없겠지..그래...내가 무슨 소리를...$3\"/pause 500/message \"하루야. 너를 동정할 생각은 없어. 동정할것도 없고.\"/pause 1000/message \"나한테 너의 과거를 들려줘서 고마워.\"/pause 1000/message \"그리고 너랑 친구 안하겠다고 누가 그래? 나는 너랑 평생 친구 할거야.\"/pause 1000/emote Haru 16/speak Haru \"...고마워.$h\"/pause 500/end",						
+		},
+	},
+	// 6-1 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55555/e 55554/f Haru 1501/t 900 1700/w sunny/z winter": "sweet/52 36/farmer 52 36 1 Haru 53 36 3/skippable/pause 1500/message \"그래서 말이야..엘리엇이...\"/pause 1000/emote Haru 12/pause 500/speak Haru \"잠깐만.\"/pause 1000/emote farmer 8/pause 1000/speak Haru \"엘리엇이 누군데 자꾸 말하는거야?\"/pause 1000/message \"엘리엇? 바다에서 살고있고, 남자고, 나이는 30대 초쯤으로 보이고..\"/pause 1000/speak Haru \"아니..그게 아니라 무슨 사이냐고, 너랑.\"/pause 1000/emote farmer 8/pause 1000/message \"나랑? 음...친한사이? 바다갔는데 마주치면 선물주는 사이?\"/pause 1000/emote farmer 40/pause 1000/emote farmer 16/jump farmer 8/pause 1000/message \"..뭐야? 질투해? 누나가 다른사람이랑 친하게 지낸다고 질투했구나!\"/pause 1000/emote Haru 16/jump Haru 8/pause 1000/speak Haru \"..아니야! 나도 그 남자랑 만나고 싶어서 그래!\"/pause 1000/message \"흠..그래. 그런걸로 치자\"/pause 1000/speak Haru \"아닌데...$2\"/pause 1000/end"
+		},
+	},
+	// 6-2 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55556/f Haru 1501/w rainy/t 900 1700/e 55555":	"moonlightJellies/54 49/farmer 53 48 1 Haru 54 48 3/skippable/pause 1500/speak Haru \"하늘에서 내리는 이거는 뭐야..?\"/pause 1000/message \"하루야! 너 한번도 비 못봤지?\"/pause 1000/speak Haru \"그렇게는 한데..이게 비...야?$2\"/pause 1000/emote farmer 32/message \"응! 내가 너한테 비를 보여주고 싶어서 비오는 날 불렀어! 고맙지?\"/pause 1000/speak Haru \"...응. 너무 고마워.$h\"/pause 1000/message \"원래는 비 안맞으려고 우산을 쓰고 다니는데, 오늘은 우리 같이 비 맞으면서 놀자!\"/pause 1000/speak Haru \"비 맞는거 너무 좋다.차갑고 시원해.$h\"/pause 1000/message \"그렇지? 나는 가끔씩 온몸을 적실정도로 비 내리는날에 마당에서 놀기도 해.\"/pause 1000/emote farmer 40/pause 1000/message \"물론..다음날 감기에 걸리기는 하지만..\"/pause 1000/speak Haru \"그럼 너는 감기걸리면 안되니까..\"/pause 1000/emote farmer 16/pause 1000/emote farmer 12/message \"지금 나빼고 혼자 비 맞겠다는 거야?! 나도 맞을거야!\"/pause 1000/speak Haru \"...그래. 그렇게 하자.$2\"/pause 1000/message \"나도 요즘에는 비 맞으면서 못놀았는데 너무 좋다.\"/pause 1000/speak Haru \"너가 좋으면 나도 좋아.$h\"/pause 1000/end",
+		},
+	},
+	// 7-1 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"55557/f Haru 1751/w sunny/t 900 1700/e 55556":	"continue/54 49/farmer 53 48 1 Haru 54 48 3/skippable/pause 1500/message \"하루야, 너는 우리가 기찻길에서만 노는거 재밌어?\"/pause 1000/showFrame Haru 0/pause 1000/emote Haru 40/pause 1000/speak Haru \"너는 재미없어...?$2\"/pause 1000/message \"응! 나는 너가 밖으로 나갔으면 좋겠어!\"/pause 1000/emote Haru 40/pause 1000/speak Haru \"..나는 여기까지가 한계야, 더 이상 나가고 싶지 않아...$3\"/pause 1000/emote farmer 40/message \"그럼 내가 밖의 물건들을 보여주고 싶어. 가져와도 돼?\"/pause 1000/emote Haru 40/pause 1000/speak Haru \"그거는 가능해. 솔직히 나도 나가고 싶지 않을뿐이지 궁금하기는 하니까.$h\"/pause 1000/speak Haru \"'너랑 이렇게 웃는게 나는 가장 좋은데....@..'$6\"/pause 1000/emote farmer 16/jump farmer 8/pause 500/message \"어?! 너 웃었다! 좋아! 내가 내일 조개껍질 가져올게!\"/pause 1000/speak Haru \"그래, 많이 가져와.$h\"/pause 1000/end",
+		},
+	},
+	// 7-2 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Beach",
+		"Entries": {
+			"55558/f Haru 1751/w sunny/t 900 1700/e 55557": "continue/45 25/farmer 44 24 2 Haru 45 24 2/skippable/pause 1500/faceDirection farmer 1 true/message \"하루야! 바다 어때? 내가 말해준 그대로지?\"/pause 1000/emote Haru 32/pause 1000/speak Haru \"그러게..그대로네...$6\"/pause 1000/showFrame Haru 12/pause 1000/emote Haru 40/speak Haru \"나 지금 심장이 이상해..막 두근거리고 얼굴이 달아오르는것 같아...왜지..?$5\"/pause 1000/emote farmer 16/jump farmer 8/pause 1000/message \"진짜? 어디봐봐..\"/pause 1000/message \"음..바다를 처음 봐서 떨리나 봐! 너 데리고 오기를 잘한것 같아!\"/pause 1000/emote farmer 32/pause 1000/speak Haru \"'아..내가 이 아이를 좋아하는구나..친구가 아닌 다른 감정으로...'$7\"/pause 1000/move farmer 0 -4 0/move farmer -4 0 1/message \"하루야! 빨리와! 여기에 조개껍질 잔뜩있어!\"/pause 1000/emote farmer 8/message \"하루야?\"/pause 1000/emote Haru 16/jump Haru 8/speak Haru \"어?! 갈게!$4\"/pause 500/move Haru 0 -4 0/move Haru -4 0 3/end",
+		},
+	},
+	// 8-1 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {
+			"55559/f Haru 2001/w sunny/t 900 1700/e 55558": "continue/48 27/farmer 48 25 1 Haru 48 26 1/skippable/pause 1500/faceDirection farmer 2 true/message \"너랑 이렇게 밖으로 나오니까 너무 좋다.\"/pause 1000/speak Haru \"그래, 나도 좋아.$h\"/pause 1000/message \"그런데 왜 갑자기 먼저 밖으로 나오자고 한거야?\"/pause 1000/speak Haru \"..너는 바깥세상의 존재니까. 너의 세상에서 같이 존재하고 싶었어.$2\"/pause 1000/message \"....\"/emote Haru 40/pause 1000/showFrame Haru 8/pause 1000/speak Haru \"솔직히..너라는 존재가 나에게 없었다면 나는 그냥 그 커다란 동굴안에서 멈춰 있었을거야...$2\"/pause 1000/message \"그런말 하지마. 하루 너라는 존재는 나한테 매우 커다란 존재야.\"/pause 1000/emote farmer 32/message \"조금 오글거리기는 하지만..우리는 친구잖아? 베스트 프렌드!\"/pause 1000/emote Haru 40/pause 1000/speak Haru \"그래. 우리 같이 서로에게 커다란 존재니까..$4\"/pause 1000/message \"그렇지? 자 그럼 우울한 이야기는 끝내고..\"/pause 1000/emote Haru 8/pause 1000/message \"우리 같이 광산가자! 광산에 가면 드워프라는 종족의 존재가 있다?\"/pause 1000/emote Haru 40/pause 1000/emote Haru 60/pause 1000/speak Haru \"그래. 인간 이외의 종족이라니 흥미롭네.$6\"/pause 1000/emote farmer 20/emote Haru 20/pause 1000/end",						
+		},
+	},
+	// 8-2 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Mountain",
+		"Entries": {
+			"555510/f Haru 2001/w sunny/t 900 1700/e 55559": "continue/9 13/farmer 5 24 0 Haru 7 9 1/skippable/move Haru 4 0 1/move Haru -4 0 3/move Haru 4 0 1/move Haru -4 0 3/speak Haru \"음..여기는 저번에 온곳이고..집이 어디지...?$2\"/pause 1000/emote Haru 16/showFrame Haru 0/move farmer 0 -11 0/move farmer 2 0 0/move farmer 0 -2 0/emote farmer 8/pause 1000/message \"너 여기서 뭐해..?\"/pause 1000/showFrame Haru 8/emote Haru 40/pause 1000/showFrame Haru 0/pause 1000/speak Haru \"어? 그게..너가 보고싶어서 너한테 가려고 일단 나왔는데..길을 잃었어...	$5\"/pause 1000/message \"..*풋*하하하!!\"/pause 1000/emote Haru 12/speak Haru \"웃지마!$11\"/pause 1000/message \"알겠어! 알겠어!...하하하!\"/pause 1000/emote Haru 12/pause 1000/message \"진짜로 안웃을게! 진짜야! 음..일단 우리집으로 갈까?\"/pause 1000/end",		
+		},
+	},
+	// 10-1 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			"555511/f Haru 2501/w sunny/t 2000 2400/e 555510": "continue/64 15/farmer 64 16 2 Haru 64 18 0/skippable/pause 1500/message \"하루..?너 여기 어떻게 왔어...?\"/pause 1000/speak Haru \"음..너한테 해주고 싶은 말이 있어서...\"/pause 1000/emote farmer 8/pause 1000/showFrame Haru 0/textAboveHead Haru \"후...\"/pause 3000/showFrame Haru 8/pause 1000/speak Haru \"솔직히 말할게. 나 너한테 관심있어. 한 마디로 너랑 연애를 시작하고 싶다는 말이야.$7\"/pause 1000/emote farmer 40/pause 1000/question fork1 \"#나도 같은 마음이야.#미안해... 하지만 내 마음은 그렇지 않아.\"/pause 400/fork Uturn/speak Haru \"나랑 사귀어 줘서 고마워, 앞으로 내가 정말 잘할게.$h\"/pause 1000/end",
+  			
+			"Uturn": "pause 100/speak Haru \"아..그렇구나...#$b#그래도 우리..친구지?$2\"/emote farmer 40/pause 1000/message \"물론이지.\"/pause 1000/emote Haru 40/pause 1000/speak Haru \"...그럼 갈게. 잘자..$h\"/pause 1000/end",
+		},
+	},
+	// 10-2 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"555512/f Haru 2501/w sunny/t 900 1700/e 555511/o Haru": "continue/41 52/farmer 40 51 1 Haru 41 51 3/skippable/pause 1000/emote Haru 20/pause 1000/speak Haru \"나 말이야..솔직히 너를 좋아한다고 깨달았어도 큰 기대도 안했었어...$7#$b#..그런데 너랑 이렇게 연인이 될수있어서 너무 행복해...앞으로 내가 진짜 잘할게...사랑해, @.$h\"/pause 1000/emote farmer 40/pause 1000/emote farmer 20/emote Haru 20/pause 1000/end",						
+		},
+	},
+	// 14 heart event
+	{
+		"LogName": "HaruEvents",
+		"Action": "EditData",
+		"Target": "Data/Events/Railroad",
+		"Entries": {
+			"555513/f Haru 3500/w sunny/t 1000 1200/e 555512/O Haru": "50s/52 36/farmer 52 36 1 Haru 53 36 3/skippable/pause 1000/speak Haru \"자기야. 여기 기억나?$6\"/pause 1000/emote farmer 40/pause 1000/message \"...우리가 친구였을때 만났던 장소?\"/pause 1000/speak Haru \"그것도 있지만..우리의 첫만남의 장소이기도 해.$h\"/pause 1000/speed farmer 8/move farmer -16 0 3/message \"과거 회상중입니다.\"/pause 2000/showFrame Haru 0/pause 1000/showFrame Haru 4/pause 1000/showFrame Haru 12/pause 1000/showFrame Haru 0/pause 1000/textAboveHead Haru \"음..오늘은 뭘하지?\"/pause 3000/emote Haru 32/pause 1000/showFrame Haru 12/pause 1000/emote Haru 8/pause 1000/speed farmer 3/move farmer 16 0 1/emote Haru 16/pause 1000/move Haru 1 0 1/showFrame Haru 8/pause 500/message \"안녕? 너는 누구야?\"/pause 1000/emote Haru 40/pause 1000/showFrame Haru 12/pause 1000/speak Haru \"내 이름은...하루야. 이하루.$2\"/pause 500/speak Haru \"너는..누구야?\"/emote farmer 16/pause 500/message \"나는 ...이야! 만나서 반가워! 앞으로 친하게 지내자!\"/pause 1000/emote Haru 40/pause 500/speak Haru \"그래...\"/emote farmer 20/emote Haru 20/pause 1000/message \"과거 회상 끝입니다.\"/pause 1000/emote Haru 40/pause 1000/move Haru -1 0 3/pause 1000/speak Haru \"..자기야 그때 너를 만나지 않았더라면 우리는 과연 서로 어떤삶을 살고있었을까?$2#$b#..너는 다른남자랑 같이 가정을 이루거나,혼자서 멋지게 사는 사람이 되어있었겠지..?$3#$b#나는...잘 모르겠지만 아직도 동굴 안에서 혼자 살고 있지않았을까..?$2\"/pause 1000/emote farmer 40/pause 1000/message \"하루야 너처럼 멋지고,잘생기고,다정한 존재는 내 인생에서 없었어. 솔직히 말하면 처음봤을때부터 반했던건 나일지도 몰라.\"/pause 1000/message \"너라는 존재가 있었기 때문에 지금의 내가 있는거야. 물론 내가 있었기 때문에 지금의 너가 있는거고. 아..이렇게 말하고 보니까 오글거린다..하하...\"/pause 1000/speak Haru \"자기야. 사랑해. 당신을 만나서 나는 받은게 너무 많은것 같아..우리 앞으로 평생 행복하게 지내자.$h#$b#내가 자기 한테 나의 모든것을 줄수있게 해줘. 아이도 낳고, 소풍도 가고..우리 아이는 자기를 닮아 귀엽겠지?$7\"/pause 1000/message \"아직 낳지도 않았는데 무슨소리야! 아무튼 얼른 집으로 가자. 애기 물 안줬어.\"/pause 1000/speak Haru \"그래.$h\"/pause 1000/showFrame Haru 0/move farmer 0 1 2/move farmer 1 0 1/move farmer 0 7 2/pause 1000/speak Haru \"'만약 신이 나한테 다시 삶을 준다고 해도 나는 너하고 결혼할거야.$6#$b#물론 너는 그렇지 않을수있겠지만..너라는 존재를 나에게 준 이 세상이 나는 너무 행복하고, 소중하다는걸 너는 알까?'$h\"/pause 1000/faceDirection farmer 0 true/message \"얼른 안와?!\"/pause 1000/speak Haru \"어! 지금 가!\"/pause 1000/move Haru 0 7 2/pause 1000/end",			
+		},
+	}
+  ]
+}

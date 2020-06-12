@@ -1,0 +1,9 @@
+{
+  "Name": "Esperite Ceramic Pot",
+  "Description": "A pot with a glaze made of esperite.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 300,
+  "Recipe": null,
+   "CanPurchase": false
+}

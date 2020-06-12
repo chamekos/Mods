@@ -1,0 +1,67 @@
+{
+  "Format": "1.14.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "FromFile": null,
+      "Entries": {
+        "Grace": "teen/polite/neutral/positive/female/datable/null/Other/summer 12/Lewis 'uncle'/Forest 8 67/Grace"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+       "Entries": {
+        "Grace": "Oh Wow! How did you know my Fav! Thank you so much Dear!/815 595 612 341 340/Thanks Hun! You allways know what I like!/376 344 182 591 64/Oh My...Thats just gross.../266 24 20 307 151/Please...Never give this to Me...Please /256 219 22 199 225/Thanks!/180 346 258 232 296 "
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Grace",
+      "FromFile": "assets/img/Grace.png"
+      
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Grace",
+      "FromFile": "assets/img/GracePortraits.png"
+    
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Grace",
+      "FromFile": "assets/schedules/Schedule.json"
+      
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Grace",
+      "FromFile": "assets/dialogue/Dialogue.json"
+      
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": null,
+      "Entries": {
+        "Grace0": "Oh Hun! Im so happy!",
+        "Grace1": "I'm s-so nervous for tomorrow.Oh my.."
+      }
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueGrace",
+      "FromFile": "assets/dialogue/MarriageDialogue.json",
+    
+    }
+  ]
+}

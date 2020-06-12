@@ -1,0 +1,50 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "MainShops",
+      "file": "assets/gv_MainShops.tbin",
+      "addWarps": [
+        "53 19 WindingRoad 2 81",
+		"53 20 WindingRoad 2 82",
+		"53 21 WindingRoad 2 83",
+		"53 22 WindingRoad 2 84",
+		"53 23 WindingRoad 2 85"
+
+      ]
+    },
+	{
+      "name": "MachineShed",
+      "file": "assets/gv_shed.tbin",
+      "addWarps": [  ]
+    },
+		{
+      "name": "Florist",
+      "file": "assets/gv_florist_interior.tbin",
+      "addWarps": [  ]
+    },
+			{
+      "name": "Clothier",
+      "file": "assets/gv_clothier_interior.tbin",
+      "addWarps": [  ]
+    },
+	{
+      "name": "Bakery",
+      "file": "assets/gv_bakery_interior.tbin",
+      "addWarps": [  ]
+    },
+		{
+      "name": "Diner",
+      "file": "assets/gv_diner_interior.tbin",
+      "addWarps": [  ]
+    },
+			{
+      "name": "Artisanry",
+      "file": "assets/gv_artisanry_interior.tbin",
+      "addWarps": [  ]
+    },
+	
+
+],
+
+  
+}

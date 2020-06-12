@@ -1,0 +1,14 @@
+{
+  "Name": "Round Chickens",
+  "Author": "Filipe Mazzon Ribeiro",
+  "Version": "2.0.1",
+  "Description": "Add a new Chickens as a new entry to Data/FarmAnimals",
+  "UniqueID": "mazzon.roundChickens",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [
+    "Nexus:3398"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

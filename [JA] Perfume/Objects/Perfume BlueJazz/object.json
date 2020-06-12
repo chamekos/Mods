@@ -1,0 +1,37 @@
+{
+	"Name": "BlueJazz Perfume",
+	"Description": "It scent like spring sky.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 275,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "블루재즈 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "蓝调爵士香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "봄 하늘의 향기 같습니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "闻起来像是春季的天空。",
+	}
+}

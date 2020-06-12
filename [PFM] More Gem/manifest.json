@@ -1,0 +1,17 @@
+{
+	"Name": "[PFM] More Jewelry",
+	"Author": "KAYA",
+	"Version": "1.0.3",
+	"Description": "Add More Jewelry!",
+	"UniqueID": "KAYA.PFMMoreGem",
+	"MinimumApiVersion": "3.3.2",
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JAMoreGem",
+			"IsRequired": true
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

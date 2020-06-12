@@ -1,0 +1,201 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Slime",
+		"InputStack": 1,
+		"MinutesUntilReady": 360, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Slime Mayonnaise",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 120,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Cheese Press",
+		"InputIdentifier": "Slime",
+		"InputStack": 1,
+		"MinutesUntilReady": 200, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Slime Cheese",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 95,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	// PRESERVES JAR
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 176,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 174,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 180,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": 182,
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": "Duck Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Preserves Jar",
+		"InputIdentifier": "Dinosaur Egg",
+		"InputStack": 1,
+		"MinutesUntilReady": 5000, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Century Egg",
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 150,
+		"OutputPriceMultiplier": 1,
+		"KeepInputQuality": false,
+		"OutputQuality": 4,
+		"OutputStack": 1,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Quality Booster",
+		"InputIdentifier": "Corn Seeds",
+		"InputStack": 25,
+		"MinutesUntilReady": 30, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Corn",
+		"KeepInputParentIndex": true,
+		"InputPriceBased": false,
+		//"OutputPriceIncrement": 0,
+		//"OutputPriceMultiplier": 1.25,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 5,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Quality Booster",
+		"InputIdentifier": "Melon Seeds",
+		"InputStack": 25,
+		"MinutesUntilReady": 30, //The amount of minutes it takes to produce. Should be divisible by 10.
+		"OutputIdentifier": "Melon",
+		"KeepInputParentIndex": true,
+		"InputPriceBased": false,
+		//"OutputPriceIncrement": 0,
+		//"OutputPriceMultiplier": 1.25,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 5,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Quality Booster",
+		"InputIdentifier": "-75",
+		"InputStack": 25,
+		"MinutesUntilReady": 30, //The amount of minutes it takes to produce. Should be divisible by 10.
+		//"OutputIdentifier": "-75",
+		"KeepInputParentIndex": true,
+		"InputPriceBased": false,
+		//"OutputPriceIncrement": 0,
+		//"OutputPriceMultiplier": 1.25,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 5,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	},
+		{
+		"ProducerName": "Quality Booster",
+		"InputIdentifier": "-79",
+		"InputStack": 25,
+		"MinutesUntilReady": 30, //The amount of minutes it takes to produce. Should be divisible by 10.
+		//"OutputIdentifier": "-79",
+		"KeepInputParentIndex": true,
+		"InputPriceBased": false,
+		"OutputPriceIncrement": 0,
+		"OutputPriceMultiplier": 1.25,
+		"KeepInputQuality": false,
+		"OutputQuality": 2,
+		"OutputStack": 5,
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White"
+	}
+	
+
+]

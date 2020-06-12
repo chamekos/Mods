@@ -1,0 +1,51 @@
+{
+  "Format": "1.0",
+  "Categories": [
+    {
+      "Action": "Update",
+      "Category": "Dinosaur",
+      "Types": [
+        {
+          "Type": "Albino Velociraptor",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Albino Velociraptor/Coop",
+          "Sprites": {
+            "Adult": "assets/albinoDinosaur.png",
+            "Baby": "assets/albinoDinosaur.png"
+          }
+        },
+        {
+          "Type": "Brown Velociraptor",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Brown Velociraptor/Coop",
+          "Sprites": {
+            "Adult": "assets/brownDinosaur.png",
+            "Baby": "assets/brownDinosaur.png"
+          }
+        },
+        {
+          "Type": "Green Velociraptor",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Green Velociraptor/Coop",
+          "Sprites": {
+            "Adult": "assets/greenDinosaur.png",
+            "Baby": "assets/greenDinosaur.png"
+          }
+        },
+        {
+          "Type": "Pink Velociraptor",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Pink Velociraptor/Coop",
+          "Sprites": {
+            "Adult": "assets/pinkDinosaur.png",
+            "Baby": "assets/pinkDinosaur.png"
+          }
+        },
+        {
+          "Type": "Tan Velociraptor",
+          "Data": "7/0/107/-1/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Tan Velociraptor/Coop",
+          "Sprites": {
+            "Adult": "assets/tanDinosaur.png",
+            "Baby": "assets/tanDinosaur.png"
+          }
+        }
+      ]
+    }
+  ]
+}

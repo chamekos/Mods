@@ -1,0 +1,183 @@
+﻿[
+	// Goldfish and Koi Tanks
+	{
+		"ProducerName": "Goldfish Bowl",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Goldfish",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.15, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Lionhead",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.15, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Comet",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.15, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Telescope",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.15, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Celestial Eye",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+		],
+		"Sounds": ["waterSlosh"],
+	},
+	{
+		"ProducerName": "Clownfish Tank",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Orange Clownfish",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Sebae Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Maroon Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Wide-band Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Pink Skunk Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Saddleback Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Two-Band Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Whitesnout Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Fire Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Yellowtail Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+			{
+				"OutputProbability": 0.10, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Skunk Clownfish",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			},
+		],
+		"Sounds": ["waterSlosh"],
+	},
+	{
+		"ProducerName": "Spring Koi Tank",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Yamabuki Koi",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.5, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Kohaku Koi",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			}
+		],
+		"Sounds": ["waterSlosh"],
+	},
+	{
+		"ProducerName": "Summer Koi Tank",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Ki Utsuri Koi",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.5, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Sanke Koi",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			}
+		],
+		"Sounds": ["waterSlosh"],
+	},
+	{
+		"ProducerName": "Fall Koi Tank",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Tancho Koi",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.5, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Ghost Koi",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,	
+			}
+		],
+		"Sounds": ["waterSlosh"],
+	},
+	{
+		"ProducerName": "Winter Koi Tank",
+		"InputIdentifier": "Fish Food",
+		"InputStack": 1,
+		"MinutesUntilReady": 10800,
+		"OutputIdentifier": "Hi Utsuri Koi",
+		"OutputStack": 3,
+        "OutputMaxStack": 7,
+		"AdditionalOutputs": [ // Define a list of additional outputs. You don't need to set a default output to use the aditional ones, the first additional output will be the default in that case. Only one output is given, randomly chosen between the options. Default is an empty list.
+			{
+				"OutputProbability": 0.5, //The absolute probability of geting that output, from 0 to 1. Default is 0. If 0 the remain percent not defined will be equaly divided between all outputs with 0 probability. Probability are checked from the first to the last output, so with the total is bigger than 1, the remaning outputs will be ignored.
+				"OutputIdentifier": "Shiro Utsuri Koi",
+				"OutputStack": 3,
+				"OutputMaxStack": 7,
+			}
+		],
+		"Sounds": ["waterSlosh"],
+	}
+	]

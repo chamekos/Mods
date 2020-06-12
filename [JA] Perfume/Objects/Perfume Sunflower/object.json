@@ -1,0 +1,37 @@
+{
+	"Name": "Sunflower Perfume",
+	"Description": "The gentle sunflower scent is felt.",
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Price": 305,
+	"IsColored": false,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		//"es": "",
+		"ko": "해바라기 향수",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "向日葵香水",
+	},
+	"DescriptionLocalization":
+	{
+		//"es": "",
+		"ko": "은은한 해바라기 향이 느껴집니다.",
+		//"de": "",
+		//"fr": "",
+		//"hu": "",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		//"ru": "",
+		//"tr": "",
+		"zh": "能够感受到温和的向日葵花香。",
+	}
+}

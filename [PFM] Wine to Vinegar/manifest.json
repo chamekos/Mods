@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM]Wine to Vinegar",
+  "Author": "NordKitten",
+  "Version": "1.0.1",
+  "Description": "a way to make vinigar with wine",
+  "UniqueID": "nordkitten.WinetoVinegar",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus: 5037" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

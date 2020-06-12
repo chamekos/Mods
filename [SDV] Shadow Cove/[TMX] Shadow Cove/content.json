@@ -1,0 +1,23 @@
+﻿
+{
+  "addMaps": [
+    {
+      "name": "Shadow_Cove",
+      "file": "assets/Maps/Shadow_Cove.tbin" 
+    },
+    {
+      "name": "Forest_path",
+      "file": "assets/Maps/Forest_path.tbin"
+    },
+    {
+      "name": "Junimo_BusStop",
+      "file": "assets/Maps/Junimo_BusStop.tbin"
+    },
+    {
+      "name": "Junimo_Village",
+      "file": "assets/Maps/Junimo_Village.tbin"
+    },
+  ],
+}
+
+

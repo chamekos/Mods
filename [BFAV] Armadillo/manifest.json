@@ -1,0 +1,12 @@
+{
+  "Name": "Armadillo",
+  "Author": "Trent XV",
+  "Version": "1.0.1",
+  "Description": "Adds Armadillo as a new entry to Data/FarmAnimals",
+  "UniqueID": "BFAVArmadillo",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3781"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

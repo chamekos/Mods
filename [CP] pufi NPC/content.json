@@ -1,0 +1,171 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "pufi": "adult/neutral/outgoing/neutral/female/not-datable/null/Other/winter 8//Saloon 36 8/pufi"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "pufi": "Thank you @ Its perfect!/119 575 308 746 769 795/Thanks. This is cool./680 799 798 767 305 420 422 682 156/This is disgusting./18 22 402 418 421 595 597/Mew?/221 524/Mew./424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+		
+      }
+    },
+
+    {
+
+      "LogName": "pufi Portraits",
+      "Action": "Load",
+      "Target": "Portraits/pufi",
+      "FromFile": "assets/Image/pufi.png"
+
+    },
+
+    {
+
+      "LogName": "pufi Sprites",
+      "Action": "Load",
+      "Target": "Characters/pufi",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/pufi",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/pufi",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "pufi": "Mew.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "pufi": "Mew.#$e#Mew?$1",
+      },
+      "When": {
+        "Spouse:pufi": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "pufi": "Mew$1.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "pufi": "Mew.",
+      },
+      "When": {
+        "Spouse:pufi": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "pufi": "Mew?",
+        "pufi_spouse": "Mew.#$e#Mew.$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "pufi": "Mew.$1",
+        "pufi_spouse": "Mew.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "pufi": "Mew.#$b#Mew.",
+        "pufi_spouse": "Mew?$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "pufi": "Mew.",
+        "pufi_spouse": "Mew?",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "pufi": "Mew.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "pufi": "Mew?",
+      },
+      "When": {
+        "Spouse:pufi": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "pufi": "Mew.#$b#Mew.",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "pufi": "Mew.#$b#Mew.$2",
+      },
+      "When": {
+        "Spouse:pufi": "True"
+      }
+    },
+
+   
+
+
+  ]
+}
+		
+		

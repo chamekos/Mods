@@ -1,0 +1,70 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Element Spirits",
+			"Types": [
+				{
+					"Type": "Earth Spirit",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/0/86/749/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/Earth Spirit/Barn",
+					"Sprites": {
+						"Adult": "assets/Earth.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "3/0/86/749/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/땅의 정령/Barn",
+				},
+				{
+					"Type": "Fire Spirit",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/0/82/537/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/Fire Spirit/Barn",
+					"Sprites": {
+						"Adult": "assets/Fire.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "3/0/82/537/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/불의 정령/Barn",
+				},
+				{
+					"Type": "Water Spirit",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/0/84/536/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/Water Spirit/Barn",
+					"Sprites": {
+						"Adult": "assets/Water.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "3/0/84/536/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/물의 정령/Barn",
+				},
+				{
+					"Type": "Wind Spirit",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/0/22/541/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/Wind Spirit/Barn",
+					"Sprites": {
+						"Adult": "assets/Wind.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "3/0/22/541/none/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/577/15000/바람의 정령/Barn",
+				},
+			],
+			"Buildings": [
+		        "Deluxe Barn"
+			],
+			"AnimalShop": {
+				"Name": "Element Spirits",
+				"Description": "Spirits of element.",
+				"Icon": "assets\\animal_shop_Element.png",
+				"Price": 15000,
+				"Exclude": [
+					"Void Chicken"
+				],
+				"When": { "Language": "ko" },
+				"Name": "정령",
+				"Description": "자연에 깃든 정령입니다.",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+	]
+}
