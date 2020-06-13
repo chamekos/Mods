@@ -2,8 +2,8 @@
   "spring": "600 LeahHouse 12 7 2/610 Town 17 96 2/1000 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Mountain 40 11 2/2400 LeahHouse 12 7 2",
   "summer": "600 LeahHouse 12 7 2/610 Town 76 95 2/1000 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Beach 47 25 2/2400 LeahHouse 12 7 2",
   "fall": "600 LeahHouse 12 7 2/610 Town 17 96 2/1000 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Forest 56 44 2/2400 LeahHouse 12 7 2",
-  "winter": "600 LeahHouse 12 7 2/930 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Saloon 4 19 2/2400 LeahHouse 12 7 2",
-  "rain": "600 LeahHouse 12 7 2/610 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Saloon 4 19 2/2400 LeahHouse 12 7 2",
+  "winter": "600 LeahHouse 12 7 2/930 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Saloon 26 18 2/2400 LeahHouse 12 7 2",
+  "rain": "600 LeahHouse 12 7 2/610 SeedShop 9 27 1/1200 ArchaeologyHouse 16 9 0/1700 Saloon 26 18 2/2400 LeahHouse 12 7 2",
   "Sun": "600 LeahHouse 12 7 2/610 Town 17 96 2/1000 SeedShop 38 22 0/1400 ArchaeologyHouse 16 9 0/1700 Mountain 40 11 2",
-  "Fri": "600 LeahHouse 12 7 2/610 Town 17 96 2/1000 SeedShop 9 27 1/1400 ArchaeologyHouse 16 9 0/1700 Saloon 4 19 2/2400 LeahHouse 12 7 2"
+  "Fri": "600 LeahHouse 12 7 2/610 Town 17 96 2/1000 SeedShop 9 27 1/1400 ArchaeologyHouse 16 9 0/1700 Saloon 26 18 2/2400 LeahHouse 12 7 2"
 }
