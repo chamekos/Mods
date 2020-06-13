@@ -1,11 +1,11 @@
 {
   "FullnessUiX": 10,
   "FullnessUiY": 350,
-  "MaxFullness": 300,
+  "MaxFullness": 100,
   "EdibilityMultiplier": 1.0,
-  "DrainPer10Min": 0.1,
+  "DrainPer10Min": 0.2,
   "PositiveBuffThreshold": 80,
-  "NegativeBuffThreshold": 10,
+  "NegativeBuffThreshold": 25,
   "StarvationDamagePer10Min": 3,
   "RelationshipHitForNotFeedingSpouse": 50
 }
