@@ -1,0 +1,12 @@
+{
+  "Name": "Magica Trees",
+  "Author": "ERRORcauser",
+  "Version": "1.0.0",
+  "Description": "Magic Tree",
+  "UniqueID": "ERRORcauser.magicTree",
+  "MinimumApiVersion": "1.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

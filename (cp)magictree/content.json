@@ -1,0 +1,83 @@
+{
+  "Format": "1.14.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/mushroom_tree",
+      "FromFile": "assets/mushroom_tree.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree1_fall",
+      "FromFile": "assets/tree1_fall.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree1_spring",
+      "FromFile": "assets/tree1_spring.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree1_summer",
+      "FromFile": "assets/tree1_summer.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree1_winter",
+      "FromFile": "assets/tree1_winter.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree2_fall",
+      "FromFile": "assets/tree2_fall.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree2_spring",
+      "FromFile": "assets/tree2_spring.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree2_summer",
+      "FromFile": "assets/tree2_summer.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree2_winter",
+      "FromFile": "assets/tree2_winter"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree3_fall",
+      "FromFile": "assets/tree3_fall.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree3_spring",
+      "FromFile": "assets/tree3_spring.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree3_winter",
+      "FromFile": "assets/tree3_winter.png"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "TerrainFeatures/tree_palm",
+      "FromFile": "assets/tree_palm.png"
+    }
+  ]
+}
