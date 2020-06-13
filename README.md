@@ -9,13 +9,13 @@ install [git](https://git-scm.com/downloads)
 open terminal
 write the command:
  ```
-cd C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods
+cd C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley
 ```
 
 execute this command first time
 
 ```git
-git clone https://github.com/chamekos/list-mods.git
+git clone https://github.com/chamekos/Mods.git
 ```
 
 done you already installed all mods
