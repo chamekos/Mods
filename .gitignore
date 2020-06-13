@@ -3,12 +3,21 @@ vortex.deployment.json
 __folder_managed_by_vortex
 /.idea/
 *.save
-SkillPrestige/psconfigs/*
 UI Info Suite/*_modDate.xml
 SkillPrestige/Data.json
-AnimalHusbandryMod/data/farmers/Mazzon_251691351.json
+SkillPrestige/psconfigs/*
 ConvenientChests/savedata/*
 CustomReminders/data/*/*
 FarmTypeManager/data/*
 UI Info Suite/*_modData.xml
 !FarmTypeManager/data/default.json
+[FTM] Immersive Farm 2 Remastered/data/*
+[FTM] Fizzy Drinks/data/*
+AnimalHusbandryMod/data/farmers/*
+East Scarpe/[FTM] East Scarpe/data/*
+[BH] Boarding House/[FTM] Boarding House/data/*
+WalkToDesert-1-0-1/[FTM] WalkToDesert/data/*
+[MNF] Island/[FTM] Island/data/*
+[FTM] Better Quarry Redux/data/*
+[FTM] Stardew Valley Expanded/data/*
+Minerva's Harder CC Bundles/[FTM] PPJA Forage Pack/data/*
