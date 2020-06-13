@@ -6,4 +6,9 @@ __folder_managed_by_vortex
 SkillPrestige/psconfigs/*
 UI Info Suite/*_modDate.xml
 SkillPrestige/Data.json
-Mazzons*
+AnimalHusbandryMod/data/farmers/Mazzon_251691351.json
+ConvenientChests/savedata/*
+CustomReminders/data/*/*
+FarmTypeManager/data/*
+UI Info Suite/*_modData.xml
+!FarmTypeManager/data/default.json
