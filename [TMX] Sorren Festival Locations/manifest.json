@@ -1,0 +1,11 @@
+{
+  "Name": "Sorren Festival Locations",
+  "Author": "annachibi",
+  "Version": "1.0.0",
+  "Description": "Sorren's Festival Locations",
+  "UniqueID": "annachibi.SorrenFestival",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

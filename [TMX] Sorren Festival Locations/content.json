@@ -1,0 +1,50 @@
+{
+  "name": "Sorren Festival Locations",
+  "version": "1.0.0", 
+  "author": "annachibi",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Sorren",
+	    "map": "Town-EggFestival", 
+		"position": [17, 57],
+		"direction": 1
+		},
+		{
+		"name": "Sorren",
+	    "map": "Forest-FlowerFestival", 
+		"position": [9, 41],
+		"direction": 2
+		},
+		{
+		"name": "Sorren",
+	    "map": "Beach-Luau", 
+		"position": [53, 7],
+		"direction": 2
+		},
+		{
+		"name": "Sorren",
+	    "map": "Beach-Jellies", 
+		"position": [89, 24],
+		"direction": 2
+		},
+		{
+		"name": "Sorren",
+	    "map": "Town-Fair", 
+		"position": [34, 82],
+		"direction": 0
+		},
+		{
+		"name": "Sorren",
+	    "map": "Forest-IceFestival", 
+		"position": [71, 17],
+		"direction": 1
+		},
+		{
+		"name": "Sorren",
+	    "map": "Town-Christmas", 
+		"position": [42, 78],
+		"direction": 2
+		},
+	]
+}
