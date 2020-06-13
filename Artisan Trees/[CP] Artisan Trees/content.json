@@ -1,0 +1,12 @@
+{
+  "Format": "1.9",
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+	"FromFile": "assets/Beach.tbin",
+	"FromArea": { "X": 66, "Y": 6, "Width": 5, "Height": 3 },
+	"ToArea": { "X": 66, "Y": 6, "Width": 5, "Height": 3 }	
+	},	
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] TreeShop",
+  "Author": "slackeroz",
+  "Version": "1.0.0",
+  "Description": "Adds a tree shop to the beach.",
+  "UniqueID": "slackeroz.TreeShop",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5801"],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+  }
+}

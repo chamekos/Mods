@@ -1,0 +1,11 @@
+{
+	"Name": "Goat Cheese Tree",
+	"Price": 1200,
+	"Product": 426,
+	"SaplingName": "Goat Cheese Sapling",	
+	"SaplingDescription": "Takes 28 days to produce a mature Goat Cheese tree. Bears Goat Cheese in the spring. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "spring",
+	"SaplingPurchasePrice": 12000,
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchaseRequirements": null,
+}

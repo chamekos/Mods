@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] ArtisanTrees",
+  "Author": "slackeroz",
+  "Version": "1.0.0",
+  "Description": "Edits the beach.",
+  "UniqueID": "slackeroz.ArtisanTrees",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5801"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

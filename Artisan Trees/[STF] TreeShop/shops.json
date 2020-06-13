@@ -1,0 +1,43 @@
+{
+	"Shops": [
+	{
+	"ShopName": "TreeShop",
+	"StoreCurrency": "Money",
+	"PortraitPath": "assets/portrait.png",
+	"Quote": "Picked up some strange saplings from my travels in the Gotoro Empire, take a look.",
+	"ItemStocks": [		
+		{
+		"ItemType": "Object",
+		"StockPrice": 6900,
+		"ItemNames": [
+			"Cheese Sapling",
+			]
+		},
+		{
+		"ItemType": "Object",
+		"StockPrice": 14100,
+		"ItemNames": [
+			"Cloth Sapling",
+			]
+		},
+		{
+		"ItemType": "Object",
+		"StockPrice": 12000,
+		"ItemNames": [
+			"Goat Cheese Sapling",
+			]
+		},
+		{
+		"ItemType": "Object",
+		"StockPrice": 31950,
+		"ItemNames": [
+			"Truffle Oil Sapling",
+			]
+		}
+	]
+	}
+	]
+
+}
+		
+		

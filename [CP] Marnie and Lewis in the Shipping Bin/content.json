@@ -1,0 +1,12 @@
+{
+  "Format": "1.14.0",
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/MarnieAndLewis.png",
+		  "ToArea": { "X": 526, "Y": 218, "Width": 100, "Height": 22 },
+		  "PatchMode": "Overlay"
+       },
+    ]
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Cloth Tree",
+	"Price": 1410,
+	"Product": 428,
+	"SaplingName": "Cloth Sapling",	
+	"SaplingDescription": "Takes 28 days to produce a mature Cloth tree. Bears Cloth in the spring. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "spring",
+	"SaplingPurchasePrice": 14100,
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchaseRequirements": null,
+}

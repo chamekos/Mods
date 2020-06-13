@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] slackeroz's Artisan Trees",
+   "Author": "slackeroz",
+   "Description": "adds trees which grow artisan goods.",
+   "Version": "1.0.0",
+   "UniqueID": "slackeroz.JA.artisantrees",
+   "UpdateKeys": ["Nexus:5801"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

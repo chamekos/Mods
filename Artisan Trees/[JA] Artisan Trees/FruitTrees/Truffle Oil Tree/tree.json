@@ -1,0 +1,11 @@
+{
+	"Name": "Truffle Oil Tree",
+	"Price": 3195,
+	"Product": 432,
+	"SaplingName": "Truffle Oil Sapling",	
+	"SaplingDescription": "Takes 28 days to produce a mature Truffle Oil tree. Bears Truffle Oil in the spring. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "spring",
+	"SaplingPurchasePrice": 31950,
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchaseRequirements": null,
+}

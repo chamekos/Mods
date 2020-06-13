@@ -1,0 +1,12 @@
+{
+   "Name": "Marnie and Lewis in the Shipping Bin",
+   "Author": "lndnndrsn",
+   "Version": "1.0.0",
+   "Description": "Marnie and Lewis are in your shipping bin. When you ship an item, they'll pop out and back in, hoping you won't tell anyone.",
+   "UniqueID": "lndnndrsn.MarnieLewisBin",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [""],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

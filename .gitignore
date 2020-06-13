@@ -2,3 +2,7 @@ vortex.deployment.json
 .DS_Store
 __folder_managed_by_vortex
 /.idea/
+*.save
+SkillPrestige/psconfigs/*
+UI Info Suite/*_modDate.xml
+Mazzons*

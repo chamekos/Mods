@@ -1,0 +1,11 @@
+{
+	"Name": "Cheese Tree",
+	"Price": 690,
+	"Product": 424,
+	"SaplingName": "Cheese Sapling",	
+	"SaplingDescription": "Takes 28 days to produce a mature Cheese tree. Bears Cheese in the spring. Only grows if the 8 surrounding tiles are empty.",
+	"Season": "spring",
+	"SaplingPurchasePrice": 6900,
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchaseRequirements": null,
+}
