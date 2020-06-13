@@ -1,0 +1,46 @@
+{
+    "Name": "Mulberry Leaves",
+    "Description": "Stock of silkworms.",
+    "Category": "Vegetable",    
+    "CategoryTextOverride": "Herb",
+    "CategoryColorOverride": "93, 153, 80, 255",
+    "Edibility": 15,
+    "Price": 10,
+    "GiftTastes":
+    {
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "뽕잎", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "桑叶", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "누에의 주식.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "桑蚕的饲料。", //Chinese (Simplified)
+    },
+    "ContextTags": [
+        "season_summer",
+        "color_green",
+    ],
+	"DisableWithMod" : "BHArtifacts",
+}

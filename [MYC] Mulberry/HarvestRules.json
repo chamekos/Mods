@@ -1,0 +1,17 @@
+{
+  "Harvests": [
+    {
+      "CropName": "Mulberry",
+      "HarvestRules": [
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Mulberry Leaves",
+          "minHarvest": 1,
+          "maxHarvest": 1,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+          "disableWithMods": null
+        }
+      ]
+    }
+  ]
+}

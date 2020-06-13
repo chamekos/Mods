@@ -1,0 +1,13 @@
+{
+    "Name": "Mulberry",
+    "Author": "KAYA",
+    "Description": "Mulberry crop",
+    "Version": "1.1",
+    "MinimumApiVersion": "3.3.2",
+    "UniqueID": "KAYA.Mulberry",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus:6242"],
+}

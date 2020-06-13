@@ -1,0 +1,16 @@
+﻿{
+  "Name": "[MYC] Mulberry Setting",
+  "Author": "KAYA",
+  "Version": "1.0",
+  "Description": "MYC setting for Mulberry",
+  "UniqueID": "KAYA.MYCMulberry",
+  "ContentPackFor": {
+	"UniqueID": "Cherry.MultiYieldCrops",
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "KAYA.Mulberry",
+      "IsRequired": true,
+   },
+   ]
+}

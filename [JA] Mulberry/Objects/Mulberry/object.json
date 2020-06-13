@@ -1,0 +1,46 @@
+{
+    "Name": "Mulberry",
+    "Description": "This sweet fruit is the summer delicacy of a sericulture farm.",
+    "Category": "Fruit",
+    "Edibility": 15,
+    "Price": 10,
+    "GiftTastes":
+    {
+        "Love": ["Maru", "Robin", "Demetrius"],
+        "Like": ["Alex", "Caroline", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+        "Neutral": ["Abigail", "Haley", "Jas", "Vincent"],
+    },
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "오디", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "桑葚", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "이 달콤한 열매는 양장 농가의 여름철 별미이다.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "这种甜美的果实，是属于养蚕农场的独特夏季美味。", //Chinese (Simplified)
+    },
+    "ContextTags": [
+        "season_summer",
+        "color_purple",
+        "fruit_item",
+    ],
+}
