@@ -1,0 +1,22 @@
+{
+  "useid": "Animated_Nyan_Cat_Poster" ,
+  "furniture": [
+	{
+ 	  "id": 0,
+          "texture": "nyancat.png",
+          "name": "Animated Nyan Cat Poster",
+          "description": "Nya nya nya nya...",
+          "type": "painting",
+          "price": 200,
+          "index": 0,
+          "width": 3,
+          "height": 2,
+          "boxWidth": 3,
+          "boxHeight": 2,
+          "rotations": 1,
+       "setWidth": 3,
+       "animationFrames": 12,
+       "fps": 10,
+	}
+  ]
+}
