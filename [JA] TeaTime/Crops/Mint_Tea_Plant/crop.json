@@ -12,10 +12,10 @@
     "TrellisCrop": false,
     "Colors": null,
     "Bonus": {
-        "MinimumPerHarvest": 2,
-        "MaximumPerHarvest": 4,
-        "MaxIncreasePerFarmLevel": 5,
-        "ExtraChance": 0.6,
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 3,
+        "ExtraChance": 0.6
     },
 "SeedPurchaseFrom": "Pierre",
   "SeedPurchasePrice": 20,
