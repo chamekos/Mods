@@ -5,4 +5,5 @@ __folder_managed_by_vortex
 *.save
 SkillPrestige/psconfigs/*
 UI Info Suite/*_modDate.xml
+SkillPrestige/Data.json
 Mazzons*
