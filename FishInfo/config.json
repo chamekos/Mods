@@ -1,8 +1,0 @@
-{
-  "RequireFishCaughtForFullInfo": true,
-  "UncaughtFishAlwaysShowName": true,
-  "UncaughtFishAlwaysShowLocation": false,
-  "UncaughtFishAlwaysShowSeason": false,
-  "UncaughtFishAlwaysShowTime": false,
-  "UncaughtFishAlwaysShowWeather": false
-}
