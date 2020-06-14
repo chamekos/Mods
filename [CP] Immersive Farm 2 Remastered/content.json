@@ -411,7 +411,7 @@
     "When": {"LocationName": "Farm"}
     },
 
-    //Make Greenhouse Invisible - only on standard farm map
+    //Make Greenhouse Invisible - but only on standard farm map
     {
     "Action": "EditImage",
     "Target": "Buildings/Houses",
