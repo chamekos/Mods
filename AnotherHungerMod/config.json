@@ -4,8 +4,8 @@
   "MaxFullness": 100,
   "EdibilityMultiplier": 1.0,
   "DrainPer10Min": 0.3,
-  "PositiveBuffThreshold": 90,
+  "PositiveBuffThreshold": 80,
   "NegativeBuffThreshold": 25,
-  "StarvationDamagePer10Min": 3,
+  "StarvationDamagePer10Min": 10,
   "RelationshipHitForNotFeedingSpouse": 50
 }
