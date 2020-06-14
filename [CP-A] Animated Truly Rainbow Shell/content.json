@@ -1,0 +1,15 @@
+{
+	"Format": "1.6",
+	"Changes": [
+		{
+			"LogName": "Animated Truly Rainbow Shell",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "rainbowshell.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 256, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 12
+		}
+	]
+}

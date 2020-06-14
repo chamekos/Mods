@@ -1,0 +1,13 @@
+{
+  "Name": "Leyline Paths",
+  "Author": "PeaslyWellbott",
+  "Version": "1.0.0",
+  "Description": "Replaces the Crystal Path with a prismatic Leyline.",
+  "UniqueID": "Peasly.Leyline",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": ["Nexus:4751"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.0"
+  }
+}

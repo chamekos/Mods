@@ -1,0 +1,82 @@
+{
+	"Format": "1.6",
+	"Changes": [
+		{
+			"LogName": "Animated Leyline Path",
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "flooring-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Winter",
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring_winter",
+			"FromFile": "flooring-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Icon",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "icon-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Icon - ES",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects.es-ES",
+			"FromFile": "icon-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Icon - FR",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects.fr-FR",
+			"FromFile": "icon-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Icon - JP",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects.ja-JP",
+			"FromFile": "icon-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+			"LogName": "Animated Leyline Path - Icon - BR",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects.pt-BR",
+			"FromFile": "icon-leyline.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 15,
+			"AnimationFrameCount": 16
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",
+			"Entries": {
+				"409": "Crystal Path/1/-300/Crafting -24/Leyline Path/A subtle path made from crystals of the valley. Place on the ground to reveal the secret roads of the Junimos.",
+            }
+        }
+	]
+}

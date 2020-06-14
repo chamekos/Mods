@@ -1,0 +1,12 @@
+{
+	"Name": "Wild Bait Worm Bin",
+	"Author": "Erasercat",
+	"Version": "1.0.1",
+	"Description": "A worm bin that produces wild bait instead of normal bait.",
+	"UniqueID": "Erasercat.CustomFarming.WildBaitWormBin",
+	"UpdateKeys": ["Nexus:5302"],
+	"ContentPackFor": {
+		"UniqueID": "Platonymous.CustomFarming",
+		"MinimumVersion": "2.9.10"
+	}
+}

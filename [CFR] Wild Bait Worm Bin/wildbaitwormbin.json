@@ -1,0 +1,22 @@
+{
+	"useid": "Erasercat.WildBaitWormBin",
+	"machines": [
+		{
+	"id": 0,
+	"name": "Wild Bait Worm Bin",
+	"description": "A worm bin that produces wild bait.",
+	"category": "Crafting",
+	"texture": "wbwb.png",
+	"tileindex": 0,
+	"pulsate": true,
+	"crafting": "709 20 336 1 337 1 771 30",
+	"production": [
+		{
+			"item": "Wild Bait",
+			"stack": 5,
+			"time": 850
+		}
+	]
+     },
+  ]
+}

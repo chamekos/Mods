@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Christmas Candyland",
+   "Author": "JazzMinK",
+   "Version": "1.2",
+   "Description": "Christmas Candyland for Content Patcher",
+   "UniqueID": "CP.Christmas.Candyland",
+   "MinimumApiVersion": "1.4",
+   "UpdateKeys": [ "Nexus:3125" ],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+    	"MinimumVersion": "1.3.0" // optional
+  }
+}

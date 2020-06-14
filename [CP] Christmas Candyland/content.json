@@ -1,0 +1,228 @@
+{
+   "Format": "1.3",
+   "Changes": [
+   //Sprites
+    {
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree1_winter",
+      "FromFile": "assets/tree1_winter.png",
+    },
+{
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree2_winter",
+      "FromFile": "assets/tree2_winter.png",
+    },
+{
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree3_winter",
+      "FromFile": "assets/tree3_winter.png",
+    },
+{
+      "Action": "EditImage",
+      "Target": "TileSheets/bushes",
+      "FromFile": "assets/bushes.png",
+      "When": {
+      "Season": "winter",
+}
+    },
+   {
+      "Action": "EditImage",
+      "Target": "Maps/winter_town",
+      "FromFile": "assets/winter_town.png",
+    },
+ {
+      "Action": "EditImage",
+      "Target": "winter_town",
+      "FromFile": "assets/winter_town.png",
+    },
+{
+      "Action": "EditImage",
+      "Target": "Maps/winter_outdoorsTileSheet",
+      "FromFile": "assets/winter_outdoorsTileSheet.png",
+    },
+{
+      "Action": "EditImage",
+      "Target": "winter_outdoorTilesheet",
+      "FromFile": "assets/winter_outdoorsTileSheet.png",
+    },
+
+{
+"Action": "EditImage",
+"Target": "Maps/springobjects",
+"FromFile": "assets/springobjects_winter.png",
+"When": {
+"Season": "winter",
+}
+},
+{
+"Action": "EditImage",
+"Target": "LooseSprites/Cursors",
+"FromFile": "assets/Cursors.png",
+"When": {
+"Season": "winter",
+}
+},
+//Mines
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_frost",
+"FromFile": "assets/mine_frost.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_frost_dark",
+"FromFile": "assets/mine_frost_dark.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine",
+"FromFile": "assets/mine.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Mines/mine",
+"FromFile": "assets/mine.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "mine",
+"FromFile": "assets/mine.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_dark",
+"FromFile": "assets/mine_frost_dark2.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Mines/mine_dark",
+"FromFile": "assets/mine_dark2.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "mine_dark",
+"FromFile": "assets/mine_dark2.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_desert",
+"FromFile": "assets/mine_lava.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Mines/mine_desert",
+"FromFile": "assets/mine_lava.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "mine_desert",
+"FromFile": "assets/mine_lava.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_desert_dark",
+"FromFile": "assets/mine_frost_dark.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_lava",
+"FromFile": "assets/mine_lava.png",
+"When": {
+"Season": "winter",
+}
+},
+{
+"Action": "EditImage",
+"Target": "mine_lava",
+"FromFile": "assets/mine_lava.png",
+"When": {
+"Season": "winter",
+}
+},
+
+{
+"Action": "EditImage",
+"Target": "Maps/Mines/mine_lava_dark",
+"FromFile": "assets/mine_frost.png",
+"When": {
+"Season": "winter",
+}
+},
+//Palm tree
+{
+      "Action": "EditImage",
+      "Target": "TerrainFeatures/tree_palm",
+      "FromFile": "assets/tree_palm.png",
+"When": {
+"Season": "winter",
+}
+    },
+//desert
+ {
+      "Action": "EditImage",
+      "Target": "Maps/DesertTiles",
+      "FromFile": "assets/DesertTiles.png",
+"When": {
+"Season": "winter",
+}
+    },
+ {
+      "Action": "EditImage",
+      "Target": "DesertTiles",
+      "FromFile": "assets/DesertTiles.png",
+"When": {
+"Season": "winter",
+}
+    },
+
+]
+}

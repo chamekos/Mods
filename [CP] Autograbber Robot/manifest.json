@@ -1,0 +1,12 @@
+{
+   "Name": "Autograbber Robot",
+   "Author": "birdblinder",
+   "Version": "1.0",
+   "Description": "Replaces Auto-grabber skin with a small robot.",
+   "UniqueID": "autorobot.birdblinder",
+   "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:6158" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,30 @@
+{
+  "Format": "1.8",
+  
+  
+  "Changes": [
+
+		{
+			"LogName": "Robot Empty",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/robo1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 80, "Y": 640, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 12,
+			"AnimationFrameCount": 4,
+
+		},
+		{
+			"LogName": "Robot Full",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/robo2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 96, "Y": 640, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 12,
+			"AnimationFrameCount": 4,
+
+		}
+    ]
+}

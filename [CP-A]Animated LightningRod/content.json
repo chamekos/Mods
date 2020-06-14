@@ -1,0 +1,16 @@
+{
+	"Format": "1.6",
+	"Changes": [
+		{
+		
+			"LogName": "Animated Lightning Rod",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "LightningRod.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 6,
+			"AnimationFrameCount": 30
+                                }
+	]
+}
