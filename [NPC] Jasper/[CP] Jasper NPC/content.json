@@ -452,6 +452,21 @@
 
 			}
 		},
+		{
+			"LogName": "Bouquet Denying when dating", 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jasper",
+			"Entries": {
+				"refusal_knownA": "Oh! This is very sudden... I... I care for you a lot, @. But... can we move a bit slower, please?$2#$b#You might grow tired of me yet!$4",
+				"refusal_knownB": "Oh, my mind is all a buzz... Not so long ago I was married to my research. Please, give me a little more time.$2",
+				"refusal_botherA": "I need a little more time to consider this. And what it means. Sorry.$2",
+				"refusal_botherB": "Oh, @. Why are you so determined to shackle yourself to an old fool like me? I care for you deeply, but please be patient.$4"
+			},
+			"When": {
+				"Relationship:Jasper": "Dating"
+		
+					}
+				},
 {
 	"LogName": "Farmer and Cameron crush Dialogue", 
 	"Action": "EditData",
@@ -461,6 +476,15 @@
 		},
 	"When": {"HasMod":"andril11.charlie" }
 },
+{
+	"LogName": "Engagement Dialogue",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+		  "Entries": {
+	  "Jasper0": "I still cannot believe you really want to marry me! Oh, @! I shall be honored to be your husband.#$b#Everything's under control! No need to fret!",
+	  "Jasper1": "Oh @. I am so excited for us to be starting a life together. I love you, you know?$4"
+	}
+  }, 
 
 
 //Visiting Dr Harvey 

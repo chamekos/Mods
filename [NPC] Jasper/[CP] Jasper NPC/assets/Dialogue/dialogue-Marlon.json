@@ -2,10 +2,10 @@
 "Mon": "Hey, good luck in the mines kid. Remember, make sure you take in enough food. There's creatures in there that'll knock you down in a heartbeat.",
 "Tue": "Clint helps out sometimes, with repairs to our swords. He's a man of many talents, our Clint.#$b#Shame he's so surly with it, and can't see his own worth.",
 "Wed": "Hey kid, if you find any old tools or equipment in the mines, bring them to me.#$b#Don't worry too much about the state of them - we'll get them fixed up good as new and sell them.#$b#How? Well we've got a mail-order system going across the republic.",
-"Thu": "How's the monster slaying going? Gil's keeping a running total of your conquests.#$b#How do we know? Well, let's just say that the Adventurer's Guild moves in mysterious ways.",
-"Fri": "How did I lose my eye? Well, let's just say I walked away from the encounter. My opponent didn't.#$b#And if you want the full story... well, you'll have to earn it.",
+"Thu": "How's the monster slaying going? Gil's keeping a running total of your conquests.#$b#How do we know? The Adventurer's Guild moves in mysterious ways.",
+"Fri": "How did I lose my eye? Let's just say I walked away from the encounter. My opponent didn't.#$b#And if you want the full story... you'll have to earn it.",
 "Sat": "Unlike most of the villagers, I won't be bribed into friendship by produce or trinkets.#$b#Prove yourself in the mines, and we'll see how it goes.",
-"Sun": "You've probably noticed there's something uncanny about the mines, @.#$b#My good friend, the Professor Jasper, reckons that they're alive. Fanciful, yes, but there's an energy in there that makes the hairs on my neck stand on end.#$b#Be wary, and show her respect.",
+"Sun": "You've probably noticed there's something uncanny about the mines, @.#$b#My good friend, Professor Jasper, reckons that they're alive. Fanciful, yes, but there's an energy in there that makes the hairs on my neck stand on end.#$b#Be wary, and show her respect.",
 "spring_12_1": "Are you excited for the egg hunt, @? Keep an eye on young Abigail. She's the local egg-hunting champion!",
 "spring_12_2": "Hopefully all your spelunking and monster slaying will be of service in the egg hunt tomorrow.",
 "spring_23_1": "The Flower Dance is tomorrow. I'll be there - and I hope you shall too!",
@@ -23,7 +23,9 @@
 "fall_18_2": "There is someone I should speak with today, but for all that I'm a monster slayer, I lack the courage.#$b#It's silly, isn't it, that in matters of the sword I am ready and willing... but in matters of the heart...#$b#Well, let's just say, give me a sword any day.",
 "winter_Mon": "The night patrols are starting to wear on me. I guess I'm finally starting to feel my age.",
 "winter_Tue": "The void becomes more restless in winter and more monsters breach the surface. Yesterday we caught rock crabs down as far as the beach!#$b#Imagine if Jas or Vincent had been about? Of course, it was 4am, but still!",
-"winter_Wed": "Is the void real, or metaphor? That's for you to decide, @. But there's no question that something beneath the valley is corrupting the wildlife.#$b#I've even heard rumors of void rabbits, but I think - hope! - that was a joke."
+"winter_Wed": "Is the void real, or metaphor? That's for you to decide, @. But there's no question that something beneath the valley is corrupting the wildlife.#$b#I've even heard rumors of void rabbits, but I think - hope! - that was a joke.",
+"winter_Thu": "Oh, I've considered retiring you know. Especially in winter when my leg reminds me of the past.#$b#But very few adventurers have the luxury of retirement, @. I expect one of these days a shadow-brute will get the better of me.",  
+"Mon_InLaw_Jasper": "Say hello to my old friend Jasper. Gill and me miss his weekly visits.#$b#But I'm happy for him too. Every adventurer deserves a home to return to."
 
 
 

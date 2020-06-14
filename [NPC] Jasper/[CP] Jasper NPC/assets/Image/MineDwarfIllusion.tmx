@@ -8,7 +8,7 @@
   <image source="paths" width="64" height="128"/>
  </tileset>
  <tileset firstgid="33" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
-  <image source="Mines/Mine.png" width="256" height="288"/>
+  <image source="Mines/mine.png" width="256" height="288"/>
  </tileset>
  <tileset firstgid="321" name="z-cave_daisyextras" tilewidth="16" tileheight="16" tilecount="640" columns="20">
   <image source="cave_daisyextras.png" width="320" height="512"/>
