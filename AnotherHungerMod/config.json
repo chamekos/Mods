@@ -3,7 +3,7 @@
   "FullnessUiY": 350,
   "MaxFullness": 100,
   "EdibilityMultiplier": 1.0,
-  "DrainPer10Min": 0.3,
+  "DrainPer10Min": 0.1,
   "PositiveBuffThreshold": 90,
   "NegativeBuffThreshold": 25,
   "StarvationDamagePer10Min": 3,
