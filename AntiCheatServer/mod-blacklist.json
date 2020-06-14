@@ -4,7 +4,6 @@
    * get kicked, and the value is an array of unique mod IDs to match (as listed in the mod's
    * manifest).
    */
-  "A Tapper's Dream": [ "ddde5195-8f85-4061-90cc-0d4fd5459358" ],
   "Adjustable Price Hikes": [ "Pokeytax.AdjustablePriceHikes" ],
   "All Crops All Seasons": [ "cantorsdust.AllCropsAllSeasons" ],
   "All Professions": [ "cantorsdust.AllProfessions" ],
@@ -31,9 +30,7 @@
   "Chests Anywhere": [ "Pathoschild.ChestsAnywhere" ],
   "CJB Cheats Menu": [ "CJBok.CheatsMenu" ],
   "CJB Item Spawner": [ "CJBok.ItemSpawner" ],
-  "Configurable Machines": [ "21da6619-dc03-4660-9794-8e5b498f5b97" ],
   "Console Commands": [ "SMAPI.ConsoleCommands" ],
-  "Crop Transplant": [ "DIGUS.CropTransplantMod" ],
   "Custom Quest Expiration": [ "hawkfalcon.CustomQuestExpiration" ],
   "Custom Warp Locations": [ "cat.customwarplocations" ],
   "Customizable Cart Redux": [ "KoihimeNakamura.CCR" ],
@@ -53,7 +50,6 @@
   "Fishing Automaton": [ "Drynwynn.FishingAutomaton" ],
   "Foxyfficiency": [ "Fokson.Foxyfficiency" ],
   "God Mode": [ "treyh0.GodMode" ],
-  "Harvest With Scythe": [ "bcmpinc.HarvestWithScythe", "965169fd-e1ed-47d0-9f12-b104535fb4bc" ],
   "Idle Timer": [ "LordAndreios.IdleTimer" ],
   "Improved Quality of Life": [ "Demiacle.ImprovedQualityOfLife" ],
   "Infinite Inventory": [ "DevinLematty.InfiniteInventory" ],
@@ -85,7 +81,6 @@
   "Plantable Mushroom Trees": [ "f4iTh.PMT" ],
   "Point And Plant": [ "jwdred.PointAndPlant" ],
   "Prairie King Made Easy": [ "Mucchan.PrairieKingMadeEasy" ],
-  "Price Drops": [ "skuldomg.priceDrops" ],
   "Quest Delay": [ "BadNetCode.QuestDelay" ],
   "Quick Start": [ "WuestMan.QuickStart" ],
   "Realistic Fishing": [ "KevinConnors.RealisticFishing" ],
@@ -111,7 +106,6 @@
   "TimeSpeed": [ "cantorsdust.TimeSpeed" ],
   "Tool Power Select": [ "crazywig.toolpowerselect" ],
   "Ultimate Gold": [ "Shadowfoxss.UltimateGoldStardew" ],
-  "Unlocked Cooking Recipes": [ "RTGOAT.Longevity" ],
   "Warp To Friends": [ "Shalankwa.WarpToFriends" ],
   "wHats Up": [ "wHatsUp" ]
 }
