@@ -7,6 +7,7 @@
   "DaysUntilMarriage": 3,
   "FriendlyDivorce": true,
   "RoommateRomance": true,
+  "RomanceAllVillagers": false,
   "AllowSpousesToKiss": true,
   "SpouseKissChance": 0.5,
   "RealKissSound": false,
