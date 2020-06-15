@@ -1,0 +1,20 @@
+{
+	"Name": "[CCS] Macaron oven",
+	"Author": "KAYA",
+	"Version": "1.0.0",
+	"Description": "Making Macaron only from Macaron oven!",
+	"UniqueID": "KAYA.CCSMacaronoven",
+	"Dependencies": [
+		{
+			"UniqueID": "Poppi.KawaiiValleyJA",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "KAYA.FatCaron",
+			"IsRequired": true
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.CustomCraftingStations"
+	}
+}

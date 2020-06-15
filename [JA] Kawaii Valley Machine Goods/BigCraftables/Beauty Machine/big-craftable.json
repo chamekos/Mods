@@ -1,0 +1,26 @@
+{
+  "Name": "Beauty Machine",
+  "Description": "Used to make beauty products.",
+  "Price": 10000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 766,
+            "Count": 20,
+        },
+        {
+            "Object": 330,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        ],
+	"IsDefault": true,
+  }
+}
