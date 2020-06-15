@@ -1,0 +1,47 @@
+{
+    "Name": "Ddong-caron",
+    "Author": "KAYA",
+    "Description": "Add Big Korea style Macaron",
+    "Version": "1.0.0",
+	"UpdateKeys": ["Nexus:6301"],
+    "MinimumApiVersion": "3.3.2",
+    "UniqueID": "KAYA.FatCaron",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+	"Dependencies": [
+   {
+      "UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.moretrees",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.fruitsandveggies",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "paradigmnomad.morefood",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "ppja.evenmorerecipes",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "mizu.flowers",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "BonsterTrees",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "BFV.FruitVeggie",
+      "IsRequired": false,
+   },
+   ]
+}

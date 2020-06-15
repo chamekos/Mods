@@ -1,0 +1,69 @@
+{
+    "Name": "Pigbar Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy chocolate coque, milk flavor cream with chocolate cookies and strawberry.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+		"Love": ["Demetrius", "Maru", "Jas", "Vincent", ],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard", ],
+		"Dislike": ["Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Chocolate Coque",  
+            "Count": 1,
+        },
+		{
+            "Object": "Milk Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 223,  //cookie
+            "Count": 1,
+        },
+		{
+            "Object": 400, //Strawberry
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "돼지바 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 우유 향이 가득한 버터크림과 쿠키, 딸기를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

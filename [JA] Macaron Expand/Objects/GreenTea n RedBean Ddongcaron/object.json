@@ -1,0 +1,69 @@
+{
+    "Name": "Green Tea & Red Bean Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and green tea flavor cream with sweeten red Bean.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+        "Love": ["Caroline", "Harvey",],
+        "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Lewis", "Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Green Tea Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 815,  //Tea Leaves
+            "Count": 1,
+        },
+		{
+            "Object": "Adzuki Bean",  //Fruits and Veggies
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "녹차 단팥 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 녹차 버터크림과 달콤한 단팥을 듬뿍 넣어 만든 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

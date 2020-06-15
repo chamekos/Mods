@@ -1,0 +1,65 @@
+{
+    "Name": "Grape Yogurt Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and yogurt flavor cream with grape.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1450,
+    "GiftTastes":
+    {
+		"Love": ["Vincent", ],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard",],
+		"Dislike": ["Kent", "Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Yogurt Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 398,  //Grape
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "포도 요거트 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 산뜻한 요거트크림과 신선한 포도를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

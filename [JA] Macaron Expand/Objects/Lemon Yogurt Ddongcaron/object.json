@@ -1,0 +1,66 @@
+{
+    "Name": "Lemon Yogurt Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and yogurt flavor cream with lemon.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1450,
+    "GiftTastes":
+    {
+		"Love": ["Gus"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard",],
+		"Neutral": ["Abigail", "Haley", "Jas", "Vincent"],
+		"Dislike": ["Kent", "Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Yogurt Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Lemon",  //More Trees
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+		
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "레몬 요거트 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 산뜻한 요거트크림과 신선한 레몬을 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

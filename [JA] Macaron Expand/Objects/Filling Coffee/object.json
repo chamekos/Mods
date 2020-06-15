@@ -1,0 +1,59 @@
+{
+    "Name": "Coffee Filling",
+    "Description": "Butter cream added coffee flavor.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 170,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard",],
+		"Dislike": ["Sebastian", "Jas", "Vincent", ],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 395, //Coffee
+            "Count": 1,
+        },
+        {
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+      ],
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 2000, 
+	},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "커피크림 필링",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "버터크림에 커피 맛을 더했습니다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

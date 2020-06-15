@@ -1,0 +1,68 @@
+{
+    "Name": "Brownie&CheeseCake Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque, cheesy flavor cream with blueberry and cheese cake pieces.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1450,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Jas", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard", "Vincent", ],
+		"Dislike": ["Kent", "Krobus", "Sebastian", "Willy"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Chocolate Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Ganache Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Cheesecake",  //Even More Recipes
+            "Count": 1,
+        },
+		{
+            "Object": 220,  //Chocolate Cake
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.evenmorerecipes",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "브라우니 치즈케이크 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 진한 가나슈 크림과 브라우니, 치즈케이크 조각을 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

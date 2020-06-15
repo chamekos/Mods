@@ -1,0 +1,69 @@
+{
+    "Name": "Rose Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque, rose flavor cream with plenty of raspberries.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+		"Love": ["Jas",],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard",],
+		"Dislike": ["Abigail", "Haley", "Sebastian", "Vincent",],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Raspberry", //Fruits and Veggies
+            "Count": 1,
+        },
+		{
+            "Object": 595, //Fairy Rose
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.fruitsandveggies",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "장미 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 장미향이 가득한 버터크림과 신선한 라즈베리를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "Name": "Red Bean Butter Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and Red Bean flavor cream with butter.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+		"Love": ["Harvey"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Jas", "Jodi", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Lewis", "Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Milk Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Butter",  
+            "Count": 1,
+        },
+		{
+            "Object": "Adzuki Bean",  //Fruits and Veggies
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.fruitsandveggies",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "앙버터 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 고소한 버터크림과 단팥을 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

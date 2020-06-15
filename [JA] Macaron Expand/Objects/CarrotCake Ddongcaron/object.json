@@ -1,0 +1,74 @@
+{
+    "Name": "Carrot Cake Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy chocolate coque, cheesy flavor cream with carrot.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1650,
+    "GiftTastes":
+    {
+		"Love": ["Clint", "Robin"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Sam", "Sandy", "Shane", "Wizard", "Vincent", ],
+		"Neutral": ["Leah"],
+        "Dislike": ["Krobus", "Sebastian", "Willy"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Cheese Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 424, //Cheese
+            "Count": 1,
+        },
+		{
+            "Object": "Carrot",  //Fruits and Veggies
+            "Count": 1,
+        },
+		{
+            "Object": "Cinnamon Sticks",  //More Trees 
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.fruitsandveggies",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "당근케이크 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 풍미깊은 치즈크림과 신선한 당근을 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

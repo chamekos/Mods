@@ -1,0 +1,64 @@
+{
+    "Name": "Choco-Orange Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy chochlate coque, Ganache cream with orange.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1450,
+    "GiftTastes":
+    {
+		"Love": ["Gus", "Jas", "Vincent",],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Kent", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard",  ],
+		"Dislike": ["Krobus", "Sebastian", "Willy", ],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Chocolate Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Ganache Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 635,  //Orange
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "초코오렌지 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 초콜렛맛 코크 사이에 진한 가나슈 크림과 신선한 오렌지를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

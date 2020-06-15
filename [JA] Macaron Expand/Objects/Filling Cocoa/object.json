@@ -1,0 +1,59 @@
+{
+    "Name": "Ganache Filling",
+    "Description": "A creamy and sweet chocolate flavor cream.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 170,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cocoa Pod",
+            "Count": 1,
+        },
+        {
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+      ],
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 2000, 
+	},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "가나슈 필링",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "초콜렛 풍미가 진하고 달콤한 크림.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

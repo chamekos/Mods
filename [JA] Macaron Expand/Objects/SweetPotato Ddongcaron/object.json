@@ -1,0 +1,65 @@
+{
+    "Name": "Sweet Potato Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and baked sweet potato flavor cream.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1450,
+    "GiftTastes":
+    {
+		"Love": ["Linus"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Sweet Potato", //Fruits and Veggies
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.fruitsandveggies",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "군고구마 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 고소한 버터크림과 달콤한 고구마를 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

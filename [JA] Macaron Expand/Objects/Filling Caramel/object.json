@@ -1,0 +1,60 @@
+{
+    "Name": "Caramel Cream Filling",
+    "Description": "A creamy and sweet chocolate flavor cream.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1350, //170,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Caramel",  //Even More Recipes
+            "Count": 1,
+        },
+        {
+            "Object": "Butter Cream Filling",
+            "Count": 1,
+        },
+      ],
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 2000, 
+	},
+	"EnableWithMod": "ppja.evenmorerecipes",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "카라멜 크림 필링",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "녹진한 카라멜 풍미의 크림.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

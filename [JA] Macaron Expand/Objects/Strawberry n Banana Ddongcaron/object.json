@@ -1,0 +1,68 @@
+{
+    "Name": "Strawberry&Banana Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy chochlate coque, strawberry flavor cream and banana flavor cream.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+		"Love": ["Demetrius", "Maru", ],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard", "Vincent", ],
+		"Dislike": ["Krobus", "Sebastian", "Willy", ],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Chocolate Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Milk Cream Filling",
+            "Count": 1,
+        },
+		{
+            "Object": 400,  //Strawberry 
+            "Count": 1,
+        },
+		{
+            "Object": "Banana",  //More Trees
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "딸기바나나 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 바나나 크림과 딸기 크림을 반반 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

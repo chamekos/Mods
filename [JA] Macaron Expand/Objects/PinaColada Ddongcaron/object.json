@@ -1,0 +1,69 @@
+{
+    "Name": "Pina Colada Ddong-caron",
+    "Description": "A large Korean style macaron made from crispy and chewy coque and cocount flavor cream with pineapple.",
+    "Category": "Cooking",
+    "Edibility": 96,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1550,
+    "GiftTastes":
+    {
+		"Love": ["Haley", "Linus",],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "Gus", "George", "Harvey", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Abigail", "Dwarf", "Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+		{
+            "Object": "Vanilla Coque",
+            "Count": 1,
+        },
+		{
+            "Object": "Yogurt Filling",
+            "Count": 1,
+        },
+		{
+            "Object": "Pineapple",  //Fruits and Veggies
+            "Count": 1,
+        },
+		{
+            "Object": 88,  //Coconut
+            "Count": 1,
+        },
+		],
+        "CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 3000,
+    },
+	"EnableWithMod": "ppja.fruitsandveggies",
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "피나콜라다 뚱카롱",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "바삭쫀득한 코크 사이에 코코넛을 넣은 산뜻한 요거트크림과 신선한 파인애플을 듬뿍 넣어 만든 한국식 커다란 마카롱.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

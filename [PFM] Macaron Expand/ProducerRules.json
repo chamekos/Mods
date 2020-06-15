@@ -1,0 +1,128 @@
+﻿[
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": "Vanilla", //More tree
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Vanilla Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": "Cocoa Pod",  //More tree
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Chocolate Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": 433,  //Coffee Bean
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Coffee Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": 815,  //Tea Leaves
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Green Tea Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": 426,  //Goat Cheese
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Cheese Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"InputIdentifier": 424,  //Cheese
+		"InputStack": 1,
+		"FuelIdentifier": -5, //any egg
+        "FuelStack": 1,
+		"AdditionalFuel":
+        {
+            "Almond": 1,  //More tree
+			"245": 1,  //sugar
+        },
+		"MinutesUntilReady": 300,  //5hr
+		"OutputIdentifier": "Cheese Coque",
+		"InputPriceBased": false,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 4,
+		"Sounds": ["furnace"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+]

@@ -1,0 +1,67 @@
+{
+    "Name": "Butter Cream Filling",
+    "Description": "Basic macaron filling made from eggs, milk, butter and sugar.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 170,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "George", "Haley", "Harvey", "Kent", "Jas", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam","Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard","Vincent", ],
+		"Dislike": ["Sebastian"],
+    },
+	"Recipe":
+    {
+        "ResultCount": 2,
+        "Ingredients": [
+        {
+            "Object": "Butter",
+            "Count": 1,
+        },
+        {
+            "Object": -5, //any egg
+            "Count": 1,
+        },
+        {
+            "Object": -6, //any milk
+            "Count": 1,
+        },
+        {
+            "Object": 245,  //sugar
+            "Count": 1,
+        },
+      ],
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 6500, 
+	},
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "버터크림 필링",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "계란, 우유, 버터와 설탕으로 만드는 기본적인 마카롱 필링.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

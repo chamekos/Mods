@@ -1,0 +1,21 @@
+{
+	"Name": "[PFM] Ddong-caron",
+	"Author": "KAYA",
+	"Version": "1.0.0",
+	"Description": "Add Coque rules to Kawaii Valley's Macaron Oven.",
+	"UniqueID": "KAYA.MacaronOven",
+	"MinimumApiVersion": "1.0.1",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "Poppi.KawaiiValleyJA",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "KAYA.PatCaron",
+      "IsRequired": true,
+   },
+   ]
+}
