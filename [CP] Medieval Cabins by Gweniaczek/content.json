@@ -1,0 +1,51 @@
+{
+	"Format": "1.9",
+
+	"ConfigSchema": {
+		"Logmail":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Logroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Stonemail":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Stoneroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Plankroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+      },
+
+	"Changes": [
+//Plank
+		 {
+        "Action": "EditImage",
+        "Target": "Buildings/Plank Cabin",
+        "FromFile": "assets/Plank Cabin/{{Plankroof}}/{{season}}.png",
+        },	
+//Log
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin",
+        "FromFile": "assets/Log Cabin/{{Logroof}}/{{Logmail}}/{{season}}.png",
+        "When": { "Weather": "Sun, Wind"},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin",
+        "FromFile": "assets/Log Cabin/{{Logroof}}/{{Logmail}}/{{season}}_peta.png",
+        "When": { "Weather": "Rain, Storm, Snow"},
+        },		
+//Stone
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stone Cabin",
+        "FromFile": "assets/Stone Cabin/{{Stoneroof}}/{{Stonemail}}/{{season}}.png",
+        "When": { "Weather": "Sun, Wind"},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stone Cabin",
+        "FromFile": "assets/Stone Cabin/{{Stoneroof}}/{{Stonemail}}/{{season}}_peta.png",
+        "When": { "Weather": "Rain, Storm, Snow"},
+        },
+     ]
+}

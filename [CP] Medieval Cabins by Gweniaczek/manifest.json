@@ -1,0 +1,11 @@
+{
+   "Name": "Medieval_cabins",
+   "Author": "Gweniaczek",
+   "Version": "1.0",
+   "Description": "Cabins matching Medieval buildings Mod",
+   "UniqueID": "Gweniaczek.Medieval_cabins",
+   "UpdateKeys": ["Nexus:5201"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      }
+}
