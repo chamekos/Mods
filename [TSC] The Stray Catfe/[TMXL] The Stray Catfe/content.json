@@ -2,6 +2,7 @@
   "name": "The Stray Catfe", 
   "version": "1.0.1",
   "author": "Sierra Schedin (aka alistairweekend)",
+	"loadlate": true,
   "addMaps":
   [  
     {
