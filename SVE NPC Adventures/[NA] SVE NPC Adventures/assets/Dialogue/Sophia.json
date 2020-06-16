@@ -1,0 +1,9 @@
+{
+    "companionAccepted": "An adventure? That sounds awesome!$1",
+    "companionRejected": "I-I'm just not up to it today. Sorry.$6$s",
+    "companionRejectedNight": "I don't like the dark...$2",
+    "companionDismiss": "Oh, ok...$0#$b#I didn't do anything wrong, did I?$2",
+    "companionDismissAuto": "I think my medication is starting to wear off... Sorry, I don't think I can continue.$2#$b#I did have fun today though, thanks for getting me out of the house.$9",
+    "companionRecruited": "Years of cosplay and watching anime have lead me to this moment!$8",
+    "companion_Saloon": "I love spending time here. Sometimes the Vineyard is just too big and... empty.$2#$b#Visiting Gus always makes me feel better though.$9"
+}

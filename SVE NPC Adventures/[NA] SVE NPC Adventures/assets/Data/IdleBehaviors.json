@@ -1,0 +1,16 @@
+﻿{
+  "Andy_animate": "animate/Andy_Drink3 Andy_Book",
+  "Andy_lookaround": "lookaround/2 7",
+  "MarlonFay_animate": "animate/Marlon_Idle1 Marlon_Idle2",
+  "MarlonFay_lookaround": "lookaround/2 7",
+  "MorrisTod_animate": "animate/Morris_Glasses Morris_Sigh",
+  "MorrisTod_lookaround": "lookaround/2 5",
+  "Olivia_animate": "animate/Olivia_Yoga Olivia_Primp",
+  "Olivia_lookaround": "lookaround/2 7",
+  "Sophia_animate": "animate/Sophia_Phone Sophia_Read",
+  "Sophia_lookaround": "lookaround/2 5",
+  "Susan_animate": "animate/Susan_Read Susan_Sigh",
+  "Susan_lookaround": "lookaround/2 7",
+  "Victor_animate": "animate/Victor_Clipboard1 Victor_Clipboard2",
+  "Victor_lookaround": "lookaround/2 7",
+}

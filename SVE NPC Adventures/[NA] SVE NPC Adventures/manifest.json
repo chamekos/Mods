@@ -1,0 +1,33 @@
+{
+  "Name": "SVE NPC Adventures",
+  "Author": "Somohexual",
+  "Version": "1.0.5",
+  "Description": "Adds SVE NPCs to the NPC Adventures mod.",
+  "UniqueID": "somohexual.SVE.NPCA",
+  "UpdateKeys": [ "Nexus:5990" ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+  },
+   "Dependencies": [
+   {
+      "UniqueID": "Somohexual.SVE.NPCASprites",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "Somohexual.SlightlyCuterSVE",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Poltergeister.CuteSpritesSVE",
+      "IsRequired": false
+   }, 
+   {
+      "UniqueID": "Poltergeister.CuteSprites",
+      "IsRequired": false
+   }
+ ]
+}

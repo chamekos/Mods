@@ -1,0 +1,75 @@
+{
+  "Format": "1.1",
+  "Changes": [
+	{
+      "Action": "Edit",
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDispositions.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/AnimationDescriptions",
+      "FromFile": "assets/Data/AnimationDescriptions.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json"
+    },
+    {
+      "Action": "Edit",
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffs.json"
+    },
+    {
+      "Action": "Edit",
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Andy",
+      "FromFile": "assets/Dialogue/Andy.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/MarlonFay",
+      "FromFile": "assets/Dialogue/MarlonFay.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/MorrisTod",
+      "FromFile": "assets/Dialogue/MorrisTod.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Olivia",
+      "FromFile": "assets/Dialogue/Olivia.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Victor",
+      "FromFile": "assets/Dialogue/Victor.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Sophia",
+      "FromFile": "assets/Dialogue/Sophia.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Susan",
+      "FromFile": "assets/Dialogue/Susan.json"
+    }
+  ]
+}

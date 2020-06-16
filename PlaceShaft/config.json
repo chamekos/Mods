@@ -1,0 +1,8 @@
+{
+  "ShaftCost": "390 500",
+  "SkillReq": "Mining 10",
+  "PercentDamage": 100,
+  "PercentLevels": 100,
+  "PreventGoingToSkullCave": true,
+  "SkipConfirmOnShaftJump": false
+}

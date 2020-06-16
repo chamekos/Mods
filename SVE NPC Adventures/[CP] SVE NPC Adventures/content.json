@@ -1,0 +1,167 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"Noses": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"MarlonOriginalStyleFlowerDance": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		"OliviaShortWeddingDress": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		"VictorTieWeddingSuit": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		}		
+	},
+	"Changes": [
+/*		{
+			"Action": "EditImage",
+			"Target": "Characters/Andy",
+			"FromFile": "assets/Characters/Andy.png",
+			"When": {
+				"Noses": "false"	
+			}				
+		},*/
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Andy",
+			"FromFile": "assets/Characters/Andy-Nose.png",
+			"When": {
+				"Noses": "true"
+			}				
+		},
+/*		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "assets/Characters/Marlon.png",
+			"When": {
+				"Noses": "false",
+				"MarlonOriginalStyleFlowerDance": "false"
+			}
+		},*/
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "assets/Characters/Marlon-FlowerDance2.png",
+			"When": {
+				"Noses": "false",
+				"MarlonOriginalStyleFlowerDance": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "assets/Characters/Marlon-Nose.png",
+			"When": {
+				"Noses": "true",
+				"MarlonOriginalStyleFlowerDance": "false"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "assets/Characters/Marlon-FlowerDance2-Nose.png",
+			"When": {
+				"Noses": "true",
+				"MarlonOriginalStyleFlowerDance": "true"
+			}
+		},
+/*		{
+		    "LogName": "Marlon Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/MarlonFay",
+			"FromFile": "assets/Characters/Marlon.png",
+			"When": {
+				"Noses": "false",
+				"MarlonOriginalStyleFlowerDance": "false"
+			}
+		},*/
+		{
+		    "LogName": "Marlon Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/MarlonFay",
+			"FromFile": "assets/Characters/Marlon-FlowerDance2.png",
+			"When": {
+				"Noses": "false",
+				"MarlonOriginalStyleFlowerDance": "true"
+			}
+		},
+		{
+		    "LogName": "Marlon Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/MarlonFay",
+			"FromFile": "assets/Characters/Marlon-Nose.png",
+			"When": {
+				"Noses": "true",
+				"MarlonOriginalStyleFlowerDance": "false"
+			}
+		},
+		{
+		    "LogName": "Marlon Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/MarlonFay",
+			"FromFile": "assets/Characters/Marlon-FlowerDance2-Nose.png",
+			"When": {
+				"Noses": "true",
+				"MarlonOriginalStyleFlowerDance": "true"
+			}
+		},
+/*		{
+			"Action": "EditImage",
+			"Target": "Characters/Olivia",
+			"FromFile": "assets/Characters/OliviaNew.png",
+			"When": {
+			 	"Noses": "false",
+				"OliviaShortWeddingDress": "false"
+			}
+		},*/
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Olivia",
+			"FromFile": "assets/Characters/OliviaNew-Wedding2.png",
+			"When": {
+				"Noses": "false",
+				"OliviaShortWeddingDress": "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Olivia",
+			"FromFile": "assets/Characters/OliviaNew-Nose.png",
+			"When": {
+			 	"Noses": "true",
+				"OliviaShortWeddingDress": "false"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Olivia",
+			"FromFile": "assets/Characters/OliviaNew-Wedding2-Nose.png",
+			"When": {
+				"Noses": "true",
+				"OliviaShortWeddingDress": "true"
+			}
+		},
+/*		{
+			"Action": "EditImage",
+			"Target": "Characters/Susan",
+			"FromFile": "assets/Characters/Susan.png",
+			"When": {
+				"Noses": "false"
+			}
+		},*/
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Susan",
+			"FromFile": "assets/Characters/Susan-Nose.png",
+			"When": {
+				"Noses": "true"
+			}
+		}	
+	]
+}
