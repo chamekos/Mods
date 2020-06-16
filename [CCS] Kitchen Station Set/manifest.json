@@ -1,0 +1,100 @@
+{
+	"Name": "[CCS] Kitchen Station Set",
+	"Author": "KAYA",
+	"Version": "1.0.0",
+	"Description": "Kitchen Station Set",
+	"UniqueID": "KAYA.CCSKitchenStation",
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JAKitchenStationSet",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "paradigmnomad.morefood",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.evenmorerecipes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.MoreRecipesMeat",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "paradigmnomad.freshmeat",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ppja.christmassweets",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "KAYA.CherryBlossomCafe",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "ApollosNight.Milkshakes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "callysquared.marshmallows",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "fwippy.champagnewishes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Hadi.FrozenTreatsJA",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "HisameNewRecipes",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.TropicalFarm",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withFruitsVeggies",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withMoreTrees",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withFreshMeatn",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withArtisanValley",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withBonstersCrops",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "SSaturn.OrientalKitchen.withOthers",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "Zosa.eatums",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "jfujii.TeaTime",
+			"IsRequired": false,
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "Cherry.CustomCraftingStations"
+	}
+}
