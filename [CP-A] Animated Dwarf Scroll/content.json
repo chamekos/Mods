@@ -1,0 +1,98 @@
+{
+	"Format": "1.9",
+	
+			"ConfigSchema": 
+		{
+			"DwarfScroll1":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"DwarfScroll2":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"DwarfScroll3":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"DwarfScroll4":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+		},
+
+	
+	
+	"Changes": [
+		{
+			"LogName": "Dwarf Scroll1",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "DwarfScroll1.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"DwarfScroll1": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Dwarf Scroll2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "DwarfScroll2.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"DwarfScroll2": "true"
+				},
+
+		},
+		{
+			
+			"LogName": "Dwarf Scroll3",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "DwarfScroll3.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"DwarfScroll3": "true"
+				},
+		},
+		{
+
+			"LogName": "Dwarf Scroll4",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "DwarfScroll4.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"DwarfScroll4": "true"
+				},
+		}
+
+	]
+}

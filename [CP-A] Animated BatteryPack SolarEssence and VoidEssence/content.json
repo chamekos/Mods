@@ -1,0 +1,212 @@
+{
+	"Format": "1.9",
+	
+			"ConfigSchema": 
+		{
+			"BatteryPack":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "VoidEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "RedSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "OrangeSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "YellowSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "GreenSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "CyanSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "BlueSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "PurpleSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "false",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "RainbowSolarEssence":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+		},
+
+	
+	
+	"Changes": [
+		{
+			"LogName": "Battery Pack",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "BatteryPack.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 304, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 5,
+			"When":
+				{
+				"BatteryPack": "true"
+				},
+                                },
+                                {
+			"LogName": "Void Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "VoidEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 24,
+			"When":
+				{
+				"VoidEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Red Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "RedSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"RedSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Orange Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "OrangeSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"OrangeSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Yellow Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "YellowSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"YellowSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Green Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "GreenSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"GreenSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Cyan Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "CyanSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"CyanSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Blue Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "BlueSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"BlueSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Purple Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "PurpleSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 6,
+			"When":
+				{
+				"PurpleSolarEssence": "true"
+				},
+		},
+                                {
+			"LogName": "Rainbow Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "RainbowSolarEssence.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 42,
+			"When":
+				{
+				"RainbowSolarEssence": "true"
+				},
+		}
+	]
+}

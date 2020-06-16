@@ -1,0 +1,13 @@
+{
+  "Name": "Animated DwarfScroll",
+  "Author": "scajiang",
+  "Version": "1.0.0",
+  "Description": "Animated DwarfScroll",
+  "UniqueID": "scajiang.AnimatedDwarfScroll",
+  "MinimumApiVersion": "1.0.0",
+  "UpdateKeys": [ "Nexus:5855" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.0"
+  }
+}
