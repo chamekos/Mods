@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] ZarKii's Floor Warps (MINERAL MAGE OPTIONAL).",
+  "Author": "ZarKiiFreeman | ZarKiiFreeman#8414",
+  "Version": "1.5.0",
+  "Description": "Adds a place-able floor warp that leads to the Mineral Mage Guild's shops.",
+  "UniqueID": "ZarKiiFreeman.FloorWarpsMM",
+  "UpdateKeys": ["Nexus:6014"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

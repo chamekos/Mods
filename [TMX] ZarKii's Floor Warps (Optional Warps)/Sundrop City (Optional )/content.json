@@ -1,0 +1,15 @@
+{
+
+"buildables": [
+{"id":"zarkiifreeman.sundropcity",
+"name": "Floor Warp ---> Sundrop City",
+"file": "assets/SundropCity.tmx",
+"iconFile": "assets/SundropWarp.png",
+"removeEmpty":false,
+"price":450000,
+"conditions": "LC Luau.hasMod('SundropTeam.SundropCity')",
+}
+
+]
+
+}

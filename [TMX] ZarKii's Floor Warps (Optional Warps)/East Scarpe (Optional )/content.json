@@ -1,0 +1,15 @@
+{
+
+"buildables": [
+{"id":"zarkiifreeman.eastscarpe",
+"name": "Floor Warp -> East Scarpe",
+"file": "assets/EastScarpe.tmx",
+"iconFile": "assets/EastScarpe.png",
+"removeEmpty":false,
+"price":300000,
+"conditions": "LC Luau.hasMod('LemurKat.EastScarpe.SMAPI')",
+}
+
+]
+
+}

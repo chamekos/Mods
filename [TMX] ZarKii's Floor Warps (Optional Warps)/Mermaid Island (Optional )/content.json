@@ -1,0 +1,15 @@
+{
+
+"buildables": [
+{"id":"zarkiifreeman.mermaidisland",
+"name": "Floor Warp ---> Mermaid Island",
+"file": "assets/MermaidIsland.tmx",
+"iconFile": "assets/MermaidIsland.png",
+"removeEmpty":false,
+"price":400000,
+"conditions": "LC Luau.hasMod('FTMIsland')",
+}
+
+]
+
+}

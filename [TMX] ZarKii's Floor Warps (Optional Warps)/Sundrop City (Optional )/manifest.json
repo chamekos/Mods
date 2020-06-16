@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] ZarKii's Floor Warps (SUNDROP CITY OPTIONAL).",
+  "Author": "ZarKiiFreeman | ZarKiiFreeman#8414",
+  "Version": "1.5.0",
+  "Description": "Adds a place-able floor warp that leads to Sundrop City.",
+  "UniqueID": "ZarKiiFreeman.FloorWarpsSC",
+  "UpdateKeys": ["Nexus:6014"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

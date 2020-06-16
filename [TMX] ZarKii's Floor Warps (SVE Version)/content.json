@@ -1,0 +1,78 @@
+{
+
+"buildables": [
+{"id":"zarkiifreeman.wizard",
+"name": "Floor Warp ---> Wizard",
+"file": "assets/Wizard.tmx",
+"iconFile": "assets/Wizard.png",
+"removeEmpty":true,
+"price":110000,
+},
+
+{"id":"zarkiifreeman.swamp",
+"name": "Floor Warp ---> Witch Hut",
+"file": "assets/Swamp.tmx",
+"iconFile": "assets/Swamp.png",
+"removeEmpty":true,
+"price":75000,
+},
+
+{"id":"zarkiifreeman.beach",
+"name": "Floor Warp ---> Beach",
+"file": "assets/Beach.tmx",
+"iconFile": "assets/Beach.png",
+"removeEmpty":true,
+"price":225000,
+},
+
+{"id":"zarkiifreeman.desert",
+"name": "Floor Warp ---> Calico Desert",
+"file": "assets/Desert.tmx",
+"iconFile": "assets/Desert.png",
+"removeEmpty":true,
+"price":1200000,
+},
+
+{"id":"zarkiifreeman.mine",
+"name": "Floor Warp ---> The Mines",
+"file": "assets/Mine.tmx",
+"iconFile": "assets/Mine.png",
+"removeEmpty":true,
+"price":450000,
+},
+
+{"id":"zarkiifreeman.woods",
+"name": "Floor Warp ---> Secret Woods",
+"file": "assets/Woods.tmx",
+"iconFile": "assets/Woods.png",
+"removeEmpty":true,
+"price":750000,
+},
+
+{"id":"zarkiifreeman.farmhouse",
+"name": "Floor Warp ---> Farm Entrance",
+"file": "assets/FarmHouse.tmx",
+"iconFile": "assets/FarmHouse.png",
+"removeEmpty":true,
+"price":1000000,
+},
+
+{"id":"zarkiifreeman.railroad",
+"name": "Floor Warp ---> Railroad",
+"file": "assets/Railroad.tmx",
+"iconFile": "assets/Railroad.png",
+"removeEmpty":true,
+"price":150000,
+},
+
+{"id":"zarkiifreeman.sewers",
+"name": "Floor Warp ---> Sewers",
+"file": "assets/Sewer.tmx",
+"iconFile": "assets/Sewer.png",
+"removeEmpty":true,
+"price":1400000,
+}
+
+]
+
+}

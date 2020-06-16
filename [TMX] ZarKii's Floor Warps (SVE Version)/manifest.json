@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] ZarKii's Floor Warps (SVE VERSION).",
+  "Author": "ZarKiiFreeman | ZarKiiFreeman#8414",
+  "Version": "2.1",
+  "Description": "Adds place-able floor warps like the one in the Wizard's basement. They are all one-way and go to various locations.",
+  "UniqueID": "ZarKiiFreeman.FloorWarps",
+  "UpdateKeys": ["Nexus:6014"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

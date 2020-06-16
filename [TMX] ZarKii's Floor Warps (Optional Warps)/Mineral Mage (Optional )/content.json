@@ -1,0 +1,15 @@
+{
+
+"buildables": [
+{"id":"zarkiifreeman.mineralmage",
+"name": "Floor Warp ---> Mineral Mage Shops",
+"file": "assets/MineralMage.tmx",
+"iconFile": "assets/MineralMage.png",
+"removeEmpty":false,
+"price":200000,
+"conditions": "LC Luau.hasMod('undare.MineralGuildShops')",
+}
+
+]
+
+}
