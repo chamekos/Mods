@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[PFM] Sapling_Machine",
+	"Author": "zirolive69",
+	"Version": "4.1.0",
+	"Description": "Sapling_Machine grow your own Saplings",
+	"UniqueID": "zirolive69.Sapling.machine.build.ablePFM",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "zirolive69.Sapling.machine",
+			"UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0",
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

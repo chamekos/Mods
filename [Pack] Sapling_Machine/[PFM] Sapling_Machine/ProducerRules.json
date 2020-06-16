@@ -1,0 +1,2788 @@
+﻿[
+    // Sapling-Cabinet
+	//original
+	{ //Apricot (Aprikose)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 634,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"OutputIdentifier": 629,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 629,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 629,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": 629,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Cherry (Kirsche)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 638,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"OutputIdentifier": 628,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 628,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 628,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": 628,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Orange	(Orange)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 635,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"OutputIdentifier": 630,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 630,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 630,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": 630,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Peach	(Pfirsich)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 636,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"OutputIdentifier": 631,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 631,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 631,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": 631,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Apple	(Apfel)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 613,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"OutputIdentifier": 633,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 633,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 633,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": 629,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Pomegranate	(Granatapfel)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 637,
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,			
+		"OutputIdentifier": 632,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+			"Probability": 0.1,
+			"OutputIdentifier": 632,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+			"Probability": 0.5,
+			"OutputIdentifier": 632,
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": 632,
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	//original Ende
+	
+	//start other
+//More Trees Tree Produce Saplings
+
+	{ //Breadfruit (Brotfrucht)
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Breadfruit",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Breadfruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Breadfruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Breadfruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Breadfruit Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cocoa Pod
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Cocoa Pod",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Cocoa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Cocoa Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Cocoa Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Cocoa Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Eucalyptus Leaves
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Eucalyptus Leaves",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Eucalyptus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Eucalyptus Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Eucalyptus Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Eucalyptus Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Fragrant Wisteria
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Fragrant Wisteria",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Fragrant Wisteria Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Fragrant Wisteria Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Fragrant Wisteria Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Fragrant Wisteria Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lemon
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Lemon",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Lemon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Lemon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Lemon Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lime
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Lime",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Lime Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Lime Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Lime Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Melaleuca Leaves
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Melaleuca Leaves",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Melaleuca Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Melaleuca Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Melaleuca Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Melaleuca Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Vanilla
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Vanilla",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Vanilla Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Vanilla Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Vanilla Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Vanilla Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+	{ //Avocado
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Avocado",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Avocado Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Avocado Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Avocado Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Avocado Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Banana
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Banana",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Banana Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Banana Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Banana Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Dragon Fruit
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Dragon Fruit",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Dragon Fruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Dragon Fruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Dragon Fruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Dragon Fruit Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Durian
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Durian",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Durian Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Durian Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Durian Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Durian Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lychee
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Lychee",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Lychee Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Lychee Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Lychee Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Lychee Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mango
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Mango",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Mango Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Mango Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Mango Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mango Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Papaya
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Papaya",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Papaya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Papaya Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Papaya Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Papaya Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Ylang Ylang
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Ylang Ylang",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Ylang Ylang Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Ylang Ylang Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Ylang Ylang Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Ylang Ylang Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+	{ //Almond
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Almond",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Almond Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Almond Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Almond Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Asian Pear
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Asian Pear",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Asian Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Asian Pear Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Asian Pear Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Asian Pear Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cashew
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Cashew",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Cashew Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Cashew Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Cashew Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Cashew Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Granny Smith Apple
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Granny Smith Apple",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Granny Smith Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Granny Smith Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Granny Smith Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Granny Smith Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Grapefruit
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Grapefruit",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Grapefruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Grapefruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Grapefruit Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Olive
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Olive",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Olive Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Olive Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Olive Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pecan
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pecan",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pecan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pecan Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pecan Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pecan Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Walnut
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Walnut",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Walnut Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Walnut Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Walnut Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+	{ //Camphor Leaves
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Camphor Leaves",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Camphor Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Camphor Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Camphor Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Camphor Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cinnamon Sticks
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Cinnamon Sticks",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Cinnamon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Cinnamon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Cinnamon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Cinnamon Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Fig
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Fig",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Fig Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Fig Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Fig Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Fig Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pear
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pear",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pear Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pear Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pear Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Persimmon
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Persimmon",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Persimmon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Persimmon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Persimmon Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Persimmon Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pomelo
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pomelo",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pomelo Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pomelo Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pomelo Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pomelo Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+		{ //Jerky
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Jerky",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Jerky Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Jerky Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Jerky Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jerky Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+			{ //Geisterapfel german
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Geisterapfel",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 26790,	
+		"OutputIdentifier": "Gewundender-Setzling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Gewundender-Setzling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.3,
+			"OutputIdentifier": "Gewundender-Setzling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 0.7,
+			"OutputIdentifier": "Gewundender-Setzling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+				{ //Geisterapfel english
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Ghost Apple",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 26790,	
+		"OutputIdentifier": "Twisted Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Twisted Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.3,
+			"OutputIdentifier": "Twisted Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 0.7,
+			"OutputIdentifier": "Twisted Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+	{ //Guava Saplings
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Guava",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Guava Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Guava Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Guava Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Guava Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+		//Farmer to Florist
+	
+	{ //Magnolia
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Magnolia",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Magnolia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Magnolia Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Hibiscus
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Hibiscus",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Hibiscus Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jasmine
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Jasmine",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jasmine Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+//Bonster's Crops	
+	
+	
+	{ //Jujube
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Jujube",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Jujube Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Jujube Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Jujube Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jujube Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mamey Sapote
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Mamey Sapote",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Mamey Sapote Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Mamey Sapote Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Mamey Sapote Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mamey Sapote Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mangosteen
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Mangosteen",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Mangosteen Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Mangosteen Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Mangosteen Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mangosteen Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mayhaw
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Mayhaw",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Mayhaw Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Mayhaw Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Mayhaw Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Mayhaw Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pandan
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pandan",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pandan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pandan Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pandan Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pandan Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Tamarind
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Tamarind",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Tamarind Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Tamarind Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Tamarind Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Tamarind Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cherimoya
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Cherimoya",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Cherimoya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Cherimoya Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Cherimoya Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Cherimoya Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Date
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Date",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Date Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Date Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Date Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Date Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Plantain
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Plantain",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Plantain Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Plantain Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Plantain Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Plantain Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Purple Pluot
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Purple Pluot",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Purple Pluot Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Purple Pluot Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Purple Pluot Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Purple Pluot Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Blood Orange
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Blood Orange",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Blood Orange Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Blood Orange Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Blood Orange Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Blood Orange Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Chestnut
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Chestnut",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Chestnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Chestnut Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Chestnut Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Chestnut Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Clove
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Clove",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Clove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Clove Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Clove Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Clove Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jackfruit
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Jackfruit",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Jackfruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Jackfruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Jackfruit Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jackfruit Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pawpaw
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pawpaw",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pawpaw Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pawpaw Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pawpaw Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pawpaw Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Quince
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Quince",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Quince Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Quince Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Quince Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Quince Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Piñones
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Piñones",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Stone Pine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Stone Pine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Stone Pine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Stone Pine Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+	//Mae's Trees
+	
+		{ //Nectarine
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Nectarine",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Nectarine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Nectarine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Nectarine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Nectarine Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+		{ //Kumquat
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Kumquat",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Kumquat Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Kumquat Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Kumquat Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Kumquat Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+		{ //Pistachio
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Pistachio",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Pistachio Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Pistachio Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Pistachio Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Pistachio Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+		{ //Clementine
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": "Clementine",
+		"FuelIdentifier": 368,
+		"FuelStack": 10,
+		"MinutesUntilReady": 16790,	
+		"OutputIdentifier": "Clementine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 0.1,
+			"OutputIdentifier": "Clementine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"GoldQualityInput": {
+	"Probability": 0.5,
+			"OutputIdentifier": "Clementine Sapling",
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Clementine Sapling",
+			"OutputStack": 2,
+			"OutputMaxStack": 2
+		},
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+	
+	
+	{ //Plantsword-Seeds Pflanzenschwert-Saat
+		"ProducerName": "Sapling-Cabinet",
+		"InputIdentifier": 74,
+		"InputStack": 10,
+		"FuelIdentifier": 369,
+		"FuelStack": 999,
+		"MinutesUntilReady": 1190,	
+		"OutputIdentifier": "Plant Sword-Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+/*
+	{ //Plantsword gehärtet
+		"ProducerName": "Furnace",				
+		"InputIdentifier": "untempered Plant Sword",
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 10,
+		"MinutesUntilReady": 1190,	
+		"OutputIdentifier": "Plant Sword",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"SilverQualityInput": {
+	"Probability": 1,
+			"OutputIdentifier": "Plant Sword +1",
+			"OutputStack": 1,
+			"OutputMaxStack": 1
+		},        
+		"GoldQualityInput": {
+	"Probability": 1,
+			"OutputIdentifier": "Plant Sword +2",
+			"OutputStack": 1,
+			"OutputMaxStack": 1
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Plant Sword +3",
+			"OutputStack": 1,
+			"OutputMaxStack": 1
+		},
+		"Sounds": ["furnace"],
+		"PlacingAnimation": "Fire"		
+	},
+*/	
+
+	    //Sapling-Box
+		
+			//original
+
+	{ //Apricot (Aprikose)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 634,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"OutputIdentifier": 629,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Cherry (Kirsche)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 638,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"OutputIdentifier": 628,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Orange	(Orange)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 635,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"OutputIdentifier": 630,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Peach	(Pfirsich)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 636,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"OutputIdentifier": 631,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Apple	(Apfel)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 613,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"OutputIdentifier": 633,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},	
+	{ //Pomegranate	(Granatapfel)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": 637,
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,			
+		"OutputIdentifier": 632,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	//original Ende
+	
+	//start other
+	//More Trees Tree Produce Saplings
+
+	{ //Breadfruit (Brotfrucht)
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Breadfruit",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Breadfruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cocoa Pod
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Cocoa Pod",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Cocoa Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Eucalyptus Leaves
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Eucalyptus Leaves",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Eucalyptus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Fragrant Wisteria
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Fragrant Wisteria",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Fragrant Wisteria Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lemon
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Lemon",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Lemon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lime
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Lime",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Lime Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Melaleuca Leaves
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Melaleuca Leaves",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Melaleuca Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Vanilla
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Vanilla",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Vanilla Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Avocado
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Avocado",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Avocado Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Banana
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Banana",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Banana Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Dragon Fruit
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Dragon Fruit",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Dragon Fruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Durian
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Durian",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Durian Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Lychee
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Lychee",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Lychee Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mango
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Mango",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Mango Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Papaya
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Papaya",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Papaya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Ylang Ylang
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Ylang Ylang",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Ylang Ylang Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Almond
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Almond",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Almond Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Asian Pear
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Asian Pear",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Asian Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cashew
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Cashew",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Cashew Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Granny Smith Apple
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Granny Smith Apple",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Granny Smith Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Grapefruit
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Grapefruit",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Grapefruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Olive
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Olive",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Olive Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pecan
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pecan",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pecan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Walnut
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Walnut",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Walnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Camphor Leaves
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Camphor Leaves",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Camphor Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cinnamon Sticks
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Cinnamon Sticks",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Cinnamon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Fig
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Fig",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Fig Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pear
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pear",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pear Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Persimmon
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Persimmon",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Persimmon Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pomelo
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pomelo",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pomelo Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Guava
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Guava",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Guava Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	//Farmer to Florist
+	
+	{ //Magnolia
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Magnolia",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Magnolia Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Hibiscus
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Hibiscus",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Hibiscus Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jasmine
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Jasmine",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Jasmine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+	
+	
+ //Flesh	
+	{ //Jerky
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Jerky",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Jerky Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Geisterapfel german
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Geisterapfel",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 53590,	
+		"OutputIdentifier": "Gewundender-Setzling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Geisterapfel english
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Ghost Apple",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 53590,	
+		"OutputIdentifier": "Twisted Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+//Bonster's Crops	
+	
+	
+		{ //Jujube
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Jujube",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Jujube Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mamey Sapote
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Mamey Sapote",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Mamey Sapote Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mangosteen
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Mangosteen",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Mangosteen Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Mayhaw
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Mayhaw",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Mayhaw Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pandan
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pandan",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pandan Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Tamarind
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Tamarind",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Tamarind Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Cherimoya
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Cherimoya",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Cherimoya Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Date
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Date",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Date Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Plantain
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Plantain",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Plantain Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Purple Pluot
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Purple Pluot",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Purple Pluot Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Blood Orange
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Blood Orange",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Blood Orange Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Chestnut
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Chestnut",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Chestnut Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Clove
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Clove",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Clove Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jackfruit
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Jackfruit",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Jackfruit Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pawpaw
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pawpaw",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pawpaw Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Quince
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Quince",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Quince Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Piñones
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Piñones",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Stone Pine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+	//Mae's Trees
+	
+		{ //Nectarine
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Nectarine",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Nectarine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Kumquat
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Kumquat",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Kumquat Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Pistachio
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Pistachio",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Pistachio Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Clementine
+		"ProducerName": "Sapling-Box",
+		"InputIdentifier": "Clementine",
+		"FuelIdentifier": 369,
+		"FuelStack": 10,
+		"MinutesUntilReady": 33590,	
+		"OutputIdentifier": "Clementine Sapling",
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+	
+]

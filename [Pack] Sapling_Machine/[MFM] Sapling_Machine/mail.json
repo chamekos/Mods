@@ -1,0 +1,33 @@
+[
+	{
+		"Id": "pack.Plantsword",
+		"GroupId": "pack.TippsandCheats",
+		"Title": "plantsword.title",
+		"Text": "plantsword.text", 
+		"Repeatable": false, 
+		"Date": "2 spring Y4",
+		"WhichBG": 2,
+		"TextColor": 4,
+        "Seasons":  ["spring"],
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 6 }
+		],
+		"DisableWithMod": "zirolive69.alchemy.goods",
+	},
+	{
+		"Id": "pack.fiberseeds",
+		"GroupId": "pack.TippsandCheats",
+		"Title": "fiberseeds.title",
+		"Text": "fiberseeds.text", 
+		"Attachments": [{"Type": "Object", "Name":"Fiber Seeds", "Stack": 5},],
+		"Repeatable": false, 
+		"Date": "2 spring Y3",
+        "Seasons":  ["spring"],
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Pierre", "FriendshipLevel": 4 }
+		],
+	}
+
+]

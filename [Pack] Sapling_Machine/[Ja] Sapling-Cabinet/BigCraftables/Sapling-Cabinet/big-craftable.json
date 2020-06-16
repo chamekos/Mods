@@ -1,0 +1,59 @@
+{
+    "Name": "Sapling-Cabinet",
+    "Description": "To raise one or two saplings. He needs 1x fruit and 10x basic fertilizer. It´s faster as the Box.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709,
+            "Count": 70,
+        },
+        {
+            "Object": 330,
+            "Count": 30,
+        },
+        {
+            "Object": 335,
+            "Count": 15,
+        }, 
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Pierre",
+        "PurchasePrice": 50000,
+		"PurchaseRequirements": [
+        "y 3",
+    ],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Setzlingschrank",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        "pt": "Máquina de Mudas",
+        // "ru": "",
+        // "tr": "",
+         "zh": "育苗柜",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Zur Aufzucht eines oder zwei Setzlinge. Er benötigt 1x Frucht und je 10x einfacher Dünger. Schneller als die einfache Kiste.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        "pt": "Crie suas próprias mudas (deve ficar do lado de fora). Precisa de 1x fruta e 10x fertilizante de qualidade.",
+        // "ru": "",
+        // "tr": "",
+         "zh": "培育一到两棵树苗。需要1个水果和10个初级肥料。它培育树苗的周期比育苗箱短。",
+    }
+}

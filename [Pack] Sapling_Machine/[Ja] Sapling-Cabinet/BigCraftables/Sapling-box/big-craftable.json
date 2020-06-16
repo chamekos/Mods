@@ -1,0 +1,56 @@
+{
+    "Name": "Sapling-Box",
+    "Description": "To raise your own saplings. He needs 1x fruit and 10x quality fertilizer.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709,
+            "Count": 35,
+        },
+        {
+            "Object": 330,
+            "Count": 20,
+        },
+        {
+            "Object": 335,
+            "Count": 10,
+        }, 
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Pierre",
+        "PurchasePrice": 10000,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Setzlingbox",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+         "zh": "育苗箱",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Zur Aufzucht eigener Setzlinge. Er benötigt 1x Frucht und je 10x Qualitätsdünger.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+         "zh": "自己种树苗。需要1个水果和10个高级肥料。",
+    }
+}

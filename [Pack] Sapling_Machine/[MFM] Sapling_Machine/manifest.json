@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Sapling_Machine",
+	"Author": "zirolive69",
+	"Version": "4.1.0",
+	"Description": "Adds mails for Sapling_Mashine.",
+	"UniqueID": "zirolive69.SaplingMachineforMFM",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "zirolive69.Sapling.machine"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

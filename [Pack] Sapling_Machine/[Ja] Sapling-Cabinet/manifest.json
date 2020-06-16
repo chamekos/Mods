@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Sapling_Machine",
+  "Author": "zirolive69",
+  "Version": "4.1.0",
+  "Description": "Sapling_Machine grow your own Saplings",
+  "UniqueID": "zirolive69.Sapling.machine",
+  	"MinimumApiVersion": "3.0.0",
+   "UpdateKeys": ["Nexus:5112"],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod",
+	 "MinimumVersion": "1.0.0",
+	 "UniqueID": "spacechase0.JsonAssets",
+    "MinimumVersion": "1.0.0"
+  }
+}
