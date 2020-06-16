@@ -36,13 +36,13 @@
 
     "NameLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Framboise Lambic",
+        "ko": "프랑부아즈 람빅",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "フランボワーズランビック",
         // "pt": "",
         // "ru": "",
         // "tr": "",
@@ -50,13 +50,13 @@
     },
     "DescriptionLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Una cerveza elaborada con frambuesas.",
+        "ko": "라즈베리로 만든 맥주.",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "ラズベリーを使って醸造したビール。",
         // "pt": "",
         // "ru": "",
         // "tr": "",

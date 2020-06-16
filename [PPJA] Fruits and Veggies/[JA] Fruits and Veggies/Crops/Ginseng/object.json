@@ -1,15 +1,14 @@
 {
-    "Name": "Lotus root",
-    "Description": "The texture is crispy, light and slightly sweet.",
+    "Name": "Ginseng",
+    "Description": "Very precious root for good health. it used for medicine.",
     "Category": "Vegetable",
     "Edibility": 20,
-    "Price": 70,
+    "Price": 2000,
     "IsColored": false,
     "GiftTastes":
     {
-	"Love": ["Dwarf"],
-    "Like": ["George", "Evelyn", "Gus", "Lewis", "Linus", "Harvey", "Maru"],
-	"Neutral" : ["Alex", "Caroline", "Clint", "Demetrius", "Emily",  "Jodi", "Kent", "Leah", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Willy", "Wizard"],
+	"Love": ["Dwarf", "George", "Evelyn", "Gus", "Lewis", "Linus", "Harvey", "Willy", "Wizard" ],
+    "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Emily",  "Jodi", "Kent", "Leah", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin"],
     "Dislike": ["Elliott", "Abigail", "Haley", "Sam", "Sandy", "Sebastian", "Shane"],
 	"Hate": ["Krobus", "Jas", "Vincent"]
     },
@@ -17,12 +16,12 @@
     "NameLocalization":
     {
         //"es": "",
-        "ko": "연근",
+        "ko": "인삼",
         //"de": "",
         //"fr": "",
         //"hu": "",
         //"it": "",
-        //"ja": "",
+        "ja": "コウライニンジン",
         //"pt": "",
         //"ru": "",
         //"tr": "",
@@ -31,19 +30,20 @@
     "DescriptionLocalization":
     {
         //"es": "",
-        "ko": "아삭하고 담백한 연근.",
+        "ko": "건강에 좋지만 매우 귀한 뿌리식물. 주로 약용으로 사용합니다.",
         //"de": "",
         //"fr": "",
         //"hu": "",
         //"it": "",
-        //"ja": "",
+        "ja": "滋養に効くといれている希少価値の高い根菜。生薬として利用されている。",
         //"pt": "",
         //"ru": "",
         //"tr": "",
         //"zh": "",
     },
     "ContextTags": [
-        "color_white",
+        "season_all",
+        "color_tam",
         "vegetable_item",
     ],
 }

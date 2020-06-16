@@ -37,13 +37,13 @@
 
     "NameLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Campari",
+        "ko": "캄파리",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "カンパリ",
         // "pt": "",
         // "ru": "",
         // "tr": "",
@@ -51,13 +51,13 @@
     },
     "DescriptionLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Un aperitivo hecho de naranja amarga",
+        "ko": "광귤로 만든 식전주.",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "ビター・オレンジから作られた食前酒。",
         // "pt": "",
         // "ru": "",
         // "tr": "",

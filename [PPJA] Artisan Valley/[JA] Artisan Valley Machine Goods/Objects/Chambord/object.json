@@ -36,13 +36,13 @@
 
     "NameLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Chambord",
+        "ko": "샴보드",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "シャンボール・リキュール",
         // "pt": "",
         // "ru": "",
         // "tr": "",
@@ -50,13 +50,13 @@
     },
     "DescriptionLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "Un licor dulce destilado de frambuesas.",
+        "ko": "라즈베리를 증류시켜 만든 달콤한 술.",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "ラズベリーから蒸留された甘いお酒。",
         // "pt": "",
         // "ru": "",
         // "tr": "",

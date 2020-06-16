@@ -6,34 +6,36 @@
     "Type": "Vegetable",
 
     "Seasons": ["spring", "summer", "fall", "winter"],
-    "Phases": [ 5, 5, 10, 10],
+    "Phases": [5, 5, 10, 10],
     "RegrowthPhase": -1,
     "HarvestWithScythe": false,
     "TrellisCrop": false,
     "Colors": null,
-    "Bonus": {
+    "Bonus":
+    {
         "MinimumPerHarvest": 2,
         "MaximumPerHarvest": 3,
         "MaxIncreasePerFarmLevel": 5,
         "ExtraChance": 0.2,
     },
-"SeedPurchaseFrom": "Dwarf",
-  "SeedPurchasePrice": 1000,
+    "SeedPurchaseFrom": "Dwarf",
+    "SeedPurchasePrice": 1000,
 
-    "SeedNameLocalization": { 
-		//"es": "",
+    "SeedNameLocalization":
+    {
+        //"es": "",
         "ko": "인삼 씨앗",
-	    //"de": "",
+        //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "コウライニンジン",
         //"pt": "",
         //"ru": "",
         // "tr": "",
         //"zh": "",
-		},
-	"SeedDescriptionLocalization":
+    },
+    "SeedDescriptionLocalization":
     {
         //"es": "",
         "ko": "어느 계절에나 심을 수 있습니다. 자라는데 30일이 걸립니다.",
@@ -41,10 +43,10 @@
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "一年を通して栽培できる作物。そだつのに30日かかる。",
         //"pt": "",
         //"ru": "",
         // "tr": "",
         //"zh": "",
-	}
+    }
 }

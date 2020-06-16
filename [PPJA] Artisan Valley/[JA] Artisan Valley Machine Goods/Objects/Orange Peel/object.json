@@ -14,13 +14,13 @@
 
     "NameLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "cáscara de naranja",
+        "ko": "오렌지 껍질",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "オレンジピール",
         // "pt": "",
         // "ru": "",
         // "tr": "",
@@ -28,13 +28,13 @@
     },
     "DescriptionLocalization":
     {
-        //"es": "",
-        //"ko": "",
+        "es": "La guarnición picante perfecta",
+        "ko": "아주 향기로운 껍질.",
         //"de": "",
         // "fr": "",
         // "hu": "",
         // "it": "",
-        // "ja": "",
+        "ja": "完璧なかんきつの風味の付け合わせ。",
         // "pt": "",
         // "ru": "",
         // "tr": "",
