@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Soda_maschine",
+	"Author": "zirolive69",
+	"Version": "1.0.2",
+	"Description": "Soda_maschine more items",
+	"UniqueID": "zirolive69.Soda.maschine.build.ablePFM",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "zirolive69.Soda.maschine",
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

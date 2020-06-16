@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[MFM] Soda.machine",
+	"Author": "zirolive69",
+	"Version": "1.0.2",
+	"Description": "Sends a Soda maschine recipes to the player.",
+	"UniqueID": "Pack.SodamachineforMFM",
+	"MinimumApiVersion": "3.0.1",
+	"Dependencies": [
+		{
+			"UniqueID": "zirolive69.Soda.maschine",
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

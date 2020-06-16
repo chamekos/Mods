@@ -1,0 +1,24 @@
+﻿[
+    // Soda Machine
+    {
+        "ProducerName": "Soda Machine",
+        "InputIdentifier": 557,
+        "InputStack": 1,
+        "MinutesUntilReady": 10,
+		"OutputIdentifier": "Joja-Cola Quantum",
+        "OutputStack": 1,
+		"OutputMaxStack": 1,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Soda Machine",
+        "InputIdentifier": 638,
+        "InputStack": 1,
+        "MinutesUntilReady": 10,
+		"OutputIdentifier": "Joja-Cola Cherry",
+        "OutputStack": 1,
+		"OutputMaxStack": 1,
+        "Sounds": ["Ship"],
+    },
+
+]

@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Soda_maschine",
+  "Author": "zirolive69",
+  "Version": "1.0.2",
+  "Description": "Soda_maschine build able",
+  "UniqueID": "zirolive69.Soda.maschine",
+  	"MinimumApiVersion": "1.0.1",
+   "UpdateKeys": [ "Nexus: 5223" ],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod",
+    "MinimumVersion": "1.0.0",
+	"UniqueID": "spacechase0.JsonAssets",
+    "MinimumVersion": "1.0.0"
+  }
+}

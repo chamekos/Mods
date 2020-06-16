@@ -1,0 +1,16 @@
+[
+	{
+		"Id": "Pack.Soda.machine.send",
+		"GroupID": "Pack.Soda.machine",
+		"Title": "sodamachine.title",
+		"Text": "sodamachine.text",
+		"Attachments": [{"Type": "BigCraftable", "Name":"Soda Machine", "Stack": 1},],
+		"WhichBG": 0,
+		"Date": "5 spring Y1",
+		"Repeatable": false,
+		"SkillConditions": 
+		[
+			{ "SkillName": "Foraging", "SkillLevel": 2 }
+		],
+	},
+]
