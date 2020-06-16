@@ -10,7 +10,7 @@
 		},
 "Entries": {
             "Fri2": "@, if you ever have any problems with your farm machinery, you can tell Maru and she'll fix it.$0#$b#The other day she helped me with my radio.$0#$e#She's a great help for me.$1",
-            "Sat2": "I think I should show Maru how much I appreciate her help.$0#$b#The clinic would be a mess without her.$0"
+            "Sat2": "I should show Maru how much I appreciate her help.$0#$b#The clinic would be a mess without her.$0"
 			}
 },
 {
@@ -20,8 +20,8 @@
 	"HasSeenEvent": "59020005"
 		},
 "Entries": {
-            "Wed2": "I didn't know that Dr. Harvey wanted to be a pilot.$0#$b#I can't really imagine it but it's good that he didn't abandon his dream completely.$0",
-            "Sun2": "As a kid, I never thought that I would end up working at a clinic.$0#$e#It's not the job of my dreams, but this way I can contribute to the community.$0#$b#Also, Dr. Harvey and I make a good team.$1"
+            "Wed2": "I didn't know that Dr. Harvey wanted to be a pilot.$0#$b#I can't really imagine it... but it's good that he didn't abandon his dream completely.$0",
+            "Sun2": "As a kid, I never thought that I would end up working at a clinic.$0#$e#It's not my dream job, but this way I can contribute to the community.$0#$b#Also, Dr. Harvey and I make a good team.$1"
 			}
 },
 //Maru and Harvey dialogue | Museum event
@@ -34,7 +34,7 @@
 "Entries": {
             "Tue4": "I'm helping Maru to study the history of medicine.$0#$b#It's great that she's such a hardworking girl.$1",
             "Fri4": "I'm glad that Maru and I have common interests.$0#$e#It's beneficial for your mental wellbeing to share the things you love with others.$1",
-            "Sat4": "When I went to the museum before I couldn't really talk to anyone.$2#$e#Penny is usually there but we don't have much in common.$2#$e#But with Maru, I feel like I'm really settling in on the community.$1"
+            "Sat4": "When I went to the museum before I couldn't really talk to anyone.$2#$e#Penny is usually there but we don't have much in common.$2#$e#But with Maru, I feel like I really have a friend here.$1"
 			}
 },
 {
@@ -44,9 +44,9 @@
 	"HasSeenEvent": "59020006"
 		},
 "Entries": {
-			"Mon4": "I think I'm more interested in medicine day by day.$0#$b#Of course, that doesn't mean I'm going to neglect my other projects.$1",
-            "Wed4": "Harvey is so patient with me when explaining things.$0#$b#Even though I understand most things quickly, some are just too complicated.$0",
-            "Sun4": "Harvey seems to be in a good mood lately.$0#$b#I don't know why, though, because the clinic isn't on its best...$2"
+			"Mon4": "I think I'm becoming more interested in medicine day by day.$0#$b#Of course, that doesn't mean I'm going to neglect my other projects.$1",
+            "Wed4": "Harvey is so patient with me when he explains things.$0#$b#Even though I understand most things quickly, some are just too complicated.$0",
+            "Sun4": "Harvey seems to be in a good mood lately.$0#$b#I don't know why, though, because the clinic isn't doing that well...$2"
 			}
 },
 //Maru and Harvey dialogue | Mountain event
@@ -58,8 +58,8 @@
 		},
 "Entries": {
             "Mon6": "I made some rhubarb pie yesterday and there was a little left over.$0#$b#Do you want it, @?[222]$1",
-            "Tue6": "Do you think Maru would like to help me with my model planes, @?$4#$e#I think she would enjoy it as much as I do, but I don't know...$2",
-            "Fri6": "Demetrius went to the clinic last week just to see if Maru was there.$0#$b#I told him no, and he insisted on going upstairs to make sure she wasn't there.$2#$e#Weird, don't you think, @?$2",
+            "Tue6": "Do you think Maru might like to help me with my model planes, @?$4#$e#I think she would enjoy it as much as I do, but I don't know...$2",
+            "Fri6": "Demetrius came to the clinic last week just to see if Maru was there.$0#$b#I told him no, and he insisted on going upstairs to make sure she wasn't there.$2#$e#Weird, don't you think, @?$2",
             "Sun6": "Maru invited me to stargaze the other day.$1#$e#I'm glad that my train arrived late...$4"
 			}
 },
@@ -71,9 +71,9 @@
 		},
 "Entries": {
 			"Wed6": "My father told me that I'm spending too much time with Harvey lately.$0#$e#I don't really see the difference.$0#$b#We're just closer than before, but it's normal since we work together.$0",
-            "Thu6": "I wonder if there is something I can build to help Harvey at the clinic...$0#$e#Or maybe something related to planes...$0",
-            "Sat6": "Penny asked me about Harvey the other day.$0#$e#I don't know why lately everyone is so concerned about my relationship with Harvey.$5#$e#Even Sebastian has asked me!$5",
-            "Fri6": "I think Harvey goes to the saloon when it rains.$0#$e#My mother told me if I wanted to go with dad and her someday.$0#$b#I have to think about it...$0"
+            "Thu6": "I wonder if I could build something to help Harvey at the clinic...$0#$e#Or maybe something related to planes...$0",
+            "Sat6": "Penny asked me about Harvey the other day.$0#$e#I don't know why everyone is so concerned about my relationship with Harvey lately.$5#$e#Even Sebastian has asked me!$5",
+            "Fri6": "I think Harvey goes to the saloon when it rains.$0#$e#My mother asked me if I wanted to go with her and dad someday.$0#$b#I have to think about it...$0"
 			}
 },
 //Maru and Harvey dialogue | Town event
@@ -91,22 +91,22 @@
             "Fri8": "Robin offered to expand the clinic when I visited Maru last week.$0#$e#I appreciate it, but I think it's big enough for our community.$0",
             "Sat8": "Last night I cooked Maru a healthy and nutritious dinner.$0#$b#I think she loved it!$1",
             "Sun8": "I've prepared a special energy tonic for Maru.$0#$e#I don't want her to feel exhausted.$2#$b#You know, she works too much...$2",
-            "spring_Thu8": "When I first met Maru I didn't know if she would do a good job.$0#$b#But she has proved to be a fully capable nurse.$1#$e#Also, if she hadn't applied for a job, we wouldn't have come so far.$4",
+            "spring_Thu8": "When I first met Maru I didn't know if she would do a good job.$0#$b#But she has proven to be a fully capable nurse.$1#$e#Also, if she hadn't applied for a job, we wouldn't have gotten to know each other.$4",
             "spring_Fri8": "If Maru and I have kids, do you think they could become pilots one day?$1",
             "spring_Sat8": "Maru always brightens my day, I love having her around.$4",
-            "summer_Mon8": "Maru and I were thinking of visiting the desert.$0#$b#Maybe we'll go in fall or winter, when it's cooler.$1",
-            "summer_Wed8": "Summer has become my favorite season because Maru and I go stargazing.$4#$e#The sky of the valley always looks stuning, but in summer it gets even better!$1",
-            "summer_Sun8": "Maru always comes by to see me even when she don't have to work.$4",
-            "fall_Mon8": "I've been getting better at cooking since Maru comes to eat at my house.$1#$b#If you want advices on how to make healthy food, don't hesitate to ask me.$0",
-            "fall_Tue8": "I've been improving my massages techniques for Maru.$0#$b#Somedays she is really tired and I wanted to help her relax a little.$1",
-            "fall_Fri8": "Before I used to feel down when business was not going well...$2#$b#But now Maru always makes me smile when that happens.$4",
-            "winter_Wed8": "I'm glad that Demetrius has come to accept my relationship with Maru.$1#$b#Otherwise it would be really awkward.$2",
-            "winter_Thu8": "In cold days like this, Maru and I like to share a bottle of wine by the fire.$1",
-            "winter_Sat8": "To be honest, I thought I would be forever single.$2#$I'm so glad that Maru appeared in my life.$4",
+            "summer_Mon8": "Maru and I were thinking of visiting the desert.$0#$b#Maybe we'll go in the fall or winter, when it's cooler.$1",
+            "summer_Wed8": "Summer has become my favorite season because Maru and I go stargazing.$4#$e#The sky over the valley always looks stunning, but in the summer it gets even better!$1",
+            "summer_Sun8": "Maru always comes by to see me, even when she doesn't have to work.$4",
+            "fall_Mon8": "I've been getting better at cooking now that Maru comes to eat at my house.$1#$b#If you want advices on how to make healthy food, don't hesitate to ask me.$0",
+            "fall_Tue8": "I've been improving my massages techniques for Maru.$0#$b#Somedays she's really tired after work, and I want to help her relax a little.$1",
+            "fall_Fri8": "I used to feel down when business was not going well...$2#$b#But now Maru always keeps my spirits up, even on the hard days.$4",
+            "winter_Wed8": "I'm glad that Demetrius has come to accept my relationship with Maru.$1#$b#Otherwise it would be really uncomfortable.$2",
+            "winter_Thu8": "On cold days like this, Maru and I like to share a bottle of wine by the fire.$1",
+            "winter_Sat8": "To be honest, I thought I would be single forever.$2#$I'm so glad that Maru appeared in my life.$4",
             "spring_23": "I'm feeling confident about the Flower Dance tomorrow.$1#$e#Maru and I have been practising our moves.$1",
             "summer_10": "Hello, @.$0#$e#I've been improving my cooking skills for Maru's birthday.$1#$b#She told me that she loves cheese cauliflower and pepper poppers so I'm going to invite her to have dinner at my place later.$1",
-            "summer_27": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#Tomorrow I'll be able to enjoy it with Maru.$1",
-            "fall_26": "I always get lost at the Haunted Maze.$2#$e#Maybe if Maru and I go together we'll be able to reach the exit.$0"
+            "summer_27": "The Dance of the Moonlight Jellies is so beautiful.$0#$e#I’m looking forward to enjoying it with Maru tomorrow.$1",
+            "fall_26": "I always get lost in the Haunted Maze.$2#$e#Maybe if Maru and I go together, we'll be able to reach the exit.$0"
 			}
 },
 {
@@ -116,28 +116,28 @@
 	"HasSeenEvent": "59020009"
 		},
 "Entries": {
-            "Mon8": "Harvey is so clumsy sometimes.$0#$b#But that actually makes him cute.$4",
+            "Mon8": "Harvey is so clumsy sometimes.$0#$b#But it's actually kind of cute.$4",
             "Tue8": "Harvey likes to give me new gadgets ideas and I help him with his models.$0#$e#We're the perfect team!$1",
-            "Wed8": "I've always been independent of other people.$0#$b#...but now it's hard to imagine my life without Harvey.$4",
+            "Wed8": "I've always been pretty independent.$0#$b#...but now it's hard to imagine my life without Harvey.$4",
             "Thu8": "I've been working on a machine that improves the quality of pickles.$0#$b#It's a surprise for Harvey.$1",
-            "Fri8": "If I ever discover a new star, I'm going to name it Harvey.$4#$e#Do you think it's kind of cheesy...?$0",
+            "Fri8": "If I ever discover a new star, I'm going to name it Harvey.$4#$e#Do you think that's too cheesy...?$0",
             "Sat8": "Harvey and I have thought about visiting Zuzu City together.$0#$b#He goes there every month to buy medical supplies.$0",
-            "Sun8": "My mother asked me if we should invite Harvey for dinner sometime.$0#$b#But I don't think dad will be as happy as her with that idea.$2",
+            "Sun8": "My mother asked me if we should invite Harvey over for dinner sometime.$0#$b#But I don't think dad will be as happy with that idea as she is.$2",
             "spring_Wed8": "Harvey and I are practising for the Flower Dance.$0#$b#We're so excited!$1",
-            "spring_Fri8": "The relationship between Harvey and me has been like the contact of two chemical substances, we reacted with each other and now we form a new element.$1",
-            "spring_Sun8": "My father used to harass Harvey with every kind of questions when he saw him.$2#$b#Luckily now he has stopped.$1#$e#...Or maybe he is just thinking of more questions.$0",
-            "summer_Tue8": "Harvey wants to modernise the computers of the clinic.$0#$b#Maybe Sebastian can help him.$0",
-            "summer_Thu8": "I've been researching about the Valley and, scientifically, this a excellent place to raise children.$0#$e#I'm going to compile everything and show it to Harvey.$1",
-            "summer_Sat8": "I didn't expected it, but Harvey is a great cook.$1#$b#And he always makes healthy meals.$0",
-            "fall_Mon8": "I was surprised to hear that Harvey also goes to do exercise with my mother on Tuesdays.$0#$b#It's good that he wants to stay healthy.$0",
-            "fall_Thu8": "I don't know whether I should keep it professional between Harvey and me  when we are working or not.$0#$b#Well, it's not like our patients don't know about us.$0",
+            "spring_Fri8": "The relationship between Harvey and me has been like the contact of two chemicals, we reacted with each other and now we form a new element.$1",
+            "spring_Sun8": "My father used to harass Harvey with all sorts of questions when he saw him.$2#$b#Luckily he has stopped now.$1#$e#...Or maybe he's just thinking of more questions.$0",
+            "summer_Tue8": "Harvey wants to modernise the clinic's computers.$0#$b#Maybe Sebastian can help him.$0",
+            "summer_Thu8": "I've been doing some research about the Valley and, scientifically, this an excellent place to raise children.$0#$e#I'm going to compile everything and show it to Harvey.$1",
+            "summer_Sat8": "I didn't expect it, but Harvey is a great cook.$1#$b#And he always makes healthy meals.$0",
+            "fall_Mon8": "I was surprised to hear that Harvey also goes to Caroline's to exercise on Tuesdays, along with my mother.$0#$b#It's good that he wants to stay healthy.$0",
+            "fall_Thu8": "I never know whether or not I should keep it professional with Harvey when we're working.$0#$b#Well, it's not like our patients don't know about us.$0",
             "fall_Sat8": "Harvey and I want to go on a road trip and explore new places.$0#$b#But I don't think we'll be able to do it anytime soon, the clinic would have to close at least for a few weeks...$2",
             "winter_Tue8": "In the past I seriously considered building a robotic husband.$0#$b#But now I have Harvey and he is more than enough.$4",
-            "winter_Wed8": "I hope my father is okay now that I'm spending more time with Harvey.$2#$e#Despite I'm still living with him, I'm afraid he'll get lonely...$2",
+            "winter_Wed8": "I hope my father is okay now that I'm spending more time with Harvey.$2#$e#Even though I'm still living with him, I'm afraid he'll get lonely...$2",
             "winter_Sun8": "Time seems to stop when I look at Harvey...$4#$e#Maybe he's traveling at the speed of light.$1",
-            "summer_27": "I'm looking forward to watch the Moonlight Jellies with Harvey tomorrow.$4",
-            "fall_26": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first that find the treasure!$1",
-            "winter_14": "Today's is Harvey's birthday and I've have designed a special model plane for him.$0#$b#I hope he likes it.$1"
+            "summer_27": "I'm looking forward to watching the Moonlight Jellies with Harvey tomorrow.$4",
+            "fall_26": "I've been talking with Harvey about our strategy to complete the Haunted Maze.$0#$e#Maybe this year we can be the first to find the treasure!$1",
+            "winter_14": "Today's is Harvey's birthday.$1#$e#I've have designed a special model plane for him.$0#$b#I hope he likes it.$1"
 			}
 },
 {
@@ -150,17 +150,17 @@
             "Mon2": "I still don't trust Harvey's intentions with Maru...$4",
             "Mon6": "Harvey cooked bean hotpot for us yesterday.$0#$b#Maybe I'm starting to like him a little bit more...$3",
             "Tue4": "Maru is my little girl, so it's natural that I'm cautious of Harvey.$4",
-            "Tue10": "I know I've been harsh on Harvey in the past...$2#$b#But now it's different!$2",
-            "Wed6": "Robin had a serious conversation with me about how I can't be this severe to Harvey...$2#$b#Maybe she is right...$2",
+            "Tue10": "I know I've been harsh with Harvey in the past...$2#$b#But now it's different!$2",
+            "Wed6": "Robin had a serious conversation with me about how I've been acting toward Harvey...$2#$b#Maybe she is right...$2",
             "Wed8": "Hi, @.$0#$e#Actually, Harvey has been working really hard to be a part of our family.$0#$e#So maybe I should be nicer to him...$3",
             "Thu2": "I should go check on Harvey and Maru today...$3#$b#...just in case.$3",
             "Thu8": "Hmm... perhaps Harvey is a good man after all...$3",
-            "Fri8": "Well, Maru seems really happy with Harvey so I guess that's what is important.$0",
+            "Fri8": "Well, Maru seems really happy with Harvey, so I guess that's what is important.$0",
             "Fri10": "It has been hard, but I've come to accept Harvey as a member of our family.$1",
-            "Sat2": "Hi, farmer.$0#$e#Would you mind keeping an eye on Harvey and Maru?$5#$b#I'm worried that their relationship goes wrong...$",
-            "Sat8": "Harvey came yesterday and helped Maru and I with our experiments.$0#$b#He's a really good scientist!$1",
-            "Sun4": "I'm just worried that Harvey breaks Maru's heart...$2#$e#Isn't it normal for a father?$2",
-            "Sun10": "I'm relieved that Harvey don't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy that she's with Maru."
+            "Sat2": "Hi, farmer.$0#$e#Would you mind keeping an eye on Harvey and Maru?$5#$b#I'm worried about their relationship going wrong...$",
+            "Sat8": "Harvey came by yesterday and helped Maru and me with our experiments.$0#$b#He's a really good scientist!$1",
+            "Sun4": "I'm just worried that Harvey will break Maru's heart...$2#$e#Isn't it normal for a father?$2",
+            "Sun10": "I'm relieved that Harvey doesn't hold a grudge for the way I treated him in the past.$0#$b#He's a good man and I'm happy that he's with Maru."
 			}
 },
 {
@@ -170,20 +170,20 @@
 	"HasSeenEvent": "59020009"
 		},
 "Entries": {
-            "Mon2": "I don't talk much to Harvey, but he sometimes comes to exercise with us on Tuesdays.$0",
+            "Mon2": "I don't talk to Harvey much, but he sometimes comes to exercise with us on Tuesdays.$0",
             "Mon6": "Unlike Demetrius, I know that Harvey is taking care of our daughter, so I'm not worried at all.$1",
             "Tue4": "Demetrius is just being unreasonable with Harvey.$3#$b#Can't he see that Maru is happy and that's what truly matters...?$2",
             "Tue8": "I'm relieved that Demetrius has changed his attitude towards Harvey at least a little.$0#$e#Sometimes he is just too stubborn.$2",
             "Wed6": "Time goes by so quickly...$0#$e#I was talking to Jodi after our exercise class and we both can't believe how much our children have grown.$0",
             "Wed10": "If Maru and Harvey wants to move together someday, I will help them to build the perfect house!$1",
             "Thu8": "I can see that Harvey loves Maru.$0#$b#I'm so happy for them!$1",
-            "Thu10": "I'm delighted that Maru and Harvey are together.$0#$b#I knew that they would made a good couple.$1",
-            "Fri4": "Perhaps I should talk to Demetrius about his behaviour towards Harvey...$2",
-            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some tomato pickles for Harvey.$1",
+            "Thu10": "I'm delighted that Maru and Harvey are together.$0#$b#I knew that they would make a good couple.$1",
+            "Fri4": "Maybe I should talk to Demetrius about his behaviour towards Harvey...$2",
+            "Fri10": "I'm going to drop by the clinic later.$0#$b#I've prepared some picked tomato for Harvey.$1",
             "Sat2": "I can't say it was a surprise for me that Maru and Harvey started dating.$0#$e#In fact, I was hoping for it!$1",
-            "Sat8": "I'm not sure, but I think Sebastian also thinks nicely of Harvey.$1",
-            "Sun6": "I was thinking of inviting Harvey over to dinner...$0#$b#...but Demetrius surely will disagree.$2",
-            "Sun8": "Maru and Harvey reminds me of when Demetrius and I started dating...$0#$e#We were so young back in the day.$0"
+            "Sat8": "I'm not sure, but I think Sebastian also thinks highly of Harvey.$1",
+            "Sun6": "I was thinking of inviting Harvey over for dinner...$0#$b#...but Demetrius will surely disagree.$2",
+            "Sun8": "Maru and Harvey remind me of when Demetrius and I started dating...$0#$e#We were so young back in the day.$0"
 			}
 },
 {
@@ -196,10 +196,10 @@
             "Mon6": "I guess I'm kind of happy for Maru and Harvey.$0",
             "Tue8": "Harvey asked me for help when he came to our house the other day.$0#$b#He told me that he wanted to create an internal database for the clinic.$0#$e#It feels good when someone values your work.$1",
             "Wed2": "I don't really care about who Maru is dating.$0",
-            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Asides from working at the clinic, I think that they have the same likes.$0",
-            "Thu8": "Harvey comes around somedays.$0#$b#We don't really talk but he has shown interest in my work and I appreciate that.$1",
+            "Wed6": "Guess it was natural for Maru and Harvey to get together.$0#$b#Besides working at the clinic, I think they have the same interests.$0",
+            "Thu8": "Harvey comes around somedays.$0#$b#We don't really talk, but he's shown interest in my work and I appreciate that.$1",
             "Fri8": "Harvey is actually pretty cool, he brought me sashimi the other day!$1",
-            "Sat4": "The house is quieter now that Maru spends more time with Harvey.$1",
+            "Sat4": "The house is quieter now that Maru's spending more time with Harvey.$1",
             "Sun2": "Was it really necessary for Harvey to put on a show to ask Maru out?$0",
             "Sun4": "Demetrius still is kind of annoyed when Harvey comes around...$0" 
 			}
@@ -213,9 +213,9 @@
 		},
 "Entries":  {
             "spring.001": "The good things in life are better with Maru.$4",
-            "spring.002": "Maru learns really quick.$1",
+            "spring.002": "Maru learns very quickly.$1",
             "summer.001": "Maru...$4#$b#...you mean the world to me.$4",
-            "summer.002": "Maru looks so cute when she ask me difficult medical terms.$1",
+            "summer.002": "Maru looks so cute when she asks me about difficult medical terms.$1",
             "fall.001": "I'm still a little bit shy about Maru coming to my house...$4",
             "fall.002": "Maru, you look gorgeous right now.$4",
             "winter.001": "...$4",
@@ -272,10 +272,10 @@
             "spring.002": "Harvey and Penny are both great at teaching.$1",
             "summer.001": "I love to stargaze with Harvey.$4#$b#It's... magical.$4",
             "summer.002": "Studying with Harvey is so enjoyable.$1",
-            "fall.001": "Harvey have so many interesting books, maybe I'll ask him to borrow some.$0#$b#Or I could just come here when I want to read them.$4",
+            "fall.001": "Harvey has so many interesting books, maybe I'll ask to borrow some.$0#$b#Or I could just come here when I want to read them.$4",
             "fall.002": "Working at the clinic is never boring with Harvey by my side.$4",
             "winter.001": "This place brings me so many memories...$4",
-            "winter.002": "Harvey looks handsome when he read.$4"
+            "winter.002": "Harvey looks handsome when he's reading.$4"
             },
 },
 {
@@ -321,7 +321,7 @@
 "Action": "EditData",
 "Target": "Data/Events/HarveyRoom",
 "Entries": {
-            "59020005/f Harvey 500/f Maru 500/t 1000 1200": "distantBanjo/8 7/farmer 1000 1000 2 Harvey 4 5 1 Maru 6 13 0/skippable/showFrame Harvey 23/pause 1000/playSound clank/pause 320/playSound trashcan/pause 390/playSound clank/pause 800/speak Maru \"Dr. Harvey, are you at home?$0#$b#I've come to buy some energic tonic for my mother.$0\"/pause 250/playSound clank/pause 280/playSound clank/pause 500/speak Maru \"Dr. Harvey?$0\"/pause 300/playSound doorOpen/move Maru 0 -6 0/pause 500/speak Harvey \"It's not working...$9\"/pause 390/emote Maru 8/pause 600/speak Maru \"Dr. Harvey!$0\"/pause 300/showFrame Harvey 28/pause 100/shake Harvey 500/pause 500/speak Harvey \"Huh!?$10\"/pause 700/move Harvey 2 0 2/pause 600/speak Harvey \"Oh, Maru, you've scared me...$7\"/pause 750/speak Maru \"I was calling you but you were too concentrated to hear me.$0\"/pause 600/speak Harvey \"Is that so?$2#$b#I'm sorry...$2\"/pause 600/speak Harvey \"What do you need?$0\"/pause 700/speak Maru \"I said I was here to buy a energic tonic.$0\"/pause 750/speak Harvey \"Okay, I'll prepare it for you.$2\"/pause 820/speak Maru \"Are you okay, Dr. Harvey? You seem down...$8\"/pause 850/speak Harvey \"Oh...$2#$b#...it's my radio.$2\"/pause 500/speak Harvey \"You know, I like to track the planes that flies over Stardew Valley.$0\"/pause 500/speak Harvey \"It may sound weird, but it's my hobby.$0#$b#When I was a kid, I always dreamed of being a pilot.$1\"/pause 750/speak Harvey \"And, well, the radio I use for it is not working.$2\"/pause 390/speak Harvey \"I was trying to fix it but I don't know what is wrong.$2\"/pause 780/speak Maru \"A radio, you said?$0#$b#Maybe I can help you.$1\"/pause 650/speak Maru \"You know, I have this workshop where I build and fix all kind of machines.$0\"/pause 680/speak Harvey \"Really? I would own you a big one, Maru.$1\"/pause 700/speak Maru \"Yeah, let me see...$0\"/pause 700/move Maru -1 0 0/move Maru 0 -1 0/move Maru -2 0 0/move Maru 0 -2 1/faceDirection Harvey 3/pause 850/speak Maru \"Okay...$0\"/pause 500/animate Maru false true 150 16 17 18 20 22 23/pause 100/playSound clank/playSound clank/pause 50/playSound clank/playSound clankplaySound clank/pause 150/playSound clankplaySound clank/playSound clank/pause 80/playSound clank/pause 200/playSound clank/pause 180/playSound clank/playSound clank/playSound clank/pause 3000/stopAnimation Maru 16/pause 500/speak Maru \"There were come cables wrongly connected.$0#$b#Try it now, Dr. Harvey.$0\"/pause 580/showFrame Maru 16/pause 80/showFrame Maru 24/move Harvey -2 0 0/pause 280/showFrame Harvey 23/pause 200/move Maru 0 2 1/move Maru 3 0 0/move Maru 0 -1 3/pause 800/emote Harvey 16/pause 500/speak Harvey \"It's actually working!$10\"/pause 380/speak Harvey \"I can't believe it.$9#$b#I've been all morning trying to figure out what's wrong and you come here and in just a couple of minutes you fix it.$9\"/pause 850/speak Harvey \"You're incredible, Maru.$1\"/pause 700/speak Maru \"You flatter me, Dr. Harvey.$1\"/pause 600/speak Maru \"It's nothing, I'm used to things not working properly so it was easy for me.$1\"/pause 650/speak Harvey \"Anyway, thank you again, Maru.$1\"/pause 580/speak Harvey \"As a show of gratitude, I'll gift you a pack of energy tonic.$1\"/pause 600/emote Maru 32/pause 1300/end dialogue Harvey \"Is there something that Maru can't do?$0#$e#I personally don't think so.$1\""
+            "59020005/f Harvey 500/f Maru 500/t 1000 1200": "distantBanjo/8 7/farmer 1000 1000 2 Harvey 4 5 1 Maru 6 13 0/skippable/showFrame Harvey 23/pause 1000/playSound clank/pause 320/playSound trashcan/pause 390/playSound clank/pause 800/speak Maru \"Dr. Harvey, are you home?$0#$b#I've come to buy some energy tonic for my mother.$0\"/pause 250/playSound clank/pause 280/playSound clank/pause 500/speak Maru \"Dr. Harvey?$0\"/pause 300/playSound doorOpen/move Maru 0 -6 0/pause 500/speak Harvey \"It's not working...$9\"/pause 390/emote Maru 8/pause 600/speak Maru \"Dr. Harvey!$0\"/pause 300/showFrame Harvey 28/pause 100/shake Harvey 500/pause 500/speak Harvey \"Huh!?$10\"/pause 700/move Harvey 2 0 2/pause 600/speak Harvey \"Oh, Maru, you scared me...$7\"/pause 750/speak Maru \"I was calling you but you must have been too focused to hear me.$0\"/pause 600/speak Harvey \"Is that so?$2#$b#I'm sorry...$2\"/pause 600/speak Harvey \"What do you need?$0\"/pause 700/speak Maru \"I'm here to buy an energy tonic.$0\"/pause 750/speak Harvey \"Okay, I'll prepare it for you.$2\"/pause 820/speak Maru \"Are you okay, Dr. Harvey? You seem down...$8\"/pause 850/speak Harvey \"Oh...$2#$b#...it's my radio.$2\"/pause 500/speak Harvey \"I like to track the planes that fly over Stardew Valley.$0\"/pause 500/speak Harvey \"It may sound weird, but it's my hobby.$0#$b#When I was a kid, I always dreamed of being a pilot.$1\"/pause 750/speak Harvey \"And, well, the radio I use for it is not working.$2\"/pause 390/speak Harvey \"I was trying to fix it, but I don't know what's wrong.$2\"/pause 780/speak Maru \"A radio, you said?$0#$b#Maybe I can help you.$1\"/pause 650/speak Maru \"You know, I have a workshop where I build and fix all kinds of machines.$0\"/pause 680/speak Harvey \"Really? I would owe you a big one, Maru.$1\"/pause 700/speak Maru \"Yeah, let me see...$0\"/pause 700/move Maru -1 0 0/move Maru 0 -1 0/move Maru -2 0 0/move Maru 0 -2 1/faceDirection Harvey 3/pause 850/speak Maru \"Okay...$0\"/pause 500/animate Maru false true 150 16 17 18 20 22 23/pause 100/playSound clank/playSound clank/pause 50/playSound clank/playSound clankplaySound clank/pause 150/playSound clankplaySound clank/playSound clank/pause 80/playSound clank/pause 200/playSound clank/pause 180/playSound clank/playSound clank/playSound clank/pause 3000/stopAnimation Maru 16/pause 500/speak Maru \"Looks like some cables were connected wrong.$0#$b#Try it now, Dr. Harvey.$0\"/pause 580/showFrame Maru 16/pause 80/showFrame Maru 24/move Harvey -2 0 0/pause 280/showFrame Harvey 23/pause 200/move Maru 0 2 1/move Maru 3 0 0/move Maru 0 -1 3/pause 800/emote Harvey 16/pause 500/speak Harvey \"It's actually working!$10\"/pause 380/speak Harvey \"I can't believe it.$9#$b#I've been trying to figure out what's wrong all morning and you come here and fix it in just a couple minutes.$9\"/pause 850/speak Harvey \"You're incredible, Maru.$1\"/pause 700/speak Maru \"You're too kind, Dr. Harvey.$1\"/pause 600/speak Maru \"It's nothing, really.$0#$b#I'm used to things not working properly so it was easy for me.$1\"/pause 650/speak Harvey \"Anyway, thank you again, Maru.$1\"/pause 580/speak Harvey \"As a show of gratitude, I'll gift you a pack of energy tonic.$1\"/pause 600/emote Maru 32/pause 1300/end dialogue Harvey \"Is there anything Maru can't do?$0#$e#I don't think there is.$1\""
             },
       },
 //Museum | 4 hearts
@@ -329,7 +329,7 @@
 "Action": "EditData",
 "Target": "Data/Events/ArchaeologyHouse",
 "Entries": {
-            "59020006/e 59020005/f Harvey 1000/f Maru 1000/d Mon Tue Wed Thu Fri Sun/t 1000 1500": "libraryTheme/12 10/farmer 33 12 2 Harvey 8 12 3 Maru 3 17 0 Gunther 3 8 2/skippable/showFrame Harvey 16/pause 1200/playSound doorOpen/move Maru 0 -5 1/move Maru 3 0 1/speak Maru \"Hello, Dr. Harvey.$0\"/pause 600/showFrame Harvey 14/speak Harvey \"Oh, you're here. Hello, Maru.$0\"/pause 650/speak Maru \"What did you call me for?$0\"/pause 750/speak Harvey \"I wanted to show you this encyclopedia.$0#$b#It has all the information related to the history of medicine.$1\"/pause 390/speak Harvey \"I thought it would be helpful as you told me you wanted to dig in more in the medical field.$1\"/pause 580/speak Maru \"Thank you, Dr. Harvey.$1#$b#Then I'm going to tell Gunther that I will be borrowing the book for the next month.$0\"/pause 350/faceDirection Maru 3/pause 80/speak Harvey \"Wait, Maru.$8#$b#That's actually why I told you to come here.$0\"/pause 280/faceDirection Maru 1/pause 500/speak Harvey \"The book is a limited edition that Gunther struggled to find.$0#$b#That's why he won't let anyone borrow the book.$0\"/pause 500/speak Maru \"Oh... Such a pity.$2\"/pause 580/speak Maru \"Well, at least we can read it here, right?$0\"/pause 780/speak Harvey \"Yeah, do you want to take a look?$1\"/pause 80/showFrame Harvey 16/pause 300/move Maru 0 -1 1/move Maru 2 0 2/pause 500/emote Maru 40/pause 280/emote Maru 40/pause 500/speak Maru \"Dr. Harvey, what does pneumonoultramic mean?$2#$b#And oligoasthenoteratozoo?$2#$b#And uvulopalatopharyn?$2\"/pause 700/speak Harvey \"Huh...?$0#$b#Okay, let's take a seat and I'll explain it to you.\"/pause 500/move Harvey 0 2 1/move Harvey 7 0 0/move Harvey 0 -5 1/move Harvey 3 0 2/showFrame Harvey 42/move Maru 0 3 1/move Maru 7 0 0/move Maru 0 -5 1/move Maru 2 0 2/showFrame Maru 26/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 500/speak Maru \"Okay, I think I get it know.$1#$b#But still this is a little bit too complicated for me.$2\"/pause 600/speak Harvey \"Don't worry, Maru.$0#$b#If you ever need help, you can call me and ask.$1\"/pause 500/speak Maru \"Actually, can we meet up here every week to study together?$0#$b#You know, if you're not too busy.$0\"/pause 600/speak Harvey \"Well, it won't hurt to reread some books.$0\"/pause 600/speak Maru \"Every Saturday is okay, Dr. Harvey?$1\"/pause 580/speak Harvey \"Okay, perfect.$1#$b#And just call me Harvey, there's no need of being so formal, Maru.$1\"/pause 380/emote Maru 32/pause 1300/end dialogue Maru \"Dr... I mean, Harvey is really nice.$0#$b#I'm glad that I work with him.$1\""
+            "59020006/e 59020005/f Harvey 1000/f Maru 1000/d Mon Tue Wed Thu Fri Sun/t 1000 1500": "libraryTheme/12 10/farmer 33 12 2 Harvey 8 12 3 Maru 3 17 0 Gunther 3 8 2/skippable/showFrame Harvey 16/pause 1200/playSound doorOpen/move Maru 0 -5 1/move Maru 3 0 1/speak Maru \"Hello, Dr. Harvey.$0\"/pause 600/showFrame Harvey 14/speak Harvey \"Oh, you're here. Hello, Maru.$0\"/pause 650/speak Maru \"What did you call me for?$0\"/pause 750/speak Harvey \"I wanted to show you this encyclopedia.$0#$b#It has all the information you could ever want related to the history of medicine.$1\"/pause 390/speak Harvey \"I thought it would be helpful as you told me you wanted to dig in to the medical field more.$1\"/pause 580/speak Maru \"Thank you, Dr. Harvey.$1#$b#I'm going to talk to Gunther about borrowing the book for the next month.$0\"/pause 350/faceDirection Maru 3/pause 80/speak Harvey \"Wait, Maru.$8#$b#That's actually why I told you to come here.$0\"/pause 280/faceDirection Maru 1/pause 500/speak Harvey \"The book is a limited edition that Gunther struggled to find.$0#$b#That's why he won't let anyone borrow the book.$0\"/pause 500/speak Maru \"Oh... Such a pity.$2\"/pause 580/speak Maru \"Well, at least we can read it here, right?$0\"/pause 780/speak Harvey \"Yeah, do you want to take a look?$1\"/pause 80/showFrame Harvey 16/pause 300/move Maru 0 -1 1/move Maru 2 0 2/pause 500/emote Maru 40/pause 280/emote Maru 40/pause 500/speak Maru \"Dr. Harvey, what does pneumonoultramic mean?$2#$b#And oligoasthenoteratozoo?$2#$b#And uvulopalatopharyn?$2\"/pause 700/speak Harvey \"Huh...?$0#$b#Okay, let's take a seat and I'll explain it to you.\"/pause 500/move Harvey 0 2 1/move Harvey 7 0 0/move Harvey 0 -5 1/move Harvey 3 0 2/showFrame Harvey 42/move Maru 0 3 1/move Maru 7 0 0/move Maru 0 -5 1/move Maru 2 0 2/showFrame Maru 26/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 200/emote Harvey 40/pause 500/speak Maru \"Okay, I think I get it now.$1#$b#But this is still a little bit too complicated for me.$2\"/pause 600/speak Harvey \"Don't worry, Maru.$0#$b#If you ever need help, you can call me and ask.$1\"/pause 500/speak Maru \"Actually, can we meet up here maybe once a week to study together?$0#$b#You know, if you're not too busy.$0\"/pause 600/speak Harvey \"Well, it wouldn't hurt to reread some books.$0\"/pause 600/speak Maru \"How about Saturdays, Dr. Harvey?$1\"/pause 580/speak Harvey \"Okay, perfect.$1#$b#And just call me Harvey, there's no need to be so formal, Maru.$1\"/pause 380/emote Maru 32/pause 1300/end dialogue Maru \"Dr... I mean, Harvey is really nice.$0#$b#I'm glad that I work with him.$1\""
             },
       },
 //Mountain | 6 hearts
@@ -337,7 +337,7 @@
 "Action": "EditData",
 "Target": "Data/Events/Mountain",
 "Entries": {
-            "59020007/e 59020006/f Harvey 1500/f Maru 1500/o Maru/o Harvey/w sunny/z winter/t 2000 2400": "spaceMusic/-1000 -1000/Harvey 23 29 3 Maru 14 29 3 farmer 80 5 0/skippable/bgColor 0 0 0/changeToTemporaryMap NightSceneMaruMap false/ambientLight 0 0 0/viewport 14 23 true/showFrame Maru 28/pause 1800/move Harvey -8 0 3/pause 600/speak Harvey \"Hello, Maru.$0#$b#Up late, huh?$1\"/pause 600/faceDirection Maru 1/pause 500/speak Maru \"Hi, Harvey.$0#$b#Yeah, I was looking through my telescope.$1\"/pause 500/speak Maru \"And what are you doing so late here?$0\"/pause 900/speak Harvey \"Oh, today I went to Zuzu City to buy some things for Evelyn and George.$0#$b#I was supposed to be back at 6 pm, but the train had a delay.$2\"/pause 520/speak Maru \"That's terrible...$2\"/pause 380/speak Maru \"Well, at least you get to see today's beautiful night sky.$1#$b#Do you want to take a look through my telescope, Harvey?$1\"/pause 600/speak Harvey \"Really? I would love to.$1\"/pause 600/move Maru 0 1 0/move Harvey -1 0 3/pause 2000/speak Harvey \"Whoa...$1\"/pause 700/speak Maru \"Incredible, isn't it?$1\"/pause 800/speak Harvey \"Yes, it is.$1\"/pause 800/speak Maru \"Even though I've had the telescope for a long time, everytime I look through it I discover something new.$0#$b#The universe just never ceases to surprise me.$1\"/pause 800/speak Harvey \"The universe has so many secrets for us to find out.$0#$b#Despite not being my field of expertise, it's one of the reasons I love science.$1\"/pause 800/speak Maru \"I completely agree with you.$0\"/pause 1000/emote Harvey 20/pause 1600/end dialogue Harvey \"Maru...$4\""
+            "59020007/e 59020006/f Harvey 1500/f Maru 1500/o Maru/o Harvey/w sunny/z winter/t 2000 2400": "spaceMusic/-1000 -1000/Harvey 23 29 3 Maru 14 29 3 farmer 80 5 0/skippable/bgColor 0 0 0/changeToTemporaryMap NightSceneMaruMap false/ambientLight 0 0 0/viewport 14 23 true/showFrame Maru 28/pause 1800/move Harvey -8 0 3/pause 600/speak Harvey \"Hello, Maru.$0#$b#Up late, huh?$1\"/pause 600/faceDirection Maru 1/pause 500/speak Maru \"Hi, Harvey.$0#$b#Yeah, I was looking through my telescope.$1\"/pause 500/speak Maru \"And what brings you here so late?$0\"/pause 900/speak Harvey \"Oh, I went to Zuzu City  today to buy some things for Evelyn and George.$0#$b#I was supposed to be back at 6 pm, but the train was delayed.$2\"/pause 520/speak Maru \"That's terrible...$2\"/pause 380/speak Maru \"Well, at least you get to see tonight's beautiful sky.$1#$b#Do you want to take a look through my telescope, Harvey?$1\"/pause 600/speak Harvey \"Really? I would love to.$1\"/pause 600/move Maru 0 1 0/move Harvey -1 0 3/pause 2000/speak Harvey \"Whoa...$1\"/pause 700/speak Maru \"Incredible, isn't it?$1\"/pause 800/speak Harvey \"Yes, it is.$1\"/pause 800/speak Maru \"Even though I've had the telescope for a long time, everytime I look through it I discover something new.$0#$b#The universe just never ceases to surprise me.$1\"/pause 800/speak Harvey \"The universe has so many secrets for us to find out.$0#$b#Despite not being my field of expertise, it's one of the reasons I love science.$1\"/pause 800/speak Maru \"I completely agree with you.$0\"/pause 1000/emote Harvey 20/pause 1600/end dialogue Harvey \"Maru...$4\""
             },
       },
 //ScienceHouse | 7 hearts
@@ -345,7 +345,7 @@
 "Action": "EditData",
 "Target": "Data/Events/ScienceHouse",
 "Entries": {
-            "59020008/e 59020007/f Harvey 1750/f Maru 1500/o Maru/o Harvey/t 1600 1900": "kindadumbautumn/27 10/farmer 2 18 2 Harvey 14 12 1 Demetrius 29 10 1/skippable/pause 800/move Harvey 12 0 0/move Harvey 0 -2 1/pause 800/speak Harvey \"H-Hello, Mr. Demetrius...$2\"/pause 500/faceDirection Demetrius 3/pause 700/speak Demetrius \"Hello, Harvey.$4\"/pause 600/shake Harvey 500/pause 200/speak Harvey \"I-I wanted to s-speak with you...$2\"/pause 500/speak Demetrius \"I'm listening.$4\"/pause 800/speak Harvey \"I-It's about M-Maru...$2\"/pause 380/speak Demetrius \"What's with my daughter?$4\"/pause 800/speak Harvey \"I-I...$2\"/pause 500/speak Harvey \"You know, sir, I've been spending more time with Ma... your daughter recently.$0\"/pause 300/speak Demetrius \"Yeah, I'm aware of that...$4\"/pause 800/speak Harvey \"Well... your daughter is a great woman.$4#$b#She is intelligent, hardworking and beautiful.$4\"/pause 500/speak Harvey \"W-What I want to say is that...$0\"/pause 600/shake Harvey 1500/pause 200/speak Harvey \"...I-I like Maru.$4\"/pause 380/speak Harvey \"And before you say anything, I know you are her father and want the best for her.$0#$b#But, sir, I assure you I'm serious about her.$4#$b#I want her to feel on top of the world everyday and I want to be the one that makes that come true.$4\"/pause 500/speak Harvey \"I feel like I'm dreaming whenever I'm with her.$4#$b#But I'm aware that you are really protective of her.$0#$b#Therefore I wanted to tell you first that I have plans on asking Maru out.$0\"/pause 250/emote Demetrius 16/pause 500/speak Harvey \"I already talked to Robin earlier and she seemed happy with it.$0\"/pause 750/speak Harvey \"I swear that I'll love Maru more than anything.$4#$b#So, Mr. Demetrius, please give me your blessing.\"/pause 500/emote Demetrius 40/pause 500/emote Demetrius 40/pause 800/speak Demetrius \"Harvey, call me only Demetrius, please.$5\"/pause 300/emote Harvey 16/pause 300/speak Harvey \"O-Okay!$8\"/pause 380/speak Harvey \"So...$2#$b#...it's that a yes?$4\"/pause 580/speak Demetrius \"Look, Harvey...$5#$b# I don't think you are a bad influence.$5#$b#Actually, I admire your work here in the Valley.$5\"/pause 380/emote Demetrius 12/speak Demetrius \"But, if I ever see Maru suffering because of you, you know what's going to happen?$4\"/pause 350/emote Harvey 16/pause 380/speak Harvey \"Oh my god, si... Demetrius.$8#$b#I'll make sure that that never happens!$8\"/pause 600/speak Harvey \"Thank you, Demetrius.$1#$b#I swear that you are not going to regret this decision.$1#$b#I'm going to be the best son-in-law ever!$1\"/pause 380/speak Demetrius \"Harvey, I think you're going too fast.$4\"/pause 350/speak Harvey \"Oh, of course.$1#$b#I'm sorry.$1\"/pause 380/emote Harvey 32/pause 1500/end dialogue Harvey \"I can't believe Demetrius accepted me!$1\""
+            "59020008/e 59020007/f Harvey 1750/f Maru 1500/o Maru/o Harvey/t 1600 1900": "kindadumbautumn/27 10/farmer 2 18 2 Harvey 14 12 1 Demetrius 29 10 1/skippable/pause 800/move Harvey 12 0 0/move Harvey 0 -2 1/pause 800/speak Harvey \"H-Hello, Mr. Demetrius...$2\"/pause 500/faceDirection Demetrius 3/pause 700/speak Demetrius \"Hello, Harvey.$4\"/pause 600/shake Harvey 500/pause 200/speak Harvey \"I-I wanted to s-speak with you...$2\"/pause 500/speak Demetrius \"I'm listening.$4\"/pause 800/speak Harvey \"I-It's about M-Maru...$2\"/pause 380/speak Demetrius \"What about my daughter?$4\"/pause 800/speak Harvey \"I-I...$2\"/pause 500/speak Harvey \"You know, sir, I've been spending more time with Ma... your daughter recently.$0\"/pause 300/speak Demetrius \"Yes, I'm aware of that...$4\"/pause 800/speak Harvey \"Well... your daughter is a great woman.$4#$b#She is intelligent, hardworking and beautiful.$4\"/pause 500/speak Harvey \"W-What I want to say is that...$0\"/pause 600/shake Harvey 1500/pause 200/speak Harvey \"...I-I like Maru.$4\"/pause 380/speak Harvey \"And before you say anything, I know you are her father and want the best for her.$0#$b#But, sir, I assure you I'm serious about her.$4#$b#I want her to feel on top of the world everyday and I want to be the one that makes that happen.$4\"/pause 500/speak Harvey \"I feel like I'm dreaming whenever I'm with her.$4#$b#But I'm aware that you are really protective of her.$0#$b#Therefore I wanted to tell you first that I'm planning to ask Maru out.$0\"/pause 250/emote Demetrius 16/pause 500/speak Harvey \"I already talked to Robin earlier and she seemed happy with it.$0\"/pause 750/speak Harvey \"I swear that I'll love Maru more than anything.$4#$b#So, Mr. Demetrius, please give me your blessing.\"/pause 500/emote Demetrius 40/pause 500/emote Demetrius 40/pause 800/speak Demetrius \"Harvey, just call me Demetrius, please.$5\"/pause 300/emote Harvey 16/pause 300/speak Harvey \"O-Okay!$8\"/pause 380/speak Harvey \"So...$2#$b#...is that a yes?$4\"/pause 580/speak Demetrius \"Look, Harvey...$5#$b# I don't think you're a bad influence.$5#$b#Actually, I admire your work here in the Valley.$5\"/pause 380/emote Demetrius 12/speak Demetrius \"But, if I ever see Maru suffering because of you, you know what's going to happen?$4\"/pause 350/emote Harvey 16/pause 380/speak Harvey \"Oh my god, si... Demetrius.$8#$b#I'll make sure that never happens!$8\"/pause 600/speak Harvey \"Thank you, Demetrius.$1#$b#I swear that you won't regret this decision.$1#$b#I'm going to be the best son-in-law ever!$1\"/pause 380/speak Demetrius \"Harvey, I think you're going too fast.$4\"/pause 350/speak Harvey \"Oh, of course.$1#$b#I'm sorry.$1\"/pause 380/emote Harvey 32/pause 1500/end dialogue Harvey \"I can't believe Demetrius said yes!$1\""
             },
       },
 //Town | 8 hearts
@@ -353,7 +353,7 @@
 "Action": "EditData",
 "Target": "Data/Events/Town",
 "Entries": {
-            "59020009/e 59020008/f Harvey 2000/f Maru 2000/o Maru/o Harvey/w sunny/z winter/t 1600 1800": "harveys_theme_jazz/35 57/farmer 29 55 2 Harvey 33 57 2 Maru 34 57 2 Caroline 41 59 1 Jodi 43 59 3 Lewis 25 59 1 Sebastian 26 64 1 Sam 28 64 3/skippable/pause 1800/speak Maru \"What a long day at work...$0\"/emote Caroline 40/pause 800/emote Sam 40/speak Harvey \"Y-Yeah...$7\"/pause 600/emote Jodi 40/speak Maru \"What were we waiting for, again?$0\"/emote Sam 40/pause 350/shake Harvey 500/emote Caroline 40/pause 380/emote Sebastian 40/speak Harvey \"J-Just wait a bit more, Maru.$4\"/emote Sam 40/pause 500/emote Jodi 40/speak Maru \"Well, if you say so...$0\"/pause 200/emote Sam 40/emote Sebastian 40/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/jump Harvey/faceDirection Harvey 1/speak Harvey \"L-Look over there, Maru!$7\"/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/speak Maru \"A plane...?$0\"/cutscene plane/pause 800/speak Maru \"Huh? It has a flying banner...$0#$b#Maru, would you be my girlfriend?$0\"/pause 150/emote Maru 16/emote farmer 16/emote Caroline 16/faceDirection Caroline 3/emote Sebastian 16/faceDirection Sebastian 0/emote Sam 16/faceDirection Sam 0/speak Maru \"!$4\"/pause 800/playMusic musicboxsong/faceDirection Maru 3/pause 600/speak Maru \"Of course I will, Harvey!$4\"/pause 500/speak Maru \"I'm a loss of words... That was so beautiful...$4\"/pause 700/emote Harvey 20/pause 600/showFrame Maru 28/showFrame Harvey 53/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 500/specificTemporarySprite heart 34 57/pause 2000/end dialogue Maru \"I never thought Harvey could be so romantic!$4\""
+            "59020009/e 59020008/f Harvey 2000/f Maru 2000/o Maru/o Harvey/w sunny/z winter/t 1600 1800": "harveys_theme_jazz/35 57/farmer 29 55 2 Harvey 33 57 2 Maru 34 57 2 Caroline 41 59 1 Jodi 43 59 3 Lewis 25 59 1 Sebastian 26 64 1 Sam 28 64 3/skippable/pause 1800/speak Maru \"What a long day at work...$0\"/emote Caroline 40/pause 800/emote Sam 40/speak Harvey \"Y-Yeah...$7\"/pause 600/emote Jodi 40/speak Maru \"What were we waiting for, again?$0\"/emote Sam 40/pause 350/shake Harvey 500/emote Caroline 40/pause 380/emote Sebastian 40/speak Harvey \"J-Just wait a bit more, Maru.$4\"/emote Sam 40/pause 500/emote Jodi 40/speak Maru \"Well, if you say so...$0\"/pause 200/emote Sam 40/emote Sebastian 40/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/jump Harvey/faceDirection Harvey 1/speak Harvey \"L-Look over there, Maru!$7\"/pause 80/playSound roadnoise/playSound roadnoise/playSound roadnoise/speak Maru \"A plane...?$0\"/cutscene plane/pause 800/speak Maru \"Huh? It has a flying banner...$0#$b#Maru, would you be my girlfriend?$0\"/pause 150/emote Maru 16/emote farmer 16/emote Caroline 16/faceDirection Caroline 3/emote Sebastian 16/faceDirection Sebastian 0/emote Sam 16/faceDirection Sam 0/speak Maru \"!$4\"/pause 800/playMusic musicboxsong/faceDirection Maru 3/pause 600/speak Maru \"Of course I will, Harvey!$4\"/pause 500/speak Maru \"I'm a loss for words... That was so beautiful...$4\"/pause 700/emote Harvey 20/pause 600/showFrame Maru 28/showFrame Harvey 53/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 50/positionOffset Maru -2 0/pause 500/specificTemporarySprite heart 34 57/pause 2000/end dialogue Maru \"I never thought Harvey could be so romantic!$4\""
             },
       },
    ]

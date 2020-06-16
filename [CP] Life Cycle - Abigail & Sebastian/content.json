@@ -1,0 +1,376 @@
+{
+ "Format": "1.11.0",
+ "Changes": [
+//Abigail and Sebastian dialogue | Town event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+	"HasSeenEvent": "59020021"
+		},
+"Entries": {
+            "Fri2": "Today Abigail, Sam and I are going to the saloon.$0#$b#I think I'll ask Abigail to play Prairie King with me.$1",
+            "Sat2": "Abigail is a great gaming partner.$1#$b#I'm looking forward to playing Solarion Chronicles with her soon.$0"
+			}
+},    
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Abigail",
+"When": {
+	"HasSeenEvent": "59020021"
+		},
+"Entries": {
+            "Wed2": "Sebastian's so good at Journey of the Prairie King.$1#$e#I've never played with him before and was so impressed.$0",
+            "Sun2": "I can't wait for it to be Friday already.$0#$b#I'm asking Sebastian to play Journey of the Prairie King with me.$1"
+			}   
+},
+//Abigail and Sebastian dialogue | Mountain event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+	"HasSeenEvent": "59020022"
+		},
+"Entries": {
+            "Tue4": "I've seen that the mines are a dangerous place to go...$0",
+            "Fri4": "I think Abigail's still affected after the incident we had at the cave the other day.$2",
+            "Sat4": "Hey, @.$0#$e#You go often to the caves, right?$0#$b#Maybe you could teach some things to Abigail, she'll appreciate it.$0"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Abigail",
+"When": {
+	"HasSeenEvent": "59020022"
+		},
+"Entries": {
+			"Mon4": "@, how are you able to explore the caves so easily?$2",
+            "Wed4": "I've to improve my swordmanship more...$2",
+            "Sun4": "Ugh... I can't stop thinking about bats...$2"
+			}
+},
+//Abigail and Sebastian dialogue | Forest event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+	"HasSeenEvent": "59020023"
+		},
+"Entries": {
+            "Tue6": "I should check on Abigail later...$0",
+            "Wed6": "I hope Abigail can talk to her parents soon, it'll be good for them.$0",
+            "Fri6": "Abigail and I have so much in common.$1",
+            "Sat6": "Hey, @.$0#$b#Could you check on Abigail if you see her?$0"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Abigail",
+"When": {
+	"HasSeenEvent": "59020023"
+		},
+"Entries": {
+			"Tue6": "Sebastian knows how to comfort me.$0#$e#He's a great guy.$1",
+            "Thu6": "*sigh*$2#$e#When should I talk to them...?$2#$e#Oh, hello, @.$6",
+            "Sat6": "I should go and talk to Sebastian again...$2",
+            "Sun6": "Hi, @.$0#$e#You're my friend, so I want to know your opinion too.$0#$b#Sebastian told me I've to talk to my parents about how I feel, but I don't know...$2"
+			}
+},
+//Dialogues | Mountain event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon8": "Hey, @.$0#$e#I'm having a terrible day...$2#$b#I should go and see Abby to feel better.$7#$e#Bye.$0",
+            "Tue8": "Do you believe in soulmates, @?$0#$e#I thought it was just some stupid belief.$0#$b# But now I can't even imagine living without Abby.$4",
+            "Wed8": "Abby and I have been friends for so long.$0#$e#I kinda regret not telling her how I felt earlier...$2#$b#Guess I thought she wouldn't feel the same and it'd ruin our friendship...$2#$e#But it's cool now, we're really happy together.$1",
+            "Thu8": "Hey, @.$0#$e#I ordered Blue Starfruit to play with Abby.$1#$b#She was really excited when the release was announced.$1#$e#Oh, you can come and play too.$7",
+            "Fri8": "I love being with Abby, even if we just stay in silence.$4#$b#With her not even silences are awkward.$7#$e#It's a weird feeling... but I like it.$4",
+            "Sat8": "It'd be so boring to live here without Abby.$0#$e#Oh, and also Sam and you.$1",
+            "Sun8": "Sometimes my job is really stressing...$2#$e#Luckily Abby knows this and comes around when I most need her.$4",
+            "spring_Thu8": "Before I didn't felt like doing anything...$2#$e#But, you know, I think spending time with Abby has helped me to be more positive towards life in general.$1",
+            "spring_Fri8": "Some days I just want to stay on my bed all day.$2#$b#But Abby wouldn't like that...$0#$e#I should cheer up, I don't want her to be worried.$0",
+            "spring_Sun8": "Hey, @.$0#$e#You know that Abby has always wanted to explore the mines, right?$0#$b#Well, if you happen to see her, take care of her, okay?$0#$e#I don't even want to think about her getting hurt...$2",
+            "summer_Mon8": "I can't wait for it to be fall already. Summer just isn't my thing.$0#$b#But Abby told me she wanted to go swimming, so I guess I'll do it for her.$0",
+            "summer_Tue8": "Summer is the perfect season to focus on my job.$0#$e#But it's difficult sometimes because Abby likes to show up unexpectedly.$0#$e#It's not like I don't like it, though.$4",
+            "summer_Sat8": "Sam hasn't stop teasing Abby and I...$0#$b#He just keeps complaining about being the third wheel.$0",
+            "fall_Tue8": "Hey, @.$0#$e#Abby and I don't want to move to the city anymore, but we still want to take a trip there sometime.$0#$e#We're going to go on my motorbike, she's excited to ride it again.$1",
+            "fall_Fri8": "Hey, @.$0#$e#Are you coming to the saloon today?$0#$b#Abby and I will play some Prairie King. I think that we'll soon be able to beat it.$1",
+            "fall_Sat8": "Fall brings me so many memories from my childhood...$0#$e#Abby and I used to play near the Wizard's Tower.$0#$b#She's always loved visiting the forest.$1",
+            "winter_Thu8": "Abby's face turns red because of the cold.$7#$b#She looks really cute.$1",
+            "winter_Fri8": "Hey, @.$0#$e#When Abby came to my house the other day she took a hoodie.$0#$b#Should I ask her to give it back to me?$0#$e#No... I think it's better that she keeps it.$0#$e#She looks cute in it.$4",
+            "winter_Sun8": "Hey, @.$0#$e#A new year's coming, huh?$0#$e#I'm sort of uneasy...$2#$b#But it makes me feel better to think Abby'll still be by my side.$4",
+            "spring_23": "Ugh... I don't like the Flower Dance at all...$5#$b#Well, Abby is going to be there with me, so I guess it won't be that bad.$0",
+            "summer_16": "Tomorrow's Sam's birthday.$0#$e#Abby told me I should let him win at pool this Friday.$1",
+            "fall_13": "Abby's birthday is today.$1#$b#I ordered a special amethyst from Clint's for her.$1",
+            "fall_26": "I'm looking forward to the Spirit's Eve, it's my favorite festival.$7#$e#I never enter the haunted maze, though.$0#$b#But Abby told me I should join her, so I guess I will.$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Abigail",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon8": "I used to think Pelican Town was a boring place.$0#$b#My dream was to move to the city and live some adventures.$1#$e#But now I don't know anymore...$0#$b#I feel like this is the ideal place for Sebastian and me to live.",
+            "Tue8": "It's still early to say, but if Seb and I have kids, I'll make sure that they can be whatever they want.$0#$e#The most important thing's that they're happy with their lives.$0",
+            "Wed8": "I don't know how many times I've wished to have been born in the city...$2#$b#But, on second thought, I wouldn't have met Seb that way.$0",
+            "Thu8": "Seb's a really reserved person, you know.$0#$b#That's why I'm extra glad he opens up to me.$1",
+            "Fri8": "I love when Fridays.$1#$b#Today I'm going to play Praire King with Seb.$0#$b#Maybe we'll finally beat it!$1",
+            "Sat8": "I've been planning on exploring the mines with Seb since forever.$0#$b#But he doesn't seem convinced, I think he's worried about me...$2",
+            "Sun8": "Seb and I basically grew up together.$0#$e#Our mothers were good friends and we ended up being being really close.$0#$e#I don't know what would I do without him...$4",
+            "spring_Mon8": "Ugh... Hi, @...$3#$e#I didn't sleep well... Seb and I played Solarion Chronicles all night...$3#$e#But it was totally worth it! We had so much fun.$1",
+            "spring_Tue8": "Hi, @.$1#$e#Oh, why am I so happy? It's because last night Seb appeared in my dream.$1#$b#But don't ask me more, I can't tell you what happened...$4",
+            "spring_Wed8": "You know, @, I feel that since I started dating Seb the relationship with my parents have also improved.$0#$e#I think they're finally understanding that I'm not a child anymore.$0",
+            "summer_Tue8": "I'm glad Seb lives in the mountain.$0#$b#The air up there is refreshing on summer days.$1#$e#Also, when it rains, frogs appear by the lake. Maybe Seb and I should adopt one.$1",
+            "summer_Thu8": "Hi, @.$1#$e#Don't think Seb and I are weirdos, but we love to hang out at the cementery.$0#$b#It's almost the only place in town where you can be alone.$0",
+            "summer_Fri8": "I asked Seb to come with me to the beach as a joke. You know, he doesn't really like the heat.$0#$b#But he actually told me he'd come if that's what I wanted.$1#$e#He's so cute sometimes...$4",
+            "fall_Mon8": "I hope it rains soon.$0#$b#The lake by Seb's house is the best place to hang out on rainy days.$0#$e#Anyway, I'm visiting him today.$1",
+            "fall_Sat8": "I love fall days.$0#$b#I wish this season could last forever, it reminds me of when Seb and I played in the forest as kids.$0",
+            "fall_Sun8": "Seb's going to help me dye my hair later.$1#$b#I was thinking of sticking to purple, but Seb said blue would also look cool.$0",
+            "winter_Wed8": "Winters here in town are so cold.$0#$b#Seb and I like to drink a hot cup of coffee in the morning to warm up for the day.$1",
+            "winter_Fri8": "I should visit Seb today.$0#$b#You know, if he's alone for too long, he gets kind of lost in himself.$2",
+            "winter_Sat8": "A new year is coming...$0#$e#This was a great year, I made so many memories with Seb.$1#$b#I hope next year is even better for us.$4",
+            "spring_12": "The Egg Hunt's tomorrow.$1#$e#Guess you'll be joining this year too.$0#$b#Good luck, @, but this year I feel extra confident because Seb will be cheering on me.$1",
+            "spring_23": "Hi, @.$0#$e#Do you remember? Tomorrow's the Flower Dance.$1#$e#I don't really like wearing dresses, but dancing with Seb is fun.$1",
+            "fall_26": "I can't wait for the Spirit's Eve Festival.$1#$b#Seb and I are going to share Gus's special pumpkin pie.$1#$e#And maybe he'll want to join me in the haunted maze later.$0",
+            "winter_10": "My mother helped me cook some sashimi for Seb's birthday.$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Maru",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Tue6": "My relationship with Sebastian has improved so much lately.$0#$b#He's been in a better mood since he started dating Abigail.$1",
+            "Tue8": "Abigail and I talked about exploring the mines.$0#$b#She wants to explore and I want to do a research about the minerals of the valley.$0#$e#Maybe you could join too, @.$1",
+            "Fri8": "Abigail came to the clinic yesterday and gave me a fresh cauliflower from his dad's store.$1#$e#Sebastian is dating a great woman.$0",
+            "Sun4": "It's weird to see Sebastian dating someone.$0#$b#I thought he wasn't interested.$0",
+            "Sun8": "Caroline and Pierre came to have dinner with my parents last Wednesday.$0#$e#Caroline shared her cheese cauliflower recipe with them.$1"
+			}
+},    
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Robin",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon6": "Abigail comes around often. I'm glad that she cares so much for Sebastian.$0",
+            "Tue10": "Abigail's such a great influence for Sebastian.$1#$b#He's so smiley and have been spending more time outdoors. I'm so thankful to Abigail.$1",
+            "Thu2": "I knew that Abigail and Sebastian were good friends, but I'd never thought about them dating.$0",
+            "Thu6": "Abigail's such a good girl, Caroline must be proud of her.$1",
+            "Fri10": "I couldn't be happier that Sebastian is dating Abigail.$1#$b#She's a great girl and the perfect match for him.$0",
+            "Sun8": "Oh, @.$1#$e#Caroline and Pierre are coming over to have dinner with us today.$0#$b#Caroline said she's making us her special tea.$1",
+            "Sun10": "Caroline and I are delighted that Abigail and Sebastian are together.$0#$b#I hope we become officially family soon.$1"
+			}
+}, 	   
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Demetrius",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon4": "I'm so relieved that Sebastian has started dating Abigail...$0",
+            "Mon10": "I've to ask Robin when Abigail is coming to our house.$0#$b#Maru and I found an uncommon type of amethyst and we wanted to give it to her.$1",
+            "Sun8": "Hello, @.$0#$b#Sebastian and Abigail are a good match, don't you think?.$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Pierre",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Tue6": "I hope Abigail's doing well with Sebastian.$0",
+            "Tue10": "I hope Sebastian and his family comes soon to have dinner with us.$1#$e#Caroline and I have been looking forward to show off our special pumpkin soup.$0#$e#I'm going to tell Abigail.$1",
+            "Wed4": "I'm worried about Abigail...$2#$e#I hope she knows what she wants for her future.$2",
+            "Wed10": "I used to worry about Abigail.$0#$b#It's really difficult to be a parent...$2#$e#But now I think she's doing great with Sebastian, they're good to each other.$0",
+            "Thu2": "I've known Sebastian for a long time and I'm not sure about Abigail and him...$2",
+            "Thu8": "Sebastian has offered to help me with the store's inventory.$0#$b#He told me it can be done much more efficiently by creating a internal database.$0",
+            "Sat4": "Sebastian comes too often to play videogames with Abigail.$3",
+            "Sat10": "Hello, @.$1#$e#Demetrius has been coming with Robin on Tuesdays.$0#$b#He's doing a research about my products.$1",
+			}
+},   
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Caroline",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon2": "I'm afraid that Abigail'll want to travel around with Sebastian...$2",
+            "Mon6": "Hello, @.$0#$e#I'm going to cook some sashimi to thanks Sebastian for taking care of Abigail.$1",
+            "Tue4": "When did Abigail grow so much?$2#$e#It seems like yesterday when Robin and I used to take Sebastian and her to the playground.$0",
+            "Tue10": "Hello, @.$0#$e#Robin and I can't stop talking about Abigail and Sebastian.$0#$b#They're so cute to each other.$1",
+            "Fri8": "I had my doubts about the relationship between Abigail and Sebastian, but he actually has helped Abigail to open up to us.$0#$e#I'm thankful to him.$1",
+            "Fri10": "Sebastian'll always be welcomed in my house.$1#$b#And also his family, of course.$1",
+            "Sun4": "My little girl's all grown up now.$0#$e#It didn't even cross my mind that Abigail'd have a boyfriend so soon.$0",
+            "Sun10": "Oh, @, do you think I might've grandkids any time soon?$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries": {
+            "Mon2": "I've been waiting forever for Sebastian and Abigail to start dating.$0#$e#It was so obvious, don't you agree, @?$1",
+            "fall_Wed8": "Hey, @.$0#$e#Lately I've been mastering my third wheeling skills.$1",
+            "Fri6": "Sebastian and Abigail are my friends and I enjoy going with them to the saloon on Fridays.$0#$e#...But since they started dating, sometimes it's awkward to be there with them.$2#$e#Oh, but of course I'm happy for them.$1",
+            "spring_Sun8": "Sebastian comes to my house to play the keyboard more often lately.$0#$b#Maybe he's trying to impress Abigail or something.$1"
+			}
+},
+//Schedule Sebastian | Mountain event
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Sebastian",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries":  {
+            "spring.001": "Oh... What're you doing here, @?$0#$b#I was talking to Abby...$0",
+            "spring.002": "Maybe we'll get to the final boss today.$1",
+            "summer.001": "Abby was right, this place is so peaceful.$0",
+            "summer.002": "Maybe we'll see the Wizard someday, Abby.$1",
+            "fall.001": "Do you want to go to the desert with me someday, Abby?$1",
+            "fall.002": "Don't tell Sam, but I'm glad he was busy today.$1",
+            "winter.001": "Are you cold, Abby?$0#$b#Come here...$4",
+            "winter.002": "I'm saving up money to travel around with Abby.$1"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Sebastian",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries":  {
+            "spring_3": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1830 Mountain 67 22 3 \"Strings\\schedules\\Sebastian:spring.001\"/2230 SebastianRoom 11 9 1 sebastian_sleep",
+            "spring_10": "GOTO spring_3",
+            "spring_17": "GOTO spring_3",
+            "spring_4": "1000 SebastianRoom 9 4 3 sebastian_computer/1330 Railroad 32 47 1 sebastian_smoking/1500 SeedShop 2 6 0 \"Strings\\schedules\\Sebastian:spring.002\"/2100 SebastianRoom 11 9 1 sebastian_sleep",
+            "spring_11": "GOTO spring_4",
+            "spring_18": "GOTO spring_4",
+            "spring_25": "GOTO spring_4",
+            "summer_1": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1900 Town 45 87 3 \"Strings\\schedules\\Sebastian:summer.001\"/2300 SebastianRoom 11 9 1 sebastian_sleep",
+            "summer_8": "GOTO summer_1",
+            "summer_15": "GOTO summer_1",
+            "summer_22": "GOTO summer_1",
+            "summer_7": "1030 SebastianRoom 9 4 3 sebastian_computer/1230 Forest 13 40 2 \"Strings\\schedules\\Sebastian:summer.002\"/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "summer_14": "GOTO summer_7",
+            "summer_21": "GOTO summer_7",
+            "fall_2": "1000 SebastianRoom 9 4 3 sebastian_computer/1200 BusStop 21 5 2 \"Strings\\schedules\\Sebastian:fall.001\"/1800 SebastianRoom 9 4 3 sebastian_computer/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "fall_9": "GOTO fall_2",
+            "fall_23": "GOTO fall_2",
+            "fall_4": "1030 SebastianRoom 9 4 3 sebastian_computer/1200 Mountain 57 33 1/1400 Mountain 64 14 2/1500 Mountain 42 13 1 sebastian_smoking/1600 SebastianRoom 4 7 2 \"Strings\\schedules\\Sebastian:fall.002\"/2100 SebastianRoom 11 9 1 sebastian_sleep",
+            "fall_11": "GOTO fall_4",
+            "fall_18": "GOTO fall_4",
+            "fall_25": "GOTO fall_4",
+            "winter_1": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1530 SebastianRoom 9 4 3 sebastian_computer/1800 Mountain 49 30 1 \"Strings\\schedules\\Sebastian:winter.001\"/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "winter_8": "GOTO winter_1",
+            "winter_22": "GOTO winter_1",
+            "winter_4": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 Railroad 32 47 1 sebastian_smoking/1800 Railroad 5 45 1 \"Strings\\schedules\\Sebastian:winter.002\"/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "winter_11": "GOTO winter_4",
+            "winter_18": "GOTO winter_4",
+            "winter_25": "GOTO winter_4"
+            },
+},
+//Schedule Abigail | Mountain event
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Abigail",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries":  {
+            "spring.001": "Seb's house is in the most beatiful place of the valley.$0",
+            "spring.002": "I think we got this, Seb!$1",
+            "summer.001": "Hi, @.$0#$b#Do you think it's kinda weird to hang out here...?",
+            "summer.002": "Seb's always caring for me...$4",
+            "fall.001": "It'd be fun to explore the desert.$1",
+            "fall.002": "Seb's teaching me how to play Solarion Chronicles.$1",
+            "winter.001": "Maybe I'll take another of Seb's hoodies.$1",
+            "winter.002": "I really want to travel abroad with Seb someday.$4"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Abigail",
+"When": {
+	"HasSeenEvent": "59020024"
+		},
+"Entries":  {
+            "spring_3": "1000 ArchaeologyHouse 11 9 0/1700 Mountain 66 22 1 \"Strings\\schedules\\Abigail:spring.001\"/2230 SeedShop 1 9 3 abigail_sleep",
+            "spring_10": "GOTO spring_3",
+            "spring_17": "GOTO spring_3",
+            "spring_4": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Town 73 54 2/1600 SeedShop 3 6 0 abigail_videogames \"Strings\\schedules\\Abigail:spring.002\"/2100 SeedShop 1 9 3 abigail_sleep",
+            "spring_11": "GOTO spring_4",
+            "spring_18": "GOTO spring_4",
+            "spring_25": "GOTO spring_4",
+            "summer_1": "900 SeedShop 39 5 0/1200 SeedShop 3 6 0 abigail_videogames/1900 Town 44 87 1 \"Strings\\schedules\\Abigail:summer.001\"/2300 SeedShop 1 9 3 abigail_sleep",
+            "summer_8": "GOTO summer_1",
+            "summer_15": "GOTO summer_1",
+            "summer_22": "GOTO summer_1",
+            "summer_7": "900 SeedShop 4 5 0/1030 SeedShop 20 5 1 \"Strings\\schedules\\Abigail:Sun.000\"/1300 Forest 14 40 2 \"Strings\\schedules\\Abigail:summer.002\"/2000 SeedShop 1 9 3 abigail_sleep",
+            "summer_14": "GOTO summer_7",
+            "summer_21": "GOTO summer_7",
+            "fall_2": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2 \"Strings\\schedules\\Abigail:fall.001\"/1800 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep",
+            "fall_9": "GOTO fall_2",
+            "fall_23": "GOTO fall_2",
+            "fall_4": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 BusStop 22 5 2/1430 SebastianRoom 5 8 3 \"Strings\\schedules\\Abigail:fall.002\"/2100 SeedShop 1 9 3 abigail_sleep",
+            "fall_11": "GOTO fall_4",
+            "fall_18": "GOTO fall_4",
+            "fall_25": "GOTO fall_4",
+            "winter_1": "900 SeedShop 39 5 0/1300 SeedShop 3 6 0 abigail_videogames/1630 Mountain 49 31 1 \"Strings\\schedules\\Abigail:winter.001\"/1930 SeedShop 1 9 3 abigail_sleep",
+            "winter_8": "GOTO winter_1",
+            "winter_22": "GOTO winter_1",
+            "winter_4": "900 SeedShop 39 5 0/1230 SeedShop 3 6 0 abigail_videogames/1630 Railroad 6 45 1 \"Strings\\schedules\\Abigail:winter.002\"/2130 SeedShop 1 9 3 abigail_sleep",
+            "winter_11": "GOTO winter_4",
+            "winter_18": "GOTO winter_4",
+            "winter_25": "GOTO winter_4"
+            },
+},
+//Town | 2 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"Entries": {
+            "59020021/f Sebastian 500/f Abigail 500/t 1100 1200": "breezy/14 89/farmer 24 97 2 Sebastian 400 1000 1 Abigail 44 90 3 Penny 18 94 3 Vincent 16 94 1 Jas 17 95 0/skippable/pause 1800/playSound doorClose/pause 250/warp Sebastian 10 86/faceDirection Sebastian 2/pause 600/speak Sebastian \"*sigh*$2\"/pause 800/move Sebastian 0 4 1/viewport move 2 0 8000/move Sebastian 19 0 0/pause 200/emote Abigail 16/pause 200/speak Abigail \"Hi, Sebastian!$1\"/pause 500/faceDirection Sebastian 1/pause 600/speak Sebastian \"Oh, hey, Abigail.$0\"/pause 280/move Abigail 0 1 3/move Abigail -13 0 0/move Abigail 0 -1 3/pause 700/speak Abigail \"Oh, you seem in a bad mood. What's wrong?$6\"/pause 720/speak Sebastian \"I was going to play Journey of the Prairie King with Sam today.$0#$b#But he said he's not feeling well and is going to rest for the rest of the day.$2\"/pause 500/emote Sebastian 28/pause 500/speak Sebastian \"I don't want to sound mean, but I was really looking forward to it...$2#$b#I'm going to be really busy with work, so I don't know when I'll have time again...$2\"/pause 600/speak Abigail \"Um... Sebastian, you know I'm your friend too, right?$0\"/pause 600/speak Sebastian \"Yeah, of course, what kind of question is that?$0\"/pause 580/speak Abigail \"Well, I'm pretty sure you also know I like to play videogames.$0\"/pause 720/speak Sebastian \"...$0\"/pause 580/speak Abigail \"For Yoba, Sebastian, what I'm saying is that we can play together.$1#$b#I've been trying to beat Prairie King since its release!$1\"/pause 380/speak Abigail \"I don't even know how many times I've tried, it's just too difficult...$5#$b#I usually play alone, so maybe together we'll do better.$0#$b#So what do you say?$1\"/pause 720/speak Sebastian \"Oh... Okay, let's go to your house then.$0\"/pause 600/globalFade .007/viewport -1000 -1000/changeLocation SeedShop/warp Sebastian 2 6/warp Abigail 3 6/showFrame Abigail 20/showFrame Sebastian 41/playMusic distantBanjo/viewport 7 7 true/pause 1200/speak Abigail \"Okay, are you ready?$0\"/pause 650/speak Sebastian \"Yeah, let's start.$7\"/pause 900/playSound Cowboy_Secret/pause 800/specificTemporarySprite abbyvideoscreen/pause 300/playMusic Cowboy_OVERWORLD/pause 1000/speak Abigail \"Be careful, Sebastian. They're coming!$7\"/pause 800/speak Sebastian \"Don't worry, I got this.$1\"/pause 600/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 180/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 220/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 150/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 180/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 220/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/playSound Cowboy_gunshot/pause 600/playSound cowboy_dead/pause 380/speak Abigail \"Ugh... I died...$5\"/pause 320/emote Abigail 12/pause 280/speak Abigail \"It's in your han...$2#$b#Watch out, on your left!$7\"/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 600/emote Sebastian 52/pause 380/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 600/speak Abigail \"Whoa, I didn't know you were that good.$1\"/pause 600/emote Sebastian 32/pause 200/emote Abigail 16/pause 200/speak Abigail \"They're coming again!$7\"/pause 180/emote Sebastian 16/pause 700/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 200/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/pause 500/playSound Cowboy_gunshot/playSound Cowboy_monsterDie/playSound cowboy_dead/pause 380/speak Sebastian \"...$5\"/pause 380/emote Abigail 28/pause 900/showFrame Abigail 12/pause 800/showFrame Sebastian 4/pause 350/speak Abigail \"I can't believe you died too...$2#$b#You nearly completed the level, what happened...?$2\"/pause 580/emote Sebastian 60/pause 620/speak Abigail \"Well, there's nothing more we can do about it.$9#$b#We can always play another day.$0#$b#Let's do something else now.$1\"/pause 1500/end dialogue Abigail \"I can't wait to play Prairie King with Sebastian again.$1\""
+            },
+      },
+//Mountain | 4 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Mountain",
+"Entries": {
+            "59020022/e 59020021/f Sebastian 1000/f Abigail 1000/d Mon Tue Wed Thu Fri/w sunny/z spring fall winter/t 1800 2000": "AbigailFlute/49 32/farmer 1000 1000 2 Sebastian 32 31 1 Abigail 49 31 1/skippable/pause 1500/move Sebastian 15 0 1/pause 500/speak Sebastian \"Hey, Abigail.$1\"/pause 800/faceDirection Abigail 3/pause 500/speak Abigail \"Hi, Sebastian.$1\"/pause 280/speak Abigail \"You live in such a beautiful place.$0#$b#And it's really peaceful, too.$0\"/pause 650/speak Sebastian \"Yeah, I like to come here and be alone.$0#$b#But I don't mind your company.$1\"/pause 580/speak Abigail \"*giggle*$1#$b#Me neither.$1\"/pause 1000/speak Abigail \"On rainy days I also come here to play the flute, I think it appeals the frogs from the lake.$1\"/pause 750/speak Sebastian \"Oh, I've always wanted to have a frog.$1#$b#They're really interesting animals.$1\"/pause 600/speak Abigail \"Right?$1#$b#Finally someone gets me.$1\"/pause 1000/emote Abigail 40/pause 500/speak Abigail \"Hey, Sebastian... Do you want to take a look at the caves?$0#$b#I've always wanted to go.$1\"/pause 700/speak Sebastian \"Well... Okay, why not?$7\"/pause 1200/globalFade/viewport -1000 -1000/changeLocation Mine/warp Sebastian 22 9/warp Abigail 23 8/faceDirection Abigail 2/faceDirection Sebastian 1/playMusic Upper_Ambient/showFrame Abigail 27/showFrame Sebastian 17/viewport 20 9 true/pause 1350/speak Abigail \"This is amazing!$1\"/pause 750/speak Abigail \"What do you think will be down there?$0#$b#Now I really want to explore the mines.$1\"/pause 800/speak Sebastian \"Be careful, it's dangerous to go so near the entrance...$0\"/pause 600/speak Abigail \"Don't worry! We're safe here.$1\"/pause 800/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 500/playSound batFlap/pause 380/speak Sebastian \"Have you heard that?$0\"/pause 650/emote Abigail 8/pause 1600/specificTemporarySprite abbyManyBats/playSound batScreech/showFrame Abigail 32/shake Abigail 2000/pause 1300/showFrame Abigail 0/emote Sebastian 16/pause 500/speak Sebastian \"Are you okay?!$2\"/pause 800/speak Abigail \"That was horrifying...$7\"/pause 900/speak Abigail \"Maybe I'm not ready for this...$2\"/pause 500/emote Abigail 28/pause 800/speak Abigail \"Let's go back, okay?$2#$b#I need time to recover from this...$2\"/pause 500/emote Sebastian 28/pause 1600/end dialogue Abigail \"How do you even dare to go down the mines...?$2\""
+            },
+      }, 
+//Forest | 6 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Forest",
+"Entries": {
+            "59020023/e 59020022/f Sebastian 1500/f Abigail 1500/o Sebastian/o Abigail/w sunny/d Mon Tue Wed Thu Fri Sat/t 1600 1900": "sadpiano/14 41/farmer 1000 1000 2 Sebastian 26 42 3 Abigail 14 40 2/skippable/pause 1800/emote Abigail 28/pause 800/move Sebastian -7 0 3/pause 500/emote Sebastian 8/pause 700/move Sebastian -5 0 0/pause 380/speak Sebastian \"...Abigail?$0#$b#Are you... crying?$2\"/pause 390/emote Abigail 16/pause 500/speak Abigail \"...$2\"/pause 650/speak Sebastian \"What's wrong?$2\"/pause 1000/speak Sebastian \"Oh... It's okay if you don't want to tell me.$0\"/pause 1500/speak Abigail \"I... I had a huge fight with my parents earlier...$2\"/pause 800/speak Abigail \"We weren't even arguing about anything in particular...$2\"/pause 1100/speak Abigail \"I feel they don't even try to understand me.$2\"/pause 500/speak Abigail \"They keep criticizing me because everything I do is wrong.$5#$b#And that's false...$2#$b#It's just that everything has to be done their way no matter what.$2\"/pause 1300/speak Abigail \"I know I might be sometimes wrong, but can't they let me learn by myself?$5\"/pause 600/emote Abigail 28/pause 1200/speak Abigail \"I'm so tired of all the arguing...$2\"/pause 1200/speak Sebastian \"I know how you feel, Abby.$2#$b#I also used to fight a lot with my mother and Demetrius.$2\"/pause 1200/speak Sebastian \"When they got married and Maru was born, I felt like I wasn't a part of the family anymore...$2#$b#I was so angry at them because all they talked about was Maru...$5#$b#And I started misbehaving...$2#$b#I argued with Maru, didn't go to school, ran away from home for days...$2\"/pause 1200/speak Sebastian \"I was a kid back then, so maybe that was my way of getting attention from them.$2\"/pause 800/speak Sebastian \"I was just so jealous of Maru. She's always been smart and had her dad by her side.$2\"/pause 800/emote Sebastian 40/pause 1200/speak Sebastian \"My behaviour only worsened our relationship...$2#$b#I used to say really awful things to Maru and Demetrius...$2\"/pause 1200/speak Sebastian \"Over time I realized I never really gave Demetrius a chance.$2#$b#And the fights I started with Maru made no sense at all.$2#$b#I had so much anger inside me...$2\"/pause 1500/speak Sebastian \"One day I decided I had to talk to them seriously.$0#$b#You know, being angry forever wasn't going to help anyone.$2\"/pause 1300/speak Sebastian \"I remember it was a Friday, my mother and Demetrius went to the saloon and Maru was in her room.$0#$b#When they returned, I asked them and Maru to come to the kitchen.$0#$b#They were so surprised I was actually talking to them...$2\"/pause 900/speak Sebastian \"I was so nervous...$0#$b#I couldn't even think straight...$2\"/pause 1200/speak Sebastian \"...And I just blurted everything out.$0\"/pause 1000/speak Sebastian \"I told them how I felt, how I wanted things to change between us.$0#$b#I apologised for... everything.$2\"/pause 1000/speak Sebastian \"Then, my mother asked me what could they do for me to feel better.$0#$b#I think that was the turning point, you know?$0\"/pause 1000/speak Sebastian \"I told each of them what things they did that upset me.$0#$b#And then they did the same.$0\"/pause 1100/speak Sebastian \"We all promised to improve ourselves that day.$0\"/pause 1500/speak Sebastian \"Since then, it finally felt like we were a family.$0\"/pause 1000/speak Sebastian \"It's true that right now we're not at our best, but it's because we've different lifestyles.$0\"/pause 1200/speak Sebastian \"But it really helped us to be honest with each other.$0#$b#Maybe that's what you need, to talk to them.$0#$b#But not just to criticize the things you don't like, but also to tell them what they can do to understand you better.$0\"/pause 600/emote Abigail 12/pause 1000/speak Sebastian \"I know it might be hard to be honest to your parents about your feelings, but it's worth it, Abby.$0\"/pause 1000/speak Sebastian \"Look, why don't we go to my house and you think about it for a while?$1\"/pause 1200/speak Abigail \"Yeah, that'll be the best...$2#$b#Thank you, Seb...$6\"/pause 1500/end dialogue Sebastian \"Abigail is going through so much...$2#$b#I hope I be of help.$0\""
+            },
+      },
+//Mountain | 8 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Mountain",
+"Entries": {
+            "59020024/e 59020023/f Sebastian 2000/f Abigail 2000/o Sebastian/o Abigail/w sunny/t 2000 2130": "nightTime/-1000 -1000/farmer -1200 1000 0 Abigail 18 35 0 Sebastian -100 -100 0/skippable/specificTemporarySprite sebastianOnBike/viewport 17 30/pause 1000/move Abigail 0 -5 0/pause 800/speak Abigail \"Hi, Seb.$1#$b#I'm glad I came, I've wanted to see your motorbike for so long.$0\"/pause 650/speak Sebastian \"Hey, Abby.$7\"/pause 900/speak Abigail \"I wanted to tell you that I talked to my parents.$0\"/pause 500/speak Abigail \"It went great!$1#$b#You were right, telling them how I felt and the things I wanted to change was just what we needed.$0#$b#I don't even know how to thank you.$1\"/pause 750/speak Sebastian \"That's great!$1\"/pause 1000/speak Sebastian \"Well... maybe I know how can you thank me...$7\"/pause 650/speak Sebastian \"I was just about to head out.$0#$b#So why don't you hop on? I wanna show you something.$7\"/pause 500/emote Abigail 32/pause 1000/move Abigail 0 -1 0/move Abigail 1 0 0 true/pause 120/globalFade/viewport -1000 -1000/warp Abigail -100 -100/changeToTemporaryMap SebastianRide/specificTemporarySprite sebastianRide/viewport 15 8 true/pause 8000/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/warp Abigail 15 18/warp Sebastian 16 18/positionOffset Abigail 0 16/playMusic echos/viewport 15 14 true/pause 5000/speak Sebastian \"That's Zuzu City in the distance...$0\"/pause 700/speak Sebastian \"How many times have we talked about going there and start a new life...?$7\"/pause 900/speak Sebastian \"I come here when I want to get away from everything and just... think.$0\"/pause 1800/speak Sebastian \"So, what do you think?$7\"/pause 800/speak Abigail \"It's beautiful, but it gives me a strange, sad feeling...$6\"/pause 800/speak Sebastian \"Yeah... That's exactly how I feel, too.$0\"/pause 1200/speak Sebastian \"Do you still want to move away from the valley?$0\"/pause 750/speak Abigail \"I don't know anymore...$2#$b#Since I was a kid I've always wanted to live new experiencies, travel around the world...$0\"/pause 800/speak Abigail \"But now something has changed...$0#$b#I'm really happy to live here, I'm happy we both live here.$4\"/pause 900/faceDirection Abigail 1/pause 600/faceDirection Sebastian 3/pause 1500/speak Sebastian \"I think I'm happier in the valley too.$7#$b#The city... it just doesn't draw me in like it used to...$4\"/pause 1200/speak Sebastian \"Abby...$4#$b#I've never brought anyone here before.$4#$b#You know why, right?$4\"/pause 700/emote Abigail 20/pause 390/showFrame Sebastian 40/showFrame Abigail 30/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Sebastian -2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/pause 80/positionOffset Abigail 2 0/specificTemporarySprite heart 16 18/pause 2500/viewport move 1 -1 6000/pause 5000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 500/end dialogue Abigail \"...$4\""
+            },
+      }, 
+   ]
+}
