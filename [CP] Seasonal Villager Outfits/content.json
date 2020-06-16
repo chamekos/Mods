@@ -449,6 +449,14 @@
             "Default": "Standard"
         },
 
+        // Sebastian
+
+        "SebastianGlasses":
+        {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+
         // Wizard
 
         "WizardEnabled":
@@ -871,6 +879,53 @@
                 "LocationName": "Blacksmith"
             },
             "PatchMode": "Overlay"
+        },
+
+        // Demetrius
+
+        {
+            "LogName": "Demetrius Spring",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius, Portraits/Demetrius",
+            "FromFile": "{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Blue, Green | DemetriusSpringVariant}}.png",
+            "When":
+            {
+                "Season": "spring",
+                "HasFile:{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Blue, Green | DemetriusSpringVariant}}.png": true
+            },
+        },
+        {
+            "LogName": "Demetrius Summer",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius, Portraits/Demetrius",
+            "FromFile": "{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Blue, Grey | DemetriusSummerVariant}}.png",
+            "When":
+            {
+                "Season": "summer",
+                "HasFile:{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Blue, Grey | DemetriusSummerVariant}}.png": true
+            },
+        },
+        {
+            "LogName": "Demetrius Fall",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius, Portraits/Demetrius",
+            "FromFile": "{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}_{{Random:Orange, Green | DemetriusFallVariant}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "HasFile:{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}_{{Random:Orange, Green | DemetriusFallVariant}}.png": true
+            },
+        },
+        {
+            "LogName": "Demetrius Winter",
+            "Action": "EditImage",
+            "Target": "Characters/Demetrius, Portraits/Demetrius",
+            "FromFile": "{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Grey, Blue | DemetriusWinterVariant}}.png",
+            "When":
+            {
+                "Season": "winter",
+                "HasFile:{{Target}}/Demetrius_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Grey, Blue | DemetriusWinterVariant}}g": true
+            },
         },
 
         // Demetrius Work
@@ -1561,7 +1616,7 @@
             "LogName": "Marnie Spring - Apron Overlay Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Marnie",
-            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}Work_{{Random:Green, Yellow | MarnieSpringVariant}}.png",
+            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}_Work_{{Random:Green, Yellow | MarnieSpringVariant}}.png",
             "When":
             {
                 "Season": "spring",
@@ -1573,7 +1628,7 @@
             "LogName": "Marnie Summer - Apron Overlay Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Marnie",
-            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}{{IndoorVariant}}Work_{{Random:Blue, White, Yellow | MarnieSummerVariant}}.png",
+            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}_Work_{{Random:Blue, White, Yellow | MarnieSummerVariant}}.png",
             "When":
             {
                 "Season": "summer",
@@ -1585,7 +1640,7 @@
             "LogName": "Marnie Fall - Apron Overlay Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Marnie",
-            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}{{IndoorVariant}}Work_{{Random:Brown, Pattern, Tan | MarnieFallVariant}}.png",
+            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}_Work_{{Random:Brown, Pattern, Tan | MarnieFallVariant}}.png",
             "When":
             {
                 "Season": "fall",
@@ -1597,7 +1652,7 @@
             "LogName": "Marnie Winter - Apron Overlay Portrait",
             "Action": "EditImage",
             "Target": "Portraits/Marnie",
-            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}{{IndoorVariant}}Work_{{Random:Scarf, Earmuffs | MarnieWinterVariant}}.png",
+            "FromFile": "{{Target}}/ApronOverlays/Marnie_{{Season}}_Work_{{Random:Scarf, Earmuffs | MarnieWinterVariant}}.png",
             "When":
             {
                 "Season": "winter",
@@ -1830,18 +1885,41 @@
         // Robin Main
 
         {
-            "LogName": "Robin Spring Hair - Rain",
+            "LogName": "Robin Spring - Rain",
             "Action": "EditImage",
             "Target": "Characters/Robin, Portraits/Robin",
-            "FromFile": "{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:Up, Down | RobinHairStyle}}.png",
+            "FromFile": "{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:1, 2 | RobinSpringRainVariant}}.png",
             "When":
             {
                 "Season": "spring",
                 "Weather": "rain, storm",
-                "HasFile:{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:Up, Down | RobinHairStyle}}.png": true
+                "HasFile:{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:1, 2 | RobinSpringRainVariant}}.png": true
             },
         },
-
+        {
+            "LogName": "Robin Spring - Sun",
+            "Action": "EditImage",
+            "Target": "Characters/Robin, Portraits/Robin",
+            "FromFile": "{{Target}}/Robin_{{Season}}{{IndoorVariant}}{{WeatherVariant}}{{Random:1, 2 | RobinSpringSunVariant}}.png",
+            "When":
+            {
+                "Season": "spring",
+                "Weather": "sun, wind",
+                "HasFile:{{Target}}/Robin_{{Season}}{{IndoorVariant}}{{WeatherVariant}}{{Random:1, 2 | RobinSpringSunVariant}}.png": true
+            },
+        },
+        {
+            "LogName": "Robin Fall",
+            "Action": "EditImage",
+            "Target": "Characters/Robin, Portraits/Robin",
+            "FromFile": "{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:Orange, Yellow | RobinFallVariant}}.png",
+            "When":
+            {
+                "Season": "fall",
+                "HasFile:{{Target}}/Robin_{{Season}}{{WeatherVariant}}{{Random:Orange, Yellow | RobinFallVariant}}.png": true
+            },
+        },
+        
         // Sam Main
 
         {
@@ -1923,6 +2001,34 @@
                 "Season": "winter",
                 "HasFile:{{Target}}/Sebastian_{{Season}}{{IndoorVariant}}{{WeatherVariant}}_{{Random:Jacket, NoJacket | SebastianWinterIndoor}}.png": true,
             },
+        },
+
+        // Sebastian Glasses
+
+         {
+            "LogName": "Sebastian Glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian, Portraits/Sebastian",
+            "FromFile": "{{Target}}/Sebastian_Glasses.png",
+            "When":
+            {                
+                "SebastianGlasses": true,
+                "DayEvent:spirit's eve": false,
+            },
+            "PatchMode": "Overlay"
+        },
+        {
+            "LogName": "Sebastian Glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Sebastian, Portraits/Sebastian",
+            "FromFile": "{{Target}}/Sebastian_Glasses.png",
+            "When":
+            {                
+                "SebastianGlasses": true,
+                "DayEvent:spirit's eve": true,
+                "LocationName": "Farm"
+            },
+            "PatchMode": "Overlay"
         },
 
         // Sebastian Portraits Mermaid Pendant
