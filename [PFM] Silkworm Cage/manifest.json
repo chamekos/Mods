@@ -1,0 +1,20 @@
+﻿{
+	"Name": "[PFM] Silkworm Cage",
+	"Author": "KAYA",
+	"Version": "1.0",
+	"Description": "Produce Silk Cocoon.",
+	"UniqueID": "KAYA.SilkwormCage",
+	"MinimumApiVersion": "3.2.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.Mulberry"
+		},
+		{
+			"UniqueID": "TrentNewAnimalPack"
+		},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,20 @@
+﻿[
+    {
+        "ProducerName": "Silkworm Cage",
+        "InputIdentifier": "Mulberry Leaves",
+        "InputStack": 20,
+        "MinutesUntilReady": 600, 
+        "OutputIdentifier": "Silk Cocoon",
+		"OutputStack": 10, 
+		"AdditionalOutputs": [
+		{
+			"OutputProbability": 0.05, 
+			"OutputIdentifier": "Cordyceps",
+			"OutputStack": 1, 
+			"MinutesUntilReady": 600, 
+		}
+        ],
+        "InputPriceBased": false,
+        "Sounds": ["Ship"],
+    },
+]

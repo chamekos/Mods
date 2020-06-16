@@ -1,0 +1,41 @@
+{
+    "Name": "Cordyceps",
+    "Description": "Mysterious mushroom parasitic on insects. Use for medicinal purposes.",
+    "Category": "AnimalGoods",
+    "Edibility": 120,
+    "Price": 5500,
+    "GiftTastes":
+    {
+		"Like": ["George", "Wizard"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", ],
+    },
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "동충하초", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "곤충에 기생하는 신비한 버섯. 약용으로 사용된다.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+	"EnableWithMod" : "TrentNewAnimalPack",
+}

@@ -1,0 +1,55 @@
+{
+//original png draw by 키윽디귿
+    "Name": "Silkworm Cage",
+    "Description": "Cage of silkworms.",
+    "Price": 10,
+	"ProvidesLight": true,
+	"CanPurchase": false,
+	"Recipe": {
+		"ResultCount": 1, 
+		"Ingredients": [
+			{
+			"Object": "Mulberry Leaves", 
+			"Count": 10,
+			},
+			{
+			"Object": 709,  //Hard wood
+			"Count": 1,
+			},
+		],
+		"IsDefault": false,
+		"CanPurchase": true, 
+		"PurchaseFrom": "Robin",
+		"PurchasePrice": 7500,
+	},
+	
+    "NameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "누에 축사", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "누에를 키운다.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        //"zh": "", //Chinese (Simplified)
+    },
+	"EnableWithMod" : "TrentNewAnimalPack",
+}
