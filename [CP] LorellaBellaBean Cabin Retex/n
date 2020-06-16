@@ -1,0 +1,11 @@
+{
+   "Name": "LorellaBellaBean Cabin Retex",
+   "Author": "LaurellaBellaBean",
+   "Version": "1.0.0",
+   "Description": "Cabin Recolor for SV 1.4",
+   "UniqueID": "LaurellaBellaBean.CP.CabinRetexOnePointFour",
+   "MinimumApiVersion": "2.11.3",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

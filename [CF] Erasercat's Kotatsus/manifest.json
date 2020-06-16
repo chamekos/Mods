@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Erasercat's Kotatsus",
+  "Author": "Erasercat",
+  "Version": "1.0.0",
+  "Description": "Adds a variety of kotatsus to the game.",
+  "UniqueID": "Erasercat.CustomFurniture.Kotatsus",
+  "UpdateKeys": ["Nexus:5667"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

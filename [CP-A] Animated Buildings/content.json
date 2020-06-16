@@ -1,0 +1,52 @@
+{
+	"Format": "1.11.0",
+	
+			"ConfigSchema": 
+		{
+			"SlimeHutch":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+			"Well":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+		},
+
+	
+	
+	"Changes": [
+		{
+			"LogName": "Slime Hutch",
+			"Action": "EditImage",
+			"Target": "Buildings/Slime Hutch",
+			"FromFile": "{{Season}}slimehutch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 176, "Height": 144 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 176, "Height": 144 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 23,
+			"When":
+				{
+				"SlimeHutch": "true"
+				},
+		},
+		{
+			"LogName": "Well",
+			"Action": "EditImage",
+			"Target": "Buildings/Well",
+			"FromFile": "{{Season}}well.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 80 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 80 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 48,
+			"When":
+				{
+				"Well": "true"
+				},
+		}
+	]
+}
