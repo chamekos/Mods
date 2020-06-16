@@ -352,18 +352,6 @@
 	  "ToArea": { "X": 57, "Y": 5, "Width": 4, "Height": 2 },
 	  "When": { "RemoveFlowerbedFromBackyard": "true" }
     },
-	
-    //IF2R bus stop path patch
-{
-    "Action": "EditMap",
-    "Target": "Maps/BusStop",
-    "FromFile": "assets/busstoppath.tbin",
-    "ToArea": { "X": 0, "Y": 24,"Width": 35, "Height": 6 },
-    "When": {
-      "FarmType":"Standard"
-   }
-},	
-
     //Load either default or override versions of Greenhouse and FarmCave, but only if not using a different farm
     {
     "Action": "Load",
