@@ -51,7 +51,9 @@
 	"Action": "EditData",
 	"Target": "Data/NPCGiftTastes",
 	"Entries": {
-		"Jasper": "Thank you! You truly are most generous!/72 82 243 108 121 122 258 613 563 564/Thank you! This shall be excellent for my research./96 97 98 99 459 -2 -12/I'll find a use for this. I guess./440 209/Are you mocking me? Surely this is trash!/346 2/Thank you!//" 
+		"Jasper": "Thank you! You truly are most generous!/72 82 243 108 121 122 258 613 563 564/Thank you! This shall be excellent for my research./96 97 98 99 459 -2 -12/I'll find a use for this. I guess./440 209/Are you mocking me? Surely this is trash!/346 2/Thank you!//",
+		"Gunther": "Many thanks! This is just what I needed./72 82 243 108 121 122 258 613 563 564/Excellent! This will certainly come in handy./96 97 98 99 459 -2 -12/Well, I'm not a fan, but thanks anyway./440 209/This is unpleasant./346 2/Thanks!//"
+
 				      }
 		},
 {
@@ -175,6 +177,19 @@
 		"HasSeenEvent:50709911": false
 		}	
 	},
+	{
+		"LogName": "Schedule - pre-accident", 
+	"Action": "EditData",
+	"Target": "Characters/schedules/Jasper",
+	"Entries": {
+	"Fri": "610 Museum2 18 13 0/0930 Museum2 12 13 2 Jasper_Read/1300 AdventureGuild 5 13 0 \"Strings\\schedules\\Jasper:004\"/1630 ArchaeologyHouse 22 4 2"
+							},
+	"When": {
+		"HasSeenEvent:50709911": false
+		}	
+	},
+
+
 {
 	"LogName": "Schedule - recovery", 
 	"Action": "Load",
@@ -931,19 +946,43 @@
 	"When": { "HasMod:Karmylla.ImmersiveMaps":false}
 },
 
-{	
-	"LogName": "NPC Gift Tastes",
-	"Action": "EditData",
-	"Target": "Data/NPCGiftTastes",
-	"Entries": {
-		"Gunther": "Many thanks! This is just what I needed./72 82 243 108 121 122 258 613 563 564/Excellent! This will certainly come in handy./96 97 98 99 459 -2 -12/Well, I'm not a fan, but thanks anyway./440 209/This is unpleasant./346 2/Thanks!//"
-	}
-}
 /*{	"LogName": "Gunther", 
 	"Action": "EditImage",
 	"Target": "Portraits/Gunther",
 	"FromFile": "assets/Image/Gunther.png"
 }*/
+
+//Cleans up litter for Jasper's 4-heart event
+
+{ 
+  "LogName": "Removes litter from SVE",
+  "Action": "EditMap",
+  "Target": "Maps/Forest",
+  "MapTiles": [
+    {
+      "Position": { "X": 79, "Y": 99 },
+      "Layer": "Buildings",
+      "Remove":true
+      },
+      {
+        "Position": { "X": 80, "Y": 98 },
+        "Layer": "Buildings",
+        "Remove":true
+        },
+ {
+        "Position": { "X": 77, "Y": 99 },
+        "Layer": "Buildings",
+        "Remove":true
+        }
+        
+      
+        ],
+      "When": {
+      "HasMod:FlashShifter.StardewValleyExpandedALL": true,
+      "HasSeenEvent:50709910": false
+               }
+      }
+
 
 
 	]
