@@ -3,7 +3,7 @@
   "OpenSettings": "None",
   "ToggleBubbles": "None",
   "DisplayReportButton": true,
-  "DisplayBubbles": false,
+  "DisplayBubbles": true,
   "ShowDetailedInfo": true,
   "NewRecipeOnTv": true,
   "Birthdays": true,
