@@ -39,7 +39,7 @@
 
   "ManorHouse": "Whenever the rainy days come, Mayor Lewis always invites me to stay here for a while$0#$b#I'm really glad to know that this town is being run by a caring Mayor.$6",
   "ManorHouse6": "I bet you're here so you can join us for breakfast in this rainy morning.$6#$b#I believe Mayor Lewis won't mind, though.$1#$e#Why don't you stay for the meantime and let's talk about the community's progress?$0",
-  "ManorHouse10": "Ah, @... I was just thinking about you.$3#$e#Here, join me and enjoy a cup of coffee with me.[395]$6#$b#It's nice to spend a rainy day with someone close to you, don't you think?$4#$e#",
+  "ManorHouse10": "Ah, @... I was just thinking about you.$3#$b#Here, join me and enjoy a cup of coffee with me.$6#$b#It's nice to spend a rainy day with someone close to you, don't you think?$4#$e#Well, enjoy!$2",
 
   //LOCATION ENTRY
   "SeedShop_Entry": "How goes your business, Mr. Pierre?/Your shop is looking fine as always./Hi, any new items you got for sale?",
@@ -52,6 +52,48 @@
   "spring_25": "Hey, how was the dance? Did you participate in it?$0#$b#The way I see it, most of the young women are excited by the event... but not much for the young men.$1#$e#I can't blame the guys, I'm not really good in dancing as well.$1#$b#I'm just sometimes forced to join cotillions back in my place from time to time.$0",
   "summer_10": "Mayor Lewis asked me for the Luau your town will hold tomorrow.$0#$b#I won't be able to join, but I already sent my regards to the Governor.$1#$e#You might also enjoy your food tomorrow.$1#$b#Mr. Gus seems to have prepared the finest of his dishes.$0",
   "summer_27": "I can't believe your town celebrates such festivity here.$0#$b#These Moonlight Jellies you call are actually Quasi-Aberrations.$1#$e#They might be harmless at first sight, but don't even try to anger them.$1#$b#Good thing Mr. Rasmodius and Mr. Marlon is here to act in case something wrong happens.$0",
+
+  //QUESTIONS
+  "spring_Fri": "Oh hello there, @.$0#$b#'Tis a nice day to stroll around the town, yeah?$1#$e#I really appreciate the sceneries here.$6
+		#$q 7501/7502 townq_start#What do you think should the town focus on regarding its improvements?
+		#$r 7502 -50 townq_opinion1#The town looks like it's degrading. There's no hope for it.
+		#$r 7501 50 townq_opinion2#Maybe some additional decorations? Or maybe some plants could do the trick?
+		#$r 7502 -100 townq_opinion3#Umm, yeah. Not my problem to think about it, you know.",
+  	"townq_opinion1": "Oh...$2#$b#You're quite a pessimist, huh.$2",
+ 	"townq_opinion2": "Actually, you have a point.$3#$b#I should go ask the Mayor if he can consider your suggestions!$1",
+ 	"townq_opinion3": "Okay, this is a total waste of time.$5",
+ 	"townq_start": "$p 7501#Hope we can see visual improvements in Town soon, @!$1|I'll take my leave. You're not the right person to talk to about this.$2",
+
+  "summer_Wed": "I'm sure you've visited the shops in the town quite frequently.$0#$b#I just wanna know your opinion.$3#$e#Wait, let me grab my note pad first...$1
+		#$q 7511/7512 businessq_start#Do you think the businesses here will fluorish?
+		#$r 7511 50 businessq_opinion1#I think Pelican Town's businesses still have a long way to go, but it will definitely improve.
+		#$r 7511 50 businessq_opinion2#Of course! With me around, I'll make sure the town's economy will get better!
+		#$r 7512 25 businessq_opinion3#Hopefully... I don't want to see this new place I'm living in go downside...",
+  	"businessq_opinion1": "Oh wow, we have the same opinion.$3#$b#We should make sure that our work will go smoothly in the future, then.$1",
+ 	"businessq_opinion2": "Haha, you're quite a confident person, aren't you.$6#$b#@, I wish you all the good luck and make sure to support the others as well.$1",
+ 	"businessq_opinion3": "True, it's definitely gonna be sad if this Town gets closed off suddenly.$2",
+ 	"businessq_start": "$p 7511#If there's any help you might need, just ask me. I'll try to assist you.$1|Alright, see you around.$0",
+
+  "fall_Tue": "I've been a member of Foribus Regis for almost 15 years already...$0#$b#And I still think I'm still faraway from my personal goals...$2#$e#Hey @, I'm just curious.$3
+		#$q 7521/7522 talentq_start#Do you think that everything in this world is just about talents?
+		#$r 7521 50 talentq_opinion1#Each of us has our own worth. Simply measuring people based on their talents seems unfair.
+		#$r 7521 50 talentq_opinion2#Yeah, people in our world lean to those who are talented. We just need to make sure not to get left behind.
+		#$r 7522 -50 talentq_opinion3#We don't need to ponder on that. It seems pointless to think about it anyways.",
+  	"talentq_opinion1": "That's actually a nice thing to say!$1#$b#So @, I guess we really shouldn't just circle around what others think about us, huh.$0",
+ 	"talentq_opinion2": "Looks like we have the same insights...$2#$b#I'm sure you sometimes feel like giving up, but we just have to fight until the end, right @?$6",
+ 	"talentq_opinion3": "Ah... so you're that kind of person, huh...$2",
+ 	"talentq_start": "$p 7521#Let's do the best we can, @. We may not see it now but a bright future awaits us.$1|Well, thanks for accompanying me at least.$0",
+
+  "winter_Sun": "Are you aware that Magic exists all around us?$3#$b#You may not notice it, but the composition of life itself is influenced by an energy called Mana.$1#$e#Hmmm...$0
+		#$q 7531/7532 magicq_start#If you were given a chance, would you accept being trained by someone in order to learn Magic and how to control it?
+		#$r 7532 -100 magicq_opinion1#Heck yeah! I'll eventually use Magic to wreak havoc!
+		#$r 7531 50 magicq_opinion2#I'm sure Magic is nice and all... but I don't think it's my kind of thing. Sorry.
+		#$r 7531 50 magicq_opinion3#I would appreciate it if I can learn a thing or two about Magic.",
+  	"magicq_opinion1": "I SERIOUSLY wish you're just making a joke, @.$5#$b#Else, I wouldn't think twice of eliminating you.$5",
+ 	"magicq_opinion2": "No need for apologies!$3#$b#Each of us have our own lifestyle preferences. I appreciate yor honesty with me, @.$1",
+ 	"magicq_opinion3": "Hehe! Now I suddenly got excited for some reason.$6",
+ 	"magicq_start": "$p 7531#Thank you for talking to me, @! It's a nice short chat.$6|Make sure not to cause any trouble, you hear me?$5",
+
 
   //SPRING GENERIC
   "spring_1_1": "Happy New Year, @!$b#Do you have any resolutions planned ahead?$1",
