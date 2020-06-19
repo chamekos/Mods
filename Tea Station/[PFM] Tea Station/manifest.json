@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Tea Station",
+	"Author": "pl611",
+	"Version": "1.0.1",
+	"Description": "A dedicated crafting station for tea.",
+	"UniqueID": "pl611.TeaStationPFM",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": ["Nexus:6313"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

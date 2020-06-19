@@ -1,0 +1,56 @@
+{
+  "name": "Lucikiel Festival Locations",
+  "version": "1.0.0", 
+  "author": "Arknir.MagicalPuttemtator",
+  "festivalSpots": 
+	[  
+		{
+		"name": "Lucikiel",
+	    "map": "Town-EggFestival", 
+		"position": [32, 55],
+		"direction": 2
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Forest-FlowerFestival", 
+		"position": [10, 41],
+		"direction": 2
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Beach-Luau", 
+		"position": [30, 17],
+		"direction": 1
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Beach-Jellies", 
+		"position": [39, 32],
+		"direction": 1
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Town-Fair", 
+		"position": [39, 80],
+		"direction": 3
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Town-Halloween", 
+		"position": [29, 26],
+		"direction": 1
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Forest-IceFestival", 
+		"position": [71, 17],
+		"direction": 1
+		},
+		{
+		"name": "Lucikiel",
+	    "map": "Town-Christmas", 
+		"position": [38, 57],
+		"direction": 3
+		}
+	]
+}

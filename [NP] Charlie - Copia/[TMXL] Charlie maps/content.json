@@ -1,0 +1,118 @@
+{
+  "name": "Charlie Maps",
+  "version": "1.0",
+  "author": "andril11",
+  "addMaps":
+  [
+	{
+       "name": "Test2",
+       "file": "assets/test2.tbin",
+    },
+    {
+       "name": "Museumshop",
+       "file": "assets/shopmu.tbin",
+    },
+  ],
+  "spouseRooms": [
+	{
+      "name": "Charlie",
+	  "file": "assets/SpouseRoomTemplate.tbin",
+    },
+   ],	
+  "mergeMaps":
+  [  
+    {
+	 "name": "ArchaeologyHouse",
+	 "file": "assets/Door.tbin", 
+	 "position": [30,1],
+    },
+	{
+	 "name": "Town",
+	 "file": "assets/SHOP.tbin",
+	 "position": [104,87],
+	},
+  ],
+  "onlyWarps": [
+  {
+    "name": "Test2",
+	"addWarps": [
+	 "6 25 ArchaeologyHouse 31 4"
+	 ]
+  },
+  { 
+    "name": "Museumshop",
+	"addWarps": [
+	 "12 15 Town 104 90"
+	 ]
+  }	 
+   ],
+   "replaceMaps":  
+   [
+    {
+	 "name": "Museumshop",
+	 "file": "assets/shopmu1.tbin",
+	 "Conditions": "e 47360002",
+	},
+	{
+	 "name": "Museumshop",
+	 "file": "assets/shopmu2.tbin",
+	 "Conditions": "e 47360003",
+	},
+	{
+	 "name": "Museumshop",
+	 "file": "assets/shopmu3.tbin",
+	 "Conditions": "e 47360008",
+	}, 
+   ],	
+  "festivalSpots":
+  [
+    {
+		"name": "Charlie",
+	    "map": "Town-EggFestival", 
+		"position": [34, 63],
+		"direction": 2,
+    },
+	{
+    	"name": "Charlie",
+		"map": "Forest-FlowerFestival",
+		"position": [22, 41],
+		"direction": 2,
+	},
+	{
+        "name": "Charlie",
+        "map": "Beach-Luau",
+		"position": [32, 7],
+		"direction": 2,
+	},
+	{
+		"name": "Charlie",
+		"map": "Beach-Jellies",
+		"position": [43, 24],
+		"direction": 2,
+	},
+	{
+		"name": "Charlie",
+		"map": "Town-Fair",
+		"position": [64, 65],
+		"direction": 2,
+	},
+	{
+	    "name": "Charlie",
+		"map": "Town-Halloween",
+		"position": [33, 73],
+		"direction": 0,
+	},
+	{
+		"name": "Charlie",
+		"map": "Forest-IceFestival",
+		"position": [65, 50],
+		"direction": 2,
+	},
+	{
+	    "name": "Charlie",
+		"map": "Town-Christmas",
+		"position": [53, 71],
+		"direction": 0,
+	},
+  ]	  
+}  

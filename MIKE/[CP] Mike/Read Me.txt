@@ -1,0 +1,12 @@
+Required Mods:
+	1. PYTK 2. TMXL 3. Content Patcher 4. SMAPI
+		Can download them from: https://www.nexusmods.com/
+Extract the main folder into mods folder like:
+	[CP] Mike
+	[TMX] Mike Festival Locations
+	[TMX] Mike Spouse Room
+
+For saved game files:
+***Mike must be talked to and will start moving from the day after.***
+
+SYS

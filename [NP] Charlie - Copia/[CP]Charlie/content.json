@@ -1,0 +1,470 @@
+{
+  "Format": "1.14.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Charlie": "adult/polite/outgoing/neutral/male/datable/null/Other/summer 16/Gunther '' Randy ''/Test2 18 9/Charlie"
+      }
+    },
+	{
+	 "LogName": "NPC Manifestation Randy",
+	 "Action": "EditData",
+	 "Target": "Data/NPCDispositions",
+     "When": {"HasSeenEvent: 47360003": "false"},
+	 "Entries": {
+	  "Randy": "child/polite/outgoing/neutral/male/not-datable/null/Other/null//Museumshop -1000 -1000/Randy"
+	  }
+	},
+	{
+	"LogName": "NPC Manifestation Randy",
+	 "Action": "EditData",
+	 "Target": "Data/NPCDispositions",
+     "When": {"HasSeenEvent: 47360003": "true"},
+	 "Entries": {
+	  "Randy": "child/polite/outgoing/neutral/male/not-datable/null/Other/winter 3/Charlie ''/Museumshop 8 11/Randy"
+	  }
+	
+	},
+	{
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "When": {"Language": "en",},
+	  "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Charlie": "Oh wow this is amazing! Thank you!/84/How nice of you, this is great./96 97 98 99/Oh.. well it's the though that counts I guess./88 90/Gross... You're Gross.../68 70/Thanks/80 82",
+        "Randy": "Fancy thing! Thanks!/84 82 43/T-thank... you!/96 67 68 99/Not cool.../88 90/T-trash thing.../68 70/I l-like.../80 82",
+	  }
+    },
+	{
+	  "LogName": "NPC Gift Tastes Locale",
+      "Action": "EditData",
+      "When": {"Language": "pt",},
+	  "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Charlie": "Oh, Isso é incrível!/84/Que gentil da sua parte./96 97 98 99/Bem, o que vale é a intenção né?/88 90/Nojo.../68 70/Valeu!/80 82",
+		"Randy": "Coisa legal! Obrigado!/84 82 43/O-obrigado.../96 67 68 99/Não legal.../88 90/Não gostei.../68 70/G-gostei.../80 82",
+		}
+	},	
+    {
+	  "LogName": "Charlie Concession Tastes",
+	  "Action": "EditData",
+	  "Target": "Data/ConcessionTastes",
+	  "Entries": {
+	  "Name": "Charlie",
+	  "LovedTags": [
+	    "Candy", "Sweet", "Salty"
+	  ],
+      "LikedTags": [
+        "popcorn", "Gourmet"
+      ],
+      "DislikedTags": [
+        "Healthy"
+      ]
+     },
+	},
+    {	
+	  "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Charlie",
+      "FromFile": "assets/img/spritesheet.png",
+    },
+    {	
+	  "LogName": "Randy Sprite",
+	  "Action": "Load",
+	  "Target": "Characters/Randy",
+	  "FromFile": "assets/img/Randy.png",
+	},
+	{
+	  "LogName": "Randy Portrait",
+	  "Action": "Load",
+	  "Target": "Portraits/Randy",
+	  "FromFile": "assets/img/Randyport.png",
+	},
+	{
+	  "LogName": "Animtions",
+	  "Action": "EditData",
+	  "Target": "Data/animationdescriptions",
+	  "FromFile": "assets/anim/anim.json",
+	},  
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Charlie",
+      "FromFile": "assets/img/Charlieportrait.png",
+    },
+    {
+      "LogName": "Charlie Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Charlie",
+      "FromFile": "assets/schedules/Charlieschedule.json",
+	  "When": {"HasSeenEvent: 47360002": "false"},
+    },
+	{
+	  "LogName": "Shop Schedule",
+	  "Action": "Load",
+	  "Target": "Characters/schedules/Charlie",
+	  "FromFile": "assets/schedules/scheduleCharlieshop.json",
+	  "When": {"HasSeenEvent: 47360002": "true"},
+	},  
+    {
+	  "LogName": "Randy Schedule",
+	  "Action": "Load",
+	  "When": {"HasSeenEvent:47360003": "true",
+	           "HasSeenEvent:47360008": "false"},
+	  "Target": "Characters/schedules/Randy",
+	  "FromFile": "assets/schedules/RandySchedule.json",
+	},
+	{
+	 "LogName": "Randy Schedule Shop",
+	  "Action": "Load",
+	  "When": {"HasSeenEvent:47360008": "true"},
+	  "Target": "Characters/schedules/Randy",
+	  "FromFile": "assets/schedules/RandySchedule.json",
+	
+	},
+	{
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+	  "Target": "Strings/schedules/Charlie",
+      "FromFile": "assets/schedules/ScheduleDialogue.en.json",	  
+	},
+	{
+	 "LogName": "Randy Schedule Dialogue",
+	 "Action": "Load",
+	 "Target": "Strings/schedules/Randy",
+	 "FromFile": "assets/schedules/RandySche.en.json",
+	},
+    {	
+	  "LogName": "Dialogue Charlie",
+      "Action": "Load",
+	  "Target": "Characters/Dialogue/Charlie",
+      "FromFile": "assets/dialogue/Dialogue.en.json",
+	},
+    {	
+	  "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "When": {"Language": "en",},
+	  "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Charlie0": "I am so happy!$1",
+        "Charlie1": "I'm so nervous for tomorrow.$4"
+      }
+    },
+    {
+	  "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "When": {"Language": "pt",},
+	  "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Charlie0": "Eu estou tão feliz!$1",
+        "Charlie1": "Estou tão nervoso pra amanhã!$4"
+      }
+	},
+	{
+     "LogName": "Dialogue Randy",
+	 "Action": "Load",
+	 "Target": "Characters/Dialogue/Randy",
+	 "FromFile": "assets/dialogue/RandyDialogue.en.json",
+	},
+    {	
+   	  "LogName": "Marriage Dialogue",
+      "Action": "Load",
+	  "Target": "Characters/Dialogue/MarriageDialogueCharlie",
+      "FromFile": "assets/dialogue/MarriageDialogueCharlie.en.json"
+	},
+	{
+      "LogName": "ArchaeologyHouse events",
+      "Action": "EditData",
+      "Target": "Data/Events/ArchaeologyHouse",
+      "FromFile": "assets/data/ArchaeologyHouse.en.json",
+	},
+	{
+	  "LogName": "Museum Shop events",
+	  "Action": "Load",
+	  "Target": "Data/Events/Museumshop",
+	  "FromFile": "assets/data/Shopevents.en.json",
+    },
+    {
+      "LogName": "Mine events",
+	  "Action": "EditData",
+      "Target": "Data/Events/Mine",
+      "FromFile": "assets/data/Mineevnts.en.json",
+    },
+    {
+	  "LogName": "Beach events",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Beach",
+	  "FromFile": "assets/data/Beachevents.en.json",
+	},
+	{
+	  "LogName": "Mail trigger farm",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Farm",
+	  "FromFile": "assets/data/Farmevents.json",
+	},
+	{
+	  "LogName": "Weeding fix",
+	  "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Charlie in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Charlie in the bonds of marriage.", 
+        
+		"Utility.cs.5371": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and... well, husband!$h",
+        "Utility.cs.5373": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Charlie... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+      },
+      "When": {
+        "Relationship:Charlie": "Engaged, Married",
+		"Language": "en",
+      }
+	},
+	{
+	  "LogName": "Weeding fix locale",
+	  "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+         "Utility.cs.5367": "Quando @ chegou na Vila Pelicanos, ninguém sabia que ele se encaixaria em nossa comunidade...#$b#Mas de hoje em diante, @ será tão parte dessa cidade como qualquer um de nós!$h#$b#É uma honra, neste dia {0} de {1}, unir @ e Charlie através dos laços do matrimônio.",
+         "Utility.cs.5369": "Quando @ chegou na Vila Pelicanos, ninguém sabia que ela se encaixaria em nossa comunidade...#$b#Mas de hoje em diante, @ será tão parte dessa cidade como qualquer um de nós!$h#$b#É uma honra, neste dia {0} de {1}, unir @ e Charlie através dos laços do matrimônio.",
+         
+		 "Utility.cs.5371": "@... Charlie... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e..., bem, marido!$h",
+         "Utility.cs.5373": "@... Charlie... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e mulher!$h",
+      },
+      "When": {
+        "Relationship:Charlie": "Engaged, Married",
+		"Language": "pt",
+		}
+	},
+	{
+      "LogName": "Egg festival dialogue",
+      "Action": "EditData",
+	  "When": {"Language": "en",},
+	  "Target": "data/festivals/spring13",
+	  "Entries": {
+	    "Charlie": "Eggs...$6#$b# Just wait and see, after two days, this place will be smelling like the sewer...$6",
+		"Charlie_spouse": "Hey sweety, good luck!$h#$b# I hope you let this kids win this year, you know...#$b# They deserve it.$h",
+		"Randy": "I eated one little ball that I found!$h#$b# Papa said that it was an egg that comes from chickens...#$b# What is a chicken?"
+	  }
+    },
+    {
+	 "LogName": "Flower Dance dialogue",
+	 "Action": "EditData",
+	 "When": {"Language": "en",},
+	 "Target": "data/festivals/spring24",
+	 "Entries": {
+	    "Charlie": "This festival is a bit odd for me...$7#$b# But sure it has some qualities.$h",
+		"Charlie_spouse": "Go on sweety, you can dance if you want to.#$b# I know that you are loyal to me!$l",
+		"Randy": "Dance! Dance!$l#$b# I like flowers!$h"
+      }
+	},
+	{
+	 "LogName": "Luau dialogue",
+	 "Action": "EditData",
+	 "When": {"Language": "en,"},
+	 "Target": "data/festivals/summer11",
+	 "Entries": {
+	    "Charlie": "I hate this festival.$a#$b# But I smile and talk to everyone, and treat the Governor as a super special guest.#$b# So the Governor may give us some extra money.#$b# So please, stay quiet @.",
+		"Charlie_spouse": "Hey honey. You bring something to the soup?#$b# Now that we are married I can tell you something...#$b# One time, Randy jumped into the soup, and when the governor started to eat, he looked into Randy.$h#$b# And then, the museum almost was disabled...$7#$b# That's why he is away from the soup.",
+		"Randy": "I don't like soup...$s#$b# It's too hot for my body.$s"
+	  }	
+	},
+	{
+	 "LogName": "Jellies dialogue",
+	 "Action": "EditData",
+	 "When": {"Language": "en,"},
+	 "Target": "data/festivals/summer28",
+	 "Entries": {
+	    "Charlie": "These Jellies, do you know that they are older than this hole town?$h#$b# Some of them have more than 1000 years, and this is just the beggining of they're life!$h",
+		"Charlie_spouse": "These Jellies are beautiful.#$b# They remind me of when Randy eated a firefly, he looked like a lamp.$h",
+		"Randy": "These Jellies look like me!$h#$b# But they have a lamp inside...#$b# I want a lamp inside me...$s"
+	  }
+	},
+	{
+	 "LogName": "Stardew Fair dialogue",
+	 "Action": "EditData",
+	 "When": {"Language": "en",},
+	 "Target": "data/festivals/fall16",
+	 "Entries": {
+	    "Charlie": "I really like this festival.#$b# All these games and the people are amazing!$h#$b# I hope that next year, my uncle and I, goes into the competiton!#$b# Beware us @!",
+		"Charlie_spouse": "Hey babe.#$b# Don't mind me here, I'll just play some games.#$b# I just wanted that Gunther come this time, he never leave the museum...$s#$b# Oh, sorry. Don't let my family trouble get you down. Let's play!$h",
+		"Randy": "Too much people...$u"
+	  }
+	},
+	{
+	 "LogName": "Spirits evee dialogue",
+	 "Action": "EditData",
+	 "When": {"Language": "en",},
+	 "Target": "data/festivals/fall27",
+	 "Entries": {
+	    "Charlie": "This time, I'm here just for the food.#$b# Don't tell Gunther, but I really don't like this festival...$7",
+		"Charlie_spouse": "I think that Gunther have fear of this festival...$6#$b# Because he never talk about it...$6#$b# Once I brought a pumpkin to home and left it at the side of his bed.#$b# I never heard him screaming that louder!$h",
+		"Randy": "Whaa!$u#$b# Don't scare me please!$s"
+	  }
+	},
+    {
+       "LogName": "Ice contest festival",
+	   "Action": "EditData",
+	   "When": {"Language": "en",},
+	   "Target": "data/festivals/winter8",
+	   "Entries": {
+	    "Charlie": "Why do they fish in the winter?$6#$b# Why? Just why?$6#$b#This doesn't make any sense...$6",
+		"Charlie_spouse": "Hey honey!#$b# Smash everyone in this contest!#$b# And bring a fish to Randy, he likes some of them.",
+		"Randy": "Hi @. Can I fish?#$b# Pretty please?$l"
+	  }
+    },
+    {
+       "LogName": "Winter star dialogue",
+       "Action": "EditData",
+	   "When": {"Language": "en",},
+	   "Target": "data/festivals/winter25",
+	   "Entries": {
+	    "Charlie": "Usualy people stay with people.#$b# But I like to stay with Dusty!$h#$b# Even that he doesn't get part on the festival, that don't mean that he don't deserve some love!$h",
+		"Charlie_spouse": "Hi @, I love you.$l#$b# Sorry if that was too 'suprise'...#$b# But you are a wish that come true to my life.$l",
+		"Randy": "Food!$h#$b# I think that mayor don't like Randy...$s"
+	  }	
+	},
+	{
+      "LogName": "Egg festival locale",
+      "Action": "EditData",
+	  "When": {"Language": "pt",},
+	  "Target": "data/festivals/spring13",
+	  "Entries": {
+	    "Charlie": "Ovos...$6#$b# É só esperar, daqui a dois dias, esse lugar vai estar cheirando como o esgoto...$6",
+		"Charlie_spouse": "Ei docinho, boa sorte!$h#$b# Eu espero que esse ano, você deixe as crianças ganharem, você sabe...#$b# Elas merecem.$h",
+		"Randy": "Eu comi uma bolinha que eu achei por ai!$h#$b# Papa disse que era um ovo que vem das galinhas...#$b#O que é uma galinha?"
+	  }
+    },
+    {
+	 "LogName": "Flower Dance dialogue locale",
+	 "Action": "EditData",
+	 "When": {"Language": "pt",},
+	 "Target": "data/festivals/spring24",
+	 "Entries": {
+	    "Charlie": "Esse festival é meio chato pra mim...$7#$b# Mas tem as suas qualidades.$h",
+		"Charlie_spouse": "Vai lá docinho, pode dançar se quiser.#$b# Eu sei que é leal a mim!$l",
+		"Randy": "Dance! Dance!$l#$b# Eu gosto de flores!$h"
+      }
+	},
+	{
+	 "LogName": "Luau dialogue locale",
+	 "Action": "EditData",
+	 "When": {"Language": "pt,"},
+	 "Target": "data/festivals/summer11",
+	 "Entries": {
+	    "Charlie": "Eu odeio esse festival.$a#$b# Mas eu sorrio e aceno para todos. E trato o Governador como um convidado super especial.#$b# E então talvez ele nos dê uma verba maior no próximo mês.#$b# Então por favor @, fique em silêncio.",
+		"Charlie_spouse": "Ei docinho. Trouxe algo para por na sopa?#$b# Agora que estamos casados, posso te contar uma coisa...#$b# Uma vez, o Randy pulou dentro da sopa, e ai quando o Governador voi comer, ele viu o Randy lá dentro.$h#$b# E então, quase perdemos o museu depois dessa...$7#$b# É por isso que eu mantenho ele longe da sopa.",
+		"Randy": "Eu não gosto da sopa...$s#$b# É muito quente pra mim.$s"
+	  }	
+	},
+	{
+	 "LogName": "Jellies dialogue locale",
+	 "Action": "EditData",
+	 "When": {"Language": "pt,"},
+	 "Target": "data/festivals/summer28",
+	 "Entries": {
+	    "Charlie": "Essas meduzas, sabia que elas são mais velhas que essa cidade?$h#$b# Algumas delas tem mais de 1000 anos, e isso é só o começo da vida delas!$h",
+		"Charlie_spouse": "Essas meduzas são lindas.#$b# Elas me lembram de quando o Randy comeu um vaga-lume, ele parecia uma lampada acesa.$h",
+		"Randy": "Essas meduzas parecem com o Randy!$h#$b# Mas elas estão acesas...#$b# Eu quero ficar aceso...$s"
+	  }
+	},
+	{
+	 "LogName": "Stardew Fair dialogue locale",
+	 "Action": "EditData",
+	 "When": {"Language": "pt",},
+	 "Target": "data/festivals/fall16",
+	 "Entries": {
+	    "Charlie": "Eu realmente amo esse festival.#$b# Todas essas pessoas e jogos são incríveis!$h#$b# Eu espero que no próximo ano, eu e o meu tio entremos na competição!#$b# Se prepara @!",
+		"Charlie_spouse": "Ei amor.#$b# Não se importe comigo aqui, eu só vou jogar uns jogos.#$b# Eu só queria que o Gunther saisse do museu...$s#$b# Oh, desculpa. Não deixe meus problemas acabarem com a diversão!$h",
+		"Randy": "Tem muita gente aqui...$u"
+	  }
+	},
+	{
+	 "LogName": "Spirits evee dialogue locale",
+	 "Action": "EditData",
+	 "When": {"Language": "pt",},
+	 "Target": "data/festivals/fall27",
+	 "Entries": {
+	    "Charlie": "Dessa vez, eu estou aqui só pela comida.#$b# Não diga ao Gunther, eu não gosto desse festival...$7",
+		"Charlie_spouse": "Eu acho que o Gunther tem medo desse festival...$6#$b# Por que ele não gosta que fale dele...$6#$b# Uma vez eu trouxe uma abóbora pra casa, e deixei do lado da cama dele.#$b# Eu nunca escutei ele gritar tanto na vida!$h",
+		"Randy": "Whaa!$u#$b# Não me assuste, por favor!$s"
+	  }
+	},
+    {
+       "LogName": "Ice contest festival locale",
+	   "Action": "EditData",
+	   "When": {"Language": "pt",},
+	   "Target": "data/festivals/winter8",
+	   "Entries": {
+	    "Charlie": "Por que pescam no inverno?$6#$b# Por que? Só por que?$6#$b#Isso não faz sentido algum...$6",
+		"Charlie_spouse": "Ei docinho!#$b# Acaba com todo mundo na competição!#$b# E traz um peixe pro Randy, ele gosta.",
+		"Randy": "Oi @. Posso pescar?#$b# Deixa?$l"
+	  }
+    },
+    {
+       "LogName": "Winter star dialogue locale",
+       "Action": "EditData",
+	   "When": {"Language": "pt",},
+	   "Target": "data/festivals/winter25",
+	   "Entries": {
+	    "Charlie": "Geralmente pessoas ficam com pessoas nessa época.#$b# Mas eu prefiro ficar aqui com o Dusty!$h#$b# Mesmo que ele não tenha parte no festival, isso não quer dizer que ele não merece isso!$h",
+		"Charlie_spouse": "Oi @, Eu te amo.$l#$b# Desculpa se foi muito de surpresa...#$b# Mas você é um sonho que se realizou na minha vida.$l",
+		"Randy": "Comida!$h#$b# Eu acho que o prefeito não gosta do Randy...$s"
+	  }
+	},
+	{
+	  "LogName": "Charlie letters",
+	  "Action": "EditData",
+	  "Target": "Data/mail",
+	  "FromFile": "assets/data/Charliemail.en.json",
+	},
+    {
+		"LogName": "Map strings",
+		"Action": "EditData",
+		"When": {"Language": "en",},
+		"Target": "Strings/StringsFromMaps",
+		"Entries":{
+	  "Abandhouse.1": "These are his notes, it only have work things. Boring...",
+	  "Houseout.1": "This is his? If yes, better don't touch it.",
+	  "Houseout.2": "A tiny garden! Has some crops here, you doesn't recognize some of then.",
+	  "Houseout.3": "These are unique pieces, they look old. One of them is broken. I swear that wasn't me!",
+	  "Inside.1": "Fresh cookies! Too bad that isn't for you...",
+	  "Inside.2": "Oh, a globe! And here is Stardew Valley, but you can't find Pelican Town",
+	  "Inside.3": "His fridge, It's full of veggies, and... Why there is an Ancient Doll here in there?",
+	  "Inside.5": "You look at the mirrior. You look beautiful today. Just today.",
+	  "Shop.1": "Why are you looking into the trash can?",
+	  "Shop.2": "Randy looks happy with his new home.",
+	  "Shop.3": "Books and more books...",
+	  "Shop.4": "Why people always let these open books on the floor?",
+	  "Spouse.1": "These arcades are protected with a password...",
+	  "Spouse.2": "You notice something under the sofa... It's just a old board game.",
+	  "Spouse.3": "You take a look on Charlie's table... It has some letters to Sandy, and some paperwork.",
+	},
+	},
+	{
+		"LogName": "Map strings Locale",
+		"Action": "EditData",
+		"When": {"Language": "pt",},
+		"Target": "Strings/StringsFromMaps",
+		"Entries":{
+	  "Abandhouse.1": "São as anotações dele, só tem coisa de trabalho. Tédio...",
+	  "Houseout.1": "Isso é dele? Se sim, melhor nem mecher.",
+	  "Houseout.2": "Um jardimzinho! Tem algumas plantas aqui, você não reconhece algumas delas.",
+	  "Houseout.3": "Essas são peças únicas, parecem antigas. Uma delas está quebrada. Eu juro que não fui eu!",
+	  "Inside.1": "Biscoitos fresquinhos, ou é bolacha? Tanto faz, tudo vira bos...",
+	  "Inside.2": "Oh, um globo terrestre! E aqui está Stardew Valley, mas você não acha a Vila Pelicanos.",
+	  "Inside.3": "A geladeira dele, cheio de vegetais, e... Por que carambas tem um Boneco Antigo aqui dentro?",
+	  "Inside.5": "Você se olha no espelho, você está incrivel hoje. Só hoje.",
+	  "Shop.1": "Por quê você está olhando dentro da lata de lixo?",
+	  "Shop.2": "Randy parece feliz com a sua nova casa.",
+	  "Shop.3": "Livros e livros...",
+	  "Shop.4": "Por quê todo mundo sempre deixa os livros abertos no chão?",
+	  "Spouse.1": "Esses arcades estão protegidos com senha...",
+	  "Spouse.2": "Você percebe que há algo em baixo do sofá... É só um velho jogo de tabuleiro.",
+	  "Spouse.3": "Você olha a mesa dele... Tem algumas cartas pra Sandy, e papelada do museu.",
+	},
+	},  
+  ]  
+}

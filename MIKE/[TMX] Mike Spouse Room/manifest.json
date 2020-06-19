@@ -1,0 +1,11 @@
+{
+  "Name": "Mike Spouse Room",
+  "Author": "SYS",
+  "Version": "1.0.5",
+  "Description": "Spouse Room for Mike",
+  "UniqueID": "SYS.SpouseRooms.Mike",
+  "UpdateKeys": ["Nexus:6288"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  }
+}

@@ -1,0 +1,9 @@
+﻿{ 
+    "replaceMaps": 
+   [ 
+     { 
+       "name": "Saloon", 
+       "file": "assets/Saloon.tmx" 
+     } 
+   ]
+}

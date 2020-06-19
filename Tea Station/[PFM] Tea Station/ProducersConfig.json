@@ -1,0 +1,7 @@
+﻿[
+	{
+		"ProducerName": "Tea Station", //Only 1 frame
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+	},
+]
