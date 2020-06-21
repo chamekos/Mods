@@ -1,0 +1,394 @@
+{
+ "Format": "1.11.0",
+ "Changes": [
+//Sam and Penny dialogue | Town event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {
+	"HasSeenEvent": "59020001"
+		},
+"Entries": {
+            "Tue6": "Hey, @.$0#$b#Do you happen to know what Penny might like as a gift?$4#$e#Oh, don't get me wrong.$8#$b#I justwanted to thank her for being so nice to Vincent.$10",
+            "Thu6": "I don't really enjoy reading.$0#$b#But Penny makes it sound so interesting... maybe I should give it a chance.$1",
+            "Fri6": "I wonder what Penny is doing right now...$0#$e#Huh? Oh, I didn't see you, @.$0#$b#How's it going?$1",
+            "Sat6": "Hey, @!$1#$b#Will I see you in the saloon later?$0#$e#Do you think Penny would like to join us?$0"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"When": {
+	"HasSeenEvent": "59020001"
+		},
+"Entries": {
+			"Mon6": "Hello, @. Do you grow cactus on your farm?$0#$e#...Huh? Nevermind, I was just asking.$4",
+            "Wed6": "Yesterday I ran into Sebastian and Abigail and we actually chatted for a while.$0#$b#I think Sam has helped me to come out of my shell.$1",
+            "Fri6": "I was thinking of taking Vincent and Jas on a field trip someday.$1#$b#Do you think Sam would like to come?$4#$e#I-I mean, since Vincent really looks up to him I thought it would be good for both of them.$4",
+            "Sat6": "I've heard that Sam usually goes to the saloon with his friends.$3#$e#I almost never go but...$3#$b#...maybe I should from now on.$4"
+			}
+},
+//Sam and Penny dialogue | Museum event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {
+	"HasSeenEvent": "59020003"
+		},
+"Entries": {
+            "Mon2": "Do you get along with Penny?$0#$e#She's actually pretty cool!$1",
+            "Sat2": "Lately I haven't been able to compose any good songs.$2#$b#Luckily, Penny recommended me a book that has served as inspiration.$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"When": {
+	"HasSeenEvent": "59020003"
+		},
+"Entries": {
+            "Thu2": "Did you know that Sam likes Paradise Horizon?$1#$e#Oh... You don't know what that is...$2",
+            "Sat2": "The passion that Sam puts into making music is truly impressive.$0#$b#I admire him for that.$1"
+			}
+},
+//Sam and Penny dialogue | Sam's House event
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {
+	"HasSeenEvent": "59020004"
+		},
+"Entries": {
+            "Wed4": "Have you seen Penny?$0#$e#I wanted her to recommend me another book on music.$0",
+            "Thu4": "Penny and I are really similar in many ways?$0#$e#It was a surprise for me too!$1",
+            "Fri4": "Lately I've been spending more time with Penny.$0#$b#She's really cool once you get to know her!$1"
+			}
+},
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"When": {
+	"HasSeenEvent": "59020004"
+		},
+"Entries": {
+			"Mon4": "Uhm... Have you seen Sam by any chance, @?$3#$e#Oh, it’s nothing like that.$0#$b#I just want to talk about how Vincent is doing.$3",
+            "Fri4": "I hope Sam gets to give his own concert someday.$0",
+            "Sun4": "The other day Sam showed me a new song he's composing.$0#$b#It was really good!$1"
+			}
+},
+//Dialogues | Beach event
+     //Sam
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sam",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon8": "You know, I'm relieved that Penny made the first move.$1#$e#Sebastian used to tell me that I would never be able to ask her out.$0#$b#Guess he was right.$10",
+            "Tue8": "Hey, @. Have you seen Penny?$1",
+            "Wed8": "It's nice that Vincent likes Penny so much.$1#$b#But obviously I love her more!$4",
+            "Thu8": "Pam may be overprotective with Penny.$0#$b#But that shows how much she cherishes her.$0",
+            "Fri8": "At first Pam disapproved my relationship with Penny.$2#$b#But I'm glad I was able to show her I'm serious about Penny.$1",
+            "Sat8": "Penny is so nice to my mother, I think that I love her more day by day.$4",
+            "Sun8": "I knew Penny was the one the very first moment I met her.$4#$b#I was just too nervous to approach her first.$10",
+            "spring_Mon8": "I feel like the luckiest person alive with Penny by my side.$4",
+            "spring_Wed8": "This might sound weird to you but...$0#$b#I always miss Penny even when I have just seen her.$4",
+            "spring_Thu8": "I can't even imagine how my life was before Penny.$4#$e#She's so important to me...$4",
+            "summer_Wed8": "Sometimes I feel like I should be more open with Penny about how much I care about her...$2",
+            "summer_Sat8": "Penny and I took Vincent and Jas to the park the other day.$0#$e#They started arguing over some small thing.$2#$b#Her job sure is hard sometimes.$0",
+            "summer_Sun8": "Seb thinks that Penny is really cool.$0#$b#I'm glad that my two best friends get along.$1",
+            "fall_Mon8": "Do you think I would be a good parent, @?$7#$e#Penny sure would be.$1",
+            "fall_Thu8": "Penny has made me realise that I wasn't spending enough time with Vincent.$0#$b#You know, he'll be grown up soon.$0",
+            "fall_Fri8": "Penny is going to have dinner with us tonight.$0#$b#I'm so excited!$1",
+            "winter_Tue8": "My mother absolutely loves Penny.$1#$b#She's just the perfect girlfriend and would be a great daughter-in-law.$0",
+            "winter_Wed8": "It's crazy how much I enjoy the time I spend with Penny...$4#$b#So this is what being in love feels like?$10",
+            "winter_Fri8": "What kind of song do you think Penny would like the most?$1#$e#I wanted to make something special for her.$10",
+            "winter_Sun8": "I'm looking forward to spending more time with Penny next year.$4",
+            "spring_12": "Vincent keeps talking about the Egg Hunt.$0#$b#He even asked Penny and I to join him.$0#$b#But I think we're going to leave it for another year.$0",
+            "spring_23": "Penny is excited for the Flower Festival.$0#$e#I'm sure she'll look beautiful as always.$4",
+            "fall_2": "Yesterday I asked my mother to help me make some muffins.$0#$b#You know, for Penny's birthday.$0#$b#But it didn't end very well...$2#$b#So I decided to buy a poppy from Pierre's.$0",
+            "winter_7": "Penny and I are going to build a snowman tomorrow at the Festival of Ice.$1#$e#Are you going to join the fishing competition, @?$0"
+			}
+},   
+     //Penny
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Penny",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon8": "I hope Mom is being nice to Sam.$3#$b#She's kind of overprotective with me.$3",
+            "Tue8": "I wonder what Sam is doing right now...$4#$e#We do see each other a lot, but I still miss him everyday.$0",
+            "Wed8": "Since Sam and I started dating, Vincent hasn't stop asking us all kinds of questions.$0#$e#It's kind of embarrassing sometimes...$2",
+            "Thu8": "I'm glad Vincent is Sam's little brother.$0#$b#It means I can spend even more time with Sam!$1",
+            "Fri8": "Mom has probably been more lonely now that I'm spending more time with Sam.$2#$b#I just hope she has not started going to the saloon more often.$2",
+            "Sat8": "I was nervous about how Sam's parents were going to react to our relationship...$3#$e#But they're both really nice to me!$1",
+            "Sun8": "Sam gave me an idea about a musical activity for Jas and Vincent.$0#$b#They are going to love it!$1",
+            "spring_Mon8": "I feel so proud of Sam whenever he shows me a new song that he has composed.$0#$b#If he's happy, I'm happy.$4",
+            "spring_Thu8": "...I still can't believe I'm dating the most wonderful man in the world.$4#$e#To be honest, I don't even know how I had the courage to ask him out first.$0",
+            "spring_Fri8": "I'm not fond of the saloon for obvious reasons.$5#$b#But Sam likes to go there with Abigail and Sebastian, so I join him occasionally.$0",
+            "summer_Tue8": "As I'm a teacher, I usually wake up early to arrive at the museum first.$0#$b#On the other hand, Sam is just the opposite, he loves to sleep.$0",
+            "summer_Wed8": "When I would read romance novels I never thought that something similar would happen to me...$4#$e#Sam makes me feel like I'm the only woman in the world.$4",
+            "summer_Sat8": "When Sam and I can't fall asleep, we meet each other at night to look up at the stars.$0#$e#Maru told us where was the best place to go stargazing.",
+            "fall_Mon8": "Sebastian and Sam like to play Solarian Chronicles.$0#$e#They asked me if I wanted to join, but I think I'll just watch for now.$0",
+            "fall_Thu8": "Isn't Stardew Valley the perfect place to raise kids?$0#$e#Of course, not now. Sam and I are still young.$1",
+            "fall_Sun8": "I never dated anyone before Sam, so I was really nervous.$0#$e#Fortunately it all feels natural with him.$4",
+            "winter_Fri8": "I'm looking forward to my future with Sam...$4#$b#Have you ever felt this way, @?",
+            "winter_Sat8": "Do you think Sam would like to get married someday, @?$4#$e#I surely do...$4",
+            "winter_Sun8": "I can't stop thinking about Sam.$4#$e#I just love him so much...$4",
+            "spring_10": "Today is Vincent's birthday and he's very excited.$1#$b#He likes dandelions, so Sam and I are going to pick some up for him later.$0",
+            "spring_12": "Tomorrow's the Egg Festival.$1#$b#Vincent and Jas love participating in the egg hunt, even though Abigail almost always wins.$0#$e#And I can spend more time with Sam.$4",
+            "spring_23": "Sam and I are looking forward to the Flower Dance.$0#$e#I'm a little bit nervous, though.$0#$e#Sam says I'm a good dancer, but I'm not sure...$2",
+            "summer_17": "Today is Sam's birthday.$1#$b#I can't wait to spend it with him and his family!$1#$e#Also, I have a special surprise for him later...$4"
+			}
+},   
+     //Pam
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Pam",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon2": "Hey, kid. Penny told me that she started dating Sam.$4#$b#I hope he treats my baby girl well.$4#$b#... Or he’ll have to deal with me.$4",
+            "Mon10": "Hi, kid.$0#$e#I've been thinking 'bout buying something nice for Penny and Sam.$0#b#If only I could afford it...$2",
+            "Tue4": "Penny is really happy these days.$0#$b#Guess my little talk with Sam has paid off.$1",
+            "Tue6": "Looks like Penny has found a fine lookin' young man.$0",
+            "Wed8": "It's so lonely at home these days...$2#$b#Well, at least my little girl seems to be enjoying herself.$0",
+            "Thu2": "Sam better be treatin' Penny right and not be like that that ex-husband o' mine.$4",
+            "Fri6": "Maybe Sam is a good guy after all.$0#$b#I just don't want Penny getting hurt.$2",
+            "Fri10": "Hi there, farmer.$0#$e#Jodi and me ain't got similar tastes.$0#$b#But we're family now!$1",
+            "Sat8": "Hey, kid.$1#$b#Penny seems to have long term plans with Sam. He better treat her well!$1",
+            "Sun10": "You know, Penny's father abandoned us when she was little.$2#$e#I'm pleased that she grew up fine and found herself a decent man like Sam."
+			}
+},
+     //Vincent
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Vincent",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon2": "Miss Penny gave me a haircut.$1#$e#She also gave my brother a haircut.$1",
+            "Mon6": "I saw Miss Penny with my brother at the beach yesterday.$3#$b#They were hugging each other.$3#$e#It is normal for grown-ups to do that?$3",
+            "Tue6": "My brother told me that he was going to marry Miss Penny someday.$2#$b#That's not fair, I wanted to marry her first!$2",
+            "Tue8": "I saw my brother trying to cook a poppyseed muffin earlier.$3#$b#Maybe he is going to give it to Miss Penny.$0#$e#But I don't think it'll taste good.$3",
+            "Wed4": "I asked Miss Penny about my brother.$3#$e#Her face turned red like a tomato!$1",
+            "Wed8": "Maybe it would be cool if Sam and Miss Penny get married.$3#$b#We would spend more time together!$1",
+            "Thu6": "I heard my brother playing a new song.$0#$b#He told me it was a song for Miss Penny.$1",
+            "Thu8": "I think mom really likes Miss Penny.$1#$e#I do, too!$1",
+            "Fri2": "Miss Penny told me that my brother will become a rock star someday.$1",
+            "Fri10": "My brother has changed a lot. He's nicer to me these days.$1#$e#Maybe Miss Penny told him to...?$3",
+            "Sat2": "My brother sometimes comes with me to the museum.$0#$e#I think it's because he wants to see Miss Penny.$3",
+            "Sat8": "Miss Penny came to our house the other day.$0#$b#I thought she wanted to play with me, but she went to my brother's room.$2",
+            "Sat10": "Mister @, do you think Miss Penny and my brother are in love?^Miss @, do you think Miss Penny and my brother are in love?$3",
+            "Sun8": "Do you know how to make bracelets?$3#$e#I want make a gift for Miss Penny and my brother.$0",
+            "Sun10": "Last night Miss Penny came to have dinner with us.$1#$b#I'm so happy that my brother and her are good friends!$1"
+			}
+},
+     //Kent
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Kent",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon4": "Sam was just a child when I left...$0#$b#... And now he even has a girlfriend.$1",
+            "Mon6": "When I came back, Jodi told me that Penny was Vincent's teacher.$0#$b#... I guess that's how she and Sam grew close.$2",
+            "Tue4": "Sometimes I ask Penny about Sam's life.$2#$b#It's sad...$2",
+            "Wed2": "Was Penny already living here when I left?$2#$e#I can't remember...$2",
+            "Wed8": "Sometimes it's difficult not to think of Sam as the little kid he was when I left.$0#$b#I would have never imagined that he would have a girlfriend so soon.$0",
+            "Thu2": "So Sam has found a girlfriend...$2#$b#Her name was Penny?$2",
+            "Thu10": "I hope I'm a good father-in-law to Penny.$1",
+            "Fri8": "Seeing Sam with wedding plans makes me feel so surprised.$0#$e#...In a good way.$1",
+            "Fri10": "I'm actually hoping that Sam and Penny have kids sooner rather than later.$1#$b#Since I couldn't be there for my sons, I at least want to see my grandchildren grow up.$1",
+            "Sat2": "Jodi says Penny is a good girl...$0#$b#I haven't spoken with her that much, but I guess she is.$1",
+            "Sat10": "Once in a while Penny comes to our house to have dinner.$1#$b#We have a good time, especially Sam and Vincent.$1",
+            "Sun8": "Penny has helped me to get closer to Sam.$1#$b#...I'll be forever grateful to her for that.$1",
+            "Sun10": "Seeing Sam dating Penny was surprising at first for Jodi and me.$0#$b#But now she's like our daughter too.$1"
+			}
+},    
+     //Jodi
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Jodi",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries": {
+            "Mon4": "Penny is a lovely girl.$1#$b#I'm glad Sam found someone like her.$1",
+            "Mon6": "Yesterday I prayed to Yoba for happiness for Sam and Penny.$0",
+            "Tue8": "It feels like just yesterday when Sam was a little baby.$0#$b#And now he's planning on getting married!$2",
+            "Wed4": "I heard Sam talking with Penny earlier.$0#$e#I didn't know he could be so sweet!$1",
+            "Wed8": "Penny truly is a good influence for both Vincent and Sam.$0",
+            "Thu8": "Vincent told me that Sam was composing a song for Penny.$1#$b#Isn't it sweet?$1",
+            "Thu10": "I've come to think of Penny as a member of our family.$1",
+            "Fri8": "Do you think Sam and Penny will have kids someday?$0#$b#I don't know if he will be prepared...$2#$b#Well, I would love to help them.$1",
+            "Fri10": "To be honest, I'm afraid of Sam moving away with Penny someday...$2",
+            "Sat2": "Penny helped me with the garden yesterday.$1#$b#I wish Sam could learn something from her.$0",
+            "Sat10": "We invited Penny to have dinner with us last night.$0#$b#I can see why Sam and Vincent like her so much.$0#$b#She even offered to help wash the dishes!$1",
+            "Sun8": "Don't you think Sam and Penny are a really good couple?$1#$e#They might have different personalities, but they complement each other very well.$1",
+            "Sun10": "To be honest with you, @...$0#$b#At first I wasn't sure about Penny and Sam, but now it makes me so happy to see them together.$0"
+			}
+},
+//Schedules | Beach event
+     //Sam
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Sam",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries":  {
+            "spring_2": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:spring.002\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_10": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:spring.002\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_16": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:spring.002\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_4": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_11": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_18": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "spring_25": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:spring.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "summer_7": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1340 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "summer_14": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1340 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "summer_21": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1340 Beach 46 24 2 \"Strings\\schedules\\Sam:summer.001\"/1900 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "summer_3": "1000 SamHouse 17 15 2/1100 SamHouse 17 15 2 sam_guitar/1600 SamHouse 17 13 0/1800 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "summer_10": "1000 SamHouse 17 15 2/1100 SamHouse 17 15 2 sam_guitar/1600 SamHouse 17 13 0/1800 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "summer_24": "1000 SamHouse 17 15 2/1100 SamHouse 17 15 2 sam_guitar/1600 SamHouse 17 13 0/1800 Forest 35 25 2 \"Strings\\schedules\\Sam:summer.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "fall_6": "1010 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_13": "1010 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_20": "1010 Town 30 90 1/1200 Town 12 12 1 \"Strings\\schedules\\Sam:fall.001\"/1700 Forest 66 50 2/2030 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_4": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_11": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_18": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "fall_25": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar \"Strings\\schedules\\Sam:fall.002\"/1400 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "winter_3": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:winter.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "winter_10": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:winter.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "winter_24": "900 ArchaeologyHouse 18 12 0 \"Strings\\schedules\\Sam:winter.001\"/1340 Town 71 99 2/1830 SamHouse 22 16 1/2100 SamHouse 22 13 1 sam_sleep",
+            "winter_7": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "winter_14": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "winter_21": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep",
+            "winter_28": "1000 SamHouse 15 13 0/1040 SamHouse 17 15 2 sam_guitar/1320 Saloon 20 19 3/1830 Beach 12 38 2 \"Strings\\schedules\\Sam:winter.002\"/2130 SamHouse 22 13 1 sam_sleep"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Sam",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries":  {
+            "spring.001": "I'm a little embarrassed to say it but...$4#$b#...Penny is my muse.$10",
+            "spring.002": "Penny is truly a good teacher.$1",
+            "summer.001": "Watching Penny play with Vincent makes me so happy.$1",
+            "summer.002": "Penny...$4#$b#...I love you.$4",
+            "fall.001": "I wonder if Penny and I will ever bring our own kids here...$4",
+            "fall.002": "Penny always encourages me to chase my dreams.$0#$b#I really like that about her.$1",
+            "winter.001": "It feels good to help Penny with the kids.$1",
+            "winter.002": "This is a special place for Penny and me...$4"
+            },
+},
+    //Penny
+{
+"Action": "EditData",
+"Target": "Strings/schedules/Penny",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries":  {
+            "spring.001": "Sam is so talented, don't you think, @?$1",
+            "spring.002": "Sam is so cute when he comes to see me at my classes.$1#$b#But I have to confess it makes me a little nervous...$4",
+            "summer.001": "Sam looks handsome today...$4#$b#Well, he always does.$4",
+            "summer.002": "Um... @...$3#$b#Would you mind leaving us alone?$4",
+            "fall.001": "I love that I can be myself with Sam.$4",
+            "fall.002": "Sam told me that he was composing a song for me.$0#$b#Isn't he the best?$4",
+            "winter.001": "Sam always makes the classes more interesting.$1",
+            "winter.002": "This is where I told Sam how I felt.$4#$b#I still can't believe we're together...$4"
+            },
+},
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Penny",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries":  {
+            "spring_2": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:spring.002\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "spring_10": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:spring.002\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "spring_16": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:spring.002\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "spring_4": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "spring_11": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "spring_18": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "spring_25": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "summer_7": "800 Town 96 18 3/1340 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+            "summer_14": "800 Town 96 18 3/1340 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+            "summer_21": "800 Town 96 18 3/1340 Beach 47 24 2 \"Strings\\schedules\\Penny:summer.001\"/1900 Trailer 12 6 0 penny_dishes/2100 Trailer 4 9 1 penny_sleep",
+            "summer_3": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "summer_10": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "summer_24": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Forest 34 25 2 \"Strings\\schedules\\Penny:summer.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "fall_6": "1000 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+            "fall_13": "1000 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+            "fall_20": "1000 Town 32 89 2/1200 Town 12 13 1 \"Strings\\schedules\\Penny:fall.001\"/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+            "fall_4": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "fall_11": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "fall_18": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "fall_25": "940 SamHouse 15 15 1 \"Strings\\schedules\\Penny:spring.001\"/1340 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Trailer 4 9 1 penny_sleep",
+            "winter_3": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:winter.001\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "winter_10": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:winter.001\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "winter_24": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read \"Strings\\schedules\\Penny:winter.001\"/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+            "winter_7": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "winter_14": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "winter_21": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep",
+            "winter_28": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1600 Town 44 77 2 penny_sit_down/1840 Beach 13 38 2 \"Strings\\schedules\\Penny:winter.002\"/2130 Trailer 4 9 1 penny_sleep"
+            },
+},
+    //Sebastian
+{
+"Action": "EditData",
+"Target": "Characters/schedules/Sebastian",
+"When": {
+	"HasSeenEvent": "59020002"
+		},
+"Entries":  {
+            "fall_6": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Railroad 32 47 1 sebastian_smoking/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "fall_13": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Railroad 32 47 1 sebastian_smoking/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep",
+            "fall_20": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Railroad 32 47 1 sebastian_smoking/1800 Railroad 64 45 3/1930 Railroad 5 45 1/2130 SebastianRoom 11 9 1 sebastian_sleep"
+            },
+},
+//Events
+     //Town | 6 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Town",
+"Entries": {
+            "59020001/e 59020004/f Penny 1500/f Sam 1500/o Sam/o Penny/w sunny/z winter/t 1000 1230": "sweet/30 90/farmer 31 79 2 Penny 35 89 2 Sam 14 90 1 Vincent 14 91 1/skippable/pause 2000/emote Penny 32/pause 650/showFrame Penny 17/pause 80/showFrame Penny 18/pause 80/showFrame Penny 19/pause 3000/playSound crickets/pause 800/emote Penny 8/pause 500/speak Penny \"Huh?$3#$b#A bird?$3\"/pause 700/showFrame Penny 18/pause 80/showFrame Penny 17/pause 650/playSound grassyStep/playSound grassyStep/move Penny 0 1 1/move Penny 1 0 1/playSound crickets/pause 650/speak Penny \"Oh, no! Poor little thing.$2#$b#You must have fallen from your nest.$2\"/pause 380/speak Penny \"Let me help you.$0\"/pause 750/showFrame Penny 22/playSound shwip/playSound crickets/pause 900/move Penny -2 0 0/pause 700/playSound stairsdown/move Penny 0 -2 0/pause 700/playSound crickets/pause 600/speak Penny \"There you are!$1\"/pause 350/emote Penny 32/move Sam 15 0 1/pause 350/emote Sam 8/speak Sam \"Whoa, hello, Penny.$1#$b#I didn't know you liked to climb trees!$1\"/pause 500/showFrame Penny 34/pause 600/speak Penny \"Oh... Hello, Sam.$3\"/pause 380/speak Penny \"I was helping this little bird that fell from its nest.$0\"/pause 850/speak Sam \"Well, that's kind of you, Penny.$1#$b#If you’re about done up there, I was hoping to hang out with you.$0\"/pause 1000/showFrame Penny 26/pause 80/showFrame Penny 27/pause 600/shake Penny 1000/pause 390/speak Penny \"I-I didn’t know I had climbed this high...$2#$b#I don’t know how I'll get down...$2\"/pause 500/showFrame Penny 34/pause 800/speak Sam \"Uhm...$2\"/pause 800/speak Sam \"I-I can help you, if you want...$4\"/pause 650/emote Penny 16/pause 700/speak Penny \"I guess I have no choice...$3\"/pause 700/move Sam 5 0 0/move Sam 0 -1 0/pause 300/speak Sam \"Okay... Just jump and I’ll catch you, Penny.$7\"/move Vincent 7 0 1/speak Sam \"Are you ready?$0\"/pause 600/speak Penny \"I think so...$3\"/pause 650/jump Penny/showFrame Sam 9/pause 700/speak Sam \"See? I got you!$1\"/pause 390/emote Sam 32/pause 700/speak Penny \"Y-Yeah...$4\"/pause 500/speak Penny \"Um, Sam... Could you put me down now...?$4\"/pause 390/emote Sam 16/pause 390/speak Sam \"Oh! I’m sorry, I didn’t mean to make you uncomfortable...$10\"/pause 600/move Sam -2 0 1/move Penny 0 1 3/pause 500/speak Penny \"Don’t worry, Sam. It’s okay.$0\"/speak Penny \"Then, shall we spend some time together?$1\"/pause 350/emote Penny 32/pause 1500/end dialogue Penny \"Have you seen Sam?$0#$e#...Oh, I just wanted to thank him for... something.$4\""
+            },
+      },
+     //Beach | 8 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/Beach",
+"Entries": {
+            "59020002/e 59020001/f Penny 2000/f Sam 2000/o Sam/o Penny/w sunny/t 2000 2300": "moonlightJellies/11 38/farmer 38 3 2 Sam 11 30 2 Penny 13 38 1/skippable/pause 1800/move Sam 0 8 1/pause 700/speak Sam \"Hello, Penny.$0\"/pause 800/faceDirection Penny 3/speak Penny \"There you are... I was worried you wouldn't come, Sam.$0\"/pause 800/speak Sam \"You know I would never do that, Penny.$2\"/pause 800/speak Sam \"Not to you...$4\"/pause 800/speak Penny \"Oh...$4\"/pause 1600/speak Penny \"Well, it looks like we're alone.$0\"/pause 900/faceDirection Penny 2/pause 1000/speak Penny \"The sea breeze feels refreshing, don't you think?$0\"/pause 500/faceDirection Sam 2/pause 1380/speak Sam \"Yeah...$3\"/pause 1800/speak Penny \"I love living by the sea.$0\"/pause 2000/speak Penny \"Um... Sam...$0\"/pause 1000/speak Penny \"Do you know why I asked you to meet me here tonight?$0\"/pause 800/faceDirection Penny 3/pause 600/faceDirection Sam 1/pause 500/speak Sam \"I bet you just wanted to see my handsome face.$1\"/pause 700/speak Penny \"Of course not, silly.$5\"/pause 390/faceDirection Penny 2/pause 2200/emote Sam 8/pause 1700/faceDirection Penny 3/pause 800/speak Penny \"How do I say this...$3\"/pause 1000/speak Penny \"I've been meaning to tell you for a while now...$4#$b#...about how I feel.$4\"/pause 1000/speak Penny \"I can't stop thinking about you, Sam...$4\"/pause 390/emote Sam 16/pause 650/speak Penny \"I've never felt this way about anyone.$4\"/pause 1600/speak Sam \"I-I...$8\"/pause 1500/speak Penny \"...Oh? I-I see... So you don't feel the same...$2\"/pause 390/emote Penny 28/pause 500/speak Sam \"No, Penny!$8\"/pause 200/speak Sam \"That's not what I meant...$2\"/pause 1500/playMusic musicboxsong/speak Sam \"I...$4\"/pause 500/speak Sam \"...feel the same about you.$4\"/pause 300/emote Penny 16/pause 600/speak Penny \"Really?$4\"/pause 500/speak Penny \"Sam, I...$4\"/pause 1800/showFrame Penny 20/showFrame Sam 36/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/pause 50/positionOffset Sam 2 0/specificTemporarySprite heart 14 38/pause 500/viewport move 0 -1 3000/pause 3200/end dialogue Sam \"Hey, @.$1#$b#You know what?$4#$e#I'm not a single old man anymore!$10\""
+            },
+      },    
+     //Museum | 2 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/ArchaeologyHouse",
+"Entries": {
+            "59020003/f Penny 500/f Sam 500/d Mon Thu Sat Sun/t 1000 1400": "libraryTheme/13 10/farmer 29 13 3 Sam 3 17 0 Penny 17 9 2 Jas 19 10 3 Vincent 16 10 1 Gunther 3 8 2/skippable/showFrame Penny 18/showFrame Vincent 24/showFrame Jas 22/pause 3500/playSound doorOpen/move Sam 0 -7 0/pause 800/emote Sam 40/pause 700/emote Gunther 40/pause 700/emote Sam 40/pause 1800/move Sam 4 0 2/move Sam 0 4 1/move Sam 4 0 0/move Sam 0 -5 1/move Sam 2 0 1/pause 750/speak Sam \"Oh, hello, Penny!$0#$b#How are Vincent and Jas doing?$1\"/pause 800/showFrame Penny 17/pause 80/showFrame Penny 16/pause 300/faceDirection Penny 3/pause 500/move Penny -2 0 3/pause 600/speak Penny \"Hello, Sam.$0#$b#We were doing some math exercises.$0\"/pause 700/speak Penny \"What brings you here today?$0\"/pause 800/speak Sam \"Well, I've been having a creative block...$2\"/pause 500/speak Sam \"...and I was hoping to find some books about my favorite band, Paradise Horizon, to inspire me.$2\"/pause 600/speak Sam \"I've asked Gunther but he doesn't seem to have heard of them.$2\"/pause 500/emote Penny 16/pause 500/speak Penny \"Did you say Paradise Horizon?$0\"/pause 200/speak Penny \"I love them!$1\"/pause 380/speak Penny \"Their last album was incredible.$1\"/pause 500/emote Sam 16/pause 500/speak Sam \"Whoa, you like them, Penny?$8\"/pause 200/speak Sam \"I never would have imagined it.$8\"/pause 800/emote Sam 32/emote Penny 32/pause 700/speak Penny \"I can help you if you want.$1#$b#There're a couple of interesting books about them.$1\"/pause 600/speak Penny \"Just a moment, Sam.$0\"/pause 500/faceDirection Penny 1/pause 550/speak Penny \"Vincent, Jas, finish exercises 5 and 8.$0#$b#I'm going to help Sam and then we will go over them, okay?$1\"/pause 600/faceDirection Penny 3/pause 550/speak Penny \"Come with me.$1\"/pause 750/viewport move 0 -1 3700/move Penny -1 0 0/move Penny 0 -4 1/move Penny 3 0 0/move Sam 1 0 0/move Sam 0 -4 1/move Sam 2 0 0/pause 900/emote Penny 56/pause 600/emote Sam 56/pause 2000/end dialogue Sam \"Penny is so kind, don't you think, @?\""
+            },
+      },
+     //Sam's House | 4 hearts
+{
+"Action": "EditData",
+"Target": "Data/Events/SamHouse",
+"Entries": {
+            "59020004/e 59020003/f Penny 1000/f Sam 1000/t 1300 1600": "jaunty/5 15/farmer 7 5 2 Sam 4 14 2 Penny 4 26 0/skippable/pause 1500/playSound doorOpen/move Penny 0 -10 0/pause 800/speak Penny \"Hello, Sam.$0\"/pause 700/speak Sam \"Hi, Penny.$0\"/pause 800/speak Penny \"I've come to give Vincent a new book.$0\"/pause 380/speak Sam \"Vincent?$0#$b#He's not home now. I think he went to visit Jas.$0\"/pause 800/speak Penny \"Oh...$2#$b#Well, then I'm going to come by later.$2\"/pause 300/speak Penny \"See you, Sam.$0\"/pause 380/faceDirection Penny 2/pause 100/emote Sam 16/pause 200/speak Sam \"Wait, Penny!$8\"/pause 500/faceDirection Penny 0/pause 300/emote Penny 8/pause 300/speak Sam \"Actually...$0#$b#I was hoping you would give me your opinion about a new song that I've been working on.$1\"/pause 380/speak Sam \"You know, you helped me a lot by recommending that book.$1\"/pause 800/speak Penny \"I would love to, Sam.$1\"/pause 380/emote Sam 32/pause 300/speak Sam \"Cool!$1\"/pause 380/speak Sam \"Come to my room, I've my guitar there.$0\"/pause 650/viewport move 2 0 5000/move Sam 0 1 1/move Sam 8 0 0/doAction 12 14/move Sam 0 -2 1/move Sam 5 0 2/move Sam 0 2 1/move Penny 0 -1 1/move Penny 8 0 0/move Penny 0 -2 1/move Penny 7 0 2/move Penny 0 2 3/pause 500/playMusic sampractice/animate Sam false true 200 22 23/pause 500/emote Sam 56/pause 550/emote Penny 20/pause 2000/end dialogue Penny \"Sam plays the guitar very well.$1\""
+            },
+      },
+   ]
+}

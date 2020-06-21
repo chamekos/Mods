@@ -1,0 +1,21 @@
+{
+  "Name": "Nagito Spouse Room and Locations",
+  "Author": "LavenderLight",
+  "Version": "1.0.0",
+  "Description": "Spouse Room and festival locations",
+  "UniqueID": "Lavender.Nagitolocations",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+   },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+     {
+      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true,
+   },
+  ]
+}

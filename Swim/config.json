@@ -1,0 +1,9 @@
+{
+  "EnableMod": true,
+  "SwimByDefault": false,
+  "JumpTimeInMilliseconds": 500,
+  "SwimKey": "J",
+  "SwimSuitKey": "K",
+  "DiveKey": "H",
+  "oxygenMult": 2
+}

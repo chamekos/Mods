@@ -1,0 +1,29 @@
+[
+    {
+		"Id": "NagitoDinner",
+		"GroupID": "Nagito.Mail",
+		"Title": "Dinner at Nagito's!",
+		"Text": "Hello @,^ I was wondering if you’d mind coming by my place tonight around 5:30? I have a surprise. ^ See you then?^   -Nagito",
+
+		"LetterBG": "NagitoStationary.png",  
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Nagito", "FriendshipLevel": 8 }
+		]
+	},
+	{
+		"Id": "NagitoGift",
+		"GroupID": "Nagito.Mail",
+		"Title": "A Gift from Nagito?",
+		"Text": "@! Hello!^I found you something! I hope you like it, and if you don't, just don't tell me okay?^I hope it makes you happy! (oops repeated myself but I wrote this in pen ah well)^   -Nagito",
+		"Attachments": [{"Type": "Object", "Name":"Star Shards", "Stack": 1},],
+        
+		"LetterBG": "NagitoStationary.png",  
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Nagito", "FriendshipLevel": 4 }
+		]
+	},
+]

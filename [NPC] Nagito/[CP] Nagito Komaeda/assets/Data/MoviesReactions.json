@@ -1,0 +1,162 @@
+{
+	"Entries": {
+	 "Nagito": {
+        "NPCName": "Nagito",
+        "Reactions": [
+          {
+            "Tag": "documentary",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_0"
+          },
+          {
+            "Tag": "classic",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_0"
+          },
+          {
+            "Tag": "action",
+            "Response": "dislike",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_0"
+          },
+          {
+            "Tag": "horror",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_1"
+          },
+          {
+            "Tag": "comedy",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_2"
+          },
+          {
+            "Tag": "winter_movie_0",
+            "Response": "love",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Hmm... I wonder what the 'miracle' is?$u"
+              },
+              "DuringMovie": {
+                "ResponsePoint": "winter0_11",
+                "Script": "/shake Nagito 3000/emote Nagito 56/message \"Nagito has a warm smile on his face!\"",
+                "Text": "Wow...! Lucky them!$h"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "That was so hopeful, so inspiring...! They could had died but made it through! Really restores your faith in humanity!$h"
+              }
+            },
+            "ID": "reaction_3"
+          },
+          {
+            "Tag": "winter_movie_1",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "I heard this film explores the inner conflicts of the lead... should be exciting!"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/message \"Nagito is watching attentively.\"",
+                "Text": ""
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "That film leaves you with questions, huh? I enjoyed the ambiguous ending.#$b# Thanks for inviting me...!$h"
+              }
+            },
+            "ID": "reaction_4"
+          },
+          {
+            "Tag": "love",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "This sounds like a good one, @."
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/message \"Nagito is fully immersed in the film...\"",
+                "Text": "...$9"
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "That was a good little adventure, wasn't it?"
+              }
+            },
+            "ID": "reaction_5"
+          },
+          {
+            "Tag": "like",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Thank you for inviting me, @."
+              },
+              "DuringMovie": null,
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "There were some silly parts, but I liked it.$9"
+              }
+            },
+            "ID": "reaction_6"
+          },
+          {
+            "Tag": "dislike",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": {
+              "BeforeMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Are you excited, @?"
+              },
+              "DuringMovie": {
+                "ResponsePoint": null,
+                "Script": "/message \"Nagito seems to be falling asleep...\"",
+                "Text": ""
+              },
+              "AfterMovie": {
+                "ResponsePoint": null,
+                "Script": "",
+                "Text": "Sorry for dozing off there! I guess it wasn't for me!$6"
+              }
+            },
+            "ID": "reaction_7"
+          },
+          {
+            "Tag": "family",
+            "Response": "like",
+            "Whitelist": [],
+            "SpecialResponses": null,
+            "ID": "reaction_8"
+     }
+    ]
+  },
+ }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Nagito Locations",
+    "version": "1.0.0", 
+    "author": "Lavender",
+    "festivalSpots": [  
+        {
+        "name": "Nagito",
+        "map": "Town-EggFestival", 
+        "position": [31, 74],
+        "direction": 0
+        },
+		  {
+        "name": "Nagito",
+        "map": "Forest-FlowerFestival", 
+        "position": [26, 37],
+        "direction": 2
+        },
+		  {
+        "name": "Nagito",
+        "map": "Beach-Luau", 
+        "position": [30, 17],
+        "direction": 1
+        },
+		  {
+        "name": "Nagito",
+        "map": "Beach-Jellies", 
+        "position": [35, 36],
+        "direction": 2
+        },
+		  {
+        "name": "Nagito",
+        "map": "Town-Fair", 
+        "position": [32, 66],
+        "direction": 2
+        },
+		  {
+        "name": "Nagito",
+        "map": "Town-Halloween", 
+        "position": [38, 22],
+        "direction": 0
+        },
+		  {
+        "name": "Nagito",
+        "map": "Forest-IceFestival", 
+        "position": [75, 24],
+        "direction": 2
+        },
+		  {
+        "name": "Nagito",
+        "map": "Town-Christmas", 
+        "position": [23, 67],
+        "direction": 2
+        },
+    ],
+  "addMaps": [
+    {
+      "name": "NagitoCottage",
+      "file": "assets/NagitoCottage.tbin" 
+    },
+	],
+"spouseRooms": [
+        {
+        "name": "Nagito",
+        "file": "NagitoSpouseRoom.tmx",
+        }
+   ],
+}

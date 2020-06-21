@@ -1,0 +1,11 @@
+{
+  "Name": "Life Cycle - Sebastian & Abigail",
+  "Author": "nraittanna",
+  "Version": "1.6.1",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Sebastian and Abigail dating version.",
+  "UniqueID": "nraittanna.LifeCycleSA",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

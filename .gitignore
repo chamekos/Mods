@@ -1,5 +1,6 @@
 vortex.deployment.json
 .DS_Store
+._.DS_Store
 __folder_managed_by_vortex
 /.idea/
 *.save

@@ -1,0 +1,25 @@
+﻿{
+    "Name": "[CCM] Regional Cuisine Korean Dish",
+    "Author": "KAYA",
+    "Version": "1.0.0",
+    "Description": "Regional Cuisine's Custom Cask Mod component.",
+    "UniqueID": "RCK.customcaskmod",
+    "MinimumApiVersion": "3.3.2",
+    "Dependencies": [
+    {
+        "UniqueID": "ppja.artisanvalleymachinegoods",
+		"IsRequired": true,
+	},
+    {
+        "UniqueID": "ppja.artisanvalleyPFM",
+		"IsRequired": true,
+    },   
+	{	"UniqueID": "RCK.JAPreserve",
+		"IsRequired": true,
+    },  
+],
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.CustomCaskMod"
+    }
+}
