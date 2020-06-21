@@ -1,7 +1,7 @@
 {
   "Name": "Style-Compromise General BAGI Patch",
   "Author": "Cheerybelle",
-  "Version": "1.7.0",
+  "Version": "1.8.0",
   "Description": "Adds BAGI icons for various mods that didn't have them.",
   "UniqueID": "Cheerybelle.CompromiseBAGIGeneral",
   "MinimumApiVersion": "2.2.0",

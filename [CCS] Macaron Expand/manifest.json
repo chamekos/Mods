@@ -1,7 +1,7 @@
 {
 	"Name": "[CCS] Macaron oven",
 	"Author": "KAYA",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"Description": "Making Macaron only from Macaron oven!",
 	"UniqueID": "KAYA.CCSMacaronoven",
 	"Dependencies": [

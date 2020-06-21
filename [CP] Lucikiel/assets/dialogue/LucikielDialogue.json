@@ -57,5 +57,19 @@
   "give_flowersA": "Let's be clear, @: I recognize that look in your eyes. It's no secret what you want.$11",
   "give_flowersB": "...! Were you always this bold?$l",
   "give_pendent": "So you wish to court me, @? The feeling is mutual.$11#$b#I love you, and I want to spend the rest of eternity with you.$11",
-  "stardrop_gift": "Oh, @. I would conquer the world if it means having you in it.$l"
+  "stardrop_gift": "Oh, @. I would conquer the world if it means having you in it.$l",
+  "reject_two_heartA": "...What are you doing?$7",
+  "reject_two_heartB": "...Hmph. Do what you came here to do, and just go back already.$7",
+  "reject_four_heartA": "I know I told you to come back if you're bored, but no.",
+  "reject_four_heartB": "Not interested.",
+  "engageA": "When you make a contract, you must honor it. Keep your words close to your heart.#$b#In this case, don't start going back on a lifetime commitment to your significant other.$7",
+  "engageB": "I may be a demon, but I'm not one to betray the affections of others.$a",
+  "marriedA": "Heh, no thanks. I'm not interested in someone else's leftover dregs.$u",
+  "marriedB": "There's nothing I hate more than playing with the affections of others. You're quite cruel.$a",
+  "refusal_no_heartsA": "Your wrist is awfully thin. How easy it would be for it to snap if you keep dangling those flowers in my face.$a",
+  "refusal_no_heartsB": "Did you want to fight? What a flimsy way to provoke me to a duel.$a",
+  "refusal_knownA": "If I was looking for a partner, I would want it to be someone my equal.$u",
+  "refusal_knownB": "What makes you think you're worthy enough to stand by my side?$8",
+  "refusal_botherA": "You're testing my patience. I'd rather date Clint.",
+  "refusal_botherB": "You're an eyesore. Get out of my sight.$7"
 }

@@ -1,7 +1,7 @@
 {
    "Name": "Mike",
    "Author": "SYS",
-   "Version": "1.0.5",
+   "Version": "1.0.6",
    "Description": "A custom NPC named Mike is added to the game.",
    "UniqueID": "SYS.mike",
    "UpdateKeys": ["Nexus:6288"],

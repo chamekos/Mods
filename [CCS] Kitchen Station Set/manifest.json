@@ -1,13 +1,17 @@
 {
 	"Name": "[CCS] Kitchen Station Set",
 	"Author": "KAYA",
-	"Version": "1.0.0",
+	"Version": "1.0.1",
 	"Description": "Kitchen Station Set",
 	"UniqueID": "KAYA.CCSKitchenStation",
 	"Dependencies": [
 		{
 			"UniqueID": "KAYA.JAKitchenStationSet",
 			"IsRequired": true,
+		},
+		{
+			"UniqueID": "ppja.artisanvalleymachinegoods",
+			"IsRequired": false,
 		},
 		{
 			"UniqueID": "paradigmnomad.morefood",
@@ -27,6 +31,10 @@
 		},
 		{
 			"UniqueID": "ppja.christmassweets",
+			"IsRequired": false,
+		},
+		{
+			"UniqueID": "KAYA.FatCaron",
 			"IsRequired": false,
 		},
 		{

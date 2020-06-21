@@ -1,5 +1,8 @@
 Arknir's Guide to Lucikiel
 
+Stardew Valley Expanded update!
+Fixed the schedules and events to match all the new maps. This took so long, but I'm glad Lucikiel is finally compatible!
+
 Heart Events Guide:
 - 0 Heart: Talk to Lucikiel once and enter town from 6:00 am - 5:30 pm, must be sunny
 - 2 Heart: Enter Forest from 6:00 am - 7:00 pm, must be sunny

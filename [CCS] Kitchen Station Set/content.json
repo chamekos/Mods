@@ -2,7 +2,7 @@
 	"CraftingStations" : [ 
 	{ 
 		"BigCraftable" : "Kitchen Counter", //Cooking without fire
-		//"TileData": "Kitchen Counter",
+		"TileData": "Kitchen Counter",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -16,6 +16,8 @@
 		"Fish Taco",
 		"Sashimi",
 		"Maki Roll",
+		//Artisan Valley
+		"Hot Sauce",
 		//PPJA More Recipes
 		"Celery and Peanut Butter",
 		"Chef Salad",
@@ -85,7 +87,7 @@
 	}, 
 	{ 
 		"BigCraftable" : "Induction Oven", //Cooking with fire
-		//"TileData": "Induction Oven",
+		"TileData": "Induction Oven",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -236,7 +238,7 @@
 	}, 
 	{ 
 		"BigCraftable" : "Dessert Station",  //Dessert
-		//"TileData": "Dessert Station",
+		"TileData": "Dessert Station",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -256,6 +258,14 @@
 		"Pumpkin Pie",
 		"Stuffing",
 		"Strange Bun",
+		//Artisan Valley
+		"Petit Fours",
+		"Biscotti",
+		"Croissant",
+		"Cake Pops",
+		"Pound Cake",
+		"Scone",
+		"Pumpkin Spice Scone",
 		//PPJA More Recipes
 		"Banana Bread",
 		"Banana Pudding",
@@ -377,11 +387,80 @@
 		"Cherry Blossom Pudding",
 		"Cherry Blossom Panna cotta",
 		"Cherry Blossom Meringue Cookie",
-		"Cherry Blossom Macaron",
 		"Cherry Blossom Cheese Cake",
 		"Cherry Blossom Chiffon Cake",
 		"Cherry Blossom Roll Cake",
 		"Cherry Blossom Rice Cake",
+		"Cherry Blossom Macaron",
+		//Macaron Expand
+		"Butter Cream Filling",
+		"Milk Cream Filling",
+		"Yogurt Filling",
+		"Coffee Filling",
+		"Ganache Filling",
+		"Caramel Cream Filling",
+		"Ice Cream Ddong-caron",
+		"Milk Ddong-caron",
+		"Cherry Ddong-caron",
+		"Melon Ddong-caron",
+		"Sweet Corn Ddong-caron",
+		"Fig Ddong-caron",
+		"Walnut Ddong-caron",
+		"Apple Cinnamon Ddong-caron",		
+		"Vanilla Ddong-caron",
+		"Strawberry Ddong-caron",
+		"Pumpkin Ddong-caron",
+		"Avocado Ddong-caron",
+		"Egg Tart Ddong-caron",
+		"Maple Pecan Ddong-caron",
+		"Apricot Yogurt Ddong-caron",
+		"Apple Yogurt Ddong-caron",
+		"Peach Yogurt Ddong-caron",
+		"Orange Yogurt Ddong-caron",
+		"Melon Yogurt Ddong-caron",
+		"Grape Yogurt Ddong-caron",
+		"Lemon Yogurt Ddong-caron",
+		"Berry Yogurt Ddong-caron",
+		"Coffee Ddong-caron",
+		"Dalgona Ddong-caron",
+		"Green Tea Ddong-caron",
+		"Cheese Ddong-caron",		
+		"Ganache Ddong-caron",
+		"Cherry Ganache Ddong-caron",
+		"Nutella Ddong-caron",		
+		"Tiramisu Ddong-caron",
+		"Choco-Strawberry Ddong-caron",
+		"Choco-Orange Ddong-caron",
+		"Choco-Banana Ddong-caron",
+		"Choco-Coconut Ddong-caron",
+		"Choco-Green Tea Ddong-caron",
+		"Choco-Berry Ddong-caron",
+		"Cookie&Cream Ddong-caron",
+		"Pigbar Ddong-caron",
+		"Strawberry&Banana Ddong-caron",
+		"Rose Ddong-caron",
+		"Sweet Potato Ddong-caron",
+		"Carrot Cake Ddong-caron",
+		"Injeolmi Ddong-caron",
+		"Red Bean Butter Ddong-caron",
+		"Green Tea & Red Bean Ddong-caron",
+		"Chunky Nut Ddong-caron",
+		"Mango Yogurt Ddong-caron",
+		"Pina Colada Ddong-caron",
+		"Tropical Ddong-caron",
+		"Mint Chocolate Ddong-caron",
+		"Mojito Ddong-caron",
+		"Milk Chocochip Ddong-caron",
+		"Milk Tea Ddong-caron",
+		"Caramel Ddong-caron",
+		"Salt Caramel Ddong-caron",
+		"Red Velvet Cheese Ddong-caron",
+		"Blueberry CheeseCake Ddong-caron",
+		"Brownie&CheeseCake Ddong-caron",
+		"Choco-Caramel Ddong-caron",
+		"Lavender Ddong-caron",
+		"MontBlanc Ddong-caron",
+		"Sesame Ddong-caron",
 		//Shaved Ice & Frozen Treats
 		"Waffle Cone",
 		//SSaturn's Tropical Farm
@@ -405,7 +484,7 @@
 	},  
 	{ 
 		"BigCraftable" : "Snack Bar",  //Tea, Soft drink and snack
-		//"TileData": "Snack Bar",
+		"TileData": "Snack Bar",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -457,6 +536,8 @@
 		"Prismatic Popsicle",
 		"Neapolitan Popsicle",
 		"Muskmelon Strawberry Popsicle",
+		//Artisan Valley
+		"Hot Cocoa",
 		//PPJA Christmas Sweets
 		"Peppermint Hot Chocolate",
 		"Spiked Eggnog",
