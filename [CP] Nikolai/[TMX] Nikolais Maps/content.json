@@ -1,0 +1,92 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "NikolaisHome",
+      "file": "assets/Maps/NikolaisHome.tbin",
+  
+    },
+    {
+      "name": "NikolaisProperty",
+      "file": "assets/Maps/NikolaisProperty.tbin",
+    },
+    {
+      "name": "Forestevent",
+      "file": "assets/Maps/Forestevent.tbin",
+    },
+     {
+      "name": "Forestlake",
+      "file": "assets/Maps/Forestlake.tbin",
+    },
+    {
+      "name": "NikolaisPropertyEvent",
+      "file": "assets/Maps/NikolaisPropertyEvent.tbin",
+    },
+    {
+      "name": "NikolaisPropertyEvent2",
+      "file": "assets/Maps/NikolaisPropertyEvent2.tbin",
+    },
+    {
+      "name": "Marketpalooza",
+      "file": "assets/Maps/Marketpalooza.tbin",
+    },
+     {
+      "name": "TheClub",
+      "file": "assets/Maps/TheClub.tbin",
+    },
+     {
+      "name": "CatEvent",
+      "file": "assets/Maps/CatEvent.tbin",
+    },
+     {
+      "name": "CatBeach",
+      "file": "assets/Maps/CatBeach.tbin",
+    },
+  ],
+ "mergeMaps": [
+    {
+      "name": "Town",
+      "file": "assets/Maps/Town.tbin",
+      "sourceArea": [ 0, 0, 9, 9 ],
+      "position": [ 66, 101 ],
+      "addWarps": [
+        "71 109 NikolaisProperty 18 22"
+      ]
+    },
+       {
+      "name": "Town-Fair",
+      "file": "assets/Maps/Town.tbin",
+      "sourceArea": [ 0, 0, 9, 9 ],
+      "position": [ 66, 101 ],
+      "addWarps": [
+        "71 109 NikolaisProperty 18 22"
+       ],
+    },
+     {
+      "name": "Town-Christmas",
+      "file": "assets/Maps/Town.tbin",
+      "sourceArea": [ 0, 0, 9, 9 ],
+      "position": [ 66, 101 ],
+      "addWarps": [
+        "71 109 NikolaisProperty 18 22"
+       ],
+    },
+     {
+      "name": "Town-Halloween",
+      "file": "assets/Maps/Town.tbin",
+      "sourceArea": [ 0, 0, 9, 9 ],
+      "position": [ 66, 101 ],
+      "addWarps": [
+        "71 109 NikolaisProperty 18 22"
+       ],
+    },
+     {
+      "name": "Town-EggFestival",
+      "file": "assets/Maps/Town.tbin",
+      "sourceArea": [ 0, 0, 9, 9 ],
+      "position": [ 66, 101 ],
+      "addWarps": [
+        "71 109 NikolaisProperty 18 22"
+       ],
+    },
+  ]
+}

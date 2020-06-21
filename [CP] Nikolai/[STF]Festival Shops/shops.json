@@ -1,0 +1,218 @@
+﻿{
+  "Shops": [
+    {
+      "ShopName": "RobinsFurniture",
+      "ShopPrice": 3000,
+      "ItemStocks": [
+        {
+          "ItemType": "Furniture",
+          "ItemNames": [
+            "Dark Throne",
+            "King Chair",
+            "Cute Chair",
+            "Mahogany Bench",
+            "Modern Bench",
+            "Dark Couch",
+            "Woodsy Couch",
+            "Wizard Couch",
+            "Dark Table",
+            "Sun Table",
+            "Moon Table",
+            "Dark Bookcase",
+            "Luxury Bookcase",
+            "Elegant Fireplace",
+            "Plasma TV",
+            "China Cabinet",
+          ],
+        },
+      ]
+    },
+     {
+      "ShopName": "NikolaisHoney",
+      "ShopPrice": 550,
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+           "Cherry Blossom Honey",
+           "Lava Honey",
+           "Seafoam Honey",
+           "Snow Honey",
+           "Void Honey",
+           "Sunshine Honey",
+          ],
+        },
+      ]
+    },
+     {
+      "ShopName": "StrangersStand",
+      "ShopPrice": 50000,
+      "ItemStocks": [
+        {
+          "ItemType": "Ring",
+          "ItemNames": [
+           "Wedding Ring",
+           "Small Glow Ring",
+           "Glow Ring",
+           "Small Magnet Ring",
+           "Magnet Ring",
+           "Slime Charmer Ring",
+           "Vampire Ring",
+           "Savage Ring",
+           "Ring of Yoba",
+           "Sturdy Ring",
+           "Burglar's Ring",
+           "Iridium Band",
+           "Jukebox Ring",
+           "Ruby Ring",
+          ],
+        },
+      ]
+    },
+       {
+      "ShopName": "WizardsShop",
+      "ShopPrice": 4000,
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+          "Solar Essence",
+          "Void Essence",
+          "Enchanted Tonic",
+          "Tonic of Rest",
+          "Essence of Luck",
+          "Tonic of Shielding",
+          "Green Thumb Tonic",
+          ],
+        },
+      ]
+    },
+    {
+      "ShopName": "GusShop",
+      "ShopPrice": 100,
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+          "Survival Burger",
+          "Alexander Cocktail",
+          "Americano",
+          "Angel Face",
+          "Aviation",
+          "Barracuda Cocktail",
+          "Bay Breeze",
+          "Bellini",
+          "Black Junimo",
+          "Club Soda",
+          "Death in the Afternoon",
+          "Espresso Martini",
+          "Void Essence Drink",
+          ],
+        },
+      ]
+    },
+   {
+  "ShopName": "PierresShop",
+  "ShopPrice": 16000,
+  "ItemStocks": [
+    {
+      "ItemType": "Clothing",
+      "ItemNames": [
+        "Classic Overalls",
+        "Mint Blouse",
+        "Dark Shirt",
+        "Skull Shirt",
+        "Light Blue Shirt",
+        "Tan Striped Shirt",
+        "Prismatic Pants",
+        "Prismatic Genie Pants",
+        "Green Overalls",
+        "Good Grief Shirt",
+        "Aquamarine Shirt",
+        "Suit Top",
+        "Green Belted Shirt",
+        "Lime Green Striped Shirt",
+        "Red Striped Shirt",
+        "Skeleton Shirt",
+        "Night Sky Shirt",
+        "Mayoral Suspenders",
+        "Retro Rainbow Shirt",
+        "Farmer Pants",
+        "Shorts",
+        "Dress",
+        "Skirt",
+        "Pleated Skirt",
+        "Dinosaur Pants",
+        "Grass Skirt",
+        "Luau Skirt",
+        "Genie Pants",
+        "Tight Pants",
+        "Baggy Pants",
+        "Simple Dress",
+        "Trimmed Lucky Purple Shorts",
+        "Heart Shirt",
+        "Brown Jacket",
+        "Light Blue Striped Shirt",
+        "Pink Striped Shirt",
+        "Fancy Red Blouse",
+        "Cowboy Poncho",
+        "Flannel Shirt",
+        "Blue Hoodie",
+        "Studded Vest",
+        "Jester Shirt",
+        "Darkness Suit"
+      ]
+    },
+    {
+      "ItemType": "Boot",
+      "ItemNames": [
+        "Sneakers",
+        "Rubber Boots",
+        "Leather Boots",
+        "Work Boots",
+        "Combat Boots",
+        "Tundra Boots",
+        "Thermal Boot",
+        "Dark Boots",
+        "Firewalker Boots",
+        "Genie Shoes",
+        "Space Boots",
+        "Cowboy Boots",
+        "Leprechaun Shoes"
+      ]
+    }
+  ]
+},
+    {
+      "ShopName": "GemShop",
+      "ShopPrice": 3000,
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+          "ItemNames": [
+            "Emerald",
+            "Aquamarine",
+            "Ruby",
+           
+            "Nekoite",
+            "Orpiment",
+            "Petrified Slime",
+            "Thunder Egg",
+            "Pyrite",
+            "Ocean Stone",
+            "Ghost Crystal",
+            "Jasper",
+            "Celestine",
+            "Marble",
+            "Mudstone",
+            "Obsidian",
+            "Slate",
+            "Fairy Stone",
+            "Star Shards",
+
+          ],
+        },
+      ]
+    },
+  ]
+}

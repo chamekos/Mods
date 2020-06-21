@@ -1,0 +1,82 @@
+{
+"festivalSpots": 
+[ 
+{
+"name": "Nikolai",
+"map": "Town-EggFestival", 
+"position": [36, 65],
+"direction": 2,
+"position2": [36, 65],
+"direction2": 2
+},
+{
+"name": "Nikolai",
+"map": "Forest-FlowerFestival", 
+"position": [27, 38],
+"direction": 2,
+ "position2": [20,22],
+  "direction2": 2
+},
+{
+"name": "Nikolai",
+"map": "Beach-Luau", 
+"position": [23, 7],
+"direction": 2,
+ "position2": [20,22],
+  "direction2": 2
+},
+{
+"name": "Nikolai",
+"map": "Beach-Jellies", 
+"position": [14, 39],
+"direction": 2,
+ "position2": [13,32],
+  "direction2": 1
+},
+{
+"name": "Nikolai",
+"map": "Town-Fair", 
+"position": [21,77],
+"direction": 1
+},
+{
+"name": "Nikolai",
+"map": "Town-Halloween", 
+"position": [29, 62],
+"direction": 0,
+ "position2": [29, 62],
+  "direction2": 0
+},
+{
+"name": "Nikolai",
+"map": "Forest-IceFestival", 
+"position": [66, 50],
+"direction": 2,
+ "position2": [78, 41],
+  "direction2": 3
+},
+{
+"name": "Nikolai",
+"map": "Town-Christmas", 
+"position": [31, 76],
+"direction": 2,
+ "position2": [31, 76],
+  "direction2": 2
+},
+{
+"name": "Nikolai",
+"map": "Marketpalooza", 
+"position": [54, 30],
+"direction": 2,
+ "position2": [48, 31],
+  "direction2": 2
+},
+],
+
+  "spouseRooms": [
+	{
+      "name": "Nikolai",
+	  "file": "NikolaisRoom.tmx",
+    }
+  ]
+}
