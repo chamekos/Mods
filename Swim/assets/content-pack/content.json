@@ -3,6 +3,10 @@
 		{
 			"name": "UnderwaterBeach",
 			"file": "assets/UnderwaterBeach.tbin"
+		},
+		{
+			"name": "UnderwaterMountain",
+			"file": "assets/UnderwaterMountain.tbin"
 		}
 	]
 }

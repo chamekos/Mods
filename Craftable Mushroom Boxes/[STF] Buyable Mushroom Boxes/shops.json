@@ -1,0 +1,51 @@
+{
+  "VanillaShops": [
+	{
+      "ShopName": "RobinShop",
+	  "AddStockAboveVanilla": "true",
+      "ItemStocks": [
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": "6000",
+          "ItemNames": [
+			"Mushroom Box"
+          ],	
+		"When": [
+        "e 65, f Robin 750",
+		]		  
+        },
+        {
+          "ItemType": "BigCraftable",
+		  "IsRecipe": "True",
+		  "StockPrice": "24000",
+          "ItemNames": [
+            "Mushroom Box"
+          ],
+		"When": [
+        "e 65, f Robin 750", 
+		]
+        },
+        {
+          "ItemType": "Object",
+		  "StockPrice": "75",
+          "ItemNames": [
+            "Hardwood"
+          ],
+		"When": [
+        "y 1", 
+		]
+        },
+        {
+          "ItemType": "Object",
+		  "StockPrice": "375",
+          "ItemNames": [
+            "Hardwood"
+          ],
+		"When": [
+        "!y 1", 
+		]
+        },
+      ],
+    },
+  ]
+}

@@ -675,10 +675,88 @@
         "ProducerName": "Seafood Drying Rack", 
         "InputIdentifier": "-4", //Fish Category
         "InputStack": 1, 
+		"ExcludeIdentifiers": ["151", "798", "149"], //Exclude Octopus and Squid
         "MinutesUntilReady": 2250,
         "OutputIdentifier":"Dried Seafood",
         "OutputName": "Dried {inputName}",
         "OutputTranslationKey": "DryingRack.Fish",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "149", //Octopus
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Octopus",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "1058", //Mimic Octopus NewFish
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Octopus",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "1061", //Dumbo Octopus NewFish
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Octopus",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "151", //Squid
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Squid",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "798", //Midnight Squid
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Squid",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "1060", //Stubby Squid NewFish
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Squid",
+        "InputPRiceBased": true,
+        "OutputPRiceIncrement": 0,
+        "OutputPRiceMultiplier": 2,
+        "Sounds": ["Ship"],
+    },
+    {
+        "ProducerName": "Seafood Drying Rack", 
+        "InputIdentifier": "1106", //Brief Squid NewFish
+        "InputStack": 1, 
+        "MinutesUntilReady": 2250,
+        "OutputIdentifier":"Dried Squid",
         "InputPRiceBased": true,
         "OutputPRiceIncrement": 0,
         "OutputPRiceMultiplier": 2,

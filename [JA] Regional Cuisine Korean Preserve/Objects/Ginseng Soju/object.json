@@ -3,7 +3,7 @@
     "Name": "Ginseng Soju",
     "Description": "Soju infused with flavor of ginseng. Drink in moderation.",
     "Category": "ArtisanGoods",
-    "Edibility": 20,
+    "Edibility": 90,
     "EdibleIsDrink": true,
     "EdibleBuffs":
     {
@@ -12,7 +12,7 @@
         "Mining": 0,
         "Luck": 0,
         "Foraging": 0,
-        "MaxStamina": 0,
+        "MaxStamina": 3,
         "MagnetRadius": 0,
         "Speed": -2,
         "Defense": 0,
