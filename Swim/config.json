@@ -1,9 +1,13 @@
 {
   "EnableMod": true,
-  "SwimByDefault": false,
+  "ReadyToSwim": false,
+  "SwimSuitAlways": false,
   "JumpTimeInMilliseconds": 500,
   "SwimKey": "J",
   "SwimSuitKey": "K",
   "DiveKey": "H",
-  "oxygenMult": 2
+  "OxygenMult": 2,
+  "BubbleMax": 20,
+  "AllowActionsWhileInSwimsuit": true,
+  "AddFishies": true
 }
