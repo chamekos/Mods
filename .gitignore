@@ -26,3 +26,5 @@ Paritee's Better Farm Animal Variety/cache/*
 *.vortex_backup
 #this is ignore because not compatible with multiplayer
 HarpOfYobaRedux
+
+/NPCMapLocations/config/*
