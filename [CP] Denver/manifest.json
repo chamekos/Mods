@@ -1,0 +1,23 @@
+{
+  "Name": "Denver",
+  "Author": "balverines",
+  "Version": "0.0.1",
+  "Description": "A new NPC",
+  "UniqueID": "balverines.Denver",
+  "UpdateKeys": [ "Nexus:4594" ],
+  "MinimumApiVersion": "2.9",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "FTMBdHouse",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "misscoriel.courtship",
+	  "IsRequired": false
+   },
+  ]
+}

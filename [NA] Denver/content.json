@@ -1,0 +1,40 @@
+{
+  "Format": "1.1",
+  "Changes": [
+    {
+      "Action": "Edit",
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDispositions.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Dialogue/Denver",
+      "FromFile": "assets/Dialogues/Denver.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.json"
+	},
+	{
+      "Action": "Edit",
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json"
+    },
+    {
+      "Action": "Edit",
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffs.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json"
+    }
+  ]
+}

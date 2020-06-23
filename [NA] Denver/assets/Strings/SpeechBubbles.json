@@ -1,0 +1,15 @@
+{
+    "ambient_Mine_Denver": "This place looks fun!",
+    "ambient_Mine_Denver~1": "This place is a little scary!",
+    "ambient_Mine_Denver~2": "Grab what you need, I'll cover you.",
+    "ambient_Mine_Denver~3": "Ok, let's go!",
+    "ambient_Woods_Denver": "I love the sounds of the birds here.",
+    "ambient_Woods_Denver~1": "Slimes everywhere!",
+	"ambient_Town_Denver" : "I want to go somewhere else...",
+	"ambient_Town_Denver~1" : "Maybe Clint can make me a new sword...",
+    "fight_Denver": "That was nothing!",
+    "fight_Denver~1": "Bring it on!",
+	"fight_Denver~2": "Anyone wants some?",
+	"fight_Denver~3": "Get lost monster!",
+	"fight_Denver~4": "My sword will cut you in two!"
+}
