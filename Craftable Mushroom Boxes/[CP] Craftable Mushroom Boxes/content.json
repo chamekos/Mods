@@ -1,0 +1,121 @@
+{
+	"Format": "1.14.0",
+   "ConfigSchema": {
+      "Obtain": {
+         "AllowValues": "Purchase Only, Event, Combat, Forage, Farming",
+         "Default": "Purchase Only"
+      }
+   },
+   "DynamicTokens": [
+      {
+         "Name": "Method",
+         "Value": "l 2",
+		 "When": {
+			"Obtain": "Purchase Only, Event"
+			},
+      },
+      {
+         "Name": "Method",
+         "Value": "Combat 6",
+		 "When": {
+			"Obtain": "Combat"
+			},
+      },
+      {
+         "Name": "Method",
+         "Value": "Foraging 6",
+		 "When": {
+			"Obtain": "Forage"
+			},
+      },
+      {
+         "Name": "Method",
+         "Value": "Farming 6",
+		 "When": {
+			"Obtain": "Farming"
+			},
+      },
+      ],
+    "Changes": [
+        {
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries":  {
+                     "Mushroom Box": "709 10 368 3 557 3 725 1/Home/128/true/{{Method}}/Mushroom Box",
+                    },
+        },
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries":  {
+					"9925530/f Robin 750/m 40000/t 600 1130/e 65": "continue/64 15/farmer 64 16 2 Robin 64 18 0/pause 1500/speak Robin \"Hey there. How's your morning been?#$b#I heard my husband was by the other day. Something about setting up the cave on your farm for research?\"/pause 500/speak Robin \"He got so caught up in that project. It made me happy to see him so fulfilled!\"/pause 500/speak Robin \"He left some blueprints for the mushroom boxes lying around. I made a copy to come give to you as thanks.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mushroom Box/pause 3300/message \"Learned how to craft a 'Mushroom Box'\"/pause 800/speak Robin \"Mushrooms will grow best in warm, damp places. Like your farm cave!\"/pause 500/faceDirection Robin 1/pause 500/faceDirection Robin 0/speak Robin \"They'll probably work just fine elsewhere though.#$b#Well, gotta get back home! Enjoy the mushrooms!\"/end"
+					},
+		"When": {
+			"Obtain": "Event"
+			},
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/BigCraftablesInformation",
+		"Fields":  {
+			 "128": {
+				7: "0"
+				}
+			}
+		},
+		
+		//Portuguese Version   Versão Portuguesa
+		{
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"When": { "Language": "pt" },
+		"Entries":  {
+					"Mushroom Box": "709 10 368 3 557 3 725 1/Home/128/true/{{Method}}/Caixa de cogumelos",
+					},
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"When": { "Language": "pt", "Obtain": "Event"},
+		"Entries":  {
+					"9925530/f Robin 750/m 40000/t 600 1130/e 65": "continue/64 15/farmer 64 16 2 Robin 64 18 0/pause 1500/speak Robin \"Olá. Como está a sua manhã?#$b#Eu ouvi que meu marido estava aqui outro dia. Algo sobre arrumar a caverna na sua fazenda para pesquisa?\"/pause 500/speak Robin \"Ele ficou tão preso naquele projeto. Isso me fez feliz por ver ele tão realizado!\"/pause 500/speak Robin \"Ele deixou algumas plantas para as caixas de cogumelo largadas no chão. Eu fiz uma cópia para dar a você como agradecimento.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mushroom Box/pause 3300/message \"Aprendido como fazer a ‘Caixa de Cogumelo'\"/pause 800/speak Robin \"Os cogumelos crescerão melhor em lugares aquecidos e úmidos, como a caverna na sua fazenda!\"/pause 500/faceDirection Robin 1/pause 500/faceDirection Robin 0/speak Robin \"Mas elas devem funcionar normalmente em outro lugar.#$b#Bom, preciso voltar pra casa! Aproveite os cogumelos!\"/end"
+					},
+		},
+		
+		//Chinese Version   中文版本
+		{
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"When": { "Language": "zh" },
+		"Entries":  {
+					 "Mushroom Box": "709 10 368 3 557 3 725 1/Home/128/true/{{Method}}/蘑菇盒",
+					},
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"When": { "Language": "zh", "Obtain": "Event" },
+		"Entries":  {
+					"9925530/f Robin 750/m 40000/t 600 1130/e 65": "continue/64 15/farmer 64 16 2 Robin 64 18 0/pause 1500/speak Robin \"嘿！你好啊。早上过得怎么样？#$b#我听说我丈夫前几天来过。是关于要在你家农场的洞穴里做研究的事吗？\"/pause 500/speak Robin \"他太专注于那个项目了。看到他这么充实，我很开心！\"/pause 500/speak Robin \"他留下了一些蘑菇盒的设计图。我复印了一份送给你，以示感谢。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mushroom Box/pause 3300/message \"学会了如何制作“蘑菇盒”\"/pause 800/speak Robin \"蘑菇在温暖潮湿的地方生长最好。就像你的农场洞穴！\"/pause 500/faceDirection Robin 1/pause 500/faceDirection Robin 0/speak Robin \"不过，它们在其他地方可能也会很好用。#$b#我得回家了！尽情享受蘑菇吧！\"/end"
+					},
+		},
+		
+		//Korean Version 
+		{
+		"Action": "EditData",
+		"Target": "Data/CraftingRecipes",
+		"When": { "Language": "ko" },
+		"Entries":  {
+					 "Mushroom Box": "709 10 368 3 557 3 725 1/Home/128/true/{{Method}}/버섯 상자",
+					},
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"When": { "Language": "ko", "Obtain": "Event" },
+		"Entries":  {
+					"9925530/f Robin 750/m 40000/t 600 1130/e 65": "continue/64 15/farmer 64 16 2 Robin 64 18 0/pause 1500/speak Robin \"안녕! 좋은 아침 보내고 있어?#$b#남편이 지난번에 여기 왔었다는 이야길 들었지 뭐야. 너희 농장에 있는 동굴에 연구를 위해 뭔가 설치하고 갔다지?$5\"/pause 500/speak Robin \"그이가 이 프로젝트에 푹 빠져버렸지 뭐야. 간만에 보는 그의 의욕 넘치는 모습을 보니 나까지 즐겁더라!$h\"/pause 500/speak Robin \"그이가 버섯 상자들의 도면을 여기저기 늘어놨더라구. 고맙다는 표시를 하기 위해 내게 줄 사본을 만들었어.$4\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mushroom Box/pause 3300/message \"'버섯 상자'의 제작법을 배웠습니다.”\"/pause 800/speak Robin \"버섯들은 따듯하고, 습한 장소에서 잘 자랄거야. 너희 농장 동굴 같은데 말이지!$h\"/pause 500/faceDirection Robin 1/pause 500/faceDirection Robin 0/speak Robin \"뭐, 다른 장소에 두더라도 아마 여전히 잘 자라지 않을까 싶어.#$b#자, 슬슬 집에 가볼 시간이 다 된거 같구나! 버섯 농사를 즐기렴!$4\"/end"					
+					}
+		},
+	]
+}	

@@ -7,7 +7,7 @@
   "SwimSuitKey": "K",
   "DiveKey": "H",
   "OxygenMult": 2,
-  "BubbleMax": 20,
+  "BubbleMult": 1,
   "AllowActionsWhileInSwimsuit": true,
   "AddFishies": true
 }

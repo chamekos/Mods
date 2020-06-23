@@ -1,0 +1,13 @@
+{
+  "Name": "Nagito NPC Adventures",
+  "Author": "LavenderLight",
+  "Version": "1.1",
+  "Description": "Add the boy to PurrplingCat's NPC Adventures.",
+  "UniqueID": "lavender.npcadventures.nagito",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.6.0"
+  }
+}

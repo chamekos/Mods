@@ -11,6 +11,11 @@
             "Default": "true",
             "AllowBlank": false,
 			},
+        "Nailpolish": {
+			"AllowValues": "true, false",
+            "Default": "false", 
+            "AllowBlank": false,
+			},
         
     },
 	"DynamicTokens": [
@@ -114,6 +119,14 @@
             "When":
             {
                 "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        {
+            "Name": "Nails_Overlay",
+            "Value": "Nails_Overlay",
+            "When":
+            {
+                "Nailpolish": "true"
             }
         },
     ],
@@ -510,6 +523,49 @@
       "FromFile": "assets/Image/Lore/Characters/Nagito_{{season}}_Outfit_{{WeatherVariant}}.png",
       "When": { "Variant": "lore" },
     },
+    {
+      "LogName": "Wedding Sprites - Lore",
+      "Action": "EditImage",
+      "Target": "Characters/Nagito",
+      "FromFile": "assets/Image/Lore/Characters/Nagito_Wedding.png",
+      "ToArea":
+            {
+                "X": 0,
+                "Y": 384,
+                "Width": 48,
+                "Height": 32
+            },
+      "When": { "Variant": "lore" },
+    },
+    {
+      "LogName": "Wedding Sprites - Canon",
+      "Action": "EditImage",
+      "Target": "Characters/Nagito",
+      "FromFile": "assets/Image/Canon/Characters/Nagito_Wedding.png",
+      "ToArea":
+            {
+                "X": 0,
+                "Y": 384,
+                "Width": 48,
+                "Height": 32
+            },
+      "When": { "Variant": "canon" },
+    },
+
+    {
+        "LogName": "Nagito Nails Overlay - Canon Only",
+        "Action": "EditImage",
+        "Target": "Portraits/{{Nails_Overlay}}",
+        "FromFile": "assets/Image/Canon/Nagito_Nails.png",
+        "When":
+        {
+         "Variant": "canon",
+         "Nailpolish": "true",
+            
+        },
+        "PatchMode": "Overlay"
+    },
+
   // Festivals - Canon
    {
       "LogName": "Festival Sprites - Canon",

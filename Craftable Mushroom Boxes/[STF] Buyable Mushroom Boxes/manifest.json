@@ -1,0 +1,12 @@
+{
+  "Name": "[STF] Buyable Mushroom Boxes (+Recipe)",
+  "Author": "foggywizard",
+  "Version": "1.5.1",
+  "Description": "Makes Robin sell Mushroom Boxes.",
+  "UniqueID": "foggy.buymushbox",
+  "MinimumApiVersion": "3.4.0",
+  "UpdateKeys": [ "Nexus:2899" ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

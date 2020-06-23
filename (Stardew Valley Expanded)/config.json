@@ -4,9 +4,9 @@
   "ReplaceHardwoodFences": "true",
   "CanWalkOverBeachTidepools": "false",
   "LowerProfitMargins": "false",
-  "BalancedCrafting": "false",
-  "HarderBuildingConstruction": "false",
-  "StrongerMonsters": "false",
-  "OlderSophiaPortraits": "false",
-  "MatureEvents": "false"
+  "BalancedCrafting": "true",
+  "HarderBuildingConstruction": "true",
+  "StrongerMonsters": "true",
+  "OlderSophiaPortraits": "true",
+  "MatureEvents": "true"
 }

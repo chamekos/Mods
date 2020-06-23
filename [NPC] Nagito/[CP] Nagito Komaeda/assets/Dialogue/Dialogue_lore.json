@@ -97,7 +97,7 @@
 	"rejectNPCB": "Nope.",
 	"reject_two_heartA": "It's a bit soon, isn't it?$3",
 	"reject_two_heartB": "Oh jeez... It's a no from me.",
-	"reject_four_heartA": "I'm not looking for that...$s",
+	"reject_four_heartA": "I'm not looking for that right now...$s",
 	"reject_four_heartB": "Uh... no. Sorry.$s",
 	"engageA": "You're terrible! Aren't you engaged already?!$a",
 	"engageB": "Wait, what? Aren't you engaged already?$9",
