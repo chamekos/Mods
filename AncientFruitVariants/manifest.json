@@ -1,7 +1,8 @@
 {
   "Name": "Ancient Fruit Variants",
-  "MinimumApiVersion": "2.11.1",
+  "MinimumApiVersion": "3.5.0",
   "UniqueID": "Zhellybelly.AncientFruitColorVariants",
+  "version": "1.0.0",
   "ContentPackFor": {
     "UniqueID": "spacechase0.JsonAssets"
   },
