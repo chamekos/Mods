@@ -36,10 +36,20 @@
       "Target": "Strings/SpeechBubbles",
       "FromFile": "assets/Strings/SpeechBubbles.json"
     },
+    {
+      "Action": "Edit",
+      "Target": "Strings/Mail",
+      "FromFile": "assets/Strings/Mail.json"
+    },
 	{
       "Action": "Load",
 	  "Target": "Dialogue/Nagito",
       "FromFile": "assets/Dialogue/Nagito.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Data/Swimsuits",
+      "FromFile": "assets/Sprites/Nagito_Swimsuit.png",
     },
   ]
 }
