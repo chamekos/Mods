@@ -1416,6 +1416,215 @@
       ],
       "MinimumDaysUtillBirth": null,
       "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Pink Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Tabby Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Hunter Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Phosphor Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Honey Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Boom Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Rad Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Rock Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Crystal Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Quantum Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Dervish Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Tangle Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Pure Mosaic Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Gold Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Lucky Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Puddle Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Fire Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Quicksilver Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Glitch Slime",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
     }
   ]
 }

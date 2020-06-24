@@ -25,7 +25,7 @@
               "Sprite": "Characters/Monsters/PurePink"
             }
           },
-		  {
+          {
             "MonsterName": "Dust sprite",
             "Settings": {
               "RelatedSkill": "Combat",
@@ -125,7 +125,7 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-	  {
+      {
         "MonsterTypes": [
           {
             "MonsterName": "Dust sprite",
