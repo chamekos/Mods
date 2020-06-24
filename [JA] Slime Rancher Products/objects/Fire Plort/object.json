@@ -1,0 +1,46 @@
+﻿{
+    "Name": "Fire Plort",
+    "Description": "Used to keep stoves and fireplaces burning.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "화염 플로트",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "조리용과 난방용으로 쓰인다.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_red",
+    ]
+}

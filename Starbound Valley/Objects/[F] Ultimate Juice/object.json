@@ -1,0 +1,59 @@
+{
+  "Category": "Cooking",
+  "Name": "Ultimate Juice",
+  "Description": "All the fruit, in a juice.",
+  "Price": 2513,
+  "Edibility": 500,
+  "EdibleIsDrink": true,
+  
+  "Recipe": {
+    
+  "PurchasePrice": 4272,
+  "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Krobus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Boneboo",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Toxictop",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Feathercrown",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Oculemon",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Neonmelon",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "Fishing": 5,
+	"Luck": 5,
+	"Attack": 5,
+	"Mining": 5,
+	"Farming": 5,
+	"Foraging": 5,
+    "MagnetRadius": 100,
+	"MaxStamina": 100,
+    "Defense": 10,
+	"Speed": 5,
+    "Duration": 1000,
+  },
+
+  
+}

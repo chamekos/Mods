@@ -1,0 +1,47 @@
+{
+  "Category": "Cooking",
+  "Name": "Pizzap Slice",
+  "Description": "It's good if you can get past the metallic aftertaste!",
+  "Price": 341,
+
+  "Edibility": 68,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {  
+   "PurchasePrice": 579, 
+  "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 424,
+        "Count": 1,
+      },
+	  {
+        "Object": 246,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Boltbulb",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Automato",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "MagnetRadius": 64,
+    "Duration": 120,
+  },
+  
+
+  
+}

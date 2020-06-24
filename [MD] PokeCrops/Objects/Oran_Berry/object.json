@@ -1,0 +1,9 @@
+{
+    "Name": "Oran Berry",
+    "Description": "An unusual fruit from a distant world.  It reminds you of an orange.",
+    "Price": 70,
+    "Edibility": 25,
+    "Category": "Fruit",
+    "IsColored": false,
+    "Recipe": null,
+}

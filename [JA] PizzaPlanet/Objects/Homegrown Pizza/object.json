@@ -1,0 +1,9 @@
+{
+  "Name": "Homegrown Pizza",
+  "Description": "Home grown pizza is best pizza.",
+  "Category": "ArtisanGoods",
+  "Edibility": 9,
+  "Price": 40,
+  "IsColored": false,
+  "Recipe": null,
+}

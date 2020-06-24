@@ -1,0 +1,12 @@
+{
+  "Name": "Garlic Bread",
+  "Author": "Crunch7",
+  "Version": "1.2",
+  "Description": "Adds two types of garlic bread and buter.",
+  "UniqueID": "capncrunch.garlicbreadcrop",
+  "MinimumApiVersion": "3.4.1",
+  "UpdateKeys": [5898],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets", 
+  }
+}

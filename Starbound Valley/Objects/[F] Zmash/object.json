@@ -1,0 +1,41 @@
+{
+  "Category": "Cooking",
+  "Name": "Zmash",
+  "Description": "A famous Glitch chef tried to imitate mashed potatoes. He succeeded. Kinda.",
+  "Price": 474,
+  "Edibility": 45,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {  
+  "PurchasePrice": 805,
+  "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Boltbulb",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Currentcorn",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Diodia",
+		  "Count": 1,
+	  },
+    ],
+   },
+   
+   "EdibleBuffs": {
+    "MagnetRadius": 100,
+    "Duration": 120,
+  },
+
+  
+}

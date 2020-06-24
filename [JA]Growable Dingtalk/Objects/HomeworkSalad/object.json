@@ -1,0 +1,55 @@
+{
+  "Name": "Homework Salad",
+  "Description": "It's sweet and tasty, but you felt a sense of fear by tasting it.",
+  "Category": "Cooking",
+  "Edibility": 160,
+  "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 60,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 4,
+        "Duration": 180,
+    },
+  "Price": 330,
+  "IsColored": false,
+  "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "DingTalk",
+            "Count": 1,
+        },
+        {
+            "Object": "TxEdu",
+            "Count": 1,
+        },
+        {
+            "Object": 419,
+            "Count": 1,
+        }, ],
+        "IsDefault": true,
+    },
+	"GiftTastes":
+	{
+	"Love": ["Marnie","Shane","Lewis","Jodi","Kent","Robin","Demetrius","Pierre","Penny","Caroline",],
+	"Like": ["Dwarf","Krobus"],
+	"Dislike": [ "Haley","Sam","Elliott","Emily","Alex","Clint","Evelyn","George","Gus", "Leah","Linus", "Maru","Pam","Sandy","Willy","Wizard","Harvey"],
+	"Hate": ["Jas","Sebastian","Vincent","Abigail"]
+	},
+	"NameLocalization":
+    {
+        "zh": "网课作业沙拉",
+    },
+    "DescriptionLocalization":
+    {
+        "zh": "香甜可口，但是尝起来莫名让你恐惧。",
+    }
+}

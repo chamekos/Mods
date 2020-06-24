@@ -1,0 +1,9 @@
+{
+    "Name": "Lum Berry",
+    "Description": "An unusual fruit from a distant world.  It reminds you of a plum.",
+    "Price": 60,
+    "Edibility": 25,
+    "Category": "Fruit",
+    "IsColored": false,
+    "Recipe": null,
+}

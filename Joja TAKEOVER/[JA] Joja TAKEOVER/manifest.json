@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] Joja TAKEOVER",
+   "Author": "slackeroz",
+   "Description": "adds JojaBeans and a new artisan machine for them.",
+   "Version": "1.0.0",
+   "UniqueID": "slackeroz.JA.JojaTAKEOVER",
+   "UpdateKeys": ["Nexus:5759"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

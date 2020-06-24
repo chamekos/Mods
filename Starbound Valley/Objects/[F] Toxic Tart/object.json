@@ -1,0 +1,38 @@
+{
+  "Category": "Cooking",
+  "Name": "Toxic Tart",
+  "Description": "What else are you going to do with all that toxictop?",
+  "Price": 1215,
+
+  "Edibility": 80,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 2065,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Krobus",
+  "PurchaseRequirements": [
+		"r 0.5",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+	   {
+        "Object": 308,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Toxictop",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

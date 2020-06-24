@@ -1,0 +1,46 @@
+﻿{
+    "Name": "Tangle Plort",
+    "Description": "Fertilizers and growth formulas made from tangle plorts are used by farms all across Earth to greatly enhance crop production.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 170,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "덩굴 플로트",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "비료와 성장촉진제로 만들어 작물의 생산량을 늘릴 수 있다.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_dark_green",
+    ]
+}

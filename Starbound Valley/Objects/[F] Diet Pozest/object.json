@@ -1,0 +1,25 @@
+{
+  "Category": "Cooking",
+  "Name": "Diet Pozest",
+  "Description": "A popular Glitch energy drink. Now sugar free!!!",
+  "Price": 1000,
+
+  "Edibility": 1,
+  "EdibleIsDrink": true,
+  
+  
+  "EdibleBuffs": {
+    "MagnetRadius": 8,
+	"Speed": 5,
+    "Duration": 500,
+  },
+  
+    "CanPurchase": true,
+"PurchasePrice": 1000,	
+  "PurchaseFrom": "Clint",
+  "PurchaseRequirements": [
+		"z spring/z summer/z fall",
+	],
+   
+  
+}

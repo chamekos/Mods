@@ -1,0 +1,203 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Pure Slime",
+			"Types": [
+				{
+					"Type": "Pure Pink Slime",
+					"Data": "1/0/Pink Plort/Pink Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Pink Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PurePink.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Pink Plort/Pink Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/분홍 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Tabby Slime",
+					"Data": "1/0/Tabby Plort/Tabby Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Tabby Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureTabby.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Tabby Plort/Tabby Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/냥이 슬라임/Coop",
+				},
+								{
+					"Type": "Pure Hunter Slime",
+					"Data": "1/0/Hunter Plort/Hunter Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Hunter Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureHunter.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Tabby Plort/Tabby Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/헌터 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Phosphor Slime",
+					"Data": "1/0/Phosphor Plort/Phosphor Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Phosphor Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PurePhosphor.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Phosphor Plort/Phosphor Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/야광 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Honey Slime",
+					"Data": "1/0/Honey Plort/Honey Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Honey Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureHoney.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Honey Plort/Honey Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/꿀 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Boom Slime",
+					"Data": "1/0/Boom Plort/Boom Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Boom Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureBoom.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Boom Plort/Boom Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/폭발 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Rad Slime",
+					"Data": "1/0/Rad Plort/Rad Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Rad Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureRad.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Rad Plort/Rad Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/방사능 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Rock Slime",
+					"Data": "1/0/Rock Plort/Rock Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Rock Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureRock.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Rock Plort/Rock Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/바위 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Crystal Slime",
+					"Data": "1/0/Crystal Plort/Crystal Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Crystal Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureCrystal.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Crystal Plort/Crystal Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/수정 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Quantum Slime",
+					"Data": "1/0/Quantum Plort/Quantum Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Quantum Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureQuantum.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Quantum Plort/Quantum Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/양자 슬라임/Coop",
+				},
+				
+				{
+					"Type": "Pure Dervish Slime",
+					"Data": "1/0/Dervish Plort/Dervish Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Dervish Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureDervish.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Dervish Plort/Dervish Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/회오리 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Tangle Slime",
+					"Data": "1/0/Tangle Plort/Tangle Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Tangle Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureTangle.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Tangle Plort/Tangle Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/덩굴 슬라임/Coop",
+				},
+				{
+					"Type": "Pure Mosaic Slime",
+					"Data": "1/0/Mosaic Plort/Mosaic Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Pure Mosaic Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/PureMosaic.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Mosaic Plort/Mosaic Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/모자이크 슬라임/Coop",
+				},
+				{
+					"Type": "Gold Slime",
+					"Data": "3/0/Gold Plort/Gold Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Gold Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Gold.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Gold Plort/Gold Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/황금 슬라임/Coop",
+				},
+				{
+					"Type": "Lucky Slime",
+					"Data": "3/0/797/797/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Lucky Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Lucky.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "3/0/797/797/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/행운 슬라임/Coop",
+				},
+				{
+					"Type": "Puddle Slime",
+					"Data": "1/0/Puddle Plort/Puddle Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Puddle Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Puddle.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Puddle Plort/Puddle Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/물 슬라임/Coop",
+				},
+				{
+					"Type": "Fire Slime",
+					"Data": "1/0/Fire Plort/Fire Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Fire Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Fire.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Fire Plort/Fire Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/불 슬라임/Coop",
+				},
+				{
+					"Type": "Quicksilver Slime",
+					"Data": "1/0/Quicksilver Plort/Quicksilver Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Quicksilver Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Quicksilver.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Quicksilver Plort/Quicksilver Plort/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/수은 슬라임/Coop",
+				},
+				{
+					"Type": "Glitch Slime",
+					"Data": "1/0/Manifold Cube/Manifold Cube/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/Glitch Slime/Coop",
+					"Sprites": {
+						"Adult": "assets/Glitch.png",
+					},
+					"When": { "Language": "ko" },
+					"Data": "1/0/Manifold Cube/Manifold Cube/slimeHit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/766/6000/글리치 슬라임/Coop",
+				},
+			],
+			"Buildings": [
+				"Big Coop",
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Pure Slime",
+				"Description": "Little slimes from Far, Far Range.",
+				"Price": 6000,
+				"Icon": "assets\\animal_shop_PureSlime.png",
+				"Exclude": [
+					"Void Chicken"
+				],
+				"When": { "Language": "ko" },
+				"Name": "슬라임",
+				"Description": "머나먼 슬라임별에서 온 작은 슬라임.",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

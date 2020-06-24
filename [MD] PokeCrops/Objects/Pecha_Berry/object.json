@@ -1,0 +1,9 @@
+{
+    "Name": "Pecha Berry",
+    "Description": "An unusual fruit from a distant world.  It reminds you of a peach.",
+    "Price": 40,
+    "Edibility": 25,
+    "Category": "Fruit",
+    "IsColored": false,
+    "Recipe": null,
+}

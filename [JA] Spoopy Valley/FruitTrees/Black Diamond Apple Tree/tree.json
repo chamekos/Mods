@@ -1,0 +1,41 @@
+{
+    "Name": "Black Diamond Apple Tree",
+    "Product": "Black Diamond Apple",
+    "SaplingName": "Black Diamond Apple Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Diamond Apple tree. Bears fruit in the Fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+    "Season": "fall",
+    "SaplingPurchaseFrom": "Sandy",
+    "SaplingPurchasePrice": 10000,
+  "SaplingPurchaseRequirements": null,
+
+    // Localization
+
+    "SaplingNameLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "검은 다이아몬드 사과 묘목", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "黑钻石苹果树苗", //Chinese (Simplified)
+    },
+    "SaplingDescriptionLocalization":
+    {
+        //"es": "", //Spansih
+        "ko": "28일후에 성목이 됩니다. 가을에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.", //Korean
+        //"de": "", //German
+        //"fr": "", //French
+        //"hu": "", //Hungarian
+        //"it": "", //Italian
+        //"ja": "", //Japanese
+        //"pt": "", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "28天成熟为成年黑钻石苹果树。秋天结果。只有在附近8块地块都空置的情况下才会成长。", //Chinese (Simplified)
+    }
+}

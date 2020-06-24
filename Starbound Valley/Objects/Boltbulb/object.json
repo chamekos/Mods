@@ -1,0 +1,13 @@
+{
+  "Name": "Boltbulb",
+  "Description": "Boltbulb! Surprisingly soft.",
+  "Category": "Vegetable",
+  "Edibility": 11,
+  "Price": 43,
+  "IsColored": false,
+  "Recipe": null,
+  "EdibleBuffs": {
+    "MagnetRadius": 32,
+    "Duration": 30,
+  },
+}

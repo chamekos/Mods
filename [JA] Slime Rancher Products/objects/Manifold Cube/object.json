@@ -1,0 +1,46 @@
+﻿{
+    "Name": "Manifold Cube",
+    "Description": "Manifold cubes contain traces of thousands of unique minerals and compounds.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Demetrius","Maru","Wizard"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "매니폴드 큐브",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "수천개의 미네랄과 화합물이 포함되어 있습니다.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_green",
+    ]
+}

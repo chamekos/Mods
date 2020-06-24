@@ -1,0 +1,22 @@
+{
+    "Name": "Nanab_Berry",
+    "Product": "Nanab Berry",
+    "SeedName": "Nanab Berry Seeds",
+    "SeedDescription": "Plant these in the summer. Takes 11 days to mature.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [ 3, 3, 3 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 10,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 75,
+}

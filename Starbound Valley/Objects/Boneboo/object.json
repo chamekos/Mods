@@ -1,0 +1,9 @@
+{
+  "Name": "Boneboo",
+  "Description": "Spooky.",
+  "Category": "Fruit",
+  "Edibility": 40,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+}

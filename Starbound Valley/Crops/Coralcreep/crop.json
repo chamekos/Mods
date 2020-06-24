@@ -1,0 +1,28 @@
+{
+    "Name": "Coralcreep",
+    "Product": "Coralcreep",
+    "SeedName": "Coralcreep Tank",
+    "SeedDescription": "Plant these in fall. Takes 10 days to mature, and continues to produce after the first harvest and yields multiple coralcreeps per harvest. Grows in a non-walkthrough water tank (still needs watering).",
+    "Type": "Fruit",
+
+    "Seasons": ["summer","fall"],
+    "Phases": [ 1, 4, 4, 1 ],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 60,
+    "SeedPurchaseFrom": "Willy",
+    "SeedPurchaseRequirements": [
+	  "z spring/z winter",
+	  "y 2"
+    ],
+
+}

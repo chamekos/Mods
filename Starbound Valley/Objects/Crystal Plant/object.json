@@ -1,0 +1,25 @@
+{
+  "Name": "Crystal Plant",
+  "Description": "A plant formed of crystal. Magical!",
+  "Price": 4444,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 417,
+        "Count": 1
+      },
+      {
+        "Object": 74,
+        "Count": 1
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 10000,
+    "PurchaseRequirements": [
+      "d Mon Tue Thu Fri Sat Sun"
+    ]
+  }
+}

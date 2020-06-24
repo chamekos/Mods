@@ -1,0 +1,47 @@
+{
+  "Category": "Cooking",
+  "Name": "Coralcreep Curry",
+  "Description": "A mildly spicy curry made with the coralcreep fruit.",
+  "Price": 308,
+
+  "Edibility": 28,
+  "EdibleIsDrink": false,
+  
+  "Recipe": { 
+  "PurchasePrice": 523,
+   
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Willy",
+  "PurchaseRequirements": [
+		"r 0.3",
+	],
+  
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 260,
+        "Count": 1,
+      },
+	  {
+        "Object": 423,
+        "Count": 1,
+      },
+	  {
+        "Object": 256,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Coralcreep",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "Fishing": 2,
+    "Duration": 300,
+  },
+  
+
+}

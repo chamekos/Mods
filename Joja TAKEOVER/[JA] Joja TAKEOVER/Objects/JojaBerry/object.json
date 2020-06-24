@@ -1,0 +1,8 @@
+{
+	"Name": "JojaBerry",
+	"Price": 500,
+	"Description": "Loosely based on a blueberry, This genetically enhanced fruit is bursting with flavour.",
+	"Category": "Fruit",
+	"Edibility": 60,
+	"Recipe": null,
+}

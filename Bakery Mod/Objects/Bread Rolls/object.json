@@ -1,0 +1,67 @@
+{
+    "Name": "Bread Rolls",
+    "Description": "A fluffy bun that goes along with pasta.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 150,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 250,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 2,
+        "Ingredients": [
+        {
+            "Object": 247, //oil
+            "Count": 1,
+        },
+        {
+            "Object": 246, //flour
+            "Count": 1,
+        },
+        {
+            "Object": 240, //honey
+            "Count": 1,
+        },
+      ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "Rollos de pan", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "圆面包", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un pan esponjoso que combina bien con la pasta.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "与意面一起吃的蓬松的圆面包。", //Chinese (Simplified)
+    },
+}

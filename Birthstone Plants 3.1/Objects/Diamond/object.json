@@ -1,0 +1,9 @@
+{
+  "Name": "Diamond",
+  "Description": "April Birthstone - Symbolizes love and strength.",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+}

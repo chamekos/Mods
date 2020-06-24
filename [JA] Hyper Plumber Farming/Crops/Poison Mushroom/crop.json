@@ -1,0 +1,51 @@
+{
+    "Name": "Poison Mushroom",
+    "Product": "Poison Mushroom",
+    "SeedName": "Poison Mushroom Starter",
+    "SeedDescription": "Plant these in spring, summer or fall. Takes 12 days to mature.",
+    "Type": "ArtisanGoods",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [2, 3, 3, 4, ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+    "SeedPurchaseFrom": "Marlon",
+    "SeedPurchasePrice": 100,
+    "SeedNameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Giftige Pilze Starterset",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "SeedDescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Pflanze sie im Frühling, Sommer oder Herbst. Wächst in 12 Tagen heran.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Slime Rancher Products",
+	"Author": "KAYA",
+	"Version": "1.0.0",
+	"Description": "Adds producing rules Slime Plort in recycling machines.",
+	"UniqueID": "KAYA.PFM.SlimeRancherProducts",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "KAYA.JA.SlimeRancherProducts"
+		}
+	],
+}

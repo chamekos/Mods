@@ -1,0 +1,8 @@
+{
+  "Name": "JojaBean",
+  "Price": 40,
+  "Description": "A genetically modified bean which can be pressed into an energizing beverage.",
+  "Category": "Fruit",
+  "Edibility": -5,
+  "Recipe": null,
+}

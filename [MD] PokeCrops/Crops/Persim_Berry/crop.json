@@ -1,0 +1,22 @@
+{
+    "Name": "Persim_Berry",
+    "Product": "Persim Berry",
+    "SeedName": "Persim Berry Seeds",
+    "SeedDescription": "Plant these in the fall. Takes 15 days to mature.",
+    "Type": "Fruit",
+
+    "Seasons": ["fall"],
+    "Phases": [ 1, 2, 3, 4, 3 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 5,
+        "MaximumPerHarvest": 10,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 90,
+}

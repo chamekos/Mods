@@ -1,0 +1,39 @@
+{
+  "Category": "Cooking",
+  "Name": "Soggy Sack",
+  "Description": "Dirturchin innards stuffed into a coralcreep to make a dish that sounds terrible and tastes alright.",
+  "Price": 165,
+
+  "Edibility": 35,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 280,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Willy",
+  "PurchaseRequirements": [
+		"r 0.3",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Dirturchin",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Coralcreep",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "Fishing": 1,
+    "Duration": 300,
+  },
+  
+
+  
+}

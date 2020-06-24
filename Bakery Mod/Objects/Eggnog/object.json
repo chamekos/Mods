@@ -1,0 +1,71 @@
+{
+    "Name": "Eggnog",
+    "Description": "A traditional festive drink, based on raw eggs.",
+    "Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 450,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 900,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 3,
+        "Ingredients": [
+        {
+            "Object": 348, //wine
+            "Count": 1,
+        },
+        {
+            "Object": 245, //beet
+            "Count": 1,
+        },
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 3,
+        },
+      ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "Ponche de Huevo", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "蛋酒", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una tradicional bebida navideña, basada en huevos crudos.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种传统的节日饮料，以生鸡蛋为基础。", //Chinese (Simplified)
+    },
+}

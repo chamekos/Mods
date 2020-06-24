@@ -1,0 +1,29 @@
+{
+    "Name": "Buter",
+    "Description": "It's butter. Pretty gross raw, honestly.",
+    "Category": "Cooking",
+    "Edibility": 5,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 125,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": -6,
+            "Count": 1,
+        }],
+        "CanPurchase": true,
+        "PurchaseFrom": "Pierre",
+        "PurchasePrice": 175,
+        "PurchaseRequirements": null,
+    },
+    "GiftTastes":
+    {
+	"Like": ["Gus"],
+    "Dislike": ["Emily", "Abigail", "Haley", "Maru", "Sebastian", "Krobus", "Willy", "Evelyn", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "George", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+    },
+
+}

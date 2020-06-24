@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Joja TAKEOVER",
+	"Author": "slackeroz",
+	"Version": "1.0.0",
+	"Description": "Adds producing machine to my mod.",
+	"UniqueID": "slackeroz.JojaTAKEOVERForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": ["Nexus:5759"],
+	"Dependencies": [
+		{
+			"UniqueID": "DIGUS.ProducerFrameworkMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "Pizza_Plant",
+    "Product": "Homegrown Pizza",
+    "SeedName": "Pizza Plant Seeds",
+    "SeedDescription": "Plant these in spring or fall. Takes 13 days to mature.",
+    "Type": "ArtisanGoods",
+    "Seasons": ["spring", "fall"],
+    "Phases": [ 2, 2, 3, 3, 3, ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 6,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 150,
+
+}

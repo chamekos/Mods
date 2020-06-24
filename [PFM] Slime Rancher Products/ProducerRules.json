@@ -1,0 +1,516 @@
+﻿[
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Pink Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 766, //Slime
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 5,
+			"OutputMaxStack": 7
+		},	
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Rock Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 390, //Stone
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 5,
+			"OutputMaxStack": 7
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 749,  //Omni Geode
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Crystal Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 82, //Fire Quartz
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 5,
+			"OutputMaxStack": 7
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": 72,  //Diamond
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Rad Plort", 
+		"InputStack": 3, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 787, //Battery Pack
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Boom Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 286, //Cherry Bomb
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 288, //Mega Bomb
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Tabby Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 349, //Energy Tonic
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Hunter Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 772, //Oil of Garlic
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Saber Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 499, //Ancient Seeds
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 107,  //Dinosaur Egg
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Phosphor Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 93, //Torch
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 5,
+			"OutputMaxStack": 7
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 787,  //Battery Pack
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Honey Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 340, //Honey
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Quantum Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 369, //Quality Fertilizer
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 542,  //Calcite
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Quicksilver Plort", 
+		"InputStack": 3, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 787, //Battery Pack
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Puddle Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 371, //Quality Retaining Soil
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 536,  //Frozen Geode
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Fire Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 286, //Cherry Bomb
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 537,  //Magma Geode
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Tangle Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 466, //Deluxe Speed-Gro
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 2,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 5,
+			"OutputMaxStack": 7
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.10, 
+				"OutputIdentifier": 805, //Tree Fertilizer
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Dervish Plort", 
+		"InputStack": 3, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 787, //Battery Pack
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Mosaic Plort", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 565, //Fire Opal
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"SilverQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1,
+			"OutputMaxStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 1,
+			"OutputStack": 2,
+			"OutputMaxStack": 3
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},	
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": 74,  //Prismatic Shard
+				"OutputStack": 1,
+			},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Manifold Cube", 
+		"InputStack": 3, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": 749, //Omni Geode
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+]

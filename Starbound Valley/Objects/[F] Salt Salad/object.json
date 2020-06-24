@@ -1,0 +1,43 @@
+{
+  "Category": "Cooking",
+  "Name": "Salt Salad",
+  "Description": "Coralcreep, reefpod and pearlpea make for a salty, crunchy salad.",
+  "Price": 313,
+
+  "Edibility": 30,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Willy",
+  "PurchasePrice": 532,
+  "PurchaseRequirements": [
+		"r 0.3",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Reefpod",
+        "Count": 1,
+      },
+	  {
+        "Object": "Pearlpea",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Coralcreep",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "Fishing": 4,
+    "Duration": 300,
+  },
+  
+
+  
+}

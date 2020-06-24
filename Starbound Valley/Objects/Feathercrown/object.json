@@ -1,0 +1,9 @@
+{
+  "Name": "Feathercrown",
+  "Description": "Feathercrown, you have to pluck it before consuming.",
+  "Category": "Fruit",
+  "Edibility": 20,
+  "Price": 175,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "Reefpod",
+    "Product": "Reefpod",
+    "SeedName": "Reefpod Tank",
+    "SeedDescription": "Plant these in summer. Takes 8 days to mature. Grows in a non-walkthrough water tank (still needs watering).",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 3, 2, 2 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+  
+
+    "SeedPurchasePrice": 40,
+    "SeedPurchaseFrom": "Willy",
+    "SeedPurchaseRequirements": [
+	  "z spring/z fall/z winter"
+    ],
+
+}

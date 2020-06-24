@@ -1,0 +1,45 @@
+{
+    "Name": "Odd Onion",
+    "Description": "I wouldn't trust this onion, even less so than a normal onion.",
+    "Category": "Vegetable",
+    "Edibility": 5,
+    "Price": 20,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "이상한 양파",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "일반 양파보다도 믿을 게 못 된다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+        "vegetable_item",
+    ],
+}

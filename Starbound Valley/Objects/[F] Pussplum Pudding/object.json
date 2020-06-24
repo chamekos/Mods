@@ -1,0 +1,42 @@
+{
+  "Category": "Cooking",
+  "Name": "Pussplum Pudding",
+  "Description": "A watery rice pudding, topped with pussplum compote.",
+  "Price": 474,
+
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 805,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+	  {
+        "Object": 423,
+        "Count": 1,
+      },
+	  {
+        "Object": 184,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Pussplum",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

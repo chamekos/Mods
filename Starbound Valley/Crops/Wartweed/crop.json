@@ -1,0 +1,22 @@
+{
+    "Name": "Wartweed",
+    "Product": "Wartweed",
+    "SeedName": "Wartweed Seeds",
+    "SeedDescription": "Plant these in fall. Takes 9 days to mature.",
+    "Type": "Fruit",
+
+    "Seasons": ["fall"],
+    "Phases": [ 1, 4, 3, 1 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+  
+
+    "SeedPurchasePrice": 100,
+    "SeedPurchaseFrom": "Marlon",
+    "SeedPurchaseRequirements": [
+	  "z spring/z summer/z winter"
+    ],
+
+}

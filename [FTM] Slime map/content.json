@@ -1,0 +1,1047 @@
+{
+  "ForageSpawnEnabled": false,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": null,
+  "Large_Object_Spawn_Settings": null,
+  "Ore_Spawn_Settings": null,
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+		  {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Manifold Cube"
+              ],
+              "Sprite": "Characters/Monsters/Glitch"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 20,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Quicksilver Plort"
+              ],
+              "Sprite": "Characters/Monsters/Quicksilver"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          }
+        ],
+        "UniqueAreaID": "Railroad Slime",
+        "MapName": "Railroad",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+	  {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Puddle Plort"
+              ],
+              "Sprite": "Characters/Monsters/Puddle"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Tabby Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureTabby"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 5,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Hunter Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureHunter"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Honey Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureHoney"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Boom Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureBoom"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 20,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Quantum Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureQuantum"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          }
+        ],
+        "UniqueAreaID": "Forest Slime",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Bug",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 20,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Phosphor Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePhosphor"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Puddle Plort"
+              ],
+              "Sprite": "Characters/Monsters/Puddle"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Tabby Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureTabby"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 5,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Hunter Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureHunter"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Honey Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureHoney"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Boom Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureBoom"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 20,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Quantum Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureQuantum"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          }
+        ],
+        "UniqueAreaID": "Woods Slime",
+        "MapName": "Woods",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Rock Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureRock"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Tabby Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureTabby"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          }
+        ],
+        "UniqueAreaID": "Backwoods Slime",
+        "MapName": "Backwoods",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 7,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Puddle Plort"
+              ],
+              "Sprite": "Characters/Monsters/Puddle"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Boom Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureBoom"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Rock Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureRock"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Tabby Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureTabby"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Boom Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureBoom"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          }
+        ],
+        "UniqueAreaID": "Mountain Slime",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Rock Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureRock"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 20,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Crystal Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureCrystal"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 3,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Rad Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureRad"
+            }
+          }
+        ],
+        "UniqueAreaID": "Quarry Slime",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 50,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Pink Plort"
+              ],
+              "Sprite": "Characters/Monsters/PurePink"
+            }
+          },
+          {
+            "MonsterName": "Bug",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 5,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Dervish Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureDervish"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 5,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Tangle Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureTangle"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 30,
+              "HP": 5,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Mosaic Plort"
+              ],
+              "Sprite": "Characters/Monsters/PureMosaic"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 10,
+              "HP": 5,
+              "Damage": 1,
+              "Loot": [
+                766,
+                "Fire Plort"
+              ],
+              "Sprite": "Characters/Monsters/Fire"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                "Gold Plort"
+              ],
+              "Sprite": "Characters/Monsters/Gold"
+            }
+          },
+          {
+            "MonsterName": "Dust sprite",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "SpawnWeight": 1,
+              "HP": 3,
+              "Damage": 0,
+              "Loot": [
+                766,
+                797
+              ],
+              "Sprite": "Characters/Monsters/Lucky"
+            }
+          }
+        ],
+        "UniqueAreaID": "Desert Slime",
+        "MapName": "Desert",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [
+            "Spring",
+            "Summer",
+            "Fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [
+            "Sun",
+            "Wind"
+          ],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}

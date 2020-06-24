@@ -1,0 +1,26 @@
+{
+    "Name": "Joja Presser",
+    "Description": "Joja Invention capable of processing many Joja products.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 3,
+        },
+        {
+            "Object": 390,
+            "Count": 30,
+        },
+        {
+            "Object": 787,
+            "Count": 1,
+        }, ],
+        "CanPurchase": false,
+	"SkillUnlockName": "Farming",
+	"SkillUnlockLevel": 6,
+    },
+}

@@ -1,0 +1,42 @@
+{
+    "Name": "Tamal",
+    "Description": "Mexican meal, filled with pork and sauce.",
+    "Category": "Cooking",
+    "Edibility": 35,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 300,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 350,
+    "PurchaseRequirements": null,
+    "NameLocalization":
+    {
+        "es": "Tamal", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "塔马尔", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Platillo mexicano, relleno de puerco y salsa.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "墨西哥风味食物，有点类似中国粽子，里面有猪肉和酱汁。", //Chinese (Simplified)
+    },
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Neonmelon",
+  "Description": "A slice of bubblegum flavoured neonmelon",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 740,
+  "IsColored": false,
+  "Recipe": null,
+}

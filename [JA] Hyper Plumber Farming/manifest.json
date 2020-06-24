@@ -1,0 +1,12 @@
+{
+	"Name": "[JA] Hyper Plumber Farming",
+    "Author": "Pinheadius",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.2.0",
+    "Description": "Adding farmable stuff from the famous italian or bosnian plumber games.",
+    "UniqueID": "Pinheadius.HyperPlumberFarming",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": [ "Nexus:5850" ]
+}

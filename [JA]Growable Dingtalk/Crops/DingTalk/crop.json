@@ -1,0 +1,32 @@
+{
+    "Name": "DingTalk",
+    "Product": "DingTalk",
+    "SeedName": "DingTalk Seeds",
+    "SeedDescription": "Plant this all year around. Takes 10 days to mature, and keeps producing after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["spring","summer","fall","winter"],
+    "Phases": [ 1, 2, 2, 2, 3 ],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 1200,
+	"SeedSellPrice": 50,
+	"SeedPurchaseFrom": "Krobus",
+	"SeedPurchaseRequirements": [
+		"y 2",
+	],
+	"SeedNameLocalization": { 
+		"zh": "钉钉种子",
+    },
+	"SeedDescriptionLocalization": { 
+		"zh": "全年可种。10天成熟，在第一次收获后循环生产。",
+    }
+}

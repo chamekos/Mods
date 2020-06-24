@@ -1,0 +1,45 @@
+{
+    "Name": "Pogo Fruit",
+    "Description": "The most common fruit found on the Range, and some say, the most delicious.",
+    "Category": "Fruit",
+    "Edibility": 5,
+    "Price": 20,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "포고 열매",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "머나먼 평야에서 가장 흔한 열매다. 가장 맛있는 열매라 주장하는 사람들도 있다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "ContextTags": [        
+        "color_red",
+        "fruit_item",
+    ],
+}

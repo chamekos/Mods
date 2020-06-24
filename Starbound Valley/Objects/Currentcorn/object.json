@@ -1,0 +1,9 @@
+{
+  "Name": "Currentcorn",
+  "Description": "Full of acid. Not good for fleshy creatures.",
+  "Category": "Vegetable",
+  "Edibility": -1,
+  "Price": 88,
+  "IsColored": false,
+  "Recipe": null,
+}

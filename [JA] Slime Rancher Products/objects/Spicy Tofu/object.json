@@ -1,0 +1,50 @@
+﻿{
+    "Name": "Spicy Tofu",
+    "Description": "This spicy tofu is made from Ogden's own secret recipe.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 100,
+    "IsColored": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Krobus",
+	"PurchasePrice": 300,
+    "Recipe": null,
+    "GiftTastes":
+    {
+		"Like" : ["Dwarf","Krobus","Wizard"],
+        "Hate": ["Alex","Abigail","Caroline","Clint","Demetrius","Elliott","Emily","Evelyn","Harvey","Haley","George","Gus","Jas","Jodi","Kent","Leah","Lewis","Linus","Maru","Marnie","Pam","Penny","Sam","Sandy","Sebastian","Shane","Vincent","Willy"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "매운 두부",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "오그덴의 비밀 레시피로 만든 특제 매운 두부.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+    ]
+}

@@ -1,0 +1,38 @@
+{
+  "Category": "Cooking",
+  "Name": "Wattage Pottage",
+  "Description": "The most basic of Glitch cuisine.",
+  "Price": 155,
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    
+  "PurchasePrice": 263,
+  "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Automato",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Currentcorn",
+		  "Count": 1,
+	  },
+    ],
+   },
+   
+   "EdibleBuffs": {
+    "MagnetRadius": 32,
+    "Duration": 120,
+  },
+
+  
+}

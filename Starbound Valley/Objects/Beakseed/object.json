@@ -1,0 +1,9 @@
+{
+  "Name": "Beakseed",
+  "Description": "Beakseed. Mmm crunchy.",
+  "Category": "Fruit",
+  "Edibility": 8,
+  "Price": 45,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "Silver Parsnip",
+    "Description": "Like a carrot's rich, sophisticated cousin. Also, it's silver.",
+    "Category": "Vegetable",
+    "Edibility": 5,
+    "Price": 20,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "은설탕당근",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "당근의 고오급 사촌이다. 그리고 은색이다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "ContextTags": [
+        "color_gray",
+        "vegetable_item",
+    ],
+}

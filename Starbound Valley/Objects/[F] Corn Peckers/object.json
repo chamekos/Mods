@@ -1,0 +1,33 @@
+{
+  "Category": "Cooking",
+  "Name": "Corn Peckers",
+  "Description": "Beakseed and dried corn. A common Avian trail mix, or breakfast cereal.",
+  "Edibility": 23,
+  "Price": 104,
+
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+  "PurchasePrice": 176,
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+	"ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 270,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Beakseed",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

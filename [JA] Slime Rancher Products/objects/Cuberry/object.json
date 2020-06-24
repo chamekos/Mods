@@ -1,0 +1,45 @@
+{
+    "Name": "Cuberry",
+    "Description": "Delicate, sweet, and they never roll off the table.",
+    "Category": "Fruit",
+    "Edibility": 5,
+    "Price": 20,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "Recipe": null,
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "각딸기",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "부드럽고, 달콤하고, 절대 식탁에서 굴러 떨어지지 않는다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "ContextTags": [
+        "color_red",
+        "fruit_item",
+    ],
+}

@@ -1,0 +1,46 @@
+﻿{
+    "Name": "Gold Plort",
+    "Description": "Gold plorts have little practical use and are the most valuable of all plorts simply because they are shiny and rare.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "황금 플로트",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "별다른 쓸모는 없지만 반짝이는 색과 희소성때문에 값비싼 플로트.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_gold",
+    ]
+}

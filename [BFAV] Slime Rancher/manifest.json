@@ -1,0 +1,11 @@
+{
+  "Name": "Slime Rancher",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Adds Slime Rancher's Slimes",
+  "UniqueID": "KAYA.SlimeRancher",
+  "UpdateKeys": [ "Nexus:5954" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

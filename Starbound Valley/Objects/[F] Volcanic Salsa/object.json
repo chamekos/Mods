@@ -1,0 +1,43 @@
+{
+  "Category": "Cooking",
+  "Name": "Volcanic Salsa",
+  "Description": "A fiery salsa made from fruit and veg that can really bring the heat!",
+  "Price": 330,
+  "Edibility": 50,
+  "EdibleIsDrink": true,
+  
+  "Recipe": {
+  
+  "PurchasePrice": 561,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 256,
+        "Count": 1,
+      },
+	  {
+        "Object": 260,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Avesmingo",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+	"Speed": 5,
+    "Duration": 30,
+  },
+  
+
+  
+}

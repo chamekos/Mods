@@ -1,0 +1,46 @@
+﻿{
+    "Name": "Rock Plort",
+    "Description": "Key component in the production of 'blue metal,' an amazing alloy that's stronger than titanium and lighter than plastic.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Wizard"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+         "ko": "돌멩이 플로트",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+         "ko": "티타늄보다 강하고 플라스틱보다 가벼운 '블루메탈'의 핵심소재.",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_blue",
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "Diodia",
+    "Product": "Diodia",
+    "SeedName": "Diodia Seeds",
+    "SeedDescription": "Plant these in winter. Takes 12 days to mature.",
+    "Type": "Vegetable",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 7, 4 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+  
+
+    "SeedPurchasePrice": 100,
+    "SeedPurchaseFrom": "Clint",
+    "SeedPurchaseRequirements": [
+	  "z spring/z summer/z fall"
+    ],
+}

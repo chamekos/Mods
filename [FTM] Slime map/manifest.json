@@ -1,0 +1,17 @@
+{
+  "Name": "[FTM] Slime map",
+  "Author": "KAYA",
+  "Version": "1.0.1",
+  "Description": "Add some Slimes to map.",
+  "UniqueID": "KAYA.FTMSlimeMap",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.9.0"
+  },
+  "Dependencies": [
+		{
+			"UniqueID": "KAYA.CPSlimeMap"
+		}
+	],
+}

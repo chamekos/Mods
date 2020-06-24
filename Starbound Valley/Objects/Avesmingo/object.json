@@ -1,0 +1,9 @@
+{
+  "Name": "Avesmingo",
+  "Description": "Avesmingo, the plant of a 100 different flavours.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+}

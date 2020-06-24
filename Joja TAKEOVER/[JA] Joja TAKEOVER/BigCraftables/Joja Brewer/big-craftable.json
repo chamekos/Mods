@@ -1,0 +1,26 @@
+{
+	"Name": "Joja Brewer",
+	"Description": "An advanced Keg developed by Joja, which is able to process Joja products.",
+	"Price": 1,
+	"ProvidesLight": false,
+	"Recipe":
+	{
+		"ResultCount": 1,
+		"Ingredients": [
+		{
+			"Object": 388,
+			"Count": 40,
+		},
+		{
+			"Object": 725,
+			"Count": 2,
+		},
+		{
+			"Object": 336,
+			"Count": 1,
+		}, ],
+		"CanPurchase": false,
+		"SkillUnlockName": "Farming",
+		"SkillUnlockLevel": 8,
+	},
+}

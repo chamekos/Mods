@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Slime map",
+  "Author": "KAYA",
+  "Version": "1.0.0",
+  "Description": "Add some Slimes to map.",
+  "UniqueID": "KAYA.CPSlimeMap",
+  "UpdateKeys": [ "Nexus:5954" ],
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

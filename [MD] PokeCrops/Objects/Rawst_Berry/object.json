@@ -1,0 +1,9 @@
+{
+    "Name": "Rawst Berry",
+    "Description": "An unusual berry from a distant world.  It reminds you of a Strawberry.",
+    "Price": 120,
+    "Edibility": 25,
+    "Category": "Fruit",
+    "IsColored": false,
+    "Recipe": null,
+}

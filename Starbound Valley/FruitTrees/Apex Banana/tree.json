@@ -1,0 +1,12 @@
+{
+    "Name": "Apex Banana Tree" ,
+    "Product": "Apex Banana",
+    "SaplingName": "Apex Banana Sapling",
+    "SaplingDescription": "IMPORTANT! HOE THE GROUND BEFORE PLACING! Takes 28 days to produce a mature Apex Banana tree. Bears bananas in summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+    "Season": "summer",
+    "SaplingPurchasePrice": 6600,
+	"SaplingPurchaseFrom": "Sandy",
+    "SaplingPurchaseRequirements": [
+	"r 0.5"
+	],
+}

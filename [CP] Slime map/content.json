@@ -1,0 +1,10 @@
+{
+   "Format": "1.13.0",
+   "Changes": [
+      {
+         "Action": "Load",
+         "Target": "Characters/Monsters/PurePink, Characters/Monsters/PurePhosphor, Characters/Monsters/PureRock, Characters/Monsters/PureBoom, Characters/Monsters/PureRad, Characters/Monsters/PureCrystal, Characters/Monsters/PureTabby, Characters/Monsters/PureHunter,  Characters/Monsters/PureHoney, Characters/Monsters/PureQuantum, Characters/Monsters/PureDervish, Characters/Monsters/PureTangle, Characters/Monsters/PureMosaic, Characters/Monsters/Quicksilver, Characters/Monsters/Glitch, Characters/Monsters/Gold, Characters/Monsters/Lucky, Characters/Monsters/Fire, Characters/Monsters/Puddle",
+         "FromFile": "assets/{{TargetWithoutPath}}.png"
+      }
+   ]
+}

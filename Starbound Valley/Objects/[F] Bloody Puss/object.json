@@ -1,0 +1,42 @@
+{
+  "Category": "Cooking",
+  "Name": "Bloody Puss",
+  "Description": "A thick, shake-like drink of meat and pussplum.",
+  "Price": 400,
+  
+  "Edibility": 5,
+  
+  
+  "Recipe": {
+    "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+  "PurchasePrice": 680,
+  "EdibleIsDrink": true,
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 459,
+        "Count": 1,
+      },
+	  {
+        "Object": 684,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Pussplum",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+	"Speed": -1,
+    "Duration": 30,
+  },
+  
+
+}

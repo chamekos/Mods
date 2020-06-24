@@ -1,0 +1,48 @@
+{
+    "Name": "Candy Cane Dagger",
+    "Description": "Dunno what to type.",
+    "Type": "dagger",
+    "MinimumDamage": 26,
+    "MaximumDamage": 35,
+    "Knockback": 4,
+    "Accuracy": 8,
+    "Defense": 0,
+    "Speed": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 25000,
+    "PurchaseRequirements": null,
+	"NameLocalization":
+    {
+        "es": "Daga de Bastón de Caramelo", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "柺杖糖匕首", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "No sé que escribir.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "不知道该用来打谁。", //Chinese (Simplified)
+    },
+}

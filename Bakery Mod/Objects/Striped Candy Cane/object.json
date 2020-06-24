@@ -1,0 +1,55 @@
+{
+    "Name": "Striped Candy Cane",
+    "Description": "The iconic Christmas candy.",
+    "Category": "Cooking",
+    "Edibility": 12,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 300,
+    "IsColored": false,
+    "CanPurchase": false,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 3,
+        "Ingredients": [
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": 247, //oil
+            "Count": 1,
+        },
+      ],
+    "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        "es": "Bastón de Caramelo", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "柺杖糖", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "El dulce icónico de navidad.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "标志性的圣诞糖果。", //Chinese (Simplified)
+    },
+}

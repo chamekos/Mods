@@ -1,0 +1,9 @@
+{
+  "Name": "Apex Banana",
+  "Description": "A genetically enhanced banana.",
+  "Category": "Fruit",
+  "Edibility": 18,
+  "Price": 160,
+  "IsColored": false,
+  "Recipe": null
+}

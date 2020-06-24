@@ -1,0 +1,42 @@
+{
+  "Category": "Cooking",
+  "Name": "Cyanider",
+  "Description": "A mulled drink made of oculemon and pussplum. Delicious!",
+  "Price": 969,
+
+  "Edibility": 10,
+  "EdibleIsDrink": true,
+  
+  "Recipe": {
+  "PurchasePrice": 1647,
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Krobus",
+  "PurchaseRequirements": [
+		"r 0.3",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 459,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Pussplum",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Oculemon",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+	"Speed": -1,
+    "Duration": 30,
+  },
+  
+
+  
+}

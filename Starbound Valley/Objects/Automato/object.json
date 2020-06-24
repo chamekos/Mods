@@ -1,0 +1,13 @@
+{
+  "Name": "Automato",
+  "Description": "Automatos! Be sure to spit out the screws.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 53,
+  "IsColored": false,
+  "Recipe": null,
+  "EdibleBuffs": {
+    "MagnetRadius": 32,
+    "Duration": 30,
+  },
+}

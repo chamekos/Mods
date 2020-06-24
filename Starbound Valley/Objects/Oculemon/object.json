@@ -1,0 +1,9 @@
+{
+  "Name": "Oculemon",
+  "Description": "Sour but so worth it.",
+  "Category": "Fruit",
+  "Edibility": 35,
+  "Price": 525,
+  "IsColored": false,
+  "Recipe": null,
+}

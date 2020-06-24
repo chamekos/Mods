@@ -1,0 +1,9 @@
+{
+  "Name": "Reefpod",
+  "Description": "Fruit of the ocean.",
+  "Category": "Fruit",
+  "Edibility": 13,
+  "Price": 160,
+  "IsColored": false,
+  "Recipe": null,
+}

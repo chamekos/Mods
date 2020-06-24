@@ -1,0 +1,36 @@
+{
+  "Category": "Cooking",
+  "Name": "Ape Grapes",
+  "Description": "A healthy mix of bananas and grapes.",
+  "Edibility": 45,
+  "Price": 264,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 448,
+	"IsDefault": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements": [
+		"r 0.1",
+	],
+	
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 398,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Apex Banana",
+		  "Count": 1,
+	  },
+    ],
+   },
+   
+     "EdibleBuffs": {
+    "MagnetRadius": -64,
+    "Duration": 30,
+  },
+  
+}

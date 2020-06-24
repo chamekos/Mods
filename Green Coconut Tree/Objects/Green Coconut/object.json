@@ -1,0 +1,20 @@
+{
+    "Name": "Green Coconut",
+    "Description": "Their sweet water and very tender meat are nutritious treats.",
+    "Category": "Fruit",
+    "Edibility": 50,
+    "Price": 200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Demetrius", "Elliott", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Pam", "Robin", "Sandy", "Shane", "Vincent"],
+        "Dislike": ["Abigail", "Dwarf"]
+    },
+    "Recipe": null,
+    "ContextTags": [
+        "season_summer",
+        "color_green",
+        "fruit_tree_item",
+        "fruit_item"
+    ]
+}

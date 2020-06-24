@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Joja TAKEOVER",
+  "Author": "slackeoz",
+  "Version": "1.0.0",
+  "Description": "Edits Jojamart.",
+  "UniqueID": "slackeroz.JojaTAKEOVER",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5759"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

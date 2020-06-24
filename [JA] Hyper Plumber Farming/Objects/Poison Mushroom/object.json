@@ -1,0 +1,43 @@
+{
+    "Name": "Poison Mushroom",
+    "Description": "A poisonous mushroom. Eating it will at least cost 1 life.",
+    "Category": "Vegetable",
+    "Edibility": -300,
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Krobus"],
+        "Hate": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Harvey", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard", "Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent", "Lewis"],
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Giftiger Pilz",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Ein giftiger Pilz. Verspeisen kostet mindestens 1 Leben.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

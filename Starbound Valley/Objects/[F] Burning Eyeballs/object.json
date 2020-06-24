@@ -1,0 +1,33 @@
+{
+  "Category": "Cooking",
+  "Name": "Burning Eyeballs",
+  "Description": "Watch out, they're super spicy!",
+  "Edibility": 43,
+  "Price": 621,
+
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 1055,
+	  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 260,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Oculemon",
+		  "Count": 1,
+	  },
+    ],
+   },
+
+
+  
+}

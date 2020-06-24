@@ -1,0 +1,27 @@
+{
+    "Name": "Beakseed",
+    "Product": "Beakseed",
+    "SeedName": "Beakseed Seeds",
+    "SeedDescription": "Plant these in summer or fall. Takes 11 days to mature, yields multiple beakseeds per harvest and continues to produce after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer","fall"],
+    "Phases": [ 1, 5, 4, 1 ], 
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.5,
+    },
+
+    "SeedPurchasePrice": 90,
+    "SeedPurchaseFrom": "Pierre",
+    "SeedPurchaseRequirements": [
+	  "z spring/z winter"
+    ],
+
+}

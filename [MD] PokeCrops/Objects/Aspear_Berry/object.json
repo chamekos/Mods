@@ -1,0 +1,9 @@
+{
+    "Name": "Aspear Berry",
+    "Description": "An unusual berry from a distant world.  It reminds you of a pear.",
+    "Category": "Fruit",
+    "Price": 50,
+    "Edibility": 25,
+    "IsColored": false,
+    "Recipe": null,
+}

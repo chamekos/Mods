@@ -1,0 +1,44 @@
+{
+    "Name": "Indigo Rose Tomato",
+    "Description": "Coctail sized tomato that has a tastey flavor with plummy overtones!",
+    "Category": "Vegetable",
+    "Edibility": 20,
+    "Price": 75,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        "ko": "인디고 로즈 토마토",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "靛蓝玫瑰番茄",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "자두같은 색이 맛깔스러운 칵테일 사이즈의 토마토.",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "鸡尾酒大小的番茄，味道鲜美，色彩丰富！",
+    }
+}

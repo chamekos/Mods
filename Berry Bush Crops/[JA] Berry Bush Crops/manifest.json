@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] Berry Bush Crops",
+   "Author": "uberkwefty",
+   "Description": "Adds growable berry bushes",
+   "Version": "1.2.0",
+   "UniqueID": "uberkwefty.berrybushcrops",
+   "UpdateKeys": ["Nexus:5957"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

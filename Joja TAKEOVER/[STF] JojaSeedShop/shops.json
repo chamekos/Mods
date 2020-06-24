@@ -1,0 +1,36 @@
+{
+	"Shops": [
+	{
+	"ShopName": "JojaSeedShop",
+	"StoreCurrency": "Money",
+	"Quote": "These Joja Seeds are a new development!",
+	"ItemStocks": [		
+		{
+		"ItemType": "Object",
+		"StockPrice": 40,
+		"ItemNames": [
+			"JojaBean Seeds",
+			]
+		},
+		{
+		"ItemType": "Object",
+		"StockPrice": 250,
+		"ItemNames": [
+			"JojaBerry Seeds",
+			]
+		},
+		{
+		"ItemType": "Object",
+		"StockPrice": 5000,
+		"IsRecipe": true,
+		"ItemNames": [
+			"JojaBrew Deluxe",
+			]
+		}
+	]
+	}
+	]
+
+}
+		
+		

@@ -1,0 +1,26 @@
+{
+    "Name": "Automato",
+    "Product": "Automato",
+    "SeedName": "Automato Seeds",
+    "SeedDescription": "Plant these in spring or winter. Takes 10 days to mature, has a chance of yielding multiple potatoes at harvest and continues to produce after the first harvest.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring","winter"],
+    "Phases": [ 1, 3, 3, 3 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 62,
+    "SeedPurchaseFrom": "Clint",
+    "SeedPurchaseRequirements": [
+	  "z summer/z fall"
+    ],
+}

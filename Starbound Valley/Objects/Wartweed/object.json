@@ -1,0 +1,9 @@
+{
+  "Name": "Wartweed",
+  "Description": "Warty but not very weedy.",
+  "Category": "Fruit",
+  "Edibility": 30,
+  "Price": 270,
+  "IsColored": false,
+  "Recipe": null,
+}

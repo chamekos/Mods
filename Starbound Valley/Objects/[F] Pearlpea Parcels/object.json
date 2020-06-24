@@ -1,0 +1,34 @@
+{
+  "Category": "Cooking",
+  "Name": "Pearlpea Parcels",
+  "Description": "Pearlpeas wrapped neatly in a wartweed bundle.",
+  "Price": 346,
+
+  "Edibility": 38,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 588,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Pearlpea",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Wartweed",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

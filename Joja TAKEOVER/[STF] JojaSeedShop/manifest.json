@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] JojaSeedShop",
+  "Author": "slackeoz",
+  "Version": "1.0.0",
+  "Description": "Adds a seed shop to jojamart.",
+  "UniqueID": "slackeroz.JojaSEEDSHOP",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5759"],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+  }
+}

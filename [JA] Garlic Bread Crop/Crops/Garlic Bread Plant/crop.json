@@ -1,0 +1,20 @@
+{
+    "Name": "Garlic Bread",
+    "Product": "Raw Garlic Bread",
+    "SeedName": "Garlic Bread Bush",
+    "SeedDescription": "Plant these in any time. Takes 12 days to mature, and keeps producing every 5 days.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer", "fall", "winter"],
+    "Phases": [2, 3, 3, 4, 5],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+    },
+"SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 2000,
+}

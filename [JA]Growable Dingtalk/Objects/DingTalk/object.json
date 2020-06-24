@@ -1,0 +1,24 @@
+{
+  "Name": "DingTalk",
+  "Description": "A Bizzare and Mysterious fruit……",
+  "Category": "Fruit",
+  "Edibility": 120,
+  "Price": 330,
+  "IsColored": false,
+  "Recipe": null,
+	"GiftTastes":
+	{
+	"Love": ["Marnie","Shane","Lewis","Jodi","Kent","Robin","Demetrius","Pierre","Penny","Caroline",],
+	"Like": ["Dwarf","Krobus"],
+	"Dislike": [ "Haley","Sam","Elliott","Emily","Alex","Clint","Evelyn","George","Gus", "Leah","Linus", "Maru","Pam","Sandy","Willy","Wizard","Harvey"],
+	"Hate": ["Jas","Sebastian","Vincent","Abigail"]
+	},
+	"NameLocalization":
+    {
+        "zh": "钉钉",
+    },
+    "DescriptionLocalization":
+    {
+        "zh": "一种奇妙又神秘的水果……",
+    }
+}

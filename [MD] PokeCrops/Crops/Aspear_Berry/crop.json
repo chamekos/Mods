@@ -1,0 +1,21 @@
+{
+    "Name": "Aspear_Berry",
+    "Product": "Aspear Berry",
+    "SeedName": "Aspear Berry Seeds",
+    "SeedDescription": "Plant these in the fall. Takes 13 days to mature.",
+    "Type": "Fruit",
+
+    "Seasons": ["fall"],
+    "Phases": [ 1, 2, 3, 4, 3 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchasePrice": 80,
+}

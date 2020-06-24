@@ -1,0 +1,77 @@
+{
+    "Name": "Sugar Truffles",
+    "Description": "Truffles covered with a sugar crust.",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 50,
+        "MagnetRadius": 100,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 400,
+    "IsColored": false,
+    "CanPurchase": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": 430, //truffle
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 4,
+        },
+      ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Clint",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "Trufas de Azucar", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "糖松露", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Trufas con una cobertura de azucar.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "表面覆盖着一层糖的松露。", //Chinese (Simplified)
+    },
+}

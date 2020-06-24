@@ -1,0 +1,54 @@
+{
+    "Name": "Cooked Garlic Bread",
+    "Description": "The food of the gods. Even holding it gives you a powerful feeling.",
+    "Category": "Cooking",
+    "Edibility": 90,
+    "EdibleIsDrink": false,
+     "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 1,
+    "Foraging": 0,
+    "MaxStamina": 20,
+    "MagnetRadius": 0,
+    "Speed": 1,
+    "Defense": 1,
+    "Attack": 1,
+    "Duration": 540,
+  },
+    "Price": 1500,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Buter",
+            "Count": 2,
+        },
+        {
+            "Object": "Raw Garlic Bread",
+            "Count": 1,
+        },
+        {
+            "Object": 248,
+            "Count": 3,
+        },
+        {
+            "Object": 424,
+            "Count": 2,
+        }],
+        "CanPurchase": true,
+	   "PurchaseFrom": "Gus",
+       "PurchasePrice": 3000,
+    },
+    "GiftTastes":
+    {
+        "Love": ["Gus"],
+        "Like": ["Abigail", "Maru", "Emily", "Alex", "Caroline", "Clint", "Demetrius", "Willy", "Elliott", "Sebastian", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent",],
+        "Neutral": ["Krobus", "Dwarf", "Wizard"],
+	    "Dislike": ["Haley", "Evelyn"],
+        "Hate": ["George"],
+    },
+}

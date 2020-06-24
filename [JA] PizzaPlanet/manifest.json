@@ -1,0 +1,11 @@
+{
+	"Name": "Pizza Planet - Crops",
+    "Author": "gnahc",
+    "Version": "1.0.0",
+    "Description": "Handles adding new plants for Pizza Planet using JsonAssets",
+    "UniqueID": "gnahc.PizzaPlanetCrops",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": []
+}

@@ -1,0 +1,9 @@
+{
+    "Name": "Nanab Berry",
+    "Description": "An unusual fruit from a distant world.  It reminds you of a banana.",
+    "Price": 40,
+    "Edibility": 30,
+    "Category": "Fruit",
+    "IsColored": false,
+    "Recipe": null,
+}

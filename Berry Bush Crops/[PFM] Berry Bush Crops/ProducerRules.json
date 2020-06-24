@@ -1,0 +1,26 @@
+﻿[
+	{ 
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": 410, 
+		"InputStack": 10, 
+		"MinutesUntilReady": 30, 
+		"OutputIdentifier": "Blackberry Bush Seeds",
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 0.2,
+		"OutputStack": 1, 
+		"OutputMaxStack": 5, 
+			
+	},
+	{ 
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": 296, 
+		"InputStack": 10, 
+		"MinutesUntilReady": 30, 
+		"OutputIdentifier": "Salmonberry Bush Seeds",
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 0.2,
+                "OutputStack": 1, 
+		"OutputMaxStack": 5, 
+			
+	}
+]

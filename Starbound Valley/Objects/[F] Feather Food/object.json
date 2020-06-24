@@ -1,0 +1,42 @@
+{
+  "Category": "Cooking",
+  "Name": "Feather Food",
+  "Description": "A traditional Avian ceremonial food eaten at celebrations.",
+  "Edibility": 40,
+  "Price": 214,
+
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 363,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Feathercrown",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Beakseed",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": 262,
+		  "Count": 1,
+	  },
+	  {
+		  "Object": 245,
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

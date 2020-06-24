@@ -1,0 +1,43 @@
+{
+  "Category": "Cooking",
+  "Name": "Ocean Risotto",
+  "Description": "A salty and aromatic rice dish.",
+  "Price": 341,
+
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 579,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Willy",
+  "PurchaseRequirements": [
+		"r 0.3",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+	  {
+        "Object": 423,
+        "Count": 1,
+      },
+	  {
+        "Object": 372,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Reefpod",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "Fishing": 3,
+    "Duration": 300,
+  },
+  
+
+  
+}

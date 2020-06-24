@@ -1,0 +1,52 @@
+{
+    "Name": "Cookie Plant",
+    "Product": "White Cookie",
+    "SeedName": "Cookie Seeds",
+    "SeedDescription": "Plant these in winter. Takes 5 days to mature, and keeps producing white cookies after that.",
+    "Type": "Cooking",
+    "CropType": "Normal",
+    "Seasons": ["summer", "winter"],
+    "Phases": [1, 2, 2, 1],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchaseRequirements": null,
+    "SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 300,
+    "SeedNameLocalization":
+    {
+        "es": "Semillas de galleta blanca.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "曲奇种子", //Chinese (Simplified)
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plántalas en invierno. Toman 5 días en madurar, y siguen produciendo galletas blancas después de eso.", //Spanish
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "冬天播种，5天成熟，在第一次收获后循环生产白曲奇。", //Chinese (Simplified)
+    }
+}

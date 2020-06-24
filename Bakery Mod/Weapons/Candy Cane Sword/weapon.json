@@ -1,0 +1,48 @@
+{
+    "Name": "Candy Cane Sword",
+    "Description": "Forged by the spirits of Christmas",
+    "Type": "sword",
+    "MinimumDamage": 58,
+    "MaximumDamage": 70,
+    "Knockback": 1,
+    "Accuracy": 8,
+    "Defense": 0,
+    "Speed": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 25000,
+    "PurchaseRequirements": null,
+	"NameLocalization":
+    {
+        "es": "Espada de Bastón de Caramelo", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "柺杖糖剑", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Forjada por los espíritus de la navidad.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "由圣诞精灵一手锻造。", //Chinese (Simplified)
+    }
+}

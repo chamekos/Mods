@@ -1,0 +1,21 @@
+{
+    "Name": "TxEdu Tree",
+    "Product": "TxEdu",
+    "SaplingName": "TxEdu Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature TxEdu tree. Bears fruits in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "winter",
+
+    "SaplingPurchasePrice": 16000,
+    "SaplingPurchaseFrom": "Krobus",
+	"SaplingPurchaseRequirements": [
+		"y 2",
+	],
+
+"SaplingNameLocalization": { 
+    "zh": "腾讯课堂树苗",
+	},
+"SaplingDescriptionLocalization": { 
+    "zh": "腾讯课堂树苗。28天成熟为成年的腾讯课堂树。冬天结果。只有在附近8块地块都空置的情况下才会成长。",
+	}
+}

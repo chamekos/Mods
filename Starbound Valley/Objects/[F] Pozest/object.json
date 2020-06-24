@@ -1,0 +1,48 @@
+{
+  "Category": "Cooking",
+  "Name": "Pozest",
+  "Description": "A popular Glitch energy drink. Or is it just a placebo?",
+  "Price": 1288,
+
+  "Edibility": 50,
+  "EdibleIsDrink": true,
+  
+  "Recipe": { 
+    "PurchasePrice": 2189,
+  "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Clint",
+  "PurchaseRequirements": null,
+  
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Boltbulb",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Currentcorn",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Neonmelon",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Diodia",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "MagnetRadius": 64,
+	"MaxStamina": 70,
+	"Speed": 5,
+    "Duration": 500,
+  },
+  
+
+  
+}

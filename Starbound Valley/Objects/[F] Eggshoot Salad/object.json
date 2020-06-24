@@ -1,0 +1,34 @@
+{
+  "Category": "Cooking",
+  "Name": "Eggshoot Salad",
+  "Description": "A simple yet substantial salad of eggshoot and feathercrown.",
+  "Edibility": 40,
+  "Price": 287,
+
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 487,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Feathercrown",
+        "Count": 1,
+      },
+	  {
+		  "Object": "Eggshoot",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

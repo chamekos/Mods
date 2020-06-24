@@ -1,0 +1,16 @@
+{
+	"Name": "JojaBerry Jam",
+	"Description": "Delicious JojaBerry Treat!",
+	"Price": 1500,
+	"Category": "ArtisanGoods",
+	"Edibility": -300,
+	"Recipe": null,
+	"GiftTastes":
+    {
+        "Love": ["MorrisTod",],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Maru", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas", "Linus", "Dwarf", "Pierre"]
+    }
+}

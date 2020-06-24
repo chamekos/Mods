@@ -1,0 +1,11 @@
+{
+  "Name": "[JA] Slime Rancher Products",
+  "Author": "KAYA",
+  "Version": "1.0.1",
+  "Description": "Adds Slime Products and Crops",
+  "UniqueID": "KAYA.JA.SlimeRancherProducts",
+  "UpdateKeys": [ "Nexus:5954" ],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

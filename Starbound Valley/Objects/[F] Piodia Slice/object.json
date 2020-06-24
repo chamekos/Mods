@@ -1,0 +1,47 @@
+{
+  "Category": "Cooking",
+  "Name": "Piodia Slice",
+  "Description": "A variation on pizzap, it's got more of a coppery tang to it.",
+  "Price": 660,
+
+  "Edibility": 80,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 1122,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 424,
+        "Count": 1,
+      },
+	  {
+        "Object": 246,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Diodia",
+		  "Count": 1,
+	  },
+	  {
+		  "Object": "Automato",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+  "EdibleBuffs": {
+    "MagnetRadius": 64,
+    "Duration": 120,
+  },
+  
+
+  
+}

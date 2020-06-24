@@ -1,0 +1,9 @@
+{
+  "Name": "Coralcreep",
+  "Description": "The coralcreep fruit turns red when cooked, like a lobster.",
+  "Category": "Fruit",
+  "Edibility": 8,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

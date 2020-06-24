@@ -1,0 +1,13 @@
+{
+    "Name": "Tropical Coconut Sapling",
+    "Author": "azyzzel",
+    "Description": "Adds plantable coconut sapling.",
+    "Version": "1.0.1",
+    "MinimumApiVersion": "3.2.0",
+    "UniqueID": "azyzzel.tropicalcoconutsapling",
+    "UpdateKeys": ["Nexus:5717"],
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+}

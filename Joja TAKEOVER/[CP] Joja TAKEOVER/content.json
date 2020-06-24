@@ -1,0 +1,12 @@
+{
+  "Format": "1.9",
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/JojaMart",
+	"FromFile": "assets/JojaMart.tbin",
+	"FromArea": { "X": 4, "Y": 23, "Width": 3, "Height": 4 },
+	"ToArea": { "X": 4, "Y": 23, "Width": 3, "Height": 4 }	
+	},	
+	]
+}

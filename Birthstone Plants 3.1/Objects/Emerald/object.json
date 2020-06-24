@@ -1,0 +1,9 @@
+{
+  "Name": "Emerald",
+  "Description": "May Birthstone - Symbolizes fertility and renewal.",
+  "Category": "Gem",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,51 @@
+{
+    "Name": "Black Mulberry",
+    "Product": "Black Mulberry",
+    "SeedName": "Black Mulberry Seeds",
+    "SeedDescription": "Plant these in spring and summer. Takes 7 days to mature, and continues to produce after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["spring", "summer"],
+    "Phases": [1, 2, 2, 1, 1],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 80,
+    "SeedPurchaseRequirements": null,
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "검은 멀베리 씨앗",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "黑桑葚种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "봄과 여름에 심는다. 자라는데 7일 걸리고, 자란 후 계속 열매를 맺는다.",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "春天或夏天播种，7天成熟，在第一次收获后循环生产。",
+    }
+}

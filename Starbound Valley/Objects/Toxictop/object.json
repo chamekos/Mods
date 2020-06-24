@@ -1,0 +1,9 @@
+{
+  "Name": "Toxictop",
+  "Description": "A toxic looking fruit. Can looks be deceiving?",
+  "Category": "Fruit",
+  "Edibility": -5,
+  "Price": 780,
+  "IsColored": false,
+  "Recipe": null,
+}

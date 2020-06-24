@@ -1,0 +1,43 @@
+{
+    "Name": "Life Mushroom",
+    "Description": "A green mushroom. Looks like eating it kills and resurrects me at the same time.",
+    "Category": "Vegetable",
+    "Edibility": 20,
+    "Price": 220,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Harvey", "Leah", "Linus"],
+        "Dislike": ["Caroline", "Dwarf", "Elliott", "Haley", "Jas", "Jodi", "Krobus", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Lebens Pilz",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        "de": "Ein grüner Pilz. Sieht aus als wäre er tödlich und zugleich wiederbelebend.",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

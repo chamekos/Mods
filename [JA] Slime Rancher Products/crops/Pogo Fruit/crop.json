@@ -1,0 +1,51 @@
+{
+    "Name": "Pogo Fruit",
+    "Product": "Pogo Fruit",
+    "SeedName": "Pogo Fruit Seeds",
+    "SeedDescription": "Plant these in spring, summer, fall. Takes 10 days to mature, and keeps producing after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["spring","summer","fall"],
+    "Phases": [1, 2, 3, 2, 2, ],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+	"SeedPurchaseFrom": "Krobus",
+    "SeedPurchasePrice": 50,
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "포고 열매 씨앗",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "봄, 여름, 가을에 심는다. 성장하는데 10일 걸리며, 자란 후 계속 수확할 수 있다.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        //"zh": "",
+    }
+}

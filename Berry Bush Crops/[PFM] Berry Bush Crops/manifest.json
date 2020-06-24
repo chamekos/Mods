@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Berry Bush Crops",
+	"Author": "uberkwefty",
+	"Version": "1.2.0",
+	"Description": "Adds berry to seed maker.",
+	"UniqueID": "uberkwefty.berrybushcropsForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": ["Nexus:5957"],
+	"Dependencies": [
+		{
+			"UniqueID": "uberkwefty.berrybushcrops"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

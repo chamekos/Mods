@@ -1,0 +1,9 @@
+{
+  "Name": "Dirturchin",
+  "Description": "Kind of squidy and a bit tasteless.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

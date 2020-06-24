@@ -1,0 +1,46 @@
+{
+  "Category": "Cooking",
+  "Name": "Spooky Donut",
+  "Description": "Too spooky.",
+  "Price": 605,
+
+  "Edibility": 80,
+  "EdibleIsDrink": false,
+  
+  "Recipe": {
+    "PurchasePrice": 1028,
+    "IsColored": false,	
+  "IsDefault": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements": [
+		"r 0.1",
+	],
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+	  {
+        "Object": 245,
+        "Count": 1,
+      },
+	  {
+        "Object": 176,
+        "Count": 1,
+      },
+	  {
+        "Object": 184,
+        "Count": 1,
+      },
+	  {
+		  "Object": "Boneboo",
+		  "Count": 1,
+	  },
+    ],
+   },
+  
+
+  
+}

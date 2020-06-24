@@ -1,0 +1,15 @@
+{
+  "Name": "Raw Garlic Bread",
+  "Description": "Fresh off the plant. It's alright, but could use some cooking.",
+  "Category": "Vegetable",
+  "Edibility": 40,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "GiftTastes": {
+	"Like": ["Pam", "Gus"],
+	"Neutral": ["Abigail", "Alex", "Vincent", "Marnie", "Emily", "Haley", "Harvey", "Jas", "Leah", "Emily", "Haley", "Harvey", "Jas", "Leah", "Sebastian", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Jodi", "Kent", "Lewis", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+	"Dislike": ["Dwarf", "Linus", "Krobus"],
+  },
+}

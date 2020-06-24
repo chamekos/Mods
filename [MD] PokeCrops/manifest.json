@@ -1,0 +1,11 @@
+{
+   "Name": "PokeCrops json edition",
+   "Author": "Meowdoleon/Medoli900",
+   "Description": "Pokemon Berry Crops",
+   "Version": "1.0.1",
+   "UniqueID": "PokeCropsJson",
+   "UpdateKeys": [ "Nexus:2065" ],
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets",
+   }
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "JojaBean",
+    "Price": 40,
+    "Product": "JojaBean",
+    "SeedName": "JojaBean Seeds",
+    "SeedDescription": "Genetically modified to grow in every season. Takes 10 days to mature and produces every 3 days.",
+    "Type": "Fruit",
+    "CropType": "Normal",
+    "Seasons": ["spring", "summer", "fall", "winter"],
+    "Phases": [ 1, 2, 3, 4, 3 ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "SeedPurchaseFrom": null,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.5,
+    },
+}

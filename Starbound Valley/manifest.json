@@ -1,0 +1,11 @@
+{
+   "Name": "Starbound Valley",
+   "Author": "jawsawn",
+   "Description": "Adding Starbound Crops and Foods into Stardew Valley. Requires JsonAssets and SpaceCore",
+   "Version": "1.0.0",
+   "UniqueID": "jawsawn.StarboundValley",  
+   "UpdateKeys": [ "Nexus:2046" ],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

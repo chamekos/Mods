@@ -1,0 +1,9 @@
+{
+  "Name": "Pearlpea",
+  "Description": "Pearlpeas! I'll need to bite down hard.",
+  "Category": "Vegetable",
+  "Edibility": 7,
+  "Price": 55,
+  "IsColored": false,
+  "Recipe": null,
+}

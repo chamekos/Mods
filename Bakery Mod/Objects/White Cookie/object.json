@@ -1,0 +1,42 @@
+{
+    "Name": "White Cookie",
+    "Description": "Great product for baking pies and cakes!",
+    "Category": "Cooking",
+    "Edibility": 2,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 5,
+    "IsColored": false,
+    "CanPurchase": false,
+    "PurchaseFrom": null,
+    "PurchasePrice": 750,
+    "PurchaseRequirements": null,
+    "NameLocalization":
+    {
+        "es": "Galleta Blanca", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "白曲奇", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "¡Un producto genial para hornear pasteles y pays!", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "烘焙派和蛋糕的好产品！", //Chinese (Simplified)
+    },
+}

@@ -1,0 +1,17 @@
+{	
+	"Name": "JojaBerry Juice",
+	"Description": "The flavours of JojaBerry are only enhanced in Juice form.",
+	"Price": 2000,
+	"Category": "ArtisanGoods",
+	"Edibility": 100,
+	"EdibleIsDrink": true,
+	"Recipe": null,
+	"GiftTastes":
+    {
+        "Love": ["MorrisTod",],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Maru", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas", "Linus", "Dwarf", "Pierre"]
+    }
+}

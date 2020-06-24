@@ -1,0 +1,9 @@
+{
+  "Name": "Eggshoot",
+  "Description": "Eggshoot, soft-boiled in texture. Break it open to find a yolk.",
+  "Category": "Vegetable",
+  "Edibility": 15,
+  "Price": 86,
+  "IsColored": false,
+  "Recipe": null,
+}
