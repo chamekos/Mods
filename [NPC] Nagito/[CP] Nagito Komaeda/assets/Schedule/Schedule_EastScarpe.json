@@ -1,0 +1,23 @@
+{ 
+    "spring": "700 NagitoCottage 11 5 0/800 EastScarpe 15 107 2 nagito_read/1700 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "summer": "700 NagitoCottage 11 5 0/800 EastScarpe 15 107 2 nagito_read/1700 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "fall": "900 NagitoCottage 11 5 0/1000 NagitoCottage 12 8 3/930 Town 50 95 2 nagito_read/1400 ArchaeologyHouse 16 9 0/1600 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "winter": "900 NagitoCottage 11 5 0/1000 NagitoCottage 12 8 3/1400 ArchaeologyHouse 16 9 0/1700 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    // Wakes up, wanders around cottage, visits library, returns home to read
+    "rain": "900 NagitoCottage 11 5 0/1000 NagitoCottage 12 8 3/1100 ArchaeologyHouse 16 9 0/1440 NagitoCottage 12 8 3 Nagito_read/2300 NagitoCottage 1 6 0 nagito_sleep",
+    // Goes to Pierre's, reads in town before returning home for the evening
+    "Tue": "700 NagitoCottage 11 5 0/830 SeedShop 10 20 0 \"Strings\\schedules\\Nagito:thought.000\"/1230 Town 45 91 2 Nagito_sit/1730 NagitoCottage 5 5 2/2000 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    // Watches the waves, heads to the library, reads in town, then heads home
+    "Sun": "730 Beach 37 23 2/1300 ArchaeologyHouse 17 9 0/1500 Town 45 91 2 Nagito_sit/1700 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    // Hangs around his house, reads in town, heads home
+    "Fri": "900 NagitoCottage 11 5 0/1000 NagitoCottage 12 8 3/1100 Town 50 95 2 nagito_bookstand/1700 NagitoCottage 5 5 2/2300 NagitoCottage 1 6 0 nagito_sleep",
+    // MARRIAGE
+    "marriage_Mon": "1030 Beach 46 21 2 \"Strings\\schedules\\Nagito:beach.000\"/1530 BusStop -1 23 3",
+    // Visits the library, reads in town, heads home
+    "marriage_Fri": "830 ArchaeologyHouse 12 9 0 \"Strings\\schedules\\Nagito:marriage.000\"/1400 Town 45 91 2 Nagito_sit/1700 BusStop -1 23 3",
+    // DOCTOR'S APPOINTMENTS - every season 3
+    "spring_3": "900 NagitoCottage 7 6 2 \"Strings\\schedules\\Nagito:spring_3.000\"/1000 Hospital 12 14 0 \"Strings\\schedules\\Nagito:doctor_spring.000\"/1130 Hospital 4 6 1 \"Strings\\schedules\\Nagito:thought.000\"/1500 NagitoCottage 12 8 3/2000 NagitoCottage 10 9 0/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "summer_3": "900 NagitoCottage 7 6 2 \"Strings\\schedules\\Nagito:summer_3.000\"/1000 Hospital 12 14 0 \"Strings\\schedules\\Nagito:doctor_summer.000\"/1130 Hospital 4 6 1 \"Strings\\schedules\\Nagito:thought.000\"/1500 NagitoCottage 12 8 3/2000 NagitoCottage 10 9 0/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "fall_3": "900 NagitoCottage 7 6 2 \"Strings\\schedules\\Nagito:fall_3.000\"/1000 Hospital 12 14 0 \"Strings\\schedules\\Nagito:doctor_fall.000\"/1130 Hospital 4 6 1 \"Strings\\schedules\\Nagito:thought.000\"/1500 NagitoCottage 12 8 3/2000 NagitoCottage 10 9 0/2300 NagitoCottage 1 6 0 nagito_sleep",
+    "winter_3": "900 NagitoCottage 7 6 2 \"Strings\\schedules\\Nagito:winter_3.000\"/1000 Hospital 12 14 0 \"Strings\\schedules\\Nagito:doctor_winter.000\"/1130 Hospital 4 6 1 \"Strings\\schedules\\Nagito:thought.000\"/1500 NagitoCottage 12 8 3/2000 NagitoCottage 10 9 0/2300 NagitoCottage 1 6 0 nagito_sleep",
+}

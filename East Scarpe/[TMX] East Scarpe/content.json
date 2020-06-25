@@ -5,15 +5,15 @@
      
        {
       "name": "EastScarpe",
-      "file": "assets/EastScarpe1.tmx",
+      "file": "assets/EastScarpe2.tmx",
       "type": "Custom:EastScarpe.EastScarpe, EastScarpe, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
     },
 
     {
       "name": "Lighthouse",
-      "file": "assets/Lighthouse_interior.tmx"
+      "file": "assets/Lighthouse_Interior.tmx"
     },
-
+  
        {
         "name": "House1",
         "file": "assets/House1.tmx"
@@ -56,8 +56,19 @@
         "sourceArea": [ 0, 0, 6, 9 ],
         "position": [ 28, 27 ],
         "Conditions": "d Mon Wed Thu Fri Sat Sun/t 1100 1800/w sunny"
+      },
+ {
+        "name": "EastScarpe",
+        "file": "assets/OrchardPatch.tmx",
+        "sourceArea": [ 0, 0, 3, 3 ],
+        "position": [ 74, 47 ]
       }
-    ],
+      
+      
+      
+ 
+],
+    
 
 
     
@@ -105,7 +116,65 @@
     "direction": 1,
     "position2": [23, 23],
     "direction2": 0
-          }
+          },
+
+{
+  "name": "Jacob",
+  "map": "Beach-Jellies",
+  "position": [4,7 ],
+  "direction": 2
+ 
+        },
+{
+  "name": "Eloise",
+  "map": "Beach-Jellies",
+  "position": [5, 7],
+  "direction": 2
+
+        },
+  {
+    "name": "Jacob",
+    "map": "Town-Fair",
+    "position": [62,65 ],
+    "direction": 2
+    
+          },
+  {
+    "name": "Eloise",
+    "map": "Town-Fair",
+    "position": [63, 65],
+    "direction": 2
+  
+          },
+{
+  "name": "Jacob",
+  "map": "Town-Halloween",
+  "position": [16,51 ],
+  "direction": 2
+  
+        },
+{
+  "name": "Eloise",
+  "map": "Town-Halloween",
+  "position": [16, 52],
+  "direction": 0
+        },
+{
+"name": "Jacob",
+"map": "Forest-IceFestival",
+"position": [59, 45],
+"direction": 1,
+"position2": [33,25],
+"direction2": 2
+      },
+{
+"name": "Eloise",
+"map": "Forest-IceFestival",
+"position": [59, 46],
+"direction": 1,
+"position2": [34,25],
+"direction2":2
+      }
 
 
 	

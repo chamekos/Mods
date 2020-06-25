@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="17">
+<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="19">
  <properties>
   <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
-  <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825"/>
+  <property name="Doors" value="11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 15 1 120"/>
   <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285"/>
   <property name="Warp" value="14 25 Town 45 71"/>
  </properties>
@@ -86,7 +86,7 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9l7luFEEQhntm2ACRAIk5BG/AmXBkICBZDtsJGyEkMIktsA1occIROrHNciS2AIlDGBBgzgAnIBmtOR4A8AvwCEDC39oubU1NTc/M7kBJn2e6u7r7r+nu2nZgjAkcea2IL/n/S4po+B+6847XC/o89Bfw1fqUtaZS9zBrG1H8R4XvptCYzWBL2PLnDMDpVBDvkzdeGWsWU+BA2NL4CxW/wR8XeA/qG8L3EOoOgyPgQmTMGBgSH6phkt9GxiiRsWaxxmkeR2Et3teB9WDRaVkI/Otdj9rve+C01znKb3MlatNbwTeutJ+1SjLWMs9lj4vxeEZHHqulxjQaV7ZWrcTbyH+HGG+noruRQ3ye2H3tzWX+8Uk/+R+1dYyaMmYVf6bdUzLjxp32zCl9qBw7l2w/+Iz862CQMRvqefCd0c/4PBjztGs+tqzlQb5PuNXY3iF/ykvWmvasKbrtWf9h9DO+5MZOa9d8bNmXG4ynzXfmtDxYtsncwOfWNEh4XkrTnVYviRxFclWnujXLGrMbo9jkO583r25fPDPsXeYM23YaE58Bw2AEjIKz4Bw4H/nzjGY0t+13AufwJBjIyDGyr80j86xe5gzbNgFtk2AKXAUNcA1cBzeiZB8y7e7B5/blpz5ljH7W1+YRe/Z3Yf7dUTJn2LanqH8GnoM58AK8BK/Aa6UPmXb3sN+Y1lfLT/fx3R9U2uOsRO5bBVaH8fz0DeXvobYixewY28Qb8L7R3UHeQ8MHcAnvl93a8PW96/bHPfdcwPMj+OrKW6FtG9gu7nY+uxllODC7GMXvVtJuo+2OW5uldLdUq0L3wTCpW85py2/A25zcKhBjJzYIzUOKbrpDZxnFp8VZhj3E/pgFj8Bj8ITlGXv30/aJNndZemh/Z/3GNKFzEXwCn8EXkR+5f5Y2WotuYrD7+2eQrns8xw9encWdd3+kjVOk/3LlPkfM4c8Kl9f2ha3/SfaHyXk6uV8U+Y0mKC93M5/kL7Isrxo=
+   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
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -170,10 +170,20 @@
     <property name="Action" value="Saloon"/>
    </properties>
   </object>
+  <object id="17" name="TileData" x="640" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Mike"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="688" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Say This is a letter from Mike's parents. It seems like there are some tear marks on the letter."/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="5" name="Front" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
