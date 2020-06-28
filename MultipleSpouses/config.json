@@ -18,6 +18,7 @@
   "RealKissSound": false,
   "MaxDistanceToKiss": 200.0,
   "MinSpouseKissInterval": 5.0,
+  "PreventRelativesFromKissing": true,
   "BabyRequestChance": 0.05000000074505806,
   "AllowGayPregnancies": true,
   "FemaleBabyChance": 0.5,
