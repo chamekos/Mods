@@ -15,23 +15,23 @@
     },
   
        {
-        "name": "House1",
+        "name": "ESHouse1",
         "file": "assets/House1.tmx"
       },
       {
-        "name": "House2",
+        "name": "ESHouse2",
         "file": "assets/House2.tmx"
       },
       {
-        "name": "House3",
+        "name": "ESHouse3",
         "file": "assets/House3.tmx"
       },
       {
-        "name": "House4",
+        "name": "ESHouse4",
         "file": "assets/House4.tmx"
       },
       {
-        "name": "FishingCabin",
+        "name": "ESFishingCabin",
         "file": "assets/FishingCabin.tmx"
       },
       {
@@ -174,7 +174,26 @@
 "direction": 1,
 "position2": [34,25],
 "direction2":2
-      }
+      },
+{
+  "name": "Eloise",
+  "map": "Town-EggFestival",
+  "position": [17, 66],
+  "direction": 1,
+  "position2": [35, 60],
+  "direction2": 2
+
+
+        },
+{
+  "name": "Jacob",
+  "map": "Town-EggFestival",
+  "position": [52, 71],
+  "direction": 0,
+  "position2": [34, 60],
+  "direction2": 2
+
+        }
 
 
 	

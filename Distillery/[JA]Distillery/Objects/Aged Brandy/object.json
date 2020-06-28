@@ -22,9 +22,9 @@
   "IsColored": false,
   "Recipe": null,
     "GiftTastes": {
-	"Love": ["George", "Gus", "Harvey", "Kent", "Leah", "Lewis"],
+	"Love": ["George", "Gus", "Harvey", "Kent", "Leah", "Lewis", "Evelyn"],
 	"Like": ["Clint", "Elliott", "Shane", "Linus", "Marnie", "Pierre", "Robin", "Sandy", "Wizard", "Pam"],
-	"Dislike": ["Krobus", "Dwarf", "Abigail", "Emily", "Evelyn", "Haley", "Alex", "Caroline", "Demetrius", "Maru"],
+	"Dislike": ["Krobus", "Dwarf", "Abigail", "Emily", "Haley", "Alex", "Caroline", "Demetrius", "Maru"],
 	"Hate": ["Jas", "Jodi", "Penny", "Sebastian", "Sam", "Vincent"]
   }
 }

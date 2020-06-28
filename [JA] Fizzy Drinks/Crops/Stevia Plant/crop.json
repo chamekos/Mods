@@ -1,0 +1,51 @@
+{
+    "Name": "Stevia Plant Seeds",
+    "Product": "Stevia Plant",
+    "SeedName": "Stevia Plant Seeds",
+    "SeedDescription": "Plant these in spring or summer. Takes 7 days to mature.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer"],
+    "Phases": [1, 2, 3, 2, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 60,
+    "SeedPurchaseRequirements": null,
+	"SeedNameLocalization":
+    {
+		// "es": "",
+        "ko": "스테비아 씨앗",
+		//"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "SeedDescriptionLocalization":
+    {
+		// "es": "",
+        "ko": "봄 또는 여름에 심는다. 성장하는 데 7일이 걸린다.",
+		// "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "春季和夏季种植，需要7天时间成熟�",
+},
+}

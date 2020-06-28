@@ -11,6 +11,14 @@ Heart Events Guide:
 - 8 Heart: Enter Beach from 8:00 pm - 23:50 pm
 - 10 Heart: To be further updated :)
 
+[UPDATE 6/25/2020]: Townspeople now react to Lucikiel after certain heart events with over 45+ lines of new dialogue. 
+Speak to a character after triggering Lucikiel's heart events to see their reactions!
+Reaction Guide:
+0 Heart: Every villager has additional dialogue (vanilla NPCs)
+4 Heart: Clint
+6 Heart: Clint, Abigail, Sam, Sebastian, Shane, Alex, Emily, Gus, Pam, Vincent, Penny, Evelyn, Pierre, Caroline, and Linus
+8 Heart: Clint, Lucikiel, Wizard
+
 =========
 
 Regular Schedule: (Certain animations and behaviors vary at different times)

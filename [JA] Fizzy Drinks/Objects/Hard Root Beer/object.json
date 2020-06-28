@@ -1,0 +1,84 @@
+{
+    "Name": "Hard Root Beer",
+    "Description": "Root beer with some rum added in for more sweetness. Drink in moderation.",
+    "Category": "Cooking",
+    "Edibility": 55,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 800,
+    "IsColored": false,
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 800,
+	"PurchaseRequirements": null,
+
+    "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Root Beer",
+        "Count": 1,
+      },
+      {
+        "Object": "Rum",
+        "Count": 1,
+      }
+    ],
+		"CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1800,
+        "PurchaseRequirements": null,
+    },
+
+	
+
+    "GiftTastes":
+    {
+        "Love": ["Pam", "Shane"],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas"]
+    },
+"NameLocalization": { 
+		// "es": "",
+		"ko": "하드 루트 비어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "根汁啤酒",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "루트비어에 럼주가 단맛을 더했다. 적당히 마셔라.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "加入了朗姆的含酒精根汁汽水，口感会更甜。饮酒请适度�.",
+
+}
+}

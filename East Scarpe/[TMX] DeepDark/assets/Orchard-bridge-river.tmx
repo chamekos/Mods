@@ -1681,15 +1681,15 @@
   </tile>
  </tileset>
  <layer id="1" name="Back" width="6" height="1">
-  <data encoding="base64" compression="zlib">
-   eAHzYmRgkGZFxVnsDAwAD8gBPQ==
-  </data>
+  <data encoding="csv">
+330,1307,1307,1307,1307,1898
+</data>
  </layer>
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="6" height="1">
-  <data encoding="base64" compression="zlib">
-   eAFzE2RgcIdiDyANwp5ADAAclgIU
-  </data>
+  <data encoding="csv">
+4422,4423,4423,4424,4424,4425
+</data>
  </layer>
  <objectgroup id="4" name="Buildings">
   <object id="23" name="TileData" x="0" y="0" width="16" height="16">
@@ -1699,21 +1699,21 @@
   </object>
  </objectgroup>
  <layer id="5" name="Front" width="6" height="1">
-  <data encoding="base64" compression="zlib">
-   eAFjYMAOAAAYAAE=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0
+</data>
  </layer>
  <objectgroup id="6" name="Front"/>
  <layer id="7" name="Paths" width="6" height="1">
-  <data encoding="base64" compression="zlib">
-   eAFjYMAOAAAYAAE=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0
+</data>
  </layer>
  <objectgroup id="8" name="Paths"/>
  <layer id="9" name="AlwaysFront" width="6" height="1">
-  <data encoding="base64" compression="zlib">
-   eAFjYMAOAAAYAAE=
-  </data>
+  <data encoding="csv">
+0,0,0,0,0,0
+</data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
 </map>

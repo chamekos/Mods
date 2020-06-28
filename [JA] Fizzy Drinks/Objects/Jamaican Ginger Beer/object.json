@@ -1,0 +1,80 @@
+{
+  "Name": "Jamaican Ginger Beer",
+  "Description": "Put a lime in the ginger beer and you drink it all up!",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 500,
+  "IsColored": false,
+"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+	"PurchaseRequirements": null,
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Ginger Beer",
+        "Count": 1,
+      },
+      {
+        "Object": "Lime",
+        "Count": 1,
+      }
+    ],
+	"CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1500,
+        "PurchaseRequirements": null,
+    },
+
+
+  "GiftTastes": {
+    "Love": ["Vincent", "Jas"],
+  "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+  "Dislike": ["Krobus", "Willy"],
+  },
+"NameLocalization": { 
+		// "es": "",
+		"ko": "자메이카 진저 비어",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "牙买加根汁汽水",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "진저 비어에 생강을 넣으면 목구멍에 술술 들어간다!",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "加入了青柠的根汁汽水。好喝到一口闷�!",
+
+}
+}

@@ -1,0 +1,346 @@
+[
+    // Distillery
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Mead",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Moonshine",
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability": 0.5,
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputIdentifier": "Rum",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Wine",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"KeepInputParentIndex": true,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Moonshine",
+		"KeepInputParentIndex": true,
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 0.1,
+	    },
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Tequila",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"KeepInputParentIndex": true,
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"RequiredInputParentIdentifier": [ "Cactus Fruit" ],
+		"OutputPriceMultiplier": 6,
+	    },
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "French Style Brandy",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"RequiredInputParentIdentifier": [ "Grape" ],
+		"OutputPriceMultiplier": 6,
+	    },
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Brandy",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "303",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Moonshine",
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Malt Whisky",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Beer",
+	"InputStack": 3,
+	"MinutesUntilReady": 120,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Moonshine",
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Bourbon Whiskey",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Juice",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"OutputIdentifier": "Moonshine",
+	"KeepInputParentIndex": true,
+	"InputPriceBased": true,
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.2,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+ 		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 6,
+	    },
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+ 		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 86,
+		"RequiredInputParentIdentifier": [ "Potato" ]
+	    },
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 6,
+		"RequiredInputParentIdentifier": [ "Corn" ]
+	    },
+	    {
+		"OutputProbability" : 0.4,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 6,		
+		"RequiredInputParentIdentifier": [ "Amaranth" ]
+	    },
+	    {
+		"OutputProbability" : 0.3,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 6,		
+		"RequiredInputParentIdentifier": [ "Beet" ]
+	    },
+	]
+    },
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Sake",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Moonshine",
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Rice Vodka",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    {
+	"ProducerName": "Distillery",
+	"InputIdentifier": "Long Drink",
+	"InputStack": 3,
+	"MinutesUntilReady": 30,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Moonshine",
+	"OutputPriceMultiplier": 0.1,
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability" : 0.5,
+		"OutputIdentifier": "Gin",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"OutputPriceMultiplier": 6,
+	    }
+	]
+    },
+    // Aging products
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Brandy",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"KeepInputParentIndex": true,
+	"OutputIdentifier": "Aged Brandy",
+	"OutputName": "{farmerName}'s Aged {inputName} Brandy from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "French Style Brandy",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"KeepInputParentIndex": true,
+	"OutputIdentifier": "VSOP Brandy",
+	"OutputName": "{farmerName}'s Aged VSOP Brandy from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Tequila",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Aged Tequila",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Bourbon Whiskey",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Aged Bourbon Whiskey",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Malt Whisky",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Aged Malt Whisky",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Rum",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Aged Rum",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+ 	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Gin",
+	"InputStack": 1,
+	"FuelIdentifier": "Pine Cone",
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Aged Gin",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutputQuality": 4,
+	"OutpuPriceMultiplier": 1,
+   },
+    {
+ 	"ProducerName": "Iron Cask",
+	"InputIdentifier": "Vodka",
+	"InputStack": 1,
+	"FuelIdentifier": "Holly",
+	"MinutesUntilReady": 40320,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"OutputIdentifier": "Absinthe",
+	"OutputName": "{farmerName}'s {outputName} from {farmName}",
+	"OutpuPriceMultiplier": 4.2,
+    },
+    {
+	"ProducerName": "Keg",
+	"InputIdentifier": "Rice",
+	"InputStack": 1,
+	"MinutesUntilReady": 2000,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Sake",
+	"OutputPriceMultiplier": 3,
+    },
+    {
+	"ProducerName": "Keg",
+	"InputIdentifier": "Snow Yam",
+	"InputStack": 1,
+	"MinutesUntilReady": 2000,
+	"InputPriceBased": true,
+	"OutputIdentifier": "Long Drink",
+	"OutputPriceMultiplier": 3,
+    },
+    {
+	"ProducerName": "Recycling Machine",
+	"InputIdentifier": "Moonshine",
+	"InputStack": 1,
+	"MinutesUntilReady": 60,
+	"OutputIdentifier": "Hand desinfectant",
+	"AdditionalOutputs": [
+	    {
+		"OutputProbability": 0.1,
+		"MinutesUntilReady": 60,
+		"OutputIdentifier": "Basic Fertilizer",
+		"OutputStack": 3,
+	    },
+	    {
+		"OutputProbability": 0.15,
+		"MinutesUntilReady": 60,
+		"OutputIdentifier": "Basic Fertilizer",
+		"OutputStack": 2,
+	    },
+	    {
+		"OutputProbability": 0.2,
+		"MinutesUntilReady": 60,
+		"OutputIdentifier": "Basic Fertilizer",
+		"OutputStack": 1,
+	    }
+	]
+    }   
+]
+

@@ -1,0 +1,50 @@
+{
+  "Format": "1.3",
+  "Changes": [
+    {
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDispositions.json",
+      "LogName": "Lucikiel's CompanionDispositions"
+    },
+    {
+      "Target": "Dialogue/Lucikiel",
+      "FromFile": "assets/Dialogue/Lucikiel.json",
+      "LogName": "Lucikiel's Dialogue"
+    },
+    {
+      "Target": "Strings/Mail",
+      "FromFile": "assets/Strings/Mail.json",
+      "LogName": "Lucikiel's Mail"
+    },
+    {
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json",
+      "LogName": "Lucikiel's Buffs"
+    },
+    {
+      "Target": "Data/AnimationDescriptions",
+      "FromFile": "assets/Data/AnimationDescriptions.json",
+      "LogName": "Lucikiel's AnimationDescriptions"
+    },
+    {
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json",
+      "LogName": "Lucikiel's IdleBehaviors"
+    },
+    {
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json",
+      "LogName": "Lucikiel's IdleNPCDefinitions"
+    },
+    {
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffdescriptions.json",
+      "LogName": "Lucikiel's Buffdescriptions"
+    },
+    {
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.json",
+      "LogName": "Lucikiel's SpeechBubbles"
+    }
+  ]
+}

@@ -1,10 +1,22 @@
 ﻿{
   "Name": "Multiple Spouses",
   "Author": "aedenthorn",
-  "Version": "1.0.2",
+  "Version": "1.0.4",
   "Description": "Allows you to have multiple spouses at once.",
   "UniqueID": "aedenthorn.MultipleSpouses",
   "EntryDll": "MultipleSpouses.dll",
   "MinimumApiVersion": "3.4.0",
-  "UpdateKeys": ["Nexus:6227"]
+  "ModUpdater": {
+    "Repository": "StardewValleyMods",
+    "User": "aedenthorn",
+    "Directory": "_releases",
+    "ModFolder": "MultipleSpouses"
+  },
+  "UpdateKeys": ["Nexus:6227"],
+  "Dependencies": [
+      {
+        "UniqueID": "Platonymous.ModUpdater",
+        "IsRequired": false
+      },
+  ]
 }

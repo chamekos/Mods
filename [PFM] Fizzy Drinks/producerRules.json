@@ -18,6 +18,47 @@
         "PlacingAnimationColorName": "White",
 	},
 	{
+		"ProducerName": "Artisanal Soda Maker",
+		"InputIdentifier": "Chewing Gum",
+		"InputStack": 1,
+		"FuelIdentifier": "Sparkling Water",
+       	 "FuelStack": 1,
+              "AdditionalFuel": {"245":1},
+		"MinutesUntilReady": 1500,
+		"OutputIdentifier":"Blue Bubblegum Soda",
+		"InputPriceBased": false,
+		
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["bubbles"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	
+	
+	
+	{
+		"ProducerName": "Artisanal Soda Maker",
+		"InputIdentifier": "Maple Syrup",
+		"InputStack": 1,
+		"FuelIdentifier": "Sugar Cane",
+       	 "FuelStack": 1,
+              
+		"MinutesUntilReady": 1500,
+		"OutputIdentifier": "Maple Soda",
+		"InputPriceBased": false,
+		
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["bubbles"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+	
+
+	{
 		"ProducerName": "Cream Soda Maker",
 		"InputIdentifier": "Birch Extract",
 		"InputStack": 1,
@@ -43,7 +84,7 @@
         "FuelStack": 1,
 		"AdditionalFuel": {"245":1},
 		"MinutesUntilReady": 1500,
-		"OutputIdentifier":"Chinotto Soda",
+		"OutputIdentifier": "Chinotto Soda",
 		"InputPriceBased": false,
 		
 		"KeepInputQuality": false,
@@ -53,6 +94,43 @@
         "PlacingAnimation": null,
         "PlacingAnimationColorName": "White",
 	},
+{
+		"ProducerName": "Artisanal Soda Maker",
+		"InputIdentifier": "Spruce Essence",
+		"InputStack": 1,
+		"FuelIdentifier": "Sparkling Water",
+        "FuelStack": 1,
+		"AdditionalFuel": {"245":1},
+		"MinutesUntilReady": 1500,
+		"OutputIdentifier": "Spruce Beer",
+		"InputPriceBased": false,
+		
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["bubbles"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+{
+		"ProducerName": "Artisanal Soda Maker",
+		"InputIdentifier": "Stevia Extract",
+		"InputStack": 1,
+		"FuelIdentifier": "Sparkling Water",
+        "FuelStack": 1,
+		
+		"MinutesUntilReady": 1500,
+		"OutputIdentifier": "Stevia Soda",
+		"InputPriceBased": false,
+		
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["bubbles"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+	},
+
 	{
 		"ProducerName": "Cream Soda Maker",
 		"InputIdentifier": "Sarsaparilla",
@@ -146,6 +224,44 @@
         "PlacingAnimation": null,
         "PlacingAnimationColorName": "White",
     },
+{
+        "ProducerName": "Alembic",
+        "InputIdentifier": "Stevia Plant",
+        "InputStack": 1,
+        "FuelIdentifier": null,
+        "FuelStack": 1,
+        "MinutesUntilReady": 720,
+        "OutputIdentifier": "Stevia Extract",
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "KeepInputQuality": false,
+        "OutputQuality": 0,
+        "OutputStack": 1,
+        "Sounds": ["Ship"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+    },
+
+{
+        "ProducerName": "Alembic",
+        "InputIdentifier": "Spruce Tips",
+        "InputStack": 1,
+        "FuelIdentifier": null,
+        "FuelStack": 1,
+        "MinutesUntilReady": 720,
+        "OutputIdentifier": "Spruce Essence",
+        "InputPriceBased": true,
+        "OutputPriceIncrement": 0,
+        "OutputPriceMultiplier": 2,
+        "KeepInputQuality": false,
+        "OutputQuality": 0,
+        "OutputStack": 1,
+        "Sounds": ["Ship"],
+        "PlacingAnimation": null,
+        "PlacingAnimationColorName": "White",
+    },
+
 
 	
 	

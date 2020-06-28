@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="8">
+ <properties>
+  <property name="Warp" value="6 9 Town 46 32"/>
+ </properties>
+ <tileset firstgid="1" name="Interior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgYCaAYUCZAIYBZwIYBpIJYBg4AcQn8dAw8JeRgeElkH7BgEqDxEEYBmDiLxmwq4cBDqAeTiTMgUSjmwfi47OXkUgMAFK+JD4=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzjYmBgYCaAeYDYEYiVsWBjRgTbFarOGQlPBsrDQDAjRAymbgUTA8NKIE5mQMUsrAwMrKwIdSeAak4CsTMzwixLoFkqQDWqSOoIAWzqEplwq1MEmq3EChHTZ8auLhHkd1bcdt4BurMZSDPiwFqsqHwAZNIPVQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4sIRpAC0fpAAAtIYApw==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="10" name="Paths" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgwkAAAGQAAE=
+  </data>
+ </layer>
+ <objectgroup id="9" name="Paths"/>
+ <layer id="7" name="AlwaysFront" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCANBDMxMIQw4VcTycjAUAxUU4Kk7gULprpKoDpHAmbRAjCyMjAwsVJmxh5GBHsZFszFimDjA1xo7gAAvQ4JDA==
+  </data>
+ </layer>
+ <objectgroup id="8" name="AlwaysFront"/>
+</map>

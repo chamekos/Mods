@@ -8,7 +8,7 @@
 	"InputPriceBased": true,
 	"OutputIdentifier": "Rum",
 	"OutputName": "{farmerName}'s {outputName} from {farmName}",
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
     },
     {
 	"ProducerName": "Distillery",
@@ -19,16 +19,27 @@
 	"OutputIdentifier": "Brandy",
 	"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
 	"KeepInputParentIndex": true,
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
 	"AdditionalOutputs": [
 	    {
 		"OutputProbability" : 1,
 		"OutputIdentifier": "Tequila",
 		"OutputName": "{farmerName}'s {outputName} from {farmName}",
 		"MinutesUntilReady": 120,
+		"KeepInputParentIndex": true,
 		"InputPriceBased": true,
 		"RequiredInputParentIdentifier": [ "Cactus Fruit" ],
-		"OutputPriceMultiplier": 8,
+		"OutputPriceMultiplier": 6,
+	    },
+	    {
+		"OutputProbability" : 1,
+		"OutputIdentifier": "French Style Brandy",
+		"OutputName": "{farmerName}'s {outputName} from {farmName}",
+		"KeepInputParentIndex": true,
+		"MinutesUntilReady": 120,
+		"InputPriceBased": true,
+		"RequiredInputParentIdentifier": [ "Grape" ],
+		"OutputPriceMultiplier": 6,
 	    }
 	]
 	
@@ -41,7 +52,7 @@
 	"InputPriceBased": true,
 	"OutputIdentifier": "Malt Whisky",
 	"OutputName": "{farmerName}'s {outputName} from {farmName}",
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
     },
     {
 	"ProducerName": "Distillery",
@@ -51,7 +62,7 @@
 	"InputPriceBased": true,
 	"OutputIdentifier": "Bourbon Whiskey",
 	"OutputName": "{farmerName}'s {outputName} from {farmName}",
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
     },
     
     {
@@ -65,29 +76,21 @@
 	"OutputPriceMultiplier": 0.1,
 	"AdditionalOutputs": [
 	    {
-		"OutputProbability" : 0.4,
-		"OutputIdentifier": "Vodka",
-		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
-		"MinutesUntilReady": 120,
- 		"KeepInputParentIndex": true,
-		"OutputPriceMultiplier": 8,
-	    },
-	    {
 		"OutputProbability" : 0.95,
 		"OutputIdentifier": "Vodka",
 		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
 		"MinutesUntilReady": 120,
  		"KeepInputParentIndex": true,
-		"OutputPriceMultiplier": 8,
+		"OutputPriceMultiplier": 6,
 		"RequiredInputParentIdentifier": [ "Potato" ]
 	    },
 	    {
 		"OutputProbability" : 0.95,
 		"OutputIdentifier": "Vodka",
 		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
-		"MinutesUntilReady": 10,
+		"MinutesUntilReady": 120,
 		"KeepInputParentIndex": true,
-		"OutputPriceMultiplier": 8,
+		"OutputPriceMultiplier": 6,
 		"RequiredInputParentIdentifier": [ "Corn" ]
 	    },
 	    {
@@ -96,7 +99,7 @@
 		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
 		"MinutesUntilReady": 120,
 		"KeepInputParentIndex": true,
-		"OutputPriceMultiplier": 8,		
+		"OutputPriceMultiplier": 6,		
 		"RequiredInputParentIdentifier": [ "Amaranth" ]
 	    },
 	    {
@@ -105,9 +108,17 @@
 		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
 		"MinutesUntilReady": 120,
 		"KeepInputParentIndex": true,
-		"OutputPriceMultiplier": 8,		
+		"OutputPriceMultiplier": 6,		
 		"RequiredInputParentIdentifier": [ "Beet" ]
 	    },
+	    {
+		"OutputProbability" : 0.4,
+		"OutputIdentifier": "Vodka",
+		"OutputName": "{farmerName}'s {inputName} {outputName} from {farmName}",
+		"MinutesUntilReady": 120,
+ 		"KeepInputParentIndex": true,
+		"OutputPriceMultiplier": 6,
+	    }
 	]
     },
     {
@@ -118,7 +129,7 @@
 	"InputPriceBased": true,
 	"OutputIdentifier": "Rice Vodka",
 	"OutputName": "{farmerName}'s {outputName} from {farmName}",
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
     },
     {
 	"ProducerName": "Distillery",
@@ -128,8 +139,9 @@
 	"InputPriceBased": true,
 	"OutputIdentifier": "Gin",
 	"OutputName": "{farmerName}'s {outputName} from {farmName}",
-	"OutputPriceMultiplier": 8,
+	"OutputPriceMultiplier": 6,
     },
+    // Aging products
     {
 	"ProducerName": "Iron Cask",
 	"InputIdentifier": "Brandy",
@@ -140,6 +152,19 @@
 	"KeepInputParentIndex": true,
 	"OutputIdentifier": "Aged Brandy",
 	"OutputName": "{farmerName}'s Aged {inputName} Brandy from {farmName}",
+	"OutputQuality": 4,
+	"OutputPriceMultiplier": 1,
+    },
+    {
+	"ProducerName": "Iron Cask",
+	"InputIdentifier": "French Style Brandy",
+	"InputStack": 1,
+	"MinutesUntilReady": 60480,
+	"InputPriceBased": true,
+	"SubtractTimeOfDay": false,
+	"KeepInputParentIndex": true,
+	"OutputIdentifier": "VSOP Brandy",
+	"OutputName": "{farmerName}'s Aged VSOP Brandy from {farmName}",
 	"OutputQuality": 4,
 	"OutputPriceMultiplier": 1,
     },

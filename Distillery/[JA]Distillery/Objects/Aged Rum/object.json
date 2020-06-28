@@ -22,7 +22,7 @@
   "IsColored": false,
   "Recipe": null,
     "GiftTastes": {
-	"Love": ["Shane", "Sandy", "Gus", "Pam"],
+	"Love": ["Shane", "Sandy", "Gus", "Pam", "Willy"],
 	"Like": ["Clint", "Harvey", "Kent", "Lewis", "Elliott", "Leah", "Linus", "Marnie", "Pierre", "Robin", "Wizard"],
 	"Dislike": ["George", "Krobus", "Emily", "Evelyn", "Haley", "Dwarf", "Abigail", "Alex", "Caroline", "Demetrius", "Maru"],
 	"Hate": ["Jas", "Jodi", "Penny", "Sebastian", "Sam", "Vincent"]

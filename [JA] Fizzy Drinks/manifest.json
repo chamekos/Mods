@@ -2,7 +2,7 @@
   "Name": "[JA] Fizzy Drinks",
   "Author": "MelindaC and Fwippy",
   "Version": "1.0.4",
-  "Description": "Adds new forage and fruit tree products for the Artisanal Soda Makers mod.",
+  "Description": "Adds new forage, fruit tree and crop products for the Artisanal Soda Makers mod.",
   "UniqueID": "MelindaC.FizzyDrinks",
     "ContentPackFor": {
     	"UniqueID": "spacechase0.JsonAssets"},

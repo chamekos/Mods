@@ -1,0 +1,11 @@
+{
+  "Name": "Life Cycle - Alex & Haley",
+  "Author": "nraittanna",
+  "Version": "1.7.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Alex and Haley dating version.",
+  "UniqueID": "nraittanna.LifeCycleAXH",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

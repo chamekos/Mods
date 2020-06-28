@@ -15,7 +15,9 @@
         "FallItemIndex": [
           "Sassafras Root"
         ],
-        "WinterItemIndex": null,
+        "WinterItemIndex": [
+          "Spruce Tips"
+        ],
         "UniqueAreaID": "Forest Forage",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 0,
@@ -59,7 +61,9 @@
         "FallItemIndex": [
           "Sassafras Root"
         ],
-        "WinterItemIndex": null,
+        "WinterItemIndex": [
+          "Spruce Tips"
+        ],
         "UniqueAreaID": "Secret Woods Forage",
         "MapName": "Woods",
         "MinimumSpawnsPerDay": 0,
@@ -103,7 +107,9 @@
         "FallItemIndex": [
           "Sassafras Root"
         ],
-        "WinterItemIndex": null,
+        "WinterItemIndex": [
+          "Spruce Tips"
+        ],
         "UniqueAreaID": "Mountain Forage",
         "MapName": "Mountain",
         "MinimumSpawnsPerDay": 0,

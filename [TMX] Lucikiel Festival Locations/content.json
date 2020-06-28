@@ -1,7 +1,7 @@
 {
   "name": "Lucikiel Festival Locations",
-  "version": "1.0.0", 
-  "author": "Arknir.MagicalPuttemtator",
+  "version": "1.14.0", 
+  "author": "Arknir27",
   "festivalSpots": 
 	[  
 		{
@@ -43,7 +43,7 @@
 		{
 		"name": "Lucikiel",
 	    "map": "Forest-IceFestival", 
-		"position": [71, 17],
+		"position": [64, 17],
 		"direction": 1
 		},
 		{

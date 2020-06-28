@@ -11,6 +11,11 @@
             "Default": "lore",
             "AllowBlank": false,
 			},
+        "Seasonal": {
+			"AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false,
+			},
         "Babies Take After": {
 			"AllowValues": "true, false",
             "Default": "true",
@@ -383,8 +388,30 @@
     "When": {
       "HasMod:minervamaga.CP.JealousyResponses": true,
       "HasFile: assets/Dialogue/SpecialDialogue.json": "true",
+        },
     },
-  },
+    {
+    "LogName": "Custom Fixed Dialogue - Lore",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Nagito",
+    "Entries": {
+        "ExtraDialogue_Town_DumpsterDiveComment_Adult": "Uhh... are you okay?$s#$b#It's not my place to judge of course, but...$s",
+    },
+    "When": {
+      "Variant": "lore",
+        },
+    },
+    {
+    "LogName": "Custom Fixed Dialogue - Canon",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Nagito",
+    "Entries": {
+        "ExtraDialogue_Town_DumpsterDiveComment_Adult": "Uhh... are you okay?$s#$b#It's not my place to judge of course!$6#$b#But I'm just wondering if things are bad... surely you're not low enough to dig through the garbage, right?",
+    },
+    "When": {
+      "Variant": "canon",
+        },
+    },
     {
     
       "LogName": "Dialogue - Canon", 
@@ -522,7 +549,6 @@
 //// FESTIVAL DIALOGUE
     
    // YEAR 1
-//// FESTIVAL DIALOGUE
         
 	{	
 		"LogName": "Egg Festival",
@@ -819,34 +845,61 @@
 
 //// SPRITES
     // Everyday
-        
+    {
+      "LogName": "Sprites - Canon Non-Seasonal",
+      "Action": "Load",
+      "Target": "Characters/Nagito",
+      "FromFile": "assets/Image/Canon/Characters/Nagito_Spring_Outfit_Base.png",
+      "When": { "Style": "canon", "Seasonal": "false" },
+    },
+    {
+      "LogName": "Portraits - Canon Non-Seasonal",
+      "Action": "Load",
+      "Target": "Portraits/Nagito",
+      "FromFile": "assets/Image/Canon/Portraits/Nagito_Spring_Outfit_Base.png",
+      "When": { "Style": "canon", "Seasonal": "false" },
+    },
+    {
+      "LogName": "Sprites - Lore Non-Seasonal",
+      "Action": "Load",
+      "Target": "Characters/Nagito",
+      "FromFile": "assets/Image/Lore/Characters/Nagito_Spring_Outfit_Base.png",
+      "When": { "Style": "canon", "Seasonal": "false" },
+    },
+    {
+      "LogName": "Portraits - Lore Non-Seasonal",
+      "Action": "Load",
+      "Target": "Portraits/Nagito",
+      "FromFile": "assets/Image/Lore/Portraits/Nagito_Spring_Outfit_Base.png",
+      "When": { "Style": "canon", "Seasonal": "false" },
+    },
     {
       "LogName": "Portraits - Canon",
       "Action": "Load",
       "Target": "Portraits/Nagito",
       "FromFile": "assets/Image/Canon/Portraits/Nagito_{{season}}_Outfit_{{WeatherVariant}}.png",
-      "When": { "Style": "canon" },
+      "When": { "Style": "canon", "Seasonal": "true" },
     },
     {
       "LogName": "Sprites - Canon",
       "Action": "Load",
       "Target": "Characters/Nagito",
       "FromFile": "assets/Image/Canon/Characters/Nagito_{{season}}_Outfit_{{WeatherVariant}}.png",
-      "When": { "Style": "canon" },
+      "When": { "Style": "canon", "Seasonal": "true" },
     },
     {
       "LogName": "Portraits - Lore",
       "Action": "Load",
       "Target": "Portraits/Nagito",
       "FromFile": "assets/Image/Lore/Portraits/Nagito_{{season}}_Outfit_{{WeatherVariant}}.png",
-      "When": { "Style": "lore" },
+      "When": { "Style": "lore", "Seasonal": "true" },
     },
     {
       "LogName": "Sprites - Lore",
       "Action": "Load",
       "Target": "Characters/Nagito",
       "FromFile": "assets/Image/Lore/Characters/Nagito_{{season}}_Outfit_{{WeatherVariant}}.png",
-      "When": { "Style": "lore" },
+      "When": { "Style": "lore", "Seasonal": "true" },
     },
     {
       "LogName": "Wedding Sprites - Lore",
@@ -913,7 +966,8 @@
       "When":
       {
         "DayEvent": "egg festival",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       },
     },
     {
@@ -924,7 +978,8 @@
       "When":
       {
         "DayEvent": "flower dance",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       },
       },
        {
@@ -935,7 +990,8 @@
       "When":
       {
         "DayEvent": "luau",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       },
       },
        {
@@ -946,7 +1002,8 @@
       "When":
       {
         "DayEvent": "spirit's eve",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -957,7 +1014,8 @@
       "When":
       {
         "DayEvent": "festival of ice",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
       {
@@ -968,7 +1026,8 @@
       "When":
       {
         "DayEvent": "stardew valley fair",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
       {
@@ -979,7 +1038,8 @@
       "When":
       {
         "DayEvent": "feast of the winter star",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -990,7 +1050,8 @@
       "When":
       {
         "DayEvent": "dance of the moonlight jellies",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
     },
 // Festival Portraits - Canon
@@ -1002,7 +1063,8 @@
       "When":
       {
         "DayEvent": "egg festival",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
     },
     {
@@ -1013,7 +1075,8 @@
       "When":
       {
         "DayEvent": "flower dance",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -1024,7 +1087,8 @@
       "When":
       {
         "DayEvent": "luau",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -1035,7 +1099,8 @@
       "When":
       {
         "DayEvent": "spirit's eve",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -1046,7 +1111,8 @@
       "When":
       {
         "DayEvent": "festival of ice",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
       {
@@ -1057,7 +1123,8 @@
       "When":
       {
         "DayEvent": "stardew valley fair",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
       {
@@ -1068,7 +1135,8 @@
       "When":
       {
         "DayEvent": "feast of the winter star",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
       },
        {
@@ -1079,7 +1147,8 @@
       "When":
       {
         "DayEvent": "dance of the moonlight jellies",
-        "Variant": "canon"
+        "Variant": "canon",
+        "Seasonal": "true"
       }
     },
         
@@ -1092,7 +1161,8 @@
       "When":
       {
         "DayEvent": "egg festival",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
     },
     {
@@ -1103,7 +1173,8 @@
       "When":
       {
         "DayEvent": "flower dance",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1114,7 +1185,8 @@
       "When":
       {
         "DayEvent": "luau",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1125,7 +1197,8 @@
       "When":
       {
         "DayEvent": "spirit's eve",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1136,7 +1209,8 @@
       "When":
       {
         "DayEvent": "festival of ice",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
       {
@@ -1147,7 +1221,8 @@
       "When":
       {
         "DayEvent": "stardew valley fair",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
       {
@@ -1158,7 +1233,8 @@
       "When":
       {
         "DayEvent": "feast of the winter star",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1169,7 +1245,8 @@
       "When":
       {
         "DayEvent": "dance of the moonlight jellies",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
     },
 // Festival Portraits - Lore
@@ -1181,7 +1258,8 @@
       "When":
       {
         "DayEvent": "egg festival",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
     },
     {
@@ -1192,7 +1270,8 @@
       "When":
       {
         "DayEvent": "flower dance",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1203,7 +1282,8 @@
       "When":
       {
         "DayEvent": "luau",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1214,7 +1294,8 @@
       "When":
       {
         "DayEvent": "spirit's eve",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1225,7 +1306,8 @@
       "When":
       {
         "DayEvent": "festival of ice",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
       {
@@ -1236,7 +1318,8 @@
       "When":
       {
         "DayEvent": "stardew valley fair",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
       {
@@ -1247,7 +1330,8 @@
       "When":
       {
         "DayEvent": "feast of the winter star",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
       },
        {
@@ -1258,7 +1342,8 @@
       "When":
       {
         "DayEvent": "dance of the moonlight jellies",
-        "Variant": "lore"
+        "Variant": "lore",
+        "Seasonal": "true"
       }
     },
         

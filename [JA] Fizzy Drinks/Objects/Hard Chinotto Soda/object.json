@@ -1,0 +1,81 @@
+{
+    "Name": "Hard Chinotto Soda",
+    "Description": "Chinotto soda with vodka added in. Drink in moderation.",
+    "Category": "Cooking",
+    "Edibility": 36,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -4,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 420,
+    },
+    "Price": 600,
+    "IsColored": false,
+	"CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 600,
+    "PurchaseRequirements": null,
+    "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Chinotto Soda",
+        "Count": 1,
+      },
+      {
+        "Object": "Vodka",
+        "Count": 1,
+      }
+    ],
+	"CanPurchase": true,
+        "PurchaseFrom": "Gus",
+        "PurchasePrice": 1600,
+        "PurchaseRequirements": null,
+    },
+
+    "GiftTastes":
+    {
+        "Love": ["Pam", "Shane"],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas"]
+    },
+"NameLocalization": { 
+		// "es": "",
+		"ko": "하드 끼노또 소다",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "切诺托硬苏打",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "보드카가 첨가된 끼노또 소다. 적당히 마셔라.",
+        //"de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        //"ja": "",
+        //"pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "加入了伏特加的含酒精切诺托苏打。饮酒请适度�.",
+
+}
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Add Lucikiel to NPC Adventures",
+  "Author": "Arknir",
+  "Version": "1.1.5",
+  "Description": "Adds Lucikiel to PurrplingCat's NPC Adventures.",
+  "UniqueID": "arknir.lucikielnpcadventures",
+  "MinimumApiVersion": "3.5.0",
+  "UpdateKeys": [ "Nexus:6307" ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.13.0"
+  }
+}

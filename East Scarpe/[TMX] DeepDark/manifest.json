@@ -1,7 +1,7 @@
 {
     "Name": "Deep Dark",
     "Author": "LemurKat",
-    "Version": "1.4.0",
+    "Version": "1.4.1",
     "Description": "Adds an area beneath the town.",
     "UniqueID": "LemurKat.DeepDark.TMX",
 	"Dependencies": [
