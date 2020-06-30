@@ -20,7 +20,7 @@
 	"HasSeenEvent": "59020017"
 		},
 "Entries": {
-            "Fri2": "I think I'm going to have so many ideas thanks to Haley's photos that I'm going to be painting the following weeks non-stop.$1",
+            "Fri2": "I have so many ideas now thanks to Haley's photos.$1#$b#I think I'm going to be painting non-stop the next couple weeks.$1",
             "Sun2": "I always saw Haley when she came to the forest to take pictures.$0#$b#I've never talked to her before, though.$0"
 			}
 },
@@ -32,7 +32,7 @@
 	"HasSeenEvent": "59020018"
 		},
 "Entries": {
-            "Mon4": "Leah's amazingly good as an artist!$1",
+            "Mon4": "Leah's an amazing artist!$1",
             "Thu4": "Maybe I should learn from Leah and start being more serious about photography.$0",
             "Fri4": "I should visit Leah again soon.$0"
 			}
@@ -58,9 +58,9 @@
 		},
 "Entries": {
             "Mon6": "I can't believe I've been living here for so long and didn't knew about the tidal pools!$0",
-            "Wed6": "I shouldn't be saying this but...$0#$b#I prefer going to the beach with Leah than with Alex.$0",
+            "Wed6": "I shouldn't be saying this but...$0#$b#I prefer going to the beach with Leah over going with Alex.$0",
             "Thu6": "I finally have a photo with Leah!$1#$b#I'm going to treasure it.$0",
-            "Sat6": "I can't wait to go with Leah to the beach again.$1"
+            "Sat6": "I can't wait to go to the beach with Leah again.$1"
 			}
 },
 {
@@ -85,14 +85,14 @@
 	"HasSeenEvent": "59020020"
 		},
 "Entries": {
-            "Mon8": "Hi, @.$0#$#I want to go with Leah to Zuzu City soon.$0#$e#There's this new shopping mall which has a temporary art exhibition.$1",
-            "Tue8": "I never really thought about having kids.$0#$e#You know, I was myself kind of a child...$2#$b#But I think that Leah has helped me mature a lot.$0",
-            "Wed8": "Hi, @.$0#$e#I always thought that I wasn't doing anything productive with my life...$2#$b#You know, I just hanged out with Alex from time to time, took some pictures here and there. I didn't even have a job like Emily.$2#$b#But thanks to Leah now I know exactly what I want my future to be.$4",
-            "Thu8": "Leah has talked to me about a photography contest going on in Grampleton.$0#$b#I'm going to choose with her the pictures later.$1#$e#...or I could directly send one in which she is the model, it would win for sure.$4",
-            "Fri8": "One of my favorite things in this world is to watch the sunset with Leah.$4",
-            "Sat8": "Meeting Leah has lead to a major change in my life.$0#$b#Before I used to despise rural life and now I wouldn't move for anything in the world.$1",
+            "Mon8": "Hi, @.$0#$#I want to go to Zuzu City soon with Leah.$0#$e#There's this new shopping mall that has a temporary art exhibition.$1",
+            "Tue8": "I never really thought about having kids.$0#$e#You know, I was kind of a child myself...$2#$b#But I think that Leah has helped me mature a lot.$0",
+            "Wed8": "Hi, @.$0#$e#I always thought that I wasn't doing anything productive with my life...$2#$b#You know, I just hung out with Alex from time to time, took some pictures here and there. I didn't even have a job like Emily.$2#$b#But thanks to Leah now I know exactly what I want my future to be.$4",
+            "Thu8": "Leah has talked to me about a photography contest going on in Grampleton.$0#$b#We’re going to choose the pictures later.$1#$e#...or I could directly send in a picture where she's the model, it would win for sure.$4",
+            "Fri8": "Watching the sunset with Leah is one of my favorite things in this world.$4",
+            "Sat8": "Meeting Leah has led to a major change in my life.$0#$b#Before, I used to despise rural life, but now I wouldn't move for anything in the world.$1",
             "Sun8": "One of the reasons why I still live here is because Leah loves the valley and it's a great source of inspiration to her.$0",
-            "spring_Mon8": "Emily has told me that there is a new merchant in the desert.$0#$b#Maybe he sells unique works of art by foreign painters.$0#$e#Leah and I should stop by one day.$0",
+            "spring_Mon8": "Emily told me that there's a new merchant in the desert.$0#$b#Maybe he sells unique works of art by foreign painters.$0#$e#Leah and I should stop by one day.$0",
             "spring_Thu8": "Leah's hair is super soft.$0#$b#I love to style it in different ways.$1",
             "spring_Sat8": "I'm going to ask Leah to do a photo shoot on the beach.$0#$b#It's going to be so fun!$4#$e#And I'll also get to see Leah in a bikini...$4",
             "summer_Wed8": "Leah and I are going to get some ice cream later.$0#$b#You should come too, @.$1",
@@ -102,9 +102,9 @@
             "fall_Fri8": "Alex and I are good friends, that's why people used to say that we were dating.$0#$b#I still hang out with him once in a while, but now I prefer to be with Leah.$0",
             "fall_Sun8": "I miss summer and going to the beach with Leah...$2",
             "winter_Tue8": "Hi, @.$1#$e#Don't tell Leah, but I've been saving money to buy a Lupini painting for her at the Night Market.$1#$b#She's going to love it!$1",
-            "winter_Thu8": "I'm looking forward to another wonderful year with Leah.$4#$e#I feel that thanks to her I'm now a much better version of my past self.$1",
+            "winter_Thu8": "I'm looking forward to another wonderful year with Leah.$4#$e#I feel like I'm a much better version of my past self now, thanks to her.$1",
             "winter_Sat8": "Leah has a fireplace at her place.$0#$b#I love to sit in front of it and cuddle with her.$4",
-            "summer_27": "I usually would take tons of picture at the Dance of the Moonlight Jellies tomorrow, but I feel like this time I will just enjoy the moment with Leah.$0",
+            "summer_27": "I usually would take tons of picture at the Dance of the Moonlight Jellies tomorrow, but I think this time I will just enjoy the moment with Leah.$0",
             "winter_23": "Today's a very special day, it's Leah's birthday!$1#$b#I have prepared a surprise birthday party for her.$1",
             "winter_24": "Hi, @.$0#$e#The Feast of the Winter Star makes me feel like I'm finally a part of this community.$1#$e#It was good talking to you, I have to leave now and prepare Leah's gift for tomorrow.$0"
 			}
@@ -118,27 +118,27 @@
 		},
 "Entries": {
             "Mon8": "I'd love to draw a portrait of Haley sometime.$0#$e#She'd be the most beautiful model ever.$4",
-            "Tue8": "Hi, @.$1#$e#I think that I was able to come this far with my art thanks to Haley and you.$0#$e#You should come over and have dinner with us sometime, @.$1",
+            "Tue8": "Hi, @.$1#$e#You know, it’s thanks to you and Haley that I was able to come this far with my art.$0#$e#You should come over and have dinner with us sometime, @.$1",
             "Wed8": "Hey, @.$0#$e#You know, I'd never move back to the city even though it was difficult to leave everything behind.$0#$b#I love living in the valley, and I have so many plans for Haley and me for the future.$1",
-            "Thu8": "I've realised that in the past, when I moved here, I was not really trying to make new friends because I was still processing all the changes.$0#$b#But, now, I chat with everyone at the saloon, help Marnie with the animals and even have a wonderful relationship with Haley.$1",
-            "Fri8": "I was afraid that I was rushing too much with Haley...$2#$b#You know that my previous relationship ended pretty badly and I had no plans on being with anybody when I moved here.$2#$b#But then Haley came and ruined my plans.$0#$e#I'm glad she did, I love her so much.$4",
-            "Sat8": "My career as an artist was not going really well when I first moved here...$2#$e#For my luck, Haley has always believed in me.$0#$b#She is really supportive.$1",
-            "Sun8": "I usually see Jas playing near my house.$0#$b#It got me thinking if Haley'd like to have kids anytime soon...$0",
-            "spring_Mon8": "Hey, @.$1#$e#Haley and I have thought about putting on a joint exhibition.$1#$e#You know, my sculptures and paintings would be along with Haley's photographs.$0",
+            "Thu8": "I've realised that when I moved here, I wasn't really trying to make new friends because I was still processing all the changes.$0#$b#But, now, I chat with everyone at the saloon, help Marnie with the animals and even have a wonderful relationship with Haley.$1",
+            "Fri8": "I was afraid that I was rushing too much with Haley...$2#$b#You know that my previous relationship ended pretty badly and I had no plans to be with anybody when I moved here.$2#$b#But then Haley came and ruined my plans.$0#$e#I'm glad she did, I love her so much.$4",
+            "Sat8": "My career as an artist was not going very well when I first moved here...$2#$e#Fortunately, Haley has always believed in me.$0#$b#She is really supportive.$1",
+            "Sun8": "I usually see Jas playing near my house.$0#$b#It got me thinking about if Haley'd like to have kids anytime soon...$0",
+            "spring_Mon8": "Hey, @.$1#$e#Haley and I have thought about putting on a joint exhibition.$1#$e#You know, we'd display my sculptures and paintings along with Haley's photographs.$0",
             "spring_Thu8": "Oh, hey, @.$1#$e#I was on my way to see Haley.$4#$e#Bye!$0",
-            "spring_Sat8": "An old friend of mine from Zuzu City has told me that he is going to present his first art exhibition next month.$1#$b#I'm going with Haley, maybe she could met my parents while we are there.$1",
+            "spring_Sat8": "An old friend of mine from Zuzu City has told me that he's going to present his first art exhibition next month.$1#$b#I'm going with Haley, maybe she could met my parents while we're there.$1",
             "summer_Wed8": "Haley absolutely loves summer.$0#$b#Every day she calls me to go sunbathing with her.$1",
             "summer_Fri8": "On summer days Haley and I love to go for a swim.$1#$b#We usually go to the beach, but actually the river could also be a good option.$1",
             "summer_Sat8": "I should take my watercolors with me the next time I go to the beach.$0#$b#I'd like to do some quick sketches of Haley.$1",
             "fall_Mon8": "I've been having a terrible artistic block...$2#$e#I should go see Haley for some inspiration...$7",
-            "fall_Fri8": "I love walking in the forest in fall with Haley.$0#$b#The breeze is very pleasant and Haley enjoys taking pictures of the river.$1",
+            "fall_Fri8": "I love walking in the forest with Haley in the fall.$0#$b#The breeze is very pleasant and Haley enjoys taking pictures of the river.$1",
             "fall_Sun8": "Hey, @!$1#$e#I bought some wine from Pierre's for the dinner I'm having tonight with Emily and Haley.$1",
             "winter_Tue8": "I'm glad that Haley lives so close to me.$0#$e#This way I can visit her often, especially on cold days like this.$1",
             "winter_Thu8": "Haley doesn't like winter much, so I try to spend more time with her these days.$0",
             "winter_Sat8": "This year has been the best in my life so far. Seeing how my art reaches more people, being with Haley, having a good relationship with the other townsfolk... What's not to like?$0",
-            "spring_14": "I have spent the last month painting a picture for Haley's birthday.$0#$b#It's titled 'My sunflower'.$4",
+            "spring_14": "I've spent the last month painting a picture for Haley's birthday.$0#$b#It's titled 'My Sunflower'.$4",
             "summer_10": "Haley is going to bring her camera to the Luau, she's really excited.$1",
-            "fall_28": "Seeing Vincent and Jas having fun at the Spirit's Eve yesterday made me think abou having kids.$0#$e#I wonder if Haley has think about it too...$4"
+            "fall_28": "Seeing Vincent and Jas having fun at the Spirit's Eve yesterday made me think about having kids.$0#$e#I wonder if Haley has thought about it too...$4"
 			}
 },
      //Emily
@@ -154,7 +154,7 @@
             "Wed2": "I don't know if Haley will be able to have a serious relationship...$2",
             "Wed8": "At first I wasn't sure, but now I clearly see that the souls of Haley and Leah were made to be together.$0",
             "Fri4": "I didn't expect Leah to be interested in Haley.$3#$e#She's always talking to Elliot in the saloon.$3",
-            "Fri8": "Leah gave Haley a beautiful painting last month.$0#$b#We have hung it in the living room.$1",
+            "Fri8": "Leah gave Haley a beautiful painting last month.$0#$b#We've hung it in the living room.$1",
             "Sat2": "Leah is a very nice girl, but I don't know if her soul will end up getting on well with Haley's...$2",
             "Sun8": "Haley has changed a lot since she started dating Leah, she seems like a completely different person.$0#$b#In the good sense, of course.$1",
             "Sun6": "Leah showed me some of her sculptures the other day.$0#$b#She is very talented.$1",
@@ -176,7 +176,7 @@
             "summer.002": "I'm glad that you showed me this place, Leah.$1",
             "fall.001": "...$4",
             "fall.002": "I'm taking pictures to make a photo album for Leah.$1",
-            "winter.001": "Before I nearly had no things to do at winter and was so bored.$0#$b#I'm glad that now I can visit Leah everytime I want.",
+            "winter.001": "Before I had nothing to do in the winter and was so bored.$0#$b#I'm glad that now I can visit Leah anytime I want.",
             "winter.002": "It's difficult to stay still...$2#$b#But I'm doing my best for Leah.$4"
             },
 },
@@ -188,35 +188,35 @@
 		},
 "Entries":  {
             "spring_1": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:spring.001\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "spring_8": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:spring.001\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "spring_15": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:spring.001\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "spring_22": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:spring.001\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+            "spring_8": "GOTO spring_1",
+            "spring_15": "GOTO spring_1",
+            "spring_22": "GOTO spring_1",
             "spring_4": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1500 Forest 34 25 2 \"Strings\\schedules\\Haley:spring.002\"/1830 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "spring_11": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1500 Forest 34 25 2 \"Strings\\schedules\\Haley:spring.002\"/1830 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "spring_18": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1500 Forest 34 25 2 \"Strings\\schedules\\Haley:spring.002\"/1830 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "spring_25": "900 HaleyHouse 6 5 0/950 HaleyHouse 8 7 1/1100 Town 23 22 2/1500 Forest 34 25 2 \"Strings\\schedules\\Haley:spring.002\"/1830 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
+            "spring_11": "GOTO spring_4",
+            "spring_18": "GOTO spring_4",
+            "spring_25": "GOTO spring_4",
             "summer_5": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1100 Beach 42 19 2 \"Strings\\schedules\\Haley:summer.001\"/1600 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "summer_12": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1100 Beach 42 19 2 \"Strings\\schedules\\Haley:summer.001\"/1600 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "summer_19": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1100 Beach 42 19 2 \"Strings\\schedules\\Haley:summer.001\"/1600 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "summer_26": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1100 Beach 42 19 2 \"Strings\\schedules\\Haley:summer.001\"/1600 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+            "summer_12": "GOTO summer_5",
+            "summer_19": "GOTO summer_5",
+            "summer_26": "GOTO summer_5",
             "summer_7": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1200 Beach 79 16 2 haley_photo \"Strings\\schedules\\Haley:summer.002\"/1900 HaleyHouse 19 16 0 square_5_1/2100 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "summer_14": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1200 Beach 79 16 2 haley_photo \"Strings\\schedules\\Haley:summer.002\"/1900 HaleyHouse 19 16 0 square_5_1/2100 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "summer_21": "840 HaleyHouse 6 5 0/930 HaleyHouse 8 7 1/1200 Beach 79 16 2 haley_photo \"Strings\\schedules\\Haley:summer.002\"/1900 HaleyHouse 19 16 0 square_5_1/2100 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+            "summer_14": "GOTO summer_7",
+            "summer_21": "GOTO summer_7",
             "fall_3": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1300 Town 86 65 3 \"Strings\\schedules\\Haley:fall.001\"/1800 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_10": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1300 Town 86 65 3 \"Strings\\schedules\\Haley:fall.001\"/1800 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_17": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1300 Town 86 65 3 \"Strings\\schedules\\Haley:fall.001\"/1800 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_24": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1300 Town 86 65 3 \"Strings\\schedules\\Haley:fall.001\"/1800 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+            "fall_10": "GOTO fall_3",
+            "fall_17": "GOTO fall_3",
+            "fall_24": "GOTO fall_3",
             "fall_1": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:fall.002\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_8": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:fall.002\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_15": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:fall.002\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
-            "fall_22": "800 HaleyHouse 6 5 0/830 HaleyHouse 1 8 2/1100 HaleyHouse 19 16 0/1500 Forest 77 44 2 haley_photo \"Strings\\schedules\\Haley:fall.002\"/1900 HaleyHouse 19 16 0 square_5_1/2000 HaleyHouse 5 7 2 square_5_5/2300 HaleyHouse 1 5 3 haley_sleep",
+            "fall_8": "GOTO fall_1",
+            "fall_15": "GOTO fall_1",
+            "fall_22": "GOTO fall_1",
             "winter_4": "900 HaleyHouse 6 5 0/1000 HaleyHouse 8 7 1/1200 LeahHouse 5 3 0 \"Strings\\schedules\\Haley:winter.001\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "winter_11": "900 HaleyHouse 6 5 0/1000 HaleyHouse 8 7 1/1200 LeahHouse 5 3 0 \"Strings\\schedules\\Haley:winter.001\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "winter_18": "900 HaleyHouse 6 5 0/1000 HaleyHouse 8 7 1/1200 LeahHouse 5 3 0 \"Strings\\schedules\\Haley:winter.001\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
+            "winter_11": "GOTO winter_4",
+            "winter_18": "GOTO winter_4",
             "winter_6": "900 LeahHouse 4 4 2 \"Strings\\schedules\\Haley:winter.002\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "winter_13": "900 LeahHouse 4 4 2 \"Strings\\schedules\\Haley:winter.002\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "winter_20": "900 LeahHouse 4 4 2 \"Strings\\schedules\\Haley:winter.002\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep",
-            "winter_27": "900 LeahHouse 4 4 2 \"Strings\\schedules\\Haley:winter.002\"/1600 HaleyHouse 19 16 0 square_5_1_0/2000 HaleyHouse 5 7 0 square_5_5/2230 HaleyHouse 1 5 3 haley_sleep"
+            "winter_13": "GOTO winter_6",
+            "winter_20": "GOTO winter_6",
+            "winter_27": "GOTO winter_6"
             },
 },
     //Leah
@@ -229,7 +229,7 @@
 "Entries":  {
             "spring.001": "Haley wanted to take some pictures of the forest in spring.$0#$b#And I'm drawing some quick sketches of the scenery.$1",
             "spring.002": "Haley looks so pretty right now, should I paint her...?$4",
-            "summer.001": "Be careful and don't get sunburnt, Haley.$2",
+            "summer.001": "Be careful not to get sunburnt, Haley.$2",
             "summer.002": "Haley, what do you think of this coral? Isn't it too big?$2#$b#I'm going to draw it again...$2",
             "fall.001": "I love you so much, Haley...$4",
             "fall.002": "Hey, @.$0#$b#Fall colors are more vivid in Stardew Valley.$1#$b#Haley thinks so too.$1",
@@ -282,7 +282,7 @@
 "Action": "EditData",
 "Target": "Data/Events/Forest",
 "Entries": {
-            "59020017/f Haley 500/f Leah 500/w sunny/t 1100 1300": "50s/94 39/farmer 1000 1000 2 Haley 93 39 2 Leah 104 33 0/skippable/animate Haley false true 280 30 30 30 30 30 31 24 24 24 24 24 27 27 27 27 27 24 31/pause 1800/playSound doorClose/move Leah 0 2 3/move Leah -6 0 2/pause 1000/move Leah 0 4 3/move Leah -3 0 3/pause 600/speak Leah \"Hi, Haley!$1#$b#Taking some pictures, huh?$1\"/pause 500/stopAnimation Haley/showFrame Haley 33/pause 600/speak Haley \"Oh, hello, Leah.$7#$b#Yes, the forest is a good photographic setting.$0\"/pause 600/speak Leah \"Yeah, I also like to walk along the river to search for inspiration.$0\"/pause 700/speak Haley \"Oh, that's right, you were a painter or something, no?$0\"/pause 600/speak Leah \"Yes, I am.$1#$b#I also do some sculpting.$0\"/pause 500/speak Leah \"Actually, when I was in high school I was interested in photography.$0#$b#But my photos were more mediocre than anything else...$2\"/pause 500/speak Leah \"So now I'm focusing on painting and sculpting.$0\"/pause 500/speak Leah \"I bet your photos are better than mine ever were.$1\"/pause 680/speak Haley \"Oh, don't think that mine are impressive either.$0#$b#It's just a hobby of mine.$0\"/pause 700/speak Leah \"Let me see...$0\"/pause 200/move Leah 0 -1 3/move Leah -2 0 2/pause 1000/emote Leah 40/pause 800/speak Leah \"Come on, Haley! These are incredible!$1\"/pause 600/speak Leah \"I love how you play with light in this one.$1#$b#And the composition in this one is simple but very well done.$1\"/pause 800/speak Haley \"Really? Do you mean it?$1\"/pause 600/speak Leah \"Of course!$1#$b#You could be a professional photographer if you wanted.$0\"/pause 500/emote Haley 32/pause 390/move Leah 2 0 2/move Leah 0 1 3/pause 600/speak Leah \"Actually, I want to ask you a favor, Haley.$0\"/pause 500/speak Leah \"I've been running low on ideas lately...$2#$b#And I could really use some references.$0#$b#I love your pictures, so I was hoping that you could lend me some of them.$0\"/pause 500/speak Leah \"What do you think?$1\"/pause 500/emote Haley 16/pause 500/speak Haley \"Nobody has ever been so interested in my photography.$1#$b#I'll gladly give you all the photos you want.$1\"/pause 500/speak Leah \"Thank you so much, Haley!$1\"/pause 500/speak Leah \"I've to leave now.$0#$b#You can come by whenever you want, I'm usually at home.$0\"/pause 500/speak Leah \"Bye, Haley. I'll be waiting for you.$1\"/pause 600/speak Haley \"See you soon, Leah!$1\"/pause 500/move Leah 3 0 0/move Leah 0 -10 0/pause 500/end dialogue Leah \"Have you seen Haley's photos?$0#$b#They are amazing!$1\""
+            "59020017/f Haley 500/f Leah 500/w sunny/t 1100 1300": "50s/94 39/farmer 1000 1000 2 Haley 93 39 2 Leah 104 33 0/skippable/animate Haley false true 280 30 30 30 30 30 31 24 24 24 24 24 27 27 27 27 27 24 31/pause 1800/playSound doorClose/move Leah 0 2 3/move Leah -6 0 2/pause 1000/move Leah 0 4 3/move Leah -3 0 3/pause 600/speak Leah \"Hi, Haley!$1#$b#Taking some pictures, huh?$1\"/pause 500/stopAnimation Haley/showFrame Haley 33/pause 600/speak Haley \"Oh, hello, Leah.$7#$b#Yes, the forest is a good photographic setting.$0\"/pause 600/speak Leah \"Yeah, I also like to walk along the river to search for inspiration.$0\"/pause 700/speak Haley \"Oh, that's right, you were a painter or something, right?$0\"/pause 600/speak Leah \"Yes, I am.$1#$b#I also do some sculpting.$0\"/pause 500/speak Leah \"Actually, when I was in high school I was interested in photography.$0#$b#But my photos were more mediocre than anything else...$2\"/pause 500/speak Leah \"So now I'm focusing on painting and sculpting.$0\"/pause 500/speak Leah \"I bet your photos are better than mine ever were.$1\"/pause 680/speak Haley \"Oh, don't think that mine are impressive either.$0#$b#It's just a hobby of mine.$0\"/pause 700/speak Leah \"Let me see...$0\"/pause 200/move Leah 0 -1 3/move Leah -2 0 2/pause 1000/emote Leah 40/pause 800/speak Leah \"Come on, Haley! These are incredible!$1\"/pause 600/speak Leah \"I love how you play with light in this one.$1#$b#And the composition in this one is simple but very well done.$1\"/pause 800/speak Haley \"Really? Do you mean it?$1\"/pause 600/speak Leah \"Of course!$1#$b#You could be a professional photographer if you wanted.$0\"/pause 500/emote Haley 32/pause 390/move Leah 2 0 2/move Leah 0 1 3/pause 600/speak Leah \"Actually, I want to ask you a favor, Haley.$0\"/pause 500/speak Leah \"I've been running low on ideas lately...$2#$b#And I could really use some references.$0#$b#I love your pictures, so I was hoping that you could lend me some of them.$0\"/pause 500/speak Leah \"What do you think?$1\"/pause 500/emote Haley 16/pause 500/speak Haley \"Nobody has ever been so interested in my photography.$1#$b#I'll gladly give you all the photos you want.$1\"/pause 500/speak Leah \"Thank you so much, Haley!$1\"/pause 500/speak Leah \"I have to leave now.$0#$b#You can come by whenever you want, I'm usually at home.$0\"/pause 500/speak Leah \"Bye, Haley. I'll be waiting for you.$1\"/pause 600/speak Haley \"See you soon, Leah!$1\"/pause 500/move Leah 3 0 0/move Leah 0 -10 0/pause 500/end dialogue Leah \"Have you seen Haley's photos?$0#$b#They are amazing!$1\""
             },
       },  
      //Leah's House | 4 hearts
@@ -290,7 +290,7 @@
 "Action": "EditData",
 "Target": "Data/Events/LeahHouse",
 "Entries": {
-            "59020018/e 59020017/f Haley 1000/f Leah 1000/o Haley/o Leah/t 1600 1800": "breezy/8 7/farmer 1000 1000 2 Haley 700 110 0 Leah 3 7 3/skippable/animate Leah false true 150 19 19 19 16 17 18 18/pause 1800/playSound doorOpen/warp Haley 7 10/move Haley 0 -3 3/pause 500/move Haley -2 0 3/pause 700/speak Haley \"Hi, Leah!$1\"/pause 680/stopAnimation Leah/pause 600/showFrame Leah 4/pause 390/speak Leah \"Haley, I was hoping you'd come today.$1\"/pause 580/speak Leah \"Did you bring the pictures?$1\"/pause 700/speak Haley \"Yes, here you go.$0\"/pause 390/move Haley -1 0 3/pause 380/showFrame Haley 29/playSound shwip/pause 500/move Haley 1 0 3/pause 1000/speak Haley \"Do you like them?$1#$b#I chose photos from different festivals aside from the ones of the forest.$0\"/pause 600/speak Leah \"They're just what I wanted.$1#$b#Actually I started some while ago a series of paintings about the festivals of Stardew Valley.$0#$b#They're one of the reasons why I love living here.$1\"/pause 500/speak Leah \"I think they're somewhere over there, do you want to see them?$0\"/pause 700/speak Haley \"Yes, I'd love to.$1\"/pause 500/move Leah 0 -1 1/move Leah 3 0 0/move Leah 0 -1 0/move Haley 2 0 0/move Haley 0 -2 0/pause 670/speak Leah \"I painted this one the year Gus made his special salmon dinner for the Festival of Ice.$0\"/pause 600/speak Haley \"Oh, I remember that year, it was so much fun.$1#$b#You made a diamond ice sculpture, right?$0\"/pause 750/emote Haley 16/pause 500/speak Haley \"This is...$8\"/pause 500/speak Leah \"Huh...?$6#$b#I wasn't going to show this to you but...$6\"/pause 500/speak Leah \"Well, this is embarrassing...$7\"/pause 600/speak Leah \"This is a painting of the Flower Dance.$0#$b#You know, the year you wore that dress Emily made for you.$1\"/pause 500/emote Leah 40/pause 700/speak Leah \"I...$0#$b#I thought you looked beautiful than ever...$4\"/pause 580/speak Leah \"And I just felt I had to paint you.$4\"/pause 600/faceDirection Leah 1/pause 500/faceDirection Haley 3/pause 600/speak Leah \"I hope you don't mind... I painted it without your permission...$2\"/pause 800/speak Haley \"Of course not, Leah.$0#$b#I feel very flattered.$4\"/pause 800/speak Haley \"Truth is, after the Flower Dance finished that day, Emily and I had a fight...$2\"/pause 500/speak Haley \"I don't even know how it started, but the dress ended up being ripped...$2\"/pause 700/emote Haley 28/pause 600/speak Haley \"And I didn't take any pictures at the festival because I was too excited showing off my dress...$2\"/pause 500/speak Haley \"So I'm glad that you painted it, this way I can recall the happy moments of that day.$0\"/pause 600/speak Leah \"It's terrible what happened to your dress...$2\"/pause 600/speak Leah \"Listen, Haley, you can keep it if you want.$0#$b#You know, as thanks for your pictures.$1\"/pause 600/speak Haley \"Really? That would be wonderful!$1\"/pause 500/speak Haley \"I have the perfect place to hang it!$1\"/pause 500/emote Haley 32/pause 1200/end dialogue Haley \"Leah gave me one of her paintings.$1#$b#I'm so happy right now!$1\""
+            "59020018/e 59020017/f Haley 1000/f Leah 1000/o Haley/o Leah/t 1600 1800": "breezy/8 7/farmer 1000 1000 2 Haley 700 110 0 Leah 3 7 3/skippable/animate Leah false true 150 19 19 19 16 17 18 18/pause 1800/playSound doorOpen/warp Haley 7 10/move Haley 0 -3 3/pause 500/move Haley -2 0 3/pause 700/speak Haley \"Hi, Leah!$1\"/pause 680/stopAnimation Leah/pause 600/showFrame Leah 4/pause 390/speak Leah \"Haley, I was hoping you'd come today.$1\"/pause 580/speak Leah \"Did you bring the pictures?$1\"/pause 700/speak Haley \"Yes, here you go.$0\"/pause 390/move Haley -1 0 3/pause 380/showFrame Haley 29/playSound shwip/pause 500/move Haley 1 0 3/pause 1000/speak Haley \"Do you like them?$1#$b#I chose photos from different festivals plus the ones of the forest.$0\"/pause 600/speak Leah \"They're just what I wanted.$1#$b#Actually, I started some time ago a series of paintings about the festivals of Stardew Valley.$0#$b#They're one of the reasons why I love living here.$1\"/pause 500/speak Leah \"I think they're somewhere over there, do you want to see them?$0\"/pause 700/speak Haley \"Yes, I'd love to.$1\"/pause 500/move Leah 0 -1 1/move Leah 3 0 0/move Leah 0 -1 0/move Haley 2 0 0/move Haley 0 -2 0/pause 670/speak Leah \"I painted this one the year Gus made his special salmon dinner for the Festival of Ice.$0\"/pause 600/speak Haley \"Oh, I remember that year, it was so much fun.$1#$b#You made a diamond ice sculpture, right?$0\"/pause 750/emote Haley 16/pause 500/speak Haley \"This is...$8\"/pause 500/speak Leah \"Huh...?$6#$b#I wasn't going to show this to you but...$6\"/pause 500/speak Leah \"Well, this is embarrassing...$7\"/pause 600/speak Leah \"This is a painting of the Flower Dance.$0#$b#You know, the year you wore that dress Emily made for you.$1\"/pause 500/emote Leah 40/pause 700/speak Leah \"I...$0#$b#I thought you looked more beautiful than ever...$4\"/pause 580/speak Leah \"And I just felt I had to paint you.$4\"/pause 600/faceDirection Leah 1/pause 500/faceDirection Haley 3/pause 600/speak Leah \"I hope you don't mind... I painted it without your permission...$2\"/pause 800/speak Haley \"Of course not, Leah.$0#$b#I feel very flattered.$4\"/pause 800/speak Haley \"Truth is, after the Flower Dance finished that day, Emily and I had a fight...$2\"/pause 500/speak Haley \"I don't even know how it started, but the dress ended up being ripped...$2\"/pause 700/emote Haley 28/pause 600/speak Haley \"And I didn't take any pictures at the festival because I was too excited showing off my dress...$2\"/pause 500/speak Haley \"So I'm glad that you painted it, this way I can recall the happy moments of that day.$0\"/pause 600/speak Leah \"It's terrible what happened to your dress...$2\"/pause 600/speak Leah \"Listen, Haley, you can keep it if you want.$0#$b#You know, as thanks for your pictures.$1\"/pause 600/speak Haley \"Really? That would be wonderful!$1\"/pause 500/speak Haley \"I have the perfect place to hang it!$1\"/pause 500/emote Haley 32/pause 1200/end dialogue Haley \"Leah gave me one of her paintings.$1#$b#I'm so happy right now!$1\""
             },
       },
      //Beach | 6 hearts
@@ -298,7 +298,7 @@
 "Action": "EditData",
 "Target": "Data/Events/Beach",
 "Entries": {
-            "59020019/e 59020018/f Haley 1500/f Leah 1500/o Haley/o Leah/w sunny/z spring fall winter/t 1700 1900": "Orange/41 23/farmer 34 20 2 Sam 48 24 2 Vincent 45 25 2 Haley 42 12 2 Leah 40 23 2/skippable/animate Leah false true 150 35 35 35 35 35 35 32 33 34 32 33 34/pause 1500/move Haley 0 11 3/pause 600/speak Haley \"Leah!$1#$b#I'm so glad to see you here.$1\"/pause 500/stopAnimation Leah/showFrame Leah 4/pause 500/speak Leah \"Hi, Haley.$1#$b#In summer I like to come to the beach and draw some watercolor sketches.$0#$b#And you?$0\"/pause 650/speak Haley \"I came with Alex, but he says he wants to be alone to work out...$2\"/pause 600/speak Leah \"You can hang out with me, if you want.$0\"/pause 500/speak Leah \"Actually, come with me, I want to show you something.$1\"/pause 500/move Leah 0 -10 0/globalFade .006/viewport 800 1700/warp Haley 79 13/warp Leah 80 13/faceDirection Leah 2/faceDirection Haley 2/playMusic summer2/viewport 80 16 true/pause 1000/speak Leah \"I bet you've never come here.$1\"/pause 500/speak Leah \"One day I was walking around looking for new landscapes to paint and I discovered these tidal pools.$0\"/pause 700/speak Haley \"This is so beautiful, Leah!$1\"/pause 600/speak Haley \"Let's take a photo, I got my camera here.$1\"/pause 750/move Haley 0 2 1/playSound sandyStep/addBigProp 80 15 106/pause 600/move Haley 0 -2 2/pause 280/speak Haley \"Ready? The timer is set for 5 seconds.$0\"/pause 300/positionOffset Haley 2 0/positionOffset Haley 2 0/pause 80/positionOffset Leah -2 0/pause 80/positionOffset Leah -2 0/pause 100/showFrame Leah 26/showFrame Haley 26/pause 350/playSound cameraNoise/screenFlash .8/pause 700/showFrame Leah 0/showFrame Haley 2/pause 500/speak Haley \"Okay, we can see it from here.$0\"/pause 600/emote Haley 32/pause 500/speak Haley \"What a great photo.$1\"/pause 500/speak Haley \"You look so pretty.$4\"/pause 500/emote Leah 32/pause 500/speak Leah \"Yeah, they look good.$1#$b#Make sure that you make an extra copy for me.$1\"/pause 800/speak Leah \"Oh, look at the time, we should be heading back by now.$0#$b#I had so much fun, we should do this more often.$1\"/pause 700/speak Haley \"Oh, okay...$2#$b#Promise me we'll come here again!$0\"/pause 600/speak Leah \"Hahaha, you're so cute, Haley.$1\"/pause 700/speak Haley \"...$4\"/pause 500/end dialogue Leah \"Haley's so adorable...$4\""
+            "59020019/e 59020018/f Haley 1500/f Leah 1500/o Haley/o Leah/w sunny/z spring fall winter/t 1700 1900": "Orange/41 23/farmer 34 20 2 Sam 48 24 2 Vincent 45 25 2 Haley 42 12 2 Leah 40 23 2/skippable/animate Leah false true 150 35 35 35 35 35 35 32 33 34 32 33 34/pause 1500/move Haley 0 11 3/pause 600/speak Haley \"Leah!$1#$b#I'm so glad to see you here.$1\"/pause 500/stopAnimation Leah/showFrame Leah 4/pause 500/speak Leah \"Hi, Haley.$1#$b#In the summer I like to come to the beach and draw some watercolor sketches.$0#$b#And you?$0\"/pause 650/speak Haley \"I came with Alex, but he says he wants to be alone to work out...$2\"/pause 600/speak Leah \"You can hang out with me, if you want.$0\"/pause 500/speak Leah \"Actually, come with me, I want to show you something.$1\"/pause 500/move Leah 0 -10 0/globalFade .006/viewport 800 1700/warp Haley 79 13/warp Leah 80 13/faceDirection Leah 2/faceDirection Haley 2/playMusic summer2/viewport 80 16 true/pause 1000/speak Leah \"I bet you've never come here.$1\"/pause 500/speak Leah \"One day I was walking around looking for new landscapes to paint and I discovered these tidal pools.$0\"/pause 700/speak Haley \"This is so beautiful, Leah!$1\"/pause 600/speak Haley \"Let's take a photo, I've got my camera here.$1\"/pause 750/move Haley 0 2 1/playSound sandyStep/addBigProp 80 15 106/pause 600/move Haley 0 -2 2/pause 280/speak Haley \"Ready? The timer is set for 5 seconds.$0\"/pause 300/positionOffset Haley 2 0/positionOffset Haley 2 0/pause 80/positionOffset Leah -2 0/pause 80/positionOffset Leah -2 0/pause 100/showFrame Leah 26/showFrame Haley 26/pause 350/playSound cameraNoise/screenFlash .8/pause 700/showFrame Leah 0/showFrame Haley 2/pause 500/speak Haley \"Okay, we can see it from here.$0\"/pause 600/emote Haley 32/pause 500/speak Haley \"What a great photo.$1\"/pause 500/speak Haley \"You look so pretty.$4\"/pause 500/emote Leah 32/pause 500/speak Leah \"Yeah, they look good.$1#$b#Make sure that you make an extra copy for me.$1\"/pause 800/speak Leah \"Oh, look at the time, we should be heading back.$0#$b#I had so much fun, we should do this more often.$1\"/pause 700/speak Haley \"Oh, okay...$2#$b#Promise me we'll come here again!$0\"/pause 600/speak Leah \"Hahaha, you're so cute, Haley.$1\"/pause 700/speak Haley \"...$4\"/pause 500/end dialogue Leah \"Haley's so adorable...$4\""
             },
       },
      //Forest II | 8 hearts

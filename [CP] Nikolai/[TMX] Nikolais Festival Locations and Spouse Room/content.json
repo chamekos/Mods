@@ -12,9 +12,9 @@
 {
 "name": "Nikolai",
 "map": "Forest-FlowerFestival", 
-"position": [27, 38],
+"position": [29, 41],
 "direction": 2,
- "position2": [20,22],
+ "position2": [20,24],
   "direction2": 2
 },
 {
@@ -68,7 +68,7 @@
 "map": "Marketpalooza", 
 "position": [54, 30],
 "direction": 2,
- "position2": [48, 31],
+ "position2": [48, 32],
   "direction2": 2
 },
 ],

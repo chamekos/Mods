@@ -1,7 +1,7 @@
 {
   "Name": "Kids Festival Spots",
   "Author": "Xiddav",
-  "Version": "1.2.0",
+  "Version": "1.2.1",
   "Description": "Adds festival locations first child",
   "UniqueID": "Xiddav.ChildtoNPCforSVETMX",
   "MinimumApiVersion": "3.0",

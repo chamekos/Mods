@@ -2,10 +2,14 @@
     "mergeMaps": [
 {        "name": "Town",
         "file": "Town.tbin" ,
-	 "sourceArea": [ 0, 0, 10, 8 ],
-            "position": [ 43, 25 ]	}],
+	 "sourceArea": [ 0, 0, 2, 3 ],
+            "position": [ 47, 30 ]	}],
 "addMaps": [
 	{	"Name": "KidsTreeHouse",
-	"file": "kidstreehouse.tmx",}]
+	"file": "kidstreehouse.tmx",},],
 
-}
+"onlyWarps":   [    {
+      "name": "Town", 
+      "addWarps": [
+        "47 32 KidsTreeHouse 6 7"
+      ]    }  ]    }

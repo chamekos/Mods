@@ -1,7 +1,7 @@
 {
   "Name": "Kids Treehouse",
   "Author": "Xiddav",
-  "Version": "1.2.0",
+  "Version": "1.0.1",
   "Description": "Adds treehouse to town",
   "UniqueID": "Xiddav.ChildtoNPCforSVETreeHouse",
   "MinimumApiVersion": "3.0",

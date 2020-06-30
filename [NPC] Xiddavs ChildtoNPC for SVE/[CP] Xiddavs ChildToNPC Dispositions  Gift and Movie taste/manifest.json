@@ -2,7 +2,7 @@
   "Name": "seasonal kid take after spouse NPC",
   "Author": "xiddav",
   "Description": " Child To NPC and look like your spouse.",
-  "Version": "1.2.0",
+  "Version": "1.2.1",
   "UniqueID": "xiddav.seasonalkidtakeafterspouseNPC",
   "UpdateKeys": ["Nexus: 5436"],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },

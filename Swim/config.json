@@ -9,5 +9,7 @@
   "OxygenMult": 2,
   "BubbleMult": 1,
   "AllowActionsWhileInSwimsuit": true,
-  "AddFishies": true
+  "AddFishies": true,
+  "AddCrabs": true,
+  "BreatheSound": true
 }
