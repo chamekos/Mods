@@ -1,0 +1,8 @@
+{
+	"Entries": {
+				 "346": "ItemDelivery/Entregale una cerveza a Lyell./Lyell quiere una bebida fría./Entregale una cerveza a Lyell./Lyell 346/-1/500/-1/true/Oh, ¡gracias! ¿Quieres quedarte a beber conmigo?$1",
+            "454": "ItemDelivery/Una bebida fría./Lyell quiere una cerveza fría./Entregale una cerveza a Lyell./Lyell 454/-1/500/-1/true/¡Justo lo que necesitaba! Te agradezco, @",
+           "486": "ItemDelivery/Starfruit seeds./Lyell necesita semillas de carambola para su jardín./Entregale un paquete de semillas de carambola a Lyell./Lyell 486/-1/700/-1/true/Oh, ¡viste mi aviso! Gracias, @, esto es justo lo que necesitaba.$1",
+           "270": "ItemDelivery/Ayuda a sus chicas/Lyell necesita un tallo de maíz fresco para sus gallinas./Entregale maíz a Lyell./Lyell 270/-1/400/-1/true/Mis chicas amarán esto, te lo agradezco.",
+},
+}

@@ -1,12 +1,13 @@
 {
   "Name": "SVE NPC Adventures",
   "Author": "Somohexual",
-  "Version": "1.0.5",
+  "Version": "1.0.7",
   "Description": "Adds SVE NPCs to the NPC Adventures mod.",
   "UniqueID": "somohexual.SVE.NPCA",
   "UpdateKeys": [ "Nexus:5990" ],
   "ContentPackFor": {
     "UniqueID": "purrplingcat.npcadventure",
+	"MinimumVersion": "0.13.0"
   },
    "Dependencies": [
    {

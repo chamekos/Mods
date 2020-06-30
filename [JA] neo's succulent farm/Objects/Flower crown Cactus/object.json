@@ -1,0 +1,13 @@
+{
+  "Name": "Flower crown Cactus",
+  "Description": "This whith and pink thorned cactus can grow flower crowns.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+  },
+}

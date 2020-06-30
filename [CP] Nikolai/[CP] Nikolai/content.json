@@ -1,7 +1,7 @@
 {
   "Format": "1.14.0",
    "DynamicTokens": [
-            {
+           {
             "Name": "WeatherVariant",
             "Value": "Rain",
             "When":
@@ -27,14 +27,6 @@
         "Season": "winter",
         "Weather": "snow, rain, storm",
         "IsOutdoors": "true"
-      },
-    },
-    {
-      "Name": "WeatherVariant",
-      "Value": "Base",
-      "When":
-      {
-        "IsOutdoors": "false"
       },
     },         
             // Festivals
@@ -164,25 +156,25 @@
       "LogName": "Portraits",
       "Action": "Load",
       "Target": "Portraits/Nikolai",
-      "FromFile": "assets/Image/Portraits/Nikolai_Spring_Outfit_Base.png",
+      "FromFile": "assets/Image/Portraits/Nikolai_Spring_Sun.png",
     },
     {
       "LogName": "Sprites",
       "Action": "Load",
       "Target": "Characters/Nikolai",
-      "FromFile": "assets/Image/Sprites/Nikolai_Spring_Outfit_Base.png",
+      "FromFile": "assets/Image/Sprites/Nikolai_Spring_Sun.png",
     },
       {
       "LogName": "Portraits",
       "Action": "EditImage",
       "Target": "Portraits/Nikolai",
-      "FromFile": "assets/Image/Portraits/Nikolai_{{season}}_Outfit_{{WeatherVariant}}.png",
+      "FromFile": "assets/Image/Portraits/Nikolai_{{season}}_{{WeatherVariant}}.png",
     },
     {
       "LogName": "Sprites",
       "Action": "EditImage",
       "Target": "Characters/Nikolai",
-      "FromFile": "assets/Image/Sprites/Nikolai_{{season}}_Outfit_{{WeatherVariant}}.png",
+      "FromFile": "assets/Image/Sprites/Nikolai_{{season}}_{{WeatherVariant}}.png",
     },
     {
       "LogName": "Portraits",

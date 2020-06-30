@@ -1,9 +1,13 @@
 {
-	"Format": "1.11.0",
+	"Format": "1.13.0",
 	"ConfigSchema": {
+		"NewStyle": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
 		"Noses": {
 			"AllowValues": "true, false",
-			"Default": "true"
+			"Default": "false"
 		},
 		"MarlonOriginalStyleFlowerDance": {
 			"AllowValues": "true, false",
@@ -19,14 +23,25 @@
 		}		
 	},
 	"Changes": [
-/*		{
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Andy",
+			"FromFile": "assets/Characters/Andy-Idle.png",
+			"ToArea": { "X": 0, "Y": 320, "Width": 64, "Height": 32 },
+			"When": {
+				"Noses": "false",
+				"NewStyle": "false"
+			}				
+		},
+		{
 			"Action": "EditImage",
 			"Target": "Characters/Andy",
 			"FromFile": "assets/Characters/Andy.png",
 			"When": {
-				"Noses": "false"	
+				"Noses": "false",
+				"NewStyle": "true"
 			}				
-		},*/
+		},
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Andy",
@@ -35,15 +50,26 @@
 				"Noses": "true"
 			}				
 		},
-/*		{
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "assets/Characters/Marlon-Idle.png",
+			"ToArea": { "X": 0, "Y": 224, "Width": 48, "Height": 32 },
+			"When": {
+				"Noses": "false",
+				"NewStyle": "false"
+			}				
+		},
+		{
 			"Action": "EditImage",
 			"Target": "Characters/Marlon",
 			"FromFile": "assets/Characters/Marlon.png",
 			"When": {
 				"Noses": "false",
-				"MarlonOriginalStyleFlowerDance": "false"
+				"MarlonOriginalStyleFlowerDance": "false",
+				"NewStyle": "true"
 			}
-		},*/
+		},
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Marlon",
@@ -71,16 +97,17 @@
 				"MarlonOriginalStyleFlowerDance": "true"
 			}
 		},
-/*		{
+		{
 		    "LogName": "Marlon Sprites",
 			"Action": "EditImage",
 			"Target": "Characters/MarlonFay",
 			"FromFile": "assets/Characters/Marlon.png",
 			"When": {
 				"Noses": "false",
-				"MarlonOriginalStyleFlowerDance": "false"
+				"MarlonOriginalStyleFlowerDance": "false",
+				"NewStyle": "true"
 			}
-		},*/
+		},
 		{
 		    "LogName": "Marlon Sprites",
 			"Action": "EditImage",
@@ -111,15 +138,26 @@
 				"MarlonOriginalStyleFlowerDance": "true"
 			}
 		},
-/*		{
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Olivia",
+			"FromFile": "assets/Characters/OliviaNew-Idle.png",
+			"ToArea": { "X": 0, "Y": 320, "Width": 64, "Height": 32 },
+			"When": {
+				"Noses": "false",
+				"NewStyle": "false"
+			}				
+		},
+		{
 			"Action": "EditImage",
 			"Target": "Characters/Olivia",
 			"FromFile": "assets/Characters/OliviaNew.png",
 			"When": {
 			 	"Noses": "false",
-				"OliviaShortWeddingDress": "false"
+				"OliviaShortWeddingDress": "false",
+				"NewStyle": "true"
 			}
-		},*/
+		},
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Olivia",
@@ -147,19 +185,31 @@
 				"OliviaShortWeddingDress": "true"
 			}
 		},
-/*		{
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Susan",
+			"FromFile": "assets/Characters/Susan-Idle.png",
+			"ToArea": { "X": 0, "Y": 256, "Width": 64, "Height": 32 },
+			"When": {
+				"Noses": "false",
+				"NewStyle": "false"
+			}				
+		},
+		{
 			"Action": "EditImage",
 			"Target": "Characters/Susan",
 			"FromFile": "assets/Characters/Susan.png",
 			"When": {
-				"Noses": "false"
+				"Noses": "false",
+				"NewStyle": "true"
 			}
-		},*/
+		},
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Susan",
 			"FromFile": "assets/Characters/Susan-Nose.png",
 			"When": {
+				"Noses": "false",
 				"Noses": "true"
 			}
 		}	

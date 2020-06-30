@@ -1,8 +1,8 @@
 {
-  "Name": "Life Cycle - Marnie & Lewis",
+  "Name": "[CP] Life Cycle - Marnie & Lewis",
   "Author": "nraittanna",
-  "Version": "1.7.0",
-  "Description": "A mod that makes Stardew Valley NPCs more lively | Marnie and Lewis dating version.",
+  "Version": "2.0.0",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Marnie and Lewis dating version (existing save).",
   "UniqueID": "nraittanna.LifeCycleMLW",
   "UpdateKeys": [ "Nexus:6200" ],
   "ContentPackFor": {

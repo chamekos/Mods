@@ -1,0 +1,13 @@
+{
+  "Name": "Barrel Cactus",
+  "Description": "Found in deserts these prickly balls can live up to 100 years.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 140,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+  },
+}

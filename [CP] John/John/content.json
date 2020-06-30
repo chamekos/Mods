@@ -1,7 +1,7 @@
 {
-	"Format": "1.13.0",
+	"Format": "1.14.0",
 	"DynamicTokens": [
-        {
+    {
             "Name": "WeatherVariant",
             "Value": "Rain",
             "When":
@@ -28,15 +28,7 @@
         "Weather": "snow, rain, storm",
         "IsOutdoors": "true"
       },
-    },
-    {
-      "Name": "WeatherVariant",
-      "Value": "Base",
-      "When":
-      {
-        "IsOutdoors": "false"
-      },
-    },         
+    },                
             // Festivals
         {
             "Name": "Festival",
@@ -1173,25 +1165,25 @@
       "LogName": "Portraits",
       "Action": "Load",
       "Target": "Portraits/John",
-      "FromFile": "assets/Image/Portraits/John_Spring_Outfit_Base.png",
+      "FromFile": "assets/Image/Portraits/John_Spring_Sun.png",
     },
     {
       "LogName": "Sprites",
       "Action": "Load",
       "Target": "Characters/John",
-      "FromFile": "assets/Image/Sprites/John_Spring_Outfit_Base.png",
+      "FromFile": "assets/Image/Sprites/John_Spring_Sun.png",
     },
        {
       "LogName": "Portraits",
       "Action": "EditImage",
       "Target": "Portraits/John",
-      "FromFile": "assets/Image/Portraits/John_{{season}}_Outfit_{{WeatherVariant}}.png",
+      "FromFile": "assets/Image/Portraits/John_{{season}}_{{WeatherVariant}}.png",
     },
     {
       "LogName": "Sprites",
       "Action": "EditImage",
       "Target": "Characters/John",
-      "FromFile": "assets/Image/Sprites/John_{{season}}_Outfit_{{WeatherVariant}}.png",
+      "FromFile": "assets/Image/Sprites/John_{{season}}_{{WeatherVariant}}.png",
     },
     //Festival Sprites
    {

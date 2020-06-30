@@ -1,0 +1,6 @@
+{
+	"Entries": {
+					"Mines_PlayerKilled_Lyell_NotSpouse": "Te encontré en las minas. No dejes que esto vuelva a suceder.$s",
+                   "Mines_PlayerKilled_Lyell_Spouse": "Ten más cuidado, no quiero perderte tan pronto...$s",
+				},
+}

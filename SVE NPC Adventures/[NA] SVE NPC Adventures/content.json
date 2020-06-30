@@ -1,75 +1,125 @@
 {
-  "Format": "1.1",
+  "Format": "1.3",
   "Changes": [
 	{
-      "Action": "Edit",
       "Target": "Data/CompanionDispositions",
       "FromFile": "assets/Data/CompanionDispositions.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/Buffs",
       "FromFile": "assets/Data/Buffs.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/AnimationDescriptions",
       "FromFile": "assets/Data/AnimationDescriptions.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/IdleBehaviors",
       "FromFile": "assets/Data/IdleBehaviors.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/IdleNPCDefinitions",
       "FromFile": "assets/Data/IdleNPCDefinitions.json"
     },
     {
-      "Action": "Edit",
       "Target": "Strings/Buffs",
       "FromFile": "assets/Strings/Buffs.json"
     },
     {
-      "Action": "Edit",
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffs.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Buffs"
+    },
+    {
+      "Target": "Strings/Mail",
+      "FromFile": "assets/Strings/Mail.json"
+    },
+    {
+      "Target": "Strings/Mail",
+      "FromFile": "assets/Strings/Mail.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Mail"
+    },
+    {
       "Target": "Strings/SpeechBubbles",
       "FromFile": "assets/Strings/SpeechBubbles.json"
     },
+    {
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for SpeechBubbles"
+    },
 	{
-      "Action": "Load",
 	  "Target": "Dialogue/Andy",
       "FromFile": "assets/Dialogue/Andy.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/Andy",
+      "FromFile": "assets/Dialogue/Andy.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Andy's dialogue"
+    },
+	{
 	  "Target": "Dialogue/MarlonFay",
       "FromFile": "assets/Dialogue/MarlonFay.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/MarlonFay",
+      "FromFile": "assets/Dialogue/MarlonFay.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Marlon's dialogue"
+    },
+	{
 	  "Target": "Dialogue/MorrisTod",
       "FromFile": "assets/Dialogue/MorrisTod.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/MorrisTod",
+      "FromFile": "assets/Dialogue/MorrisTod.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Morris's dialogue"
+    },
+	{
 	  "Target": "Dialogue/Olivia",
       "FromFile": "assets/Dialogue/Olivia.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/Olivia",
+      "FromFile": "assets/Dialogue/Olivia.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Olivia's dialogue"
+    },
+	{
 	  "Target": "Dialogue/Victor",
       "FromFile": "assets/Dialogue/Victor.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/Victor",
+      "FromFile": "assets/Dialogue/Victor.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Victor's dialogue"
+    },
+	{
 	  "Target": "Dialogue/Sophia",
       "FromFile": "assets/Dialogue/Sophia.json"
     },
 	{
-      "Action": "Load",
+	  "Target": "Dialogue/Sophia",
+      "FromFile": "assets/Dialogue/Sophia.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Sophia's dialogue"
+    },
+	{
 	  "Target": "Dialogue/Susan",
       "FromFile": "assets/Dialogue/Susan.json"
+    },
+	{
+	  "Target": "Dialogue/Susan",
+      "FromFile": "assets/Dialogue/Susan.es-ES.json",
+	  "Locale": "es-es",
+	  "LogName": "Spanish translation for Susan's dialogue"
     }
   ]
 }

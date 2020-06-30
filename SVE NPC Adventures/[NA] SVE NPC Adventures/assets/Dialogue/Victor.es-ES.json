@@ -1,0 +1,9 @@
+{
+    "companionAccepted": "¡Hagámoslo!$1",
+    "companionRejected": "Creo que me voy a quedar con mis libros y videojuegos, perdón.$2",
+    "companionRejectedNight": "Tuve un día largo. Ahora mismo realmente no estoy para una aventura.$0",
+    "companionDismiss": "Seguro.$0#$b#Nos vemos mas tarde, ¿bueno?$3",
+    "companionDismissAuto": "Creo que voy a ir a casa y registrar algunos de los datos que recopilé hoy.$0#$b#¡Que tengas un buen día, @!$3",
+    "companionRecruited": "¿Dónde deberíamos ir?$6#$b#Si hubiese sabido que íbamos a salir, podría haber escrito un itinerario de antemano.$2",
+    "companion_ShearwaterBridge": "Es una vista increíble, ¿no es así?$3#b#Gracias a este puente, las personas de Grampleton y Stardew Valley pueden trabajar y crecer juntas.$1"
+}

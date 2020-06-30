@@ -1,0 +1,13 @@
+{
+  "Name": "Estevesii Cactus",
+  "Description": "A long and yellow thorned cactus that sometimes grows pink flowers.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 160,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+  },
+}

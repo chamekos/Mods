@@ -1,0 +1,12 @@
+[
+		{
+			"ProducerName": "Tea Station",
+			"AlternateFrameProducing": false,
+			"AlternateFrameWhenReady": false,
+			"DisableBouncingAnimationWhileWorking": true,
+	    "ReadyAnimation":
+			{
+				"RelativeFrameIndex": [0],
+			},
+		},
+]

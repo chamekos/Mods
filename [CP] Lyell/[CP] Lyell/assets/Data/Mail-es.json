@@ -1,0 +1,8 @@
+{
+	"Entries": {
+		"Lyellbeer": "Si alguien tiene tiempo, Me encantaria un cerveza fria.^Te pagaré porsupuesto.^ -Lyell %item quest 346 true %",
+      "LyellAncientFruit": "Necesito un fruta milenaria para una receta.^Pagaré porsupuesto.^ -Lyell %item quest 454 true %%",
+      "costume": "Necesito un paquete de semillas de carambola. Estaria agradecido si me las trajeras.^Pagaré en consecuencia.^ -Lyell %item quest 486 true %%",
+      "coal": "Quiero hacer parrilladas pronto, pero no me queda nada de carbón. Si tienes algo de carbón extra, podrías entregarmelo?^Te pagaré, porsupuesto.^ -Lyell %item quest 270 true %%",
+},
+}
