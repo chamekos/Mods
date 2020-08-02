@@ -1,0 +1,45 @@
+{
+  "Format": "1.1",
+  "Changes": [
+	{
+      "Action": "Edit",
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDispositions.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/AnimationDescriptions",
+      "FromFile": "assets/Data/AnimationDescriptions.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json"
+    },
+	{
+      "Action": "Edit",
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json"
+    },
+    {
+      "Action": "Edit",
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffs.json"
+    },
+    {
+      "Action": "Edit",
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SteveBubbles.json"
+    },
+	{
+      "Action": "Load",
+	  "Target": "Dialogue/Steve",
+      "FromFile": "assets/Dialogue/Steve.json"
+    }
+  ]
+}

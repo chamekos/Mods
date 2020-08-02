@@ -1,0 +1,848 @@
+{
+  "Format": "1.15.0",
+  "Changes": [
+  
+  {    //Adds custom tilesheet
+     "Action": "Load",
+     "Target": "Maps/spring_z_mailboxes,Maps/summer_z_mailboxes,Maps/fall_z_mailboxes,Maps/winter_z_mailboxes",
+     "FromFile": "assets/img/{{TargetWithoutPath}}.png",
+},
+      {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Ayeisha": "adult/polite/neutral/positive/female/non-datable/null/Other/summer 9//Town 35 56 0/Ayeisha"
+      }
+    },
+
+///GIFT TASTES
+// Subject to change.
+
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+            "Ayeisha": "Thank you so much! I love it! $l#/60 195 205 231 248 252 258 281 402 406 611/Thank you. This is very nice. $h#/-81 376 564/Umm... Thanks. $s#/64 72 190 280 727 728/I'm going to deliver this straight to the recycling bin. $a#/270/Thank you.//",
+      }
+    },
+
+
+//Map Labels    
+{   
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+      "TheLimeyDragon.Ayeisha1": "-Willy's Fish Shop-",
+      "TheLimeyDragon.Ayeisha2": "'Elliot' has been painted on in a cursive script.",
+      "TheLimeyDragon.Ayeisha3": "24 Mountain Road#-The Carpenter's Shop-",
+      "TheLimeyDragon.Ayeisha4": "-Marnie's Ranch-",
+      "TheLimeyDragon.Ayeisha5": "-The Cottage-#An L has been carved underneath.",
+      "TheLimeyDragon.Ayeisha6": "1 River Road",
+      "TheLimeyDragon.Ayeisha7": "2 River Road",
+      "TheLimeyDragon.Ayeisha8": "1 Willow Lane",
+      "TheLimeyDragon.Ayeisha9": "2 Willow Lane",
+      "TheLimeyDragon.Ayeisha10": "The paint has rusted off.",
+      "TheLimeyDragon.Ayeisha11": "Mail",
+      "TheLimeyDragon.Ayeisha12": "-Mayor's Manor-",
+      "TheLimeyDragon.Ayeisha13": "Stardew Valley Museum and Library",
+      "TheLimeyDragon.Ayeisha14": "Mail and Perscriptions",
+	  }
+},
+
+//MAP CHANGES
+//=======TOWN
+//-------GUS
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 1, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 41, "Y": 70, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 1, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 41, "Y": 70, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 1, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 41, "Y": 70, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 1, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 41, "Y": 70, "Width": 1, "Height": 2 },
+  },
+//-------CLINT
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 0, "Y": 2, "Width": 1, "Height": 1 },
+         "ToArea": { "X": 95, "Y": 81, "Width": 1, "Height": 1 },
+  },
+//-------PIERRE
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 46, "Y": 55, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 46, "Y": 55, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 46, "Y": 55, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 46, "Y": 55, "Width": 1, "Height": 2 },
+  },
+//-------HARVEY
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 2, "Y": 0, "Width": 1, "Height": 3 },
+         "ToArea": { "X": 35, "Y": 54, "Width": 1, "Height": 3 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 2, "Y": 0, "Width": 1, "Height": 3 },
+         "ToArea": { "X": 35, "Y": 54, "Width": 1, "Height": 3 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 2, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 35, "Y": 54, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 2, "Y": 0, "Width": 1, "Height": 3 },
+         "ToArea": { "X": 35, "Y": 54, "Width": 1, "Height": 3 },
+  },
+  //-------ALEX
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 2, "Y": 2, "Width": 3, "Height": 2 },
+         "ToArea": { "X": 49, "Y": 62, "Width": 3, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 2, "Y": 2, "Width": 3, "Height": 2 },
+         "ToArea": { "X": 49, "Y": 62, "Width": 3, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 2, "Y": 2, "Width": 3, "Height": 2 },
+         "ToArea": { "X": 49, "Y": 62, "Width": 3, "Height": 2 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	         }
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 4, "Y": 2, "Width": 1, "Height": 1 },
+         "ToArea": { "X": 51, "Y": 62, "Width": 1, "Height": 1 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+	         }
+  },  
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 2, "Y": 2, "Width": 3, "Height": 2 },
+         "ToArea": { "X": 49, "Y": 62, "Width": 3, "Height": 2 },
+  },
+  //-------PAM
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 6, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 6, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 6, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 6, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+  },
+  
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 7, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+         "When": { "HasFlag": "pamHouseUpgrade" },
+  },
+    {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 7, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+         "When": { "HasFlag": "pamHouseUpgrade" },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 7, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+         "When": { "HasFlag": "pamHouseUpgrade" },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 7, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 68, "Y": 69, "Width": 1, "Height": 2 },
+         "When": { "HasFlag": "pamHouseUpgrade" },
+  },
+  //-------HAYLEY
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 9, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 21, "Y": 88, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 9, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 21, "Y": 88, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 9, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 21, "Y": 88, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 9, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 21, "Y": 88, "Width": 1, "Height": 2 },
+  },
+  //-------JODI
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 3, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 8, "Y": 87, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 3, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 8, "Y": 87, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 3, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 8, "Y": 87, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 3, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 8, "Y": 87, "Width": 1, "Height": 2 },
+  },
+  //-------LEWIS
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 10, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 56, "Y": 85, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-EggFestival",
+         "FromFile": "assets/maps/Mailboxes_springfestival.tbin",
+         "FromArea": { "X": 10, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 56, "Y": 85, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Fair, Maps/Town-Halloween",
+         "FromFile": "assets/maps/Mailboxes_fallfestival.tbin",
+         "FromArea": { "X": 10, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 56, "Y": 85, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town-Christmas",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 10, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 56, "Y": 85, "Width": 1, "Height": 2 },
+  },
+  //-------MUSEUM (Moved so it's in the same position as SVE)
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Town",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 5, "Y": 2, "Width": 6, "Height": 2 },
+         "ToArea": { "X": 94, "Y": 91, "Width": 6, "Height": 2 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	         }
+  },  
+  //=======MOUNTAIN  
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Mountain",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 5, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 9, "Y": 25, "Width": 1, "Height": 2 },
+  },
+  //=======FOREST
+  //-------MARNIE
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 0, "Y": 4, "Width": 11, "Height": 3 },
+         "ToArea": { "X": 84, "Y": 22, "Width": 11, "Height": 3 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	         }
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 8, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 89, "Y": 22, "Width": 1, "Height": 2 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+	         }
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest-IceFestival",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 0, "Y": 4, "Width": 11, "Height": 3 },
+         "ToArea": { "X": 84, "Y": 22, "Width": 11, "Height": 3 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	         }
+  },
+  //-------LEAH
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 4, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 100, "Y": 32, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Forest-IceFestival",
+         "FromFile": "assets/maps/Mailboxes_winterfestival.tbin",
+         "FromArea": { "X": 4, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 100, "Y": 32, "Width": 1, "Height": 2 },
+         "When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	         }
+  },
+  //=======BEACH
+  //-------ELLIOT
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 1, "Y": 2, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 42, "Y": 5, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Beach-Luau, Maps/Beach-Jellies, Maps/Beach-NightMarket",
+         "FromFile": "assets/maps/Mailboxes_summerfestival.tbin",
+         "FromArea": { "X": 1, "Y": 2, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 42, "Y": 5, "Width": 1, "Height": 2 },
+  },
+  //-------WILLY
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/maps/Mailboxes.tbin",
+         "FromArea": { "X": 11, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 27, "Y": 32, "Width": 1, "Height": 2 },
+  },
+  {
+         "Action": "EditMap",
+         "Target": "Maps/Beach-Luau, Maps/Beach-Jellies, Maps/Beach-NightMarket",
+         "FromFile": "assets/maps/Mailboxes_summerfestival.tbin",
+         "FromArea": { "X": 11, "Y": 0, "Width": 1, "Height": 2 },
+         "ToArea": { "X": 27, "Y": 32, "Width": 1, "Height": 2 },
+  },
+  
+  
+    {
+     "LogName": "Birthday Replies", 
+     "Action": "EditData", 
+     "Target": "Strings/StringsFromCSFiles",
+     "Entries": {
+     "NPC.cs.4275": "For my birthday? What a great gift! Thanks!",
+     "NPC.cs.4277": "What a nice birthday present! Thanks!",
+     "NPC.cs.4279": "What's this? Wait... It's supposed to be a birthday present?!",
+     "NPC.cs.4281": "For my birthday? Thanks",
+      },
+     "When": { "Season": "Summer", "Day": "9", }
+    },
+    
+    
+    {
+     "LogName": "Marriage Replies", 
+     "Action": "EditData", 
+     "Target": "Strings/StringsFromCSFiles",
+     "Entries": {
+     "NPC.cs.3956": "$q 10001 rejectNPCA#?!...#$r 10001 0 rejectNPCA#[Give Bouquet]",
+     "NPC.cs.3957": "$q 10001 rejectNPCB#?!...#$r 10001 0 rejectNPCB#[Give Bouquet]",
+     "NPC.cs.3965": "$q 10001 engageA#?!...#$r 10001 0 engageA# Will you marry me?",
+     "NPC.cs.3966": "$q 10001 engageB#?!...#$r 10001 0 engageB# Will you marry me?",
+     "NPC.cs.3967": "$q 10001 marriedA#?!...#$r 10001 0 marriedA# Will you marry me?",
+     "NPC.cs.3968": "$q 10001 marriedB#?!...#$r 10001 0 marriedB# Will you marry me?",
+     "NPC.cs.3970": "$q 10001 refusal_no_heartsA#?!...#$r 10001 0 refusal_no_heartsA# Will you marry me?",
+     "NPC.cs.3971": "$q 10001 refusal_no_heartsB#?!...#$r 10001 0 refusal_no_heartsB# Will you marry me?",
+      },
+    },
+    
+//Sprites 
+
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-shorts.png",
+    },
+   
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-shorts.png",
+      "When": {
+		"Season": "Spring",
+		"Weather": "Sun",
+		}
+    },
+   {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-long.png",
+      "When": {
+		"Season": "Spring",
+		"Weather": "Wind, Rain, Storm",
+		}
+    },
+    
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-shorts.png",
+      "When": {
+		"Season": "Summer",
+		"Weather": "Sun, Wind"
+		}
+    },
+    
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-long.png",
+      "When": {
+		"Season": "Summer",
+		"Weather": "Rain, Storm"
+		}
+    },
+
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-shorts.png",
+      "When": {
+		"Season": "Fall",
+		"Weather": "Sun",
+		}
+    },
+
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-long.png",
+      "When": {
+		"Season": "Fall", 
+		"Weather": "Wind, Rain, Storm",
+		}
+    },    
+
+    {
+      "LogName": "NPC Sprite",
+      "Action": "EditImage",
+      "Target": "Characters/Ayeisha",
+      "FromFile": "assets/img/spritesheet-long.png",
+      "When": {
+		"Season": "Winter",
+		}
+    },
+ 
+
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Ayeisha",
+      "FromFile": "assets/dialogue/Dialogue.json",
+    },
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Ayeisha",
+      "FromFile": "assets/img/portrait.png",
+    },
+    
+//Does Not Have SVE or EastScarpe
+
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ayeisha",
+      "FromFile": "assets/schedules/Schedule.json",
+      "When": {
+	      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	      "HasMod |contains=LemurKat.EastScarpe.CP": false,
+	      },
+    },
+    
+//Has SVE and EastScarpe
+    
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ayeisha",
+      "FromFile": "assets/schedules/ScheduleSVEandES.json",
+      "When": {
+	      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+	      "HasMod |contains=LemurKat.EastScarpe.CP": true,
+	      },
+    },
+    
+//Has SVE only
+    
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ayeisha",
+      "FromFile": "assets/schedules/ScheduleSVE.json",
+      "When": {
+	      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+	      "HasMod |contains=LemurKat.EastScarpe.CP": false,
+	      },
+    },
+
+//Has EastScarpe only
+    
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ayeisha",
+      "FromFile": "assets/schedules/ScheduleES.json",
+      "When": {
+	      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+	      "HasMod |contains=LemurKat.EastScarpe.CP": true,
+	      },
+    },
+
+//Film Snacks/Drinks
+
+    {
+      "LogName": "Concessions Tastes",
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+      "Ayeisha": {
+      "Name": "Ayeisha",
+      "LovedTags":["Sour Slimes", "Star Cookie", "Truffle Popcorn", "Stardrop Sorbet", "Personal Pizza", "Panzanella Salad"],
+      "LikedTags":["Joja Cola", "Ice Cream Sandwich", "Apple Slices", "Popcorn", "Chocolate Popcorn",  "Salmon Burger", "Black Licorice", "Cappuccino Mousse Cake", "Fries", "Nachos"],
+      "DislikedTags":["Jasmine Tea", "Salted Peanuts", "Cotton Candy", "Kale Smoothie", "Hummus Snack Pack", "JojaCorn", "Jawbreaker", "Rock Candy"],
+                 }
+                 },
+    },
+    
+    
+//Film Reactions
+{
+  "Action": "EditData",
+  "Target": "Data/MoviesReactions",
+  "Entries": {
+  "Ayeisha": {
+    "NPCName": "Ayeisha",
+    "Reactions": [
+//Brave Little Sapling
+      {
+        "Tag": "spring_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This movie looks really cute and fun"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I like the animation style."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was a really sweet movie."
+          }
+        },
+        "ID": "reaction_0"
+      },
+//Journey of the Praire King
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I remember playing the game, I can't remember the plot tho."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Haha! This is great! $h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That movie was great! Makes me want to play the game again now! $h"
+          }
+        },
+        "ID": "reaction_1"
+      },
+//Mysterium
+      {
+        "Tag": "fall_movie_0",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I don't know anything about this movie. It looks unusual."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This movie is weird. $u"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was a very odd movie. I kind of liked it."
+          }
+        },
+        "ID": "reaction_2"
+      },
+//Mirale at Coldstar Ranch
+      {
+        "Tag": "winter_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I remember seeing this on TV as a child. I don't think I liked it much but maybe my taste has changed."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Did you enjoy it? I don't think my opinion of it has changed sadly. $s"
+          }
+        },
+        "ID": "reaction_3"
+      },
+//Natural Wonders
+      {
+        "Tag": "spring_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've been wanting to see this since I saw a trailer for it. $h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This is really fascinating. $u"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Thanks for inviting me. I loved it! $h"
+          }
+        },
+        "ID": "reaction_4"
+      },
+//Wumbus
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I love sci-fi films."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hahahaha $h"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That film was hilarious. I had a great time. Thanks for inviting me. $h"
+          }
+        },
+        "ID": "reaction_5"
+      },
+//Howls in the Rain
+      {
+        "Tag": "fall_movie_1",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I don't really like horror movies but I'll try to like it."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "... $s"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sorry I really didn't enjoy that at all. I had to close my eyes for most of it. $s"
+          }
+        },
+        "ID": "reaction_6"
+      },
+//Zuzu City Express
+      {
+        "Tag": "winter_movie_1",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I've not seen a black and white movie for a long time. I don't think I've ever seen this one."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was fun. I can see why it's a classic."
+          }
+        },
+        "ID": "reaction_7"
+      }    
+     ]
+	}
+  }
+  }
+    
+  ]
+}
+

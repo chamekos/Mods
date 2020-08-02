@@ -1,0 +1,13 @@
+{
+  "Name": "Steve - NPC Adventures",
+  "Author": "WatchfulTigerlily",
+  "Version": "0.3.0",
+  "Description": "Recruit Steve to join you!",
+  "UniqueID": "tig.stevenpcadvent",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ " " ],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.10.0"
+  }
+}

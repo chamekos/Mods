@@ -1,0 +1,241 @@
+{
+    "Entries": {
+    "Herbert": {
+    "NPCName": "Herbert",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "How kind of you to invite me to see a movie with you!$3#$b#If the movie theatre had been around when I was younger, Lewis would have been taking me non-stop!$3"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Herbert is frozen mid-chew.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was quite entertaining! Thank you for taking me with you today. Feel free to invite me to another movie any time!$3"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Sam was telling me all about how Sebastian hates this movie. I wonder why."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "sprout_leave",
+            "Script": "/message \"Herbert has gone very quiet.\"",
+            "Text": "Oh..."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That movie definitely was something, I'll say that.$1#$b#Do you plan on taking me to see it again?"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "spring_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": null,
+        "ID": "reaction_2"
+      },
+      {
+        "Tag": "family",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I hope this movie is interesting - I've heard many reviews about it. Have you seen it before, @?$3"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Herbert is quietly chuckling to himself. He seems to be having a good time.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "That was a great way to spend some time!#$b#Do take me again to the movie theatre with you some time."
+          }
+        },
+        "ID": "reaction_3"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A comedy? Hm. I don't see comedies often. My grandfather always told me how much of a serious person I was, even as a child."
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "/message \"Herbert is suppressing a smile, hoping you won't see.\""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hm! Well, I've seen worse.$3#$b#Hehe.$3"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pfft, a horror movie? Are you sure it won't give you nightmares?$3#$b#Don't worry, if you get scared you can hold my hand.$3"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Herbert 3000/pause 500/",
+            "Text": "EeeH!$6"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Don't say a word.$5"
+          }
+        },
+        "ID": "reaction_5"
+      },
+      {
+        "Tag": "love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "A romance film? Pfft. They're not exactly my taste, but I can't refuse a free ticket.$7"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Herbert is sobbing.\"",
+            "Text": ""
+          }
+        },
+        "ID": "reaction_6"
+      },
+      {
+        "Tag": "like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I don't think I've seen this one before. Have you?#$b#I heard Sam mention that Abigail loves this film.$1"
+          },
+          "DuringMovie": null,
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Pfft, that was very amusing. I want to see this one again some time.$3"
+          }
+        },
+        "ID": "reaction_7"
+      },
+      {
+        "Tag": "dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Hm... I suppose I can give this one a try. I'm not fond of the idea however.$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Herbert has his head in his hands.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "I don't think I fancy seeing that one again any time soon.$1"
+          }
+        },
+        "ID": "reaction_8"
+      },
+      {
+        "Tag": "seen_love",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "This one again?$6#$b#Heh...well, uh, you know me around romance films...$1"
+          },
+          "DuringMovie": {
+	    "ResponsePoint": null,
+	    "Script": "",
+	    "Text": "It's just so powerful...$2"
+	},
+          "AfterMovie": null
+        },
+        "ID": "reaction_9"
+      },
+      {
+        "Tag": "seen_like",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Aha! I knew I recognized the poster!$3#$b#We've since this one before, haven't we?$3"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_10"
+      },
+      {
+        "Tag": "seen_dislike",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Oh... I think I've seen this one before, @.$2"
+          },
+          "DuringMovie": null,
+          "AfterMovie": null
+        },
+        "ID": "reaction_11"
+      }
+    ]
+  },
+ }
+}

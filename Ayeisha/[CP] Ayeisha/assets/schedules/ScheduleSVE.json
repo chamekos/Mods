@@ -1,0 +1,25 @@
+{
+//                  Pierre            Olivia               Robin              Pam             Lewis            Elliot              Willy            Museum            Hayley                 Leah                        Sophia                Home
+  "Mon": "610 Town 46 57 0/640 Town 67 53 0/710 Mountain 9 27 0/830 Town 68 71 0/1000 Town 56 87 0/1040 Beach 42 7 0/1120 Beach 27 34 0/1210 Town 99 93 0/1340 Town 21 90 0/1500 Forest 100 34 0/1550 BlueMoonVineyard 33 38 0/1740 BusStop 12 8 0",
+//                  Pierre             Alex              Gus              Pam            Lewis           Museum            Clint            Elliot              Willy          Adventure            Hayley             Jodi              Marnie                 Leah                Andy                        Sophia                Home     
+  "Tue": "610 Town 46 57 0/640 Town 51 64 0/710 Town 41 72 0/740 Town 68 71 0/820 Town 56 87 0/900 Town 99 93 0/950 Town 95 82 0/1020 Beach 42 7 0/1130 Beach 27 34 0/1220 Town 39 100 0/1330 Town 21 90 0/1410 Town 8 89 0/1440 Forest 89 24 0/1530 Forest 100 34 0/1600 Forest 70 74 0/1710 BlueMoonVineyard 33 38 0/1840 BusStop 12 8 0",
+//                  Pierre            Olivia               Robin              Pam             Lewis            Elliot              Willy            Museum            Hayley                 Leah                        Sophia                Home
+  "Wed": "610 Town 46 57 0/640 Town 67 53 0/710 Mountain 9 27 0/830 Town 68 71 0/1000 Town 56 87 0/1040 Beach 42 7 0/1120 Beach 27 34 0/1210 Town 99 93 0/1340 Town 21 90 0/1500 Forest 100 34 0/1550 BlueMoonVineyard 33 38 0/1740 BusStop 12 8 0",
+//                     Gus               Pam           Museum            Clint           Olivia               Robin             Jodi             Marnie                Andy              Willy                Home
+  "Thu": "610 Town 41 72 0/640 Town 68 71 0/720 Town 99 93 0/820 Town 95 82 0/850 Town 67 53 0/950 Mountain 9 27 0/1110 Town 8 89 0/1340 Forest 89 24 0/1420 Forest 70 74 0/1540 Beach 27 34 0/1830 BusStop 12 8 0",
+//                  Pierre             Alex              Gus              Pam            Lewis           Museum            Clint            Elliot              Willy          Adventure            Hayley             Jodi              Marnie                 Leah                Andy                        Sophia                Home     
+  "Fri": "610 Town 46 57 0/640 Town 51 64 0/710 Town 41 72 0/740 Town 68 71 0/820 Town 56 87 0/900 Town 99 93 0/950 Town 95 82 0/1020 Beach 42 7 0/1130 Beach 27 34 0/1220 Town 39 100 0/1330 Town 21 90 0/1410 Town 8 89 0/1440 Forest 89 24 0/1530 Forest 100 34 0/1600 Forest 70 74 0/1710 BlueMoonVineyard 33 38 0/1840 BusStop 12 8 0",
+//                  Pierre            Olivia               Robin              Pam             Lewis            Elliot              Willy            Museum            Hayley                 Leah                        Sophia                Home
+  "Sat": "610 Town 46 57 0/640 Town 67 53 0/710 Mountain 9 27 0/830 Town 68 71 0/1000 Town 56 87 0/1040 Beach 42 7 0/1120 Beach 27 34 0/1210 Town 99 93 0/1340 Town 21 90 0/1500 Forest 100 34 0/1550 BlueMoonVineyard 33 38 0/1740 BusStop 12 8 0",
+//                     Gus               Pam           Museum            Clint           Olivia               Robin             Jodi             Marnie                Andy              Willy                Home
+  "Sun": "610 Town 41 72 0/640 Town 68 71 0/720 Town 99 93 0/820 Town 95 82 0/850 Town 67 53 0/950 Mountain 9 27 0/1110 Town 8 89 0/1340 Forest 89 24 0/1420 Forest 70 74 0/1540 Beach 27 34 0/1830 BusStop 12 8 0",
+
+//Night Market Night One
+  "winter_15": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 38 36 2",
+//Night Market Night Two
+  "winter_16": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 24 31 2",
+//Night Market Night Three
+  "winter_17": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 13 36 2",  
+  }                                    
+  
+  

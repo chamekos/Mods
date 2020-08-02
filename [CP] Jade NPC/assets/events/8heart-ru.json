@@ -1,9 +1,0 @@
-{
-    "Entries":  {
-        "57960007/f Jade 2000/t 1800 2000": "continue/34 25/Jade 33 25 2 farmer 34 14 2/skippable/speed farmer 2/move farmer 0 11 2/pause 1000/playMusic musicboxsong/speak Jade \"Привет, @.$h#$b#Тебе тоже хочется посмотреть на звёзды?\"/pause 2000/speak Jade \"Ты что, э-э-э... влюбился в кого-нибудь?^Ты что, э-э-э... влюбилась в кого-нибудь?$1#$b#В этом городке так много кандидатов!$1\"/pause 1000/speak Jade \"$q 579606 null#...#$r 579607 0 romanceJade#Да, кое-кто. (Романтика с Джейд)#$r 579608 0 platonicJade#Ха-ха, не совсем, а что? (Дружить с Джейд)\"/pause 500/fork 579607 romanceJade/pause 500/fork 579608 platonicJade/pause 500/message \"Если вы можете прочитать это, то вы потерпели неудачу!\"/end",
-        
-        "romanceJade":  "pause 300/speak Jade \"Я знаю.$0#$b#У тебя не очень хорошо получается это скрывать.$1\"/pause 150/speak Jade \"Хотя это очень мило.$4\"/pause 500/speak Jade \"Так... и что теперь?$1\"/pause 150/speak Jade \"Ой! Теперь тебе надо подарить мне цветы. Такова местная традиция.$1#$b#Тогда мы станем, ну знаешь, парочкой.$4#$b#А взамен я подарю тебе... вот это!$1\"/faceDirection Jade 1/faceDirection farmer 3/animate Jade false false 4500 28/animate farmer true false 4500 101/positionOffset Jade 10 0/positionOffset Farmer -10 0/textAboveHead Jade \"<\"/pause 4000/globalFade/viewport -1000 -1000/end",
-        
-        "platonicJade":  "pause 300/speak Jade \"Просто любопытно, вот и всё.$1\"/pause 3000/speak Jade \"Ты найдёшь кого-нибудь. С тобой очень весело проводить время.$0\"/pause 500/speak Jade \"Это прозвучало странно, но ты же понимаешь, что я имею в виду!$1\"/pause 350/speak Jade \"Спасибо, что дружишь со мной, @.$4\"/pause 250/globalFade/viewport -1000 -1000/end",
-    }
-}

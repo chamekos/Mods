@@ -1,0 +1,13 @@
+{
+  "Name": "Jade - NPC Adventures",
+  "Author": "malic",
+  "Version": "1.1.0",
+  "Description": "Adds Jade to NPC Adventures.",
+  "UniqueID": "malic.npcadventures.jadeNPC",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "purrplingcat.npcadventure",
+    "MinimumVersion": "0.12.0"
+  }
+}

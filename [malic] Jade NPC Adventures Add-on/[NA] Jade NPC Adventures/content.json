@@ -1,0 +1,81 @@
+{
+  "Format": "1.3",
+  "Changes": [
+    { // DATA
+      "Target": "Data/CompanionDispositions",
+      "FromFile": "assets/Data/CompanionDispositions.json",
+	  "LogName": "[Jade] Data CompanionDispositions"
+    },
+	{
+      "Target": "Data/Buffs",
+      "FromFile": "assets/Data/Buffs.json",
+	  "LogName": "[Jade] Data Buffs"
+    },
+	{
+      "Target": "Data/AnimationDescriptions",
+      "FromFile": "assets/Data/AnimationDescriptions.json",
+	  "LogName": "[Jade] Data AnimationDescriptions"
+    },
+	{
+      "Target": "Data/IdleBehaviors",
+      "FromFile": "assets/Data/IdleBehaviors.json",
+	  "LogName": "[Jade] Data IdleBehaviors"
+    },
+	{
+      "Target": "Data/IdleNPCDefinitions",
+      "FromFile": "assets/Data/IdleNPCDefinitions.json",
+	  "LogName": "[Jade] Data IdleNPCDefinitions"
+    },
+    { // DIALOGUE
+      "Target": "Dialogue/Jade",
+      "FromFile": "assets/Dialogue/Jade.json",
+	  "LogName": "[Jade/English] Dialogue"
+    },
+	{
+      "Target": "Dialogue/Jade",
+      "FromFile": "locale/ru-ru/Dialogue/Jade.json",
+	  "Locale": "ru-ru",
+	  "LogName": "[Jade/Russian] Dialogue"
+    },
+	{
+      "Target": "Dialogue/Jade",
+      "FromFile": "locale/ko-kr/Dialogue/Jade.json",
+	  "Locale": "ko-kr",
+	  "LogName": "[Jade/Korean] Dialogue"
+    },
+	{ // STRINGS
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "assets/Strings/SpeechBubbles.json",
+	  "LogName": "[Jade/English] SpeechBubbles"
+    },
+	{
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "locale/ru-ru/Strings/SpeechBubbles.json",
+	  "Locale": "ru-ru",
+	  "LogName": "[Jade/Russian] SpeechBubbles"
+    },
+	{
+      "Target": "Strings/SpeechBubbles",
+      "FromFile": "locale/ko-kr/Strings/SpeechBubbles.json",
+	  "Locale": "ko-kr",
+	  "LogName": "[Jade/Korean] SpeechBubbles"
+    },
+	{
+      "Target": "Strings/Buffs",
+      "FromFile": "assets/Strings/Buffs.json",
+	  "LogName": "[Jade/English] Strings Buffs"
+    },
+	{
+      "Target": "Strings/Buffs",
+      "FromFile": "locale/ru-ru/Strings/Buffs.json",
+	  "Locale": "ru-ru",
+	  "LogName": "[Jade/Russian] Buffs"
+    },
+	{
+      "Target": "Strings/Buffs",
+      "FromFile": "locale/ko-kr/Strings/Buffs.json",
+	  "Locale": "ko-kr",
+	  "LogName": "[Jade/Korean] Buffs"
+    }
+  ]
+}

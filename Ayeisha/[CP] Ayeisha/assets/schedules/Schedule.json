@@ -1,0 +1,24 @@
+{
+//    
+  "Mon": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//            
+  "Tue": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//               
+  "Wed": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//                    
+  "Thu": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//             
+  "Fri": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//        
+  "Sat": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+//         
+  "Sun": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 BusStop 12 8 0",
+
+//Night Market Night One
+  "winter_15": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 38 36 2",
+//Night Market Night Two
+  "winter_16": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 24 31 2",
+//Night Market Night Three
+  "winter_17": "610 Town 46 57 0/630 Mountain 9 27 0/800 Town 68 71 0/930 Town 51 64 0/1000 Town 41 72 0/1030 Town 56 87 0/1110 Town 99 93 0/1200 Town 95 82 0/1230 Beach 42 7 0/1340 Beach 27 34 0/1430 Town 21 90 0/1600 Town 8 89 0/1630 Forest 89 24 0/1710 Forest 100 34 0/1740 Beach 13 36 2",
+  }                                    
+  
