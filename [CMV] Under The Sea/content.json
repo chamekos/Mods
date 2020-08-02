@@ -1,0 +1,266 @@
+{
+"Movies":[
+{
+	"Id":"Gervig91.Movie.UnderTheSea",
+	"Season":"spring",
+	"Sheet":"UnderTheSea.png",
+	"Scale":1,
+	"SheetIndex":0,
+	"Title":"Under The Sea",
+	"Description": "Wildlife documentary of the ocean.",
+	"Tags":["nature", "fish", "mystery", "documentary", "dolphin", "mermaid"],
+	"Frames":1,
+	"Looped":true,
+	"Scale":1,
+	"AnimationSpeed!":12,
+	"CranePrizeType":"Furniture",
+	"CranePrizeName":"Decorative Bowl",
+	"Scenes":[
+      {
+        "Image": 0,
+        "Music": "starshoot",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "The world is a big place. The Ocean holds many secrets, join us today on a journey... Under The Sea.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_0"
+      },
+      {
+        "Image": 1,
+        "Music": "ocean",
+        "Sound": "seagulls",
+        "MessageDelay": 500,
+        "Script": "/playSound pullItemFromWater/pause 500/playSound slosh/pause 1000/playSound seagulls",
+        "Text": "You have probably been to the beach. You may have even gone for a swim.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_1"
+      },
+      {
+        "Image": 2,
+        "Music": "ocean",
+        "Sound": "seagulls",
+        "MessageDelay": 500,
+        "Script": "/playSound bob/pause 1000/playSound slosh/pause 2000/pause 1000/playSound seagulls",
+        "Text": "But do you know what lies beneath the waves...?",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_2"
+      },
+      {
+        "Image": 3,
+        "Music": "submarine_song",
+        "Sound": "",
+        "MessageDelay": 1000,
+        "Script": "/playSound slosh",
+        "Text": "... Under the sea.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_3"
+      },
+      {
+        "Image": 4,
+        "Music": "submarine_song",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "A new world to explore.",
+        "Shake": false,
+        "ResponsePoint": "get_lamp",
+        "ID": "uts0_4"
+      },
+      {
+        "Image": 5,
+        "Music": "submarine_song",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "New majestic creatures.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_5"
+      },
+      {
+        "Image": 6,
+        "Music": "mermaidSong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Fabled legends.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_6"
+      },
+      {
+        "Image": 7,
+        "Music": "mermaidSong",
+        "Sound": "UFO",
+        "MessageDelay": 1000,
+        "Script": "",
+        "Text": "... Treasures and mysteries yet to be discovered.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_7"
+      },
+      {
+        "Image": 8,
+        "Music": "junimoStarSong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Fin",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_8"
+      },
+      {
+        "Image": 9,
+        "Music": "junimoStarSong",
+        "Sound": "",
+        "MessageDelay": 500,
+        "Script": "",
+        "Text": "Made by Gervig91.",
+        "Shake": false,
+        "ResponsePoint": null,
+        "ID": "uts0_9"
+      }
+    ]
+	}
+],
+"Reactions":[
+	{
+	"NPCName":"Leah",
+	"Reactions": [
+		{
+			"Tag":"nature",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "leah_nature"
+		}
+	]
+	},
+	{
+	"NPCName":"Willy",
+	"Reactions": [
+		{
+			"Tag":"fish",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "willy_fish"
+		}
+	]
+	},
+	{
+	"NPCName":"Maru",
+	"Reactions": [
+		{
+			"Tag":"documentary",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "maru_documentary"
+		}
+	]
+	},
+	{
+	"NPCName":"Sandy",
+	"Reactions": [
+		{
+			"Tag":"mystery",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "sandy_mystery"
+		}
+	]
+	},
+	{
+	"NPCName":"Jas",
+	"Reactions": [
+		{
+			"Tag":"dolphin",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "jas_dolphin"
+		},
+	]
+	},
+	{
+	"NPCName":"Vincent",
+	"Reactions": [
+		{
+			"Tag":"nature",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "vincent_nature"
+		}
+	]
+	},
+	{
+	"NPCName":"Clint",
+	"Reactions": [
+		{
+			"Tag":"nature",
+			"Response": "dislike",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "clint_nature"
+		}
+	]
+	},
+	{
+	"NPCName":"Sophia",
+	"Reactions": [
+		{
+			"Tag":"mystery",
+			"Response": "like",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "sophia_mystery"
+		}
+	]
+	},
+	{
+	"NPCName":"Jasper",
+	"Reactions": [
+		{
+			"Tag":"documentary",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "jasper_documentary"
+		}
+	]
+	},
+	{
+	"NPCName":"MisterGinger",
+	"Reactions": [
+		{
+			"Tag":"fish",
+			"Response": "love",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "misterginger_fish"
+		}
+	]
+	},
+	{
+	"NPCName":"Riley",
+	"Reactions": [
+		{
+			"Tag":"mystery",
+			"Response": "like",
+			"Whitelist": [],
+			"SpecialResponses": null,
+			"ID": "riley_mystery"
+		}
+	]
+	}
+]
+}

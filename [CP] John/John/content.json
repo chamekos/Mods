@@ -1,6 +1,6 @@
 {
-	"Format": "1.14.0",
-	"DynamicTokens": [
+  "Format": "1.15.0",
+  "DynamicTokens": [
     {
             "Name": "WeatherVariant",
             "Value": "Rain",
@@ -95,14 +95,14 @@
             }
         },
         ],
-	"Changes": [
-	  {
+  "Changes": [
+    {
          "Action": "EditMap",
          "Target": "Maps/Saloon",
          "FromFile": "assets/Maps/Saloon.tbin",
           "When": {
-          "HasMod:Karmylla.ImmersiveMaps": false,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": false, },
+          "HasMod |contains=Karmylla.ImmersiveMaps": false,
+          "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false, },
          "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
            "MapProperties": {
             "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120 31 15 1 120",
@@ -112,8 +112,8 @@
          "Action": "EditMap",
          "Target": "Maps/Saloon",
          "FromFile": "assets/Maps/SaloonKarm.tbin",
-         "When": {"HasMod:Karmylla.ImmersiveMaps": true,
-         "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "When": {"HasMod |contains=Karmylla.ImmersiveMaps": true,
+         "HasMod |contains=FlashShifter.StardewValleyExpandedALL": false,},
          "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
          "MapProperties": {
         "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120 31 15 1 120",
@@ -123,8 +123,8 @@
          "Action": "EditMap",
          "Target": "Maps/Saloon",
          "FromFile": "assets/Maps/SaloonFlash.tbin",
-         "When": {"HasMod:Karmylla.ImmersiveMaps": false,
-         "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+         "When": {"HasMod |contains=Karmylla.ImmersiveMaps": false,
+         "HasMod |contains=FlashShifter.StardewValleyExpandedALL": true,},
          "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
          "MapProperties": {
         "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120 31 15 1 120",
@@ -178,7 +178,7 @@
     "Target": "Characters/Dialogue/John",
     "FromFile": "assets/Dialogue/RegularDialogue/CorielCourtship-en.json",
     "When": {
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
       {
@@ -188,7 +188,7 @@
     "FromFile": "assets/Dialogue/RegularDialogue/CorielCourtship-en.json",
     "When": {
       "HasFile:assets/Dialogue/RegularDialogue/CorielCourtship-{{language}}.json": "true",
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
        {
@@ -226,7 +226,7 @@
     "Target": "Characters/Dialogue/John",
     "FromFile": "assets/Dialogue/RegularDialogue/SpecialDialogue-{{language}}.json",
     "When": {
-      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasMod |contains=minervamaga.CP.JealousyResponses": true,
       "HasFile: assets/Dialogue/RegularDialogue/SpecialDialogue-{{language}}.json": "true",
     },
   },
@@ -320,14 +320,19 @@
       "FromFile": "assets/Dialogue/RegularDialogue/MarriageDialogue-{{Language}}.json",
       "When": {"HasFile: assets/Dialogue/RegularDialogue/MarriageDialogue-{{Language}}.json": "true"}
     },  
-
-      {
+ {
     
       "LogName": "Schedule", 
       "Action": "Load",
       "Target": "Characters/schedules/John",
+      "FromFile": "assets/Schedule/NotThereSchedule.json",
+    },
+      {
+      "LogName": "Schedule", 
+      "Action": "EditData",
+      "Target": "Characters/schedules/John",
       "FromFile": "assets/Schedule/Schedule.json",
-      "When": {"HasSeenEvent: 9588563": "true"}
+      "When": {"HasSeenEvent |contains=9588563": "true"}
     },
      {
       "LogName": "Schedule strings",
@@ -535,7 +540,7 @@
               "Relationship:John": "Friendly"}
 
        },
-	  {    
+    {    
         "LogName": "Luau",
         "Action": "EditData",
         "Target": "Data/Festivals/summer11",
@@ -622,7 +627,7 @@
               "Relationship:John": "Friendly"}
 
        },
-	   {    
+     {    
         "LogName": "Fair",
         "Action": "EditData",
         "Target": "Data/Festivals/fall16",
@@ -694,7 +699,7 @@
               }
 
        },
-		 {    
+     {    
         "LogName": "Spirits Eve",
         "Action": "EditData",
         "Target": "Data/Festivals/fall27",
@@ -955,10 +960,7 @@
         "Action": "EditData",
         "Target": "Data/Festivals/fall1",
               "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
-              "When": {
-               "HasMod": "Fellowclown.Nikolai"
-
-                }
+              "When": {"HasMod |contains=Fellowclown.Nikolai":true}
        },
          {    
         "LogName": "Marketpalooza",
@@ -968,9 +970,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:John": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
-
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true}
        },
          {    
         "LogName": "Marketpalooza",
@@ -979,11 +979,9 @@
               "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:John": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
-
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true }
        },
-	    {    
+      {    
         "LogName": "Marketpalooza",
         "Action": "EditData",
         "Target": "Data/Festivals/fall1",
@@ -991,9 +989,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:John": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
-
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true}
        },
            {    
         "LogName": "Marketpalooza",
@@ -1002,9 +998,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:John": "Dating",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true }
        },
          {    
         "LogName": "Marketpalooza",
@@ -1014,9 +1008,7 @@
               "When": {
               "HasFile: assets/Dialogue/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:John": "Dating",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true }
        },
           {    
         "LogName": "Marketpalooza",
@@ -1025,9 +1017,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:John": "Spouse",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true}
        },
          {    
         "LogName": "Marketpalooza",
@@ -1037,9 +1027,7 @@
               "When": {
               "HasFile: assets/Dialogue/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:John": "Spouse",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true }
        },
   {    
         "LogName": "Marketpalooza",
@@ -1048,9 +1036,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:John": "Divorced",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true }
        },
     {    
         "LogName": "Marketpalooza",
@@ -1060,9 +1046,7 @@
               "When": {
               "HasFile: assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:John": "Divorced",
-               "HasMod": "Fellowclown.Nikolai"
-               
-                }
+               "HasMod |contains=Fellowclown.Nikolai":true}
        },
            {    
         "LogName": "Jellies Edit",
@@ -1150,17 +1134,24 @@
               "Relationship:John": "Divorced"}
 
        },
-		{
-		
-			"LogName": "Animations",
-			"Action": "EditData",
-			"Target": "Data/animationDescriptions",
-			"Entries": {
-				"sit_john": "40/40/40",
-				"john_drink": "20/21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20/20",	
-			},
-		},
-		 // Everyday sprites and Portraits
+    {
+    
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "sit_john": "40/40/40",
+        "john_drink": "20/21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20/20",  
+      },
+    },
+     // Everyday sprites and Portraits
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/DoNotDelete.png",
+      "When": {"HasSeenEvent |contains=9588563": "false"}
+    },
     {
       "LogName": "Portraits",
       "Action": "Load",
@@ -1172,18 +1163,22 @@
       "Action": "Load",
       "Target": "Characters/John",
       "FromFile": "assets/Image/Sprites/John_Spring_Sun.png",
+    "When": {"HasSeenEvent |contains=9588563": "true"}
     },
-       {
+
+        {
       "LogName": "Portraits",
       "Action": "EditImage",
       "Target": "Portraits/John",
       "FromFile": "assets/Image/Portraits/John_{{season}}_{{WeatherVariant}}.png",
+    "When": {"HasSeenEvent |contains=9588563": "true"}
     },
     {
       "LogName": "Sprites",
       "Action": "EditImage",
       "Target": "Characters/John",
       "FromFile": "assets/Image/Sprites/John_{{season}}_{{WeatherVariant}}.png",
+    "When": {"HasSeenEvent |contains=9588563": "true"}
     },
     //Festival Sprites
    {
@@ -1363,22 +1358,22 @@
          "LocationName":"Temp",
       }
     },
-		{
-		
-			"LogName": "Johns Bag",
-			"Action": "Load",
-			"Target": "Characters/John_Bag",
-			"FromFile": "assets/Image/TempSprites/John_Bag.png",
-			
-		},
-		{
-		
-			"LogName": "Johns swimsuit",
-			"Action": "Load",
-			"Target": "Characters/John_Swimsuit",
-			"FromFile": "assets/Image/TempSprites/John_Swimsuit.png",
-			
-		},
+    {
+    
+      "LogName": "Johns Bag",
+      "Action": "Load",
+      "Target": "Characters/John_Bag",
+      "FromFile": "assets/Image/TempSprites/John_Bag.png",
+      
+    },
+    {
+    
+      "LogName": "Johns swimsuit",
+      "Action": "Load",
+      "Target": "Characters/John_Swimsuit",
+      "FromFile": "assets/Image/TempSprites/John_Swimsuit.png",
+      
+    },
        {
       "LogName": "Town Events",
       "Action": "EditData",
@@ -1456,7 +1451,7 @@
       "Target": "Data/Events/Forest",
       "FromFile": "assets/Data/ForestEventJohn-en.json",
     },
-	 {
+   {
       "LogName": "Forest Events",
       "Action": "EditData",
       "Target": "Data/Events/Forest",
@@ -1469,14 +1464,12 @@
       "Target": "Data/Events/BusStop",
       "FromFile": "assets/Data/BusStopEventJohn-en.json",
     },
-	 {
+   {
       "LogName": "BusStop Events",
       "Action": "EditData",
       "Target": "Data/Events/BusStop",
       "FromFile": "assets/Data/BusStopEventJohn-{{Language}}.json",
       "When": {"HasFile: assets/Data/BusStopEventJohn-{{Language}}.json": "true"}
-		},
-	]
+    },
+  ]
 }
-		
-		

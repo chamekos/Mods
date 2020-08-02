@@ -2,7 +2,7 @@
    "Name": "Cherry Blossom Cafe",
    "Author": "Fwippy and KAYA",
    "Description": "Add Cherry Blossom Cafe Menu.",
-   "Version": "1.0.1",
+   "Version": "1.0.2",
    "UniqueID": "KAYA.CherryBlossomCafe",
    "Dependencies": [
 		{

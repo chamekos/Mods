@@ -1,0 +1,7 @@
+{ 
+  "spring": "610 LodgingHouse 16 16 1/800 Town 64 98 2 jade_groundread jade_sit/1000 Town 64 98 2 jade_groundread jade_read/1100 Town 53 69 0/1230 Town 64 98 2 jade_groundread jade_sit/1300 Town 64 98 2 jade_groundread jade_read/2000 LodgingHouse 16 16 1",
+  "summer": "610 LodgingHouse 16 16 1/800 Town 64 98 2 jade_groundread jade_sit/1000 Town 64 98 2 jade_groundread jade_read/1100 Town 53 69 0/1230 Town 64 98 2 jade_groundread jade_sit/1300 Town 64 98 2 jade_groundread jade_read/2000 LodgingHouse 16 16 1",
+  "winter": "610 LodgingHouse 16 16 1/800 Town 70 89 2 jade_sit/1000 Town 70 89 2 jade_read/1100 Town 53 69 0/1230 Town 64 98 2 jade_groundread jade_sit/1300 Town 70 89 2 jade_read/2000 LodgingHouse 16 16 1",
+  "fall": "610 LodgingHouse 16 16 1/800 Town 70 89 2 jade_sit/1000 Town 70 89 2 jade_read/1100 Town 53 69 0/1230 Town 64 98 2 jade_groundread jade_sit/1300 Town 70 89 2 jade_read/2000 LodgingHouse 16 16 1",
+  "rain": "610 LodgingHouse 16 16 1/1100 Saloon 35 18 0/2000 LodgingHouse 16 16 1",
+}

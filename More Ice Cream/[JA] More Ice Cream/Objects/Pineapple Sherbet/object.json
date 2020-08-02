@@ -1,0 +1,43 @@
+{
+    "Name": "Pineapple Sherbet",
+    "Description": "All the tropical flavor.",
+    "Category": "ArtisanGoods",
+    "Edibility": 50,
+    "Price": 400,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Jas", "Linus", "Emlily", "Harvey"],
+        "Like": ["Vincent", "Jodi", "Marnie", "Pierre", "Leah", "Gus", "Caroline", "Elliott", "Krobus", "Robin", "Kent", "Alex","Lewis", "Shane", "Willy"],
+        "Dislike": ["Evelyn", "Haley", "Demetrius", "Sandy", "Penny", "George", "Abigail"]
+    },
+    "NameLocalization":
+    {
+         // "es": "Sorbete de Piña.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+         // "es": "Todo el sabor tropical.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    }
+}

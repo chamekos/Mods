@@ -1,7 +1,8 @@
 {
     "Name": "Wiskey Sapphire",
     "Description": "Sapphire with elegant brown colors",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 250,
     "IsColored": false,
@@ -40,6 +41,6 @@
     },
 	
     "ContextTags": [
-        "color_pink", "Sapphire_item",
+        "color_brown", "Sapphire_item",
     ],
 }

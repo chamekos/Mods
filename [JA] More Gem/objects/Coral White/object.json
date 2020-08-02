@@ -1,8 +1,8 @@
 {
     "Name": "White Coral",
     "Description": "Jewel made by coral.",
-    "Category": "Gem",
-	"CategoryTextOverride": "jewel",
+    "Category": "-15",
+	"CategoryTextOverride": "Jewel",
     "CategoryColorOverride": "90, 150, 80, 255",
     "Edibility": -300,
     "Price": 150,

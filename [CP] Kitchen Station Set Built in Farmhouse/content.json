@@ -1,0 +1,134 @@
+{
+  "Format": "1.15.0",
+  "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse1, Maps/Farmhouse1_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 1,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation SnackBar"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse1, Maps/Farmhouse1_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 1,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation DessertStation"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse1, Maps/Farmhouse1_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 2,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation InductionOven"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse1, Maps/Farmhouse1_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 3,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation KitchenCounter"
+          }
+        }
+      ]
+    },
+    /*farmhousetwo*/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse2, Maps/Farmhouse2_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 1,
+            "Y": 14
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation SnackBar"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse2, Maps/Farmhouse2_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation DessertStation"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse2, Maps/Farmhouse2_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation InductionOven"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Farmhouse2, Maps/Farmhouse2_Marriage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 6,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "CraftingStation KitchenCounter"
+          }
+        }
+      ]
+    },
+  ]
+}

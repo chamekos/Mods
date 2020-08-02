@@ -1,0 +1,9 @@
+{
+	"Entries": {
+		"57960008/f Jade 2500/t 600 700": "continue/64 21/Jade 64 17 2 farmer 64 15 2/skippable/pause 2000/playMusic musicboxsong/speak Jade \"嗨，@。$3\"/pause 1000/speak Jade \"你的农场看起来真是漂亮！$1#$b#你一定花了很多心血。$1\"/pause 1000/faceDirection Jade 3/speak Jade \"你和这里的其他人都不一样，你知道吗？#$b#我不认为其他的任何一个人会像你一样对这个农场投入如此多的心血。#$b#你是个不同寻常的人，@。\"/pause 1500/message \"翡翠在静谧之中，古怪地看了看四周。\"/pause 1500/faceDirection Jade 0/speak Jade \"我...#$b#我想待着这里，和你……#$b#你，你知道的，一起...$4\"/speak Jade \"$q 579606 null#...#$r 579607 250 kissJade#我也想跟你在一起。#$r 579608 -250 rejectJade#我对你没有那样的感觉，翡翠...\"/pause 500/fork 579607 kissJade/pause 500/fork 579608 rejectJade/pause 500/message \"如果你读到这个，证明你的分支部署失败了。\"/end",
+		
+		"kissJade": "move farmer 1 0 1/faceDirection Jade 1/move farmer 0 1 2/faceDirection farmer 3/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame Jade 28/pause 500/pause 50/positionOffset farmer -2 0/pause 50/pause 50/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/positionOffset Jade 5 -4/pause 50/positionOffset farmer -2 0/pause 50/positionOffset farmer -2 0/animate farmer true true 100 101/pause 50/specificTemporarySprite heart 13 29/globalFade/viewport -1000 -1000/end",
+		
+		"rejectJade": "pause 150/emote Jade 28/speak Jade \"我要回家了，抱歉打扰到你。$6\"/globalFade/viewport -1000 -1000/end",
+	}
+}

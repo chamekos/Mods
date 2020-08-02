@@ -1,0 +1,244 @@
+[
+//hoodia
+	{
+		"Id": "Neo.hoodiacactus", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "hoodia.title",
+		"Text": "hoodia.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Hoodia Cactus Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Lewis", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+    },
+//agave1
+	{
+		"Id": "Neo.WaxAgave", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "agave1.title",
+		"Text": "agave1.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Wax Agave Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Penny", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+    },
+//agave2
+	{
+		"Id": "Neo.WaxAgave", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "agave2.title",
+		"Text": "agave2.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Wax Agave Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Gus", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+    },
+//flapjack
+	{
+		"Id": "Neo.Flapjack", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "flapjack.title",
+		"Text": "flapjack.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Flapjack Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Evelyn", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+    },
+//bluecandle
+	{
+		"Id": "Neo.BlueCandle", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "bluecandle.title",
+		"Text": "bluecandle.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Blue Candle Stem", "Stack": 3}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Abigail", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+    },
+	//JadeCactus
+	{
+		"Id": "Neo.JadeCactus", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "jadecactus.title",
+		"Text": "jadecactus.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Jade Cactus Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Jas", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	},
+	//ZebraCactus
+	{
+		"Id": "Neo.ZebraCactus", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "Zebracactus.title",
+		"Text": "Zebracactus.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Zebra Cactus Stem", "Stack": 1}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Maru", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	},
+	//Aloevera1
+	{
+		"Id": "Neo.Aloevera", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "Aloevera1.title",
+		"Text": "Aloevera1.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Aloe Vera Stem", "Stack": 3}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Harvey", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	},
+	//Aloevera2
+	{
+		"Id": "Neo.Aloevera", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "Aloevera2.title",
+		"Text": "Aloevera2.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Aloe Vera Stem", "Stack": 3}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Linus", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	},
+	//StarCactus
+	{
+		"Id": "Neo.StarCactus", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "StarCactus.title",
+		"Text": "StarCactus.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Star Cactus Stem", "Stack": 3}
+		],
+        "WhichBG": 0,
+        "Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Pierre", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	},
+	//Saguaro
+	{
+		"Id": "Neo.Saguaro", 
+		"GroupID": "succulentfarm.seeds",
+		"Title": "Saguaro.title",
+		"Text": "Saguaro.text",
+		"Attachments":
+		[
+			{"Type": "Object", "Name":"Saguaro Stem", "Stack": 1}
+		],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"Date": "20 spring Y1",
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Emily", "FriendshipLevel": 3 }
+		],
+		"SkillConditions": 
+		[
+			{ "SkillName": "Farming", "SkillLevel": 3 }
+		]
+	}
+]

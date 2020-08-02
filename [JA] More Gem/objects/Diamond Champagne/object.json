@@ -1,7 +1,8 @@
 {
     "Name": "Champagne Diamond",
     "Description": "Brown diamond, also called Cognac Diamond.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 750,
     "IsColored": false,

@@ -122,6 +122,7 @@
 "StrangeChild_Dwarf": "You humor me, @. Oh, but wouldm't that be ironic.$4",
 "StrangeChild_Unknown": "A mystery then. I wonder if Linus would know. For I would like to thank them.$2",
 "StrangeChild_Dream": "Oh, but they seemed so real... Their hands cool against my burning flesh.$2",
+"LucikielArrives":"A darkness has awoken in the Valley, @. Keep safe.$2",
 
 
 
@@ -134,6 +135,8 @@
 "reject_two_heartB": "Please, take those away. This is awkward.$2",
 "reject_four_heartA": "I know that we've become friends, @. But this... I mean... Sorry. No.$2",
 "reject_four_heartB": "I appreciate your offer, @. And don't think I'm not flattered.$2#$b#But you should not rush into things. It'll only get you into trouble.$2",
+"rejectNPCA": "Please, take those away. This is awkward.$2",
+"rejectNPCB": "Don't think I'm not flattered, but I cannot date... my research... well, it would not be fair on you.$2",
 "breakUp": "I understand. But please, let us remain friends.$2",
 "engageA": "Are you not already engaged?$2#$b#I admired you, @, please don't blacken my opinion.$5",
 "engageB": "I feel this is not appropriate conduct. Please, do not be so quick to betray your betrothed.$5",

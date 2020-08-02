@@ -53,5 +53,8 @@
     // "ru": "",
     // "tr": "",
     //"zh":"",
-  }
+  },
+    "ContextTags": [
+    	"soda_item"
+ ]
 }

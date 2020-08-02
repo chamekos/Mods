@@ -1,0 +1,44 @@
+{
+	"Name": "lipstick echeveria",
+	"Description": "Sometimes the leaves look like they are painted red.",
+	"Category": "Flower",
+	"CategoryTextOverride": "Succulent",
+	"CategoryColorOverride": "32, 188, 146, 255",
+	"Edibility": -300,
+	"Price": 185,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes":
+	{
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
+	},
+	  
+	"NameLocalization":
+	{ 
+		// "es": "",
+		"ko": "립스틱 에케 베리아",
+		//"de": "",
+		//"fr": "",
+		"hu": "rúzs echeveria",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "помада эхеверия"
+		//"tr": "",
+		//"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "때때로 잎이 붉게 물든 것처럼 보입니다.",
+		//"de": "",
+		//"fr": "",
+		"hu": "Néha a levelek úgy néznek ki, mintha vörösre lennének festve.",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Иногда его листья выглядят так, будто они выкрашены в красный цвет."
+		//"tr": "",
+		//"zh": "",
+    }  
+}

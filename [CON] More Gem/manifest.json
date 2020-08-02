@@ -1,0 +1,17 @@
+{
+   "Name": "[CON] More Gems",
+   "Author": "KAYA",
+   "Version": "1.0.0",
+   "Description": "More gems",
+   "UniqueID": "KAYA.CONMoreGem",
+   "MinimumApiVersion": "3.4.0",
+   "ContentPackFor": {
+      "UniqueID": "aedenthorn.CustomOreNodes", 
+      "MinimumVersion": "0.3.0" 
+   },
+	"Dependencies": [
+   {
+	   "UniqueID": "KAYA.JAMoreGem"
+   }
+   ]
+}

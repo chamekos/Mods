@@ -1,7 +1,8 @@
 {
     "Name": "Rhodonite",
     "Description": "Rose stone with black stains and streaks.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 200,
     "IsColored": false,

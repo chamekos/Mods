@@ -1,7 +1,7 @@
 {
     "Name": "Amber",
     "Description": "A gem made from crystallized sap. There are also traces of insects and plants inside.",
-    "Category": "Gem",
+    "Category": "-15",
 	"CategoryTextOverride": "Jewel",
     "CategoryColorOverride": "90, 150, 80, 255",
     "Edibility": -300,

@@ -1,0 +1,11 @@
+﻿{
+   "Name": "[PFM] Berries",
+   "Author": "richardtrle",
+   "Description": "Adds berries to seed maker.",
+   "Version": "1.0.3",
+   "UniqueID": "richardtrle.berryseed",
+   "UpdateKeys": ["Nexus:6515"],
+   "ContentPackFor": {
+       "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+}

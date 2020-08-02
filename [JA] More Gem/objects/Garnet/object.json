@@ -1,7 +1,8 @@
 {
     "Name": "Garnet",
     "Description": "A small gem stuck in a crevice like granite.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 200,
     "IsColored": false,

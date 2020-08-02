@@ -1,0 +1,17 @@
+{
+   "Name": "[CP] Kitchen Station Set Built in Farmhouse",
+   "Author": "KAYA",
+   "Version": "1.1.1",
+   "Description": "Kitchen Station Set Built in option",
+   "UniqueID": "KAYA.CPKitchenStation",
+    "UpdateKeys": ["Nexus:6305"],
+	"Dependencies": [
+	{
+		"UniqueID": "KAYA.CCSKitchenStation",
+		"IsRequired": true,
+	},
+	],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

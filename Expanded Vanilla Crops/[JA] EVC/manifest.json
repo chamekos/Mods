@@ -1,0 +1,11 @@
+{
+   "Name": "[JA] Expanded Vanilla Crops",
+   "Author": "richardtrle",
+   "Description": "Expands vanilla crops, adds Blackberry, Salmonberry, Spiceberry, as well as Spring Onion, Fiddlehead Fern, Plum and Crystal Fruit",
+   "Version": "1.0.6",
+   "UniqueID": "richardtrle.expandedcrops",
+   "UpdateKeys": ["Nexus:6515"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

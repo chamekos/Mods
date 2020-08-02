@@ -1,7 +1,8 @@
 {
     "Name": "Turquoise",
     "Description": "Sky blue gemstone with various patterns.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 180,
     "IsColored": false,

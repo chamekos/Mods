@@ -1,0 +1,11 @@
+{
+  "Name": "[BFAV] Element Fairy",
+  "Author": "KAYA & Tin000",
+  "Version": "1.0.0",
+  "Description": "Adds element fairy your coop!",
+  "UniqueID": "KAYA.BFAVElementFairy",
+  "UpdateKeys": [ "Nexus:6413" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

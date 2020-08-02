@@ -1,8 +1,8 @@
 ﻿[
 	{
 		"Name": "Nagito",
-		"Frame": 35,
-		"FrameDirectionRight": false,
+		"Frame": 34,
+		"FrameDirectionRight": true,
 		"RequiredEvent": 77710,
 	}
 ]

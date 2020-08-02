@@ -1,0 +1,5 @@
+{
+	"Entries": {
+		"57960006/f Jade 1500/t 900 1600": "continue/37 90/Penny 37 86 2 Jade 37 89 2 Vincent 36 90 0 Jas 38 90 0 farmer 29 80 2/skippable/speed farmer 2/move farmer 0 6 2/speed farmer 2/move farmer 7 0 1/faceDirection farmer 2/pause 1000/speak Penny \"早安，@。翡翠坚持要接管今天的教学计划。#$b#尽管这感觉更像是我又收了另一个新学生。$h\"/speak Jade \"……而这就是蜻蜓的胃长在它翅膀上的这种形态形成的原因。$h\"/speak Jas \"好恶！$3\"/speak Vincent \"真酷！$h\"/emote Jade 32/speak Penny \"我希望她别太吓到贾斯……$h\"/globalFade/viewport -1000 -1000/end",
+	}
+}

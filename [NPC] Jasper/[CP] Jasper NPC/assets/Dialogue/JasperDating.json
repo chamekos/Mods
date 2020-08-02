@@ -11,7 +11,8 @@
         "spring_Sat10": "Hello my dear, with this fine spring weather, a picnic is in order!$1#$b#I feel there is magic in the air today - perhaps we shall make some new friends!",
         "winter_Fri8": "Others have described my studies as foolhardy, that I am chasing dreams and myths.#$b#But even as the cold settles her weight upon the land, I can feel it. I can feel them.#$b#They may be invisible to my eyes, but I sense them in my heart, @.",
         "winter_Sun10":"$1 NightFears#Can you sit with me for a time, please @. The dread weighs heavy upon me tonight, and you give me the strength to get through.$2$k#$e#Sleep comes more easily now, the nightmares held at bay. And it is thanks to you, @. You are my shield, and I am grateful to have you by my side.",
-        "spring_Mon10": "I would be happy to tend your garden, @, if you wish it.$1#$b#Helping you to nurture new life would be my pleasure.$1#$b#Crops I mean! Nurturing crops...$4"
+        "spring_Mon10": "I would be happy to tend your garden, @, if you wish it.$1#$b#Helping you to nurture new life would be my pleasure.$1#$b#Crops I mean! Nurturing crops...$4",
+        "LucikielArrives":"A darkness has awoken in the Valley, @. Please keep safe, @. I don't want anything to hurt you.$2",
     }
 }
 

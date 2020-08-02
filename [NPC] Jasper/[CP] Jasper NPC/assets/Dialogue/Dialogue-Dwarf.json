@@ -1,0 +1,30 @@
+{
+    "Entries": {
+        
+//Canon: Mon, Tue, Wed, Thu, Fri, Sat, Sun, Wed6, Thu4, Fri2
+
+	"Mon2": "It's weird what people leave lying around. I dunno what most of it's for, but... do you like my collection?",
+	"Mon6": "Sometimes I dream of the sky. How high do you think it goes, friend?",
+	"Mon10": "My people are gone. Lost. What if I'm the last?",
+        "Tue2": "Finest bombs this side of the Cascade Mountains. Make all the rocks go boom!",
+	"Tue6": "My sires told stories of the shadowfolk. Scary stories that kept us awake at night.#$b#I can feel them here, deep in the mines. Broken, lost, and filled with anger.",
+	"Tue8": "We didn't mean to hurt the shadowfolk and blow open their home.#$b#It was an accident! A terrible, horrible accident.",
+	"Tue10": "Do you think the shadow-person in the stinky-underdark gets lonely too?#$b#He didn't seem angry like the other ones, the ones below.",
+        "Wed2": "Pretty dangerous place, these mines. You gonna need some supplies. I've got bombs, and I've got lollipops. Best kind. Candied cave carrot!",
+       	"Wed8": "I find things in the mines that make me think of my people. It makes me sad.#$b#Where are my kin, friend?",
+	"Thu6": "My sibling fell in love with the sky. They went out in the day to see the sun.#$b#It burned their eyes blind. Your sun is our enemy and cannot be trusted.",
+	"Thu8": "Sometimes at night I wander through town. Humans have the weirdest stuff.#$b#And they just leave it lying around like it doesn't matter to them.",
+	"Thu10": "The human with the silly hat keeps watch. I don't think he trusts me.#$b#You trust me, don't you friend?",
+	"Fri2": "My sire taught me bombcraft. Do you know the tricks?#$b#Ah, but why make them yourself, when you can buy them from me!",
+        "Fri6": "I had a name, but I hid it so no-one could hurt me.#$b#Names are powerful, friend, be careful who you trust with yours.",
+	"Fri10": "I'll tell you a secret, friend. I made this shop for you. Who else is gonna buy my stuff?",
+       	"Sat4": "The mines can be treacherous. Be careful, friend.#$b#My wares will help you stay alive.",
+	"Sat8": "I came from mountains far away. Escaped from... No, you don't need to hear my sad story!#$b#The valley called me home. The end.",
+	"Sat10": "The Elemental Wars were terrible. My sires told stories about the carnage.#$b#They made sure I remember.",
+        "Sun8": "That human with the wire-frame eyes, I watch her stare at the stars.#$b#It makes me think of home. Sire said that we came from the stars.",
+	"Sun10": "You're a good friend. I'm glad I trusted you.",
+	"JasperHome1": "I hope your friend's okay. But please keep our secret.#$b#Humans fear what they don't understand and destroy what they fear.",
+	"JasperHomeA": "Thanks for keeping me secret, friend. Maybe one day I'll talk to your friend... but I've gotta decide if he can be trusted first. Okay?"
+        
+    }
+}

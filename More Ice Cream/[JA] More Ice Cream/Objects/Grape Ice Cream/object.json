@@ -1,0 +1,43 @@
+{
+    "Name": "Grape Ice Cream",
+    "Description": "Soft and creamy.",
+    "Category": "ArtisanGoods",
+    "Edibility": 50,
+    "Price": 400,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Robin", "Kent", "Alex", "Wizard", "Elliott"],
+        "Like": ["Pam", "Dwarf", "Wizard", "Maru", "Sam", "Clint", "Vincent", "Jodi", "Marnie", "Pierre","Leah", "Gus", "Caroline", "Jas", "Linus", "Emily", "Evelyn", "Haley", "Demetrius", "Sandy", "Penny", "George", "Abigail", "Harvey", "Lewis", "Shane", "Willy" ],
+        "Dislike": []
+    },
+    "NameLocalization":
+    {
+         // "es": "Helado de Uva.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+         // "es": "Suave y cremoso.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    }
+}

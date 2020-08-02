@@ -1,0 +1,43 @@
+{
+    "Name": "Passion Fruit Ice Cream",
+    "Description": "A fresh fruit ice cream.",
+    "Category": "ArtisanGoods",
+    "Edibility": 40,
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Marnie", "Pierre"],
+        "Like": ["Vincent", "Jodi"],
+        "Dislike": ["Pam", "Dwarf", "Wizard", "Maru", "Sam", "Clint", "Leah", "Gus", "Caroline", "Elliott", "Krobus", "Robin", "Kent", "Alex", "Jas", "Linus", "Emily", "Evelyn", "Haley", "Demetrius", "Sandy", "Penny", "George", "Abigail", "Harvey", "Lewis", "Shane", "Willy"]
+    },
+    "NameLocalization":
+    {
+         // "es": "Helado de Maracuyá.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+         // "es": "Un helado de fruta fresca.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    }
+}

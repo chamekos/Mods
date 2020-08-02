@@ -1,0 +1,10 @@
+{
+   "Name": "Neos Succulent Farm JA",
+   "Author": "Neonix",
+   "Description": "Some Succulents to grow and perhaps sell for the cacti enthusiasts.",
+   "Version": "1.4.1",
+   "MinimumApiVersion": "3.2.0",
+   "UniqueID": "Neo.SucculentfarmJA",
+   "ContentPackFor": { "UniqueID": "spacechase0.JsonAssets" },
+   "UpdateKeys": [ "Nexus:6378" ]
+}

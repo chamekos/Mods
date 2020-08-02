@@ -1,0 +1,11 @@
+{
+	"Entries": {
+		"57960002/f Jade 1000/t 1900 2200": "continue/45 10/farmer 49 10 3 Jade 41 10 3/skippable/playMusic musicboxsong/pause 2000/message \"你看到翡翠正自己一个人在自言自语，她看起来没注意到你。\"/pause 1000/speak Jade \"请你们出来吧，小精灵。我不好会诉任何人的，求求你们……我太累了……$2\"/speak Jade \"$q 579603 null#……#$r 579603 250 prayWithJade#（安慰翡翠）#$r 579604 -750 prayMock#别对着树说话了，看起来像疯了一样。$r 579605 0 praySilent#（保持沉默）\"/pause 500/fork 579603 prayWithJade/pause 500/fork 579604 prayMock/pause 500/fork 579605 praySilent/pause 500/message \"if you can read this then your forks are failing!\"/end",
+		
+		"prayWithJade": "pause 150/move farmer -7 0 3/move farmer 0 -1 0/move farmer -1 0 3/emote Jade 16/speak Jade \"%firstnameletter-@…… 你花了多少——算了……$6\"/pause 2000/message \"翡翠用袖子擦干了眼泪。\"/pause 2000/speak Jade \"我小的时候，我妈妈替我装饰了房间——完完全全的精灵仙子风格。$6#$b#我从来都没有放下过。只是想着他们就在那里等着我，就藏在某个我看不到的角落，我就感到非常安慰。$6#$b#为我打气，给我鼓励。$7\"/pause 1500/emote Jade 28/pause 1500/speak Jade \"我以为我在这里不会再像个被遗弃的放逐者一样，但我仍然是。$6\"/pause 1000/pause 3000/speak Jade \"谢谢你在这里。$7\"/pause 2000/globalFade/viewport -1000 -1000/end",
+		
+		"prayMock": "faceDirection Jade 1/emote Jade 16/message \"翡翠瞪着你，她看起来一直在哭。\"/speak Jade \"*哽咽*不是，不是那样……$6\"/emote Jade 28/faceDirection Jade 2/speed Jade 7/move Jade 0 6 2/speed Jade 7/move Jade -15 0 3/pause 1000/globalFade/viewport -1000 -1000/end",
+		
+		"praySilent": "pause 150/emote Jade 28/speak Jade \"为什么你们从来都不回应我？！我只是需要一个信号，只是一信号，让我知道你们在那里。求求了，我需要一些回应。#$b#这是我的所有。$6\"/pause 3000/emote Jade 28/message \"翡翠在寂静中无声抽泣。你决定不去打扰她。\"/globalFade/viewport -1000 -1000/end",	 
+	}
+}

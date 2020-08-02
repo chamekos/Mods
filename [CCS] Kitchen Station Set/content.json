@@ -2,7 +2,7 @@
 	"CraftingStations" : [ 
 	{ 
 		"BigCraftable" : "Kitchen Counter", //Cooking without fire
-		"TileData": "Kitchen Counter",
+		"TileData": "KitchenCounter",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -87,7 +87,7 @@
 	}, 
 	{ 
 		"BigCraftable" : "Induction Oven", //Cooking with fire
-		"TileData": "Induction Oven",
+		"TileData": "InductionOven",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -238,7 +238,7 @@
 	}, 
 	{ 
 		"BigCraftable" : "Dessert Station",  //Dessert
-		"TileData": "Dessert Station",
+		"TileData": "DessertStation",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla
@@ -484,7 +484,7 @@
 	},  
 	{ 
 		"BigCraftable" : "Snack Bar",  //Tea, Soft drink and snack
-		"TileData": "Snack Bar",
+		"TileData": "SnackBar",
 		"ExclusiveRecipes" : true,
 		"CookingRecipes" : [ 
 		//Vanilla

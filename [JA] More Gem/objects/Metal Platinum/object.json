@@ -1,7 +1,7 @@
 {
     "Name": "Platinum Ore",
     "Description": "A precious ore that can be smelted into bars.",
-    "Category": "Mineral",
+    "Category": "Metal",
     "Edibility": -300,
     "Price": 35,
     "IsColored": false,

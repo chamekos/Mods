@@ -1,0 +1,44 @@
+{
+	"Name": "Candelabra Cactus",
+	"Description": "Despite the name, this plant is actually not a cactus.",
+	"Category": "Flower",
+	"CategoryTextOverride": "Succulent",
+	"CategoryColorOverride": "32, 188, 146, 255",
+	"Edibility": -300,
+	"Price": 190,
+	"IsColored": false,
+	"Recipe": null,
+	"GiftTastes":
+  	{
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
+	},
+	  
+	"NameLocalization":
+	{ 
+		// "es": "",
+		"ko": "촛대 선인장",
+		//"de": "",
+		//"fr": "",
+		"hu": "Candelabra Cactus",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Канделябры Кактус"
+		//"tr": "",
+		//"zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        "ko": "선인장이라고 부르지만, 사실 이 식물은 진짜 선인장은 아닙니다.",
+		//"de": "",
+		//"fr": "",
+		"hu": "A név ellenére ez a növény nem egy kaktusz.",
+		//"it": "",
+		//"ja": "",
+		//"pt": "",
+		"ru": "Несмотря на название, это растение на самом деле не кактус."
+		//"tr": "",
+		//"zh": "",
+    }  
+}

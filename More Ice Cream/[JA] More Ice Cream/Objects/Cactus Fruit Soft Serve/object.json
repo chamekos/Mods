@@ -1,0 +1,43 @@
+{
+    "Name": "Cactus Fruit Soft Serve",
+    "Description": "Direct from the dessert.",
+    "Category": "ArtisanGoods",
+    "Edibility": 50,
+    "Price": 400,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Pierre", "Demetrius", "Gus", "Leah", "Sandy", "Willy", "Krobus" ],
+        "Like": ["Alex", "Harvey", "Wizard", "Maru", "George", "Elliott", "Abigail", "Evelyn","Sam", "Linus", "Kent", "Caroline", "Jodi", "Penny", "Vincent", "Emily", "Shane", "Dwarf", "Pam", "Robin" ],
+        "Dislike": ["Marnie","Haley", "Clint", "Jas", "Lewis"]
+    },
+    "NameLocalization":
+    {
+         // "es": " Soft Serve de Higo Chumbo.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+         // "es": "Directo del desierto.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    }
+}

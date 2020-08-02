@@ -2,7 +2,7 @@
     "Name": "Ddong-caron",
     "Author": "KAYA",
     "Description": "Add Big Korea style Macaron",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
 	"UpdateKeys": ["Nexus:6301"],
     "MinimumApiVersion": "3.3.2",
     "UniqueID": "KAYA.FatCaron",

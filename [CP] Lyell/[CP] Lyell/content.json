@@ -1,9 +1,9 @@
-{
-// Lyell Halkias
+
+{// Lyell Halkias
 // Mod by FellowClown
 // Art by FellowClown
 // Replaces Lyell with Lyell Halkias
-     "Format": "1.14.0",
+     "Format": "1.15.0",
    "DynamicTokens": [
      {
             "Name": "WeatherVariant",
@@ -159,6 +159,18 @@
       "Action": "Load",
       "Target": "Characters/Hebe",
       "FromFile": "assets/Image/TempActors/Sprites/Hebe.png",
+        },
+            {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Roswell",
+      "FromFile": "assets/Image/TempActors/Portraits/Roswell.png",
+        },
+        {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Characters/Roswell",
+      "FromFile": "assets/Image/TempActors/Sprites/Roswell.png",
         },
         ////Event portraits
         {
@@ -782,7 +794,7 @@
     "Target": "Characters/Dialogue/Lyell",
     "FromFile": "assets/Dialogue/SpecialDialogue-en.json",
     "When": {
-      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasMod |contains=minervamaga.CP.JealousyResponses": true,
     },
   },
      {
@@ -791,7 +803,7 @@
     "Target": "Characters/Dialogue/Lyell",
     "FromFile": "assets/Dialogue/SpecialDialogue-{{language}}.json",
     "When": {
-      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasMod |contains=minervamaga.CP.JealousyResponses": true,
       "HasFile: assets/Dialogue/SpecialDialogue-{{language}}.json": "true",
     },
   },
@@ -801,7 +813,7 @@
     "Target": "Characters/Dialogue/Lyell",
     "FromFile": "assets/Dialogue/CorielCourtship-en.json",
     "When": {
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
       {
@@ -811,7 +823,7 @@
     "FromFile": "assets/Dialogue/CorielCourtship-en.json",
     "When": {
       "HasFile:assets/Dialogue/CorielCourtship-{{language}}.json": "true",
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
     {
@@ -1642,7 +1654,7 @@
         "Target": "Data/Festivals/fall3",
               "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
          "When": {
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
               },
               {    
@@ -1652,7 +1664,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
          "When": {
               "HasFile: assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
               },
              {    
@@ -1662,7 +1674,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:Lyell": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
               {    
@@ -1672,7 +1684,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:Lyell": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
             {    
@@ -1683,7 +1695,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:Lyell": "Friendly",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
            {    
@@ -1693,7 +1705,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:Lyell": "Dating",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
          {    
@@ -1704,7 +1716,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:Lyell": "Dating",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
          {    
@@ -1714,7 +1726,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:Lyell": "Spouse",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
          {    
@@ -1725,7 +1737,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:Lyell": "Spouse",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
          {    
@@ -1735,7 +1747,7 @@
               "FromFile": "assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
               "When": {
                "Relationship:Lyell": "Divorced",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
        {    
@@ -1746,7 +1758,7 @@
               "When": {
               "HasFile: assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
                "Relationship:Lyell": "Divorced",
-               "HasMod": "Fellowclown.Nikolai"
+               "HasMod |contains=Fellowclown.Nikolai":true
                 }
        },
         { 
@@ -1868,7 +1880,7 @@
       "LogName": "Events Edit",
       "Action": "EditData",
       "Target": "Data/Events/LyellsWoods",
-      "FromFile": "assets/Events/LyellsWoods-en.json",
+      "FromFile": "assets/Events/LyellsWoods-{{language}}.json",
       "When": {
               "HasFile: assets/Events/LyellsWoods-{{language}}.json": "true",
                 }

@@ -1,0 +1,12 @@
+﻿[
+	{ 
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": 259, 
+		"InputStack": 1, 
+		"MinutesUntilReady": 30, 
+		"OutputIdentifier": "Fiddlehead Fern Seeds",
+		"OutputStack": 1, 
+		"OutputMaxStack": 5, 
+		"Sounds": [ "Ship", "dirtyHit" ],	
+	}
+]

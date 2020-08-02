@@ -1,0 +1,39 @@
+﻿{
+	nodes:[
+		//More Gem: Coal node (Png include CON) : any floor, 5%
+		"This stone is rich in coal./assets\\CoalStone.png/mod/0,0/16,16/1,-1/5/4/12/Amber;10;1,0;0;0|Jet;101,0;0;0|Halite;10;1,1;1;1|Pink Halite;5;1,1;1;1|382;100;1,4;1;1|390;100;1,2;1;1",
+		//More Gem: Coal node: 31-39 floor, 25%
+		"This stone is rich in coal./assets\\CoalStone.png/mod/0,0/16,16/31,39/25/4/12/Amber;5;1,0;0;0|Jet;5;1,0;0;0|Halite;10;1,1;1;1|Pink Halite;5;1,1;1;1|382;100;1,4;1;1|390;100;1,2;1;1",
+		//More Gem: Coal node, include Fossil: 1-39 floor, 2%
+		"This stone is rich in coal./assets\\CoalStone.png/mod/0,0/16,16/1,39/2/4/12/Amber;10;1,0;0;0|Jet;10;1,0;0;0|Halite;10;1,1;1;1|Pink Halite;5;1,1;1;1|382;100;1,4;1;1|390;100;1,2;1;1|557;5;1,0;0;0|558;5;1,0;0;0|107;5;1,0;0;0|114;5;1,0;0;0|579;5;1,0;0;0|580;5;1,0;0;0|581;5;1,0;0;0|582;5;1,0;0;0|583;5;1,0;0;0|584;5;1,0;0;0|586;5;1,0;0;0|587;5;1,0;0;0|588;5;1,0;0;0|589;5;1,1;0;0",
+		//More Gem: Iron node, can get iron and sliver  : 40+, 3%
+		"This stone is rich in iron./Maps\\springobjects/game/32,192/16,16/41,-1/3/4/12/Silver Ore;50;1,4;1;1|380;100;1,4;1;1|390;75;1,2;1;1",
+		//More Gem: Gold node, can get gold and platinum : 80+, 2%
+		"This stone is rich in gold./Maps\\springobjects/game/320,496/16,16/81,-1/2/4/12/Platinum Ore;50;1,4;1;1|384;100;1,4;1;1|390;75;1,2;1;1",		
+		//More Gem: Geode node, can get geode and green/yellow gem : 1-29 floor, 1%
+		"This geode is rich in green, yellow gem./Maps\\springobjects/game/48,48/16,16/1,29/1/10/12/Citrin;20;1,0;0;0|Ametrine;10;1,0;0;0|Heliodor;20;1,0;0;0|Andradite Garnet;10;1,0;0;0|Grossular Garnet;10;1,0;0;0|Hydrogrossular Garnet;10;1,0;0;0|Tsavorite Garnet;10;1,0;0;0|Uvarovite Garnet;10;1,0;0;0|Peridot;15;1,0;0;0|Green Sapphire;10;1,0;0;0|Yellow Sapphire;10;1,0;0;0|Green Spinel;10;1,0;0;0|Yellow Spinel;10;1,0;0;0|Indicolite Tourmaline;10;1,0;0;0|Verdelite Tourmaline;10;1,0;0;0|Watermelon Tourmaline;10;1,0;0;0|Green Diamond;10;1,0;0;0|Yellow Diamond;10;1,0;0;0|60;10;1,0;0;0|68;30;1,0;0;0|70;20;1,0;0;0|80;10;1,0;0;0|538;10;1,0;0;0|542;10;1,0;0;0|546;10;1,0;0;0|548;10;1,0;0;0|549;10;1,0;0;0|552;10;1,0;0;0|562;10;1,0;0;0|557;10;1,0;0;0|559;10;1,0;0;0|560;10;1,0;0;0|535;100;1,0;0;0",
+		//More Gem: Geode node, can get geode and black/brown/white gem : 31-39 floor, 1%
+		"This geode is rich in black, white, blown gem./Maps\\springobjects/game/48,48/16,16/31,39/1/10/12/Milky Quartz;50;1,0;0;0|Onyx;30;1,0;0;0|Goshenite;10;1,0;0;0|Ice Jade;10;1,0;0;0|Indian Star Sapphire;10;1,0;0;0|White Sapphire;10;1,0;0;0|Wiskey Sapphire;10;1,0;0;0|Imperial Topaz;10;1,0;0;0|White Topaz;10;1,0;0;0|Achroite Tourmaline;10;1,0;0;0|Dravite Tourmaline;10;1,0;0;0|Schorl Tourmaline;10;1,0;0;0|Champagne Diamond;10;1,0;0;0|Black Diamond;10;1,0;0;0|72;5;1,0;0;0|575;10;1,0;0;0|564;10;1,0;0;0|80;50;1,0;0;0|86;50;1,0;0;0|74;1;1,0;0;0|544;10;1,0;0;0|551;10;1,0;0;0|553;10;1,0;0;0|567;10;1,0;0;0|568;10;1,0;0;0|569;10;1,0;0;0|570;10;1,0;0;0|571;10;1,0;0;0|573;10;1,0;0;0|574;10;1,0;0;0|535;100;1,0;0;0",
+		//More Gem: Frozen Geode node, can get frozen geode and blue/purple gem : 41-79 floor, 1%
+		"This geode is rich in blue, purple gem./Maps\\springobjects/game/64,48/16,16/41,79/1/10/12/Ametrine;10;1,0;0;0|Maxixe;10;1,0;0;0|Lavender Jade;10;1,0;0;0|Lapis Lazuli;10;1,0;0;0|Larimar;10;1,0;0;0|Moonstone;15;1,0;0;0|Sapphire;20;1,0;0;0|Indian Star Sapphire;10;1,0;0;0|Blue Spinel;10;1,0;0;0|Tanzanite;15;1,0;0;0|Blue Topaz;10;1,0;0;0|Turquoise;10;1,0;0;0|Blue Diamond;10;1,0;0;0|Purple Diamond;10;1,0;0;0|62;10;1,0;0;0|84;50;1,0;0;0|545;10;1,0;0;0|541;10;1,0;0;0|550;10;1,0;0;0|566;10;1,0;0;0|561;10;1,0;0;0|572;10;1,0;0;0|575;10;1,0;0;0|576;10;1,0;0;0|577;10;1,0;0;0|536;100;1,0;0;0",
+		//More Gem: Magma node, can get magma geode and red/orange/pink gem : 81-119 floor, 1%
+		"This geode is rich in red, orange, pink gem./Maps\\springobjects/game/80,48/16,16/81,119/1/10/12/Rose Quartz;50;1,0;0;0|Agate;20;1,0;0;0|Sardonyx;10;1,0;0;0|Bixbite;10;1,0;0;0|Morganite;10;1,0;0;0|Garnet;20;1,0;0;0|Almandine Garnet;10;1,0;0;0|Hessonite Garnet;10;1,0;0;0|Pyrope Garnet;10;1,0;0;0|Rhodolite Garnet;10;1,0;0;0|Spessartite Garnet;10;1,0;0;0|Kunzite;10;1,0;0;0|Pink Opal;10;1,0;0;0|Rhodochrosite;10;1,0;0;0|Rhodonite;10;1,0;0;0|Orange Sapphire;10;1,0;0;0|Padparadscha Sapphire;10;1,0;0;0|Pink Sapphire;10;1,0;0;0|Pink Spinel;10;1,0;0;0|Spinel;20;1,0;0;0|Sunstone;15;1,0;0;0|Pink Topaz;10;1,0;0;0|Rubellite Tourmaline;10;1,0;0;0|Siberite Tourmaline;10;1,0;0;0|Watermelon Tourmaline;10;1,0;0;0|Orange Diamond;10;1,0;0;0|Red Diamond;10;1,0;0;0|Pink Diamond;10;1,0;0;0|64;10;1,0;0;0|66;10;1,0;0;0|563;10;1,0;0;0|565;10;1,0;0;0|82;50;1,0;0;0|543;10;1,0;0;0|547;10;1,0;0;0|554;10;1,0;0;0|555;10;1,0;0;0|556;10;1,0;0;0|578;10;1,0;0;0|537;100;1,0;0;0",
+		//More Gem: Amethyst node, can get amethyst and color quartz : 30+, 1%
+		"This stone shines like quartz./Maps\\springobjects/game/128,0/16,16/31,-1/1/10/12/Milky Quartz;20;1,0;0;0|Rose Quartz;20;1,0;0;0|Citrin;20;1,0;0;0|Ametrine;10;1,0;0;0|575;10;1,0;0;0|66;100;1,1;0;0",
+		//More Gem: Gem node, can get other MG gems : 30+, 1%
+		"This stone is rich in gem./Maps\\springobjects/game/320,16/16,16/31,-1/1/10/12/Pink Opal;10;1,0;0;0|Kunzite;10;1,0;0;0|Lapis Lazuli;10;1,0;0;0|Peridot;10;1,0;0;0|Moonstone;10;1,0;0;0|Sunstone;10;1,0;0;0|Tanzanite;10;1,0;0;0|Turquoise;10;1,0;0;0|564;10;1,0;0;0|565;100;1,1;0;0",
+		//More Gem: Topaz node, can get Topaz and Beryl. 30+, 1%
+		"This stone shines like topaz./Maps\\springobjects/game/160,0/16,16/31,-1/1/10/12/Blue Topaz;15;1,0;0;0|Imperial Topaz;10;1,0;0;0|Pink Topaz;10;1,0;0;0|White Topaz;15;1,0;0;0|Bixbite;10;1,0;0;0|Heliodor;10;1,0;0;0|Goshenite;10;1,0;0;0|Maxixe;10;1,0;0;0|Morganite;10;1,0;0;0|68;100;1,1;0;0",
+		//More Gem: Jade node, can get jade and agate : 40+, 1%
+		"This stone shines like jade./Maps\\springobjects/game/96,0/16,16/41,-1/1/10/12	/Agate;20;1,0;0;0|Onyx;10;1,0;0;0|Sardonyx;15;1,0;0;0|Rhodochrosite;15;1,0;0;0|Rhodonite;15;1,0;0;0|Ice Jade;10;1,0;0;0|Lavender Jade;10;1,0;0;0|70;100;1,1;0;0",
+		//More Gem: Aquamarine node, can get aquamarine and sapphire : 60+, 1%
+		"This stone shines like sapphire./Maps\\springobjects/game/224,0/16,16/61,-1/1/10/12/Sapphire;30;1,0;0;0|Green Sapphire;10;1,0;0;0|Indian Star Sapphire;10;1,0;0;0|Orange Sapphire;10;1,0;0;0|Padparadscha Sapphire;10;1,0;0;0|Pink Sapphire;10;1,0;0;0|White Sapphire;10;1,0;0;0|Wiskey Sapphire;10;1,0;0;0|Yellow Sapphire;10;1,0;0;0|62;100;1,1;0;0",
+		//More Gem: Emerald node, can get tourmaline : 80+, 1%
+		"This stone shines like emerald./Maps\\springobjects/game/192,0/16,16/81,-1/1/10/12/Achroite Tourmaline;10;1,0;0;0|Dravite Tourmaline;10;1,0;0;0|Indicolite Tourmaline;15;1,0;0;0|Rubellite Tourmaline;10;1,0;0;0|Schorl Tourmaline;10;1,0;0;0|Siberite Tourmaline;10;1,0;0;0|Verdelite Tourmaline;15;1,0;0;0|Watermelon Tourmaline;5;1,0;0;0|60;100;1,1;0;0",
+		//More Gem: Ruby node, can get ruby, garnet and spinel : 80+, 1%
+		"This stone shines like rudy./Maps\\springobjects/game/64,0/16,16/81,-1/1/10/12/Spinel;20;1,0;0;0|Green Spinel;10;1,0;0;0|Pink Spinel;10;1,0;0;0|Yellow Spinel;10;1,0;0;0|Blue Spinel;10;1,0;0;0|Garnet;20;1,0;0;0|Almandine Garnet;15;1,0;0;0|Andradite Garnet;10;1,0;0;0|Grossular Garnet;10;1,0;0;0|Hessonite Garnet;10;1,0;0;0|Hydrogrossular Garnet;10;1,0;0;0|Pyrope Garnet;20;1,0;0;0|Rhodolite Garnet;10;1,0;0;0|Spessartite Garnet;20;1,0;0;0|Tsavorite Garnet;10;1,0;0;0|Uvarovite Garnet;10;1,0;0;0|64;100;1,1;0;0",
+		//More Gem: Diamond node : 100+, 1%
+		"This stone shines like diamond./Maps\\springobjects/game/32,0/16,16/101,-1/1/10/12/Pink Diamond;10;1,0;0;0|Blue Diamond;10;1,0;0;0|Green Diamond;10;1,0;0;0|Purple Diamond;10;1,0;0;0|Red Diamond;15;1,0;0;0|Orange Diamond;15;1,0;0;0|Yellow Diamond;15;1,0;0;0|Champagne Diamond;15;1,0;0;0|Black Diamond;10;1,0;0;0|72;100;1,1;0;0",
+		//More Gem End
+	]
+}

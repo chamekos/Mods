@@ -1,7 +1,8 @@
 {
     "Name": "Lapis Lazuli",
     "Description": "The white and gold patterns scattered on the dark blue gem are like stars in the night sky.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 280,
     "IsColored": false,

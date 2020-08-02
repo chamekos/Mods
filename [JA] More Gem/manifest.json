@@ -2,7 +2,7 @@
    "Name": "[JA] More Gem",
    "Author": "KAYA",
    "Description": "Add More Gem!",
-   "Version": "1.0.3",
+   "Version": "1.1.1",
    "UniqueID": "KAYA.JAMoreGem",
    "ContentPackFor": {
        "UniqueID": "spacechase0.JsonAssets"

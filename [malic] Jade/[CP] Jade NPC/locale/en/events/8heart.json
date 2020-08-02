@@ -1,0 +1,9 @@
+{
+	"Entries": {
+		"57960007/f Jade 2000/t 1800 2000": "continue/34 25/Jade 33 25 2 farmer 34 14 2/skippable/speed farmer 2/move farmer 0 11 2/pause 1000/playMusic musicboxsong/speak Jade \"Hi, @.$h#$b#Come out to watch the stars too?\"/pause 2000/speak Jade \"So uhh... have a crush on anybody?$1#$b#Lots of candidates in town!$1\"/pause 1000/speak Jade \"$q 579606 null#...#$r 579607 0 romanceJade#Yeah, someone. (Romance Jade)#$r 579608 0 platonicJade#Haha, not really, why? (Befriend Jade)\"/pause 500/fork 579607 romanceJade/pause 500/fork 579608 platonicJade/pause 500/message \"if you can read this then your forks are failing!\"/end",
+		
+		"romanceJade": "pause 300/speak Jade \"I know.$0#$b#You're not that good at hiding it.$1\"/pause 150/speak Jade \"It's cute though.$4\"/pause 500/speak Jade \"So... what now?$1\"/pause 150/speak Jade \"Oh! You have to get me flowers now. That's the local tradition.$1#$b#Then we'll be, you know, partners.$4#$b#And in return I'll give you... this!$1\"/faceDirection Jade 1/faceDirection farmer 3/animate Jade false false 4500 28/animate farmer true false 4500 101/positionOffset Jade 10 0/positionOffset Farmer -10 0/textAboveHead Jade \"<\"/pause 4000/globalFade/viewport -1000 -1000/end",
+		
+		"platonicJade": "pause 300/speak Jade \"Just curious, is all.$1\"/pause 3000/speak Jade \"You'll find someone. You're pretty fun to be with.$0\"/pause 500/speak Jade \"That sounded weird, but you know what I mean!$1\"/pause 350/speak Jade \"Thanks for being my friend, @.$4\"/pause 250/globalFade/viewport -1000 -1000/end",
+	}
+}

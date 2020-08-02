@@ -1,5 +1,5 @@
 {
-  "Format": "1.14.0",
+  "Format": "1.15.0",
    "DynamicTokens": [
            {
             "Name": "WeatherVariant",
@@ -101,7 +101,7 @@
          "Target": "Maps/AnimalShop",
          "FromFile": "assets/Maps/AnimalShop.tbin",
          "ToArea": { "X": 31, "Y": 9, "Width": 3, "Height": 10},
-          "When": {"HasMod:Karmylla.ImmersiveMaps": false,},
+          "When": {"HasMod |contains=Karmylla.ImmersiveMaps": false,},
            "MapProperties": {
             "Doors": "15 12 1 120 21 13 1 120 6 12 1 120",
          }
@@ -111,7 +111,7 @@
          "Target": "Maps/AnimalShop",
          "FromFile": "assets/Maps/AnimalShopKarm.tbin",
          "ToArea": { "X": 31, "Y": 9, "Width": 3, "Height": 10},
-          "When": {"HasMod:Karmylla.ImmersiveMaps": true},
+          "When": {"HasMod |contains=Karmylla.ImmersiveMaps": true},
            "MapProperties": {
             "Doors": "15 12 1 120 21 13 1 120 6 12 1 120",
          }
@@ -125,7 +125,7 @@
          },
          "When": {
           "Relationship:Nikolai": "Married,",
-          "HasSeenEvent:9911010":true,
+          "HasSeenEvent |contains=9911010":true,
          },
          "ToArea": { "X": 6, "Y": 17, "Width": 16, "Height": 18},
            },
@@ -464,7 +464,7 @@
     {
     
       "LogName": "Engagement Dialogue Default", 
-      "Action": "Load",
+      "Action": "EditData",
       "Target": "Data/EngagementDialogue",
       "FromFile": "assets/Dialogue/EngagementDialogue-en.json",
     },
@@ -483,7 +483,7 @@
     "Target": "Characters/Dialogue/Nikolai",
     "FromFile": "assets/Dialogue/SpecialDialogue-en.json",
     "When": {
-      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasMod |contains=minervamaga.CP.JealousyResponses": true,
     },
   },
      {
@@ -492,7 +492,7 @@
     "Target": "Characters/Dialogue/Nikolai",
     "FromFile": "assets/Dialogue/SpecialDialogue-{{language}}.json",
     "When": {
-      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasMod |contains=minervamaga.CP.JealousyResponses": true,
        "HasFile: assets/Dialogue/SpecialDialogue-{{language}}.json": "true",
     },
   },
@@ -557,7 +557,7 @@
     "Target": "Characters/Dialogue/Nikolai",
     "FromFile": "assets/Dialogue/MisscorielCourtship-en.json",
     "When": {
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
       {
@@ -567,7 +567,7 @@
     "FromFile": "assets/Dialogue/MisscorielCourtship-en.json",
     "When": {
       "HasFile:assets/Dialogue/MisscorielCourtship-{{language}}.json": "true",
-      "HasMod:misscoriel.courtship": true,
+      "HasMod |contains=misscoriel.courtship": true,
     },
   },
           {
@@ -1559,7 +1559,7 @@
       "Target": "Data/Events/Forest",
       "FromFile": "assets/Events/Forest-en.json",
             "When": {
-              "Weather:Snow": true,
+              "Weather": "Snow"
                 }
     },
        {
@@ -1568,7 +1568,7 @@
       "Target": "Data/Events/Forest",
       "FromFile": "assets/Events/Forest-{{language}}.json",
             "When": {
-              "Weather:Snow": true,
+              "Weather": "Snow",
               "HasFile: assets/Events/Forest-{{language}}.json": "true",
                 }
     },
@@ -1653,7 +1653,7 @@
       "Target": "Data/Events/JojaMart",
       "FromFile": "assets/Events/JojaMart-en.json",    
        "When": {
-              "HasMod:FlashShifter.StardewValleyExpandedCP": "false",
+              "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
                 }
     },
         {
@@ -1663,7 +1663,7 @@
       "FromFile": "assets/Events/JojaMart-{{language}}.json",
       "When": {
               "HasFile: assets/Events/JojaMart-{{language}}.json": "true",
-               "HasMod:FlashShifter.StardewValleyExpandedCP": "false",
+               "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
                 }
     },
         {
@@ -1673,7 +1673,7 @@
       "FromFile": "assets/Events/JojaMartSVE-{{language}}.json",
       "When": {
               "HasFile: assets/Events/JojaMartSVE-{{language}}.json": "true",
-               "HasMod:FlashShifter.StardewValleyExpandedCP": "true",
+               "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 }
     },
   ]

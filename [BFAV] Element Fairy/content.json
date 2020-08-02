@@ -1,0 +1,41 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Element Fairy",
+			"Types": [
+				{
+					"Type": "Fire Fairy",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/3/82/537/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/15/5/null/577/15000/Fire Fairy/Coop",
+					"Sprites": {
+						"Adult": "assets/Fire.png",
+						"Baby": "assets/BabyFire.png",
+					},
+						"When": { "Language": "ko" },
+						"Data": "2/3/82/537/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/15/5/null/577/15000/불의 요정/Coop",
+				},
+			],
+			"Buildings": [
+		        "Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Element Fairy",
+				"Description": "Fairy of element.",
+				"Icon": "assets\\animal_shop_Fairy.png",
+				"Price": 15000,
+				"Exclude": [
+					"Void Chicken"
+				],
+				"When": { "Language": "ko" },
+				"Name": "요정",
+				"Description": "자연에 깃든 요정입니다.",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+	]
+}

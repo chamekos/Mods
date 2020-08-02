@@ -1,0 +1,11 @@
+﻿{
+   "Name": "[PFM] Expanded Vanilla Crops",
+   "Author": "richardtrle",
+   "Description": "Expands vanilla crops, adds seeds to Blackberry, Salmonberry, Spring Onion, Fiddlehead Fern, Plum and Crystal Fruit",
+   "Version": "1.0.6",
+   "UniqueID": "richardtrle.expandedcrops.seeds",
+   "UpdateKeys": ["Nexus:6515"],
+   "ContentPackFor": {
+       "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },
+}

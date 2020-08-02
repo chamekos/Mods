@@ -1,8 +1,8 @@
 {
     "Name": "CP Fairy Pool",
     "Author": "LemurKat",
-    "Version": "1.0.1",
-    "Description": "Adds a hidden pool and other surprises",
+    "Version": "1.1.0",
+    "Description": "Adds a hidden pool linked to the Secret Woods",
     "UniqueID": "LemurKat.FairyPool.CP",
 "Dependencies": [
   	{ "UniqueID": "DaisyNiko.Tilesheets" }

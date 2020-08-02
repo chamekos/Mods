@@ -1,0 +1,9 @@
+{
+	"Entries": {
+		"57960007/f Jade 2000/t 1800 2000": "continue/34 25/Jade 33 25 2 farmer 34 14 2/skippable/speed farmer 2/move farmer 0 11 2/pause 1000/playMusic musicboxsong/speak Jade \"嗨，@。$h#$b#你也出来看星星？\"/pause 2000/speak Jade \"那个，呃……你有对谁产生好感吗？$1#$b#城里有很多人可以候选呢！$1\"/pause 1000/speak Jade \"$q 579606 null#……#$r 579607 0 romanceJade#是，的确有某个人。（追求翡翠）#$r 579608 0 platonicJade#哈哈，还没，怎么这么问？(成为挚友)\"/pause 500/fork 579607 romanceJade/pause 500/fork 579608 platonicJade/pause 500/message \"if you can read this then your forks are failing!\"/end",
+		
+		"romanceJade": "pause 300/speak Jade \"我知道。$0#$b#你掩藏得并不是很好。$1\"/pause 150/speak Jade \"有点儿可爱。$4\"/pause 500/speak Jade \"所以说……现在要做什么？$1\"/pause 150/speak Jade \"噢！你还得送我一束鲜花，这是本地的传统！$1#$b#然后我们就会成为，你知道的，伴侣。$4#$b#然后作为回报，我会给你……这个！$1\"/faceDirection Jade 1/faceDirection farmer 3/animate Jade false false 4500 28/animate farmer true false 4500 101/positionOffset Jade 10 0/positionOffset Farmer -10 0/textAboveHead Jade \"<\"/pause 4000/globalFade/viewport -1000 -1000/end",
+		
+		"platonicJade": "pause 300/speak Jade \"好奇而已，就是这样。$1\"/pause 3000/speak Jade \"你一定会找到自己的那个人的，和你在一起那么有趣。$0\"/pause 500/speak Jade \"听起来好像有些怪，但是你知道我是什么意思的！$1\"/pause 350/speak Jade \"谢谢你成我的朋友，@。$4\"/pause 250/globalFade/viewport -1000 -1000/end",
+	}
+}

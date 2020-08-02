@@ -1,7 +1,8 @@
 {
     "Name": "Red Diamond",
     "Description": "Very rare red diamond.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 750,
     "IsColored": false,

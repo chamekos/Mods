@@ -1,7 +1,8 @@
 {
     "Name": "Kunzite",
     "Description": "Transparent Pink Lithia Stone.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 180,
     "IsColored": false,

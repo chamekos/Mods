@@ -1,7 +1,8 @@
 {
     "Name": "Ice Jade",
     "Description": "A white jade look like snow and transparent like ice.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 200,
     "IsColored": false,

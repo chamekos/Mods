@@ -1,7 +1,7 @@
 ﻿{
 	"Name": "[PFM] Soda Maker - Flower Pack",
 	"Author": "Hadi and Fwippy",
-	"Version": "1.0.1",
+	"Version": "1.0.2",
 	"Description": "Adds floral products to the Artisanal Soda Makers machines.",
 	"UniqueID": "Fwippy.SodaMakerFlowerPackPFM",
 	"MinimumApiVersion": "3.0.0",

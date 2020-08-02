@@ -16,5 +16,30 @@
 	"013": "The chill of winter makes my bones ache. The exercise helps, a little.$7",
 	"014": "There is so much to uncover here, @. So much to archive! Quite a history indeed.$1",
 	"015": "Oh my, I had never realized children ask so many questions! They are quite keeping me on my toes!",
-	"winter_17": "The travelers come from near and far, bringing their wares and their tales."
+	"winter_17.000": "The travelers come from near and far, bringing their wares and their tales.",
+	"saturday.001": "There have been strange beings sighted in the water, @. Perhaps one day I shall see one.$3",
+
+	//Marriage Strings
+
+	"marriage_To1": "Greetings my love! This tree holds memories for me. I used to climb it as a kid. Fell out of it a couple of times too.",
+	"marriage_To2": "My love, it is good to see you. It's nice to read in the open air and watch the townsfolk pass by.",
+	"marriage_To3": "Come, sit with me for a while - if you're not too busy?",
+	"marriage_To4": "It's funny how many memories a building can hold, isn't it, @?",
+	"marriage_To5": "My mother and I had left town, before the terrible storm. Lightning destroyed the building, you know.",
+	"marriage_To6": "Do you think the junimo inhabit all abandoned buildings, @? Nature spirits, claiming back what was once their's.",
+	"marriage_Fo1": "This forest will always hold a special place in my heart, @. There is nothing that quite soothes the soul the same way.$1",
+	"marriage_Fo2": "Can you sense the junimo in the trees, @. They are wary, but curious.$1",
+	"marriage_Fo3": "The shadowy presence is still here, @. I wonder what it is.$3",
+	"marriage_Be1": "Would you care to join me for a swim, my love? Perhaps I just want to admire you in a swimsuit.$4",
+	"marriage_Be2": "The scent of salt, the cry of the gulls... oh, it is good to be outdoors, is it not?$1",
+	"marriage_Be3": "Shall we build a sandcastle? Oh, I know it's silly, but when I'm around you, I feel young again.",
+	"marriage_AH1": "Oh yes, I'm still keeping up with my research.",
+	"marriage_AH2": "Don't you just love the smell of paper and glue, @? No? Perhaps that's just me.",
+	"marriage_AH3": "Another chapter in the history of the valley fully collated, and ready to be archived!",
+	"marriage_AH4": "Oh, I'd love to tell the children all about the goblins. But I'm afraid Miss Penny might not appreciate it.",
+	"marriage_AH5": "The kids seem awfully fascinated in earthquakes and volcanoes and other natural disasters.$3",
+	"marriage_AH6": "Today we're learning about how diamonds are made. And no, it isn't just from coal! In fact, diamonds were around before coal even existed!",
+	"marriage_Adv1": "Oh... the walk certainly takes it out of me but it's good to be out and about again.$1",
+	"marriage_Adv2": "Has Marlon told you how he lost his eye? No, me neither. Well, not the same story twice, at any rate!$1",
+	"marriage_Adv3": "My adventuring days may be over, but I can't forget my friends, can I, Marlon?$1"
 }

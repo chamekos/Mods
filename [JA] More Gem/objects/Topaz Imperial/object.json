@@ -1,7 +1,8 @@
 {
     "Name": "Imperial Topaz",
     "Description": "Topaz of brilliant color like fireworks.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 120,
     "IsColored": false,

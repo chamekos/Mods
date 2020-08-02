@@ -31,7 +31,7 @@
     "Outdoor_1": "Ah, the fresh, clear air. I love it here, @. And am so grateful to be part of your life.",
     "Outdoor_2": "I caught a flash of color in the trees, down by the southern border. I do not think it was a bird.$1#$b#Dare I hope it was one of our junimo friends?$4",
     "Outdoor_3": "It is so peaceful here. I am not sure I could ever return to the bustle of the city.",
-    "Outdoor_4": "I awoke at dawn, my mind too busy to permit sleep, and stepped out for a walk.#$b#I caught a glimpse of a dark figure - perhaps a child? - in the fields. They scampered away at the sight of me.#$b#Who do you think they were, @?$2",
+    "Outdoor_4": "I awoke at dawn, my mind too busy to permit sleep, and stepped out for a walk.#$b#I caught a glimpse of a dark figure in the fields. Do you think it was our subterranean friend, @?$1",
     "Outdoor_Jasper": "Is this dialogue ever used?",
     "funLeave_Jasper": "I guess I'd better get some exercise. Doctor's orders! And I shall visit some friends.#$b#Have an excellent day, @. Remember, you rock!",
     "funReturn_Jasper": "Oh, that walk really took it out of me. I'm exhausted!#$b#I hope you had a more energetic day, @?",
@@ -71,6 +71,9 @@
     "Bad_6": "You know, the goblin chieftain tried to trick me into wedding his daughter.$2#$b#Perhaps she would've been a more agreeable match.$5",
     "Bad_7": "*sighs* I shall regret saying this, I'm sure, but the goblins made for better company.$5#$b#At least they talked to me occasionally...$2",
     "Bad_8": "Sometimes I wonder if you'd even notice if I never returned from the caves.$2#$b#I miss what we had, @. I believed you were The One.$2",
-    "Bad_9": "....Can't you see I'm busy? Oh, I don't look like I'm doing anything?$5#$b#Just leave me to my thoughts. Please @.$2"
+    "Bad_9": "....Can't you see I'm busy? Oh, I don't look like I'm doing anything?$5#$b#Just leave me to my thoughts. Please @.$2",
+
+    //Dated Dialogue
+    "summer_15": "My father was a jovial man. He always had time for me, even though he must have been exhausted and I was always full of questions.#$b#I can only hope that one day I shall be as good a father as he. I miss him so much, my love."
 
 }

@@ -1,0 +1,11 @@
+{
+  "Name": "Under the Sea",
+  "Author": "Gervig91",
+  "Version": "1.1.0",
+  "Description": "Custom Movie: Under The Sea",
+  "UniqueID": "Gervig91.CustomMovies.Movie.UnderTheSea",
+  "UpdateKeys": [ "Nexus:6505" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMovies"
+  }
+}

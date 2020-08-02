@@ -1,0 +1,43 @@
+{
+    "Name": "Cinnamon Soft Serve",
+    "Description": "You can't have enough of it.",
+    "Category": "ArtisanGoods",
+    "Edibility": 40,
+    "Price": 350,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Pam", "Dwarf", "Wizard", "Maru", "Sam", "Clint", "Leah", "Gus", "Caroline", "Elliott", "Krobus", "Robin", "Kent", "Alex", "Jas", "Linus", "Emily", "Evelyn", "Haley", "Demetrius", "Sandy", "Penny", "George", "Abigail", "Harvey", "Lewis", "Shane", "Willy", "Vincent", "Jodi", "Marnie", "Pierre"],
+        "Dislike": []
+    },
+    "NameLocalization":
+    {
+         // "es": " Soft Serve de Canela",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+         // "es": "Nunca puedes tener suficiente.",
+         // "ko": "",
+         // "de": "",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+         // "ja": "",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+         // "zh": "",
+    }
+}

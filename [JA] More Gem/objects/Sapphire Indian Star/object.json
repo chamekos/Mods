@@ -1,7 +1,8 @@
 {
     "Name": "Indian Star Sapphire",
     "Description": "Dark blue gem shining like a star.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 250,
     "IsColored": false,

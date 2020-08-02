@@ -14,10 +14,17 @@
        "FromArea": { "X": 0, "Y": 0, "Width": 53, "Height": 37 }, 
        "ToArea": { "X": 99, "Y": 16, "Width": 53, "Height": 37 },
        "PatchMode": "Overlay",
-       "When": {
-	        "Season": "spring",
-	        "UseSeasonal": "true"
-		   }
+       "When": {"Season": "spring",
+	        	"UseSeasonal": "true",
+	    		"HasMod:DaisyNiko.EarthyRecolour":false},
+		},
+		{
+  		"Action": "EditImage",
+       "Target": "LooseSprites/map",
+       "FromFile": "assets/map_Daisy{{season}}.png",
+       "PatchMode": "Overlay",
+       "When": {"HasMod:DaisyNiko.EarthyRecolour":true,
+       			"HasMod:IslandTMX":true},
 		},
 		{
   		"Action": "EditImage",
@@ -28,7 +35,8 @@
        "PatchMode": "Overlay",
        "When": {
 	        "Season": "summer",
-	        "UseSeasonal": "true"
+	        "UseSeasonal": "true",
+	        "HasMod:DaisyNiko.EarthyRecolour":false
 		   }
 		},
 		{
@@ -40,7 +48,8 @@
        "PatchMode": "Overlay",
        "When": {
 	        "Season": "fall",
-	        "UseSeasonal": "true"
+	        "UseSeasonal": "true",
+	        "HasMod:DaisyNiko.EarthyRecolour":false
 		   }
 		},
 		{
@@ -52,7 +61,8 @@
        "PatchMode": "Overlay",
        "When": {
 	        "Season": "winter",
-	        "UseSeasonal": "true"
+	        "UseSeasonal": "true",
+	        "HasMod:DaisyNiko.EarthyRecolour":false
 		   }
 		},
 		{
@@ -63,7 +73,8 @@
        "ToArea": { "X": 99, "Y": 16, "Width": 53, "Height": 37 },
        "PatchMode": "Overlay",
        "When": {
-	        "UseSeasonal": "false"
+	        "UseSeasonal": "false",
+	        "HasMod:DaisyNiko.EarthyRecolour":false
 		   }
 		},
     		{

@@ -3,7 +3,7 @@
   "Name": "JohnNpc",
    "Author": "Fellowclown",
    "Description": "Adds a custom npc named John.",
-   "Version": "1.6.3", 
+   "Version": "1.6.7", 
    "UniqueID": "Fellowclown.JohnNpc",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"

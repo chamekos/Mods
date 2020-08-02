@@ -1,0 +1,11 @@
+{
+"Format": "1.15.0",
+"Changes": [
+//Wedding arch and flowers tilesheets
+{
+"Action": "Load",
+"Target": "TileSheets/Craftables",
+"FromFile": "assets/Craftables.png",
+},
+    ]
+}

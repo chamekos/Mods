@@ -68,6 +68,16 @@
 		"InputPriceBased": false,
 		"Sounds": ["Ship"],
 	},
+	{
+		"ProducerName": "Mineral Rifiner", 
+		"InputIdentifier": "Rock Salt",
+		"InputStack": 1,
+		"MinutesUntilReady": 60, //1Hr
+		"OutputIdentifier": "Salt", //PPJA more food
+		"OutputStack": 2,
+		"InputPriceBased": false,
+		"Sounds": ["Ship"],
+	},
 //Marine Jewel Farm
 	{
 		"ProducerName": "Marine Jewel Farm",
@@ -78,35 +88,35 @@
 		"OutputStack": 1,
 		"AdditionalOutputs": [ 
             {
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "797", //Vanilla Pearl
             },
 			{
-                "OutputProbability": 0.07, 
+                "OutputProbability": 0.2, 
                 "OutputIdentifier": "Baroque Pearl",
             },
 			{
-                "OutputProbability": 0.05, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "Sliver Pearl",
             },
 			{
-                "OutputProbability": 0.05, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "Cream Pearl",
             },
 			{
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "Gold Pearl",
             },
 			{
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "Pink Pearl",
             },
 			{
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "Black Pearl",
             },
 			{
-                "OutputProbability": 0.01, 
+                "OutputProbability": 0.05, 
                 "OutputIdentifier": "Conch Pearl",
             },
         ],
@@ -121,12 +131,36 @@
 		"OutputStack": 1,
 		"AdditionalOutputs": [ 
             {
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "797", //Vanilla Pearl
             },
 			{
-                "OutputProbability": 0.07, 
+                "OutputProbability": 0.2, 
                 "OutputIdentifier": "Baroque Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Sliver Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.05, 
+                "OutputIdentifier": "Conch Pearl",
             },
         ],
 		"InputPriceBased": false,
@@ -140,12 +174,36 @@
 		"OutputStack": 1,
 		"AdditionalOutputs": [ 
             {
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "797", //Vanilla Pearl
             },
 			{
-                "OutputProbability": 0.07, 
+                "OutputProbability": 0.2, 
                 "OutputIdentifier": "Baroque Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Sliver Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.05, 
+                "OutputIdentifier": "Conch Pearl",
             },
         ],
 		"InputPriceBased": false,
@@ -159,12 +217,36 @@
 		"OutputStack": 1,
 		"AdditionalOutputs": [ 
             {
-                "OutputProbability": 0.03, 
+                "OutputProbability": 0.1, 
                 "OutputIdentifier": "797", //Vanilla Pearl
             },
 			{
-                "OutputProbability": 0.07, 
+                "OutputProbability": 0.2, 
                 "OutputIdentifier": "Baroque Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Sliver Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Cream Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Gold Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Pink Pearl",
+            },
+			{
+                "OutputProbability": 0.1, 
+                "OutputIdentifier": "Black Pearl",
+            },
+			{
+                "OutputProbability": 0.05, 
+                "OutputIdentifier": "Conch Pearl",
             },
         ],
 		"InputPriceBased": false,
@@ -217,11 +299,11 @@
 		"OutputIdentifier": "Glass Sand",
 		"AdditionalOutputs": [ 
 			{
-                "OutputProbability": 0.10, 
+                "OutputProbability": 0.2, 
                 "OutputIdentifier": "Larimar",
             },
         ],
 		"InputPriceBased": false,
-		"Sounds": [ "Ship" ],
+		"Sounds": [ "bubbles" ],
 	},
 ]

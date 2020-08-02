@@ -1,0 +1,6 @@
+{
+	"Entries": {
+		"57960001/f Jade 500/t 800 2000/w sunny": "continue/45 10/farmer 53 10 3 Jade 41 10 3/skippable/pause 2000/message \"你看到翡翠蹲在树根附近，专注地盯着某些东西。\"/pause 1000/move farmer -1 0 3/emote Jade 16/faceDirection Jade 1/speak Jade \"噢，农夫！瞧瞧这个！$1\"/move farmer -10 0 3/emote Jade 32/speak Jade \"快看啊，我觉得这是鸢尾石蜈蚣！$h\"/message \"翡翠兴奋地冲你举起了一条蜈蚣。\"/question fork1 \"#sh…是，真有趣，呵呵。#我勒个由巴，把这东西拿得离我远一点儿！#\"/fork GetItAway/pause 1000/speak Jade \"真的？你真的这么想？$1\"/emote farmer 60/emote Jade 32/speak Jade \"它们可以存活六年，而且当它们蜕皮时会长出新的腿，还有……！$1\"/message \"翡翠滔滔不绝地说了很久蜈蚣的事情。她显然相当富有激情。\"/friendship Jade 250/globalFade/viewport -1000 -1000/end",
+		"GetItAway": "pause 500/emote farmer 16/speed farmer 7/move farmer 3 0 1/faceDirection farmer 3/emote Jade 28/speak Jade \"哦，好吧...对不起...$2\"/move Jade 0 3 2/move Jade -15 0 3/friendship Jade -500/globalFade/viewport -1000 -1000/end"
+	}
+}

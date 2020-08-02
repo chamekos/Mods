@@ -1,5 +1,5 @@
 {
-	"Format": "1.10.0",
+	"Format": "1.15.0",
     "DynamicTokens": [
 
         // Standard Dynamic Tokens Weather
@@ -53,41 +53,74 @@
 
         {
             "Name": "Festival",
-            "Value": "FlowerDance",
+            "Value": "EggFestival",
             "When":
             {
-                "DayEvent": "flower dance",
-                "LocationName": "Forest"
+                "DayEvent": "egg festival",
+                "LocationName": "town, temp"
             }
-        },	
-
+        },
         {
             "Name": "Festival",
             "Value": "FlowerDance",
             "When":
             {
                 "DayEvent": "flower dance",
-                "LocationName": "Temp"
+                "LocationName": "Forest, temp"
             }
         },
-
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau",
+                "LocationName": "Beach, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies",
+                "LocationName": "Beach, temp"
+            }
+        },
         {
             "Name": "Festival",
             "Value": "SpiritsEve",
             "When":
             {
                 "DayEvent": "spirit's eve",
-                "LocationName": "Town"
+                "LocationName": "town, temp"
             }
         },
-
         {
             "Name": "Festival",
-            "Value": "SpiritsEve",
+            "Value": "SVFair",
             "When":
             {
-                "DayEvent": "spirit's eve",
-                "LocationName": "Temp"
+                "DayEvent": "stardew valley fair",
+                "LocationName": "town, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+                "LocationName": "town, temp"
             }
         },
 		
@@ -118,7 +151,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -129,7 +162,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -140,7 +173,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -154,7 +187,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{WeatherVariant}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -165,7 +198,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -176,7 +209,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
             }
         },
 
@@ -185,26 +218,26 @@
 
 	
 		{
-		  "LogName": "Sophia Makeup season/ outdoor / weather",		
+		  "LogName": "Sophia Makeup season/ outdoor",		
 		  "Action": "EditImage",
 		  "Target": "Portraits/Sophia",
 		  "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{SophiaMakeup}}.png",
 		  "When":
 				{
-					"HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{SophiaMakeup}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}    
 		
 		},
 
 
 		{
-		  "LogName": "Sophia Makeup season/ outdoor",		
+		  "LogName": "Sophia Makeup season/ outdoor/ weather",		
 		  "Action": "EditImage",
 		  "Target": "Portraits/Sophia",
-		  "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+          "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{WeatherVariant}}{{SophiaMakeup}}.png",
 		  "When":
 				{
-					"HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}
 		},
 		
@@ -215,12 +248,12 @@
 		  "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{SophiaMakeup}}.png",
 		  "When":
 				{
-					"HasFile:{{Target}}/{{TargetWithoutPath}}_{{Season}}{{SophiaMakeup}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}    
 		
 		},
 		
-// Sophia'a Older Portrait override
+// Sophia's Older Portrait override
 
 
         {
@@ -232,6 +265,7 @@
             {
                 "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday",
 				"OlderSophia": "true",
+                "HasFile:{{FromFile}}": true,				
             },
             "PatchMode": "Overlay"
         },
@@ -246,6 +280,7 @@
             {
                 "DayOfWeek": "Friday, Saturday, Sunday",
 				"OlderSophia": "true",
+                "HasFile:{{FromFile}}": true,				
             },
             "PatchMode": "Overlay"
         },
@@ -261,6 +296,7 @@
 				"Season": "summer",
                 "IsOutdoors": "true",
 				"OlderSophia": "true",
+                "HasFile:{{FromFile}}": true,				
             },
             "PatchMode": "Overlay"
         },		
@@ -274,7 +310,7 @@
 		  "FromFile": "Portraits/MorrisTod/MorrisTod_{{Season}}.png",
 		  "When":
 				{
-					"HasFile:Portraits/MorrisTod/MorrisTod_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}
 		},
 
@@ -285,7 +321,7 @@
 		  "FromFile": "Characters/MorrisTod/MorrisTod_{{Season}}.png",
 		  "When":
 				{
-					"HasFile:Characters/MorrisTod/MorrisTod_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}
 		},
 
@@ -298,7 +334,7 @@
 		  "FromFile": "Portraits/Marlon/Marlon_{{Season}}.png",
 		  "When":
 				{
-					"HasFile:Portraits/Marlon/Marlon_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}
 		},
 
@@ -309,7 +345,7 @@
 		  "FromFile": "Characters/Marlon/Marlon_{{Season}}.png",
 		  "When":
 				{
-					"HasFile:Characters/Marlon/Marlon_{{Season}}.png": true
+                "HasFile:{{FromFile}}": true,
 				}
 		},
 
@@ -320,7 +356,11 @@
 		  "LogName": "Claire vlothing overwrite",		
 		  "Action": "EditImage",
 		  "Target": "Characters/Claire_Joja",
-		  "FromFile": "Characters/Claire/Claire.png"
+		  "FromFile": "Characters/Claire/Claire.png",
+		  "When":
+				{
+                "HasFile:{{FromFile}}": true,
+				}		  
 		},	
 
 //Claire's Joja sprites	
@@ -328,7 +368,9 @@
 		  "LogName": "Claire Joja outfit",		
 		  "Action": "EditImage",
 		  "Target": "Characters/Claire_Joja",
-		  "When": { "HasSeenEvent: 191393": false, "LocationName": "JojaMart" },
+		  "When": { 
+          "HasSeenEvent: currentPlayer |contains=191393": false,
+		  "LocationName": "JojaMart", "HasFile:{{FromFile}}": true, },
 		  "FromFile": "Characters/Claire/Claire_Joja.png"
 		},	
 		
@@ -337,7 +379,7 @@
 		  "LogName": "Claire Theater outfit",
 		  "Action": "EditImage",
 		  "Target": "Characters/Claire_Joja",
-		  "When": { "HasSeenEvent: 191393": true, "LocationName": "MovieTheater" },
+		  "When": { "HasSeenEvent: currentPlayer |contains=191393": true, "LocationName": "MovieTheater", "HasFile:{{FromFile}}": true, },
 		  "FromFile": "Characters/Claire/Claire_Theater.png"
 		},			
 
@@ -348,7 +390,11 @@
 		  "LogName": "Claire clothing overwrite Portrait",		
 		  "Action": "EditImage",
 		  "Target": "Portraits/Claire_Joja",
-		  "FromFile": "Portraits/Claire/Claire.png"
+		  "FromFile": "Portraits/Claire/Claire.png",
+		  "When":
+				{
+                "HasFile:{{FromFile}}": true,
+				}		
 		},	
 
 //Claire's Joja sprites	
@@ -356,7 +402,7 @@
 		  "LogName": "Claire Joja outfit Portrait",		
 		  "Action": "EditImage",
 		  "Target": "Portraits/Claire_Joja",
-		  "When": { "HasSeenEvent: 191393": false, "LocationName": "JojaMart" },
+		  "When": { "HasSeenEvent: currentPlayer |contains=191393": false, "LocationName": "JojaMart", "HasFile:{{FromFile}}": true, },
 		  "FromFile": "Portraits/Claire/Claire_Joja.png"
 		},	
 		
@@ -365,7 +411,7 @@
 		  "LogName": "Claire Theater outfit Portrait",
 		  "Action": "EditImage",
 		  "Target": "Portraits/Claire_Joja",
-		  "When": { "HasSeenEvent: 191393": true, "LocationName": "MovieTheater" },
+		  "When": { "HasSeenEvent: currentPlayer |contains=191393": true, "LocationName": "MovieTheater", "HasFile:{{FromFile}}": true, },
 		  "FromFile": "Portraits/Claire/Claire_Theater.png"		
 		},			
 		
@@ -377,7 +423,7 @@
             "FromFile": "Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
             "When":
             {
-                "HasFile:Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png": true,   		
+				"HasFile:{{FromFile}}": true, 		
 			},
         },
 
@@ -388,7 +434,7 @@
             "FromFile": "Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
             "When":
             {
-                "HasFile:Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png": true,   
+				"HasFile:{{FromFile}}": true, 	 
 			},
         },
 
@@ -401,7 +447,7 @@
             "FromFile": "{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
             "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_Aerobics.png": true,
+				"HasFile:{{FromFile}}": true, 	
                 "DayOfWeek": "Tuesday",
                 "LocationName": "SeedShop",
             }
@@ -431,7 +477,7 @@
           "Target": "Maps/{{season}}_z_extras",
           "FromFile": "Maps/Seasonal_c_{{season}}.png",
           "ToArea": { "X": 96, "Y": 736, "Width": 16, "Height": 32 },
-	      "When": { "HasMod:FlashShifter.StardewValleyExpandedCP": true }
+	      "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
 		
 
@@ -444,7 +490,7 @@
          "FromFile": "Maps/Cursors_{{season}}.png",
          "FromArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
          "ToArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
-	     "When": { "HasMod:FlashShifter.StardewValleyExpandedCP": true }
+	     "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
 
       {  
@@ -454,7 +500,7 @@
          "FromFile": "Maps/Cursors_{{season}}.png",
          "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
          "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
-	     "When": { "HasMod:FlashShifter.StardewValleyExpandedCP": true }
+	     "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
 			
       { 	 
@@ -464,7 +510,7 @@
          "FromFile": "Maps/Cursors_{{season}}.png",
          "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
          "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
-	     "When": { "HasMod:FlashShifter.StardewValleyExpandedCP": true }
+	     "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
 
 //Cursors from Vanilla Game

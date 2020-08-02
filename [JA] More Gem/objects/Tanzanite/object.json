@@ -1,7 +1,8 @@
 {
     "Name": "Tanzanite",
     "Description": "Beautiful blue gems produced in Tanzania.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 220,
     "IsColored": false,

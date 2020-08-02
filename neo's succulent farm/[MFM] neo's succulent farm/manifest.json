@@ -1,0 +1,10 @@
+﻿{
+   "Name": "Neos Succulent Farm MFM",
+   "Author": "Neonix",
+   "Description": "Some Succulents to grow and perhaps sell for the cacti enthusiasts.",
+   "Version": "1.4.1",
+   "MinimumApiVersion": "3.2.0",
+   "UniqueID": "Neo.SucculentfarmMFM",
+   "Dependencies": [ { "UniqueID": "Neo.SucculentfarmJA" } ],
+   "ContentPackFor": { "UniqueID": "DIGUS.MailFrameworkMod" }
+}

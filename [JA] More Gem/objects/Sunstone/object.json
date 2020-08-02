@@ -1,7 +1,8 @@
 {
     "Name": "Sunstone",
     "Description": "A gem shining like sunlight.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 150,
     "IsColored": false,

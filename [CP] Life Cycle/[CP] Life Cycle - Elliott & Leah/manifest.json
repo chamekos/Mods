@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Life Cycle - Elliott & Leah",
+  "Author": "nraittanna",
+  "Version": "2.2.1",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Elliott and Leah dating version.",
+  "UniqueID": "nraittanna.LifeCycleEL",
+  "UpdateKeys": [ "Nexus:6200" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

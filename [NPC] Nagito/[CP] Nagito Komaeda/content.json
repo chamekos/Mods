@@ -218,13 +218,7 @@
         "FromFile": "assets/Data/NPCDispositions.json",
         "When": {"HasFile: assets/Data/NPCDispositions.json": "true"}
         },
-        {    
-        "LogName": "NPCDispositions",
-        "Action": "EditData",
-        "Target": "Data/NPCDispositions",
-        "FromFile": "assets/Data/NPCDispositions.json",
-        "When": {"HasFile: assets/Data/NPCDispositions.json": "true"}
-        },
+        // Vanilla Gift Tastes
         {    
         "LogName": "NPCGiftTastes - Canon",
         "Action": "EditData",
@@ -240,7 +234,6 @@
         "FromFile": "assets/Data/NPCGiftTastes_lore.json",
         "When": {"HasFile: assets/Data/NPCGiftTastes_lore.json": "true",
                 "Variant": "lore"}
-
        },
        {    
         "LogName": "NPCGiftTastes - Lore Dating",
@@ -249,8 +242,7 @@
         "FromFile": "assets/Data/NPCGiftTastes_Dating_lore.json",
         "When": {"HasFile: assets/Data/NPCGiftTastes_Dating_lore.json": "true",
                  "Relationship:Nagito": "Dating, Engaged",
-                "Variant": "lore"}
-
+                 "Variant": "lore"}
        },
        {    
         "LogName": "NPCGiftTastes - Lore Married",
@@ -259,23 +251,61 @@
         "FromFile": "assets/Data/NPCGiftTastes_Married_lore.json",
         "When": {"HasFile: assets/Data/NPCGiftTastes_Married_lore.json": "true",
                  "Relationship:Nagito": "Married",
-                "Variant": "lore"}
-
+                 "Variant": "lore"}
        },
+        // Json Asset Gift Tastes
+        {    
+        "LogName": "NPCGiftTastes - Canon, JA",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes_canon_ja.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes_canon.json": "true",
+                 "Variant": "canon",
+                 "HasMod": "spacechase0.jsonAssets"},
+       },
+        {    
+        "LogName": "NPCGiftTastes - Lore, JA",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes_lore_ja.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes_lore.json": "true",
+                "Variant": "lore",
+                 "HasMod": "spacechase0.jsonAssets"}
+       },
+       {    
+        "LogName": "NPCGiftTastes - Lore Dating, JA",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes_Dating_lore_ja.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes_Dating_lore.json": "true",
+                 "Relationship:Nagito": "Dating, Engaged",
+                 "Variant": "lore",
+                 "HasMod": "spacechase0.jsonAssets"}
+       },
+       {    
+        "LogName": "NPCGiftTastes - Lore Married, JA",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes_Married_lore_ja.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes_Married_lore.json": "true",
+                 "Relationship:Nagito": "Married",
+                 "Variant": "lore",
+                 "HasMod": "spacechase0.jsonAssets"}
+       },
+        // Movie Theatre
         { 
         "LogName": "Movie Theatre",
         "Action": "EditData",
         "Target": "Data/MoviesReactions",
          "FromFile": "assets/Data/MoviesReactions.json",
          "When": {"HasFile: assets/Data/MoviesReactions.json": "true"}
-  },
-   {    
+        },
+        {    
         "LogName": "Movie Theatre - Concession Tastes",
         "Action": "EditData",
         "Target": "Data/ConcessionTastes",
               "FromFile": "assets/Data/ConcessionTastes.json",
               "When": {"HasFile: assets/Data/ConcessionTastes.json": "true"}
-
        },
 
 //// SCHEDULES    
@@ -1455,23 +1485,6 @@
       },
         
 //// EVENTS    
-        
-   /* {
-        "LogName": "Mail",
-        "Action": "EditData",
-        "Target": "Data/Mail",
-        "Entries": {
-            "nagitoMeal": "Hello @,^ I was wondering if you’d mind coming by my place tonight around 5? ^ See you then? ^   -Nagito",
-        },
-    },
-    {
-        "LogName": "Mail",
-        "Action": "EditData",
-        "Target": "Data/Events/Farm",
-        "Entries": {
-           "777777/f Nagito 2000/x nagitoMeal": "null",
-        },
-    },*/
         // LORE
     {
       "LogName": "Library Event - 2 Heart - Lore",

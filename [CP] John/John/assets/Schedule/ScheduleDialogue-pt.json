@@ -1,4 +1,5 @@
 {
+	"Entries": {
 "spring.000": "É legal e calmo aqui... é bom para ler um livro sem interrupções.",
 "spring.001": "O pessoal é bem fofoqueiro aqui. Eles acham que eu não percebo, mas eu escuto...$2",
 "spring.002": "Eu adoro para nadar quando a água está quentinha. Faz as minhas juntas ficar relaxadas.$1",
@@ -38,4 +39,5 @@
 "marriage.001": "Quer algo da loja, coração? Eu posso pegar para você.",
 "marriage.002": "Eu continuo vendo o Lewis passando por aqui. Será que ele e a Marnie vão casar um dia?$3",
 "marriage.003": "Foi realmente um longo dia, não achas, coração?$1",
+			},
 }

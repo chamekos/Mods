@@ -1,0 +1,747 @@
+{
+	"Format": "1.14.0",
+	"ConfigSchema": {
+		"jadeIsPoly": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		"jadeHouse": {
+			"AllowValues": "default, none, boarding, juliet",
+			"Default": "default"
+		},
+		"jadePortrait": {
+			"AllowValues": "default, CodeNameRed, EssGee",
+			"Default": "default"
+		},
+		"jadeSpritesheet": {
+			"AllowValues": "default, xdx4900, CodeNameRed",
+			"Default": "default"
+		},
+	},
+	"Changes": [
+		{ // MANIFESTATION
+			"LogName": "Jade - NPC Manifestation Fallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/manifestation.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/manifestation.json": false}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Edit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/manifestation.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/manifestation.json": true}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation ConfigFallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/manifestation.json",
+			"When": {
+				"jadeHouse": "none",
+				"HasFile: locale/{{Language}}/dialogue/manifestation.json": false
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation ConfigEdit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/manifestation.json",
+			"When": {
+				"jadeHouse": "none",
+				"HasFile: locale/{{Language}}/dialogue/manifestation.json": true
+			}
+		},
+		{ // MANIFESTATION - BOARDING HOUSE
+			"LogName": "Jade - NPC Manifestation Boarding DetectFallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/mods/boarding-manifestation.json",
+			"When": {
+				"HasMod:BusStopExpansion": true,
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-manifestation.json": false
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Boarding DetectEdit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/mods/boarding-manifestation.json",
+			"When": {
+				"HasMod:BusStopExpansion": true,
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-manifestation.json": true
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Boarding ConfigFallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/mods/boarding-manifestation.json",
+			"When": {
+				"jadeHouse": "boarding",
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-manifestation.json": false
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Boarding ConfigEdit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/mods/boarding-manifestation.json",
+			"When": {
+				"jadeHouse": "boarding",
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-manifestation.json": true
+			}
+		},
+		{ // MANIFESTATION - JULIET
+			"LogName": "Jade - NPC Manifestation Juliet DetectFallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/mods/juliet-manifestation.json",
+			"When": {
+				"HasMod:LemurKat.JulietHouse.NPC": true,
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-manifestation.json": false
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Juliet DetectEdit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/mods/juliet-manifestation.json",
+			"When": {
+				"HasMod:LemurKat.JulietHouse.NPC": true,
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-manifestation.json": true
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Juliet ConfigFallback",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/en/dialogue/mods/juliet-manifestation.json",
+			"When": {
+				"jadeHouse": "juliet",
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-manifestation.json": false
+			}
+		},
+		{
+			"LogName": "Jade - NPC Manifestation Juliet ConfigEdit",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"FromFile": "locale/{{Language}}/dialogue/mods/juliet-manifestation.json",
+			"When": {
+				"jadeHouse": "juliet",
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-manifestation.json": true
+			}
+		},
+		{ // GIFT TASTES
+			"LogName": "Jade - NPC Gift Tastes Fallback",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"FromFile": "locale/en/dialogue/gifttastes.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/gifttastes.json": false}
+		},
+		{
+			"LogName": "Jade - NPC Gift Tastes Edit",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"FromFile": "locale/{{Language}}/dialogue/gifttastes.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/gifttastes.json": true}
+		},
+		{ // ANIMATIONS
+			"LogName": "Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"jade_sit": "32/32 32 32/32",
+				"jade_read": "33/33 33 33/33",
+				"jade_groundread": "34/34 34 34/34"
+			}
+		},
+		{ // SPRITESHEETS
+			"LogName": "NPC Sprite",
+			"Action": "Load",
+			"Target": "Characters/Jade",
+			"FromFile": "assets/img/spritesheet.png",
+			"When": {"jadeSpritesheet": "default"}
+		},
+		{
+			"LogName": "NPC Sprite xdx4900",
+			"Action": "Load",
+			"Target": "Characters/Jade",
+			"FromFile": "assets/img/spritesheet-xdx4900.png",
+			"When": {"jadeSpritesheet": "xdx4900"}
+		},
+		{
+			"LogName": "NPC Sprite CodeNameRed",
+			"Action": "Load",
+			"Target": "Characters/Jade",
+			"FromFile": "assets/img/spritesheet-CodeNameRed.png",
+			"When": {"jadeSpritesheet": "CodeNameRed"}
+		},
+		{ // PORTRAIT
+			"LogName": "NPC Portrait",
+			"Action": "Load",
+			"Target": "Portraits/Jade",
+			"FromFile": "assets/img/portrait.png",
+			"When": {"jadePortrait": "default"}
+		},
+		{
+			"LogName": "NPC Portrait CodeNameRed",
+			"Action": "Load",
+			"Target": "Portraits/Jade",
+			"FromFile": "assets/img/portrait-CodeNameRed.png",
+			"When": {"jadePortrait": "CodeNameRed"}
+		},
+		{
+			"LogName": "NPC Portrait EssGee",
+			"Action": "Load",
+			"Target": "Portraits/Jade",
+			"FromFile": "assets/img/portrait-EssGee.png",
+			"When": {"jadePortrait": "EssGee"}
+		},
+		{ // SCHEDULES vanilla
+			"LogName": "Jade - Schedule",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/schedule.json",
+			"When": {
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:Karmylla.ImmersiveMaps": false,
+				"HasMod:BusStopExpansion": false
+			}
+		},
+		{
+			"LogName": "Jade - Schedule SVE",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/sve.json",
+			"When": {
+				"HasMod:FlashShifter.StardewValleyExpandedALL": true,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:Karmylla.ImmersiveMaps": false,
+				"HasMod:BusStopExpansion": false
+			}
+		},
+		{
+			"LogName": "Jade - Schedule ImmersiveMaps",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/immersivemaps.json",
+			"When": {
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:Karmylla.ImmersiveMaps": true,
+				"HasMod:BusStopExpansion": false
+			}
+		},
+		{ // SCHEDULES boarding house
+			"LogName": "Jade - Schedule Boarding",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/boarding.json",
+			"When": {
+				"HasMod:BusStopExpansion": true,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:Karmylla.ImmersiveMaps": false
+			}
+		},
+		{
+			"LogName": "Jade - Schedule Boarding SVE",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/sve-boarding.json",
+			"When": {
+				"HasMod:BusStopExpansion": true,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL": true,
+				"HasMod:Karmylla.ImmersiveMaps": false
+			}
+		},
+		{
+			"LogName": "Jade - Schedule Boarding ImmersiveMaps",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/boarding-immersivemaps.json",
+			"When": {
+				"HasMod:BusStopExpansion": true,
+				"HasMod:LemurKat.JulietHouse.NPC": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:Karmylla.ImmersiveMaps": true
+			}
+		},
+		{ // SCHEDULES juliet
+			"LogName": "Jade - Schedule Juliet",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/juliet.json",
+			"When": {
+				"HasMod:LemurKat.JulietHouse.NPC": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:Karmylla.ImmersiveMaps": false
+			}
+		},
+		{
+			"LogName": "Jade - Schedule Juliet ImmersiveMaps",
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jade",
+			"FromFile": "assets/schedules/mods/juliet-immersivemaps.json",
+			"When": {
+				"HasMod:LemurKat.JulietHouse.NPC": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL": false,
+				"HasMod:Karmylla.ImmersiveMaps": true
+			}
+		},
+		{ // DIALOGUE
+			"LogName": "Jade - Dialogue Fallback", 
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/en/dialogue/dialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/dialogue.json": false}
+		},
+		{
+			"LogName": "Jade - Dialogue Edit", 
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/{{Language}}/dialogue/dialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/dialogue.json": true}
+		},
+		{ // DIALOGUE - BOARDING HOUSE
+			"LogName": "Jade - Dialogue BoardingHouse Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/en/dialogue/mods/boarding-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-dialogue.json": false,
+				"HasMod:BusStopExpansion": "true"
+			}
+		},
+		{
+			"LogName": "Jade - Dialogue BoardingHouse Edit",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/{{Language}}/dialogue/mods/boarding-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/boarding-dialogue.json": true,
+				"HasMod:BusStopExpansion": "true"
+			}
+		},
+		{ // MOD DIALOGUE NiGHTS
+			"LogName": "Jade - Dialogue NiGHTS Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/en/dialogue/mods/nights-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/nights-dialogue.json": false,
+				"HasMod:rssp.NiGHTS": true
+			}
+		},
+		{
+			"LogName": "Jade - Dialogue NiGHTS Edit",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/{{Language}}/dialogue/mods/nights-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/nights-dialogue.json": true,
+				"HasMod:rssp.NiGHTS": true
+			}
+		},
+		{ // MOD DIALOGUE MISTER GINGER
+			"LogName": "Jade - Dialogue MisterGinger Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/en/dialogue/mods/misterginger-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/misterginger-dialogue.json": false,
+				"HasMod:LemurKat.Mr.Ginger.NPC": true
+			}
+		},
+		{
+			"LogName": "Jade - Dialogue MisterGinger Edit",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/{{Language}}/dialogue/mods/misterginger-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/misterginger-dialogue.json": true,
+				"HasMod:LemurKat.Mr.Ginger.NPC": true
+			}
+		},
+		{ // MOD DIALOGUE JULIET
+			"LogName": "Jade - Dialogue Juliet Fallback",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/en/dialogue/mods/juliet-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-dialogue.json": false,
+				"HasMod:LemurKat.JulietHouse.NPC": true
+			}
+		},
+		{
+			"LogName": "Jade - Dialogue Juliet Edit",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jade",
+			"FromFile": "locale/{{Language}}/dialogue/mods/juliet-dialogue.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/mods/juliet-dialogue.json": true,
+				"HasMod:LemurKat.JulietHouse.NPC": true
+			}
+		},
+		{ // ENGAGEMENT DIALOGUE
+			"LogName": "Jade - Engagement Dialogue Fallback",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"FromFile": "locale/en/dialogue/engagementdialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/engagementdialogue.json": false}
+		},
+		{
+			"LogName": "Jade - Engagement Dialogue Edit",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"FromFile": "locale/{{Language}}/dialogue/engagementdialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/engagementdialogue.json": true}
+		},
+		
+		{ // MARRIAGE DIALOGUE
+			"LogName": "Jade - Marriage Dialogue Fallback",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueJade",
+			"FromFile": "locale/en/dialogue/marriagedialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/marriagedialogue.json": false}
+		},
+		{
+			"LogName": "Jade - Marriage Dialogue Edit",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueJade",
+			"FromFile": "locale/{{Language}}/dialogue/marriagedialogue.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/marriagedialogue.json": true}
+		},
+		{ // MARRIAGE FIX
+			"LogName": "Jade - Marriage Fix Fallback",
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"FromFile": "locale/en/dialogue/stringsfromcsfiles.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/stringsfromcsfiles.json": false,
+				"Relationship:Jade": "Engaged, Married"
+			}
+		},
+		{
+			"LogName": "Jade - Marriage Fix Edit",
+			"Action": "EditData",
+			"Target": "strings/StringsFromCSFiles",
+			"FromFile": "locale/{{Language}}/dialogue/stringsfromcsfiles.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/stringsfromcsfiles.json": true,
+				"Relationship:Jade": "Engaged, Married"
+			}
+		},
+		{ // MAP STRINGS
+			"LogName": "Jade - Map Strings Fallback",
+			"Action": "EditData",
+			"Target": "strings/StringsFromMaps",
+			"FromFile": "locale/en/dialogue/stringsfrommaps.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/stringsfrommaps.json": false}
+		},
+		{
+			"LogName": "Jade - Map Strings Edit",
+			"Action": "EditData",
+			"Target": "strings/StringsFromMaps",
+			"FromFile": "locale/{{Language}}/dialogue/stringsfrommaps.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/stringsfrommaps.json": true
+			}
+		},
+		{ // SPRING13 FEST
+			"LogName": "Jade - Spring13 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"FromFile": "locale/en/dialogue/festivals/spring13.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/spring13.json": false}
+		},
+		{
+			"LogName": "Jade - Spring13 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/spring13.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/spring13.json": true}
+		},
+		{ // SPRING24 FEST
+			"LogName": "Jade - Spring24 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"FromFile": "locale/en/dialogue/festivals/spring24.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/spring24.json": false}
+		},
+		{
+			"LogName": "Jade - Spring24 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/spring24.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/spring24.json": true}
+		},
+		{ // SUMMER11 FEST
+			"LogName": "Jade - Summer11 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"FromFile": "locale/en/dialogue/festivals/summer11.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/summer11.json": false}
+		},
+		{
+			"LogName": "Jade - Summer11 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/summer11.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/summer11.json": true}
+		},
+		{ // SUMMER28 FEST
+			"LogName": "Jade - Summer28 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"FromFile": "locale/en/dialogue/festivals/summer28.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/summer28.json": false}
+		},
+		{
+			"LogName": "Jade - Summer28 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/summer28.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/summer28.json": true}
+		},
+		{ // FALL16 FEST
+			"LogName": "Jade - Fall16 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"FromFile": "locale/en/dialogue/festivals/fall16.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/fall16.json": false}
+		},
+		{
+			"LogName": "Jade - Fall16 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/fall16.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/fall16.json": true}
+		},
+		{ // FALL27 FEST
+			"LogName": "Jade - Fall27 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"FromFile": "locale/en/dialogue/festivals/fall27.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/fall27.json": false}
+		},
+		{
+			"LogName": "Jade - Fall27 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/fall27.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/fall27.json": true}
+		},
+		{ // WINTER8 FEST
+			"LogName": "Jade - Winter8 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"FromFile": "locale/en/dialogue/festivals/winter8.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/winter8.json": false}
+		},
+		{
+			"LogName": "Jade - Winter8 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/winter8.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/winter8.json": true}
+		},
+		{
+			"LogName": "Jade - Winter8 Spouse Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"FromFile": "locale/en/dialogue/festivals/winter8spouse.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/festivals/winter8spouse.json": false,
+				"Spouse:Jade": true
+			}
+		},
+		{
+			"LogName": "Jade - Winter8 Spouse Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/winter8spouse.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/festivals/winter8spouse.json": true,
+				"Spouse:Jade": true
+			}
+		},
+		{ // WINTER25 FEST
+			"LogName": "Jade - Winter25 Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"FromFile": "locale/en/dialogue/festivals/winter25.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/winter25.json": false}
+		},
+		{
+			"LogName": "Jade - Winter25 Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/winter25.json",
+			"When": {"HasFile: locale/{{Language}}/dialogue/festivals/winter25.json": true}
+		},
+		{
+			"LogName": "Jade - Winter25 Spouse Fallback",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"FromFile": "locale/en/dialogue/festivals/winter25spouse.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/festivals/winter25spouse.json": false,
+				"Spouse:Jade": true
+			}
+		},
+		{
+			"LogName": "Jade - Winter25 Spouse Edit",
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"FromFile": "locale/{{Language}}/dialogue/festivals/winter25spouse.json",
+			"When": {
+				"HasFile: locale/{{Language}}/dialogue/festivals/winter25spouse.json": true,
+				"Spouse:Jade": true
+			}
+		},
+		
+		{ // 2 HEART EVENT vanilla+sve
+			"LogName": "Jade - 2heart Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/en/events/2heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/2heart.json": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":false
+			}
+		},
+		{
+			"LogName": "Jade - 2heart Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/{{Language}}/events/2heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/2heart.json": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":false
+			}
+		},
+		{
+			"LogName": "Jade - 2heart SVE Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/en/events/mods/sve-2heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/mods/sve-2heart.json": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":true
+			}
+		},
+		{
+			"LogName": "Jade - 2heart SVE Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/{{Language}}/events/mods/sve-2heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/mods/sve-2heart.json": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":true
+			}
+		},
+	
+		{ // 4 HEART EVENT vanilla+sve
+			"LogName": "Jade - 4heart Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/en/events/4heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/4heart.json": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":false
+			}
+		},
+		{
+			"LogName": "Jade - 4heart Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/{{Language}}/events/4heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/4heart.json": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":false
+			}
+		},
+		{
+			"LogName": "Jade - 4heart SVE Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/en/events/mods/sve-4heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/mods/sve-4heart.json": false,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":true
+			}
+		},
+		{
+			"LogName": "Jade - 4heart SVE Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/{{Language}}/events/mods/sve-4heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/mods/sve-4heart.json": true,
+				"HasMod:FlashShifter.StardewValleyExpandedALL":true
+			}
+		},
+	
+		{ // 6 HEART EVENT vanilla
+			"LogName": "Jade - 6heart Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"FromFile": "locale/en/events/6heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/6heart.json": false
+			}
+		},
+		{
+			"LogName": "Jade - 6heart Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"FromFile": "locale/{{Language}}/events/6heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/6heart.json": true
+			}
+		},
+	
+		{ // 8 HEART EVENT vanilla
+			"LogName": "Jade - 8heart Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/en/events/8heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/8heart.json": false
+			}
+		},
+		{
+			"LogName": "Jade - 8heart Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "locale/{{Language}}/events/8heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/8heart.json": true
+			}
+		},
+		
+		{ // 10 HEART EVENT vanilla
+			"LogName": "Jade - 10heart Fallback",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "locale/en/events/10heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/10heart.json": false
+			}
+		},
+		{
+			"LogName": "Jade - 10heart Edit",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "locale/{{Language}}/events/10heart.json",
+			"When": {
+				"HasFile: locale/{{Language}}/events/10heart.json": true
+			}
+		},
+	]
+}

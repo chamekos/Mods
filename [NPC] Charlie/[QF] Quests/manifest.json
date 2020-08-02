@@ -1,0 +1,13 @@
+{
+  "Name": "Museum expansion quests",
+  "Author": "andril11",
+  "Version": "1.0.0",
+  "Description": "Adds the related questd.",
+  "UniqueID": "andril11.museumexp",
+  "MinimumApiVersion": "3.6.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PurrplingCat.QuestFramework",
+    "MinimumVersion": "1.0.0"
+  }
+}

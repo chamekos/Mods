@@ -1,0 +1,11 @@
+{
+  "Name": "Shen's Walls n Floors for CWF",
+  "Author": "VigilantTortoise",
+  "Version": "1.0.0",
+  "Description": "Some new walls and floors, converted for Custom Walls and Floors",
+  "UniqueID": "VigilantTortoise.CWF.ShenWnF",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+  }
+}

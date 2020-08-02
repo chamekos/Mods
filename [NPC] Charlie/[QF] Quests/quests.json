@@ -1,0 +1,50 @@
+{
+    "Format": "1.0",
+    "Quests": [{
+            "Name": "randy_coffee",
+            "Type": "ItemDelivery",
+            "Title": "Coffee for a slime?",
+            "Description": "Randy wants some coffee. Do not tell Charlie. Just deliver it.",
+            "Objective": "Bring coffee to Randy",
+            "DaysLeft": 4,
+            "Reward": 100,
+            "Cancelable": false,
+            "Trigger": "Randy 395",
+            "ReactionText": "Thank you @! I love coffee!$h",
+        }, {
+            "Name": "quartz_charlie",
+            "Type": "ItemDelivery",
+            "Title": "Just some Quartz",
+            "Description": "Charlie wants some quartz to make a toy for Randy.",
+            "Objective": "Bring 4 quartz pieces for Charlie",
+            "Reward": 150,
+            "Cancelable": true,
+            "Trigger": "Charlie 80 4",
+            "ReactionText": "Oh thank you @!#$b# This will make a good toy for Randy!$h#$b# He like shinny things, I'll clean this up a little.#$b# Thanks!$h",
+        },
+    ],
+    "Offers": [{
+            "QuestName": "randy_coffee",
+            "OfferedBy": "Mail",
+            "OfferDetails": {
+                "Topic": "Morning Energy",
+                "Text": "Hi @!^I want some coffee, but Charlie don't let me drink it, but I like it so much!^So could you bring some to me? ^		-Randy"
+            },
+            "When": {
+                "EventSeen": "47360003",
+                "QuestNeverAccepted": "yes",
+            },
+        },
+        {
+        "QuestName": "quartz_charlie",
+        "OfferedBy": "Bulletinboard",
+        "When": {
+            "EventSeen": "47360003",
+            "Season": "winter | spring",
+            "QuestNeverAccepted": "yes",
+            "FriendshipLevel": "Randy 2",
+        },
+    },
+
+    ],
+    }

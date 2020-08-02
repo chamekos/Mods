@@ -1,7 +1,8 @@
 {
     "Name": "Purple Diamond",
     "Description": "Very rare purple diamond.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 750,
     "IsColored": false,

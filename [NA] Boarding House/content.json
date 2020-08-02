@@ -1,89 +1,75 @@
 {
-  "Format": "1.2",
+  "Format": "1.3",
+  "AllowUnsafePatches": true,
   "Changes": [
     {
-      "Action": "Edit",
       "Target": "Data/CompanionDispositions",
       "FromFile": "assets/Data/CompanionDispositions.json"
     },
     {
-	  "Action": "Load",
 	  "Target": "Strings/Mail",
 	  "FromFile": "assets/Strings/Mail.json"
 	},
 	{
-      "Action": "Load",
-      "Target": "Dialogue/Sheila",
+	  "Target": "Dialogue/Sheila",
       "FromFile": "assets/Dialogue/Sheila.json"
     },
     {
-      "Action": "Load",
-      "Target": "Dialogue/Gregory",
+	  "Target": "Dialogue/Gregory",
       "FromFile": "assets/Dialogue/Gregory.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/Buffs",
       "FromFile": "assets/Data/Buffs.json"
     },
     {
-      "Action": "Edit",
-      "Target": "Strings/Buffs",
+	  "Target": "Strings/Buffs",
       "FromFile": "assets/Strings/Buffs.pt-BR.json",
       "Locale": "pt-BR",
 	  "LogName": "Buffs portuguese"
 	},
 	{
-      "Action": "Edit",
-      "Target": "Strings/SpeechBubbles",
+	  "Target": "Strings/SpeechBubbles",
       "FromFile": "assets/Strings/SpeechBubbles.json"
     },
 	{
-      "Action": "Edit",
-      "Target": "Strings/SpeechBubbles",
+	  "Target": "Strings/SpeechBubbles",
       "FromFile": "assets/Strings/SpeechBubbles.json",
       "Locale": "pt-BR",
 	  "LogName": "SpeechBubbles portuguese"
 	},
 	{
-      "Action": "Edit",
-      "Target": "Dialogue/Sheila",
+	  "Target": "Dialogue/Sheila",
       "FromFile": "assets/Dialogue/Sheila.pt-BR.json",
       "Locale": "pt-BR",
       "LogName": "Portuguese translation Sheila dialogue"
     },
 	{
-      "Action": "Edit",
-      "Target": "Dialogue/Gregory",
+	  "Target": "Dialogue/Gregory",
       "FromFile": "assets/Dialogue/Gregory.pt-BR.json",
       "Locale": "pt-BR",
       "LogName": "Portuguese translation Gregory dialogue"
     },
 	{
-	  "Action": "Edit",
 	  "Target": "Strings/Mail",
 	  "FromFile": "assets/Strings/Mail.pt-BR.json",
 	  "Locale": "pt-BR",
 	  "LogName": "Mail locale"
 	},
 	{
-      "Action": "Edit",
       "Target": "Data/AnimationDescriptions",
       "FromFile": "assets/Data/AnimationDescriptions.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/IdleBehaviors",
       "FromFile": "assets/Data/IdleBehaviors.json"
     },
 	{
-      "Action": "Edit",
       "Target": "Data/IdleNPCDefinitions",
       "FromFile": "assets/Data/IdleNPCDefinitions.json"
     },
     {
-      "Action": "Edit",
-      "Target": "Strings/Buffs",
+	  "Target": "Strings/Buffs",
       "FromFile": "assets/Strings/Buffs.json"
     }
   ]

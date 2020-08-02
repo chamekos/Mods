@@ -1,7 +1,8 @@
 {
     "Name": "Rose Quartz",
     "Description": "A pink crystal reminiscent of a rose.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 100,
     "IsColored": false,

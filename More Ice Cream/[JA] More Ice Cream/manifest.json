@@ -1,0 +1,31 @@
+{
+    "Name": "More Ice Cream",
+    "Author": "Liebing",
+    "Description": "Add more ice cream recipes",
+    "Version": "1.0.0",
+    "UniqueID": "Liebing.MoreIceCreamJA",
+    "MinimumApiVersion": "3.2.0",
+    "ContentPackFor":{
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": [],
+    "Dependencies": [
+    {
+        "UniqueID": "ppja.fruitsandveggies",
+        "IsRequired": true,
+    },
+    {
+        "UniqueID": "ppja.moretrees",
+        "IsRequired": true,
+    },
+    {	"UniqueID": "ppja.artisanvalleymachinegoods",
+    	"IsRequired": true,
+    },
+    {	"UniqueID": "ppja.evenmorerecipes",
+    	"IsRequired": true,
+    },		
+     {  "UniqueID": "KAYA.KoreaBlossom",
+        "IsRequired": true,
+    }
+]
+}    

@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="4" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="3">
- <properties>
-  <property name="AmbientLight" value="120 65 120"/>
-  <property name="Fall_Objects" value="281 .5 404 .6 420 .2"/>
-  <property name="Holly" value="283 .9"/>
-  <property name="Light" value="8 8 6 9 8 6 8 10 6 9 10 6 22 15 6 11 14 6 11 23 6 27 8 6 47 7 6 6 19 5 17 19 6 39 15 6 53 15 6 6 26 6 16 25 6 43 11 6 35 27 6 49 27 6 11 19 6 12 26 6 13 11 6 5 9 6 12 6 6 6 14 6 19 2 6 0 10 6 27 22 6 41 27 6 24 30 6 38 5 6 56 8 6 56 19 6 54 30 6"/>
-  <property name="Outdoors" value="T"/>
-  <property name="Spring_Objects" value="257 .5 404 .25"/>
-  <property name="Stumps" value="17 9 3 22 8 3 26 7 3 31 8 3 44 7 3 48 8 3 20 18 3 26 16 3 36 16 3 40 14 3 50 16 3 33 26 3 38 26 3 43 26 3 48 26 3"/>
-  <property name="Summer_Objects" value="258 .9 420 .25"/>
-  <property name="Warp" value="60 15 Forest 0 7 60 16 Forest 0 7 86 30 Forest 26 1"/>
- </properties>
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
   <image source="paths.png" width="64" height="128"/>
  </tileset>
@@ -1322,8 +1311,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2008" name="extras" tilewidth="16" tileheight="16" tilecount="7" columns="0">
-  <image source="spring_daisyextras.png"/>
+ <tileset firstgid="2008" name="extras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source="spring_daisyextras.png" width="480" height="960"/>
   <tile id="4">
    <properties>
     <property name="Passable" value="T"/>
@@ -1364,7 +1353,7 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2329" name="town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="3808" name="town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
   <tile id="641">
    <properties>

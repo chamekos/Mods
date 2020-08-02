@@ -1625,6 +1625,17 @@
       ],
       "MinimumDaysUtillBirth": null,
       "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Fire Fairy",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
     }
   ]
 }

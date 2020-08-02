@@ -1,7 +1,7 @@
 {
   "Name": "Parrots",
   "Author": "Filipe Mazzon Ribeiro",
-  "Version": "1.0.1",
+  "Version": "1.1.0",
   "Description": "Add a parrots as a new entry to Data/FarmAnimals",
   "UniqueID": "mazzon.parrots",
   "MinimumApiVersion": "3.5",

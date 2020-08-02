@@ -1,7 +1,8 @@
 {
     "Name": "Lavender Jade",
     "Description": "A rare jade with a lavender-like purple color.",
-    "Category": "Gem",
+    "Category": "-15",
+	"CategoryTextOverride": "Gem",
     "Edibility": -300,
     "Price": 250,
     "IsColored": false,

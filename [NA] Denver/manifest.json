@@ -1,14 +1,14 @@
 {
-  "Name": "Denver for Npc adventures",
-  "Author": "andril11",
-  "Version": "1.0.0",
+  "Name": "Denver for NPC Adventures",
+  "Author": "andril11 & ExnoticE",
+  "Version": "1.1.0",
   "Description": "Adds Denver as a full companion.",
   "UniqueID": "andril11.denvernpcadventures",
   "MinimumApiVersion": "3.1.0",
   "UpdateKeys": [ "Nexus:5268" ],
   "ContentPackFor": {
     "UniqueID": "purrplingcat.npcadventure",
-    "MinimumVersion": "0.10.0"
+    "MinimumVersion": "0.13.0"
   },
   "Dependencies": [
     {

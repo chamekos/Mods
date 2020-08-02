@@ -1,8 +1,8 @@
 {
     "Name": "Black Pearl",
     "Description": "A rare treasure from the sea.",
-    "Category": "Gem",
-	"CategoryTextOverride": "jewel",
+    "Category": "-15",
+	"CategoryTextOverride": "Jewel",
     "CategoryColorOverride": "90, 150, 80, 255",
     "Edibility": -300,
     "Price": 2500,
